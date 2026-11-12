@@ -108,10 +108,14 @@ transport/conversion test, not a substitute research snapshot.
 
 ## Dispatcher order
 
-1. Review and push the upstream optional site-hook branch, then integrate it
-   upstream or retain its reviewed commit in the combined template.
-2. Review and push Mathesis layer 0.3.0; push the combined template branch with
-   the hook, the layer and the preexisting compatibility work intact.
+1. Review and push the upstream optional site-hook branch, including its film
+   sandbox root correction, then integrate it upstream or retain its reviewed
+   change in the combined template. The correction changes only the test
+   fixture; production hook behavior is unchanged.
+2. Review and push Mathesis layer 0.3.1; push the combined template branch with
+   the hook, the fixture correction, the layer and the preexisting compatibility
+   work intact. The pinned template includes the guarded post-build bootstrap,
+   so new repositories can run the inherited fixture tests successfully.
 3. Push the Mathesis catalog SDK commit. If the dispatcher squashes or rebases,
    update `publisher.json` to the actual remotely reachable SDK/template SHAs.
 4. Review and push the updated Chen–Chen consumer. Its layer migration configures
