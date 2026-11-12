@@ -1,0 +1,73 @@
+name: Publish Mathesis papers
+
+on:
+  schedule:
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Stage and check only (no App token or GitHub writes)
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mathesis-papers-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: publisher
+        shell: bash
+    steps:
+      - name: Check out publisher controls
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          path: publisher
+          persist-credentials: false
+      - name: Read and validate the Mathesis source pin
+        id: pin
+        run: python3 scripts/pins.py
+      - name: Check out pinned Mathesis
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          repository: ${{ steps.pin.outputs.repository }}
+          ref: ${{ steps.pin.outputs.commit }}
+          path: mathesis
+          persist-credentials: false
+      - name: Test and build mathesis-catalog
+        run: bash scripts/build-catalog.sh "$GITHUB_WORKSPACE/mathesis/sdk/catalog"
+      - name: Test publisher against the local fake GitHub API
+        run: python3 -m unittest discover -s tests
+      - name: Stage snapshot, frozen files, materials, site and paper skeletons
+        run: |
+          set -euo pipefail
+          python3 scripts/publish.py prepare \
+            --catalog-binary "$GITHUB_WORKSPACE/mathesis/sdk/catalog/target/release/mathesis-catalog" \
+            --stage "$RUNNER_TEMP/mathesis-publisher"
+      - name: Mint a short-lived organization App token
+        if: ${{ !inputs.dry_run }}
+        id: app
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        with:
+          app-id: ${{ vars.MATHESIS_APP_ID }}
+          private-key: ${{ secrets.MATHESIS_APP_PRIVATE_KEY }}
+          owner: mathesis-papers
+          # All installation repositories, including newly generated repositories.
+          permission-administration: write
+          permission-contents: write
+          permission-pages: write
+          permission-workflows: write
+          permission-issues: write
+      - name: Publish checked projections and finish incomplete paper setup
+        if: ${{ !inputs.dry_run }}
+        env:
+          PUBLISHER_TOKEN: ${{ steps.app.outputs.token }}
+        run: python3 scripts/publish.py apply --stage "$RUNNER_TEMP/mathesis-publisher"

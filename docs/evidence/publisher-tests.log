@@ -1,0 +1,29 @@
+snapshot: 1 works, 0 directory nodes, 8 listing groups
+Cloning into '/var/folders/jd/5x6vvk8d4yzcmtmp7mjw_9nw0000gn/T/publisher-prepare-integration-fh3wf9uz/stage/template'...
+done.
+HEAD is now at 1e6bbb1 Enforce the site hook capability in paper validation
+Imported chen-chen-step-m-eulerian-parity-positivity version 2: 16 frozen files; created zh/en skeleton, 0 claims pending conversion
+Mathesis check: chen-chen-step-m-eulerian-parity-positivity version 2; 16 generated hashes OK; identity/CFF/book OK; 0 mapped results, 0 pending claims; stage=skeleton
+check: hidden by site.toml [books].hide, not checked: example-monograph, example-primer
+check: 1 book(s), 0 error(s), 0 warning(s)
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 6.210s
+
+OK
+Prepared and checked; no authenticated requests or remote writes.
+chen-chen-step-m-eulerian-parity-positivity: committed 8 paths
+.github: committed 1 paths
+mathesis-papers.github.io: committed 4 paths
+catalog: committed 2 paths
+.github: unchanged
+mathesis-papers.github.io: unchanged
+catalog: unchanged
+chen-chen-step-m-eulerian-parity-positivity: committed 8 paths
+.github: committed 1 paths
+mathesis-papers.github.io: committed 4 paths
+catalog: committed 2 paths
+chen-chen-step-m-eulerian-parity-positivity: committed 7 paths
+.github: committed 1 paths
+mathesis-papers.github.io: committed 4 paths
+catalog: committed 2 paths

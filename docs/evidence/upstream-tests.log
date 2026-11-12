@@ -1,0 +1,61 @@
+...........s.s.......ss....s................../opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 403: 'Forbidden'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+./opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'Not Found'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+..........................s....film bk/001-golden-deficit: rendering (key 37dbe4329852)
+  cache: films bk/001-golden-deficit is up to date (37dbe4329852)
+.......................................................................................................................................................................................................................................sss..........s....s.............sssssss.ss..s..s.....sss.s.......s..s..........s..s...............................sssssss..s...............s.s..........s........s..s..s....s....s.ss.s....s......s....ss....................................s.........................ssssssssss.......s....ssssssss........ssss  warning: test-book/en: ids of headings with math follow their TeX, not the HTML edition, so links to them may not resolve (KaTeX unavailable: katex-render: the pinned katex package is not installed; run `npm ci` in the repository root)
+  warning: test-book/en/part/a1.md: link to ../nope.md, which is not a chapter of this edition; kept as text
+................  warning: test-book/en: ids of headings with math follow their TeX, not the HTML edition, so links to them may not resolve (KaTeX unavailable: katex-render: the pinned katex package is not installed; run `npm ci` in the repository root)
+  warning: test-book/en/part/a1.md: link to ../nope.md, which is not a chapter of this edition; kept as text
+...sss.ssssssssssssssssssssssss..................sssss......................s..........s.s.....................s.........................ssssssssss........ss................................................................../opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'error'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+......sF.F......./opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'error'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+....../opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 403: 'error'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'error'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+./opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'error'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+../opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'error'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+......../opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'error'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'error'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+....../opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/tempfile.py:538: ResourceWarning: Implicitly cleaning up <HTTPError 404: 'error'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+......................................s.................s..............................sssssssss.......
+======================================================================
+FAIL: test_release_attaches_the_build_cache_and_publishes_a_complete_draft (test_verification.BuildCacheWorkflowTests.test_release_attaches_the_build_cache_and_publishes_a_complete_draft)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lexa/Desktop/lexa/omega/books-template-site-root/tools/tests/test_verification.py", line 1465, in test_release_attaches_the_build_cache_and_publishes_a_complete_draft
+    self.check_publish("release.yml", env, files, "")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lexa/Desktop/lexa/omega/books-template-site-root/tools/tests/test_verification.py", line 1426, in check_publish
+    self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 127 != 0 : /var/folders/jd/5x6vvk8d4yzcmtmp7mjw_9nw0000gn/T/tbook-build-cache-b4ajqrzx/.step.sh: line 7: mapfile: command not found
+
+
+======================================================================
+FAIL: test_template_release_attaches_the_example_site_cache (test_verification.BuildCacheWorkflowTests.test_template_release_attaches_the_example_site_cache)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lexa/Desktop/lexa/omega/books-template-site-root/tools/tests/test_verification.py", line 1490, in test_template_release_attaches_the_example_site_cache
+    self.check_publish("template-release.yml", env, files, " --latest")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lexa/Desktop/lexa/omega/books-template-site-root/tools/tests/test_verification.py", line 1426, in check_publish
+    self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 127 != 0 : /var/folders/jd/5x6vvk8d4yzcmtmp7mjw_9nw0000gn/T/tbook-build-cache-an32joi1/.step.sh: line 8: mapfile: command not found
+
+
+----------------------------------------------------------------------
+Ran 994 tests in 102.329s
+
+FAILED (failures=2, skipped=137)
+toolchain: using the image's verified packages, fonts, browsers and film models
+toolchain: using the image's verified packages, fonts, browsers and film models
