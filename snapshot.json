@@ -1,0 +1,47 @@
+{
+  "api_base": "https://mathesis-omega-research.apps.chrono-ai.fun",
+  "generator_version": "0.1.0",
+  "listings": {
+    "collected-papers": {
+      "pages": 1,
+      "rows": 39
+    },
+    "formalizations/confirmed": {
+      "pages": 1,
+      "rows": 0
+    },
+    "formalizations/disproved": {
+      "pages": 1,
+      "rows": 0
+    },
+    "formalizations/open": {
+      "pages": 1,
+      "rows": 0
+    },
+    "formalizations/preparing": {
+      "pages": 3,
+      "rows": 229
+    },
+    "formalizations/unverified": {
+      "pages": 3,
+      "rows": 229
+    },
+    "formalizations/verified": {
+      "pages": 1,
+      "rows": 0
+    },
+    "papers": {
+      "pages": 1,
+      "rows": 0
+    }
+  },
+  "rows": {
+    "nodes": 229,
+    "works": 39
+  },
+  "schema_versions": {
+    "catalog": "1",
+    "snapshot": "1"
+  },
+  "time": "2026-11-12T11:03:10.522563Z"
+}

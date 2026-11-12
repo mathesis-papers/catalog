@@ -1,0 +1,22 @@
+{
+  "awaiting_target_needs_attention": 7,
+  "by_msc": {
+    "unclassified": {
+      "open_targets": 0,
+      "papers": 39,
+      "registered": 229,
+      "verified": 0
+    }
+  },
+  "independently_verified_statements": 0,
+  "open_formalization_targets": 0,
+  "papers_with_doi": 37,
+  "papers_with_lean_source": 39,
+  "public_papers": 39,
+  "registered_statements": 229,
+  "snapshot_time": "2026-11-12T11:03:10.522563Z",
+  "statements_awaiting_formal_target": 229,
+  "verified_counterexamples_disproofs": 0,
+  "verified_from_existing_library_declarations": 0,
+  "verified_with_new_lean": 0
+}

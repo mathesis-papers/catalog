@@ -1,0 +1,1683 @@
+{
+  "works": [
+    {
+      "abstract_text": "Extending Zhu's Pell-prime result (2011), we refute the conjecture in OEIS A320043, COMMENTS, revision 43 (September 8, 2022; posed December 16, 2018), by a(708158976)=144767444036350576^2. For every prime p, its preceding row has sum p^2(p^2-1)/12; for p>=5, this sum is a square exactly when p^2-12y^2=1 for an integer y. An elementary descent recovers the known Pell sequence and proves that this is the smallest additional square index whose successor is prime. We also reprove the known power-of-two index restriction, give a factor excluding the proposed next candidate in A277434, and prove the triangle's product identity and an all-row divisor formula.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "73ec20a01fc35e0f53bc258c605821728f3c33b6",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/73ec20a01fc35e0f53bc258c605821728f3c33b6/D5/S3/ArithSums/SpeziaA320043SquareValuesRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/a320043-square-values-refutation/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-08T22:00:08.758158608Z",
+      "record": "a320043-square-values-refutation",
+      "repository_name": "a320043-square-values-refutation",
+      "source": {
+        "url": "/api/v1/collected-papers/a320043-square-values-refutation/files/source?version=2"
+      },
+      "title": "OEIS A320043, COMMENTS, revision 43: a square-value refutation extending Zhu's Pell-prime result (2011)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-08T22:00:08.758158608Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "a320043-square-values-refutation"
+    },
+    {
+      "abstract_text": "We answer Section 4, item 3 of Alikhani and Griswold's On the Integer Domination Root Conjecture by constructing connected graphs with domination root −4 and unbounded order. Joining r copies of their 33-vertex graph through vertices adjacent to leaves gives a connected graph on 33r vertices whose domination polynomial is the rth power of the original polynomial. The root −4 has multiplicity exactly r, and the copies can be joined along a path with maximum degree seven. A mixed construction gives examples of every order at least 35, with maximum degree seven and cycle rank four. We give a complete set-bijection proof, an exact finite calculation for the base graph, and the scope of the corresponding Lean declarations.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23919065",
+      "current_version": 1,
+      "doi": "10.5281/zenodo.23919066",
+      "lean_source": {
+        "revision": "a87bdf39e4517497a9773c0c724243bc700c5bb1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a87bdf39e4517497a9773c0c724243bc700c5bb1/D5/S3/Combinatorics/Graph/Domination/MinusFourReassembly.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/alikhani-griswold-2026-connected-minus-four-family/files/pdf?version=1"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:30.723288003Z",
+      "record": "alikhani-griswold-2026-connected-minus-four-family",
+      "repository_name": "alikhani-griswold-2026-connected-minus-four-family",
+      "source": {
+        "url": "/api/v1/collected-papers/alikhani-griswold-2026-connected-minus-four-family/files/source?version=1"
+      },
+      "title": "Alikhani–Griswold, Section 4(3): connected graphs with domination root −4",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:30.723288003Z",
+          "revision": "1",
+          "version": 1
+        }
+      ],
+      "work": "alikhani-griswold-2026-connected-minus-four-family"
+    },
+    {
+      "abstract_text": "We prove Anthony Browne's conjecture in OEIS A164660, final FORMULA (29 May 2016): for every positive integer n, the reduced numerator of the integral from 0 to 1 of T_(n+1)(x) equals the stated floor product and (-1)^(n/rad(n)). Both sides are +1 exactly when 4 divides n. The same calculation proves the preceding rational-integral conjecture and gives its denominator sequence A164661. More generally, replacing the exponent n in the product by any integer r >= 2, and translating its interval by any integer, leaves the product unchanged. We give the exact root count for every r >= 1 and correct two coefficient-table discrepancies in the linked sources.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23884882",
+      "current_version": 1,
+      "doi": "10.5281/zenodo.23884883",
+      "lean_source": {
+        "revision": "122c987d276498783de7d873378a28b27ced8761",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/122c987d276498783de7d873378a28b27ced8761/D5/S3/ArithSums/BrowneA164660ChebyshevFloorProduct.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/b164660-chebfloor/files/pdf?version=1"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:26.208729761Z",
+      "record": "b164660-chebfloor",
+      "repository_name": "b164660-chebfloor",
+      "source": {
+        "url": "/api/v1/collected-papers/b164660-chebfloor/files/source?version=1"
+      },
+      "title": "OEIS A164660, final FORMULA (29 May 2016): Chebyshev numerators and floor products",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:26.208729761Z",
+          "revision": "1",
+          "version": 1
+        }
+      ],
+      "work": "b164660-chebfloor"
+    },
+    {
+      "abstract_text": "Bajnok–Beatty Conjecture 4.1 in arXiv:2406.04045v1, Section 4, p. 10, asks which groups Z/2Z × Z/(2k)Z have a two-element signed spanning set of radius s. The note proves its four-case classification for all positive k,s. A near-square relation-lattice argument gives the necessary congruences, and explicit constructions give sufficiency. Coefficient-residue counts also prove Conjecture 1.6 (Section 1, p. 3): for s≥3, the maximum noncyclic order is 2s² if 2s+1 is prime, and 2s²+2s−(p²−1)/2 otherwise, where p is the smallest prime divisor of 2s+1. The attaining constructions are those of Bajnok and Beatty. The bounds in Theorems 1.8, 3.2 and 3.3 hold without regularity. For Conjecture 1.10 the note proves cyclicity for two generators and corrects the printed multiplier domain by an explicit perfect set in Z/13Z.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23931730",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23931731",
+      "lean_source": {
+        "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/BajnokBeattyAllRegimes.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/bajnok-beatty-original-conjecture-4-1/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:38.474016061Z",
+      "record": "bajnok-beatty-original-conjecture-4-1",
+      "repository_name": "bajnok-beatty-original-conjecture-4-1",
+      "source": {
+        "url": "/api/v1/collected-papers/bajnok-beatty-original-conjecture-4-1/files/source?version=2"
+      },
+      "title": "Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:38.474016061Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "bajnok-beatty-original-conjecture-4-1"
+    },
+    {
+      "abstract_text": "Extending Bala's divisibility results (Bala, 2026), we prove his conjecture in OEIS A295462, References (%D), record #19; contribution dated 23 August 2026: the integer a(n)=(15n)!(2n)!/((10n)!(6n)!n!) is odd exactly when consecutive one-bits of n have at least three zero-bits between them. A nonnegative floor function expresses its prime valuations. We reprove Bala's two divisibilities (Bala, 2026) and deduce product divisibility by (6n+1)(10n+1), preservation of the parity criterion, and counting and ordered recursions. We give written alternative proofs of the eleven XOR identities in A048718, verified by Karlsson (2022) with Walnut. For T(n)=(12n)!n!/((6n)!(4n)!(3n)!), we prove the five fixed divisibilities and both product families posed in A295431 on 28 August 2025, with C(k,R)=36(R-1)!lcm(1,...,12R) for k=1,2,3 and D(R)=(R-1)!lcm(1,...,R).",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23971278",
+      "current_version": 4,
+      "doi": "10.5281/zenodo.23971279",
+      "lean_source": {
+        "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Arith/FactorialRatio/BalaA295462Parity.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/bala295462/files/pdf?version=4"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T06:59:56.487474879Z",
+      "record": "bala295462",
+      "repository_name": "bala295462",
+      "source": {
+        "url": "/api/v1/collected-papers/bala295462/files/source?version=4"
+      },
+      "title": "Parity and product extensions of Bala's divisibilities (2026): OEIS A295462, References (record #19; contribution dated 23 August 2026)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T06:59:56.487474879Z",
+          "revision": "4",
+          "version": 4
+        }
+      ],
+      "work": "bala295462"
+    },
+    {
+      "abstract_text": "We refute the mixed-state inverse sumset estimate expected in Remark 45, equation (58), of Bu, Gu and Jaffe, Quantum Ruzsa Divergence to Quantify Magic (arXiv:2401.14385v3). A computationally diagonal equal mixture of two basis states in dimension seven has quantum-doubling constant sqrt(2) and relative entropy log(7/2) from its mean state, while the proposed bound is at most (1/2)log(7). The contradiction uses exact inequalities and persists for every tensor power. For the same family, we verify that the weaker estimate (59) has a positive denominator and holds strictly, and give the equality case of the companion entropy-growth statement for computationally diagonal states.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23885950",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23885951",
+      "lean_source": {
+        "revision": "57b811cedb64c8065c6afac0da57d0fe2c8aa5ab",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/57b811cedb64c8065c6afac0da57d0fe2c8aa5ab/D5/S3/Quantum/Magic/MixedStateInverseSumsetRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/bu-gu-jaffe-2025-mixed-state-inverse-sumset/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:25.197825222Z",
+      "record": "bu-gu-jaffe-2025-mixed-state-inverse-sumset",
+      "repository_name": "bu-gu-jaffe-2025-mixed-state-inverse-sumset",
+      "source": {
+        "url": "/api/v1/collected-papers/bu-gu-jaffe-2025-mixed-state-inverse-sumset/files/source?version=2"
+      },
+      "title": "A counterexample to Bu--Gu--Jaffe's expected mixed-state inverse sumset estimate",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:25.197825222Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "bu-gu-jaffe-2025-mixed-state-inverse-sumset"
+    },
+    {
+      "abstract_text": "We prove Conjecture 2 on page 1 of Chen and Chen's January 2026 executive summary and the parity-positivity conjectures in OEIS A392664–A392666, COMMENTS: every positive even row is strictly positive for real m <= -3. We also prove the odd-row alternating-sum nonvanishing assertions at m = -4 and -5. The largest root modulus satisfies M_n(-3) ~ 5^(n/2)/sqrt(45), correcting the stated exponent log(2) to log(5)/2 and the proposed scaling constant 1/3. The constants 1/6 and 1/10 at steps -4 and -5 are proved. Companion identities, the integer-step sign classification and boundary cases have written proofs.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23957559",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23957560",
+      "lean_source": {
+        "revision": "66a0495cbdf1bb9b42d715c1b3cd3365862896fa",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/66a0495cbdf1bb9b42d715c1b3cd3365862896fa/D5/S1/Recurrence/Algebraic/ChenChenParityPositivity.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/chen-chen-step-m-eulerian-parity-positivity/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:42.970053504Z",
+      "record": "chen-chen-step-m-eulerian-parity-positivity",
+      "repository_name": "chen-chen-step-m-eulerian-parity-positivity",
+      "source": {
+        "url": "/api/v1/collected-papers/chen-chen-step-m-eulerian-parity-positivity/files/source?version=2"
+      },
+      "title": "Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:42.970053504Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "chen-chen-step-m-eulerian-parity-positivity"
+    },
+    {
+      "abstract_text": "We prove the conjecture in §2.9 of Lester, Haddadin and Gripaios, Lorentz and permutation invariants of particles III (arXiv:2008.05206v6), that their three-variable sets S and S-hat are minimal for their respective four-particle event classes. Any two continuous, Lorentz- and pair-permutation-invariant, parity-odd real variables vanish together on a chiral collision event. The proof constructs a sphere consisting entirely of chiral events, on which parity acts antipodally up to the allowed symmetries, and applies the two-dimensional Borsuk-Ulam theorem. The same obstruction holds for strictly timelike, momentum-completable collisions with any number of additional interchangeable momenta, and for fully interchangeable collections of at least four momenta.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23934999",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23935000",
+      "lean_source": {
+        "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Geometry/Lorentz/ChiralEventParityMinimality.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/chiral-event-parity-minimality/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:39.983976858Z",
+      "record": "chiral-event-parity-minimality",
+      "repository_name": "chiral-event-parity-minimality",
+      "source": {
+        "url": "/api/v1/collected-papers/chiral-event-parity-minimality/files/source?version=2"
+      },
+      "title": "The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:39.983976858Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "chiral-event-parity-minimality"
+    },
+    {
+      "abstract_text": "We refute the closest-fully-separable-state shape conjecture of Consiglio, Apollaro and Wieśniak, arXiv:2209.01430v2, Appendix A, Eq. (A11), already for three qubits on the low branch at gamma = 11/112. Every fully separable state of the proposed shape has squared Hilbert–Schmidt distance at least 109/23520, whereas an explicit mixture of ten pure product states has distance 417965512477/90316800000000. The counterexample and exact restricted minimum have self-contained written proofs, as do related counterexamples to the full-separability and concurrence comparisons in the posing source. An elementary bound also establishes its large-qubit limit without the conjectured shape.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23904463",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23904464",
+      "lean_source": {
+        "revision": "83b70a1d0d6a58bb32521c741805d845d401c5f8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/83b70a1d0d6a58bb32521c741805d845d401c5f8/D5/S3/Quantum/Entanglement/GeometricMeasure/XMemsClosestSeparableShapeRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/consiglio-apollaro-wiesniak-2022-xmems-css-shape/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:33.467197845Z",
+      "record": "consiglio-apollaro-wiesniak-2022-xmems-css-shape",
+      "repository_name": "consiglio-apollaro-wiesniak-2022-xmems-css-shape",
+      "source": {
+        "url": "/api/v1/collected-papers/consiglio-apollaro-wiesniak-2022-xmems-css-shape/files/source?version=2"
+      },
+      "title": "Refuting the X-MEMS closest-separable-state conjecture in arXiv:2209.01430v2, Appendix A, Eq. (A11)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:33.467197845Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "consiglio-apollaro-wiesniak-2022-xmems-css-shape"
+    },
+    {
+      "abstract_text": "We refute the trace-distance case of axiom (T4) of Denis, Lacaille, Martin and Serrano-Ensástiga (arXiv:2605.29436v1, Section III.A.2, Eq. (22) with p=1; (T4) in Section II.B, Eqs. (7)–(8)), where “a proof is left open.” An explicit SU(2)-covariant channel decreases the order-seven anticoherence of a mixed spin-four state by exactly 95/90552, disproving the universal validity suggested by their reported numerical evidence. The channel is a normalized sum of quadrupole Kraus operations; its covariance and trace preservation follow from Cartesian tensor identities. Both reduced states are diagonal, so the strict inequality reduces to rational arithmetic. We reconstruct an existing spin-four witness and give a self-contained exact counterexample within the full mixed-state domain of the proposed axiom.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23884884",
+      "current_version": 4,
+      "doi": "10.5281/zenodo.23884885",
+      "lean_source": {
+        "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S3/Quantum/Measurement/AnticoherenceTraceDistanceRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance/files/pdf?version=4"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:22.756623726Z",
+      "record": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance",
+      "repository_name": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance",
+      "source": {
+        "url": "/api/v1/collected-papers/denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance/files/source?version=4"
+      },
+      "title": "Refuting the trace-distance case of axiom (T4) of Denis, Lacaille, Martin and Serrano-Ensástiga",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:22.756623726Z",
+          "revision": "4",
+          "version": 4
+        }
+      ],
+      "work": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance"
+    },
+    {
+      "abstract_text": "Conjecture 25 and the question in Remark 6 of Garrappa, Gerhold, Popolizio and Simon, arXiv:2410.11852v4, both have negative answers. For every 1<alpha<2, the proposed Mittag–Leffler modulus lower bound fails at beta=alpha-1, and at one fixed nonreal point it continues to fail on a closed interval [alpha-1,alpha-1+epsilon] with epsilon>0. A Hankel-contour expansion gives this family, while an exact rational certificate supplies the explicit instance (alpha,beta,z)=(3/2,1/2,-115+10i). The Kummer question has the elementary witness M(1/2,-3/2,z)=exp(z)(1-4z/3+4z^2/3).",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23920556",
+      "current_version": 1,
+      "doi": "10.5281/zenodo.23920557",
+      "lean_source": {
+        "revision": "31e6846798fc7b0349538fb9792b6d53d3f60566",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/31e6846798fc7b0349538fb9792b6d53d3f60566/D5/S3/Analytic/Asymptotics/MittagLefflerModulusRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/ggps2025/files/pdf?version=1"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:35.722872879Z",
+      "record": "ggps2025",
+      "repository_name": "ggps2025",
+      "source": {
+        "url": "/api/v1/collected-papers/ggps2025/files/source?version=1"
+      },
+      "title": "Counterexamples to Conjecture 25 and Remark 6 of Garrappa–Gerhold–Popolizio–Simon: Global modulus lower bounds in arXiv:2410.11852v4",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:35.722872879Z",
+          "revision": "1",
+          "version": 1
+        }
+      ],
+      "work": "ggps2025"
+    },
+    {
+      "abstract_text": "We prove the Conjectures of Colin Barker in the FORMULA section of OEIS A209723, dated July 12, 2018: the parity formulas and ordinary generating function for ternary arrays with distinct clockwise edge differences. We also prove Hardin's empirical recurrence. A decomposition of the row-compatibility graph into two three-vertex stars and isolated edges gives a formula for every rectangular size. Its corollaries include the companion formulas in A209721–A209726, Beck's first A209721 conjecture, Peterson's A209721 recurrence and triangle interpretation, and the column recurrences and diagonal identification in A209727.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23903300",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23903301",
+      "lean_source": {
+        "revision": "cdafeab0d44da2b6840cfc802535d2f94a146fad",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/cdafeab0d44da2b6840cfc802535d2f94a146fad/D5/S3/Combinatorics/Graph/Pressure/HardinBarkerA209723EdgeDifferences.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/hardin-barker-a209723-edge-differences/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:28.215542654Z",
+      "record": "hardin-barker-a209723-edge-differences",
+      "repository_name": "hardin-barker-a209723-edge-differences",
+      "source": {
+        "url": "/api/v1/collected-papers/hardin-barker-a209723-edge-differences/files/source?version=2"
+      },
+      "title": "OEIS A209723: Barker's conjectures on distinct clockwise edge differences",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:28.215542654Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hardin-barker-a209723-edge-differences"
+    },
+    {
+      "abstract_text": "We refute the line-subgeometry conjecture in Section 4.4, p. 20 of Saniga et al., Hexagons govern three-qubit contextuality, arXiv:2312.07738v3 (Quantum 9 (2025), 1601). The 75-line geometry contained in any three-qubit perp hyperplane has contextuality degree 12 but meets every classically embedded split Cayley hexagon in 15 lines. A 19-line configuration has degree 1 and intersection at least 3. Linear sections and signed Clifford transport prove that every perp in n >= 2 qubits has four times the degree of the full (n-1)-qubit line geometry; every four-qubit perp consequently has degree 252.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23904467",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23904468",
+      "lean_source": {
+        "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Quantum/Contextuality/PerpHyperplaneHexagonContextualityRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/hexagon-perp-line-counterexamples/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:31.974787703Z",
+      "record": "hexagon-perp-line-counterexamples",
+      "repository_name": "hexagon-perp-line-counterexamples",
+      "source": {
+        "url": "/api/v1/collected-papers/hexagon-perp-line-counterexamples/files/source?version=2"
+      },
+      "title": "A degree-12 counterexample to Saniga et al.'s Section 4.4 line-subgeometry conjecture",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:31.974787703Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hexagon-perp-line-counterexamples"
+    },
+    {
+      "abstract_text": "Combined with the upper bound of Huang, Kosugi, Nishi and Matsushita [J. Phys. Soc. Jpn. 93, 054002 (2024); arXiv:2310.06676v2], this resolves their Section 6 conjecture that 2^(2n-1)+2n-2 CNOTs are optimal in the worst case for exact ancilla-free CNOT/R_z synthesis of reflection-symmetric diagonal unitaries on 2n qubits. The explicit hard instance has phase pi/2 at the all-zero and all-one strings. Multiplicative characters force every nonzero even parity; birth-span dimension and return conservation give the linear term. The same substitution gives the unrestricted 2dn-wire count, but not depth optimality or radial-potential optimality.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23885960",
+      "current_version": 4,
+      "doi": "10.5281/zenodo.23885961",
+      "lean_source": {
+        "revision": "02c695f8c17e35965f80603427074b1dd434eed9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/02c695f8c17e35965f80603427074b1dd434eed9/D5/S3/Quantum/Magic/ReflectionDiagonalCNOTLowerBound.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound/files/pdf?version=4"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:27.229387153Z",
+      "record": "huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound",
+      "repository_name": "huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound",
+      "source": {
+        "url": "/api/v1/collected-papers/huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound/files/source?version=4"
+      },
+      "title": "Reflection-symmetric diagonal synthesis: resolving a conjecture of Huang, Kosugi, Nishi and Matsushita",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:27.229387153Z",
+          "revision": "4",
+          "version": 4
+        }
+      ],
+      "work": "huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound"
+    },
+    {
+      "abstract_text": "Conjectures 3 and 4 in Section 5.2 of Huang, Stoica, Xia and Zhong, arXiv:2006.06716v1, printed page 32, are refuted by positive nonconstant solutions of their tree equations of motion. For every integer q >= 2, r > 0 with r != 1 and t > 0, spine lengths ((r^2+1)/(r+1)) t r^n and constant-length branches t r^n give a solution. Every branch vertex has equal incident lengths. More generally, a positive solution on any connected nontrivial tree of maximum degree at most q+1 extends to T_q by attaching constant-length branches without changing its original vertex ratios. The source's line classification yields arbitrary two-choice spine patterns in all q >= 2. The geometric-spine solutions have nonconstant tree curvature.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23935003",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23935004",
+      "lean_source": {
+        "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Geometry/DiscreteGravity/TreeEquationsNonconstantRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/huang-stoica-xia-zhong-2020-tree-equations-nonconstant/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:39.239994882Z",
+      "record": "huang-stoica-xia-zhong-2020-tree-equations-nonconstant",
+      "repository_name": "huang-stoica-xia-zhong-2020-tree-equations-nonconstant",
+      "source": {
+        "url": "/api/v1/collected-papers/huang-stoica-xia-zhong-2020-tree-equations-nonconstant/files/source?version=2"
+      },
+      "title": "Counterexamples to Conjectures 3 and 4 of Huang, Stoica, Xia and Zhong (arXiv:2006.06716v1, Section 5.2, printed page 32)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:39.239994882Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "huang-stoica-xia-zhong-2020-tree-equations-nonconstant"
+    },
+    {
+      "abstract_text": "The all-length earliest-swapping conjecture in Section IV D 1, Eq. (41), of Kamin, Shchukin, Schmidt and van Loock (2023) states that repeatedly merging an adjacent pair with smallest maximum ready time minimizes total dephasing. We give a self-contained potential proof for arbitrary nonnegative real ready times and every tie choice. The optimum is the largest ready time plus the sum of adjacent maxima minus the sum of ready times. An exact nonnegative slack formula characterizes all optimal histories. The pathwise inequality also answers the exponential-dephasing question in Section IV D 5, for the same fixed-readiness swapping model: earliest swapping simultaneously minimizes expected dephasing and maximizes every expected exponential attenuation factor.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23904475",
+      "current_version": 1,
+      "doi": "10.5281/zenodo.23904476",
+      "lean_source": {
+        "revision": "83b70a1d0d6a58bb32521c741805d845d401c5f8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/83b70a1d0d6a58bb32521c741805d845d401c5f8/D5/S3/Quantum/Optimization/SwapEarliestDephasingOptimality.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing/files/pdf?version=1"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:34.199207332Z",
+      "record": "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing",
+      "repository_name": "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing",
+      "source": {
+        "url": "/api/v1/collected-papers/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing/files/source?version=1"
+      },
+      "title": "Earliest swapping for every chain length: Kamin et al. (2023), Section IV D 1, Eq. (41)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:34.199207332Z",
+          "revision": "1",
+          "version": 1
+        }
+      ],
+      "work": "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing"
+    },
+    {
+      "abstract_text": "We answer Kang–Jäger's Question 1.10 (arXiv:2609.01140v1) negatively, including its strictly ergodic and Toeplitz versions. We construct one aperiodic regular Toeplitz subshift over the binary alphabet such that, for every permutative block code of every length ell >= 2, the entire inverse image is conjugate over the base to the product with the identity on 2^(ell-1) points. Each lift therefore has exactly 2^(ell-1) clopen strictly ergodic components. The construction uses recognizable equal-length words with factorial repetition counts: these annihilate every finite permutation action, while the proportion of columns on which the two words differ is exactly 3^(-n).",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23885964",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23885965",
+      "lean_source": {
+        "revision": "fd1633144086085a16f35c8171e2f4b6186a6fbb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/fd1633144086085a16f35c8171e2f4b6186a6fbb/D5/S1/Dynamics/Symbolic/PermutativeLifts/BalancedRegularRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/kang-jager-2026-universal-permutative-lift-refutation/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:23.722594337Z",
+      "record": "kang-jager-2026-universal-permutative-lift-refutation",
+      "repository_name": "kang-jager-2026-universal-permutative-lift-refutation",
+      "source": {
+        "url": "/api/v1/collected-papers/kang-jager-2026-universal-permutative-lift-refutation/files/source?version=2"
+      },
+      "title": "A negative answer to Kang–Jäger's Question 1.10 on permutative lifts",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:23.722594337Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "kang-jager-2026-universal-permutative-lift-refutation"
+    },
+    {
+      "abstract_text": "Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1) of Kaygorodov–Martín González–Viruel has a negative answer in its algebraic-group and group-scheme formulations: no finite-dimensional complex evolution algebra has full automorphism group SL_n for n=3 or n>=5. We prove Conjecture 5 and answer the semisimple clause of Question 36: the possible semisimple derivation algebras are exactly finite sums of so_m, m>=3. For zero-annihilator algebras, the same restriction holds for the semisimple quotient of the derivation algebra, settling the simple-ideal issue in the comment following Conjecture 5. We distinguish simple ideals from special-linear subalgebras. The abstract-group clause of Question 31 remains outside these conclusions.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23957572",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23957573",
+      "lean_source": {
+        "revision": "da4f665789a4b88cdf9eda07a8454fc517979ba5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/AlgebraicGroupRealizationRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/kmvq31-sl3-obstruction/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:41.969557406Z",
+      "record": "kmvq31-sl3-obstruction",
+      "repository_name": "kmvq31-sl3-obstruction",
+      "source": {
+        "url": "/api/v1/collected-papers/kmvq31-sl3-obstruction/files/source?version=2"
+      },
+      "title": "A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:41.969557406Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "kmvq31-sl3-obstruction"
+    },
+    {
+      "abstract_text": "Koljančić–Oblak's Problem 1.8, Electronic Journal of Linear Algebra 42 (2026), p. 759, has an affirmative answer: the minimum number of arcs in an n-vertex digraph requiring the nonsymmetric strong spectral property is 2n−1 for every n≥1. By their identification with Arav et al.'s Problem 6.2, this also gives the minimum 2n−1 of nonzero entries in a zero–nonzero pattern requiring the similarity-transversality property (STP). We give a self-contained exposition of the centralizer–incidence proof formalized in Lean. More generally, every real matrix with this property and with c weak support components has at least 2n−c nonzero entries. For connected supports, even allowing one such matrix forces 2n−1 arcs. Together with the endpoint-looped double path of Koljančić–Oblak, this also answers both questions in their Problem 2.9 (p. 764). The endpoint construction is prior work.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23904481",
+      "current_version": 3,
+      "doi": "10.5281/zenodo.23904482",
+      "lean_source": {
+        "revision": "cc684e6326490f9173bfefcadb0294ee6ccbb0b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/cc684e6326490f9173bfefcadb0294ee6ccbb0b5/D5/S3/Combinatorics/SpectralGraph/KoljancicOblakMinimumArcs.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:32.482916859Z",
+      "record": "koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8",
+      "repository_name": "koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8",
+      "source": {
+        "url": "/api/v1/collected-papers/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8/files/source?version=3"
+      },
+      "title": "The 2n−1 arc minimum in Koljančić–Oblak, Problem 1.8 (p. 759)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:32.482916859Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8"
+    },
+    {
+      "abstract_text": "Question 5.11 of Koljančić and Oblak (arXiv:2604.21552v1, Section 5; journal p. 776) has an affirmative answer: every even double path with a nonempty loop set allows the non-symmetric Strong Spectral Property. We construct a symmetric one-loop witness using coprime branch continuants and prove injectivity of its characteristic-polynomial differential. Openness then supplies every prescribed nonempty loop set. The same argument gives a complete existence criterion in odd order: at least one loop must lie at an odd-numbered vertex. The witnesses can be chosen symmetric with positive integer nonzero entries. Carptopus (19 August 2026) previously proved the full existence criterion and its single-loop spectral characterization. We give an explicit integer construction, an arithmetic criterion for unit edge weights, and the three-way classification for the central-loop and interior-loop families.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23920567",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23920568",
+      "lean_source": {
+        "revision": "b260643d3d496ad9cd04bfc3557fc9b7499de976",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b260643d3d496ad9cd04bfc3557fc9b7499de976/D5/S3/Combinatorics/SpectralGraph/KoljancicOblakEvenPathNSSP.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/koljancic-oblak-2026-question-5-11-even-loop-path/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:36.967641991Z",
+      "record": "koljancic-oblak-2026-question-5-11-even-loop-path",
+      "repository_name": "koljancic-oblak-2026-question-5-11-even-loop-path",
+      "source": {
+        "url": "/api/v1/collected-papers/koljancic-oblak-2026-question-5-11-even-loop-path/files/source?version=2"
+      },
+      "title": "Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:36.967641991Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "koljancic-oblak-2026-question-5-11-even-loop-path"
+    },
+    {
+      "abstract_text": "We extend the Stirling determinant formulas of Merca (2014) and Amdeberhan–Ekhad (2022), giving a corrected subset expansion and a normalized proof of Kurkov's OEIS A396563 FORMULA conjecture, approved revision 15 (1 June 2026). The minor equals s_(k^m)(1,2,...,n+m) for all n,k >= 0, m >= 1; allowing every integer exponent yields a vanishing interval and an entire reciprocal-power family, including Kurkov's A132393 FORMULA conjecture (24 May 2026). We recover the earlier rational row generating functions and give a second-kind moment determinant. We also correct the alphabet in their second-kind Schur evaluation. Companion recurrences and two generating-function normalizations are treated with explicit attribution and coverage.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "0eae8e045cb2ba958e2097dbac034f62f9c1dd7a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/Combinatorics/BinomialBases/KurkovStirlingMinorVandermondeSum.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/kurk396563/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T07:01:33.215052831Z",
+      "record": "kurk396563",
+      "repository_name": "kurk396563",
+      "source": {
+        "url": "/api/v1/collected-papers/kurk396563/files/source?version=2"
+      },
+      "title": "Corrected formulas and integer exponents for Amdeberhan–Ekhad (2022): Kurkov's OEIS A396563 FORMULA conjecture, revision 15 (1 June 2026)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T07:01:33.215052831Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "kurk396563"
+    },
+    {
+      "abstract_text": "We answer the first question in Malkoun's MathOverflow 512579, revision 1: for positive semidefinite Hermitian X,Y, every elementary symmetric function of the eigenvalues of XY+YX is at most its counterpart for X^2+Y^2. The written proof establishes the stronger absolute-value inequality for arbitrary Hermitian X,Y and for H=A*B+B*A, R=A*A+B*B with arbitrary rectangular complex A,B. Cauchy-Binet and Cauchy-Schwarz bound each principal determinant, including singular cases. The pinned Lean declaration proves the original positive-semidefinite assertion; the extensions have written proofs and accompanying exact finite checks.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23920582",
+      "current_version": 1,
+      "doi": "10.5281/zenodo.23920583",
+      "lean_source": {
+        "revision": "57b811cedb64c8065c6afac0da57d0fe2c8aa5ab",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/57b811cedb64c8065c6afac0da57d0fe2c8aa5ab/D5/S3/Quantum/Matrix/MalkounJordanElementary.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/malkoun-2026-mo512579-jordan-elementary/files/pdf?version=1"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:34.720988098Z",
+      "record": "malkoun-2026-mo512579-jordan-elementary",
+      "repository_name": "malkoun-2026-mo512579-jordan-elementary",
+      "source": {
+        "url": "/api/v1/collected-papers/malkoun-2026-mo512579-jordan-elementary/files/source?version=1"
+      },
+      "title": "MathOverflow 512579, revision 1: The elementary symmetric inequality for a Hermitian Jordan product",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:34.720988098Z",
+          "revision": "1",
+          "version": 1
+        }
+      ],
+      "work": "malkoun-2026-mo512579-jordan-elementary"
+    },
+    {
+      "abstract_text": "We prove the recurrence for A027182 stated as a conjecture by R. J. Mathar (OEIS A027182, FORMULA section, 6 May 2026) for all n >= 6, by evaluating the middle coefficient of the square of each A027170 row polynomial. Row symmetry reduces the convolution to five binomial sums, and a shifted second-order recurrence gives the six-term recurrence. The same central-binomial identity proves Mathar's conjectured recurrences for A027171, A027174 and A027175; a parity decomposition also proves his seven-term recurrence for the half-row sums A027179.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma",
+          "orcid": "0009-0008-4944-977X"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang",
+          "orcid": "0009-0005-2414-7968"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23884889",
+      "current_version": 4,
+      "doi": "10.5281/zenodo.23884890",
+      "lean_source": {
+        "revision": "494f471b70d9470db92b4dbc07a309d78ca59ec7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/494f471b70d9470db92b4dbc07a309d78ca59ec7/D5/S1/Recurrence/MatharA027182SelfConvolution.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/mathar-a027182-closed-form/files/pdf?version=4"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:22.274949523Z",
+      "record": "mathar-a027182-closed-form",
+      "repository_name": "mathar-a027182-closed-form",
+      "source": {
+        "url": "/api/v1/collected-papers/mathar-a027182-closed-form/files/source?version=4"
+      },
+      "title": "Proof of Mathar's conjecture on OEIS A027182: a closed form and the six-term recurrence",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:22.274949523Z",
+          "revision": "4",
+          "version": 4
+        }
+      ],
+      "work": "mathar-a027182-closed-form"
+    },
+    {
+      "abstract_text": "We prove the displayed inequality in MathOverflow question 469781, which compares weighted squared two-by-two minors of an orthonormal pair with squared three-by-three minors, weighted by the largest edge weight of each triple. We prove the inequality by contraction in exterior algebra and a finite threshold decomposition. The proof gives both minimum and maximum bounds, permits signed weights and complex vectors, and extends to arbitrary exterior degrees and several orthogonal lifts. The orthonormal comparison follows from Lyons (2003); Miller and Bistroń (2025) give a direct two-sided proof and settle the linked distance-triangle conjecture.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23931737",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23931738",
+      "lean_source": {
+        "revision": "c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/mathoverflow-469781-weighted-orthogonal-minors/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:40.468149389Z",
+      "record": "mathoverflow-469781-weighted-orthogonal-minors",
+      "repository_name": "mathoverflow-469781-weighted-orthogonal-minors",
+      "source": {
+        "url": "/api/v1/collected-papers/mathoverflow-469781-weighted-orthogonal-minors/files/source?version=2"
+      },
+      "title": "Proof of the weighted-minor inequality in MathOverflow 469781",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:40.468149389Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "mathoverflow-469781-weighted-orthogonal-minors"
+    },
+    {
+      "abstract_text": "MathOverflow 513954, revision 2 has affirmative answers: we give a self-contained proof of the inertia formula previously proved by user1551, and prove the continuous-family assertion. For any real symmetric A and nonzero Delta=x^T A x, the matrix A-(Ax)(Ax)^T/Delta loses one eigenvalue of the pivot sign and gains one zero eigenvalue, with kernel ker A direct-sum span{x}. For continuous diagonal families with a positive-semidefinite modification, connectedness fixes the pivot sign and, in the negative branch, one negative coordinate. The conclusions extend to countably punctured simplices, and a block congruence removes any nondegenerate subspace. For the linked sphere question, the increasing odd polynomial h(t)=(3t-t^3)/2 has squared ratio infimum 16(17-9sqrt(3))/23 over all dimensions, strictly below the two-coordinate infimum 80/81.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23920597",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23920598",
+      "lean_source": {
+        "revision": "0f1f822c673c1903dc6b0a209a23dacebca2aa6c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0f1f822c673c1903dc6b0a209a23dacebca2aa6c/D5/S3/QuadraticForms/StructuredRankOneFamily.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/mathoverflow-513954-singular-diagonal-downdate-inertia/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:35.225392763Z",
+      "record": "mathoverflow-513954-singular-diagonal-downdate-inertia",
+      "repository_name": "mathoverflow-513954-singular-diagonal-downdate-inertia",
+      "source": {
+        "url": "/api/v1/collected-papers/mathoverflow-513954-singular-diagonal-downdate-inertia/files/source?version=2"
+      },
+      "title": "MathOverflow 513954, revision 2: singular signed downdates, fixed coordinates, and a sharp polynomial sphere bound",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:35.225392763Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "mathoverflow-513954-singular-diagonal-downdate-inertia"
+    },
+    {
+      "abstract_text": "We prove Paul Curtz's six-residue denominator conjecture in OEIS A189733, revision 12, COMMENTS (May 23, 2011), now in revision 36, FORMULA, with its convention that zero has denominator one. Following Gao's earlier generating-function proof, we derive exact values of the first row of the defining rational array. These values also prove the six-periodic numerator assertion, the denominator recurrence, and Barker's empirical generating function in the same entry. The same formulas settle Barker's recurrence and generating-function conjectures in A267068 and give the numerator identities in A278718. We also prove the full-array reflection and binomial-transform identity. The corresponding second-kind array yields A194767's denominator formulas and reciprocal sum, and corrects an index in its fourth-diagonal numerator identity. For the unsigned-seed array in A189731 and A242926, the same argument gives a Lucas-number formula and refutes the asserted prime-only integer ranks at the composite 705. An integer triangular transformation determines antidiagonal denominator lcms for arbitrary rational seeds.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23957583",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23957584",
+      "lean_source": {
+        "revision": "20b69217fd7c02cbb8668d939dfa29ecc12a9716",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/20b69217fd7c02cbb8668d939dfa29ecc12a9716/D5/S1/Recurrence/Residue/OEISA189733DenominatorConjecture.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/oeis-a189733-curtz-denominator-conjecture/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:42.470885317Z",
+      "record": "oeis-a189733-curtz-denominator-conjecture",
+      "repository_name": "oeis-a189733-curtz-denominator-conjecture",
+      "source": {
+        "url": "/api/v1/collected-papers/oeis-a189733-curtz-denominator-conjecture/files/source?version=2"
+      },
+      "title": "Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:42.470885317Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "oeis-a189733-curtz-denominator-conjecture"
+    },
+    {
+      "abstract_text": "We refute the adjacent-column Conjecture and prove the terminal-column Conjecture in the FORMULA section of Peter Kagey's OEIS entry A378495, revision #70 of October 17, 2026. For n>=5 the corrected adjacent difference is n!/[2(n-2)]=abs(A238474(n-3)); at n=4 it is 3. The literal conjecture fails at n=5, where its sides are 20 and 6. The earliest proof found of the row gcd, both differences and the index correction is Lien-Hung Su, DOI 10.5281/zenodo.23445724 v1 (October 18, 2026), Theorem 7.3, Proposition 7.4 and Remark 7.5; Ahaan Kallat gives a later independent proof in arXiv:2610.40342v1 (October 29, 2026), Theorem 4.1. This note gives a self-contained treatment of the differences and their boundary.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23903308",
+      "current_version": 3,
+      "doi": "10.5281/zenodo.23903309",
+      "lean_source": {
+        "revision": "cdafeab0d44da2b6840cfc802535d2f94a146fad",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/cdafeab0d44da2b6840cfc802535d2f94a146fad/D5/S3/Combinatorics/Derangements/AdjacentDifferenceRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/oeis-a378495-difference-conjectures/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:28.721090159Z",
+      "record": "oeis-a378495-difference-conjectures",
+      "repository_name": "oeis-a378495-difference-conjectures",
+      "source": {
+        "url": "/api/v1/collected-papers/oeis-a378495-difference-conjectures/files/source?version=3"
+      },
+      "title": "OEIS A378495, FORMULA (revision #70): refutation and correction",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:28.721090159Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "oeis-a378495-difference-conjectures"
+    },
+    {
+      "abstract_text": "We prove Mike Sheppard's conjecture in OEIS A381423, Comments, revision 8, that the exponent of the largest signed coefficient of the physicists' Hermite polynomial has successive differences in {1,-3}. A coefficient-ratio calculation gives an explicit formula and proves uniqueness, square-root growth, and the two asserted difference-block lengths. We give exact quadratic indices for the longer blocks. The corresponding absolute-coefficient calculation proves the conjecture in A381524 and the three formulas for equal absolute maxima in A381737. It also gives the absolute mode explicitly, locates its two difference-block types, and determines the asymptotic ratios of successive maximal coefficients.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23957585",
+      "current_version": 3,
+      "doi": "10.5281/zenodo.23957586",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Analytic/Polynomial/HermiteSignedMode.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/oeis-a381423-hermite-differences/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:40.971290314Z",
+      "record": "oeis-a381423-hermite-differences",
+      "repository_name": "oeis-a381423-hermite-differences",
+      "source": {
+        "url": "/api/v1/collected-papers/oeis-a381423-hermite-differences/files/source?version=3"
+      },
+      "title": "Resolving the Hermite coefficient conjectures in OEIS A381423, Comments (revision 8)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:40.971290314Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "oeis-a381423-hermite-differences"
+    },
+    {
+      "abstract_text": "We prove formula (5), COMMENTS (C.1)--(C.10), and the zero clause of COMMENT (C.11) of Paul D. Hanna's OEIS entry A391810, revision 39. For n>=1, the original bilateral Laurent coefficients form a finite row polynomial P_n(y)=-1+sum(h=1..n)y^h(1-y^h)^(n-h). Evaluating it at -1 gives the negative alternating row sum 2 round(2^n/3)=2J_n. The same polynomial proves formulas (2), (3), (4), and (6). Its divisor-sum coefficient expression proves the ten individual-term formulas and T(n,q)=0 for every prime q>n. The further first-zero assertion of (C.11) remains open in this note.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23885968",
+      "current_version": 4,
+      "doi": "10.5281/zenodo.23885969",
+      "lean_source": {
+        "revision": "1239bd2a0ed6e9d54aabb5a42af94234e9eb61ae",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1239bd2a0ed6e9d54aabb5a42af94234e9eb61ae/D5/S3/ArithSums/HannaLaurentAlternatingJacobsthal.lean#L103"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/oeis-a391810-alternating-jacobsthal/files/pdf?version=4"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:27.731753254Z",
+      "record": "oeis-a391810-alternating-jacobsthal",
+      "repository_name": "oeis-a391810-alternating-jacobsthal",
+      "source": {
+        "url": "/api/v1/collected-papers/oeis-a391810-alternating-jacobsthal/files/source?version=4"
+      },
+      "title": "OEIS A391810: formula (5), COMMENTS (C.1)--(C.10), and prime-index vanishing",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:27.731753254Z",
+          "revision": "4",
+          "version": 4
+        }
+      ],
+      "work": "oeis-a391810-alternating-jacobsthal"
+    },
+    {
+      "abstract_text": "We prove the conjecture in Arkadeep Dutta's OEIS A396659, revision 16, FORMULA, third statement: T(n,n^2)/T(n,n^2+1)=(2n-1)/n for every n>=2. Here T(n,k) counts length-k walks from a fixed vertex of the complete looped directed graph on n labeled vertices, visiting every vertex and repeating an edge for the first time at step k. An omitted-edge classification and marked loop insertion prove the ratio. We also establish the entry's two companion formulas, T(n,n+1)=n! and T(n,n^2+1)=(n!)^n, with the linear-walk normalization explicit.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23885974",
+      "current_version": 4,
+      "doi": "10.5281/zenodo.23885975",
+      "lean_source": {
+        "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S3/Combinatorics/Graph/Walks/CollisionPrefix.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/oeis-a396659-edge-collision-ratio/files/pdf?version=4"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:26.723664039Z",
+      "record": "oeis-a396659-edge-collision-ratio",
+      "repository_name": "oeis-a396659-edge-collision-ratio",
+      "source": {
+        "url": "/api/v1/collected-papers/oeis-a396659-edge-collision-ratio/files/source?version=4"
+      },
+      "title": "Proof of Arkadeep Dutta's edge-collision ratio conjecture (OEIS A396659)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:26.723664039Z",
+          "revision": "4",
+          "version": 4
+        }
+      ],
+      "work": "oeis-a396659-edge-collision-ratio"
+    },
+    {
+      "abstract_text": "We prove Conjectures 9.63 and 9.64 in Section 9.8.3 of Okada's arXiv:2003.02112v2. At unit weights and degree shift zero, every natural width at least three gives a non-almost-palindromic determinant. At width two, almost palindromicity holds exactly when min(a2-a1,b2-b1)=1, giving proportion (lambda-2)(lambda-3)/(lambda(lambda+1)) at b2=lambda>=2. These conclusions hold for every constant positive integral base shift. An infinite family extends the width-two counterexample in Example 9.65. Conjecture 9.66, whose width is at least three, is proved on degree-shift slices e=0,1,G-1,G and at e=G/2 when G is even, where G is the direct-minus-reversed degree gap. The remaining degree shifts are not covered.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23927423",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23927424",
+      "lean_source": {
+        "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/okada-2020-premerged-determinant-nonpalindromic/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:37.974608824Z",
+      "record": "okada-2020-premerged-determinant-nonpalindromic",
+      "repository_name": "okada-2020-premerged-determinant-nonpalindromic",
+      "source": {
+        "url": "/api/v1/collected-papers/okada-2020-premerged-determinant-nonpalindromic/files/source?version=2"
+      },
+      "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:37.974608824Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "okada-2020-premerged-determinant-nonpalindromic"
+    },
+    {
+      "abstract_text": "We refute the conjectures in Section IV immediately after Theorems 1 and 3, Eqs. (10) and (12), of Peled, Te'eni, Carmi and Cohen, Scientific Reports 11, 2849 (2021), that filter normal form can be removed from their correlation-minor bounds. Explicit separable states give robust violations in dimensions 2 by 4 and 2 by D for 5<=D<=8, including positive-definite examples. For every D>=4 and every Schatten parameter, the sharp fourth-order separable bound without filter normal form is 1/(192 sqrt(3)), attained by tetrahedral qubit projectors paired with four orthogonal flags. No common-size pair of regular coherent degree-1 pure designs exists in dimensions 2 and D>=5. We also correct the missing square root in arXiv:2005.12079v2, Appendix D.5, Eq. (D31), using the known separable covariance inequality. The original filter-normal-form theorems retain their scope.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23920609",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23920610",
+      "lean_source": {
+        "revision": "0f1f822c673c1903dc6b0a209a23dacebca2aa6c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0f1f822c673c1903dc6b0a209a23dacebca2aa6c/D5/S3/Quantum/Entanglement/Witness/CorrelationMinorNormFNFRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:36.238517675Z",
+      "record": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf",
+      "repository_name": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf",
+      "source": {
+        "url": "/api/v1/collected-papers/peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf/files/source?version=2"
+      },
+      "title": "Refuting Peled et al.'s Section IV conjectures after Theorems 1 and 3, Eqs. (10) and (12): sharp fourth-order bounds without filter normal form",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:36.238517675Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf"
+    },
+    {
+      "abstract_text": "We resolve the nonlinear classical k=6 factor-perfection question of Pozsgay and Wanless, §5 immediately after equation (5.13), and their qubit decomposition conjecture in §8 for both constructions studied there (k=6,8). For arbitrary finite-alphabet gates, a perfect six-leg composite forces perfect factors. Six specified permutation flattenings characterize this property. A norm–determinant argument gives the quantum analogue for unitary gates, extending the prior forward construction of §3.2, Theorems 1–2. For arbitrary complex factors, the same six unitary exterior flattenings guarantee perfect replacement tensors at the same bond dimension. This excludes every six-qubit AME state from the three-vertex triangle with bond dimension two. The eight-qubit case follows from known AME nonexistence (Rains, DOI 10.1109/18.796376; Scott, DOI 10.1103/PhysRevA.69.052330).",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23903312",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23903313",
+      "lean_source": {
+        "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Combinatorics/Latin/ClassicalPerfectTensorFactorization.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/pozsgay-wanless-nonlinear-classical-factors/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:31.450952493Z",
+      "record": "pozsgay-wanless-nonlinear-classical-factors",
+      "repository_name": "pozsgay-wanless-nonlinear-classical-factors",
+      "source": {
+        "url": "/api/v1/collected-papers/pozsgay-wanless-nonlinear-classical-factors/files/source?version=2"
+      },
+      "title": "Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:31.450952493Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "pozsgay-wanless-nonlinear-classical-factors"
+    },
+    {
+      "abstract_text": "We prove the affirmative answer to MathOverflow question 516405, revision 1: the second ordinary adjacency eigenvalue of deterministic inner-face Apollonian networks divided by 2^(m/2) tends to sqrt(2). For every fixed rank r, the largest and smallest adjacency eigenvalues divided by 2^(m/2) converge to plus and minus sqrt(d_r), where the decreasing weight sequence consists of 3, three copies of 2, and 3^j copies of 3*2^(-j) for each j >= 1. An exact cutoff Gram identity gives a finite-stage bound and an O_r(2^(-m/4)) rate. The original second-eigenvalue limit is the scope of the pinned Lean declaration; the fixed-rank and quantitative extensions have written proofs.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23919070",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23919071",
+      "lean_source": {
+        "revision": "66d225eda69544653f1ca0e66cf3aea530b1a2c6",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/66d225eda69544653f1ca0e66cf3aea530b1a2c6/D5/S3/Combinatorics/Apollonian/SecondEigenvalueLimit.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/radsarar-anando-2026-apollonian-second-eigenvalue/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:29.721355853Z",
+      "record": "radsarar-anando-2026-apollonian-second-eigenvalue",
+      "repository_name": "radsarar-anando-2026-apollonian-second-eigenvalue",
+      "source": {
+        "url": "/api/v1/collected-papers/radsarar-anando-2026-apollonian-second-eigenvalue/files/source?version=2"
+      },
+      "title": "MathOverflow 516405, revision 1: the second adjacency eigenvalue of Apollonian networks and the fixed-rank extreme spectrum",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:29.721355853Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "radsarar-anando-2026-apollonian-second-eigenvalue"
+    },
+    {
+      "abstract_text": "We resolve Question III.5 of Stepanov, Herrmann and Guhr (arXiv:2104.08966v1, p. 7): on the remaining domain D = A minus (A1 union A2), correlation matrices with prescribed mean c and standard deviation sigma and a nonmaximal top-eigenvector weight in every orthonormal eigenbasis exist in every sufficiently large dimension exactly when sigma > c. Centered spectral moments exclude the diagonal, and a positive definite rank-two construction gives existence above it. Throughout the legal half-disc sigma >= 0, c^2 + sigma^2 <= 1, eventual existence holds exactly for 0 <= c < 1/2, sigma > c and c^2 + sigma^2 < 1. A spectral-projection criterion treats eigenvalue multiplicities and shows that a rank-one boundary matrix has the universal gap exactly when c < 0.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23927427",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23927428",
+      "lean_source": {
+        "revision": "8c3421e2977f07cb0b5d9b30b7ede138d9951cb5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8c3421e2977f07cb0b5d9b30b7ede138d9951cb5/D5/S3/Estimation/CorrelationTopEigenvectorWeight.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:37.473503904Z",
+      "record": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
+      "repository_name": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
+      "source": {
+        "url": "/api/v1/collected-papers/stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight/files/source?version=2"
+      },
+      "title": "Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:37.473503904Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
+    },
+    {
+      "abstract_text": "The Shannon conjecture following Eq. (69) in Section V.C of Tarabunga et al., arXiv:2411.05766v1, is false. An explicit three-qubit state has stabilizer-basis entropy log 4, whereas the proposed absolute-amplitude lower bound is log 16 - (9/8) log 3 > log 4. The same construction refutes the bound for nonnegative amplitudes, and continuity gives strictly positive examples. It extends to every N >= 3 and to a range of Renyi indices containing one. The collision entropy of the comparison distribution remains a valid Shannon lower bound for arbitrary affine supports. For amplitudes of constant modulus on each affine coset, the original bound holds at every Renyi index; this includes the source's Figure 1 product states.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23903315",
+      "current_version": 1,
+      "doi": "10.5281/zenodo.23903316",
+      "lean_source": {
+        "revision": "122c987d276498783de7d873378a28b27ced8761",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/122c987d276498783de7d873378a28b27ced8761/D5/S3/Quantum/Magic/StabilizerAsymmetryShannonBoundRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound/files/pdf?version=1"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:29.223036471Z",
+      "record": "tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound",
+      "repository_name": "tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound",
+      "source": {
+        "url": "/api/v1/collected-papers/tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound/files/source?version=1"
+      },
+      "title": "A counterexample to the Shannon conjecture following Eq. (69) in Tarabunga et al., Section V.C",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:29.223036471Z",
+          "revision": "1",
+          "version": 1
+        }
+      ],
+      "work": "tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound"
+    },
+    {
+      "abstract_text": "We resolve User3's question (question 515549, revision 1, September 25, 2026): for every nonsingular real square matrix of positive size, the orthogonal minimum of rho(|PQ||Q^T P^{-1}|) is attained and equals one. Thus the proposed strict uniform lower bound cannot hold for any such matrix. We give a self-contained exposition of the triangularization proof in the pinned formal source, then characterize every minimizer by independent row and column permutations to triangular form. For fixed P, the set of minimizers is finite and has an explicit description using row-permuted QR factorizations. The same minimum holds over the special orthogonal group. Finally, the companion absolute-row-sum balancing question follows from the Yamabe-Yujobo theorem.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23885983",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23885984",
+      "lean_source": {
+        "revision": "fd1633144086085a16f35c8171e2f4b6186a6fbb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/fd1633144086085a16f35c8171e2f4b6186a6fbb/D5/S1/Eigenstructure/OrthogonalAbsoluteProductMinimum.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/user3-2026-orthogonal-absolute-product-minimum/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:24.451028456Z",
+      "record": "user3-2026-orthogonal-absolute-product-minimum",
+      "repository_name": "user3-2026-orthogonal-absolute-product-minimum",
+      "source": {
+        "url": "/api/v1/collected-papers/user3-2026-orthogonal-absolute-product-minimum/files/source?version=2"
+      },
+      "title": "Resolving User3's orthogonal absolute-product question: minimum and minimizers",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:24.451028456Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "user3-2026-orthogonal-absolute-product-minimum"
+    },
+    {
+      "abstract_text": "We refute Conjectures 3.26 and 5.3 of Wang's Semigroup rings and algebraically independent sequences with respect to idempotents in commutative semigroups (arXiv:2509.18724v1, pp. 23 and 27). The commutative periodic monoid of finite subsets of the natural numbers, paired with levels zero, one and two under union and capped addition, has algebraic Davenport constant one over every nonzero commutative unitary ring. Its nongroup relative Davenport constants are unbounded. The finite submonoids with supports contained in {1,...,m}, m>=1, have the same algebraic constant, whereas the expression conjectured to equal it grows without bound as m increases.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23884900",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.23884901",
+      "lean_source": {
+        "revision": "d1876cfbbef8c13023311126691b180eefa69569",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S0/Certificates/Algebra/WangConjecture326Refutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/wang-conjecture326/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:23.217865278Z",
+      "record": "wang-conjecture326",
+      "repository_name": "wang-conjecture326",
+      "source": {
+        "url": "/api/v1/collected-papers/wang-conjecture326/files/source?version=2"
+      },
+      "title": "Counterexamples to Wang's Conjectures 3.26 and 5.3 on semigroup algebras",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:23.217865278Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "wang-conjecture326"
+    },
+    {
+      "abstract_text": "The question in Xu et al., Section 4.2, page 12 of arXiv:2211.05563v1, asks whether the optimized witness bound equals the convex-roof geometric measure of genuine multipartite entanglement for noisy GHZ states. A strict separation holds for every party count n >= 3 and local dimension d >= 3 at an explicit noise probability. For three qutrits at noise p=3/8, the optimized witness bound is exactly 1/9, whereas the convex roof is at least 13/108. A biseparable overlap inequality and a positive-definite matrix give a two-observable lower bound. A written corollary extends the three-qutrit strict gap throughout 27/74 < p < 9/22.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.23919078",
+      "current_version": 1,
+      "doi": "10.5281/zenodo.23919079",
+      "lean_source": {
+        "revision": "cc684e6326490f9173bfefcadb0294ee6ccbb0b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/cc684e6326490f9173bfefcadb0294ee6ccbb0b5/D5/S3/Quantum/Entanglement/Witness/NoisyGhzWitnessBoundGap.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/xu-et-al-2023-noisy-ghz-witness-bound-gap/files/pdf?version=1"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-05T08:03:30.224663086Z",
+      "record": "xu-et-al-2023-noisy-ghz-witness-bound-gap",
+      "repository_name": "xu-et-al-2023-noisy-ghz-witness-bound-gap",
+      "source": {
+        "url": "/api/v1/collected-papers/xu-et-al-2023-noisy-ghz-witness-bound-gap/files/source?version=1"
+      },
+      "title": "A strict gap in the noisy-GHZ equality question of Xu et al., Section 4.2, page 12 of arXiv:2211.05563v1",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-05T08:03:30.224663086Z",
+          "revision": "1",
+          "version": 1
+        }
+      ],
+      "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
+    }
+  ]
+}
