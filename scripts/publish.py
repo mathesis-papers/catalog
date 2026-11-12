@@ -303,7 +303,7 @@ def apply(api, source, stage):
         api.issue(repo, (stage / "checklist.md").read_text())
     api.sync(".github", {"profile/README.md": (output / "profile/README.md").read_bytes()}, lambda p: p == "profile/README.md", "Refresh Mathesis organization profile", states[".github"])
     site_files = tree_files(output / "site")
-    api.sync("mathesis-papers.github.io", site_files, lambda p: p in {"index.html", "CNAME", ".nojekyll"} or p.startswith("doi/"), "Refresh Mathesis paper site", states["mathesis-papers.github.io"])
+    api.sync("mathesis-papers.github.io", site_files, lambda p: p in {"index.html", "CNAME", ".nojekyll", "materials-index.json"} or p.startswith("doi/"), "Refresh Mathesis paper site", states["mathesis-papers.github.io"])
     catalog_files = tree_files(output / "catalog")
     api.sync("catalog", catalog_files, lambda p: p in CATALOG_FILES or p.startswith("materials/"), "Refresh Mathesis catalog and repository mapping", states["catalog"])
 
