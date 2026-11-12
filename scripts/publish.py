@@ -178,7 +178,9 @@ def material_downloads(mapping, destination):
     for repo in sorted(set(mapping.values())):
         url = f"{SITE}/{repo}/mathesis-materials.json"
         try:
-            with opener.open(url, timeout=30) as response:
+            # The site sits behind Cloudflare, which refuses the default Python-urllib agent.
+            request = urllib.request.Request(url, headers={"User-Agent": "mathesis-papers-publisher", "Accept": "application/json"})
+            with opener.open(request, timeout=30) as response:
                 raw = response.read(1024 * 1024 + 1)
                 require(len(raw) <= 1024 * 1024, "materials manifest exceeds 1 MiB")
                 value = json.loads(raw)
