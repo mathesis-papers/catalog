@@ -1,10 +1,10 @@
 {
   "doi": "10.5281/zenodo.23935000",
-  "manifest_url": null,
+  "manifest_url": "https://papers.trureturing.org/6aec385b06f051afc69fcf80/mathesis-materials.json",
   "reading": {},
-  "repository_url": null,
+  "repository_url": "https://github.com/mathesis-papers/6aec385b06f051afc69fcf80",
   "schema": "mathesis.catalog-materials.v1",
-  "site_url": null,
+  "site_url": "https://papers.trureturing.org/6aec385b06f051afc69fcf80/",
   "slides": [],
   "version": 2,
   "visualizations": [],
