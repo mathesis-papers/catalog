@@ -55,6 +55,7 @@ jobs:
       - name: Mint a short-lived organization App token
         if: ${{ !inputs.dry_run }}
         id: app
+        continue-on-error: true
         uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
         with:
           app-id: ${{ vars.MATHESIS_APP_ID }}
@@ -66,8 +67,22 @@ jobs:
           permission-pages: write
           permission-workflows: write
           permission-issues: write
+      - name: Mint the token without Issues when the installation lacks that permission
+        if: ${{ !inputs.dry_run && steps.app.outcome == 'failure' }}
+        id: app_no_issues
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        with:
+          app-id: ${{ vars.MATHESIS_APP_ID }}
+          private-key: ${{ secrets.MATHESIS_APP_PRIVATE_KEY }}
+          owner: mathesis-papers
+          # All installation repositories, including newly generated repositories.
+          permission-administration: write
+          permission-contents: write
+          permission-pages: write
+          permission-workflows: write
       - name: Publish checked projections and finish incomplete paper setup
         if: ${{ !inputs.dry_run }}
         env:
-          PUBLISHER_TOKEN: ${{ steps.app.outputs.token }}
+          PUBLISHER_TOKEN: ${{ steps.app.outputs.token || steps.app_no_issues.outputs.token }}
+          PUBLISHER_ISSUES: ${{ steps.app.outcome == 'success' && '1' || '0' }}
         run: python3 scripts/publish.py apply --stage "$RUNNER_TEMP/mathesis-publisher"

@@ -161,6 +161,10 @@ class API:
             self.call("PUT", path, {"build_type": build_type})
 
     def issue(self, name, checklist):
+        if os.environ.get("PUBLISHER_ISSUES", "1") == "0":
+            # The App installation has no Issues permission; a later run with it creates the issue.
+            print(f"{name}: preparation issue not checked (App lacks Issues permission)")
+            return
         page = 1
         while True:
             items = self.call("GET", f"/repos/{ORG}/{name}/issues?state=all&per_page=100&page={page}")
