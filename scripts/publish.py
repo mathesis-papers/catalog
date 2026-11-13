@@ -344,13 +344,14 @@ def apply(api, source, stage):
             title = read(stage / "papers" / repo / "paper.json")["work"].get("title", work)
             info = api.call("POST", f"/repos/{ORG}/paper-template/generate", {"owner": ORG, "name": repo, "description": title[:350], "private": False, "include_all_branches": False})
         require(not info.get("private") and not info.get("archived"), "paper repository must be public and active")
-        # Template generation can take a few seconds to expose its default branch.
+        # Template generation briefly exposes an empty repository (409), then
+        # may return 404 until its default branch becomes readable.
         for attempt in range(6):
             try:
                 state = api.state(repo)
                 break
             except RuntimeError as exc:
-                if "HTTP 404" not in str(exc) or attempt == 5:
+                if not any(code in str(exc) for code in ("HTTP 404", "HTTP 409")) or attempt == 5:
                     raise
                 time.sleep(min(2 ** attempt, 8))
         entries = state[3]
