@@ -165,3 +165,32 @@ before any authenticated write.
 Local verification also covers formalization sync, unchanged reruns, stale
 source cleanup, preserved unrelated files/workflows, stage tampering and missing
 or private formalization repositories failing before any write.
+
+## Independent collection of the existing corpus
+
+`paper_publication: "collection"` in `publisher.json` publishes already public,
+CC-BY-4.0 collected papers directly. `publish.json` explicitly authorizes the
+39 currently collected works. `book_works` preserves the existing Chen–Chen
+reading project; its authored content and publication workflow remain intact.
+New collection repositories still originate from `paper-template`, but their
+first publisher commit contains only the frozen paper projection, public
+reading pages, versioned originals and a small static Pages workflow. They do
+not wait for book conversion, statement comparisons, CMA or proof jobs.
+
+Before any writes, prepare reads each exact public version anonymously and
+checks its work/version against the SDK projection. Only existing English and
+Chinese explanations are copied. Missing exposition leaves the abstract and
+paper available, without an invented reading. Static pages expose authors,
+abstract, PDF, source, citation, an existing DOI and pinned Lean source when
+available. The material manifest advertises only actual readings. The regular
+publisher discovers these manifests after Pages deployment.
+
+The `.mathesis/collection.json` ownership marker binds generated paths to
+SHA-256 values and Git blobs. An existing collection is refreshed only when
+its generated files still match the previous ownership inventory. Human edits
+cause an explicit conflict; unrelated files are preserved. Old `versions/vN/`
+directories are retained when the current version advances. A populated book
+without this marker is never converted or overwritten. New and updated
+collections use the same stage seal and non-forced commit/ref transactions.
+Collection creates no review, proof receipt or leaderboard credit, and needs
+no Issues permission. The original book publication mode remains available.
