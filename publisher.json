@@ -1,6 +1,6 @@
 {
   "mathesis_repository": "the-omega-institute/mathesis",
-  "mathesis_commit": "b275c9bca206bf6befa365f7b960b1b5290a60a9",
-  "template_commit": "22894117c07f3ddd042739e6011254af84afa0f5",
+  "mathesis_commit": "f5262eb83e43878d866a51f2921e68295c0d6bb1",
+  "template_commit": "11468fdb359ade61549e89d76d40af85106bc788",
   "api_base": "https://mathesis-omega-research.apps.chrono-ai.fun"
 }

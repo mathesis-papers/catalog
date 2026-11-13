@@ -158,14 +158,9 @@ compatible target propositions with pinned Mathlib; it does not rebuild the
 prepared library, compile proof/disproof bundles or replace the independent
 Mathesis verifier. See the source checkout's `docs/FORMALIZATION_REPOSITORY.md`.
 
-Dispatcher handoff: this branch starts from `origin/main`. `publisher.json`
-currently retains the last published Mathesis commit
-`b275c9bca206bf6befa365f7b960b1b5290a60a9`; replace it with the actual reviewed
-formalization SDK commit after the dispatcher commits that worktree and makes
-that commit remotely reachable. The old pin intentionally fails formalization
-staging, before any authenticated write. No future SHA is invented. The local
-integration test used the actual updated SDK binary, local pinned template and
-local paper against a loopback fixture; no production apply was run.
+`publisher.json` pins the Mathesis commit whose `sdk/catalog` renders the
+formalization tree. A pin older than that renderer fails formalization staging
+before any authenticated write.
 
 Local verification also covers formalization sync, unchanged reruns, stale
 source cleanup, preserved unrelated files/workflows, stage tampering and missing
