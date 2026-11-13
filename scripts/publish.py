@@ -6,6 +6,7 @@ update per repository), never force-pushes, and resumes incomplete paper setup.
 """
 import argparse
 import base64
+from datetime import datetime
 import hashlib
 import json
 import os
@@ -17,6 +18,9 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import collection
 
 ORG = "mathesis-papers"
 SITE = "https://papers.trureturing.org"
@@ -44,6 +48,37 @@ def write(path, value):
 def require(condition, message):
     if not condition:
         raise ValueError(message)
+
+
+def plan_repositories(mapping, allowed, selected, naming="slug"):
+    require(naming in ("slug", "objectid-v1"), "unknown repository naming scheme")
+    planned = dict(mapping)
+    for work in allowed:
+        if work in planned:
+            continue  # Published identifiers never change with titles or versions.
+        row = selected[work]
+        if naming == "slug":
+            planned[work] = row["repository_name"]
+            continue
+        dates = [v.get("published_on") for v in row.get("versions", [])]
+        dates.append(row.get("published_on"))
+        timestamps = []
+        for value in dates:
+            if value:
+                published = datetime.fromisoformat(value.replace("Z", "+00:00"))
+                require(published.tzinfo is not None, "publication date needs a timezone")
+                timestamps.append(int(published.timestamp()))
+        require(timestamps, f"publication date missing for repository identifier: {work}")
+        timestamp = min(timestamps)
+        require(0 <= timestamp <= 0xffffffff, "publication date outside ObjectId range")
+        # BSON ObjectId-compatible: four timestamp bytes plus eight stable,
+        # namespaced identity bytes. Deterministic allocation also resumes a
+        # partially published batch without creating duplicate repositories.
+        identity = hashlib.sha256(("mathesis-paper-repository:v1:" + work).encode()).hexdigest()[:16]
+        planned[work] = f"{timestamp:08x}" + identity
+    require(len({r.lower() for r in planned.values()}) == len(planned), "repository mapping collision")
+    require(all(r.lower() not in ("catalog", ".github", "paper-template", "mathesis-papers.github.io", "formalization", ".", "..") for r in planned.values()), "reserved repository name")
+    return planned
 
 
 def run(*args, cwd=None):
@@ -206,6 +241,8 @@ def prepare(binary, source, stage):
     require(not stage.exists(), "stage already exists; use a fresh directory")
     stage.mkdir(parents=True)
     config = read(source / "publisher.json")
+    publication = config.get("paper_publication", "book")
+    require(publication in ("book", "collection"), "unknown paper publication mode")
     mapping = read(source / "repositories.json")
     allowed = read(source / "publish.json")
     require(isinstance(allowed, list) and len(allowed) == len(set(allowed)) and all(isinstance(w, str) for w in allowed), "publish.json must be a unique list of work ids")
@@ -220,11 +257,7 @@ def prepare(binary, source, stage):
     selected = {w["work"]: w for w in works if w["publication"] == "public"}
     for work in allowed:
         require(work in selected, f"allow-listed work is absent or out of scope: {work}")
-    planned = dict(mapping)
-    for work in allowed:
-        planned.setdefault(work, selected[work]["repository_name"])
-    require(len({r.lower() for r in planned.values()}) == len(planned), "repository mapping collision")
-    require(all(r.lower() not in ("catalog", ".github", "paper-template", "mathesis-papers.github.io", "formalization", ".", "..") for r in planned.values()), "reserved repository name")
+    planned = plan_repositories(mapping, allowed, selected, config.get("repository_naming", "slug"))
     write(stage / "planned-repositories.json", planned)
     material_downloads(mapping, stage / "materials")
     args[-1] = stage / "planned-repositories.json"
@@ -234,7 +267,21 @@ def prepare(binary, source, stage):
     run(sys.executable, output / "formalization/scripts/check.py")
     require(read(output / "formalization/snapshot.json")["schema"] == "mathesis.formalization-repository.v1", "formalization projection missing or incompatible")
     require(all(formalization_managed(p) for p in tree_files(output / "formalization")), "unmanaged formalization output")
-    write(stage / "plan.json", {"original_mapping": mapping, "mapping": planned, "new_works": sorted(set(planned) - set(mapping)), "allow_list": allowed, "config": config})
+    book_works = config.get("book_works", [])
+    require(isinstance(book_works, list) and all(isinstance(w, str) for w in book_works), "book_works must be a list of work ids")
+    collected = sorted(set(planned) - set(book_works)) if publication == "collection" else []
+    write(stage / "plan.json", {"original_mapping": mapping, "mapping": planned, "new_works": sorted(set(planned) - set(mapping)), "collection_works": collected, "allow_list": allowed, "config": config})
+    # Archive an already public paper directly. Exposition and proof jobs do not
+    # gate collection; only the selected public version and frozen files do.
+    for work in collected:
+        row = selected[work]
+        url = config["api_base"].rstrip("/") + "/api/v1/collected-papers/" + urllib.parse.quote(work, safe="") + "?version=" + str(row["current_version"])
+        request = urllib.request.Request(url, headers={"User-Agent": "mathesis-papers-publisher", "Accept": "application/json"})
+        with urllib.request.build_opener(NoRedirect()).open(request, timeout=30) as response:
+            raw = response.read(8 * 1024 * 1024 + 1)
+            require(len(raw) <= 8 * 1024 * 1024, "public paper detail exceeds 8 MiB")
+            detail = json.loads(raw)
+        collection.prepare(output / "papers" / planned[work], detail, stage / "papers" / planned[work], config["api_base"])
     # Pin a template snapshot and prepare every fill/check locally before the first write.
     template = stage / "template"
     require(re.fullmatch(r"[a-f0-9]{40}", config["template_commit"]) is not None, "template commit must be a full SHA")
@@ -242,7 +289,7 @@ def prepare(binary, source, stage):
     run("git", "checkout", "--detach", config["template_commit"], cwd=template)
     checklist = (template / "docs/layer-mathesis/PREPARATION_CHECKLIST.md").read_text()
     (stage / "checklist.md").write_text(checklist)
-    for work in read(stage / "plan.json")["new_works"]:
+    for work in sorted(set(read(stage / "plan.json")["new_works"]) - set(collected)):
         repo = planned[work]
         dest = stage / "papers" / repo
         # Archive only committed template bytes; .git and task caches never enter a paper.
@@ -289,12 +336,13 @@ def apply(api, source, stage):
     current_cname = states["mathesis-papers.github.io"][3].get("CNAME")
     if current_cname:
         require(api.blob("mathesis-papers.github.io", current_cname).strip() == b"papers.trureturing.org", "remote CNAME differs; refusing replacement")
-    for work in plan["new_works"]:
+    for work in sorted(set(plan["new_works"]) | set(plan.get("collection_works", []))):
         repo = plan["mapping"][work]
         info = api.repo(repo, missing=True)
         created = info is None
         if created:
-            info = api.call("POST", f"/repos/{ORG}/paper-template/generate", {"owner": ORG, "name": repo, "private": False, "include_all_branches": False})
+            title = read(stage / "papers" / repo / "paper.json")["work"].get("title", work)
+            info = api.call("POST", f"/repos/{ORG}/paper-template/generate", {"owner": ORG, "name": repo, "description": title[:350], "private": False, "include_all_branches": False})
         require(not info.get("private") and not info.get("archived"), "paper repository must be public and active")
         # Template generation can take a few seconds to expose its default branch.
         for attempt in range(6):
@@ -309,17 +357,38 @@ def apply(api, source, stage):
         if "paper.json" in entries:
             remote = json.loads(api.blob(repo, entries["paper.json"]))["work"]
             require(remote["work"] == work and remote["repository_name"] == repo, "existing paper belongs to a different work")
-            require(".mathesis/book.json" in entries and ".mathesis/generated.json" in entries, "existing paper import incomplete; review required")
+            require(".mathesis/generated.json" in entries, "existing paper import incomplete; review required")
+            if work in plan.get("collection_works", []):
+                marker = entries.get(collection.MARKER)
+                require(marker is not None, "existing book cannot be replaced by a collection projection")
+                previous = json.loads(api.blob(repo, marker))
+                require(previous["schema"] == collection.SCHEMA and previous["work"] == work, "collection ownership differs")
+                require(set(previous["git_blobs"]) == set(previous["sha256"]), "collection ownership inventory differs")
+                for path, expected_hash in previous["sha256"].items():
+                    entry = entries.get(path)
+                    require(entry is not None and entry["sha"] == previous["git_blobs"][path],
+                            f"collection file edited outside publisher: {repo}/{path}")
+            else:
+                require(".mathesis/book.json" in entries, "existing paper book import incomplete; review required")
         else:
             require(created or info.get("template_repository", {}).get("full_name") == ORG + "/paper-template", "existing unpopulated repository is not from paper-template; review required")
         # Enable after provenance/identity checks and before the initialization commit.
         api.pages(repo, "workflow")
-        if "paper.json" not in entries:
+        is_collection = work in plan.get("collection_works", [])
+        if "paper.json" not in entries or is_collection:
             local = tree_files(stage / "papers" / repo)
             # Import the pinned template too; this makes template-main drift harmless.
             modes = {p: file_mode(stage / "papers" / repo / p) for p in local}
-            api.sync(repo, local, lambda p: True, "Initialize Mathesis paper " + work, state, modes)
-        api.issue(repo, (stage / "checklist.md").read_text())
+            if "paper.json" not in entries:
+                managed = lambda p: True
+            else:
+                previous_paths = set(previous["sha256"]) | {collection.MARKER}
+                # Earlier immutable version directories remain available. Files
+                # outside this publisher's ownership are never removed.
+                managed = lambda p: p in local or (p in previous_paths and not p.startswith("versions/"))
+            api.sync(repo, local, managed, "Publish Mathesis paper " + work, state, modes)
+        if not is_collection:
+            api.issue(repo, (stage / "checklist.md").read_text())
     api.sync("formalization", formalization_files, formalization_managed, "Refresh Mathesis formalization projection", states["formalization"])
     api.sync(".github", {"profile/README.md": (output / "profile/README.md").read_bytes()}, lambda p: p == "profile/README.md", "Refresh Mathesis organization profile", states[".github"])
     site_files = tree_files(output / "site")

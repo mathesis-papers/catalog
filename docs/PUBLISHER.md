@@ -30,8 +30,8 @@ binary and tests the publisher against a local fake API. `prepare` then:
 1. Snapshots all anonymous public Mathesis pages, fetches frozen bytes, renders
    and checks the catalog.
 2. Combines durable `repositories.json` with eligible work ids explicitly listed
-   in `publish.json`. The initial allow-list contains only the already live
-   Chen–Chen work; its durable mapping is present, so it is never reinitialized.
+   in `publish.json`. The reviewed allow-list contains the 39 public collected works.
+   Existing durable mappings are reused without renaming repositories.
 3. Fetches mapped repository manifests anonymously from
    `https://papers.trureturing.org/<repo>/mathesis-materials.json`. A 404 means
    no materials yet. Other HTTP, malformed, identity or version errors abort.
@@ -70,10 +70,10 @@ already filled repositories and does not create another issue or overwrite
 human content. Ref updates are never forced; a concurrent human push causes a
 failure and the next run recomputes from fresh heads.
 
-The publisher does not refresh the frozen projection inside an existing paper,
-create accepted-record repositories, deposit archives, register DOIs, write the
-Mathesis server or generate research content. New versions in an existing
-paper require a reviewed content/projection update. The archive index contains
+In book mode the publisher preserves existing authored content. Collection
+mode refreshes frozen projections with the ownership and version protections
+below. Neither mode creates accepted-record repositories, deposits archives,
+registers DOIs, writes the Mathesis server or generates research content. The archive index contains
 only already published exact-version DOIs and follows `mathesis.archive-index.v1`.
 Material output follows the fields documented in the pinned SDK and layer.
 
@@ -165,3 +165,48 @@ before any authenticated write.
 Local verification also covers formalization sync, unchanged reruns, stale
 source cleanup, preserved unrelated files/workflows, stage tampering and missing
 or private formalization repositories failing before any write.
+
+## Independent collection of the existing corpus
+
+`paper_publication: "collection"` in `publisher.json` publishes already public,
+CC-BY-4.0 collected papers directly. `publish.json` explicitly authorizes the
+39 currently collected works. `book_works` preserves the existing Chen–Chen
+reading project; its authored content and publication workflow remain intact.
+New collection repositories still originate from `paper-template`, but their
+first publisher commit contains only the frozen paper projection, public
+reading pages, versioned originals and a small static Pages workflow. They do
+not wait for book conversion, statement comparisons, CMA or proof jobs.
+
+Before any writes, prepare reads each exact public version anonymously and
+checks its work/version against the SDK projection. Only existing English and
+Chinese explanations are copied. Missing exposition leaves the abstract and
+paper available, without an invented reading. Static pages expose authors,
+abstract, PDF, source, citation, an existing DOI and pinned Lean source when
+available. The material manifest advertises only actual readings. The regular
+publisher discovers these manifests after Pages deployment.
+
+The `.mathesis/collection.json` ownership marker binds generated paths to
+SHA-256 values and Git blobs. An existing collection is refreshed only when
+its generated files still match the previous ownership inventory. Human edits
+cause an explicit conflict; unrelated files are preserved. Old `versions/vN/`
+directories are retained when the current version advances. A populated book
+without this marker is never converted or overwritten. New and updated
+collections use the same stage seal and non-forced commit/ref transactions.
+Collection creates no review, proof receipt or leaderboard credit, and needs
+no Issues permission. The original book publication mode remains available.
+
+## Stable paper repository identifiers
+
+`repository_naming: "objectid-v1"` allocates new repository names as 24 lowercase
+hexadecimal characters compatible with BSON ObjectId. The first four bytes are
+the earliest available publication timestamp; the remaining eight are a stable,
+namespaced hash of the work identity. Thus names sort by publication second,
+independent papers in the same second remain distinct, and a partially applied
+batch can resume deterministically. No MongoDB server or package is required.
+The actual creation order within one second is not encoded.
+
+The publisher persists each work-to-repository mapping in `repositories.json`.
+That mapping takes precedence over all future title, version and date changes.
+Existing repositories, including Chen–Chen, retain their published URLs. Paper
+titles appear in repository descriptions and on the academic reading pages.
+Missing or invalid dates and any identifier collision fail staging before writes.
