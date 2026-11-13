@@ -1,7 +1,11 @@
 {
   "doi": "10.5281/zenodo.23920557",
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/6aec38570572f4d53e4f1556/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/6aec38570572f4d53e4f1556/en/",
+    "zh": "https://papers.trureturing.org/6aec38570572f4d53e4f1556/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/6aec38570572f4d53e4f1556",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/6aec38570572f4d53e4f1556/",
