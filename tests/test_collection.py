@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest import mock
 
 from test_publisher import PublisherTests, WORK, publisher
 
@@ -113,6 +114,22 @@ class CollectionPublishing(PublisherTests):
         writes = len(self.fake.writes)
         self.apply()
         self.assertEqual(len(self.fake.writes), writes)
+
+    def test_template_initialization_waits_for_empty_repository_without_recreating_it(self):
+        self.make_collection()
+        request = self.fake.request
+        pending = [409, 404]
+
+        def initialize(method, path, body):
+            if method == "GET" and path == f"/repos/mathesis-papers/{WORK}/git/ref/heads/main" and pending:
+                return pending.pop(0), {}
+            return request(method, path, body)
+
+        with mock.patch.object(self.fake, "request", side_effect=initialize), mock.patch.object(publisher.time, "sleep") as wait:
+            self.apply()
+        self.assertEqual(self.fake.creations, 1)
+        self.assertEqual(wait.call_count, 2)
+        self.assertIn("paper.json", self.fake.files(WORK))
 
     def test_new_version_retains_history_and_unmanaged_material(self):
         self.make_collection()
