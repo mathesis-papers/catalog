@@ -6,6 +6,7 @@ update per repository), never force-pushes, and resumes incomplete paper setup.
 """
 import argparse
 import base64
+from datetime import datetime
 import hashlib
 import json
 import os
@@ -47,6 +48,37 @@ def write(path, value):
 def require(condition, message):
     if not condition:
         raise ValueError(message)
+
+
+def plan_repositories(mapping, allowed, selected, naming="slug"):
+    require(naming in ("slug", "objectid-v1"), "unknown repository naming scheme")
+    planned = dict(mapping)
+    for work in allowed:
+        if work in planned:
+            continue  # Published identifiers never change with titles or versions.
+        row = selected[work]
+        if naming == "slug":
+            planned[work] = row["repository_name"]
+            continue
+        dates = [v.get("published_on") for v in row.get("versions", [])]
+        dates.append(row.get("published_on"))
+        timestamps = []
+        for value in dates:
+            if value:
+                published = datetime.fromisoformat(value.replace("Z", "+00:00"))
+                require(published.tzinfo is not None, "publication date needs a timezone")
+                timestamps.append(int(published.timestamp()))
+        require(timestamps, f"publication date missing for repository identifier: {work}")
+        timestamp = min(timestamps)
+        require(0 <= timestamp <= 0xffffffff, "publication date outside ObjectId range")
+        # BSON ObjectId-compatible: four timestamp bytes plus eight stable,
+        # namespaced identity bytes. Deterministic allocation also resumes a
+        # partially published batch without creating duplicate repositories.
+        identity = hashlib.sha256(("mathesis-paper-repository:v1:" + work).encode()).hexdigest()[:16]
+        planned[work] = f"{timestamp:08x}" + identity
+    require(len({r.lower() for r in planned.values()}) == len(planned), "repository mapping collision")
+    require(all(r.lower() not in ("catalog", ".github", "paper-template", "mathesis-papers.github.io", "formalization", ".", "..") for r in planned.values()), "reserved repository name")
+    return planned
 
 
 def run(*args, cwd=None):
@@ -225,11 +257,7 @@ def prepare(binary, source, stage):
     selected = {w["work"]: w for w in works if w["publication"] == "public"}
     for work in allowed:
         require(work in selected, f"allow-listed work is absent or out of scope: {work}")
-    planned = dict(mapping)
-    for work in allowed:
-        planned.setdefault(work, selected[work]["repository_name"])
-    require(len({r.lower() for r in planned.values()}) == len(planned), "repository mapping collision")
-    require(all(r.lower() not in ("catalog", ".github", "paper-template", "mathesis-papers.github.io", "formalization", ".", "..") for r in planned.values()), "reserved repository name")
+    planned = plan_repositories(mapping, allowed, selected, config.get("repository_naming", "slug"))
     write(stage / "planned-repositories.json", planned)
     material_downloads(mapping, stage / "materials")
     args[-1] = stage / "planned-repositories.json"
@@ -313,7 +341,8 @@ def apply(api, source, stage):
         info = api.repo(repo, missing=True)
         created = info is None
         if created:
-            info = api.call("POST", f"/repos/{ORG}/paper-template/generate", {"owner": ORG, "name": repo, "private": False, "include_all_branches": False})
+            title = read(stage / "papers" / repo / "paper.json")["work"].get("title", work)
+            info = api.call("POST", f"/repos/{ORG}/paper-template/generate", {"owner": ORG, "name": repo, "description": title[:350], "private": False, "include_all_branches": False})
         require(not info.get("private") and not info.get("archived"), "paper repository must be public and active")
         # Template generation can take a few seconds to expose its default branch.
         for attempt in range(6):

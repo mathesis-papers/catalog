@@ -10,6 +10,33 @@ from test_publisher import PublisherTests, WORK, publisher
 collection = publisher.collection
 
 
+class RepositoryIdentifiers(unittest.TestCase):
+    def test_identifiers_sort_by_publication_and_remain_unique_for_simultaneous_papers(self):
+        rows = {work: {"published_on": date, "title": "Same title"} for work, date in (
+            ("later", "2026-11-10T00:00:01Z"), ("first", "2026-11-10T00:00:00Z"),
+            ("simultaneous", "2026-11-10T00:00:00Z"))}
+        planned = publisher.plan_repositories({}, list(rows), rows, "objectid-v1")
+        self.assertEqual(len(set(planned.values())), 3)
+        for name in planned.values():
+            self.assertRegex(name, r"^[a-f0-9]{24}$")
+        self.assertLess(planned["first"], planned["later"])
+        self.assertEqual(planned, publisher.plan_repositories({}, list(reversed(rows)), rows, "objectid-v1"))
+
+    def test_existing_mapping_survives_new_version_and_legacy_names_are_preserved(self):
+        rows = {"work": {"published_on": "2026-11-10T00:00:00Z"}}
+        mapping = publisher.plan_repositories({}, ["work"], rows, "objectid-v1")
+        rows["work"]["published_on"] = "2026-11-14T00:00:00Z"
+        self.assertEqual(publisher.plan_repositories(mapping, ["work"], rows, "objectid-v1"), mapping)
+        self.assertEqual(publisher.plan_repositories({"work": "existing-paper"}, ["work"], rows, "objectid-v1"), {"work": "existing-paper"})
+        rows["work"]["versions"] = [{"published_on": "2026-11-10T00:00:00Z"}]
+        self.assertEqual(publisher.plan_repositories({}, ["work"], rows, "objectid-v1"), mapping)
+
+    def test_invalid_or_missing_dates_cannot_allocate_an_identifier(self):
+        for value in (None, "2026-11-10T00:00:00", "1960-01-01T00:00:00Z"):
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                publisher.plan_repositories({}, ["work"], {"work": {"published_on": value}}, "objectid-v1")
+
+
 class CollectionRendering(unittest.TestCase):
     def test_existing_readings_files_and_attribution_are_preserved(self):
         with tempfile.TemporaryDirectory() as directory:

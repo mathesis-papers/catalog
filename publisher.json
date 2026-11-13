@@ -4,6 +4,7 @@
   "template_commit": "11468fdb359ade61549e89d76d40af85106bc788",
   "api_base": "https://mathesis-omega-research.apps.chrono-ai.fun",
   "paper_publication": "collection",
+  "repository_naming": "objectid-v1",
   "book_works": [
     "chen-chen-step-m-eulerian-parity-positivity"
   ]
