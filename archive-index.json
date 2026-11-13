@@ -1,0 +1,228 @@
+{
+  "entries": [
+    {
+      "doi": "10.5281/zenodo.23919066",
+      "id": "alikhani-griswold-2026-connected-minus-four-family",
+      "kind": "collected",
+      "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.23884883",
+      "id": "b164660-chebfloor",
+      "kind": "collected",
+      "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.23931731",
+      "id": "bajnok-beatty-original-conjecture-4-1",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23971279",
+      "id": "bala295462",
+      "kind": "collected",
+      "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.23885951",
+      "id": "bu-gu-jaffe-2025-mixed-state-inverse-sumset",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23957560",
+      "id": "chen-chen-step-m-eulerian-parity-positivity",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23935000",
+      "id": "chiral-event-parity-minimality",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23904464",
+      "id": "consiglio-apollaro-wiesniak-2022-xmems-css-shape",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23884885",
+      "id": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance",
+      "kind": "collected",
+      "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.23920557",
+      "id": "ggps2025",
+      "kind": "collected",
+      "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.23903301",
+      "id": "hardin-barker-a209723-edge-differences",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23904468",
+      "id": "hexagon-perp-line-counterexamples",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23885961",
+      "id": "huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound",
+      "kind": "collected",
+      "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.23935004",
+      "id": "huang-stoica-xia-zhong-2020-tree-equations-nonconstant",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23904476",
+      "id": "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing",
+      "kind": "collected",
+      "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.23885965",
+      "id": "kang-jager-2026-universal-permutative-lift-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23957573",
+      "id": "kmvq31-sl3-obstruction",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23904482",
+      "id": "koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.23920568",
+      "id": "koljancic-oblak-2026-question-5-11-even-loop-path",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23920583",
+      "id": "malkoun-2026-mo512579-jordan-elementary",
+      "kind": "collected",
+      "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.23884890",
+      "id": "mathar-a027182-closed-form",
+      "kind": "collected",
+      "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.23931738",
+      "id": "mathoverflow-469781-weighted-orthogonal-minors",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23920598",
+      "id": "mathoverflow-513954-singular-diagonal-downdate-inertia",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23957584",
+      "id": "oeis-a189733-curtz-denominator-conjecture",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23903309",
+      "id": "oeis-a378495-difference-conjectures",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.23957586",
+      "id": "oeis-a381423-hermite-differences",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.23885969",
+      "id": "oeis-a391810-alternating-jacobsthal",
+      "kind": "collected",
+      "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.23885975",
+      "id": "oeis-a396659-edge-collision-ratio",
+      "kind": "collected",
+      "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.23927424",
+      "id": "okada-2020-premerged-determinant-nonpalindromic",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23920610",
+      "id": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23903313",
+      "id": "pozsgay-wanless-nonlinear-classical-factors",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23919071",
+      "id": "radsarar-anando-2026-apollonian-second-eigenvalue",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23927428",
+      "id": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23903316",
+      "id": "tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound",
+      "kind": "collected",
+      "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.23885984",
+      "id": "user3-2026-orthogonal-absolute-product-minimum",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23884901",
+      "id": "wang-conjecture326",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23919079",
+      "id": "xu-et-al-2023-noisy-ghz-witness-bound-gap",
+      "kind": "collected",
+      "version": 1
+    }
+  ],
+  "generated_at": "2026-11-13T07:27:11.328211193Z",
+  "schema": "mathesis.archive-index.v1"
+}
