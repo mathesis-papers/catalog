@@ -30,9 +30,21 @@
       "pages": 1,
       "rows": 0
     },
+    "leaderboard/conjectures": {
+      "pages": 1,
+      "rows": 0
+    },
+    "leaderboard/formalizations": {
+      "pages": 1,
+      "rows": 0
+    },
     "papers": {
       "pages": 1,
       "rows": 0
+    },
+    "research-problems": {
+      "pages": 1,
+      "rows": 39
     }
   },
   "rows": {
@@ -43,5 +55,5 @@
     "catalog": "1",
     "snapshot": "1"
   },
-  "time": "2026-11-13T07:27:11.328211193Z"
+  "time": "2026-11-13T13:48:44.252851893Z"
 }
