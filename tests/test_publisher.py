@@ -31,6 +31,7 @@ class Fake:
         self.fail_issue = False
         for name, files in {"catalog": {"scripts/publish.py": b"owned", "publish.json": b"owned"},
                             ".github": {"other.txt": b"owned"},
+                            "formalization": {"notes/human.md": b"owned", "targets/stale/Target.lean": b"stale", ".github/workflows/human.yml": b"owned"},
                             "mathesis-papers.github.io": {"CNAME": b"papers.trureturing.org\n", ".github/workflows/pages.yml": b"owned", "doi/stale/index.html": b"old"}}.items():
             self.add_repo(name, files)
 
@@ -150,6 +151,9 @@ class PublisherTests(unittest.TestCase):
         publisher.write(self.source / "publisher.json", {"api_base":"https://mathesis-omega-research.apps.chrono-ai.fun"})
         publisher.write(self.stage / "plan.json", {"original_mapping": {}, "mapping": {WORK: WORK}, "new_works": [WORK], "allow_list": [WORK], "config": {"api_base":"https://mathesis-omega-research.apps.chrono-ai.fun"}})
         for path, data in {"output/site/CNAME": b"papers.trureturing.org\n", "output/site/index.html": b"index", "output/site/.nojekyll": b"", "output/site/doi/10.5281/zenodo.23957560/index.html": b"redirect",
+                           "output/formalization/README.md": b"projection", "output/formalization/.mathesis/generated.json": b"{}",
+                           "output/formalization/.github/workflows/check.yml": b"check",
+                           "output/formalization/curated/problem/Target.lean": b"exact public bytes",
                            "output/profile/README.md": b"profile", "output/catalog/repositories.json": json.dumps({WORK: WORK}).encode(),
                            "output/catalog/archive-index.json": b"{}", "checklist.md": b"- [ ] Prepare reading and media",
                            f"papers/{WORK}/README.md": b"filled", f"papers/{WORK}/paper.json": json.dumps({"work": {"work": WORK, "repository_name": WORK}}).encode(),
@@ -181,6 +185,10 @@ class PublisherTests(unittest.TestCase):
     def test_create_publish_repeat_and_preserve_unmanaged_files(self):
         self.apply()
         self.assertEqual(self.fake.creations, 1)
+        self.assertEqual(self.fake.files("formalization")["curated/problem/Target.lean"], b"exact public bytes")
+        self.assertEqual(self.fake.files("formalization")["notes/human.md"], b"owned")
+        self.assertIn(".github/workflows/human.yml", self.fake.files("formalization"))
+        self.assertNotIn("targets/stale/Target.lean", self.fake.files("formalization"))
         self.assertEqual(len(self.fake.issues[WORK]), 1)
         self.assertEqual(self.fake.pages[WORK]["build_type"], "workflow")
         self.assertEqual(self.fake.files("mathesis-papers.github.io")["CNAME"], b"papers.trureturing.org\n")
@@ -197,6 +205,27 @@ class PublisherTests(unittest.TestCase):
         count = len(self.fake.writes)
         self.apply()
         self.assertEqual(len(self.fake.writes), count)
+
+    def test_missing_or_private_formalization_repo_fails_before_writes(self):
+        self.fake.repos["formalization"]["private"] = True
+        with self.assertRaisesRegex(ValueError, "already exist, public and active"):
+            self.apply()
+        self.assertEqual(self.fake.writes, [])
+        del self.fake.repos["formalization"]
+        with self.assertRaisesRegex(RuntimeError, "404"):
+            self.apply()
+        self.assertEqual(self.fake.writes, [])
+
+    def test_formalization_tamper_is_sealed_and_unmanaged_output_refused(self):
+        (self.stage / "output/formalization/curated/problem/Target.lean").write_bytes(b"tamper")
+        with self.assertRaisesRegex(ValueError, "changed after validation"):
+            self.apply()
+        self.assertEqual(self.fake.writes, [])
+        (self.stage / "output/formalization/UNRELATED").write_bytes(b"unmanaged")
+        self.seal()
+        with self.assertRaisesRegex(ValueError, "invalid formalization tree"):
+            self.apply()
+        self.assertEqual(self.fake.writes, [])
 
     def test_recover_after_issue_failure_preserves_populated_book(self):
         self.fake.fail_issue = True

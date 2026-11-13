@@ -45,7 +45,7 @@ class PrepareIntegration(unittest.TestCase):
                 path = self.path.split("?", 1)[0]
                 if path == "/files/pdf": data = pdf
                 elif path == "/files/source": data = manuscript
-                elif path.endswith("/proofs"): data = b"[]"
+                elif path.endswith("/proofs") or path.startswith("/api/v1/leaderboard"): data = b"[]"
                 else: data = json.dumps({"items":[row] if path == "/api/v1/collected-papers" else [], "next_before":None}).encode()
                 self.send_response(200)
                 self.send_header("Content-Length", str(len(data)))

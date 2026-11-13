@@ -22,6 +22,13 @@ ORG = "mathesis-papers"
 SITE = "https://papers.trureturing.org"
 TITLE = "Prepare the reading, visualizations and slides"
 MARKER = "<!-- mathesis-publisher:prepare-materials:v1 -->"
+FORMALIZATION_FILES = {"README.md", "LEADERBOARD.md", "leaderboard.json", "snapshot.json", "lean-toolchain", "lakefile.toml", "lake-manifest.json", "mathesis-libraries.json", ".gitignore", ".mathesis/generated.json", ".github/workflows/check.yml", "scripts/check.py", "scripts/build.py"}
+
+
+def formalization_managed(path):
+    return path in FORMALIZATION_FILES or path.startswith(("targets/", "curated/", "proofs/", "disproofs/", "index/", "environment/", "ci/mathlib/"))
+
+
 CATALOG_FILES = {"README.md", "works.json", "nodes.json", "stats.json", "snapshot.json", "repositories.json", "archive-index.json"}
 
 
@@ -217,12 +224,16 @@ def prepare(binary, source, stage):
     for work in allowed:
         planned.setdefault(work, selected[work]["repository_name"])
     require(len({r.lower() for r in planned.values()}) == len(planned), "repository mapping collision")
-    require(all(r not in ("catalog", ".github", "paper-template", "mathesis-papers.github.io", ".", "..") for r in planned.values()), "reserved repository name")
+    require(all(r.lower() not in ("catalog", ".github", "paper-template", "mathesis-papers.github.io", "formalization", ".", "..") for r in planned.values()), "reserved repository name")
     write(stage / "planned-repositories.json", planned)
     material_downloads(mapping, stage / "materials")
     args[-1] = stage / "planned-repositories.json"
     run(*args, "--materials", stage / "materials")
     run(binary, "check", "--output", output)
+    # A source pin predating the formalization renderer must fail during staging.
+    run(sys.executable, output / "formalization/scripts/check.py")
+    require(read(output / "formalization/snapshot.json")["schema"] == "mathesis.formalization-repository.v1", "formalization projection missing or incompatible")
+    require(all(formalization_managed(p) for p in tree_files(output / "formalization")), "unmanaged formalization output")
     write(stage / "plan.json", {"original_mapping": mapping, "mapping": planned, "new_works": sorted(set(planned) - set(mapping)), "allow_list": allowed, "config": config})
     # Pin a template snapshot and prepare every fill/check locally before the first write.
     template = stage / "template"
@@ -262,7 +273,11 @@ def apply(api, source, stage):
     output = stage / "output"
     require((output / "site/CNAME").read_bytes() == b"papers.trureturing.org\n", "generated CNAME differs")
     # Read and validate all shared destination heads before the first write.
-    states = {name: api.state(name) for name in ("catalog", ".github", "mathesis-papers.github.io")}
+    states = {name: api.state(name) for name in ("catalog", ".github", "mathesis-papers.github.io", "formalization")}
+    formalization_info = api.repo("formalization")
+    require(not formalization_info.get("private") and not formalization_info.get("archived"), "formalization repository must already exist, public and active")
+    formalization_files = tree_files(output / "formalization")
+    require(".mathesis/generated.json" in formalization_files and all(formalization_managed(p) for p in formalization_files), "invalid formalization tree")
     for name in ("repositories.json", "publish.json", "publisher.json"):
         entry = states["catalog"][3].get(name)
         require(entry is not None, f"remote publisher control missing: {name}")
@@ -305,6 +320,7 @@ def apply(api, source, stage):
             modes = {p: file_mode(stage / "papers" / repo / p) for p in local}
             api.sync(repo, local, lambda p: True, "Initialize Mathesis paper " + work, state, modes)
         api.issue(repo, (stage / "checklist.md").read_text())
+    api.sync("formalization", formalization_files, formalization_managed, "Refresh Mathesis formalization projection", states["formalization"])
     api.sync(".github", {"profile/README.md": (output / "profile/README.md").read_bytes()}, lambda p: p == "profile/README.md", "Refresh Mathesis organization profile", states[".github"])
     site_files = tree_files(output / "site")
     api.sync("mathesis-papers.github.io", site_files, lambda p: p in {"index.html", "CNAME", ".nojekyll", "materials-index.json"} or p.startswith("doi/"), "Refresh Mathesis paper site", states["mathesis-papers.github.io"])

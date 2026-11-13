@@ -131,3 +131,42 @@ No push, PR, repository creation, App installation or authenticated request was
 performed in the local preparation. GitHub App installation access, branch
 protection compatibility, real token issuance, repository generation and Pages
 publication remain dispatcher checks.
+
+## Formalization content projection
+
+The updated SDK also emits `output/formalization/`. Prepare runs the SDK's
+complete output check and the generated `formalization/scripts/check.py`,
+requires schema `mathesis.formalization-repository.v1`, and seals its files with
+the same stage. The profile and org index link `mathesis-papers/formalization`.
+A paper mapping cannot use that reserved name.
+
+Apply requires that repository to **already exist**, public and active. Its
+head is read with the other shared destinations before any write. This publisher
+does not create it. The existing sync mechanism uses a single non-forced ref
+update per changed repository and makes no commit for an unchanged tree. It
+manages the generated root JSON/Markdown/Lake files, `.gitignore`,
+`.mathesis/generated.json`, `.github/workflows/check.yml`, the two generated
+scripts, and `targets/`, `curated/`, `proofs/`, `disproofs/`, `index/`,
+`environment/` and `ci/mathlib/`. Other files and workflows remain intact.
+Stale generated files in those namespaces are removed. An apply failure resumes
+on retry, under the existing organization-wide workflow concurrency.
+
+Mathesis remains the authority; the content repository is a projection. Exact
+sources and original verifier receipts are copied, and the public leaderboards
+are displayed without locally computing credit. CI checks integrity and compiles
+compatible target propositions with pinned Mathlib; it does not rebuild the
+prepared library, compile proof/disproof bundles or replace the independent
+Mathesis verifier. See the source checkout's `docs/FORMALIZATION_REPOSITORY.md`.
+
+Dispatcher handoff: this branch starts from `origin/main`. `publisher.json`
+currently retains the last published Mathesis commit
+`b275c9bca206bf6befa365f7b960b1b5290a60a9`; replace it with the actual reviewed
+formalization SDK commit after the dispatcher commits that worktree and makes
+that commit remotely reachable. The old pin intentionally fails formalization
+staging, before any authenticated write. No future SHA is invented. The local
+integration test used the actual updated SDK binary, local pinned template and
+local paper against a loopback fixture; no production apply was run.
+
+Local verification also covers formalization sync, unchanged reruns, stale
+source cleanup, preserved unrelated files/workflows, stage tampering and missing
+or private formalization repositories failing before any write.
