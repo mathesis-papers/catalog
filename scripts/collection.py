@@ -16,7 +16,9 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: paper-pages
+  # Reuse the inherited template's deployment group: its first build must
+  # finish before this paper, so it cannot later replace the published paper.
+  group: pages
   cancel-in-progress: false
 jobs:
   publish:
