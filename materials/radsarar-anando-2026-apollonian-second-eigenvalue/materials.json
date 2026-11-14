@@ -1,14 +1,14 @@
 {
   "doi": "10.5281/zenodo.23919071",
   "manifest_available": true,
-  "manifest_url": "https://papers.trureturing.org/6aec3851de92f716896248cd/mathesis-materials.json",
+  "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23919070/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/6aec3851de92f716896248cd/en/",
-    "zh": "https://papers.trureturing.org/6aec3851de92f716896248cd/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23919070/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23919070/zh/"
   },
-  "repository_url": "https://github.com/mathesis-papers/6aec3851de92f716896248cd",
+  "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23919070",
   "schema": "mathesis.catalog-materials.v1",
-  "site_url": "https://papers.trureturing.org/6aec3851de92f716896248cd/",
+  "site_url": "https://papers.trureturing.org/10.5281-zenodo.23919070/",
   "slides": [],
   "version": 2,
   "visualizations": [],

@@ -1,27 +1,27 @@
 {
   "doi": "10.5281/zenodo.23957560",
   "manifest_available": true,
-  "manifest_url": "https://papers.trureturing.org/chen-chen-step-m-eulerian-parity-positivity/mathesis-materials.json",
+  "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23957559/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/chen-chen-step-m-eulerian-parity-positivity/chen-chen-step-m-eulerian-parity-positivity/en/",
-    "zh": "https://papers.trureturing.org/chen-chen-step-m-eulerian-parity-positivity/chen-chen-step-m-eulerian-parity-positivity/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23957559/chen-chen-step-m-eulerian-parity-positivity/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23957559/chen-chen-step-m-eulerian-parity-positivity/zh/"
   },
-  "repository_url": "https://github.com/mathesis-papers/chen-chen-step-m-eulerian-parity-positivity",
+  "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23957559",
   "schema": "mathesis.catalog-materials.v1",
-  "site_url": "https://papers.trureturing.org/chen-chen-step-m-eulerian-parity-positivity/",
+  "site_url": "https://papers.trureturing.org/10.5281-zenodo.23957559/",
   "slides": [
     {
       "id": "seminar",
       "language": "en",
-      "notes_url": "https://papers.trureturing.org/chen-chen-step-m-eulerian-parity-positivity/chen-chen-step-m-eulerian-parity-positivity/slides/seminar/chen-chen-step-m-eulerian-parity-positivity-seminar-en-notes.pdf",
-      "pdf_url": "https://papers.trureturing.org/chen-chen-step-m-eulerian-parity-positivity/chen-chen-step-m-eulerian-parity-positivity/slides/seminar/chen-chen-step-m-eulerian-parity-positivity-seminar-en.pdf"
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23957559/chen-chen-step-m-eulerian-parity-positivity/slides/seminar/chen-chen-step-m-eulerian-parity-positivity-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23957559/chen-chen-step-m-eulerian-parity-positivity/slides/seminar/chen-chen-step-m-eulerian-parity-positivity-seminar-en.pdf"
     }
   ],
   "version": 2,
   "visualizations": [
     {
       "id": "step-triangle",
-      "url": "https://papers.trureturing.org/chen-chen-step-m-eulerian-parity-positivity/chen-chen-step-m-eulerian-parity-positivity/viz/step-triangle/"
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23957559/chen-chen-step-m-eulerian-parity-positivity/viz/step-triangle/"
     }
   ],
   "work": "chen-chen-step-m-eulerian-parity-positivity"
