@@ -30,6 +30,10 @@ in audience slides. Use the installed renderer and theme, not a second site.
 Keep execution, build and deployment bookkeeping in external run reports.
 Reader materials teach the mathematics, its scope and sources; use original
 theorem names and descriptive contribution links instead of internal claim ids.
+Explain formal evidence in mathematical terms: which statement is checked and
+which hypotheses or conclusions remain to formalize. Keep template badge rules,
+DOI-based formatting restrictions and comparison-field names out of the story,
+slides and narration; retain them in the external report or comparison record.
 
 Decide whether interaction teaches something specific. Record that decision
 and its reason in the external result report. Only build an interactive
