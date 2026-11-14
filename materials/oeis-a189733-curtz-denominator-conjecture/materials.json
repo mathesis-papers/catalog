@@ -1,5 +1,6 @@
 {
   "doi": "10.5281/zenodo.23957584",
+  "formalization_requests": [],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23957583/mathesis-materials.json",
   "reading": {
@@ -11,6 +12,7 @@
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23957583/",
   "slides": [],
   "version": 2,
+  "videos": [],
   "visualizations": [],
   "work": "oeis-a189733-curtz-denominator-conjecture"
 }

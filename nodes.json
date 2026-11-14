@@ -10997,6 +10997,293 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:ta-2025-problem-11-7-good-involution-bound-refutation:2:s1",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaGoodInvolutionBoundRefutation.lean"
+      },
+      "lineage": "collected:ta-2025-problem-11-7-good-involution-bound-refutation:s1",
+      "macros": {
+        "\\Aut": "\\operatorname{Aut}",
+        "\\Conj": "\\operatorname{Conj}",
+        "\\Good": "\\operatorname{Good}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "ta-2025-problem-11-7-good-involution-bound-refutation",
+      "scope": "in_scope",
+      "statement": "In $Q_8=\\{\\pm1,\\pm i,\\pm j,\\pm k\\}$, take $X=\\{i,-i,j,-j\\}$.\nThen $H=Q_8$, $|Z|=2$, $k=2$, and\n\\[\n|\\Good(\\Conj X)|=4=\\min(8,2^2),\\qquad |\\Aut(\\Conj X)|=8.\n\\]",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "An orbitwise equality criterion for Ta's Problem 11.7 (arXiv:2505.08090v5, p. 27): extensions of the Kamada–Oshiro (2009/2010) examples",
+      "toolchain": null,
+      "version": 2,
+      "work": "ta-2025-problem-11-7-good-involution-bound-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:ta-2025-problem-11-7-good-involution-bound-refutation:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaGoodInvolutionBoundRefutation.lean"
+      },
+      "lineage": "collected:ta-2025-problem-11-7-good-involution-bound-refutation:s2",
+      "macros": {
+        "\\Aut": "\\operatorname{Aut}",
+        "\\Conj": "\\operatorname{Conj}",
+        "\\Good": "\\operatorname{Good}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "ta-2025-problem-11-7-good-involution-bound-refutation",
+      "scope": "in_scope",
+      "statement": "In the above setting, assume $|Z|\\geq2$. Then\n\\[\n|\\Good(\\Conj X)|=|Z|^k\n\\quad\\Longleftrightarrow\\quad\nzO^{-1}=O\\quad\\text{for every }z\\in Z,\\ O\\in\\Omega.\n\\]\nWhenever these equivalent conditions hold, equality also holds in\n\\eqref{eq:bound}.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "An orbitwise equality criterion for Ta's Problem 11.7 (arXiv:2505.08090v5, p. 27): extensions of the Kamada–Oshiro (2009/2010) examples",
+      "toolchain": null,
+      "version": 2,
+      "work": "ta-2025-problem-11-7-good-involution-bound-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:ta-2025-problem-11-7-good-involution-bound-refutation:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaGoodInvolutionBoundRefutation.lean"
+      },
+      "lineage": "collected:ta-2025-problem-11-7-good-involution-bound-refutation:s3",
+      "macros": {
+        "\\Aut": "\\operatorname{Aut}",
+        "\\Conj": "\\operatorname{Conj}",
+        "\\Good": "\\operatorname{Good}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "ta-2025-problem-11-7-good-involution-bound-refutation",
+      "scope": "in_scope",
+      "statement": "A conjugation subquandle $X$ is inverse-closed if and only if\ninversion permutes its conjugation orbits; it need not fix each orbit.\nThus the orbitwise assertion in Ta's Remark 2.14 (v5, p.~6),\n``every element $x\\in X$ is conjugate to its inverse $x^{-1}$'',\ndoes not follow from inverse-closure alone.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "An orbitwise equality criterion for Ta's Problem 11.7 (arXiv:2505.08090v5, p. 27): extensions of the Kamada–Oshiro (2009/2010) examples",
+      "toolchain": null,
+      "version": 2,
+      "work": "ta-2025-problem-11-7-good-involution-bound-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:ta-2025-problem-11-7-good-involution-bound-refutation:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaGoodInvolutionBoundRefutation.lean"
+      },
+      "lineage": "collected:ta-2025-problem-11-7-good-involution-bound-refutation:s4",
+      "macros": {
+        "\\Aut": "\\operatorname{Aut}",
+        "\\Conj": "\\operatorname{Conj}",
+        "\\Good": "\\operatorname{Good}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "ta-2025-problem-11-7-good-involution-bound-refutation",
+      "scope": "in_scope",
+      "statement": "If the center term is attained, then $X\\cap Z=\\varnothing$,\n$Z\\subseteq[H,H]$, the abelianization of $H$ has exponent at most two,\nand $|Z|$ divides every orbit size. In particular $|Z|^2$ divides $|H|$.\nIf $X$ meets the center, the center-term inequality is strict.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "An orbitwise equality criterion for Ta's Problem 11.7 (arXiv:2505.08090v5, p. 27): extensions of the Kamada–Oshiro (2009/2010) examples",
+      "toolchain": null,
+      "version": 2,
+      "work": "ta-2025-problem-11-7-good-involution-bound-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:ta-2025-problem-11-7-good-involution-bound-refutation:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaGoodInvolutionBoundRefutation.lean"
+      },
+      "lineage": "collected:ta-2025-problem-11-7-good-involution-bound-refutation:s5",
+      "macros": {
+        "\\Aut": "\\operatorname{Aut}",
+        "\\Conj": "\\operatorname{Conj}",
+        "\\Good": "\\operatorname{Good}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "ta-2025-problem-11-7-good-involution-bound-refutation",
+      "scope": "in_scope",
+      "statement": "Let $S=Q_8\\setminus\\{1,-1\\}$, $H=Q_8^d$ and $X=S^d$ for $d\\geq1$.\nThen $X$ generates $H$, $|Z(H)|=2^d$, $|X/H|=3^d$, and\n\\[\n|\\Good(\\Conj X)|=2^{d3^d}\n=\\min\\bigl(|\\Aut(\\Conj X)|,|Z(H)|^{|X/H|}\\bigr).\n\\]",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "An orbitwise equality criterion for Ta's Problem 11.7 (arXiv:2505.08090v5, p. 27): extensions of the Kamada–Oshiro (2009/2010) examples",
+      "toolchain": null,
+      "version": 2,
+      "work": "ta-2025-problem-11-7-good-involution-bound-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:ta-2025-problem-11-7-good-involution-bound-refutation:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaGoodInvolutionBoundRefutation.lean"
+      },
+      "lineage": "collected:ta-2025-problem-11-7-good-involution-bound-refutation:s6",
+      "macros": {
+        "\\Aut": "\\operatorname{Aut}",
+        "\\Conj": "\\operatorname{Conj}",
+        "\\Good": "\\operatorname{Good}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "ta-2025-problem-11-7-good-involution-bound-refutation",
+      "scope": "in_scope",
+      "statement": "For both values of $t$, $X$ generates $H_{m,t}$, the center has order\ntwo, and $X$ has two conjugation orbits. Moreover\n\\[\n|\\Aut(\\Conj X)|=m\\varphi(m),\\qquad\n|\\Good(\\Conj X)|=\n\\begin{cases}4,&4\\mid m,\\\\2,&m\\equiv2\\pmod4,\\end{cases}\n\\]\nwhere $\\varphi$ is Euler's totient. Thus \\eqref{eq:bound} is attained\nexactly when $4\\mid m$.\nThe good-involution counts reprove Kamada--Oshiro~\\cite[Theorem~3.2]{ko}\nand Ta~\\cite[Corollary~10.4]{ta} for these realizations.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "An orbitwise equality criterion for Ta's Problem 11.7 (arXiv:2505.08090v5, p. 27): extensions of the Kamada–Oshiro (2009/2010) examples",
+      "toolchain": null,
+      "version": 2,
+      "work": "ta-2025-problem-11-7-good-involution-bound-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:ta-2025-problem-11-7-good-involution-bound-refutation:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaGoodInvolutionBoundRefutation.lean"
+      },
+      "lineage": "collected:ta-2025-problem-11-7-good-involution-bound-refutation:s7",
+      "macros": {
+        "\\Aut": "\\operatorname{Aut}",
+        "\\Conj": "\\operatorname{Conj}",
+        "\\Good": "\\operatorname{Good}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "ta-2025-problem-11-7-good-involution-bound-refutation",
+      "scope": "in_scope",
+      "statement": "For the reflection quandle $R_m$ above,\n\\[\n\\operatorname{Anti}R_m=\\Aut R_m\n=\\{a\\mapsto u+va:\\ u\\in\\mathbb Z/m\\mathbb Z,\\\nv\\in(\\mathbb Z/m\\mathbb Z)^\\times\\}.\n\\]\nThus $\\Aut R_m\\cup\\operatorname{Anti}R_m$ is the affine group\n$(\\mathbb Z/m\\mathbb Z)\\rtimes(\\mathbb Z/m\\mathbb Z)^\\times$.\nThere are three symmetric-isomorphism classes $(R_m,\\rho)$ when\n$4\\mid m$, and two when $m\\equiv2\\pmod4$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "An orbitwise equality criterion for Ta's Problem 11.7 (arXiv:2505.08090v5, p. 27): extensions of the Kamada–Oshiro (2009/2010) examples",
+      "toolchain": null,
+      "version": 2,
+      "work": "ta-2025-problem-11-7-good-involution-bound-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound:1:s1",
       "kind": "paper",
       "label": "Theorem",

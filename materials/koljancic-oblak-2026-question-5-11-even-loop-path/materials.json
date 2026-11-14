@@ -1,5 +1,6 @@
 {
   "doi": "10.5281/zenodo.23920568",
+  "formalization_requests": [],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23920567/mathesis-materials.json",
   "reading": {
@@ -11,6 +12,7 @@
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23920567/",
   "slides": [],
   "version": 2,
+  "videos": [],
   "visualizations": [],
   "work": "koljancic-oblak-2026-question-5-11-even-loop-path"
 }

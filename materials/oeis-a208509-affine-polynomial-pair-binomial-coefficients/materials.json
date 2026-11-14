@@ -1,5 +1,6 @@
 {
   "doi": null,
+  "formalization_requests": [],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/oeis-a208509-affine-polynomial-pair-binomial-coefficients/mathesis-materials.json",
   "reading": {},
@@ -8,6 +9,7 @@
   "site_url": "https://papers.trureturing.org/oeis-a208509-affine-polynomial-pair-binomial-coefficients/",
   "slides": [],
   "version": 2,
+  "videos": [],
   "visualizations": [],
   "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
 }

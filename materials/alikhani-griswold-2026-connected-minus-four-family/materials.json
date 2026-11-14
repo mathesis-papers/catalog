@@ -1,5 +1,6 @@
 {
   "doi": "10.5281/zenodo.23919066",
+  "formalization_requests": [],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23919065/mathesis-materials.json",
   "reading": {
@@ -11,6 +12,7 @@
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23919065/",
   "slides": [],
   "version": 1,
+  "videos": [],
   "visualizations": [],
   "work": "alikhani-griswold-2026-connected-minus-four-family"
 }

@@ -1,5 +1,6 @@
 {
   "doi": "10.5281/zenodo.23885969",
+  "formalization_requests": [],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23885968/mathesis-materials.json",
   "reading": {
@@ -11,6 +12,7 @@
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23885968/",
   "slides": [],
   "version": 4,
+  "videos": [],
   "visualizations": [],
   "work": "oeis-a391810-alternating-jacobsthal"
 }

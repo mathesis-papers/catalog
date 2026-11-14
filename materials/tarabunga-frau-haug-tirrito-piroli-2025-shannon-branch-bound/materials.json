@@ -1,5 +1,6 @@
 {
   "doi": "10.5281/zenodo.23903316",
+  "formalization_requests": [],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23903315/mathesis-materials.json",
   "reading": {
@@ -11,6 +12,7 @@
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23903315/",
   "slides": [],
   "version": 1,
+  "videos": [],
   "visualizations": [],
   "work": "tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound"
 }

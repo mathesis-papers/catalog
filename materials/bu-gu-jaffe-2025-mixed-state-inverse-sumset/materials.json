@@ -1,5 +1,6 @@
 {
   "doi": "10.5281/zenodo.23885951",
+  "formalization_requests": [],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23885950/mathesis-materials.json",
   "reading": {
@@ -11,6 +12,7 @@
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23885950/",
   "slides": [],
   "version": 2,
+  "videos": [],
   "visualizations": [],
   "work": "bu-gu-jaffe-2025-mixed-state-inverse-sumset"
 }

@@ -1,5 +1,6 @@
 {
   "doi": "10.5281/zenodo.23935004",
+  "formalization_requests": [],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23935003/mathesis-materials.json",
   "reading": {
@@ -11,6 +12,7 @@
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23935003/",
   "slides": [],
   "version": 2,
+  "videos": [],
   "visualizations": [],
   "work": "huang-stoica-xia-zhong-2020-tree-equations-nonconstant"
 }

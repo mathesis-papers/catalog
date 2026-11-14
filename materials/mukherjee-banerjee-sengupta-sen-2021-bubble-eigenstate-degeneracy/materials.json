@@ -1,5 +1,6 @@
 {
   "doi": null,
+  "formalization_requests": [],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/mathesis-materials.json",
   "reading": {},
@@ -8,6 +9,7 @@
   "site_url": "https://papers.trureturing.org/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/",
   "slides": [],
   "version": 3,
+  "videos": [],
   "visualizations": [],
   "work": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy"
 }

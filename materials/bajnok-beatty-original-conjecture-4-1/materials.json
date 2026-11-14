@@ -1,5 +1,6 @@
 {
   "doi": "10.5281/zenodo.23931731",
+  "formalization_requests": [],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23931730/mathesis-materials.json",
   "reading": {
@@ -11,6 +12,7 @@
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23931730/",
   "slides": [],
   "version": 2,
+  "videos": [],
   "visualizations": [],
   "work": "bajnok-beatty-original-conjecture-4-1"
 }

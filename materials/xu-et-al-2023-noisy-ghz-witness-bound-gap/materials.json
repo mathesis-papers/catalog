@@ -1,5 +1,6 @@
 {
   "doi": "10.5281/zenodo.23919079",
+  "formalization_requests": [],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23919078/mathesis-materials.json",
   "reading": {
@@ -11,6 +12,7 @@
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23919078/",
   "slides": [],
   "version": 1,
+  "videos": [],
   "visualizations": [],
   "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
 }

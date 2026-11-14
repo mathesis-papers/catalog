@@ -1,5 +1,6 @@
 {
   "doi": "10.5281/zenodo.23957560",
+  "formalization_requests": [],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23957559/mathesis-materials.json",
   "reading": {
@@ -18,6 +19,7 @@
     }
   ],
   "version": 2,
+  "videos": [],
   "visualizations": [
     {
       "id": "step-triangle",

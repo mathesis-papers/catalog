@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-14T18:28:54.097005626Z`.
+Snapshot: `2026-11-14T19:05:39.780168205Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -48,6 +48,7 @@ Snapshot: `2026-11-14T18:28:54.097005626Z`.
 | [MathOverflow 516405, revision 1: the second adjacency eigenvalue of Apollonian networks and the fixed-rank extreme spectrum](https://github.com/mathesis-papers/10.5281-zenodo.23919070) | 2 | [DOI](https://doi.org/10.5281/zenodo.23919071) | en, zh | 0 / 0 / 0 | 5 no target yet |
 | [A cubic counterexample at Schnell–Ketzmerick–Eckardt (2018, Sec. V, p. 11, Eq. (55)), and an extension of their Ohmic bound](https://github.com/mathesis-papers/schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c](https://github.com/mathesis-papers/10.5281-zenodo.23927427) | 2 | [DOI](https://doi.org/10.5281/zenodo.23927428) | en, zh | 0 / 0 / 0 | 10 no target yet |
+| [An orbitwise equality criterion for Ta's Problem 11.7 (arXiv:2505.08090v5, p. 27): extensions of the Kamada–Oshiro (2009/2010) examples](https://github.com/mathesis-papers/ta-2025-problem-11-7-good-involution-bound-refutation) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [A counterexample to the Shannon conjecture following Eq. (69) in Tarabunga et al., Section V.C](https://github.com/mathesis-papers/10.5281-zenodo.23903315) | 1 | [DOI](https://doi.org/10.5281/zenodo.23903316) | en, zh | 0 / 0 / 0 | 7 no target yet |
 | [Resolving User3's orthogonal absolute-product question: minimum and minimizers](https://github.com/mathesis-papers/10.5281-zenodo.23885983) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885984) | en, zh | 0 / 0 / 0 | 4 no target yet |
 | [Counterexamples to Wang's Conjectures 3.26 and 5.3 on semigroup algebras](https://github.com/mathesis-papers/10.5281-zenodo.23884900) | 2 | [DOI](https://doi.org/10.5281/zenodo.23884901) | en, zh | 0 / 0 / 0 | 5 no target yet |

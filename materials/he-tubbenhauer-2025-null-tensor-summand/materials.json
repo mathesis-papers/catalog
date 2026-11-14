@@ -1,5 +1,6 @@
 {
   "doi": null,
+  "formalization_requests": [],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/he-tubbenhauer-2025-null-tensor-summand/mathesis-materials.json",
   "reading": {},
@@ -8,6 +9,7 @@
   "site_url": "https://papers.trureturing.org/he-tubbenhauer-2025-null-tensor-summand/",
   "slides": [],
   "version": 2,
+  "videos": [],
   "visualizations": [],
   "work": "he-tubbenhauer-2025-null-tensor-summand"
 }
