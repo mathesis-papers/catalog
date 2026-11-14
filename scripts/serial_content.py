@@ -310,7 +310,8 @@ def validate_run(repo, run, build=False):
             raise ValueError("rendered output changed or lacks a build binding; rebuild the existing products without another model call")
     env = dict(os.environ, PATH=str(repo / ".venv/bin") + os.pathsep + os.environ.get("PATH", ""))
     mapping = read(repo / ".mathesis/book.json")
-    checks = [[sys.executable, "docs/layer-mathesis/scripts/paper.py", "check", "--complete"], ["./tbook", "check"]]
+    checks = [[sys.executable, "docs/layer-mathesis/scripts/paper.py", "front"]] if build else []
+    checks.extend([[sys.executable, "docs/layer-mathesis/scripts/paper.py", "check", "--complete"], ["./tbook", "check"]])
     if build:
         films = list((repo / "books" / mapping["book"] / "films").glob("*/film.json"))
         if films:
