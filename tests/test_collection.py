@@ -114,6 +114,16 @@ class CollectionRendering(unittest.TestCase):
         self.assertEqual(hashes["paper.pdf"], "pdf hash")
         self.assertEqual(hashes["paper.json"], hashlib.sha256(updated["paper.json"]).hexdigest())
         self.assertEqual(collection.relocate_book(updated, "old", "10.1234-paper"), updated)
+        # Repair a previous address migration without changing the public DOI URL.
+        migrated_paper = json.loads(updated["paper.json"])
+        migrated_paper["work"]["repository_name"] = "10.1234-paper"
+        migrated_bytes = json.dumps(migrated_paper).encode()
+        migrated_marker = json.loads(updated[".mathesis/generated.json"])
+        migrated_marker["sha256"]["paper.json"] = hashlib.sha256(migrated_bytes).hexdigest()
+        migrated = {"paper.json": migrated_bytes,
+                    ".mathesis/generated.json": json.dumps(migrated_marker).encode(),
+                    "site.toml": updated["site.toml"].replace(b'mathesis-papers/old', b'mathesis-papers/10.1234-paper')}
+        self.assertEqual(collection.relocate_book(migrated, "old", "10.1234-paper"), updated)
 
     def test_existing_readings_files_and_attribution_are_preserved(self):
         with tempfile.TemporaryDirectory() as directory:
