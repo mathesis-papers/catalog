@@ -371,7 +371,7 @@ def prepare(binary, source, stage):
         write(dest / "books" / work / "viz/visualizations.json", {"version": 1, "visualizations": []})
         run(sys.executable, dest / "docs/layer-mathesis/scripts/paper.py", "--root", dest, "check")
         run("./tbook", "check", "--offline", cwd=dest)
-    factory.render(output, planned, details, book_works)
+    factory.render(output, planned, details, set(planned) & set(selected) - set(collected))
     # Seal staged bytes, including plan and checklist. Apply rechecks before any mutation.
     write(stage / "seal.json", seal_files(stage))
     print("Prepared and checked; no authenticated requests or remote writes.")
