@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import tempfile
 import subprocess
+import sys
 import unittest
 from unittest.mock import patch
 
@@ -89,6 +90,74 @@ class SerialContent(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, "existing attempt requires inspection"):
                 runner.run_paper(self.root, {"id": "paper"}, self.root)
         execute.assert_not_called()
+
+    def attempt(self, state="local_checks_passed", key="old-template-and-skill", paper=None):
+        paper = paper or {"id": "paper", "version": 2, "repository": "mathesis-papers/repo"}
+        run = self.root / "runs" / paper["id"] / key
+        runner.write(run / "envelope.json", {"identity": {"paper": paper}, "repository_path": str(self.root)})
+        runner.write(run / "checkpoint.json", {"state": state})
+        return paper, run
+
+    def test_changed_template_reuses_existing_checked_run_without_preparing_or_calling_model(self):
+        paper, run = self.attempt()
+        with patch.object(runner, "prepare") as prepare, patch.object(runner, "validate_run", return_value={"state": "local_checks_passed"}) as validate, patch.object(runner.subprocess, "run") as execute:
+            state = runner.run_paper(self.root, paper, self.root / "new-template")
+        validate.assert_called_once_with(self.root, run, build=False)
+        prepare.assert_not_called()
+        execute.assert_not_called()
+        self.assertEqual(state["state"], "local_checks_passed")
+
+    def test_changed_sources_stop_resume_without_another_model_call(self):
+        paper, run = self.attempt()
+        with patch.object(runner, "prepare") as prepare, patch.object(runner, "validate_run", side_effect=ValueError("sources changed")), patch.object(runner.subprocess, "run") as execute:
+            with self.assertRaisesRegex(ValueError, "sources changed"):
+                runner.run_paper(self.root, paper, self.root)
+        prepare.assert_not_called()
+        execute.assert_not_called()
+
+    def test_newer_failed_attempt_cannot_fall_back_to_earlier_success(self):
+        paper, old = self.attempt()
+        _, latest = self.attempt("needs_attention", "second-attempt")
+        import os
+        os.utime(old / "checkpoint.json", (1, 1))
+        with patch.object(runner, "prepare") as prepare, self.assertRaisesRegex(RuntimeError, str(latest)):
+            runner.run_paper(self.root, paper, self.root)
+        prepare.assert_not_called()
+
+    def test_changed_cohort_version_requires_inspection(self):
+        paper, _ = self.attempt()
+        with self.assertRaisesRegex(ValueError, "differs from the frozen cohort"):
+            runner.previous_attempt(self.root, dict(paper, version=3))
+
+    def test_replaced_render_cannot_be_blessed_by_check_without_rebuild(self):
+        subprocess.run(["git", "init", "-q", str(self.root)], check=True)
+        (self.root / ".gitignore").write_text("_site/\nrun/\n")
+        run = self.root / "run"
+        runner.write(run / "result.json", self.result)
+        runner.write(run / "source-sha256.json", runner.source_inventory(self.root))
+        (self.root / "_site").mkdir()
+        page = self.root / "_site/index.html"
+        page.write_text("Checked story")
+        before = runner.site_inventory(self.root)
+        runner.write(run / "site-sha256.json", before)
+        page.write_text("Unvalidated replacement")
+        with self.assertRaisesRegex(ValueError, "rendered output changed"):
+            runner.validate_run(self.root, run)
+        self.assertEqual(runner.read(run / "site-sha256.json"), before)
+
+    def test_failed_paper_stops_cohort_and_returns_nonzero(self):
+        papers = [{"id": name, "version": 2, "repository": "mathesis-papers/" + name} for name in ("first", "second")]
+        runner.write(self.root / "cohort.json", {"schema": "mathesis.serial-cohort.v1", "papers": papers})
+        for outcome in ({"state": "needs_attention"}, ValueError("frozen source differs")):
+            with self.subTest(outcome=str(outcome)):
+                kwargs = {"side_effect": outcome} if isinstance(outcome, Exception) else {"return_value": outcome}
+                with patch.object(sys, "argv", ["serial_content.py", "run", "--workspace", str(self.root), "--template", str(self.root)]), patch.object(runner, "run_paper", **kwargs) as run:
+                    with self.assertRaises(SystemExit) as error:
+                        runner.main()
+                self.assertEqual(error.exception.code, 1)
+                self.assertEqual(run.call_count, 1)
+                self.assertEqual(run.call_args.args[1]["id"], "first")
+                self.assertEqual(runner.read(self.root / "runs/first/intake-error.json")["state"], "needs_attention")
 
     def test_cohort_rejects_duplicate_or_wrong_destination(self):
         paper = {"id": "paper", "version": 2, "repository": "mathesis-papers/repo"}

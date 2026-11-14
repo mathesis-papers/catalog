@@ -31,6 +31,20 @@ flag does not authorize other remote writes. No publication credentials need
 to be passed as task inputs. The GitHub CLI may use the operator's existing
 login for the explicitly authorized request registration.
 
+The runner first looks for the paper's latest saved attempt, even if the
+template or production skill has since changed its input key. A successful
+attempt reuses its original envelope and rechecks the bound sources and rendered
+files; it never launches another content model. This does not upgrade the paper
+to the latest template. Apply the installed template-update procedure separately
+when needed, then use `check --rebuild` on that same attempt. Older successes
+without source/render bindings also require that fixed rebuild. A failed,
+interrupted or changed attempt stops the cohort with a nonzero exit status and
+its exact run path for inspection. The next paper is not started until the
+operator repairs and checks the existing attempt. Multiple saved attempts for
+one paper require inspection instead of selecting a success over newer work.
+Running the cohort again is
+therefore a continuation, not a request to regenerate completed papers.
+
 The supplied compatible toolchain shares ignored `.venv`, `node_modules` and
 the Tectonic resource cache. Put mdBook on the process PATH or set `MDBOOK`;
 `PW_CHROMIUM_PATH` may select an existing working browser. Check available

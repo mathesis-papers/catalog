@@ -266,6 +266,27 @@ def source_inventory(repo):
     return result
 
 
+def site_inventory(repo):
+    return {str(p.relative_to(repo / "_site")): hashlib.sha256(p.read_bytes()).hexdigest()
+            for p in sorted((repo / "_site").rglob("*")) if p.is_file() and not p.is_symlink()}
+
+
+def previous_attempt(workspace, paper):
+    """A template/skill update must never silently start a second content job."""
+    attempts = sorted((workspace / "runs" / paper["id"]).glob("*/checkpoint.json"),
+                      key=lambda p: p.stat().st_mtime)
+    if not attempts:
+        return None
+    if len(attempts) != 1:
+        raise RuntimeError("multiple saved attempts require inspection before continuing: " +
+                           ", ".join(str(p.parent) for p in attempts))
+    run = attempts[-1].parent
+    envelope = read(run / "envelope.json")
+    if envelope["identity"]["paper"] != paper:
+        raise ValueError("existing attempt differs from the frozen cohort; inspect " + str(run))
+    return run
+
+
 def validate_run(repo, run, build=False):
     result = read(run / "result.json")
     check_result(result, repo)
@@ -275,6 +296,9 @@ def validate_run(repo, run, build=False):
         inventory = run / "source-sha256.json"
         if not inventory.is_file() or read(inventory) != source_inventory(repo):
             raise ValueError("sources changed or lack a build binding; rebuild the existing products without another model call")
+        rendered = run / "site-sha256.json"
+        if not rendered.is_file() or read(rendered) != site_inventory(repo):
+            raise ValueError("rendered output changed or lacks a build binding; rebuild the existing products without another model call")
     env = dict(os.environ, PATH=str(repo / ".venv/bin") + os.pathsep + os.environ.get("PATH", ""))
     mapping = read(repo / ".mathesis/book.json")
     checks = [[sys.executable, "docs/layer-mathesis/scripts/paper.py", "check", "--complete"], ["./tbook", "check"]]
@@ -302,9 +326,7 @@ def validate_run(repo, run, build=False):
     check_material_products(materials, result["visualization"])
     # Keep content/receipt/publication observations separate. A closed issue is
     # never converted into proof coverage by this local content runner.
-    artifacts = {str(p.relative_to(repo / "_site")): hashlib.sha256(p.read_bytes()).hexdigest()
-                 for p in sorted((repo / "_site").rglob("*")) if p.is_file() and not p.is_symlink()}
-    write(run / "site-sha256.json", artifacts)
+    write(run / "site-sha256.json", site_inventory(repo))
     sources = source_inventory(repo)
     write(run / "source-sha256.json", sources)
     return {"state": "local_checks_passed", "finished_at": now(), "publication": "not_performed",
@@ -342,11 +364,20 @@ def preview_index(workspace, cohort):
 
 
 def run_paper(workspace, paper, template, allow_requests=False, model=None, toolchain=None):
+    previous = previous_attempt(workspace, paper)
+    if previous is not None:
+        state = read(previous / "checkpoint.json")
+        if state["state"] != "local_checks_passed":
+            raise RuntimeError("existing attempt requires inspection; use its recorded run path rather than blindly restarting: " + str(previous))
+        envelope = read(previous / "envelope.json")
+        state = validate_run(Path(envelope["repository_path"]), previous, build=False)
+        print(paper["id"], "reused checked sources and outputs", str(previous), flush=True)
+        return state
     repo, run, envelope = prepare(workspace, paper, template, allow_requests, toolchain)
     checkpoint = run / "checkpoint.json"
     if checkpoint.exists() and read(checkpoint)["state"] == "local_checks_passed":
         print(paper["id"], "already checked (not publication)", flush=True)
-        return
+        return read(checkpoint)
     if checkpoint.exists():
         raise RuntimeError("existing attempt requires inspection; use its recorded run path rather than blindly restarting: " + str(run))
     write(checkpoint, {"state": "authoring", "started_at": now(), "envelope": str(run / "envelope.json")})
@@ -369,6 +400,7 @@ def run_paper(workspace, paper, template, allow_requests=False, model=None, tool
     write(checkpoint, state)
     preview_index(workspace, read(workspace / "cohort.json"))
     print(paper["id"], state["state"], flush=True)
+    return state
 
 
 def main():
@@ -415,9 +447,13 @@ def main():
                 print(run)
             else:
                 try:
-                    run_paper(workspace, paper, a.template.resolve(), a.allow_request_registration, a.model, a.toolchain)
+                    state = run_paper(workspace, paper, a.template.resolve(), a.allow_request_registration, a.model, a.toolchain)
+                    if state["state"] != "local_checks_passed":
+                        raise RuntimeError("paper requires inspection before continuing: " + paper["id"])
                 except (ValueError, RuntimeError, OSError, subprocess.CalledProcessError) as exc:
                     write(workspace / "runs" / paper["id"] / "intake-error.json", {"state": "needs_attention", "error": str(exc), "at": now()})
+                    print(str(exc), file=sys.stderr, flush=True)
+                    raise SystemExit(1) from exc
                     print(paper["id"], "needs_attention:", str(exc), flush=True)
                     if a.paper:
                         raise
