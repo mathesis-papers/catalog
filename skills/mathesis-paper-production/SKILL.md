@@ -1,6 +1,10 @@
 ---
 name: mathesis-paper-production
 description: Prepare an accepted Mathesis paper's bilingual mathematical story, academic presentation and exact formalization handoff using its installed paper template; supports serial local Codex or CMA execution without another referee review.
+metadata:
+  category: tool-based
+  tool-list: [filesystem, shell, github]
+  tag: [mathematics, paper-production, lean]
 ---
 
 # Accepted paper production
