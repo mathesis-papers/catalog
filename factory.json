@@ -1255,6 +1255,55 @@
       "doi": null,
       "files": {
         "pdf": {
+          "bytes": 125122,
+          "matches_public": null,
+          "path": "paper.pdf",
+          "public_sha256": null,
+          "sha256": "2732d153a233a18b44e1188049e3ed0eb0a5dd07b23df354d16b2246d5dc962c"
+        },
+        "source": {
+          "bytes": 23398,
+          "matches_public": null,
+          "path": "source.archive",
+          "public_sha256": null,
+          "sha256": "80e4a36468af64e9b9d357a05a1dc4b79adb31097b47396c0aa5b385bb699d98"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 9,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "f7ba557ae2a5d2c3a3a519e0713d65ac86af2973",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/SpinChains/BubbleEigenstateDegeneracy.lean"
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy",
+      "site_url": "https://papers.trureturing.org/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/",
+      "title": "Zero-mode corrections and closed bubble counts in Mukherjee et al. (2021, Sec. III, p. 7, third paragraph): extending Hoshino (2007) and Brown–Hoshino (2008)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
           "bytes": 103012,
           "matches_public": null,
           "path": "paper.pdf",
@@ -2049,8 +2098,8 @@
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
     }
   ],
-  "papers": 41,
+  "papers": 42,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-14T07:29:08.832469268Z"
+  "snapshot_time": "2026-11-14T08:29:26.828586366Z"
 }

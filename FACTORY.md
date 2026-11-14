@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-14T07:29:08.832469268Z`.
+Snapshot: `2026-11-14T08:29:26.828586366Z`.
 
 | Paper | Version | DOI | Reading | Formalization |
 |---|---:|---|---|---|
@@ -31,6 +31,7 @@ Snapshot: `2026-11-14T07:29:08.832469268Z`.
 | [Proof of Mathar's conjecture on OEIS A027182: a closed form and the six-term recurrence](https://github.com/mathesis-papers/10.5281-zenodo.23884889) | 4 | [DOI](https://doi.org/10.5281/zenodo.23884890) | en, zh | 4 no target yet |
 | [Proof of the weighted-minor inequality in MathOverflow 469781](https://github.com/mathesis-papers/10.5281-zenodo.23931737) | 2 | [DOI](https://doi.org/10.5281/zenodo.23931738) | en, zh | 7 no target yet |
 | [MathOverflow 513954, revision 2: singular signed downdates, fixed coordinates, and a sharp polynomial sphere bound](https://github.com/mathesis-papers/10.5281-zenodo.23920597) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920598) | en, zh | 11 no target yet |
+| [Zero-mode corrections and closed bubble counts in Mukherjee et al. (2021, Sec. III, p. 7, third paragraph): extending Hoshino (2007) and Brown–Hoshino (2008)](https://github.com/mathesis-papers/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy) | 3 | Awaiting DOI | Awaiting reading | 9 no target yet |
 | [Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)](https://github.com/mathesis-papers/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation) | 3 | Awaiting DOI | Awaiting reading | 10 no target yet |
 | [Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011](https://github.com/mathesis-papers/10.5281-zenodo.23957583) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957584) | en, zh | 11 no target yet |
 | [OEIS A378495, FORMULA (revision #70): refutation and correction](https://github.com/mathesis-papers/10.5281-zenodo.23903308) | 3 | [DOI](https://doi.org/10.5281/zenodo.23903309) | en, zh | 2 no target yet |

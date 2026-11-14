@@ -1078,6 +1078,49 @@
       "work": "mathoverflow-513954-singular-diagonal-downdate-inertia"
     },
     {
+      "abstract_text": "Extending the cycle enumerator of Hoshino (2007) and Brown–Hoshino (2008), we give the closed bubble degeneracy sought by Mukherjee, Banerjee, Sengupta and Sen (2021, Sec. III, p. 7, third paragraph). A marked-centre gap bijection counts every integer energy on a labelled cycle, and a parity refinement counts the balanced fragments contributing zero modes in a staggered field. Their simultaneous zero modes have Catalan multiplicities. The field-dependent spectrum gives an imbalanced fragment with 56 zero modes at L=48, Delta=2/sqrt(7), correcting the unrestricted disappearance statement in Sec. VI.A. We also correct the printed Eq. (3.7) and show that the authors' own dispersive construction contradicts the literal all-length exhaustion conjecture at L=14.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "f7ba557ae2a5d2c3a3a519e0713d65ac86af2973",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/SpinChains/BubbleEigenstateDegeneracy.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-14T07:31:08.802779537Z",
+      "record": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy",
+      "repository_name": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy",
+      "source": {
+        "url": "/api/v1/collected-papers/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/files/source?version=3"
+      },
+      "title": "Zero-mode corrections and closed bubble counts in Mukherjee et al. (2021, Sec. III, p. 7, third paragraph): extending Hoshino (2007) and Brown–Hoshino (2008)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-14T07:31:08.802779537Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy"
+    },
+    {
       "abstract_text": "Extending Maestro's exact qutrit separation (2026) by the unitary-moment obstruction of Dykema and Juschenko (2009), we refute Conjecture 1 of Narasimhachar and Gour (arXiv:1409.7740v3, Supplementary Sec. S2 F, p. S11) even in the closure of finite ground-space thermal transitions. Two diagonal Kraus operators send the uniform pure state of a four-level system with energies 0, 1, 3, 7 to a rank-two state with the same populations. Any energy-conserving realization with an ancilla initially maximally mixed on its full ground eigenspace would express the output correlation matrix as normalized traces of four unitaries. Two linear relations make that representation impossible, with a dimension-independent gap. The trace-norm error of any such thermal output exceeds 10^-8. A three-vector projection obstruction also refutes Conjecture 2 in versions 1 and 2 of the posing source. The four-level obstruction extends to every system with at least four occupied distinct energy levels. Together with the known qutrit closure theorem, this makes four the minimum dimension for closure separation under distinct-level and distinct-gap assumptions.",
       "authors": [
         {
