@@ -1515,6 +1515,318 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:bouafia-diversity-negative-type:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S3/Geometry/BouafiaNegativeTypeDiversityDeletionRefutation.lean"
+      },
+      "lineage": "collected:bouafia-diversity-negative-type:s1",
+      "macros": {
+        "\\R": "\\mathbb R"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "bouafia-diversity-negative-type",
+      "scope": "in_scope",
+      "statement": "The metric $d$ is of negative type, and all nonempty principal submatrices\nof $Z$ are positive definite. The deletion procedure stops after two solves\nwith\n\\begin{equation}\n p=\\frac1{61601}(15961,22820,0,0,22820)^T.\n\\end{equation}\nNevertheless, for\n\\begin{equation}\n p'=\\frac{999}{1000}p+\\frac1{1000}e_3\n =\\frac1{61601000}(15945039,22797180,0,61601,22797180)^T\n\\end{equation}\none has\n\\begin{equation}\n E(p)-E(p')=\\frac{1707687919}{246404000000000}>0.\n\\end{equation}",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bouafia-diversity-negative-type"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:bouafia-diversity-negative-type:2:s2",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S3/Geometry/BouafiaNegativeTypeDiversityDeletionRefutation.lean"
+      },
+      "lineage": "collected:bouafia-diversity-negative-type:s2",
+      "macros": {
+        "\\R": "\\mathbb R"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "bouafia-diversity-negative-type",
+      "scope": "in_scope",
+      "statement": "Let $Z$ be symmetric positive definite and $p\\in\\Delta_X$. Then $p$\nminimizes $E$ if and only if\n\\[\n (Zp)_i=E(p)\\quad\\text{when }p_i>0,\n \\qquad (Zp)_j\\geq E(p)\\quad\\text{for all }j.\n\\]",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bouafia-diversity-negative-type"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:bouafia-diversity-negative-type:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S3/Geometry/BouafiaNegativeTypeDiversityDeletionRefutation.lean"
+      },
+      "lineage": "collected:bouafia-diversity-negative-type:s3",
+      "macros": {
+        "\\R": "\\mathbb R"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "bouafia-diversity-negative-type",
+      "scope": "in_scope",
+      "statement": "For the five-point example the unique diversity-maximizing probability is\n\\[\n p_* = \\frac1{1290598}(333299,456400,0,44499,456400)^T,\n \\qquad E(p_*)=\\frac{9232505841}{10324784000}.\n\\]\nIn particular, index $3$, whose initial weight is negative, has strictly\npositive mass in the unique optimum.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bouafia-diversity-negative-type"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:bouafia-diversity-negative-type:2:s4",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S3/Geometry/BouafiaNegativeTypeDiversityDeletionRefutation.lean"
+      },
+      "lineage": "collected:bouafia-diversity-negative-type:s4",
+      "macros": {
+        "\\R": "\\mathbb R"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "bouafia-diversity-negative-type",
+      "scope": "in_scope",
+      "statement": "Let $X=\\{a_i/1000:0\\leq i\\leq7\\}\\subset\\mathbb R^4$ with ordinary\nEuclidean distance, and $Z_{ij}=\\exp(-D_{ij}/1000)$.\nEvery nonempty principal submatrix of $Z$ is positive definite.\nDeletion removes exactly indices $6,7$ at its first step and stops at\nthe second solve, with probability $p$ supported on $\\{0,\\ldots,5\\}$.\nFor $p'=(999/1000)p+(1/1000)e_6$,\n\\[\n \\frac{57}{10^9}< E(p)-E(p') <\\frac{59}{10^9}.\n\\]\nThus the Euclidean part of Bouafia's Open problem has answer no.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bouafia-diversity-negative-type"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:bouafia-diversity-negative-type:2:s5",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S3/Geometry/BouafiaNegativeTypeDiversityDeletionRefutation.lean"
+      },
+      "lineage": "collected:bouafia-diversity-negative-type:s5",
+      "macros": {
+        "\\R": "\\mathbb R"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "bouafia-diversity-negative-type",
+      "scope": "in_scope",
+      "statement": "Let $D$ be a finite symmetric distance matrix strictly negative definite\non $\\mathbf1^\\perp$. Suppose deletion using the stationary solves for\n$p^TDp$ has no zero coordinates in any active solve, stops at a positive\nprobability $u$, and has $(Du)_j>u^TDu$ at a deleted index $j$.\nThen deletion for $Z(t)_{ij}=e^{-tD_{ij}}$ is suboptimal for every\nsufficiently small $t>0$, with the same sequence of active sets.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bouafia-diversity-negative-type"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:bouafia-diversity-negative-type:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S3/Geometry/BouafiaNegativeTypeDiversityDeletionRefutation.lean"
+      },
+      "lineage": "collected:bouafia-diversity-negative-type:s6",
+      "macros": {
+        "\\R": "\\mathbb R"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "bouafia-diversity-negative-type",
+      "scope": "in_scope",
+      "statement": "Huntsman's eight Euclidean points give a counterexample to\nexponential-similarity deletion at every sufficiently small positive scale.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bouafia-diversity-negative-type"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:bouafia-diversity-negative-type:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S3/Geometry/BouafiaNegativeTypeDiversityDeletionRefutation.lean"
+      },
+      "lineage": "collected:bouafia-diversity-negative-type:s7",
+      "macros": {
+        "\\R": "\\mathbb R"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "bouafia-diversity-negative-type",
+      "scope": "in_scope",
+      "statement": "For the five binary points in \\eqref{eq:H}, deletion is suboptimal at\nevery scale $0<c\\leq\\log(20/19)$. Nevertheless, its scale-zero\ndistance-objective limit is optimal.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bouafia-diversity-negative-type"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:bouafia-diversity-negative-type:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S3/Geometry/BouafiaNegativeTypeDiversityDeletionRefutation.lean"
+      },
+      "lineage": "collected:bouafia-diversity-negative-type:s8",
+      "macros": {
+        "\\R": "\\mathbb R"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "bouafia-diversity-negative-type",
+      "scope": "in_scope",
+      "statement": "The five-point scaled-Hamming failure persists on an open interval of\npositive scales containing $\\log(20/19)$. For every integer $n\\geq5$,\nsome $n$-point negative-type metric has suboptimal deletion output.\nFor every $n\\geq8$, such an example can be chosen with ordinary Euclidean\ndistance in $\\mathbb R^{n-4}$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bouafia-diversity-negative-type"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:bu-gu-jaffe-2025-mixed-state-inverse-sumset:2:s1",
       "kind": "paper",
       "label": "Theorem",

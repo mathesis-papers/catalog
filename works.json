@@ -259,6 +259,49 @@
       "work": "bala295462"
     },
     {
+      "abstract_text": "An exponential-similarity extension of Huntsman's (2026, Appendix G.3, Theorem 4) distance-objective counterexample, together with an exact five-point example, answers both parts of Bouafia's Open problem in Magnitude and diversity of trees, arXiv:2605.03681v1, Section 4.1, page 18, negatively. Irreversible negative-weight deletion can fail even on eight points in R^4 with ordinary Euclidean distance. Rational outward bounds certify this at scale 1/1000 for Huntsman's integer coordinates. The separate five-point scaled-Hamming example has a rational similarity matrix and an exact energy decrease; its unique optimizer restores a point deleted by the first solve. We also prove small-scale persistence and negative-type examples of every cardinality at least five.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S3/Geometry/BouafiaNegativeTypeDiversityDeletionRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/bouafia-diversity-negative-type/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-14T17:30:20.758024040Z",
+      "record": "bouafia-diversity-negative-type",
+      "repository_name": "bouafia-diversity-negative-type",
+      "source": {
+        "url": "/api/v1/collected-papers/bouafia-diversity-negative-type/files/source?version=2"
+      },
+      "title": "Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-14T17:30:20.758024040Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "bouafia-diversity-negative-type"
+    },
+    {
       "abstract_text": "We refute the mixed-state inverse sumset estimate expected in Remark 45, equation (58), of Bu, Gu and Jaffe, Quantum Ruzsa Divergence to Quantify Magic (arXiv:2401.14385v3). A computationally diagonal equal mixture of two basis states in dimension seven has quantum-doubling constant sqrt(2) and relative entropy log(7/2) from its mean state, while the proposed bound is at most (1/2)log(7). The contradiction uses exact inequalities and persists for every tensor power. For the same family, we verify that the weaker estimate (59) has a positive denominator and holds strictly, and give the equality case of the companion entropy-growth statement for computationally diagonal states.",
       "authors": [
         {

@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-14T17:21:15.379676285Z`.
+Snapshot: `2026-11-14T18:28:54.097005626Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -12,6 +12,7 @@ Snapshot: `2026-11-14T17:21:15.379676285Z`.
 | [OEIS A164660, final FORMULA (29 May 2016): Chebyshev numerators and floor products](https://github.com/mathesis-papers/10.5281-zenodo.23884882) | 1 | [DOI](https://doi.org/10.5281/zenodo.23884883) | en, zh | 0 / 0 / 0 | 3 no target yet |
 | [Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order](https://github.com/mathesis-papers/10.5281-zenodo.23931730) | 2 | [DOI](https://doi.org/10.5281/zenodo.23931731) | en, zh | 0 / 0 / 0 | 11 no target yet |
 | [Parity and product extensions of Bala's divisibilities (2026): OEIS A295462, References (record #19; contribution dated 23 August 2026)](https://github.com/mathesis-papers/10.5281-zenodo.23971278) | 4 | [DOI](https://doi.org/10.5281/zenodo.23971279) | en, zh | 0 / 0 / 0 | 6 no target yet |
+| [Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)](https://github.com/mathesis-papers/bouafia-diversity-negative-type) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [A counterexample to Bu--Gu--Jaffe's expected mixed-state inverse sumset estimate](https://github.com/mathesis-papers/10.5281-zenodo.23885950) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885951) | en, zh | 0 / 0 / 0 | 3 no target yet |
 | [Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)](https://github.com/mathesis-papers/10.5281-zenodo.23957559) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957560) | en, zh | 1 / 0 / 1 | 8 no target yet |
 | [The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary](https://github.com/mathesis-papers/10.5281-zenodo.23934999) | 2 | [DOI](https://doi.org/10.5281/zenodo.23935000) | en, zh | 0 / 0 / 0 | 7 no target yet |

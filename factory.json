@@ -347,6 +347,63 @@
       "work": "bala295462"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 102360,
+          "matches_public": null,
+          "path": "paper.pdf",
+          "public_sha256": null,
+          "sha256": "c9e99e4e9e7983fadddb3c185102244da74c97c8633265e42da43973f4f30ed9"
+        },
+        "source": {
+          "bytes": 122736,
+          "matches_public": null,
+          "path": "source.archive",
+          "public_sha256": null,
+          "sha256": "9d497ce78b9b00a1fd94d95b5ce5f312b9075298be6dfa034411e03c7104d907"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S3/Geometry/BouafiaNegativeTypeDiversityDeletionRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/bouafia-diversity-negative-type",
+      "site_url": "https://papers.trureturing.org/bouafia-diversity-negative-type/",
+      "title": "Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "bouafia-diversity-negative-type"
+    },
+    {
       "concept_doi": "10.5281/zenodo.23885950",
       "doi": "10.5281/zenodo.23885951",
       "files": {
@@ -2661,8 +2718,8 @@
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
     }
   ],
-  "papers": 46,
+  "papers": 47,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-14T17:21:15.379676285Z"
+  "snapshot_time": "2026-11-14T18:28:54.097005626Z"
 }
