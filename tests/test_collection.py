@@ -1,5 +1,6 @@
 """Independent publication preserves papers without asking a model to review them."""
 import hashlib
+import io
 import json
 from pathlib import Path
 import tempfile
@@ -51,6 +52,18 @@ class RepositoryIdentifiers(unittest.TestCase):
 
 
 class CollectionRendering(unittest.TestCase):
+    def test_renamed_site_can_serve_previous_metadata_until_first_republication(self):
+        value = {"work": WORK, "repository_url": "https://github.com/mathesis-papers/old",
+                 "site_url": "https://papers.trureturing.org/old/", "reading": {"en": "https://papers.trureturing.org/old/en/"}}
+        with tempfile.TemporaryDirectory() as directory:
+            opener = mock.Mock()
+            opener.open.side_effect = [publisher.urllib.error.HTTPError("old", 404, "missing", {}, None), io.BytesIO(json.dumps(value).encode())]
+            with mock.patch.object(publisher.urllib.request, "build_opener", return_value=opener):
+                publisher.material_downloads({WORK: "new"}, Path(directory), {WORK: ["old"]})
+            actual = publisher.read(Path(directory) / "new.json")
+            self.assertEqual(actual["repository_url"], "https://github.com/mathesis-papers/new")
+            self.assertEqual(actual["reading"]["en"], "https://papers.trureturing.org/new/en/")
+
     def test_aliases_preserve_nested_material_paths_and_reject_collisions(self):
         value = {"work": WORK, "repository_url": "https://github.com/mathesis-papers/old",
                  "site_url": "https://papers.trureturing.org/old/",

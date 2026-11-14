@@ -249,8 +249,11 @@ def material_downloads(mapping, destination, aliases=None):
                     continue
                 raise
             require(value.get("work") == work, "materials work differs")
-            if candidate != repo and value.get("repository_url") != f"https://github.com/{ORG}/{repo}":
-                value = collection.relocate_materials(value, candidate, repo)
+            if value.get("repository_url") != f"https://github.com/{ORG}/{repo}":
+                previous = next((name for name in (aliases or {}).get(work, [])
+                                 if value.get("repository_url") == f"https://github.com/{ORG}/{name}"), None)
+                require(previous is not None, "materials repository differs")
+                value = collection.relocate_materials(value, previous, repo)
             write(destination / (repo + ".json"), value)
             break
 
