@@ -14,6 +14,7 @@ import hashlib
 import html
 import io
 import json
+import math
 import os
 from pathlib import Path
 import re
@@ -312,6 +313,7 @@ def validate_run(repo, run, build=False):
     mapping = read(repo / ".mathesis/book.json")
     checks = [[sys.executable, "docs/layer-mathesis/scripts/paper.py", "front"]] if build else []
     checks.extend([[sys.executable, "docs/layer-mathesis/scripts/paper.py", "check", "--complete"], ["./tbook", "check"]])
+    film_build = None
     if build:
         films = list((repo / "books" / mapping["book"] / "films").glob("*/film.json"))
         if films:
@@ -320,7 +322,8 @@ def validate_run(repo, run, build=False):
             env["OMP_NUM_THREADS"] = "1"
             env["OPENBLAS_NUM_THREADS"] = "1"
             env["VECLIB_MAXIMUM_THREADS"] = "1"
-            checks.append(["./tbook", "build", "films", "--book", mapping["book"]])
+            film_build = ["./tbook", "build", "films", "--book", mapping["book"]]
+            checks.append(film_build)
         for target in ("html", "pdf", "slides"):
             checks.append(["./tbook", "build", target, "--book", mapping["book"]])
         if result["visualization"]["decision"] == "built":
@@ -331,6 +334,14 @@ def validate_run(repo, run, build=False):
         log.flush()
         for args in checks:
             subprocess.run(args, cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
+            if film_build and args == film_build:
+                changes = reconcile_film_durations(repo, mapping["book"], films)
+                if changes:
+                    write(run / "film-duration-updates.json", changes)
+                    # Metadata is an input to the upstream build cache. Rebuild
+                    # through that interface instead of blessing stale output.
+                    subprocess.run(film_build, cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
+                    reconcile_film_durations(repo, mapping["book"], films, update=False)
         if build:
             subprocess.run(["node", str(ROOT / "scripts/paper_site_qa.cjs"), str(repo), str(run / "qa")],
                            cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
@@ -353,6 +364,31 @@ def validate_run(repo, run, build=False):
     write(run / "source-sha256.json", sources)
     return {"state": "local_checks_passed", "finished_at": now(), "publication": "not_performed",
             "proof_certification": "not_performed", "visualization": result["visualization"], "source_sha256": digest(sources)}
+
+
+def reconcile_film_durations(repo, book, films, update=True):
+    """Replace estimated durations only after probing the actual narrated cut."""
+    changes = []
+    for path in films:
+        meta = read(path)
+        name = meta["outputs"]["narrated_720p"]
+        output = repo / "build/films" / book / path.parent.name / name
+        if Path(name).name != name or output.is_symlink() or not output.is_file():
+            raise ValueError("missing actual narrated film for duration reconciliation")
+        seconds = float(command(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                 "-of", "default=noprint_wrappers=1:nokey=1", str(output)]))
+        if not math.isfinite(seconds) or seconds < 1:
+            raise ValueError("invalid actual film duration")
+        rounded = int(round(seconds))
+        duration = f"{rounded // 60}:{rounded % 60:02d}"
+        if meta.get("duration") != duration:
+            if not update:
+                raise ValueError("film duration changed during the metadata rebuild; inspect the saved output")
+            changes.append({"file": str(path.relative_to(repo)), "before": meta.get("duration"),
+                            "after": duration, "measured_seconds": seconds})
+            meta["duration"] = duration
+            write(path, meta)
+    return changes
 
 
 def preview_index(workspace, cohort):
