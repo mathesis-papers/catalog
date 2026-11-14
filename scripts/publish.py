@@ -230,9 +230,11 @@ class API:
         self.call("POST", f"/repos/{ORG}/{name}/issues", {"title": TITLE, "body": MARKER + "\n\n" + checklist})
 
 
-def material_downloads(mapping, destination, aliases=None):
+def material_downloads(mapping, destination, aliases=None, previous_materials=None):
     opener = urllib.request.build_opener(NoRedirect())
     for work, repo in sorted(mapping.items()):
+        value = None
+        unavailable = None
         # During an in-place rename the old published site is the available
         # source until its replacement deployment finishes.
         for candidate in [*(aliases or {}).get(work, []), repo]:
@@ -245,17 +247,31 @@ def material_downloads(mapping, destination, aliases=None):
                     require(len(raw) <= 1024 * 1024, "materials manifest exceeds 1 MiB")
                     value = json.loads(raw)
             except urllib.error.HTTPError as exc:
-                if exc.code == 404:
+                if exc.code == 404 or (work in (aliases or {}) and exc.code in (502, 503, 504)):
+                    if exc.code != 404:
+                        unavailable = f"HTTP {exc.code} for {url}"
                     continue
                 raise
-            require(value.get("work") == work, "materials work differs")
-            if value.get("repository_url") != f"https://github.com/{ORG}/{repo}":
-                previous = next((name for name in (aliases or {}).get(work, [])
-                                 if value.get("repository_url") == f"https://github.com/{ORG}/{name}"), None)
-                require(previous is not None, "materials repository differs")
-                value = collection.relocate_materials(value, previous, repo)
-            write(destination / (repo + ".json"), value)
             break
+        if value is None and work in (aliases or {}) and previous_materials:
+            previous_path = previous_materials / work / "materials.json"
+            if previous_path.is_file():
+                previous = read(previous_path)
+                require(previous.get("schema") == "mathesis.catalog-materials.v1" and previous.get("work") == work,
+                        "previous checked materials identity differs")
+                if previous.get("manifest_available") is True:
+                    value = dict(previous, schema="mathesis.materials.v1")
+                    print(f"{work}: reuse previously checked public materials during address migration")
+        if value is None:
+            require(unavailable is None, unavailable)
+            continue
+        require(value.get("work") == work, "materials work differs")
+        if value.get("repository_url") != f"https://github.com/{ORG}/{repo}":
+            previous = next((name for name in (aliases or {}).get(work, [])
+                             if value.get("repository_url") == f"https://github.com/{ORG}/{name}"), None)
+            require(previous is not None, "materials repository differs")
+            value = collection.relocate_materials(value, previous, repo)
+        write(destination / (repo + ".json"), value)
 
 
 def prepare(binary, source, stage):
@@ -282,7 +298,7 @@ def prepare(binary, source, stage):
     write(stage / "planned-repositories.json", planned)
     aliases = config.get("repository_aliases", {})
     collection.validate_aliases(planned, aliases)
-    material_downloads(planned, stage / "materials", aliases)
+    material_downloads(planned, stage / "materials", aliases, source / "materials")
     args[-1] = stage / "planned-repositories.json"
     run(*args, "--materials", stage / "materials")
     run(binary, "check", "--output", output)

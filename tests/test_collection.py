@@ -52,6 +52,26 @@ class RepositoryIdentifiers(unittest.TestCase):
 
 
 class CollectionRendering(unittest.TestCase):
+    def test_pages_transition_reuses_only_checked_public_materials(self):
+        value = {"schema": "mathesis.catalog-materials.v1", "work": WORK, "version": 2,
+                 "manifest_available": True, "repository_url": "https://github.com/mathesis-papers/old",
+                 "site_url": "https://papers.trureturing.org/old/", "reading": {"en": "https://papers.trureturing.org/old/en/"},
+                 "slides": [], "visualizations": []}
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            publisher.write(root / "previous" / WORK / "materials.json", value)
+            opener = mock.Mock()
+            opener.open.side_effect = lambda *args, **kwargs: (_ for _ in ()).throw(publisher.urllib.error.HTTPError("transition", 503, "unavailable", {}, None))
+            with mock.patch.object(publisher.urllib.request, "build_opener", return_value=opener):
+                publisher.material_downloads({WORK: "new"}, root / "new", {WORK: ["old"]}, root / "previous")
+            actual = publisher.read(root / "new/new.json")
+            self.assertEqual(actual["version"], 2)
+            self.assertEqual(actual["schema"], "mathesis.materials.v1")
+            self.assertEqual(actual["reading"]["en"], "https://papers.trureturing.org/new/en/")
+            publisher.write(root / "previous" / WORK / "materials.json", dict(value, work="another-paper"))
+            with mock.patch.object(publisher.urllib.request, "build_opener", return_value=opener), self.assertRaisesRegex(ValueError, "identity differs"):
+                publisher.material_downloads({WORK: "new"}, root / "new", {WORK: ["old"]}, root / "previous")
+
     def test_renamed_site_can_serve_previous_metadata_until_first_republication(self):
         value = {"work": WORK, "repository_url": "https://github.com/mathesis-papers/old",
                  "site_url": "https://papers.trureturing.org/old/", "reading": {"en": "https://papers.trureturing.org/old/en/"}}
