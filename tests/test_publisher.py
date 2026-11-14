@@ -72,6 +72,8 @@ class Fake:
         info = self.repos[name]
         tail = "/".join(parts[3:])
         if tail == "":
+            if method == "PATCH":
+                info.update(body)
             return 200, info
         if tail == "pages":
             if method == "GET":

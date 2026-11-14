@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 import time
 import urllib.request
+import urllib.parse
 
 import collection
 
@@ -20,7 +21,14 @@ def get(url, limit=128 * 1024 * 1024):
         return data
 
 
-def verify(stage, fetch=get):
+def prefix(url, limit):
+    request = urllib.request.Request(url, headers={"User-Agent": "mathesis-paper-factory-verification", "Range": f"bytes=0-{limit-1}"})
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return response.read(limit)
+
+
+def verify(stage, fetch=get, probe=None):
+    probe = probe or (prefix if fetch is get else fetch)
     plan = json.loads((stage / "plan.json").read_text())
     inventory = json.loads((stage / "factory/factory.json").read_text())
 
@@ -51,6 +59,26 @@ def verify(stage, fetch=get):
                 expected = stage / "papers" / repo / "site" / language / "index.html"
                 if row["mode"] == "paper" and expected.is_file() and reading != expected.read_bytes():
                     raise ValueError("published reading differs from prepared text")
+            def material_url(url):
+                if (not isinstance(url, str) or not url.startswith(site) or "%" in url or "\\" in url
+                        or any(part in (".", "..") for part in url.split("#", 1)[0].split("/"))
+                        or urllib.parse.urlsplit(url).query):
+                    raise ValueError("media leaves paper site")
+                return url
+            for slides in manifest.get("slides", []):
+                for field in ("pdf_url", "notes_url"):
+                    if slides.get(field) and not probe(material_url(slides[field]), 5).startswith(b"%PDF-"):
+                        raise ValueError("published slide PDF is missing or unreadable")
+            for visual in manifest.get("visualizations", []):
+                if b"<html" not in fetch(material_url(visual["url"]), 8 * 1024 * 1024).lower():
+                    raise ValueError("published visualization is missing")
+            for video in manifest.get("videos", []):
+                if b"<html" not in fetch(material_url(video["url"]), 8 * 1024 * 1024).lower():
+                    raise ValueError("published video page is missing")
+                if probe(material_url(video["mp4_url"]), 32)[4:8] != b"ftyp":
+                    raise ValueError("published video is not an MP4")
+                if video.get("poster_url") and not probe(material_url(video["poster_url"]), 32):
+                    raise ValueError("published video poster is missing")
             expected_manifest = stage / "papers" / repo / "site/mathesis-materials.json"
             if row["mode"] == "paper" and manifest != json.loads(expected_manifest.read_text()):
                 raise ValueError("paper manifest has not been published yet")

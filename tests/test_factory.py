@@ -56,7 +56,8 @@ class FactoryPolicy(unittest.TestCase):
             row = inventory["entries"][0]
             self.assertEqual(inventory["papers"], 1)
             self.assertEqual(row["formalization"]["open_target"], 1)
-            self.assertEqual(row["next_steps"], ["attach_verified_doi", "prepare_exact_targets", "submit_proofs_for_open_targets"])
+            self.assertEqual(row["next_steps"], ["attach_verified_doi", "prepare_slides", "prepare_video", "prepare_exact_targets", "submit_proofs_for_open_targets"])
+            self.assertEqual(row["materials"], {"slides": 0, "visualizations": 0, "videos": 0, "formalization_requests": 0})
             self.assertIsNone(row["trureturing_write_back"])
             self.assertFalse((output / "catalog/factory.json").exists())
             self.assertIn("A &#124; result", (output.parent / "factory/FACTORY.md").read_text())
@@ -107,3 +108,20 @@ class FactoryReadback(unittest.TestCase):
         self.assertEqual(self.verify()["passed"], 0)
         publisher.write(self.stage / "plan.json", {"mapping": {"paper": "repo"}, "config": {"repository_aliases": {"paper": ["old"]}}})
         self.assertEqual(self.verify()["passed"], 1)
+
+    def test_media_readback_refuses_dead_links_wrong_formats_and_cross_paper_assets(self):
+        self.manifest.update(slides=[{"id":"seminar", "pdf_url":self.site + "slides.pdf", "notes_url":None}],
+                             visualizations=[{"id":"demo", "url":self.site + "viz/"}],
+                             videos=[{"id":"intro", "url":self.site + "films/", "mp4_url":self.site + "film.mp4", "poster_url":None}])
+        self.urls.update({self.site + "slides.pdf": b"%PDF-1.7", self.site + "viz/": b"<html>Demo", self.site + "films/": b"<html>Film", self.site + "film.mp4": b"\x00\x00\x00\x18ftypmp42"})
+        publisher.write(self.stage / "papers/repo/site/mathesis-materials.json", self.manifest)
+        self.urls[self.site + "mathesis-materials.json"] = json.dumps(self.manifest).encode()
+        self.assertEqual(self.verify()["passed"], 1)
+        for path in ("slides.pdf", "viz/", "films/", "film.mp4"):
+            saved = self.urls[self.site + path]
+            self.urls[self.site + path] = b"404 page"
+            self.assertEqual(self.verify()["passed"], 0)
+            self.urls[self.site + path] = saved
+        self.manifest["videos"][0]["mp4_url"] = self.site + "../another/film.mp4"
+        self.urls[self.site + "mathesis-materials.json"] = json.dumps(self.manifest).encode()
+        self.assertEqual(self.verify()["passed"], 0)
