@@ -48,6 +48,26 @@ class SerialContent(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "still lacks"):
             runner.check_result(self.result, self.root)
 
+    def test_bilingual_products_do_not_require_interaction(self):
+        material = {"reading": {"en": "en/", "zh": "zh/"},
+                    "slides": [{"language": lang, "pdf_url": lang + ".pdf", "notes_url": lang + "-notes.pdf"}
+                               for lang in ("en", "zh")], "visualizations": []}
+        runner.check_material_products(material, self.result["visualization"])
+        with self.assertRaisesRegex(ValueError, "reported built"):
+            runner.check_material_products(material, {"decision": "built"})
+        material["visualizations"] = [{"url": "viz/"}]
+        with self.assertRaisesRegex(ValueError, "judgment"):
+            runner.check_material_products(material, self.result["visualization"])
+
+    def test_duplicate_pdfs_in_one_language_cannot_pass_bilingual_checks(self):
+        material = {"reading": {"en": "en/", "zh": "zh/"},
+                    "slides": [{"language": "en", "pdf_url": "en.pdf", "notes_url": "notes.pdf"}] * 4}
+        with self.assertRaisesRegex(ValueError, "bilingual audience"):
+            runner.check_material_products(material, self.result["visualization"])
+        material["slides"].append({"language": "zh", "pdf_url": "zh.pdf"})
+        with self.assertRaisesRegex(ValueError, "speaker notes"):
+            runner.check_material_products(material, self.result["visualization"])
+
     def test_workspace_cannot_have_two_workers(self):
         with runner.exclusive(self.root):
             with self.assertRaisesRegex(RuntimeError, "another serial worker"):

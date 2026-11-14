@@ -237,6 +237,21 @@ def check_result(result, repo):
         raise ValueError("prepared result still lacks required local products")
 
 
+def check_material_products(materials, visualization):
+    if not {"en", "zh"}.issubset(materials.get("reading", {})):
+        raise ValueError("missing bilingual reading")
+    # A PDF count alone cannot establish that both language editions exist.
+    slide_languages = {s.get("language") for s in materials.get("slides", [])
+                       if s.get("pdf_url") and s.get("notes_url")}
+    if not {"en", "zh"}.issubset(slide_languages):
+        raise ValueError("missing bilingual audience slides or speaker notes")
+    actual_viz = bool(materials.get("visualizations"))
+    if visualization["decision"] == "built" and not actual_viz:
+        raise ValueError("visualization was reported built but is absent from the material manifest")
+    if visualization["decision"] == "not_useful" and actual_viz:
+        raise ValueError("visualization judgment and advertised outputs disagree")
+
+
 def validate_run(repo, run, build=False):
     result = read(run / "result.json")
     check_result(result, repo)
@@ -266,8 +281,7 @@ def validate_run(repo, run, build=False):
     if states.get("story") != "built" or states.get("slides") != "built":
         raise ValueError("bilingual story and actual presentation are not built")
     materials = read(repo / "_site/mathesis-materials.json")
-    if result["visualization"]["decision"] == "built" and not materials.get("visualizations"):
-        raise ValueError("visualization was reported built but is absent from the material manifest")
+    check_material_products(materials, result["visualization"])
     # Keep content/receipt/publication observations separate. A closed issue is
     # never converted into proof coverage by this local content runner.
     artifacts = {str(p.relative_to(repo / "_site")): hashlib.sha256(p.read_bytes()).hexdigest()
