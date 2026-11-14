@@ -22,13 +22,16 @@ def check_scope(before, after, prefix):
 
 
 def embed(repo, book, film_id):
-    for lang, caption in (("en", "A narrated introduction to the question and its mathematical mechanism."),
-                          ("zh", "通过旁白与图示，介绍问题和它背后的数学机制。")):
+    for lang, lead, caption in (
+            ("en", "The short film below introduces the question and the idea behind the argument.",
+             "A narrated introduction to the question and its mathematical mechanism."),
+            ("zh", "下面的短片介绍问题的来由，以及论证背后的关键想法。",
+             "通过旁白与图示，介绍问题和它背后的数学机制。")):
         page = repo / "books" / book / lang / "README.md"
         text = page.read_text()
         reference = f'::: {{.film src="{film_id}"}}'
         if reference not in text:
-            page.write_text(text.rstrip() + f"\n\n{reference}\n{caption}\n:::\n")
+            page.write_text(text.rstrip() + f"\n\n{lead}\n\n{reference}\n{caption}\n:::\n")
 
 
 def run(workspace, paper, template, toolchain=None, model=None):
