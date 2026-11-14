@@ -4,8 +4,17 @@ import hashlib
 import json
 import math
 from pathlib import Path
+import re
 import subprocess
 import sys
+
+
+def clear_presentation_previews(output, stem):
+    """Drop only this PDF's reproducible page and contact-sheet images."""
+    pattern = re.compile(re.escape(stem) + r"-(?:\d+|contact-\d+)\.png")
+    for path in output.iterdir():
+        if path.is_file() and pattern.fullmatch(path.name):
+            path.unlink()
 
 
 def video_facts(path):
@@ -94,8 +103,10 @@ def inspect(root, output):
                         "sha256": hashlib.sha256(path.read_bytes()).hexdigest()})
         if "slides" in path.parts and "notes" not in path.stem:
             prefix = output / path.stem
+            clear_presentation_previews(output, path.stem)
             subprocess.run(["pdftoppm", "-scale-to", "850", "-png", str(path), str(prefix)], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
-            images = sorted(output.glob(path.stem + "-*.png"))
+            images = sorted(p for p in output.glob(path.stem + "-*.png")
+                            if re.fullmatch(re.escape(path.stem) + r"-\d+\.png", p.name))
             for start in range(0, len(images), 6):
                 sheet = Image.new("RGB", (1720, 2040), "#e5e7eb")
                 draw = ImageDraw.Draw(sheet)
