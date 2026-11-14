@@ -23,8 +23,9 @@ Decide whether interaction teaches something specific. Record that decision
 and its reason in the external result report. Only build an interactive
 visualization when changing a parameter, constructing an example or exploring
 a mathematical object improves understanding. A prose argument does not need
-an interactive illustration. Static figures are acceptable. Omission after
-this assessment is an intentional outcome, not a failed content job.
+an interactive illustration. If a story, worked example, formula or static
+figure explains it well, use that instead; do not build interaction for decoration.
+Omission after this assessment is an intentional outcome, not a failed content job.
 
 Inspect each manuscript statement and proposed pinned Lean declaration, with
 all hypotheses, quantifiers and boundary cases. Use the existing book mapping
