@@ -69,7 +69,10 @@ interface, using the same story and aligned English/Chinese subtitles. The host
 renders registered films with `TBOOK_FILMS=require` before assembling reading
 editions, decodes the actual audiovisual file with ffmpeg, checks that narration
 is present, and extracts video contact sheets for inspection. The model worker
-does not render the full video or install models. Interactive
+does not render the full video or install models. The local host uses one film
+renderer at a time and bounds native numerical-library threads; it does not use
+the upstream renderer's default multi-worker setting. The preview index reports
+checked story/slide sets and narrated videos separately. Interactive
 visualization is optional: record `not_useful` with a concrete reason when prose
 or static figures teach the result sufficiently. A missing planned video stays
 pending. Never advertise files that have not actually been built.
