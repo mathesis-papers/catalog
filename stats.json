@@ -1,21 +1,21 @@
 {
-  "awaiting_target_needs_attention": 302,
+  "awaiting_target_needs_attention": 306,
   "by_msc": {
     "unclassified": {
       "open_targets": 0,
-      "papers": 48,
-      "registered": 302,
+      "papers": 49,
+      "registered": 306,
       "verified": 0
     }
   },
   "independently_verified_statements": 0,
   "open_formalization_targets": 0,
   "papers_with_doi": 37,
-  "papers_with_lean_source": 48,
-  "public_papers": 48,
-  "registered_statements": 302,
-  "snapshot_time": "2026-11-14T19:29:20.401356052Z",
-  "statements_awaiting_formal_target": 302,
+  "papers_with_lean_source": 49,
+  "public_papers": 49,
+  "registered_statements": 306,
+  "snapshot_time": "2026-11-14T20:28:31.844267113Z",
+  "statements_awaiting_formal_target": 306,
   "verified_counterexamples_disproofs": 0,
   "verified_from_existing_library_declarations": 0,
   "verified_with_new_lean": 0

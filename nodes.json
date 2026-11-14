@@ -287,6 +287,170 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:abbott-2019-sequential-weak-pointer-bound:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S3/Quantum/Measurement/Weak/SequentialWeakPointerRefutation.lean"
+      },
+      "lineage": "collected:abbott-2019-sequential-weak-pointer-bound:s1",
+      "macros": {
+        "\\Id": "I",
+        "\\J": "\\mathcal J",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "abbott-2019-sequential-weak-pointer-bound",
+      "scope": "in_scope",
+      "statement": "Put $c_1=0$ and $c_{r+1}=F(c_r)$, where\n\\[\n F(c)=\\frac{(1+c)^2}{8(1-c)}.\n\\]\nFor all $n\\geq1$, all finite $d$, all orthogonal projections\n$P_1,\\ldots,P_n$ and all density matrices $\\rho$,\n\\[\n -c_n\\leq\\mu_n\\leq1.\n\\]\nThe lower bound is attained in dimension $n$ by real codimension-one\nprojections and a pure state; for $n=1$ the zero projection suffices.\nFurthermore $0\\leq c_n<1/3$, $c_n\\uparrow1/3$, and\n\\[\n c_2=\\frac18,\\qquad c_3=\\frac{81}{448},\\qquad\n c_4=\\frac{279841}{1315328},\\qquad\n \\frac13-c_n\\sim\\frac{16}{27n}.\n\\]\nConsequently the uniform infimum is $-1/3$, not attained at any finite\nlength. The upper bound $1$ is attained.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Extending Sun–Luo–Ye bounds to refute Abbott et al.'s pointer-product conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "abbott-2019-sequential-weak-pointer-bound"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:abbott-2019-sequential-weak-pointer-bound:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S3/Quantum/Measurement/Weak/SequentialWeakPointerRefutation.lean"
+      },
+      "lineage": "collected:abbott-2019-sequential-weak-pointer-bound:s2",
+      "macros": {
+        "\\Id": "I",
+        "\\J": "\\mathcal J",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "abbott-2019-sequential-weak-pointer-bound",
+      "scope": "in_scope",
+      "statement": "The same exact extrema hold for positive contractions $0\\preceq A_j\\preceq\\Id$\nin the nested Jordan expectation.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Extending Sun–Luo–Ye bounds to refute Abbott et al.'s pointer-product conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "abbott-2019-sequential-weak-pointer-bound"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:abbott-2019-sequential-weak-pointer-bound:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S3/Quantum/Measurement/Weak/SequentialWeakPointerRefutation.lean"
+      },
+      "lineage": "collected:abbott-2019-sequential-weak-pointer-bound:s3",
+      "macros": {
+        "\\Id": "I",
+        "\\J": "\\mathcal J",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "abbott-2019-sequential-weak-pointer-bound",
+      "scope": "in_scope",
+      "statement": "For the independent centered real Gaussian pointers above, let each\ncoupling $h_j>0$ be arbitrary and write\n$m_n=\\mathbb E[x_1\\cdots x_n]/\\prod_j h_j$.\nThen $-c_n\\leq m_n\\leq1$ at every coupling strength. The final pointer's\nwidth and coupling do not affect $m_n$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Extending Sun–Luo–Ye bounds to refute Abbott et al.'s pointer-product conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "abbott-2019-sequential-weak-pointer-bound"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:abbott-2019-sequential-weak-pointer-bound:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S3/Quantum/Measurement/Weak/SequentialWeakPointerRefutation.lean"
+      },
+      "lineage": "collected:abbott-2019-sequential-weak-pointer-bound:s4",
+      "macros": {
+        "\\Id": "I",
+        "\\J": "\\mathcal J",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "abbott-2019-sequential-weak-pointer-bound",
+      "scope": "in_scope",
+      "statement": "For commuting projection observables, $0\\leq\\mu_n\\leq1$; the same holds\nfor $m_n$ above. For arbitrary Hermitian observables $A_j$, their nested\nJordan coefficient has absolute value at most $\\prod_j\\|A_j\\|$.\nIf each spectrum is symmetric about zero, this coefficient lies within\nthe extreme products of spectral values.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Extending Sun–Luo–Ye bounds to refute Abbott et al.'s pointer-product conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "abbott-2019-sequential-weak-pointer-bound"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:aks2610-twin-free-theta-separation:2:s1",
       "kind": "paper",
       "label": "Theorem",

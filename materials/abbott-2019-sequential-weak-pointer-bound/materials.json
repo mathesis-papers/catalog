@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/abbott-2019-sequential-weak-pointer-bound/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/abbott-2019-sequential-weak-pointer-bound",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/abbott-2019-sequential-weak-pointer-bound/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "abbott-2019-sequential-weak-pointer-bound"
+}

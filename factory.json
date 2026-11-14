@@ -62,6 +62,63 @@
       "doi": null,
       "files": {
         "pdf": {
+          "bytes": 88686,
+          "matches_public": null,
+          "path": "paper.pdf",
+          "public_sha256": null,
+          "sha256": "e4ca73e37356301dc848fd0b91405066a52c8a635666ec10b3e5176e75cb0347"
+        },
+        "source": {
+          "bytes": 15823,
+          "matches_public": null,
+          "path": "source.archive",
+          "public_sha256": null,
+          "sha256": "98ca2b3100b6a0d6d57ee2e1e44a2364c7c6370d874a23017d567daadaa431b6"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 4,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S3/Quantum/Measurement/Weak/SequentialWeakPointerRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/abbott-2019-sequential-weak-pointer-bound",
+      "site_url": "https://papers.trureturing.org/abbott-2019-sequential-weak-pointer-bound/",
+      "title": "Extending Sun–Luo–Ye bounds to refute Abbott et al.'s pointer-product conjecture",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "abbott-2019-sequential-weak-pointer-bound"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
           "bytes": 110097,
           "matches_public": null,
           "path": "paper.pdf",
@@ -2775,8 +2832,8 @@
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
     }
   ],
-  "papers": 48,
+  "papers": 49,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-14T19:29:20.401356052Z"
+  "snapshot_time": "2026-11-14T20:28:31.844267113Z"
 }

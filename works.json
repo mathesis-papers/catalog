@@ -44,6 +44,49 @@
       "work": "a320043-square-values-refutation"
     },
     {
+      "abstract_text": "Extending the spectral bounds of Sun, Luo and Ye [Mathematics of Operations Research 45, 233–271 (2020)], we refute the arbitrary-rank interpretation of the pointer-product conjecture of Abbott, Silva, Wechs, Brunner and Branciard [Quantum 3, 194 (2019), Section 4, p. 5, after equation (26); arXiv:1805.09364v3]. Three orthogonal projections on C^3 give the normalized weak-limit pointer product -1/6 < -1/8. For n measurements in unrestricted finite dimension, the exact minimum is -c_n, where c_1=0 and c_(n+1)=(1+c_n)^2/[8(1-c_n)]. Codimension-one projections attain every finite-length minimum, and c_n increases to 1/3. Thus pointer products have infimum -1/3, separated by 2/3 from the limiting ordered weak value -1. The same bounds hold as envelopes at every finite coupling strength for independent centered Gaussian pointers.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S3/Quantum/Measurement/Weak/SequentialWeakPointerRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/abbott-2019-sequential-weak-pointer-bound/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-14T19:59:33.895606773Z",
+      "record": "abbott-2019-sequential-weak-pointer-bound",
+      "repository_name": "abbott-2019-sequential-weak-pointer-bound",
+      "source": {
+        "url": "/api/v1/collected-papers/abbott-2019-sequential-weak-pointer-bound/files/source?version=2"
+      },
+      "title": "Extending Sun–Luo–Ye bounds to refute Abbott et al.'s pointer-product conjecture",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-14T19:59:33.895606773Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "abbott-2019-sequential-weak-pointer-bound"
+    },
+    {
       "abstract_text": "We answer Problem 30 in Section 9 (p. 27) of Alfuraidan, Khan and Sauras-Altuzarra, Metric dimension and maximum eigenvalue multiplicity of graph Laplacians, arXiv:2610.26875v1, and extend the metric-dimension classification of Knor, Sedlar and Škrekovski (2022) to a classification of both maximum spectral multiplicities for Theta(3,3,r), for every r >= 2. For every integer k >= 1, the theta graph with edge lengths 3, 3, 6k+4 is connected and twin-free, has metric dimension and maximum Laplacian eigenvalue multiplicity two, and has simple signless spectrum. Its only repeated Laplacian eigenvalues are 1 and 3, each double. Distinct orders give pairwise nonisomorphic examples. For r >= 3, repeated eigenvalues are classified modulo six; r = 2 has a separate quadratic repeated factor. Attaching an equal pendant path at every vertex of two known base graphs also gives twin-free infinite families in both separation directions.",
       "authors": [
         {
