@@ -98,6 +98,23 @@ Add `--rebuild` after a source/template repair, or to bind an earlier checkpoint
 to the new source inventory. It renders existing sources and runs fixed QA;
 it never starts another content worker. Omit it to check unchanged products.
 
+To produce only a missing video after the story/slides have passed checks:
+
+```sh
+python3 scripts/serial_content.py video --workspace /path/to/run \
+  --template /path/to/published-paper-template \
+  --toolchain /path/to/existing-compatible-toolchain --paper <work-id>
+```
+
+This is an explicit missing-product job. It retains the original content run,
+comparison, requests and report, and writes its own envelope/transcript under
+that run's `video/`. The film worker may change only this paper's film source
+directory. The host appends the same film reference to both existing stories,
+then performs the real film build and full product checks. A changed paper,
+mapping, slide or story fails the scope fence. Already checked videos skip the
+model; unfinished film attempts require repair on their saved handle. The
+command shares the ordinary workspace lock and stops at the first failure.
+
 Keep authored source commits and unique evidence before cleaning reproducible
 build/stage caches. Do not remove a shared dependency or a live job's output.
 The current harness has no automatic GitHub-to-platform receipt/credit bridge;

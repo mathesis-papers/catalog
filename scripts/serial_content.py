@@ -323,7 +323,9 @@ def validate_run(repo, run, build=False):
         if result["visualization"]["decision"] == "built":
             checks.append(["./tbook", "build", "viz", "--book", mapping["book"]])
         checks.append(["./tbook", "build", "site", "--book", mapping["book"]])
-    with (run / "operator-checks.log").open("w") as log:
+    with (run / "operator-checks.log").open("a") as log:
+        log.write(f"\nOperator checks {now()} · rebuild={build}\n")
+        log.flush()
         for args in checks:
             subprocess.run(args, cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
         if build:
@@ -426,7 +428,7 @@ def run_paper(workspace, paper, template, allow_requests=False, model=None, tool
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("action", choices=["prepare", "run", "status", "check", "preview"])
+    p.add_argument("action", choices=["prepare", "run", "video", "status", "check", "preview"])
     p.add_argument("--workspace", required=True, type=Path)
     p.add_argument("--template", type=Path)
     p.add_argument("--toolchain", type=Path, help="existing checkout providing shared ignored .venv/node_modules")
@@ -468,7 +470,11 @@ def main():
                 print(run)
             else:
                 try:
-                    state = run_paper(workspace, paper, a.template.resolve(), a.allow_request_registration, a.model, a.toolchain)
+                    if a.action == "video":
+                        import produce_video
+                        state = produce_video.run(workspace, paper, a.template.resolve(), a.toolchain, a.model)
+                    else:
+                        state = run_paper(workspace, paper, a.template.resolve(), a.allow_request_registration, a.model, a.toolchain)
                     if state["state"] != "local_checks_passed":
                         raise RuntimeError("paper requires inspection before continuing: " + paper["id"])
                 except (ValueError, RuntimeError, OSError, subprocess.CalledProcessError) as exc:
