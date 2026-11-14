@@ -137,6 +137,8 @@ def authored_workspace(workspace, paper, template, source, run, toolchain=None):
         cache.mkdir(exist_ok=True)
         if (toolchain / ".cache/tectonic").is_dir() and not (cache / "tectonic").exists():
             (cache / "tectonic").symlink_to(toolchain / ".cache/tectonic", target_is_directory=True)
+        if (toolchain / ".cache/film").is_dir() and not (cache / "film").exists():
+            (cache / "film").symlink_to(toolchain / ".cache/film", target_is_directory=True)
     return dest
 
 
@@ -182,6 +184,11 @@ This is content production, not another referee review. Complete the bilingual s
 Beamer presentation in aligned Chinese and English editions, optional visualization only if mathematically useful, exact statement/Lean
 comparison, DOI audit and canonical shared-request handoff. The output should teach the result
 to a curious high-school student, not simply repeat the abstract.
+Also prepare an actual focused narrated film from this same story using the installed book-film
+interface: film.json, aligned English/Chinese script.json and meaningful scenes.js. The host
+has a shared local Kokoro/ffmpeg toolchain and will render your video sources serially. Use the
+existing film engine, author its poster through the installed command, and embed the same film
+in both language editions. Do not render the full MP4 in the content worker or install models.
 The operator has staged the published template and frozen paper with the catalog's existing
 legacy_book_projection and paper.py fill interfaces. The source collection checkout at {source}
 remains untouched. Work ONLY at {repo}; it is a local authored preview, not an in-place
@@ -303,6 +310,10 @@ def validate_run(repo, run, build=False):
     mapping = read(repo / ".mathesis/book.json")
     checks = [[sys.executable, "docs/layer-mathesis/scripts/paper.py", "check", "--complete"], ["./tbook", "check"]]
     if build:
+        films = list((repo / "books" / mapping["book"] / "films").glob("*/film.json"))
+        if films:
+            env["TBOOK_FILMS"] = "require"
+            checks.append(["./tbook", "build", "films", "--book", mapping["book"]])
         for target in ("html", "pdf", "slides"):
             checks.append(["./tbook", "build", target, "--book", mapping["book"]])
         if result["visualization"]["decision"] == "built":
@@ -322,6 +333,8 @@ def validate_run(repo, run, build=False):
     states = {u["unit"]: u["state"] for u in plan["units"]}
     if states.get("story") != "built" or states.get("slides") != "built":
         raise ValueError("bilingual story and actual presentation are not built")
+    if list((repo / "books" / mapping["book"] / "films").glob("*/film.json")) and states.get("video") != "built":
+        raise ValueError("authored film has no actual built video")
     materials = read(repo / "_site/mathesis-materials.json")
     check_material_products(materials, result["visualization"])
     # Keep content/receipt/publication observations separate. A closed issue is
