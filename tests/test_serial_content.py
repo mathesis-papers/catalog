@@ -76,6 +76,26 @@ class SerialContent(unittest.TestCase):
                 with runner.exclusive(self.root):
                     self.fail("second lock was acquired")
 
+    def test_real_film_duration_replaces_estimate_without_changing_other_metadata(self):
+        path = self.root / "books/paper/films/001-demo/film.json"
+        meta = {"duration": "2:56", "title": "Original title", "lean": ["original.scope"],
+                "outputs": {"narrated_720p": "demo.mp4"}}
+        runner.write(path, meta)
+        output = self.root / "build/films/paper/001-demo/demo.mp4"
+        output.parent.mkdir(parents=True)
+        output.write_bytes(b"probe fixture")
+        with patch.object(runner, "command", return_value="173.734"):
+            changes = runner.reconcile_film_durations(self.root, "paper", [path])
+            self.assertEqual(changes[0]["before"], "2:56")
+            self.assertEqual(runner.read(path), dict(meta, duration="2:54"))
+            self.assertEqual(runner.reconcile_film_durations(self.root, "paper", [path], update=False), [])
+        with patch.object(runner, "command", return_value="180"):
+            with self.assertRaisesRegex(ValueError, "changed during"):
+                runner.reconcile_film_durations(self.root, "paper", [path], update=False)
+        for duration in ("nan", "0"):
+            with patch.object(runner, "command", return_value=duration), self.assertRaisesRegex(ValueError, "invalid actual"):
+                runner.reconcile_film_durations(self.root, "paper", [path])
+
     def test_completed_checkpoint_never_calls_model_again(self):
         run = self.root / "run"
         runner.write(run / "checkpoint.json", {"state": "local_checks_passed"})
