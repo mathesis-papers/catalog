@@ -1078,6 +1078,49 @@
       "work": "mathoverflow-513954-singular-diagonal-downdate-inertia"
     },
     {
+      "abstract_text": "Extending Maestro's exact qutrit separation (2026) by the unitary-moment obstruction of Dykema and Juschenko (2009), we refute Conjecture 1 of Narasimhachar and Gour (arXiv:1409.7740v3, Supplementary Sec. S2 F, p. S11) even in the closure of finite ground-space thermal transitions. Two diagonal Kraus operators send the uniform pure state of a four-level system with energies 0, 1, 3, 7 to a rank-two state with the same populations. Any energy-conserving realization with an ancilla initially maximally mixed on its full ground eigenspace would express the output correlation matrix as normalized traces of four unitaries. Two linear relations make that representation impossible, with a dimension-independent gap. The trace-norm error of any such thermal output exceeds 10^-8. A three-vector projection obstruction also refutes Conjecture 2 in versions 1 and 2 of the posing source. The four-level obstruction extends to every system with at least four occupied distinct energy levels. Together with the known qutrit closure theorem, this makes four the minimum dimension for closure separation under distinct-level and distinct-gap assumptions.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "0eae8e045cb2ba958e2097dbac034f62f9c1dd7a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/QuantumChannels/CoolingMapThermalOperationRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-14T06:38:22.917402861Z",
+      "record": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
+      "repository_name": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
+      "source": {
+        "url": "/api/v1/collected-papers/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/files/source?version=3"
+      },
+      "title": "Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-14T06:38:22.917402861Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation"
+    },
+    {
       "abstract_text": "We prove Paul Curtz's six-residue denominator conjecture in OEIS A189733, revision 12, COMMENTS (May 23, 2011), now in revision 36, FORMULA, with its convention that zero has denominator one. Following Gao's earlier generating-function proof, we derive exact values of the first row of the defining rational array. These values also prove the six-periodic numerator assertion, the denominator recurrence, and Barker's empirical generating function in the same entry. The same formulas settle Barker's recurrence and generating-function conjectures in A267068 and give the numerator identities in A278718. We also prove the full-array reflection and binomial-transform identity. The corresponding second-kind array yields A194767's denominator formulas and reciprocal sum, and corrects an index in its fourth-diagonal numerator identity. For the unsigned-seed array in A189731 and A242926, the same argument gives a Lucas-number formula and refutes the asserted prime-only integer ranks at the composite 705. An integer triangular transformation determines antidiagonal denominator lcms for arbitrary rational seeds.",
       "authors": [
         {
@@ -1635,6 +1678,49 @@
         }
       ],
       "work": "wang-conjecture326"
+    },
+    {
+      "abstract_text": "For OEIS A344611, FORMULA (revision 27), we prove A344611(n) <= A160786(n) for every n >= 0 and give an alternative derivation of Manyama's (2026) convolution, complementing Andrews–El Bachraoui's (2026) strict-partition formulas. An injection sends a partition with nonnegative reverse-alternating sum to an odd-length partition of the next weight. We characterize equality, give an explicit lower bound for the deficit, and deduce monotonicity of the corresponding unrestricted count. The same parity analysis proves a shifted companion comparison, determines all plateaus of the negative-sum count, and corrects neighboring indexing and distinct-part descriptions. A bivariate series settles the linked ordered-composition interpretations, with their precise shifts.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9/D5/S1/Words/Compositions/WisemanA344611OddLengthInjection.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/wiseman-a344611/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-14T06:04:47.670987671Z",
+      "record": "wiseman-a344611",
+      "repository_name": "wiseman-a344611",
+      "source": {
+        "url": "/api/v1/collected-papers/wiseman-a344611/files/source?version=2"
+      },
+      "title": "Strictness and sibling corrections for OEIS A344611, FORMULA, with an alternative derivation of Manyama's (2026) convolution",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-14T06:04:47.670987671Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "wiseman-a344611"
     },
     {
       "abstract_text": "The question in Xu et al., Section 4.2, page 12 of arXiv:2211.05563v1, asks whether the optimized witness bound equals the convex-roof geometric measure of genuine multipartite entanglement for noisy GHZ states. A strict separation holds for every party count n >= 3 and local dimension d >= 3 at an explicit noise probability. For three qutrits at noise p=3/8, the optimized witness bound is exactly 1/9, whereas the convex roof is at least 13/108. A biseparable overlap inequality and a positive-definite matrix give a two-observable lower bound. A written corollary extends the three-qutrit strict gap throughout 27/74 < p < 9/22.",

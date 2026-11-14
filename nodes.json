@@ -6017,6 +6017,426 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:3:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "0eae8e045cb2ba958e2097dbac034f62f9c1dd7a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/QuantumChannels/CoolingMapThermalOperationRefutation.lean"
+      },
+      "lineage": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:s1",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\diag": "\\operatorname{diag}",
+        "\\ket": "\\lvert #1\\rangle"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
+      "scope": "in_scope",
+      "statement": "Let $H_S=\\diag(E_0,\\ldots,E_3)$ with strictly increasing energies. Let\n$\\ket\\psi=\\sum_k\\alpha_k\\ket k$ with $\\alpha_k\\ne0$ for every $k$.\nIf a map of the form \\eqref{eq:thermal} preserves the populations of\n$\\ket\\psi\\bra\\psi$, then its output has entries\n\\begin{equation}\n\\mathcal T(\\ket\\psi\\bra\\psi)_{jk}\n=\\alpha_j\\overline{\\alpha_k}\\,g^{-1}\\Tr(V_jV_k^\\dagger)\n\\end{equation}\nfor four $g\\times g$ unitary matrices $V_0,\\ldots,V_3$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:3:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0eae8e045cb2ba958e2097dbac034f62f9c1dd7a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/QuantumChannels/CoolingMapThermalOperationRefutation.lean"
+      },
+      "lineage": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:s10",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\diag": "\\operatorname{diag}",
+        "\\ket": "\\lvert #1\\rangle"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
+      "scope": "in_scope",
+      "statement": "Under distinct-level and distinct-positive-gap assumptions, the minimum\nsystem dimension admitting a cooling transition outside the closure of\nfinite ground-space thermal outputs is four.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:3:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "0eae8e045cb2ba958e2097dbac034f62f9c1dd7a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/QuantumChannels/CoolingMapThermalOperationRefutation.lean"
+      },
+      "lineage": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:s2",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\diag": "\\operatorname{diag}",
+        "\\ket": "\\lvert #1\\rangle"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
+      "scope": "in_scope",
+      "statement": "The cooling transition \\eqref{eq:data}--\\eqref{eq:kraus} has no realization\nof the form \\eqref{eq:thermal}, for any finite ancilla Hamiltonian or ground\ndegeneracy.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:3:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "0eae8e045cb2ba958e2097dbac034f62f9c1dd7a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/QuantumChannels/CoolingMapThermalOperationRefutation.lean"
+      },
+      "lineage": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:s3",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\diag": "\\operatorname{diag}",
+        "\\ket": "\\lvert #1\\rangle"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
+      "scope": "in_scope",
+      "statement": "For any four $g\\times g$ unitaries, $g\\geq1$, their correlation matrix\n$D_{jk}=g^{-1}\\Tr(V_jV_k^\\dagger)$ satisfies\n$\\max_{j,k}|D_{jk}-C_{jk}|\\geq1/144$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0eae8e045cb2ba958e2097dbac034f62f9c1dd7a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/QuantumChannels/CoolingMapThermalOperationRefutation.lean"
+      },
+      "lineage": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:s4",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\diag": "\\operatorname{diag}",
+        "\\ket": "\\lvert #1\\rangle"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
+      "scope": "in_scope",
+      "statement": "For the data \\eqref{eq:data}, every output $\\tau=\\mathcal T(\\rho)$\nof \\eqref{eq:thermal} satisfies $\\|\\tau-\\sigma\\|_1>10^{-8}$.\nIn particular, $\\sigma$ is outside the closure of these thermal outputs.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0eae8e045cb2ba958e2097dbac034f62f9c1dd7a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/QuantumChannels/CoolingMapThermalOperationRefutation.lean"
+      },
+      "lineage": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:s5",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\diag": "\\operatorname{diag}",
+        "\\ket": "\\lvert #1\\rangle"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
+      "scope": "in_scope",
+      "statement": "For a finite Gibbs bath with excited-state probability $p$, every\nenergy-conserving output $\\tau$ on the input \\eqref{eq:data} satisfies\n$\\|\\tau-\\sigma\\|_1>10^{-8}-2p$.\nAn exact realization therefore requires $p>5\\cdot10^{-9}$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0eae8e045cb2ba958e2097dbac034f62f9c1dd7a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/QuantumChannels/CoolingMapThermalOperationRefutation.lean"
+      },
+      "lineage": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:s6",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\diag": "\\operatorname{diag}",
+        "\\ket": "\\lvert #1\\rangle"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
+      "scope": "in_scope",
+      "statement": "Replace $3/5,4/5$ in $B$ by any real $a,b>0$ with $a^2+b^2=1$, replace\n$i$ in its last entry by $e^{i\\theta}$ with $\\sin\\theta\\ne0$, and replace\n$\\ket+$ by any normalized $\\sum_j\\alpha_j\\ket j$ with all $\\alpha_j\\ne0$.\nFor every strictly ordered four-level spectrum, the resulting diagonal\ncooling channel sends this input to a state that no exact finite\nground-space thermal operation reaches.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0eae8e045cb2ba958e2097dbac034f62f9c1dd7a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/QuantumChannels/CoolingMapThermalOperationRefutation.lean"
+      },
+      "lineage": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:s7",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\diag": "\\operatorname{diag}",
+        "\\ket": "\\lvert #1\\rangle"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
+      "scope": "in_scope",
+      "statement": "For every finite system with distinct ordered energies and every pure\ninput with at least four nonzero energy amplitudes, there is a diagonal\ncooling channel whose output lies outside the closure of outputs of\n\\eqref{eq:thermal}.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0eae8e045cb2ba958e2097dbac034f62f9c1dd7a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/QuantumChannels/CoolingMapThermalOperationRefutation.lean"
+      },
+      "lineage": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:s8",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\diag": "\\operatorname{diag}",
+        "\\ket": "\\lvert #1\\rangle"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
+      "scope": "in_scope",
+      "statement": "Conjecture 2 of arXiv:1409.7740v1 and v2 (Supplementary Sec.\\ II F,\np.\\ S11) is false already for three vectors in $\\mathbb C^3$.\nProperty S2.6 in version 3, with its rank-dimensional ground-space\nvectors, fails for the rank-two matrix $C$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:3:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0eae8e045cb2ba958e2097dbac034f62f9c1dd7a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/QuantumChannels/CoolingMapThermalOperationRefutation.lean"
+      },
+      "lineage": "collected:narasimhachar-gour-2015-cooling-map-thermal-operation-refutation:s9",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\diag": "\\operatorname{diag}",
+        "\\ket": "\\lvert #1\\rangle"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
+      "scope": "in_scope",
+      "statement": "The channel \\eqref{eq:kraus} is outside the closed convex hull of\noptimally coherent cooling channels.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:oeis-a189733-curtz-denominator-conjecture:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -9304,6 +9724,326 @@
       "toolchain": null,
       "version": 2,
       "work": "wang-conjecture326"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:wiseman-a344611:2:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9/D5/S1/Words/Compositions/WisemanA344611OddLengthInjection.lean"
+      },
+      "lineage": "collected:wiseman-a344611:s1",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\len": "\\ell"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "wiseman-a344611",
+      "scope": "in_scope",
+      "statement": "Every odd-length partition has $R(\\lambda)>0$.\nAn even-length partition has $R(\\lambda)\\le0$, with equality precisely\nwhen $\\lambda_{2i-1}=\\lambda_{2i}$ for every adjacent pair.\nMore precisely, if $o(\\lambda')$ is the number of odd parts of the\nconjugate, then $R(\\lambda)=(-1)^{k-1}o(\\lambda')$ for $k>0$.\nConsequently,\n\\begin{equation}\n C(m)=O(m)+\\begin{cases}p(m/2),&m\\text{ even},\\\\0,&m\\text{ odd},\\end{cases}\n \\quad\n N(m)=E(m)-\\begin{cases}p(m/2),&m\\text{ even},\\\\0,&m\\text{ odd}.\n \\end{cases}\n\\end{equation}",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Strictness and sibling corrections for OEIS A344611, FORMULA, with an alternative derivation of Manyama's (2026) convolution",
+      "toolchain": null,
+      "version": 2,
+      "work": "wiseman-a344611"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:wiseman-a344611:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9/D5/S1/Words/Compositions/WisemanA344611OddLengthInjection.lean"
+      },
+      "lineage": "collected:wiseman-a344611:s2",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\len": "\\ell"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "wiseman-a344611",
+      "scope": "in_scope",
+      "statement": "For every $m\\in\\NN$, $C(m)\\le O(m+1)$.\nIn particular, A344611$(n)\\le$ A160786$(n)$ for every $n\\in\\NN$.\nEquality in this latter comparison holds exactly for $0\\le n\\le3$.\nFor $n\\ge4$, the deficit satisfies\n\\begin{equation}\n O(2n+1)-C(2n)\\ \\ge\\ \\left\\lfloor\\frac{n-4}{2}\\right\\rfloor+1.\n\\end{equation}",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Strictness and sibling corrections for OEIS A344611, FORMULA, with an alternative derivation of Manyama's (2026) convolution",
+      "toolchain": null,
+      "version": 2,
+      "work": "wiseman-a344611"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:wiseman-a344611:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9/D5/S1/Words/Compositions/WisemanA344611OddLengthInjection.lean"
+      },
+      "lineage": "collected:wiseman-a344611:s3",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\len": "\\ell"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "wiseman-a344611",
+      "scope": "in_scope",
+      "statement": "The sequence $C(m)$, namely A344607, is nondecreasing,\nanswering the question in its COMMENTS section \\cite{a344607}.\nIts adjacent equalities are exactly\n$C(m)=C(m+1)$ for $m\\in\\{0,2,4,6\\}$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Strictness and sibling corrections for OEIS A344611, FORMULA, with an alternative derivation of Manyama's (2026) convolution",
+      "toolchain": null,
+      "version": 2,
+      "work": "wiseman-a344611"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:wiseman-a344611:2:s4",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9/D5/S1/Words/Compositions/WisemanA344611OddLengthInjection.lean"
+      },
+      "lineage": "collected:wiseman-a344611:s4",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\len": "\\ell"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "wiseman-a344611",
+      "scope": "in_scope",
+      "statement": "The negative-sum counts, namely A344608, satisfy\n$N(m)\\le N(m+1)$ for every $m\\ge0$, answering its COMMENTS\nmonotonicity question \\cite{a344608}.\nThe COMMENTS of A344743 say exactly ``Conjecture: a(n) >= A236914.''\n\\cite{a344743}, without specifying the argument on the right.\nA common-index reading is not asserted explicitly in the source;\nit fails at $n=1$, with sides $0$ and $1$.\nA precise valid comparison is\n\\begin{equation}\n \\mathrm{A344743}(n+1)\\ \\ge\\ \\mathrm{A236914}(n)\n \\qquad(n\\ge0).\n\\end{equation}\nEquality in \\eqref{eq:corrected} holds exactly for $n=0,1,2,3$;\nfor $n\\ge4$ its deficit is at least $\\lfloor(n-4)/2\\rfloor+1$.\nMore generally, $N(m)=N(m+1)$ exactly for\n$m\\in\\{0,1,3,5,7\\}$.\nBy conjugation, $N(m)$ also counts partitions with even largest part\nand at least one odd part. In particular, the odd-weight identity is\n$N(2n+1)=E(2n+1)$; the index $2n+2$ and the phrase concerning parts\nnot all odd in the COMMENTS of A344608 require these corrections.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Strictness and sibling corrections for OEIS A344611, FORMULA, with an alternative derivation of Manyama's (2026) convolution",
+      "toolchain": null,
+      "version": 2,
+      "work": "wiseman-a344611"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:wiseman-a344611:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9/D5/S1/Words/Compositions/WisemanA344611OddLengthInjection.lean"
+      },
+      "lineage": "collected:wiseman-a344611:s5",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\len": "\\ell"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "wiseman-a344611",
+      "scope": "in_scope",
+      "statement": "Among distinct-part partitions, $R>0$ means odd length and $R<0$\nmeans even length. Thus the distinct negative-sum count is\n\\textup{A067661}$(m)$ for $m>0$, and is zero at $m=0$.\nThe distinct nonnegative-sum count is \\textup{A067659}$(m)$ for $m>0$,\nwith the empty partition added at zero.\nThe identification of the distinct negative-sum count with A067659\nin A344608, CROSSREFS, fails at $m=5$: $(4,1),(3,2)$ give two\nnegative objects, whereas $(5)$ is the sole positive one.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Strictness and sibling corrections for OEIS A344611, FORMULA, with an alternative derivation of Manyama's (2026) convolution",
+      "toolchain": null,
+      "version": 2,
+      "work": "wiseman-a344611"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:wiseman-a344611:2:s6",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9/D5/S1/Words/Compositions/WisemanA344611OddLengthInjection.lean"
+      },
+      "lineage": "collected:wiseman-a344611:s6",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\len": "\\ell"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "wiseman-a344611",
+      "scope": "in_scope",
+      "statement": "Let $d(0)=1$, and for $r\\ge1$ let $d(r)$ count distinct-part partitions\nof $2r$ with odd length, namely A344650$(r)$.\nThen\n\\begin{equation}\n C(2n)=\\sum_{r=0}^n d(r)p(n-r).\n\\end{equation}\nConjugation also identifies the partitions counted by $C(m)$ with\npartitions of $m$ whose largest part is odd or whose parts are all even,\nwith the empty partition included in the latter class.\nMore generally, let $B_m(s)$ and $D_m(s)$ count unrestricted and\ndistinct-part partitions of $m$ with $R=s$. Then for every integer $s$,\n\\begin{equation}\n B_m(s)=\\sum_{t=0}^{\\lfloor m/2\\rfloor}p(t)D_{m-2t}(s).\n\\end{equation}",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Strictness and sibling corrections for OEIS A344611, FORMULA, with an alternative derivation of Manyama's (2026) convolution",
+      "toolchain": null,
+      "version": 2,
+      "work": "wiseman-a344611"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:wiseman-a344611:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9/D5/S1/Words/Compositions/WisemanA344611OddLengthInjection.lean"
+      },
+      "lineage": "collected:wiseman-a344611:s7",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\len": "\\ell"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "wiseman-a344611",
+      "scope": "in_scope",
+      "statement": "Let $H(m)$ and $J(m)$ count compositions of $m$ with reverse-alternating\nsum nonnegative and negative, respectively. Then $H(0)=1$, $J(0)=0$,\nand for $m\\ge1$,\n\\[\n H(m)=\\sum_{j=0}^{\\lfloor m/2\\rfloor}\\binom{m-1}{j}\n =\\mathrm{A116406}(m),\\qquad\n J(m)=2^{m-1}-H(m)=\\mathrm{A294175}(m-1).\n\\]\nIn particular $H(2r)=\\mathrm{A114121}(r)$ for $r\\ge0$, and\n$J(2r)=\\mathrm{A008549}(r-1)$ for $r\\ge1$.\nThese prove the ``appears to be'' ordered interpretations in\nA344607 and A344611, and specify the shift missing from A344608.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Strictness and sibling corrections for OEIS A344611, FORMULA, with an alternative derivation of Manyama's (2026) convolution",
+      "toolchain": null,
+      "version": 2,
+      "work": "wiseman-a344611"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:wiseman-a344611:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9/D5/S1/Words/Compositions/WisemanA344611OddLengthInjection.lean"
+      },
+      "lineage": "collected:wiseman-a344611:s8",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\len": "\\ell"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "wiseman-a344611",
+      "scope": "in_scope",
+      "statement": "The recurrence conjectured by Mathar (2014) in A116406, FORMULA, holds\nfor $m\\ge3$:\n\\[\n m(m-3)H(m)+2(-m^2+4m-2)H(m-1)\n -4(m-2)^2H(m-2)+8(m-2)(m-3)H(m-3)=0.\n\\]",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Strictness and sibling corrections for OEIS A344611, FORMULA, with an alternative derivation of Manyama's (2026) convolution",
+      "toolchain": null,
+      "version": 2,
+      "work": "wiseman-a344611"
     },
     {
       "attribution": null,
