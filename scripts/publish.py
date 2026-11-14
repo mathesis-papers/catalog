@@ -418,9 +418,9 @@ def apply(api, source, stage):
         # Enable after provenance/identity checks and before the initialization commit.
         api.pages(repo, "workflow")
         is_collection = work in plan.get("collection_works", [])
-        if not is_collection and "paper.json" in entries and remote["repository_name"] != repo:
+        if not is_collection and "paper.json" in entries and work in aliases:
             files = {p: api.blob(repo, entries[p]) for p in ("paper.json", ".mathesis/generated.json", "site.toml")}
-            relocated = collection.relocate_book(files, remote["repository_name"], repo)
+            relocated = collection.relocate_book(files, aliases[work][0], repo)
             api.sync(repo, relocated, lambda p: p in relocated, "Update paper repository DOI address", state)
         if "paper.json" not in entries or is_collection:
             local = tree_files(stage / "papers" / repo)

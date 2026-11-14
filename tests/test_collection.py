@@ -105,13 +105,15 @@ class CollectionRendering(unittest.TestCase):
                  "site.toml": b'[site]\nrepo = "mathesis-papers/old"\nbase_url = "https://papers.trureturing.org/old/"\n[books]\norder = ["original-book"]\n'}
         updated = collection.relocate_book(files, "old", "10.1234-paper")
         self.assertIn(b'order = ["original-book"]', updated["site.toml"])
-        self.assertIn(b'mathesis-papers/10.1234-paper', updated["site.toml"])
+        self.assertIn(b'repo = "mathesis-papers/old"', updated["site.toml"])
+        self.assertIn(b'https://papers.trureturing.org/10.1234-paper/', updated["site.toml"])
         result = json.loads(updated["paper.json"])
         self.assertEqual(result["work"]["doi"], "10.1234/version")
-        self.assertEqual(result["work"]["repository_name"], "10.1234-paper")
+        self.assertEqual(result["work"]["repository_name"], "old")
         hashes = json.loads(updated[".mathesis/generated.json"])["sha256"]
         self.assertEqual(hashes["paper.pdf"], "pdf hash")
         self.assertEqual(hashes["paper.json"], hashlib.sha256(updated["paper.json"]).hexdigest())
+        self.assertEqual(collection.relocate_book(updated, "old", "10.1234-paper"), updated)
 
     def test_existing_readings_files_and_attribution_are_preserved(self):
         with tempfile.TemporaryDirectory() as directory:
