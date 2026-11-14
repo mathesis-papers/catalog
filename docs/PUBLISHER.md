@@ -199,6 +199,15 @@ collections use the same stage seal and non-forced commit/ref transactions.
 Collection creates no review, proof receipt or leaderboard credit, and needs
 no Issues permission. The original book publication mode remains available.
 
+The local `scripts/plan_content.py` planner reuses these collected English and
+Chinese readings without requiring a second authored book. Reuse requires
+the same paper version, collection ownership hashes and matching built pages;
+edited, unowned or stale files fail validation. A missing language still needs
+preparation. Derived slides and video input keys include the reading hashes,
+so refreshed explanations invalidate their earlier inputs. This is content
+readiness planning, not a quality assessment, model scheduler or proof check;
+it does not invoke CMA or change any queued proof work.
+
 ## Paper repository names and address migration
 
 `repository_naming: "doi-v1"` names new repositories after the paper's concept

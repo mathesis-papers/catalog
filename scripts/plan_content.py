@@ -10,6 +10,53 @@ def digest(value):
     return hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
 
 
+def materials_identity(material, inputs, work):
+    if material.get("schema") != "mathesis.materials.v1" or material.get("work") != inputs["work"] or material.get("version") != inputs["version"]:
+        raise ValueError("built materials belong to another paper version")
+    prefix = "https://papers.trureturing.org/" + work["repository_name"] + "/"
+    if material.get("site_url") != prefix or material.get("repository_url") != "https://github.com/mathesis-papers/" + work["repository_name"]:
+        raise ValueError("built materials belong to another repository")
+    return prefix
+
+
+def collected_story(root, inputs, work):
+    """Reuse the publisher's exact-version readings, bound to its ownership hashes."""
+    marker = root / ".mathesis/collection.json"
+    if marker.is_symlink():
+        raise ValueError("collection marker is a symlink")
+    collection = json.loads(marker.read_text())
+    if collection.get("schema") != "mathesis.paper-collection.v1" or collection.get("work") != inputs["work"] or collection.get("version") != inputs["version"]:
+        raise ValueError("collection belongs to another paper version")
+
+    def owned(name):
+        path = root / name
+        if not path.resolve().is_relative_to(root) or any(p.is_symlink() for p in (path, *path.parents) if p.is_relative_to(root)):
+            raise ValueError("collection path leaves paper repository or is a symlink")
+        if not path.is_file():
+            raise ValueError("collection file is missing: " + name)
+        data = path.read_bytes()
+        if hashlib.sha256(data).hexdigest() != collection.get("sha256", {}).get(name):
+            raise ValueError("collection bytes differ or are unowned: " + name)
+        return data
+
+    owned("paper.json")
+    material = json.loads(owned("site/mathesis-materials.json"))
+    prefix = materials_identity(material, inputs, work)
+    text = {}
+    for lang in ("en", "zh"):
+        url = material.get("reading", {}).get(lang)
+        if not url:
+            continue
+        if url != prefix + lang + "/":
+            raise ValueError("collection reading address differs")
+        name = "site/" + lang + "/index.html"
+        data = owned(name)
+        if b"<html" not in data[:1024].lower():
+            raise ValueError("collection reading has the wrong format")
+        text[lang] = {name: hashlib.sha256(data).hexdigest()}
+    return text
+
+
 def plan(repository, site=None):
     root = repository.resolve()
     paper = json.loads((root / "paper.json").read_text())
@@ -30,6 +77,8 @@ def plan(repository, site=None):
     mapping_path = root / ".mathesis/book.json"
     mapping = json.loads(mapping_path.read_text()) if mapping_path.is_file() else None
     text = {}
+    collection_reading = {}
+    story_prepared = False
     if mapping:
         if mapping["work"] != inputs["work"] or mapping["version"] != inputs["version"]:
             raise ValueError("book belongs to another paper version")
@@ -40,17 +89,17 @@ def plan(repository, site=None):
         for lang in ("en", "zh"):
             text[lang] = {p.relative_to(book).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
                           for p in sorted((book / lang).glob("*.md")) if p.is_file() and not p.is_symlink()}
-    story_prepared = bool(mapping and mapping.get("stage") == "complete" and not mapping.get("pending_claims") and all(text.values()))
+        story_prepared = bool(mapping.get("stage") == "complete" and not mapping.get("pending_claims") and all(text.values()))
+    elif (root / ".mathesis/collection.json").exists():
+        text = collected_story(root, inputs, work)
+        story_prepared = {"en", "zh"}.issubset(text)
+        collection_reading = {lang: next(iter(paths.values())) for lang, paths in text.items()}
     material = {}
     if site:
         material = json.loads((site / "mathesis-materials.json").read_text())
-        if material.get("schema") != "mathesis.materials.v1" or material.get("work") != inputs["work"] or material.get("version") != inputs["version"]:
-            raise ValueError("built materials belong to another paper version")
-        prefix = "https://papers.trureturing.org/" + work["repository_name"] + "/"
-        if material.get("site_url") != prefix or material.get("repository_url") != "https://github.com/mathesis-papers/" + work["repository_name"]:
-            raise ValueError("built materials belong to another repository")
+        prefix = materials_identity(material, inputs, work)
 
-        def actual(url, kind):
+        def actual(url, kind, expected=None):
             if not isinstance(url, str) or not url.startswith(prefix):
                 raise ValueError("material leaves paper site")
             path = site / url[len(prefix):].split("#", 1)[0]
@@ -62,7 +111,9 @@ def plan(repository, site=None):
                 head = stream.read(1024)
             if (kind == "pdf" and not head.startswith(b"%PDF-")) or (kind == "video" and head[4:8] != b"ftyp") or (kind == "html" and b"<html" not in head.lower()):
                 raise ValueError("material output has the wrong format")
-        for url in material.get("reading", {}).values(): actual(url, "html")
+            if expected and hashlib.sha256(path.read_bytes()).hexdigest() != expected:
+                raise ValueError("built reading differs from prepared collection")
+        for lang, url in material.get("reading", {}).items(): actual(url, "html", collection_reading.get(lang))
         for row in material.get("slides", []):
             for field in ("pdf_url", "notes_url"):
                 if row.get(field): actual(row[field], "pdf")
