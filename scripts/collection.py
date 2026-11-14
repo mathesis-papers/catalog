@@ -130,7 +130,14 @@ def relocate_book(files, old, new):
     encode = lambda value: (json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2) + "\n").encode()
     encoded = encode(paper)
     marker["sha256"]["paper.json"] = hashlib.sha256(encoded).hexdigest()
-    return {"paper.json": encoded, ".mathesis/generated.json": encode(marker), "site.toml": config.encode()}
+    front_marker = b"\n<!-- Mathesis generated repository guide; refresh with paper.py front. -->\n"
+    prefix, separator, guide = files["README.md"].partition(front_marker)
+    if not separator or marker["sha256"]["README.md"] != hashlib.sha256(prefix).hexdigest():
+        raise ValueError("book README catalog prefix differs")
+    guide = guide.replace(f"https://papers.trureturing.org/{old}/".encode(),
+                          f"https://papers.trureturing.org/{new}/".encode())
+    return {"paper.json": encoded, ".mathesis/generated.json": encode(marker), "site.toml": config.encode(),
+            "README.md": prefix + separator + guide}
 
 
 def redirects(site, mapping, aliases, projections):

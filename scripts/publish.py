@@ -419,7 +419,7 @@ def apply(api, source, stage):
         api.pages(repo, "workflow")
         is_collection = work in plan.get("collection_works", [])
         if not is_collection and "paper.json" in entries and work in aliases:
-            files = {p: api.blob(repo, entries[p]) for p in ("paper.json", ".mathesis/generated.json", "site.toml")}
+            files = {p: api.blob(repo, entries[p]) for p in ("paper.json", ".mathesis/generated.json", "site.toml", "README.md")}
             relocated = collection.relocate_book(files, aliases[work][0], repo)
             api.sync(repo, relocated, lambda p: p in relocated, "Update paper repository DOI address", state)
         if "paper.json" not in entries or is_collection:

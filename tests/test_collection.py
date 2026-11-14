@@ -100,8 +100,12 @@ class CollectionRendering(unittest.TestCase):
 
     def test_book_relocation_changes_only_addresses_and_updates_the_integrity_record(self):
         paper = json.dumps({"work": {"work": WORK, "repository_name": "old", "doi": "10.1234/version"}}).encode()
-        marker = {"sha256": {"paper.json": hashlib.sha256(paper).hexdigest(), "paper.pdf": "pdf hash"}}
+        prefix = b"Original catalog credit and citation\n"
+        readme = prefix + b"\n<!-- Mathesis generated repository guide; refresh with paper.py front. -->\n" + b"[Paper site](https://papers.trureturing.org/old/)\n"
+        marker = {"sha256": {"paper.json": hashlib.sha256(paper).hexdigest(), "paper.pdf": "pdf hash",
+                             "README.md": hashlib.sha256(prefix).hexdigest()}}
         files = {"paper.json": paper, ".mathesis/generated.json": json.dumps(marker).encode(),
+                 "README.md": readme,
                  "site.toml": b'[site]\nrepo = "mathesis-papers/old"\nbase_url = "https://papers.trureturing.org/old/"\n[books]\norder = ["original-book"]\n'}
         updated = collection.relocate_book(files, "old", "10.1234-paper")
         self.assertIn(b'order = ["original-book"]', updated["site.toml"])
@@ -113,6 +117,8 @@ class CollectionRendering(unittest.TestCase):
         hashes = json.loads(updated[".mathesis/generated.json"])["sha256"]
         self.assertEqual(hashes["paper.pdf"], "pdf hash")
         self.assertEqual(hashes["paper.json"], hashlib.sha256(updated["paper.json"]).hexdigest())
+        self.assertTrue(updated["README.md"].startswith(prefix))
+        self.assertIn(b'https://papers.trureturing.org/10.1234-paper/', updated["README.md"])
         self.assertEqual(collection.relocate_book(updated, "old", "10.1234-paper"), updated)
         # Repair a previous address migration without changing the public DOI URL.
         migrated_paper = json.loads(updated["paper.json"])
@@ -122,8 +128,12 @@ class CollectionRendering(unittest.TestCase):
         migrated_marker["sha256"]["paper.json"] = hashlib.sha256(migrated_bytes).hexdigest()
         migrated = {"paper.json": migrated_bytes,
                     ".mathesis/generated.json": json.dumps(migrated_marker).encode(),
+                    "README.md": updated["README.md"],
                     "site.toml": updated["site.toml"].replace(b'mathesis-papers/old', b'mathesis-papers/10.1234-paper')}
         self.assertEqual(collection.relocate_book(migrated, "old", "10.1234-paper"), updated)
+        files["README.md"] = files["README.md"].replace(prefix, b"Unreviewed catalog edit\n")
+        with self.assertRaisesRegex(ValueError, "catalog prefix differs"):
+            collection.relocate_book(files, "old", "10.1234-paper")
 
     def test_existing_readings_files_and_attribution_are_preserved(self):
         with tempfile.TemporaryDirectory() as directory:
