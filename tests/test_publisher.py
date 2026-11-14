@@ -205,6 +205,8 @@ class PublisherTests(unittest.TestCase):
         count = len(self.fake.writes)
         self.apply()
         self.assertEqual(len(self.fake.writes), count)
+        self.assertEqual(self.api.receipts[WORK]["changed_paths"], 0)
+        self.assertEqual(self.api.receipts[WORK]["before"], self.api.receipts[WORK]["after"])
 
     def test_missing_or_private_formalization_repo_fails_before_writes(self):
         self.fake.repos["formalization"]["private"] = True

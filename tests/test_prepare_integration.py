@@ -40,13 +40,21 @@ class PrepareIntegration(unittest.TestCase):
                "authors":work["authors"], "license":work["license"], "published_on":work["published_on"], "doi":work["doi"],
                "pdf":{"url":"/files/pdf", "sha256":hashlib.sha256(pdf).hexdigest()},
                "source":{"url":"/files/source", "sha256":hashlib.sha256(manuscript).hexdigest()}}
+        summary = {"record": "WP-2026-0007", "kind": "paper", "title": "Accepted author paper",
+                   "authors": [{"name": "Original Author"}], "archive_consent": True, "accepted_at": "2026-11-14T00:00:00Z"}
+        detail = {"summary": summary, "publication": {"version": 2, "claims_revision": 1},
+                  "archive": {"marker": "public-archive-2026-11-12", "licence": "CC-BY-4.0", "consent_time": "2026-11-14T00:00:00Z",
+                              "pdf": {"url": "/files/pdf", "bytes": len(pdf), "sha256": hashlib.sha256(pdf).hexdigest()},
+                              "source": {"url": "/files/source", "bytes": len(manuscript), "sha256": hashlib.sha256(manuscript).hexdigest()}},
+                  "plain_language": {"en": "A useful explanation.", "zh": "这是已有的解读。"}}
         class Handler(BaseHTTPRequestHandler):
             def do_GET(self):
                 path = self.path.split("?", 1)[0]
                 if path == "/files/pdf": data = pdf
                 elif path == "/files/source": data = manuscript
+                elif path == "/api/v1/papers/WP-2026-0007": data = json.dumps(detail).encode()
                 elif path.endswith("/proofs") or path.startswith("/api/v1/leaderboard"): data = b"[]"
-                else: data = json.dumps({"items":[row] if path == "/api/v1/collected-papers" else [], "next_before":None}).encode()
+                else: data = json.dumps({"items":[row] if path == "/api/v1/collected-papers" else [summary] if path == "/api/v1/papers" else [], "next_before":None}).encode()
                 self.send_response(200)
                 self.send_header("Content-Length", str(len(data)))
                 self.end_headers()
@@ -60,7 +68,7 @@ class PrepareIntegration(unittest.TestCase):
                 root = Path(name)
                 source = root / "publisher"
                 source.mkdir()
-                config = {"api_base":f"http://127.0.0.1:{server.server_port}", "template_commit":subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=TEMPLATE, text=True).strip()}
+                config = {"api_base":f"http://127.0.0.1:{server.server_port}", "publication_selection": "all_eligible", "paper_publication": "collection", "book_works": [work["work"]], "repository_naming": "doi-v1", "template_commit":subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=TEMPLATE, text=True).strip()}
                 publisher.write(source / "publisher.json", config)
                 publisher.write(source / "publish.json", [work["work"]])
                 publisher.write(source / "repositories.json", {})
@@ -82,6 +90,12 @@ class PrepareIntegration(unittest.TestCase):
                 self.assertEqual((stage / "output/site/CNAME").read_text(), "papers.trureturing.org\n")
                 self.assertEqual([c[1] for c in calls if c[0] == str(Path(BINARY).resolve())], ["snapshot", "fetch", "render", "check", "render", "check"])
                 self.assertEqual(publisher.read(source / "repositories.json"), {})
+                accepted = stage / "papers/wp-2026-0007"
+                self.assertEqual((accepted / "source.archive").read_bytes(), manuscript)
+                self.assertEqual((accepted / "versions/v2/paper.pdf").read_bytes(), pdf)
+                self.assertEqual(publisher.read(accepted / "site/mathesis-materials.json")["reading"]["zh"], "https://papers.trureturing.org/wp-2026-0007/zh/")
+                self.assertEqual(publisher.read(stage / "factory/factory.json")["papers"], 2)
+                self.assertFalse((source / "factory.json").exists())
         finally:
             server.shutdown()
             server.server_close()

@@ -2,7 +2,7 @@ name: Publish Mathesis papers
 
 on:
   schedule:
-    - cron: '23 3 * * *'
+    - cron: '23 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -86,3 +86,21 @@ jobs:
           PUBLISHER_TOKEN: ${{ steps.app.outputs.token || steps.app_no_issues.outputs.token }}
           PUBLISHER_ISSUES: ${{ steps.app.outcome == 'success' && '1' || '0' }}
         run: python3 scripts/publish.py apply --stage "$RUNNER_TEMP/mathesis-publisher"
+      - name: Check deployed pages and frozen files
+        if: ${{ !inputs.dry_run }}
+        run: |
+          python3 scripts/verify_factory.py --stage "$RUNNER_TEMP/mathesis-publisher" \
+            --report "$RUNNER_TEMP/mathesis-publisher-live.json" --attempts 10
+      - name: Keep the checked inventory and publication receipts
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: paper-factory-receipts
+          path: |
+            ${{ runner.temp }}/mathesis-publisher/factory/
+            ${{ runner.temp }}/mathesis-publisher/plan.json
+            ${{ runner.temp }}/mathesis-publisher/seal.json
+            ${{ runner.temp }}/mathesis-publisher-apply.json
+            ${{ runner.temp }}/mathesis-publisher-live.json
+          if-no-files-found: ignore
+          retention-days: 30
