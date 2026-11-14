@@ -411,7 +411,7 @@ def apply(api, source, stage):
         created = info is None
         if created:
             require(work not in aliases, f"repository rename not completed: {work}; refusing a duplicate repository")
-            title = read(stage / "papers" / repo / "paper.json")["work"].get("title", work)
+            title = read(output / "papers" / repo / "paper.json")["work"].get("title", work)
             info = api.call("POST", f"/repos/{ORG}/paper-template/generate", {"owner": ORG, "name": repo, "description": title[:350], "private": False, "include_all_branches": False})
         require(not info.get("private") and not info.get("archived"), "paper repository must be public and active")
         # Template generation briefly exposes an empty repository (409), then
@@ -445,7 +445,9 @@ def apply(api, source, stage):
         else:
             require(created or info.get("template_repository", {}).get("full_name") == ORG + "/paper-template", "existing unpopulated repository is not from paper-template; review required")
         # Enable after provenance/identity checks and before the initialization commit.
-        title = read(stage / "papers" / repo / "paper.json")["work"].get("title", work)
+        # Every selected paper has a sealed public projection. Existing authored
+        # books intentionally have no freshly filled skeleton in stage/papers.
+        title = read(output / "papers" / repo / "paper.json")["work"].get("title", work)
         metadata = {"description": title[:350], "homepage": f"{SITE}/{repo}/"}
         if any(info.get(key) != value for key, value in metadata.items()):
             api.call("PATCH", f"/repos/{ORG}/{repo}", metadata)

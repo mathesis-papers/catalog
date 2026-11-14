@@ -5,6 +5,7 @@ import hashlib
 import importlib.util
 import json
 from pathlib import Path
+import shutil
 import subprocess
 import tempfile
 import threading
@@ -158,6 +159,7 @@ class PublisherTests(unittest.TestCase):
                            "output/formalization/curated/problem/Target.lean": b"exact public bytes",
                            "output/profile/README.md": b"profile", "output/catalog/repositories.json": json.dumps({WORK: WORK}).encode(),
                            "output/catalog/archive-index.json": b"{}", "checklist.md": b"- [ ] Prepare reading and media",
+                           f"output/papers/{WORK}/paper.json": json.dumps({"work": {"work": WORK, "repository_name": WORK, "title": "Canonical paper title"}}).encode(),
                            f"papers/{WORK}/README.md": b"filled", f"papers/{WORK}/paper.json": json.dumps({"work": {"work": WORK, "repository_name": WORK}}).encode(),
                            f"papers/{WORK}/.mathesis/book.json": b"{}", f"papers/{WORK}/.mathesis/generated.json": b"{}",
                            f"papers/{WORK}/.github/workflows/pages.yml": b"workflow"}.items():
@@ -245,6 +247,25 @@ class PublisherTests(unittest.TestCase):
         self.assertEqual(self.fake.creations, 1)
         self.assertEqual(self.fake.files(WORK)["books/reading.md"], b"human content")
         self.assertEqual(len(self.fake.issues[WORK]), 1)
+
+    def test_existing_authored_book_needs_no_fresh_skeleton_and_retains_its_content(self):
+        self.apply()
+        files = self.fake.files(WORK)
+        files["books/reading.md"] = b"Reviewed story; preserve these exact bytes."
+        files["slides/seminar.tex"] = b"Reviewed slides; do not regenerate."
+        self.fake.add_repo(WORK, files)
+        # Existing authored books are deliberately absent from prepare's new
+        # skeletons. The sealed public projection still supplies their metadata.
+        shutil.rmtree(self.stage / "papers" / WORK)
+        self.seal()
+        self.apply()
+        self.assertEqual(self.fake.files(WORK), files)
+        self.assertEqual(self.fake.repos[WORK]["description"], "Canonical paper title")
+        self.assertEqual(self.fake.creations, 1)
+        count = len(self.fake.writes)
+        self.apply()
+        self.assertEqual(len(self.fake.writes), count)
+        self.assertEqual(self.api.receipts[WORK]["changed_paths"], 0)
 
     def test_resume_template_only_repo_and_closed_paginated_issue(self):
         self.fake.add_repo(WORK, {"README.md": b"template"})
