@@ -426,6 +426,25 @@ def run_paper(workspace, paper, template, allow_requests=False, model=None, tool
     return state
 
 
+def recheck(workspace, run, build=False):
+    """Never leave an earlier success visible after a failed product rebuild."""
+    envelope = read(run / "envelope.json")
+    checkpoint = run / "checkpoint.json"
+    if checkpoint.is_file():
+        with (run / "check-history.jsonl").open("a") as history:
+            history.write(json.dumps({"at": now(), "checkpoint": read(checkpoint)}) + "\n")
+    write(checkpoint, {"state": "rebuilding_products" if build else "checking_products", "started_at": now()})
+    try:
+        state = validate_run(Path(envelope["repository_path"]), run, build=build)
+    except (ValueError, RuntimeError, OSError, KeyError, TypeError, subprocess.CalledProcessError) as exc:
+        write(checkpoint, {"state": "needs_attention", "error": str(exc), "finished_at": now()})
+        preview_index(workspace, read(workspace / "cohort.json"))
+        raise
+    write(checkpoint, state)
+    preview_index(workspace, read(workspace / "cohort.json"))
+    return state
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("action", choices=["prepare", "run", "video", "status", "check", "preview"])
@@ -448,10 +467,10 @@ def main():
         if a.run is None:
             p.error("check requires --run")
         with exclusive(workspace):
-            envelope = read(a.run / "envelope.json")
-            state = validate_run(Path(envelope["repository_path"]), a.run, build=a.rebuild)
-            write(a.run / "checkpoint.json", state)
+            state = recheck(workspace, a.run, build=a.rebuild)
             print(state["state"])
+            if state["state"] != "local_checks_passed":
+                raise SystemExit(1)
         return
     papers = [x for x in cohort["papers"] if a.paper is None or x["id"] == a.paper]
     if not papers:
@@ -481,9 +500,6 @@ def main():
                     write(workspace / "runs" / paper["id"] / "intake-error.json", {"state": "needs_attention", "error": str(exc), "at": now()})
                     print(str(exc), file=sys.stderr, flush=True)
                     raise SystemExit(1) from exc
-                    print(paper["id"], "needs_attention:", str(exc), flush=True)
-                    if a.paper:
-                        raise
 
 
 if __name__ == "__main__":
