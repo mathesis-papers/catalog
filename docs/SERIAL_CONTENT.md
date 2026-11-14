@@ -97,6 +97,9 @@ python3 scripts/serial_content.py check --workspace /path/to/run --run /path/to/
 Add `--rebuild` after a source/template repair, or to bind an earlier checkpoint
 to the new source inventory. It renders existing sources and runs fixed QA;
 it never starts another content worker. Omit it to check unchanged products.
+Rechecks save the previous checkpoint in `check-history.jsonl` and immediately
+record checking/rebuilding. A failed recheck records `needs_attention` and
+refreshes the preview, so an earlier success cannot mask a broken rebuild.
 
 To produce only a missing video after the story/slides have passed checks:
 

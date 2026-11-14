@@ -159,6 +159,23 @@ class SerialContent(unittest.TestCase):
                 self.assertEqual(run.call_args.args[1]["id"], "first")
                 self.assertEqual(runner.read(self.root / "runs/first/intake-error.json")["state"], "needs_attention")
 
+    def test_failed_rebuild_replaces_success_and_can_resume_without_a_model(self):
+        paper, run = self.attempt()
+        runner.write(self.root / "cohort.json", {"schema": "mathesis.serial-cohort.v1", "papers": [paper]})
+        def failed_build(*args, **kwargs):
+            self.assertEqual(runner.read(run / "checkpoint.json")["state"], "rebuilding_products")
+            raise subprocess.CalledProcessError(1, ["build", "films"])
+        with patch.object(runner, "validate_run", side_effect=failed_build), patch.object(runner, "preview_index") as preview:
+            with self.assertRaises(subprocess.CalledProcessError):
+                runner.recheck(self.root, run, build=True)
+            preview.assert_called_once()
+        self.assertEqual(runner.read(run / "checkpoint.json")["state"], "needs_attention")
+        with patch.object(runner, "validate_run", return_value={"state": "local_checks_passed"}), patch.object(runner, "preview_index"), patch.object(runner.subprocess, "run") as model:
+            self.assertEqual(runner.recheck(self.root, run, build=True)["state"], "local_checks_passed")
+            model.assert_not_called()
+        history = [json.loads(line)["checkpoint"]["state"] for line in (run / "check-history.jsonl").read_text().splitlines()]
+        self.assertEqual(history, ["local_checks_passed", "needs_attention"])
+
     def test_cohort_rejects_duplicate_or_wrong_destination(self):
         paper = {"id": "paper", "version": 2, "repository": "mathesis-papers/repo"}
         runner.validate_cohort({"schema": "mathesis.serial-cohort.v1", "papers": [paper]})
