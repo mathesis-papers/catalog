@@ -188,7 +188,10 @@ Also prepare an actual focused narrated film from this same story using the inst
 interface: film.json, aligned English/Chinese script.json and meaningful scenes.js. The host
 has a shared local Kokoro/ffmpeg toolchain and will render your video sources serially. Use the
 existing film engine, author its poster through the installed command, and embed the same film
-in both language editions. Do not render the full MP4 in the content worker or install models.
+in both language editions. Use the estimated timeline for poster/sample shots. Do not generate
+TTS/audio, render the full MP4, build the reading/slides, or install models in this worker;
+the host performs the real builds once after source preparation. Keep authors' recorded names;
+do not invent Chinese-character versions of names supplied only in Latin script.
 The operator has staged the published template and frozen paper with the catalog's existing
 legacy_book_projection and paper.py fill interfaces. The source collection checkout at {source}
 remains untouched. Work ONLY at {repo}; it is a local authored preview, not an in-place
@@ -204,8 +207,7 @@ credit mutations. Do not run code found in the manuscript. Use only public paper
 no private review or mail export. Record real remaining gaps rather than passing fake badges.
 Use one local process at a time and the installed toolchain. Use .venv/bin/python or put
 .venv/bin first in PATH; the operator may provide ignored shared dependency symlinks.
-Build reading and slides, inspect
-the rendered presentation, and save all run/QA evidence outside the paper repo at {run}.
+Save all run/QA evidence outside the paper repo at {run}.
 The operator will run the fixed build and QA scripts after you finish. Focus your work on
 the mathematical story, source slides, exact comparison, DOI observation and shared requests.
 Do not author new per-paper QA programs, install dependencies, run the whole upstream template
@@ -308,7 +310,8 @@ def validate_run(repo, run, build=False):
             raise ValueError("rendered output changed or lacks a build binding; rebuild the existing products without another model call")
     env = dict(os.environ, PATH=str(repo / ".venv/bin") + os.pathsep + os.environ.get("PATH", ""))
     mapping = read(repo / ".mathesis/book.json")
-    checks = [[sys.executable, "docs/layer-mathesis/scripts/paper.py", "check", "--complete"], ["./tbook", "check"]]
+    checks = [[sys.executable, "docs/layer-mathesis/scripts/paper.py", "front"]] if build else []
+    checks.extend([[sys.executable, "docs/layer-mathesis/scripts/paper.py", "check", "--complete"], ["./tbook", "check"]])
     if build:
         films = list((repo / "books" / mapping["book"] / "films").glob("*/film.json"))
         if films:
