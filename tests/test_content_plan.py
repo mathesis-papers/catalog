@@ -3,12 +3,16 @@ import hashlib
 import importlib.util
 import json
 from pathlib import Path
+import shutil
 import tempfile
 import unittest
 
 spec = importlib.util.spec_from_file_location("plan_content", Path(__file__).parents[1] / "scripts/plan_content.py")
 planner = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(planner)
+spec = importlib.util.spec_from_file_location("collection", Path(__file__).parents[1] / "scripts/collection.py")
+collection = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(collection)
 
 
 class LocalPlan(unittest.TestCase):
@@ -31,6 +35,84 @@ class LocalPlan(unittest.TestCase):
         p = self.root / path
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(data if isinstance(data, str) else json.dumps(data))
+
+    def collect(self, languages=("en", "zh")):
+        (self.root / ".mathesis/book.json").unlink(missing_ok=True)
+        self.manifest["reading"] = {lang: self.manifest["site_url"] + lang + "/" for lang in languages}
+        self.write("site/mathesis-materials.json", self.manifest)
+        for lang in languages:
+            self.write("site/" + lang + "/index.html", "<!doctype html><html lang='" + lang + "'><p>Existing explanation</p></html>")
+        self.seal_collection()
+        shutil.copytree(self.root / "site", self.site, dirs_exist_ok=True)
+
+    def seal_collection(self):
+        files = {p.relative_to(self.root).as_posix(): p.read_bytes() for p in (self.root / "site").rglob("*") if p.is_file()}
+        files["paper.json"] = (self.root / "paper.json").read_bytes()
+        (self.root / collection.MARKER).write_bytes(collection.ownership(files, "paper", 2))
+
+    def test_collection_reuses_existing_bilingual_readings_without_a_book(self):
+        self.collect()
+        pending = planner.plan(self.root)
+        self.assertEqual(pending["units"][0]["state"], "needs_build_or_validation")
+        built = planner.plan(self.root, self.site)
+        self.assertEqual(built["units"][0]["state"], "built")
+        self.assertEqual([u["state"] for u in built["units"][1:]], ["needs_preparation", "needs_preparation"])
+        self.assertEqual(built, planner.plan(self.root, self.site))
+        # A refreshed, owned explanation invalidates derived media inputs.
+        self.write("site/en/index.html", "<html><p>Updated published explanation</p></html>")
+        self.seal_collection()
+        with self.assertRaisesRegex(ValueError, "built reading differs"):
+            planner.plan(self.root, self.site)
+        shutil.copytree(self.root / "site", self.site, dirs_exist_ok=True)
+        updated = planner.plan(self.root, self.site)
+        self.assertEqual(updated["units"][0]["state"], "built")
+        self.assertEqual(built["units"][0]["input_key"], updated["units"][0]["input_key"])
+        self.assertNotEqual(built["units"][1]["input_key"], updated["units"][1]["input_key"])
+
+    def test_collection_with_one_language_still_needs_preparation(self):
+        self.collect(("en",))
+        self.assertEqual(planner.plan(self.root, self.site)["units"][0]["state"], "needs_preparation")
+
+    def test_collection_rejects_stale_foreign_and_unowned_readings(self):
+        self.collect()
+        marker_path = self.root / collection.MARKER
+        original = json.loads(marker_path.read_text())
+        for field, value in (("work", "another"), ("version", 1), ("schema", "another")):
+            self.write(collection.MARKER, dict(original, **{field: value}))
+            with self.assertRaisesRegex(ValueError, "another paper version"):
+                planner.plan(self.root, self.site)
+        self.write(collection.MARKER, original)
+        self.write("site/en/index.html", "<html>Untracked edit</html>")
+        with self.assertRaisesRegex(ValueError, "bytes differ or are unowned"):
+            planner.plan(self.root, self.site)
+        self.seal_collection()
+        marker = json.loads(marker_path.read_text())
+        del marker["sha256"]["site/en/index.html"]
+        self.write(collection.MARKER, marker)
+        with self.assertRaisesRegex(ValueError, "bytes differ or are unowned"):
+            planner.plan(self.root, self.site)
+
+    def test_collection_rejects_foreign_manifest_and_symlinked_source(self):
+        self.collect()
+        self.manifest["version"] = 1
+        self.write("site/mathesis-materials.json", self.manifest)
+        self.seal_collection()
+        with self.assertRaisesRegex(ValueError, "another paper version"):
+            planner.plan(self.root, self.site)
+        self.manifest["version"] = 2
+        self.manifest["reading"]["en"] = "https://elsewhere.test/en/"
+        self.write("site/mathesis-materials.json", self.manifest)
+        self.seal_collection()
+        with self.assertRaisesRegex(ValueError, "reading address differs"):
+            planner.plan(self.root, self.site)
+        self.manifest["reading"]["en"] = self.manifest["site_url"] + "en/"
+        self.write("site/mathesis-materials.json", self.manifest)
+        self.seal_collection()
+        source = self.root / "site/en/index.html"
+        source.unlink()
+        source.symlink_to(self.site / "en/index.html")
+        with self.assertRaisesRegex(ValueError, "symlink"):
+            planner.plan(self.root, self.site)
 
     def test_unchanged_plan_is_stable_and_media_inputs_follow_story(self):
         one = planner.plan(self.root, self.site)
