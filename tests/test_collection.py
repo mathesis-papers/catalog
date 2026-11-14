@@ -12,6 +12,18 @@ collection = publisher.collection
 
 
 class RepositoryIdentifiers(unittest.TestCase):
+    def test_doi_names_prefer_the_cross_version_identifier_and_handle_missing_dois(self):
+        rows = {"work": {"doi": "10.5281/zenodo.123", "concept_doi": "10.5281/zenodo.122"},
+                "no-doi": {}, "version-only": {"doi": "10.1234/ABC.def"}}
+        mapping = publisher.plan_repositories({}, list(rows), rows, "doi-v1")
+        self.assertEqual(mapping, {"work": "10.5281-zenodo.122", "no-doi": "no-doi", "version-only": "10.1234-abc.def"})
+        rows["work"]["doi"] = "10.5281/zenodo.124"
+        self.assertEqual(publisher.plan_repositories(mapping, list(rows), rows, "doi-v1"), mapping)
+        with self.assertRaisesRegex(ValueError, "collision"):
+            publisher.plan_repositories({}, ["one", "two"], {w: {"doi": "10.1234/same"} for w in ("one", "two")}, "doi-v1")
+        with self.assertRaisesRegex(ValueError, "invalid DOI"):
+            publisher.plan_repositories({}, ["work"], {"work": {"doi": "not-a-doi"}}, "doi-v1")
+
     def test_identifiers_sort_by_publication_and_remain_unique_for_simultaneous_papers(self):
         rows = {work: {"published_on": date, "title": "Same title"} for work, date in (
             ("later", "2026-11-10T00:00:01Z"), ("first", "2026-11-10T00:00:00Z"),
@@ -39,6 +51,35 @@ class RepositoryIdentifiers(unittest.TestCase):
 
 
 class CollectionRendering(unittest.TestCase):
+    def test_aliases_preserve_nested_material_paths_and_reject_collisions(self):
+        value = {"work": WORK, "repository_url": "https://github.com/mathesis-papers/old",
+                 "site_url": "https://papers.trureturing.org/old/",
+                 "reading": {"en": "https://papers.trureturing.org/old/book/en/"},
+                 "slides": [{"pdf_url": "https://papers.trureturing.org/old/book/slides/a.pdf"}]}
+        moved = collection.relocate_materials(value, "old", "new")
+        self.assertEqual(moved["reading"]["en"], "https://papers.trureturing.org/new/book/en/")
+        self.assertEqual(moved["slides"][0]["pdf_url"], "https://papers.trureturing.org/new/book/slides/a.pdf")
+        self.assertEqual(value["site_url"], "https://papers.trureturing.org/old/")
+        collection.validate_aliases({WORK: "new"}, {WORK: ["old"]})
+        for aliases in ({WORK: ["../outside"]}, {WORK: ["new"]}, {WORK: ["old", "old"]}, {"unknown": ["old"]}):
+            with self.assertRaises(ValueError):
+                collection.validate_aliases({WORK: "new"}, aliases)
+
+    def test_book_relocation_changes_only_addresses_and_updates_the_integrity_record(self):
+        paper = json.dumps({"work": {"work": WORK, "repository_name": "old", "doi": "10.1234/version"}}).encode()
+        marker = {"sha256": {"paper.json": hashlib.sha256(paper).hexdigest(), "paper.pdf": "pdf hash"}}
+        files = {"paper.json": paper, ".mathesis/generated.json": json.dumps(marker).encode(),
+                 "site.toml": b'[site]\nrepo = "mathesis-papers/old"\nbase_url = "https://papers.trureturing.org/old/"\n[books]\norder = ["original-book"]\n'}
+        updated = collection.relocate_book(files, "old", "10.1234-paper")
+        self.assertIn(b'order = ["original-book"]', updated["site.toml"])
+        self.assertIn(b'mathesis-papers/10.1234-paper', updated["site.toml"])
+        result = json.loads(updated["paper.json"])
+        self.assertEqual(result["work"]["doi"], "10.1234/version")
+        self.assertEqual(result["work"]["repository_name"], "10.1234-paper")
+        hashes = json.loads(updated[".mathesis/generated.json"])["sha256"]
+        self.assertEqual(hashes["paper.pdf"], "pdf hash")
+        self.assertEqual(hashes["paper.json"], hashlib.sha256(updated["paper.json"]).hexdigest())
+
     def test_existing_readings_files_and_attribution_are_preserved(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -88,6 +129,20 @@ class CollectionRendering(unittest.TestCase):
 
 
 class CollectionPublishing(PublisherTests):
+    def test_missing_renamed_repository_never_creates_a_duplicate(self):
+        self.make_collection()
+        plan = publisher.read(self.stage / "plan.json")
+        plan["config"]["repository_aliases"] = {WORK: ["previous-name"]}
+        publisher.write(self.source / "publisher.json", plan["config"])
+        publisher.write(self.stage / "plan.json", plan)
+        files = self.fake.files("catalog")
+        files["publisher.json"] = (self.source / "publisher.json").read_bytes()
+        self.fake.add_repo("catalog", files)
+        self.seal()
+        with self.assertRaisesRegex(ValueError, "refusing a duplicate"):
+            self.apply()
+        self.assertEqual(self.fake.creations, 0)
+
     def make_collection(self, version=1):
         plan = publisher.read(self.stage / "plan.json")
         plan["collection_works"] = [WORK]
@@ -144,6 +199,15 @@ class CollectionPublishing(PublisherTests):
         self.assertEqual(files["notes/collaboration.md"], b"human notes")
         self.assertEqual(json.loads(files["versions/v1/paper.json"]), {"version": 1})
         self.assertEqual(json.loads(files["versions/v2/paper.json"]), {"version": 2})
+
+    def test_refresh_preserves_original_version_snapshot_bytes(self):
+        self.make_collection()
+        self.apply()
+        (self.stage / "papers" / WORK / "versions/v1/paper.json").write_text('actual changed projection metadata')
+        self.seal()
+        self.apply()
+        self.assertEqual(json.loads(self.fake.files(WORK)["versions/v1/paper.json"]), {"version": 1})
+        self.apply()  # Ownership still matches the retained bytes on a repeat.
 
     def test_collection_refuses_edited_generated_content(self):
         self.make_collection()

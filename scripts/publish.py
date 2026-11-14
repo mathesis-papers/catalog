@@ -51,7 +51,7 @@ def require(condition, message):
 
 
 def plan_repositories(mapping, allowed, selected, naming="slug"):
-    require(naming in ("slug", "objectid-v1"), "unknown repository naming scheme")
+    require(naming in ("slug", "objectid-v1", "doi-v1"), "unknown repository naming scheme")
     planned = dict(mapping)
     for work in allowed:
         if work in planned:
@@ -59,6 +59,17 @@ def plan_repositories(mapping, allowed, selected, naming="slug"):
         row = selected[work]
         if naming == "slug":
             planned[work] = row["repository_name"]
+            continue
+        if naming == "doi-v1":
+            doi = row.get("concept_doi") or row.get("doi")
+            if doi:
+                require(re.fullmatch(r"10\.\d{4,9}/\S+", doi) is not None, f"invalid DOI: {work}")
+                name = re.sub(r"[^a-z0-9._-]+", "-", doi.lower())
+                require(len(name) <= 100, f"DOI repository name is too long: {work}")
+                planned[work] = name
+            else:
+                require(re.fullmatch(r"[a-z0-9][a-z0-9._-]{0,99}", work) is not None, f"invalid fallback work name: {work}")
+                planned[work] = work
             continue
         dates = [v.get("published_on") for v in row.get("versions", [])]
         dates.append(row.get("published_on"))
@@ -219,22 +230,29 @@ class API:
         self.call("POST", f"/repos/{ORG}/{name}/issues", {"title": TITLE, "body": MARKER + "\n\n" + checklist})
 
 
-def material_downloads(mapping, destination):
+def material_downloads(mapping, destination, aliases=None):
     opener = urllib.request.build_opener(NoRedirect())
-    for repo in sorted(set(mapping.values())):
-        url = f"{SITE}/{repo}/mathesis-materials.json"
-        try:
+    for work, repo in sorted(mapping.items()):
+        # During an in-place rename the old published site is the available
+        # source until its replacement deployment finishes.
+        for candidate in [*(aliases or {}).get(work, []), repo]:
+            url = f"{SITE}/{candidate}/mathesis-materials.json"
             # The site sits behind Cloudflare, which refuses the default Python-urllib agent.
             request = urllib.request.Request(url, headers={"User-Agent": "mathesis-papers-publisher", "Accept": "application/json"})
-            with opener.open(request, timeout=30) as response:
-                raw = response.read(1024 * 1024 + 1)
-                require(len(raw) <= 1024 * 1024, "materials manifest exceeds 1 MiB")
-                value = json.loads(raw)
-        except urllib.error.HTTPError as exc:
-            if exc.code == 404:  # A repository may not yet have published any materials.
-                continue
-            raise
-        write(destination / (repo + ".json"), value)
+            try:
+                with opener.open(request, timeout=30) as response:
+                    raw = response.read(1024 * 1024 + 1)
+                    require(len(raw) <= 1024 * 1024, "materials manifest exceeds 1 MiB")
+                    value = json.loads(raw)
+            except urllib.error.HTTPError as exc:
+                if exc.code == 404:
+                    continue
+                raise
+            require(value.get("work") == work, "materials work differs")
+            if candidate != repo and value.get("repository_url") != f"https://github.com/{ORG}/{repo}":
+                value = collection.relocate_materials(value, candidate, repo)
+            write(destination / (repo + ".json"), value)
+            break
 
 
 def prepare(binary, source, stage):
@@ -259,7 +277,9 @@ def prepare(binary, source, stage):
         require(work in selected, f"allow-listed work is absent or out of scope: {work}")
     planned = plan_repositories(mapping, allowed, selected, config.get("repository_naming", "slug"))
     write(stage / "planned-repositories.json", planned)
-    material_downloads(mapping, stage / "materials")
+    aliases = config.get("repository_aliases", {})
+    collection.validate_aliases(planned, aliases)
+    material_downloads(planned, stage / "materials", aliases)
     args[-1] = stage / "planned-repositories.json"
     run(*args, "--materials", stage / "materials")
     run(binary, "check", "--output", output)
@@ -282,6 +302,7 @@ def prepare(binary, source, stage):
             require(len(raw) <= 8 * 1024 * 1024, "public paper detail exceeds 8 MiB")
             detail = json.loads(raw)
         collection.prepare(output / "papers" / planned[work], detail, stage / "papers" / planned[work], config["api_base"])
+    collection.redirects(output / "site", planned, aliases, output / "papers")
     # Pin a template snapshot and prepare every fill/check locally before the first write.
     template = stage / "template"
     require(re.fullmatch(r"[a-f0-9]{40}", config["template_commit"]) is not None, "template commit must be a full SHA")
@@ -336,11 +357,13 @@ def apply(api, source, stage):
     current_cname = states["mathesis-papers.github.io"][3].get("CNAME")
     if current_cname:
         require(api.blob("mathesis-papers.github.io", current_cname).strip() == b"papers.trureturing.org", "remote CNAME differs; refusing replacement")
-    for work in sorted(set(plan["new_works"]) | set(plan.get("collection_works", []))):
+    aliases = plan["config"].get("repository_aliases", {})
+    for work in sorted(set(plan["new_works"]) | set(plan.get("collection_works", [])) | set(aliases)):
         repo = plan["mapping"][work]
         info = api.repo(repo, missing=True)
         created = info is None
         if created:
+            require(work not in aliases, f"repository rename not completed: {work}; refusing a duplicate repository")
             title = read(stage / "papers" / repo / "paper.json")["work"].get("title", work)
             info = api.call("POST", f"/repos/{ORG}/paper-template/generate", {"owner": ORG, "name": repo, "description": title[:350], "private": False, "include_all_branches": False})
         require(not info.get("private") and not info.get("archived"), "paper repository must be public and active")
@@ -357,7 +380,7 @@ def apply(api, source, stage):
         entries = state[3]
         if "paper.json" in entries:
             remote = json.loads(api.blob(repo, entries["paper.json"]))["work"]
-            require(remote["work"] == work and remote["repository_name"] == repo, "existing paper belongs to a different work")
+            require(remote["work"] == work and remote["repository_name"] in [repo, *aliases.get(work, [])], "existing paper belongs to a different work")
             require(".mathesis/generated.json" in entries, "existing paper import incomplete; review required")
             if work in plan.get("collection_works", []):
                 marker = entries.get(collection.MARKER)
@@ -376,6 +399,10 @@ def apply(api, source, stage):
         # Enable after provenance/identity checks and before the initialization commit.
         api.pages(repo, "workflow")
         is_collection = work in plan.get("collection_works", [])
+        if not is_collection and "paper.json" in entries and remote["repository_name"] != repo:
+            files = {p: api.blob(repo, entries[p]) for p in ("paper.json", ".mathesis/generated.json", "site.toml")}
+            relocated = collection.relocate_book(files, remote["repository_name"], repo)
+            api.sync(repo, relocated, lambda p: p in relocated, "Update paper repository DOI address", state)
         if "paper.json" not in entries or is_collection:
             local = tree_files(stage / "papers" / repo)
             # Import the pinned template too; this makes template-main drift harmless.
@@ -384,6 +411,13 @@ def apply(api, source, stage):
                 managed = lambda p: True
             else:
                 previous_paths = set(previous["sha256"]) | {collection.MARKER}
+                # Published version snapshots retain their original bytes even
+                # when the current repository address changes.
+                for path in local:
+                    if path.startswith("versions/") and path in entries and entries[path]["sha"] != sha(local[path]):
+                        local[path] = api.blob(repo, entries[path])
+                version = json.loads(local["paper.json"])["work"]["current_version"]
+                local[collection.MARKER] = collection.ownership(local, work, version)
                 # Earlier immutable version directories remain available. Files
                 # outside this publisher's ownership are never removed.
                 managed = lambda p: p in local or (p in previous_paths and not p.startswith("versions/"))
@@ -393,7 +427,7 @@ def apply(api, source, stage):
     api.sync("formalization", formalization_files, formalization_managed, "Refresh Mathesis formalization projection", states["formalization"])
     api.sync(".github", {"profile/README.md": (output / "profile/README.md").read_bytes()}, lambda p: p == "profile/README.md", "Refresh Mathesis organization profile", states[".github"])
     site_files = tree_files(output / "site")
-    api.sync("mathesis-papers.github.io", site_files, lambda p: p in {"index.html", "CNAME", ".nojekyll", "materials-index.json"} or p.startswith("doi/"), "Refresh Mathesis paper site", states["mathesis-papers.github.io"])
+    api.sync("mathesis-papers.github.io", site_files, lambda p: p in {"index.html", "404.html", "CNAME", ".nojekyll", "materials-index.json"} or p.startswith("doi/") or p.split("/", 1)[0] in {a for names in aliases.values() for a in names}, "Refresh Mathesis paper site", states["mathesis-papers.github.io"])
     catalog_files = tree_files(output / "catalog")
     api.sync("catalog", catalog_files, lambda p: p in CATALOG_FILES or p.startswith("materials/"), "Refresh Mathesis catalog and repository mapping", states["catalog"])
 

@@ -195,18 +195,33 @@ collections use the same stage seal and non-forced commit/ref transactions.
 Collection creates no review, proof receipt or leaderboard credit, and needs
 no Issues permission. The original book publication mode remains available.
 
-## Stable paper repository identifiers
+## Paper repository names and address migration
 
-`repository_naming: "objectid-v1"` allocates new repository names as 24 lowercase
-hexadecimal characters compatible with BSON ObjectId. The first four bytes are
-the earliest available publication timestamp; the remaining eight are a stable,
-namespaced hash of the work identity. Thus names sort by publication second,
-independent papers in the same second remain distinct, and a partially applied
-batch can resume deterministically. No MongoDB server or package is required.
-The actual creation order within one second is not encoded.
+`repository_naming: "doi-v1"` names new repositories after the paper's concept
+DOI (the identifier shared by its versions), falling back to its version DOI.
+For example, `10.5281/zenodo.23884900` becomes
+`10.5281-zenodo.23884900`. The complete DOI remains unchanged in citations.
+Papers without a DOI use their readable work name. Unsafe characters are
+replaced with hyphens; collisions and invalid DOI values stop preparation.
+A durable mapping is retained when subsequent versions are published.
 
-The publisher persists each work-to-repository mapping in `repositories.json`.
-That mapping takes precedence over all future title, version and date changes.
-Existing repositories, including Chen–Chen, retain their published URLs. Paper
-titles appear in repository descriptions and on the academic reading pages.
-Missing or invalid dates and any identifier collision fail staging before writes.
+The reviewed mapping migrates the 39 existing repositories in place: 37 use
+DOIs, and the two without DOIs use their work names. `repository_aliases` in
+`publisher.json` records each earlier address. Repository renaming preserves
+Git history, issues, authorship and GitHub redirects. The publisher refuses to
+create a second repository if an expected rename is not complete. It accepts
+an earlier name in paper metadata only for the explicitly recorded same work.
+
+Public material manifests from the previous address are checked and their
+address prefixes adapted to the new repository; reading, slides and
+visualization paths are preserved. The organization site publishes redirects
+for old landing/reading addresses, preserves old direct PDF downloads, and
+handles other old nested paths through its 404 page. GitHub Pages does not
+provide server redirects on repository rename, so browser redirects are explicit.
+
+Collection updates keep original version snapshots byte-for-byte, even when
+the current address changes. Existing authored books receive only three
+address metadata changes: `site.toml`, `paper.json`, and the corresponding
+integrity hash in `.mathesis/generated.json`. Chapters, figures, slides, proofs,
+Lean evidence, source files and PDFs are preserved. Other user edits remain
+protected by the existing ownership checks.
