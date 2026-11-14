@@ -252,11 +252,29 @@ def check_material_products(materials, visualization):
         raise ValueError("visualization judgment and advertised outputs disagree")
 
 
+def source_inventory(repo):
+    """Bind checked products to content, executable bits and managed symlinks."""
+    names = subprocess.check_output(["git", "ls-files", "--cached", "--others", "--exclude-standard", "-z"], cwd=repo)
+    result = {}
+    for name in sorted(set(names.decode().split("\0")) - {""}):
+        path = repo / name
+        if not path.exists() and not path.is_symlink():
+            continue  # A removed source stays absent after it is committed.
+        data = os.readlink(path).encode() if path.is_symlink() else path.read_bytes()
+        result[name] = {"sha256": hashlib.sha256(data).hexdigest(),
+                        "mode": "120000" if path.is_symlink() else "100755" if path.stat().st_mode & 0o111 else "100644"}
+    return result
+
+
 def validate_run(repo, run, build=False):
     result = read(run / "result.json")
     check_result(result, repo)
     if result["status"] != "prepared":
         return {"state": "needs_attention", "remaining": result["remaining"]}
+    if not build:
+        inventory = run / "source-sha256.json"
+        if not inventory.is_file() or read(inventory) != source_inventory(repo):
+            raise ValueError("sources changed or lack a build binding; rebuild the existing products without another model call")
     env = dict(os.environ, PATH=str(repo / ".venv/bin") + os.pathsep + os.environ.get("PATH", ""))
     mapping = read(repo / ".mathesis/book.json")
     checks = [[sys.executable, "docs/layer-mathesis/scripts/paper.py", "check", "--complete"], ["./tbook", "check"]]
@@ -287,8 +305,10 @@ def validate_run(repo, run, build=False):
     artifacts = {str(p.relative_to(repo / "_site")): hashlib.sha256(p.read_bytes()).hexdigest()
                  for p in sorted((repo / "_site").rglob("*")) if p.is_file() and not p.is_symlink()}
     write(run / "site-sha256.json", artifacts)
+    sources = source_inventory(repo)
+    write(run / "source-sha256.json", sources)
     return {"state": "local_checks_passed", "finished_at": now(), "publication": "not_performed",
-            "proof_certification": "not_performed", "visualization": result["visualization"]}
+            "proof_certification": "not_performed", "visualization": result["visualization"], "source_sha256": digest(sources)}
 
 
 def preview_index(workspace, cohort):
@@ -361,6 +381,7 @@ def main():
     p.add_argument("--allow-request-registration", action="store_true")
     p.add_argument("--model", help="explicit operator-selected model; omitted uses local Codex default")
     p.add_argument("--run", type=Path, help="existing run to check without another model call")
+    p.add_argument("--rebuild", action="store_true", help="with check, rebuild existing sources and rerun fixed QA without a model")
     a = p.parse_args()
     workspace = a.workspace.resolve()
     cohort = read(workspace / "cohort.json")
@@ -373,7 +394,7 @@ def main():
             p.error("check requires --run")
         with exclusive(workspace):
             envelope = read(a.run / "envelope.json")
-            state = validate_run(Path(envelope["repository_path"]), a.run)
+            state = validate_run(Path(envelope["repository_path"]), a.run, build=a.rebuild)
             write(a.run / "checkpoint.json", state)
             print(state["state"])
         return
