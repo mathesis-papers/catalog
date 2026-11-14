@@ -71,7 +71,10 @@ Work only in books/{book}/films/. Use the installed film engine to author one fo
 film: film.json, English narration with aligned Chinese/English script.json, meaningful scenes.js,
 and a real poster through the installed command. Do not make decorative interaction or a second
 renderer. The host embeds the film in both reading editions and renders/checks the actual MP4.
-Do not render the full MP4, install dependencies, run unrelated tests, spawn agents or parallel
+Use the estimated timeline for your poster and sample shots. Do not generate TTS/audio or render
+the full MP4: the host performs those once after source preparation. Retain authors' recorded
+names; do not invent Chinese-character versions of names provided only in Latin script.
+Do not install dependencies, run unrelated tests, spawn agents or parallel
 jobs, change other files, push, deposit a DOI, deploy, send correspondence or assign points.
 Use the existing shared toolchain. Save run evidence only at {product}, outside the paper tree.
 Keep build/status/badge-policy bookkeeping out of the film; teach the question and mechanism,
