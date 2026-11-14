@@ -44,6 +44,49 @@
       "work": "a320043-square-values-refutation"
     },
     {
+      "abstract_text": "We answer Problem 30 in Section 9 (p. 27) of Alfuraidan, Khan and Sauras-Altuzarra, Metric dimension and maximum eigenvalue multiplicity of graph Laplacians, arXiv:2610.26875v1, and extend the metric-dimension classification of Knor, Sedlar and Škrekovski (2022) to a classification of both maximum spectral multiplicities for Theta(3,3,r), for every r >= 2. For every integer k >= 1, the theta graph with edge lengths 3, 3, 6k+4 is connected and twin-free, has metric dimension and maximum Laplacian eigenvalue multiplicity two, and has simple signless spectrum. Its only repeated Laplacian eigenvalues are 1 and 3, each double. Distinct orders give pairwise nonisomorphic examples. For r >= 3, repeated eigenvalues are classified modulo six; r = 2 has a separate quadratic repeated factor. Attaching an equal pendant path at every vertex of two known base graphs also gives twin-free infinite families in both separation directions.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/aks2610-twin-free-theta-separation/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-14T17:17:08.187879261Z",
+      "record": "aks2610-twin-free-theta-separation",
+      "repository_name": "aks2610-twin-free-theta-separation",
+      "source": {
+        "url": "/api/v1/collected-papers/aks2610-twin-free-theta-separation/files/source?version=2"
+      },
+      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-14T17:17:08.187879261Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
       "abstract_text": "We answer Section 4, item 3 of Alikhani and Griswold's On the Integer Domination Root Conjecture by constructing connected graphs with domination root −4 and unbounded order. Joining r copies of their 33-vertex graph through vertices adjacent to leaves gives a connected graph on 33r vertices whose domination polynomial is the rth power of the original polynomial. The root −4 has multiplicity exactly r, and the copies can be joined along a path with maximum degree seven. A mixed construction gives examples of every order at least 35, with maximum degree seven and cycle rank four. We give a complete set-bijection proof, an exact finite calculation for the base graph, and the scope of the corresponding Lean declarations.",
       "authors": [
         {
@@ -515,6 +558,49 @@
         }
       ],
       "work": "hardin-barker-a209723-edge-differences"
+    },
+    {
+      "abstract_text": "Extending the right-idempotent-generated case proved by He and Tubbenhauer in 2025, we prove their Conjecture 4.2 in Tensor powers of representations of (diagram) monoids, arXiv:2508.04054v1, p. 17: a finite-dimensional representation of a finite semigroup, with every element acting singularly, has a one-dimensional zero-action direct summand in a positive tensor power, and its indecomposable-summand count is asymptotic to the tensor dimension. The proof works over every field and bounds the deficit by twice the sum of the action-rank powers. A classical multiplicity identity gives the exact maximal null summand. The same argument proves the related monoid Conjecture 3A.2 when the unit-group order is invertible in the field. A two-element right-zero example corrects the literal finite-exponent equality printed in Proposition 4.4 to an asymptotic statement. Explicit Jordan multiplicities and the recurrence of the published fusion matrix are also given.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/HomologicalAlgebra/TensorNullSummand.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/he-tubbenhauer-2025-null-tensor-summand/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-14T15:00:06.772900826Z",
+      "record": "he-tubbenhauer-2025-null-tensor-summand",
+      "repository_name": "he-tubbenhauer-2025-null-tensor-summand",
+      "source": {
+        "url": "/api/v1/collected-papers/he-tubbenhauer-2025-null-tensor-summand/files/source?version=2"
+      },
+      "title": "Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-14T15:00:06.772900826Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "he-tubbenhauer-2025-null-tensor-summand"
     },
     {
       "abstract_text": "We refute the line-subgeometry conjecture in Section 4.4, p. 20 of Saniga et al., Hexagons govern three-qubit contextuality, arXiv:2312.07738v3 (Quantum 9 (2025), 1601). The 75-line geometry contained in any three-qubit perp hyperplane has contextuality degree 12 but meets every classically embedded split Cayley hexagon in 15 lines. A 19-line configuration has degree 1 and intersection at least 3. Linear sections and signed Clifford transport prove that every perp in n >= 2 qubits has four times the degree of the full (n-1)-qubit line geometry; every four-qubit perp consequently has degree 252.",
@@ -1592,6 +1678,49 @@
         }
       ],
       "work": "radsarar-anando-2026-apollonian-second-eigenvalue"
+    },
+    {
+      "abstract_text": "For the non-Ohmic expectation M_S <= 2 M_B - 1 of Schnell, Ketzmerick and Eckardt (2018, arXiv:1802.04088v2, Sec. V, p. 11, Eq. (55) and the surrounding paragraph), we give a cubic counterexample and extend their Ohmic bound to odd monomial spectra. Two baths with J(x) = x^3 have five Bose-selected modes. The normalized coupling weights are (5,4,4,4,4)/21 and (6,6,3,3,3)/21 at energies (1,2,3,4,5), and the selected occupation fractions are (14,56,21,8,1)/100. Positive signed Pfaffian minors show that this selection is unique and persists on an open set of parameters, including spectral exponents near three. Five selected modes persist after adding any finite number of sufficiently weakly coupled higher levels. For odd q, we prove M_S <= (q+1) M_B - 1 when J(x) = x^q and the selected principal matrix has a one-dimensional kernel; q=1 recovers the source's Ohmic bound, while q=3 gives seven as an upper bound for two baths under this hypothesis.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S3/StatisticalMechanics/BoseSelectionCubicTwoBathRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-14T14:46:12.994743803Z",
+      "record": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation",
+      "repository_name": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation",
+      "source": {
+        "url": "/api/v1/collected-papers/schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation/files/source?version=2"
+      },
+      "title": "A cubic counterexample at Schnell–Ketzmerick–Eckardt (2018, Sec. V, p. 11, Eq. (55)), and an extension of their Ohmic bound",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-14T14:46:12.994743803Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
     },
     {
       "abstract_text": "We resolve Question III.5 of Stepanov, Herrmann and Guhr (arXiv:2104.08966v1, p. 7): on the remaining domain D = A minus (A1 union A2), correlation matrices with prescribed mean c and standard deviation sigma and a nonmaximal top-eigenvector weight in every orthonormal eigenbasis exist in every sufficiently large dimension exactly when sigma > c. Centered spectral moments exclude the diagonal, and a positive definite rank-two construction gives existence above it. Throughout the legal half-disc sigma >= 0, c^2 + sigma^2 <= 1, eventual existence holds exactly for 0 <= c < 1/2, sigma > c and c^2 + sigma^2 < 1. A spectral-projection criterion treats eigenvalue multiplicities and shows that a rank-one boundary matrix has the universal gap exactly when c < 0.",

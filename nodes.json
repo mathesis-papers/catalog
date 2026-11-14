@@ -287,6 +287,286 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:aks2610-twin-free-theta-separation:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "lineage": "collected:aks2610-twin-free-theta-separation:s1",
+      "macros": {
+        "\\Th": "\\Theta",
+        "\\mm": "\\operatorname{mm}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "aks2610-twin-free-theta-separation",
+      "scope": "in_scope",
+      "statement": "Let $k\\geq1$, $r=6k+4$, and $G=\\Th_{3,3,r}$. Then $G$ is connected and\ntwin-free, $|V(G)|=r+5$, and\n\\[\n \\dim(G)=\\mm_L(G)=2,\\qquad \\mm_Q(G)=1.\n\\]\nMore precisely, the eigenvalues $1$ and $3$ of $L$ each have multiplicity\ntwo and all other eigenvalues of $L$ are simple; every eigenvalue of $Q$\nis simple. Consequently these graphs answer Problem 30 in the\nLaplacian-equality direction.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "toolchain": null,
+      "version": 2,
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:aks2610-twin-free-theta-separation:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "lineage": "collected:aks2610-twin-free-theta-separation:s2",
+      "macros": {
+        "\\Th": "\\Theta",
+        "\\mm": "\\operatorname{mm}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "aks2610-twin-free-theta-separation",
+      "scope": "in_scope",
+      "statement": "The graphs $G_k$, $k\\geq1$, are pairwise nonisomorphic connected twin-free\ngraphs satisfying exactly one of $\\mm_L=\\dim$ and $\\mm_Q=\\dim$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "toolchain": null,
+      "version": 2,
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:aks2610-twin-free-theta-separation:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "lineage": "collected:aks2610-twin-free-theta-separation:s3",
+      "macros": {
+        "\\Th": "\\Theta",
+        "\\mm": "\\operatorname{mm}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "aks2610-twin-free-theta-separation",
+      "scope": "in_scope",
+      "statement": "For every integer $r\\geq6$, $\\Th_{3,3,r}$ is connected and twin-free with\nmetric dimension two. Its repeated eigenvalues are exactly those in the\nfollowing table; each listed eigenvalue has multiplicity two, and every\nother eigenvalue is simple.\n\\[\n\\begin{array}{c|cc|cc}\n r\\bmod6&\\text{repeated in }L&\\text{repeated in }Q&\\mm_L&\\mm_Q\\\\\\hline\n 0&3&1&2&2\\\\\n 1&3&3&2&2\\\\\n 2&\\varnothing&\\varnothing&1&1\\\\\n 3&1,3&1,3&2&2\\\\\n 4&1,3&\\varnothing&2&1\\\\\n 5&\\varnothing&\\varnothing&1&1\n\\end{array}\n\\]\nThus within this subfamily, both equalities hold in residues $0,1,3$;\nneither holds in residues $2,5$; and only the Laplacian equality holds\nin residue $4$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "toolchain": null,
+      "version": 2,
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:aks2610-twin-free-theta-separation:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "lineage": "collected:aks2610-twin-free-theta-separation:s4",
+      "macros": {
+        "\\Th": "\\Theta",
+        "\\mm": "\\operatorname{mm}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "aks2610-twin-free-theta-separation",
+      "scope": "in_scope",
+      "statement": "The graphs $\\Th_{3,3,r}$ are connected and twin-free for every $r\\geq2$.\nTheir metric dimension is three for $r=3,5$, and two otherwise.\nThe spectral table in Corollary~\\ref{cor:all-lengths} holds for every\n$r\\geq3$. For $r=2$, the only repeated Laplacian eigenvalues are\n$3-\\sqrt2,3+\\sqrt2$, both double, and the signless spectrum is simple.\nConsequently exactly one equality holds precisely when\n\\[\n r=2\\quad\\hbox{or}\\quad r\\equiv4\\pmod6,\n\\]\nand in every such case it is the Laplacian equality.\nBoth equalities hold precisely for $r\\geq6$ with $r\\equiv0,1,3\\pmod6$.\nNeither holds in the other cases. In particular, no graph of this\nentire subfamily separates in the signless-equality direction.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "toolchain": null,
+      "version": 2,
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:aks2610-twin-free-theta-separation:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "lineage": "collected:aks2610-twin-free-theta-separation:s5",
+      "macros": {
+        "\\Th": "\\Theta",
+        "\\mm": "\\operatorname{mm}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "aks2610-twin-free-theta-separation",
+      "scope": "in_scope",
+      "statement": "For every $r\\geq2$,\n\\[\n \\operatorname{mult}_{Q(\\Th_{3,3,r})}(2)\n =\\begin{cases}1,&r\\equiv1\\pmod4,\\\\0,&\\text{otherwise}.\\end{cases}\n\\]\nThis is the $(3,3,r)$ instance of \\cite[Corollary~8.1]{PP}.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "toolchain": null,
+      "version": 2,
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:aks2610-twin-free-theta-separation:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "lineage": "collected:aks2610-twin-free-theta-separation:s6",
+      "macros": {
+        "\\Th": "\\Theta",
+        "\\mm": "\\operatorname{mm}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "aks2610-twin-free-theta-separation",
+      "scope": "in_scope",
+      "statement": "For $t\\geq1$, form $H_t$ by attaching one path of $t$ edges to every\nvertex of $H$, identifying that vertex with one endpoint of its path.\nIf $H=K_{1,3,3}$ then\n$(\\dim H_t,\\mm_L(H_t),\\mm_Q(H_t))=(4,4,5)$.\nIf $H=K_2\\vee(2K_2)$ then the triple is $(3,2,3)$.\nBoth constructions give infinite pairwise nonisomorphic families of\nconnected twin-free graphs. Thus Problem~30 has examples in both directions.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "toolchain": null,
+      "version": 2,
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:aks2610-twin-free-theta-separation:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "lineage": "collected:aks2610-twin-free-theta-separation:s7",
+      "macros": {
+        "\\Th": "\\Theta",
+        "\\mm": "\\operatorname{mm}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "aks2610-twin-free-theta-separation",
+      "scope": "in_scope",
+      "statement": "If $M_1,\\ldots,M_s$ are pairwise disjoint proper modules in a connected\ngraph, then $\\dim G\\geq\\sum_i\\rho(M_i)$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "toolchain": null,
+      "version": 2,
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:alikhani-griswold-2026-connected-minus-four-family:1:s1",
       "kind": "paper",
       "label": "Lemma",
@@ -2522,6 +2802,326 @@
       "toolchain": null,
       "version": 2,
       "work": "hardin-barker-a209723-edge-differences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:he-tubbenhauer-2025-null-tensor-summand:2:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/HomologicalAlgebra/TensorNullSummand.lean"
+      },
+      "lineage": "collected:he-tubbenhauer-2025-null-tensor-summand:s1",
+      "macros": {
+        "\\im": "\\operatorname{im}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "he-tubbenhauer-2025-null-tensor-summand",
+      "scope": "in_scope",
+      "statement": "There is an invariant decomposition \\(W=L\\oplus U\\), with \\(L\\subseteq K\\)\nand \\(I\\subseteq U\\), such that\n\\begin{equation}\n \\mu(W)=\\dim L=\\dim K-\\dim(K\\cap I)\\geq\\dim W-2R.\n\\end{equation}\nThe quantity \\(\\mu\\) is additive on invariant direct sums and equals the number\nof copies of \\(Z\\) in any indecomposable decomposition.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "he-tubbenhauer-2025-null-tensor-summand"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:he-tubbenhauer-2025-null-tensor-summand:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/HomologicalAlgebra/TensorNullSummand.lean"
+      },
+      "lineage": "collected:he-tubbenhauer-2025-null-tensor-summand:s2",
+      "macros": {
+        "\\im": "\\operatorname{im}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "he-tubbenhauer-2025-null-tensor-summand",
+      "scope": "in_scope",
+      "statement": "Let \\(S\\) be a nonempty finite semigroup and\n\\(\\rho:S\\to\\operatorname{End}_k(V)\\) a multiplicative map, where \\(V\\) is finite\ndimensional over any field. Suppose every \\(\\rho(s)\\) is singular. Put\n\\(d=\\dim V\\), \\(r_s=\\rank\\rho(s)\\), and \\(t=|S|\\). Then \\(d\\geq1\\).\nFor every \\(n\\geq1\\), the diagonal action on \\(V^{\\otimes n}\\) has a finite\nindecomposable decomposition, and every such decomposition, with \\(b(n)\\)\nfactors, satisfies\n\\begin{equation}\n d^n-2\\sum_{s\\in S}r_s^n\\ \\leq\\ \\mu(V^{\\otimes n})\\ \\leq\\ b(n)\\ \\leq\\ d^n.\n\\end{equation}\nIn particular, \\(b(n)/d^n\\to1\\), and a copy of \\(Z\\) is a direct summand\nwhenever\n\\begin{equation}\n n\\geq1,\\qquad 2\\sum_{s\\in S}r_s^n<d^n.\n\\end{equation}\nSuch an exponent always exists.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "he-tubbenhauer-2025-null-tensor-summand"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:he-tubbenhauer-2025-null-tensor-summand:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/HomologicalAlgebra/TensorNullSummand.lean"
+      },
+      "lineage": "collected:he-tubbenhauer-2025-null-tensor-summand:s3",
+      "macros": {
+        "\\im": "\\operatorname{im}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "he-tubbenhauer-2025-null-tensor-summand",
+      "scope": "in_scope",
+      "statement": "Let \\(\\ell(n)\\) be the composition length of \\(V^{\\otimes n}\\), and let\n\\(c_Z(n)\\) be its composition-factor multiplicity of \\(Z\\). Then\n\\[\n \\mu(V^{\\otimes n})\\leq c_Z(n)\\leq\\ell(n)\\leq d^n,\n \\qquad b(n)\\leq\\ell(n).\n\\]\nEach of \\(\\mu(V^{\\otimes n})/d^n\\), \\(c_Z(n)/d^n\\), and \\(\\ell(n)/d^n\\)\ntends to one, with deficit at most the right side of \\eqref{eq:error}.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "he-tubbenhauer-2025-null-tensor-summand"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:he-tubbenhauer-2025-null-tensor-summand:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/HomologicalAlgebra/TensorNullSummand.lean"
+      },
+      "lineage": "collected:he-tubbenhauer-2025-null-tensor-summand:s4",
+      "macros": {
+        "\\im": "\\operatorname{im}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "he-tubbenhauer-2025-null-tensor-summand",
+      "scope": "in_scope",
+      "statement": "Let \\(M\\) be a finite monoid with unit group \\(G\\), and let \\(V\\ne0\\) be a\nfinite-dimensional unital \\(kM\\)-module. Suppose no element other than \\(1\\)\nacts as the identity and \\(|G|\\) is invertible in \\(k\\). Put \\(S=M\\setminus G\\),\n\\(d=\\dim V\\) and \\(r_s=\\rank\\rho(s)\\). For every \\(n\\geq1\\), there is an\ninvariant decomposition\n\\[\n V^{\\otimes n}=L_n\\oplus U_n,\\qquad S L_n=0,\n \\qquad \\dim U_n\\leq2\\sum_{s\\in S}r_s^n.\n\\]\nConsequently Conjecture~3A.2 holds under these hypotheses. If \\(b_M(n)\\) and\n\\(b_G(n)\\) count indecomposable summands before and after restriction to \\(G\\),\nthen\n\\begin{equation}\n 0\\leq b_G(n)-b_M(n)\\leq2\\sum_{s\\in S}r_s^n,\n \\qquad b_M(n)/b_G(n)\\longrightarrow1.\n\\end{equation}\nWhen \\(G=\\{1\\}\\), over every field,\n\\(b_M(n)/d^n\\to1\\); the extra composition-ratio hypothesis of\n\\cite[Proposition~3C.2, p.~16]{HT25} is unnecessary.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "he-tubbenhauer-2025-null-tensor-summand"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:he-tubbenhauer-2025-null-tensor-summand:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/HomologicalAlgebra/TensorNullSummand.lean"
+      },
+      "lineage": "collected:he-tubbenhauer-2025-null-tensor-summand:s5",
+      "macros": {
+        "\\im": "\\operatorname{im}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "he-tubbenhauer-2025-null-tensor-summand",
+      "scope": "in_scope",
+      "statement": "Let \\(S=\\{x,y\\}\\) with \\(st=t\\) for all \\(s,t\\in S\\), and, over any field, set\n\\[\n \\rho(x)=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix},\\qquad\n \\rho(y)=\\begin{pmatrix}1&1\\\\0&0\\end{pmatrix}.\n\\]\nFor every \\(n\\geq1\\),\n\\[\n V^{\\otimes n}\\cong V\\oplus Z^{\\oplus(2^n-2)},\\qquad b(n)=2^n-1.\n\\]\nEvery indecomposable \\(kS\\)-module other than \\(Z\\) has null\ncomposition-factor fraction at most \\(1/2\\). Thus the hypothesis of\nProposition~4.4 holds with \\(c=3/4\\), while its literal finite-exponent\nequality fails. Its asymptotic replacement holds.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "he-tubbenhauer-2025-null-tensor-summand"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:he-tubbenhauer-2025-null-tensor-summand:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/HomologicalAlgebra/TensorNullSummand.lean"
+      },
+      "lineage": "collected:he-tubbenhauer-2025-null-tensor-summand:s6",
+      "macros": {
+        "\\im": "\\operatorname{im}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "he-tubbenhauer-2025-null-tensor-summand",
+      "scope": "in_scope",
+      "statement": "In \\cite[v1, Example~2.2, p.~3; v2, Example~1, p.~3]{HTgrowth}, let\n\\(S=G_1\\cup G_2\\cup\\{0\\}\\), with \\(G_1=C_2\\), \\(G_2=S_3\\) and\ncross-products zero. For the specified complex module \\(V=X\\oplus Y\\),\nwhere \\(X\\) is the nontrivial \\(C_2\\)-module and \\(Y\\) the standard\ntwo-dimensional \\(S_3\\)-module, every \\(n\\geq1\\) satisfies\n\\[\n \\mu(V^{\\otimes n})=3^n-2^n-1,\\qquad\n b(n)=3^n-\\frac{2^n-(-1)^n}{3}.\n\\]",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "he-tubbenhauer-2025-null-tensor-summand"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:he-tubbenhauer-2025-null-tensor-summand:2:s7",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/HomologicalAlgebra/TensorNullSummand.lean"
+      },
+      "lineage": "collected:he-tubbenhauer-2025-null-tensor-summand:s7",
+      "macros": {
+        "\\im": "\\operatorname{im}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "he-tubbenhauer-2025-null-tensor-summand",
+      "scope": "in_scope",
+      "statement": "For \\(d\\geq2\\), let \\(J_d e_i=e_{i-1}\\) for \\(1\\leq i<d\\), and\n\\(J_de_0=0\\). Let the semigroup of its positive powers, including zero, act\non \\(k^d\\). For every \\(n\\geq1\\),\n\\[\n b(n)=d^n-(d-1)^n,\\qquad\n \\mu(V^{\\otimes n})=d^n-2(d-1)^n+(d-2)^n.\n\\]",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "he-tubbenhauer-2025-null-tensor-summand"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:he-tubbenhauer-2025-null-tensor-summand:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/HomologicalAlgebra/TensorNullSummand.lean"
+      },
+      "lineage": "collected:he-tubbenhauer-2025-null-tensor-summand:s8",
+      "macros": {
+        "\\im": "\\operatorname{im}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "he-tubbenhauer-2025-null-tensor-summand",
+      "scope": "in_scope",
+      "statement": "The matrix in Example~4.3 and Figure~9 of \\cite[p.~17]{HT25} yields, for \\(n\\geq2\\),\n\\[\n b(n)=6^n-7,\\qquad [V^{\\otimes n}:Z]_b=6^n-8.\n\\]",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "he-tubbenhauer-2025-null-tensor-summand"
     },
     {
       "attribution": null,
@@ -9465,6 +10065,211 @@
       "toolchain": null,
       "version": 2,
       "work": "radsarar-anando-2026-apollonian-second-eigenvalue"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S3/StatisticalMechanics/BoseSelectionCubicTwoBathRefutation.lean"
+      },
+      "lineage": "collected:schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation:s1",
+      "macros": {
+        "\\Pf": "\\operatorname{Pf}",
+        "\\R": "\\mathbb R",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation",
+      "scope": "in_scope",
+      "statement": "For $M=5$, $d=3$, and\n\\begin{equation}\n \\varepsilon=(1,2,3,4,5),\\qquad\n f=\\frac1{21}(5,4,4,4,4),\\qquad\n g=\\frac1{21}(6,6,3,3,3),\n\\end{equation}\nthe unique selected set is $S=\\{1,2,3,4,5\\}$, and its unique\nnormalized occupation vector is\n\\begin{equation}\n \\eta=\\frac1{100}(14,56,21,8,1).\n\\end{equation}\nThere is a nonempty open set of ordered energies and positive\ncoupling parameters with this same five-mode selection.\nThus $M_S=5>3=2M_B-1$ for $M_B=2$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "A cubic counterexample at Schnell–Ketzmerick–Eckardt (2018, Sec. V, p. 11, Eq. (55)), and an extension of their Ohmic bound",
+      "toolchain": null,
+      "version": 2,
+      "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S3/StatisticalMechanics/BoseSelectionCubicTwoBathRefutation.lean"
+      },
+      "lineage": "collected:schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation:s2",
+      "macros": {
+        "\\Pf": "\\operatorname{Pf}",
+        "\\R": "\\mathbb R",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation",
+      "scope": "in_scope",
+      "statement": "There is an open interval of exponents containing $3$ for\nwhich the parameters in~\\eqref{eq:parameters} have a unique\nfive-mode selection. More generally, five-mode selection\nholds in a neighborhood of the displayed point in the joint\nspace $(d,\\varepsilon,F,G)$, with $d>0$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "A cubic counterexample at Schnell–Ketzmerick–Eckardt (2018, Sec. V, p. 11, Eq. (55)), and an extension of their Ohmic bound",
+      "toolchain": null,
+      "version": 2,
+      "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S3/StatisticalMechanics/BoseSelectionCubicTwoBathRefutation.lean"
+      },
+      "lineage": "collected:schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation:s3",
+      "macros": {
+        "\\Pf": "\\operatorname{Pf}",
+        "\\R": "\\mathbb R",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation",
+      "scope": "in_scope",
+      "statement": "For every finite $M\\geq5$, two cubic product-coupled baths\nadmit a nonempty open set of positive coupling weights and\nordered energies with exactly five selected modes and a unique\nnormalized selection vector.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "A cubic counterexample at Schnell–Ketzmerick–Eckardt (2018, Sec. V, p. 11, Eq. (55)), and an extension of their Ohmic bound",
+      "toolchain": null,
+      "version": 2,
+      "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation:2:s4",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S3/StatisticalMechanics/BoseSelectionCubicTwoBathRefutation.lean"
+      },
+      "lineage": "collected:schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation:s4",
+      "macros": {
+        "\\Pf": "\\operatorname{Pf}",
+        "\\R": "\\mathbb R",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation",
+      "scope": "in_scope",
+      "statement": "For odd $q\\geq1$, every nondegenerate selected set for\n\\eqref{eq:many} satisfies\n\\[\n M_S\\leq(q+1)M_B-1.\n\\]\nFor $q=1$ this recovers the Ohmic bound of Schnell, Ketzmerick\nand Eckardt~\\cite[Sec.\\ V, Eqs.\\ (51)--(54)]{ske}.\nFor two cubic baths it gives $M_S\\leq7$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "A cubic counterexample at Schnell–Ketzmerick–Eckardt (2018, Sec. V, p. 11, Eq. (55)), and an extension of their Ohmic bound",
+      "toolchain": null,
+      "version": 2,
+      "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S3/StatisticalMechanics/BoseSelectionCubicTwoBathRefutation.lean"
+      },
+      "lineage": "collected:schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation:s5",
+      "macros": {
+        "\\Pf": "\\operatorname{Pf}",
+        "\\R": "\\mathbb R",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation",
+      "scope": "in_scope",
+      "statement": "Suppose the energies are strictly ordered, $d>0$, all couplings\nare positive, and all baths have the same spectral sign in\n\\eqref{eq:many}, with $(\\varepsilon_j-\\varepsilon_i)^q$\nreplaced by $J_d(\\varepsilon_j-\\varepsilon_i)$.\nThen precisely one mode is selected: the lowest energy for\npositive signs and the highest for negative signs.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "A cubic counterexample at Schnell–Ketzmerick–Eckardt (2018, Sec. V, p. 11, Eq. (55)), and an extension of their Ohmic bound",
+      "toolchain": null,
+      "version": 2,
+      "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
     },
     {
       "attribution": null,

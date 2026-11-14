@@ -31,10 +31,18 @@
         "revision": "73ec20a01fc35e0f53bc258c605821728f3c33b6",
         "url": "https://github.com/the-omega-institute/trureturing/blob/73ec20a01fc35e0f53bc258c605821728f3c33b6/D5/S3/ArithSums/SpeziaA320043SquareValuesRefutation.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
         "attach_verified_doi",
         "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [],
@@ -48,6 +56,63 @@
       },
       "version": 2,
       "work": "a320043-square-values-refutation"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 110097,
+          "matches_public": null,
+          "path": "paper.pdf",
+          "public_sha256": null,
+          "sha256": "503b4046d6a4750b9f8538ced6949d05086fb5b1f1d22bed5edd3b260e0a38d1"
+        },
+        "source": {
+          "bytes": 22922,
+          "matches_public": null,
+          "path": "source.archive",
+          "public_sha256": null,
+          "sha256": "52a9dcd04c04e876fb58da92a213e37f6ed3c33388b8e70382c2c374fbdfca90"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/aks2610-twin-free-theta-separation",
+      "site_url": "https://papers.trureturing.org/aks2610-twin-free-theta-separation/",
+      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "aks2610-twin-free-theta-separation"
     },
     {
       "concept_doi": "10.5281/zenodo.23919065",
@@ -80,8 +145,16 @@
         "revision": "a87bdf39e4517497a9773c0c724243bc700c5bb1",
         "url": "https://github.com/the-omega-institute/trureturing/blob/a87bdf39e4517497a9773c0c724243bc700c5bb1/D5/S3/Combinatorics/Graph/Domination/MinusFourReassembly.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -130,8 +203,16 @@
         "revision": "122c987d276498783de7d873378a28b27ced8761",
         "url": "https://github.com/the-omega-institute/trureturing/blob/122c987d276498783de7d873378a28b27ced8761/D5/S3/ArithSums/BrowneA164660ChebyshevFloorProduct.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -180,8 +261,16 @@
         "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
         "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/FiniteGroups/BajnokBeattyAllRegimes.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -230,8 +319,16 @@
         "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
         "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Arith/FactorialRatio/BalaA295462Parity.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -280,8 +377,16 @@
         "revision": "57b811cedb64c8065c6afac0da57d0fe2c8aa5ab",
         "url": "https://github.com/the-omega-institute/trureturing/blob/57b811cedb64c8065c6afac0da57d0fe2c8aa5ab/D5/S3/Quantum/Magic/MixedStateInverseSumsetRefutation.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -330,8 +435,15 @@
         "revision": "66a0495cbdf1bb9b42d715c1b3cd3365862896fa",
         "url": "https://github.com/the-omega-institute/trureturing/blob/66a0495cbdf1bb9b42d715c1b3cd3365862896fa/D5/S1/Recurrence/Algebraic/ChenChenParityPositivity.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 1,
+        "videos": 0,
+        "visualizations": 1
+      },
       "mode": "authored_book",
       "next_steps": [
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -380,8 +492,16 @@
         "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
         "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Geometry/Lorentz/ChiralEventParityMinimality.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -430,8 +550,16 @@
         "revision": "83b70a1d0d6a58bb32521c741805d845d401c5f8",
         "url": "https://github.com/the-omega-institute/trureturing/blob/83b70a1d0d6a58bb32521c741805d845d401c5f8/D5/S3/Quantum/Entanglement/GeometricMeasure/XMemsClosestSeparableShapeRefutation.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -480,8 +608,16 @@
         "revision": "d1876cfbbef8c13023311126691b180eefa69569",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S3/Quantum/Measurement/AnticoherenceTraceDistanceRefutation.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -530,8 +666,16 @@
         "revision": "31e6846798fc7b0349538fb9792b6d53d3f60566",
         "url": "https://github.com/the-omega-institute/trureturing/blob/31e6846798fc7b0349538fb9792b6d53d3f60566/D5/S3/Analytic/Asymptotics/MittagLefflerModulusRefutation.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -580,8 +724,16 @@
         "revision": "cdafeab0d44da2b6840cfc802535d2f94a146fad",
         "url": "https://github.com/the-omega-institute/trureturing/blob/cdafeab0d44da2b6840cfc802535d2f94a146fad/D5/S3/Combinatorics/Graph/Pressure/HardinBarkerA209723EdgeDifferences.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -598,6 +750,63 @@
       },
       "version": 2,
       "work": "hardin-barker-a209723-edge-differences"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 108493,
+          "matches_public": null,
+          "path": "paper.pdf",
+          "public_sha256": null,
+          "sha256": "305c7dc094953b40a24b7d4026344b8eb59023fdc1862e14829947590ddd5080"
+        },
+        "source": {
+          "bytes": 18554,
+          "matches_public": null,
+          "path": "source.archive",
+          "public_sha256": null,
+          "sha256": "63943470c0a544408236a63faca97c1229a5ed602da3e2184c16b2489fcb27a9"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/HomologicalAlgebra/TensorNullSummand.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/he-tubbenhauer-2025-null-tensor-summand",
+      "site_url": "https://papers.trureturing.org/he-tubbenhauer-2025-null-tensor-summand/",
+      "title": "Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "he-tubbenhauer-2025-null-tensor-summand"
     },
     {
       "concept_doi": "10.5281/zenodo.23904467",
@@ -630,8 +839,16 @@
         "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
         "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Quantum/Contextuality/PerpHyperplaneHexagonContextualityRefutation.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -680,8 +897,16 @@
         "revision": "02c695f8c17e35965f80603427074b1dd434eed9",
         "url": "https://github.com/the-omega-institute/trureturing/blob/02c695f8c17e35965f80603427074b1dd434eed9/D5/S3/Quantum/Magic/ReflectionDiagonalCNOTLowerBound.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -730,8 +955,16 @@
         "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
         "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Geometry/DiscreteGravity/TreeEquationsNonconstantRefutation.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -780,8 +1013,16 @@
         "revision": "83b70a1d0d6a58bb32521c741805d845d401c5f8",
         "url": "https://github.com/the-omega-institute/trureturing/blob/83b70a1d0d6a58bb32521c741805d845d401c5f8/D5/S3/Quantum/Optimization/SwapEarliestDephasingOptimality.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -830,8 +1071,16 @@
         "revision": "fd1633144086085a16f35c8171e2f4b6186a6fbb",
         "url": "https://github.com/the-omega-institute/trureturing/blob/fd1633144086085a16f35c8171e2f4b6186a6fbb/D5/S1/Dynamics/Symbolic/PermutativeLifts/BalancedRegularRefutation.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -880,8 +1129,16 @@
         "revision": "da4f665789a4b88cdf9eda07a8454fc517979ba5",
         "url": "https://github.com/the-omega-institute/trureturing/blob/da4f665789a4b88cdf9eda07a8454fc517979ba5/D5/S3/QuadraticForms/EvolutionAlgebras/AlgebraicGroupRealizationRefutation.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -930,8 +1187,16 @@
         "revision": "cc684e6326490f9173bfefcadb0294ee6ccbb0b5",
         "url": "https://github.com/the-omega-institute/trureturing/blob/cc684e6326490f9173bfefcadb0294ee6ccbb0b5/D5/S3/Combinatorics/SpectralGraph/KoljancicOblakMinimumArcs.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -980,8 +1245,16 @@
         "revision": "b260643d3d496ad9cd04bfc3557fc9b7499de976",
         "url": "https://github.com/the-omega-institute/trureturing/blob/b260643d3d496ad9cd04bfc3557fc9b7499de976/D5/S3/Combinatorics/SpectralGraph/KoljancicOblakEvenPathNSSP.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1030,9 +1303,17 @@
         "revision": "0eae8e045cb2ba958e2097dbac034f62f9c1dd7a",
         "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/Combinatorics/BinomialBases/KurkovStirlingMinorVandermondeSum.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
         "attach_verified_doi",
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1081,8 +1362,16 @@
         "revision": "57b811cedb64c8065c6afac0da57d0fe2c8aa5ab",
         "url": "https://github.com/the-omega-institute/trureturing/blob/57b811cedb64c8065c6afac0da57d0fe2c8aa5ab/D5/S3/Quantum/Matrix/MalkounJordanElementary.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1131,8 +1420,16 @@
         "revision": "494f471b70d9470db92b4dbc07a309d78ca59ec7",
         "url": "https://github.com/the-omega-institute/trureturing/blob/494f471b70d9470db92b4dbc07a309d78ca59ec7/D5/S1/Recurrence/MatharA027182SelfConvolution.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1181,8 +1478,16 @@
         "revision": "c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa",
         "url": "https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1231,8 +1536,16 @@
         "revision": "0f1f822c673c1903dc6b0a209a23dacebca2aa6c",
         "url": "https://github.com/the-omega-institute/trureturing/blob/0f1f822c673c1903dc6b0a209a23dacebca2aa6c/D5/S3/QuadraticForms/StructuredRankOneFamily.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1281,10 +1594,18 @@
         "revision": "f7ba557ae2a5d2c3a3a519e0713d65ac86af2973",
         "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/SpinChains/BubbleEigenstateDegeneracy.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
         "attach_verified_doi",
         "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [],
@@ -1330,10 +1651,18 @@
         "revision": "0eae8e045cb2ba958e2097dbac034f62f9c1dd7a",
         "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/QuantumChannels/CoolingMapThermalOperationRefutation.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
         "attach_verified_doi",
         "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [],
@@ -1379,8 +1708,16 @@
         "revision": "20b69217fd7c02cbb8668d939dfa29ecc12a9716",
         "url": "https://github.com/the-omega-institute/trureturing/blob/20b69217fd7c02cbb8668d939dfa29ecc12a9716/D5/S1/Recurrence/Residue/OEISA189733DenominatorConjecture.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1429,10 +1766,18 @@
         "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
         "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S1/Recurrence/Invariants/AffinePolynomialPairBinomialCoefficients.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
         "attach_verified_doi",
         "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [],
@@ -1478,8 +1823,16 @@
         "revision": "cdafeab0d44da2b6840cfc802535d2f94a146fad",
         "url": "https://github.com/the-omega-institute/trureturing/blob/cdafeab0d44da2b6840cfc802535d2f94a146fad/D5/S3/Combinatorics/Derangements/AdjacentDifferenceRefutation.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1528,8 +1881,16 @@
         "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
         "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Analytic/Polynomial/HermiteSignedMode.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1578,8 +1939,16 @@
         "revision": "1239bd2a0ed6e9d54aabb5a42af94234e9eb61ae",
         "url": "https://github.com/the-omega-institute/trureturing/blob/1239bd2a0ed6e9d54aabb5a42af94234e9eb61ae/D5/S3/ArithSums/HannaLaurentAlternatingJacobsthal.lean#L103"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1628,8 +1997,16 @@
         "revision": "d1876cfbbef8c13023311126691b180eefa69569",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S3/Combinatorics/Graph/Walks/CollisionPrefix.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1678,8 +2055,16 @@
         "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
         "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1728,8 +2113,16 @@
         "revision": "0f1f822c673c1903dc6b0a209a23dacebca2aa6c",
         "url": "https://github.com/the-omega-institute/trureturing/blob/0f1f822c673c1903dc6b0a209a23dacebca2aa6c/D5/S3/Quantum/Entanglement/Witness/CorrelationMinorNormFNFRefutation.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1778,8 +2171,16 @@
         "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
         "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Combinatorics/Latin/ClassicalPerfectTensorFactorization.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1828,8 +2229,16 @@
         "revision": "66d225eda69544653f1ca0e66cf3aea530b1a2c6",
         "url": "https://github.com/the-omega-institute/trureturing/blob/66d225eda69544653f1ca0e66cf3aea530b1a2c6/D5/S3/Combinatorics/Apollonian/SecondEigenvalueLimit.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1846,6 +2255,63 @@
       },
       "version": 2,
       "work": "radsarar-anando-2026-apollonian-second-eigenvalue"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 89571,
+          "matches_public": null,
+          "path": "paper.pdf",
+          "public_sha256": null,
+          "sha256": "3c814ec140126cd3bfa2bbf4bc756981ef1c5b710a4a90a7bfb87e1855aa6d8c"
+        },
+        "source": {
+          "bytes": 15474,
+          "matches_public": null,
+          "path": "source.archive",
+          "public_sha256": null,
+          "sha256": "8a5ea19cd907a9e55437adca23b0ec438de543cf3a5d0a545f9b960286d69a1d"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S3/StatisticalMechanics/BoseSelectionCubicTwoBathRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation",
+      "site_url": "https://papers.trureturing.org/schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation/",
+      "title": "A cubic counterexample at Schnell–Ketzmerick–Eckardt (2018, Sec. V, p. 11, Eq. (55)), and an extension of their Ohmic bound",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
     },
     {
       "concept_doi": "10.5281/zenodo.23927427",
@@ -1878,8 +2344,16 @@
         "revision": "8c3421e2977f07cb0b5d9b30b7ede138d9951cb5",
         "url": "https://github.com/the-omega-institute/trureturing/blob/8c3421e2977f07cb0b5d9b30b7ede138d9951cb5/D5/S3/Estimation/CorrelationTopEigenvectorWeight.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1928,8 +2402,16 @@
         "revision": "122c987d276498783de7d873378a28b27ced8761",
         "url": "https://github.com/the-omega-institute/trureturing/blob/122c987d276498783de7d873378a28b27ced8761/D5/S3/Quantum/Magic/StabilizerAsymmetryShannonBoundRefutation.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1978,8 +2460,16 @@
         "revision": "fd1633144086085a16f35c8171e2f4b6186a6fbb",
         "url": "https://github.com/the-omega-institute/trureturing/blob/fd1633144086085a16f35c8171e2f4b6186a6fbb/D5/S1/Eigenstructure/OrthogonalAbsoluteProductMinimum.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -2028,8 +2518,16 @@
         "revision": "d1876cfbbef8c13023311126691b180eefa69569",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d1876cfbbef8c13023311126691b180eefa69569/D5/S0/Certificates/Algebra/WangConjecture326Refutation.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -2078,10 +2576,18 @@
         "revision": "d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9/D5/S1/Words/Compositions/WisemanA344611OddLengthInjection.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
         "attach_verified_doi",
         "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [],
@@ -2127,8 +2633,16 @@
         "revision": "cc684e6326490f9173bfefcadb0294ee6ccbb0b5",
         "url": "https://github.com/the-omega-institute/trureturing/blob/cc684e6326490f9173bfefcadb0294ee6ccbb0b5/D5/S3/Quantum/Entanglement/Witness/NoisyGhzWitnessBoundGap.lean"
       },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
       "mode": "paper",
       "next_steps": [
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -2147,8 +2661,8 @@
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
     }
   ],
-  "papers": 43,
+  "papers": 46,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-14T11:29:05.395168166Z"
+  "snapshot_time": "2026-11-14T17:21:15.379676285Z"
 }
