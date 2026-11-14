@@ -22,11 +22,15 @@ def render(output, planned, details, book_works):
         material = load(catalog / "materials" / identity / "materials.json")
         languages = sorted({k for k, v in reading.items() if k in ("en", "zh") and isinstance(v, str) and v.strip()} | set(material["reading"]))
         counts = {key: len(value) for key, value in formal.get(identity, {}).get("split", {}).items()}
+        media = {key: len(material.get(key, [])) for key in ("slides", "visualizations", "videos", "formalization_requests")}
         next_steps = []
         if not work.get("doi"):
             next_steps.append("attach_verified_doi")
         if not {"en", "zh"}.issubset(languages):
             next_steps.append("prepare_bilingual_reading")
+        for key, step in (("slides", "prepare_slides"), ("videos", "prepare_video")):
+            if not media[key]:
+                next_steps.append(step)
         if counts.get("no_target_yet", 0):
             next_steps.append("prepare_exact_targets")
         if counts.get("open_target", 0):
@@ -38,6 +42,7 @@ def render(output, planned, details, book_works):
                      "mode": "authored_book" if identity in book_works else "paper",
                      "doi": work.get("doi"), "concept_doi": work.get("concept_doi"),
                      "files": paper["files"], "reading_languages": languages,
+                     "materials": media,
                      "lean_source": work.get("lean_source"), "formalization": counts,
                      "trureturing_write_back": formal.get(identity, {}).get("trureturing_write_back"),
                      "next_steps": next_steps})
@@ -47,12 +52,13 @@ def render(output, planned, details, book_works):
              "papers": len(rows), "entries": rows}
     (destination / "factory.json").write_text(json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2) + "\n")
     lines = ["# Paper factory", "", value["scope"], "", "Snapshot: `" + snapshot["time"] + "`.", "",
-             "| Paper | Version | DOI | Reading | Formalization |", "|---|---:|---|---|---|"]
+             "| Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |", "|---|---:|---|---|---|---|"]
     for row in rows:
         progress = ", ".join(str(n) + " " + key.replace("_", " ") for key, n in row["formalization"].items() if n) or "No indexed statements"
         title = row["title"].replace("|", "&#124;").replace("\n", " ")
         doi = "[DOI](https://doi.org/" + row["doi"] + ")" if row["doi"] else "Awaiting DOI"
-        lines.append(f'| [{title}]({row["repository_url"]}) | {row["version"]} | {doi} | {", ".join(row["reading_languages"]) or "Awaiting reading"} | {progress} |')
+        media = row["materials"]
+        lines.append(f'| [{title}]({row["repository_url"]}) | {row["version"]} | {doi} | {", ".join(row["reading_languages"]) or "Awaiting reading"} | {media["slides"]} / {media["videos"]} / {media["visualizations"]} | {progress} |')
     lines += ["", "Publication proceeds independently of exposition and proof work. A pinned Lean source is not statement-level verification. Exact targets, verified bundles and original attribution remain in [formalization](https://github.com/mathesis-papers/formalization). Public Mathesis receipts and leaderboards are authoritative.", ""]
     (destination / "FACTORY.md").write_text("\n".join(lines))
     return value

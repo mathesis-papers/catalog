@@ -186,7 +186,8 @@ def prepare(projection, detail, destination, api_base):
     repository = f"https://github.com/mathesis-papers/{repo}"
     record = api_base.rstrip("/") + "/papers/" + urllib.parse.quote(work["record"], safe="") + "?version=" + str(work["current_version"])
     source = repository + "/raw/refs/heads/main/source.archive" if (projection / "source.archive").is_file() else repository + "/tree/main/manuscript"
-    links = [("PDF", site + "paper.pdf"), ("Source", source), ("Mathesis record", record)]
+    links = [("PDF", site + "paper.pdf"), ("Source", source), ("Citation", repository + "/blob/main/CITATION.cff"),
+             ("Repository", repository), ("Mathesis record", record)]
     if work.get("doi"):
         links.append(("DOI", "https://doi.org/" + work["doi"]))
     lean = detail.get("lean")
@@ -204,7 +205,10 @@ def prepare(projection, detail, destination, api_base):
     nav = "<nav>" + "".join('<a href="' + html.escape(url, quote=True) + '">' + html.escape(label) + "</a>" for label, url in links) + "</nav>"
     content = '<p class="meta">Published paper · Version ' + str(work["current_version"]) + " · CC BY 4.0</p>" + nav
     content += "<article><h2>Abstract</h2>" + paragraphs(work.get("abstract_text") or detail.get("abstract") or "")
-    content += "<h2>Citation</h2><p>" + html.escape(authors + ". " + title + ". Version " + str(work["current_version"]) + ".") + "</p>"
+    citation = authors + ". " + title + ". Version " + str(work["current_version"]) + "."
+    if work.get("doi"):
+        citation += " https://doi.org/" + work["doi"]
+    content += "<h2>Citation</h2><p>" + html.escape(citation) + "</p>"
     if lean:
         content += '<h2>Formalization</h2><p>Published Lean source accompanies this paper. Exact statement coverage and independently checked contributions are recorded on its Mathesis page.</p>'
     content += "</article>"

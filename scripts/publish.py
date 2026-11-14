@@ -445,6 +445,10 @@ def apply(api, source, stage):
         else:
             require(created or info.get("template_repository", {}).get("full_name") == ORG + "/paper-template", "existing unpopulated repository is not from paper-template; review required")
         # Enable after provenance/identity checks and before the initialization commit.
+        title = read(stage / "papers" / repo / "paper.json")["work"].get("title", work)
+        metadata = {"description": title[:350], "homepage": f"{SITE}/{repo}/"}
+        if any(info.get(key) != value for key, value in metadata.items()):
+            api.call("PATCH", f"/repos/{ORG}/{repo}", metadata)
         api.pages(repo, "workflow")
         is_collection = work in plan.get("collection_works", [])
         if not is_collection and "paper.json" in entries and work in aliases:
