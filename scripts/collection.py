@@ -3,6 +3,7 @@ import hashlib
 import html
 import json
 from pathlib import Path
+import re
 import shutil
 import urllib.parse
 
@@ -73,6 +74,89 @@ def paragraphs(text):
                      for p in text.split("\n\n") if p.strip())
 
 
+def validate_aliases(mapping, aliases):
+    if not isinstance(aliases, dict) or any(w not in mapping for w in aliases):
+        raise ValueError("repository aliases must belong to mapped works")
+    used = {r.lower() for r in mapping.values()}
+    for work, names in aliases.items():
+        if not isinstance(names, list) or not names:
+            raise ValueError("repository aliases must be nonempty lists")
+        for name in names:
+            if not isinstance(name, str) or not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9._-]{0,99}", name) or name.lower() in used:
+                raise ValueError("repository alias is unsafe or collides with another address")
+            used.add(name.lower())
+
+
+def relocate_materials(value, old, new):
+    old_base = f"https://papers.trureturing.org/{old}/"
+    new_base = f"https://papers.trureturing.org/{new}/"
+    if value.get("repository_url") != f"https://github.com/mathesis-papers/{old}" or value.get("site_url") != old_base:
+        raise ValueError("legacy materials repository differs")
+
+    def relocate(item):
+        if isinstance(item, str) and item.startswith(old_base):
+            return new_base + item[len(old_base):]
+        if isinstance(item, dict):
+            return {k: relocate(v) for k, v in item.items()}
+        if isinstance(item, list):
+            return [relocate(v) for v in item]
+        return item
+
+    result = relocate(value)
+    result["repository_url"] = f"https://github.com/mathesis-papers/{new}"
+    return result
+
+
+def relocate_book(files, old, new):
+    """Change only book address metadata; authored text and evidence stay intact."""
+    paper = json.loads(files["paper.json"])
+    marker = json.loads(files[".mathesis/generated.json"])
+    if marker["sha256"]["paper.json"] != hashlib.sha256(files["paper.json"]).hexdigest():
+        raise ValueError("book paper metadata edited outside publisher")
+    if paper["work"]["repository_name"] != old:
+        raise ValueError("book repository differs")
+    config = files["site.toml"].decode()
+    repo_line = f'repo = "mathesis-papers/{old}"'
+    base_line = f'base_url = "https://papers.trureturing.org/{old}/"'
+    if config.count(repo_line) != 1 or config.count(base_line) != 1:
+        raise ValueError("book address config differs")
+    config = config.replace(repo_line, f'repo = "mathesis-papers/{new}"').replace(base_line, f'base_url = "https://papers.trureturing.org/{new}/"')
+    paper["work"]["repository_name"] = new
+    encode = lambda value: (json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2) + "\n").encode()
+    encoded = encode(paper)
+    marker["sha256"]["paper.json"] = hashlib.sha256(encoded).hexdigest()
+    return {"paper.json": encoded, ".mathesis/generated.json": encode(marker), "site.toml": config.encode()}
+
+
+def redirects(site, mapping, aliases, projections):
+    destinations = {old: mapping[w] for w, names in aliases.items() for old in names}
+    if not destinations:
+        return
+    table = json.dumps(destinations, sort_keys=True)
+    script = '<script>const names=' + table + ';const parts=location.pathname.split("/");if(names[parts[1]]){parts[1]=names[parts[1]];location.replace(parts.join("/")+location.search+location.hash)}</script>'
+    write(site / "404.html", '<!doctype html><html lang="en"><meta charset="utf-8"><title>Mathesis papers</title>' + script + '<p>This paper may have moved. <a href="/">Browse the papers</a>.</p></html>\n')
+    for work, names in aliases.items():
+        repo = mapping[work]
+        for old in names:
+            for suffix in ("", "en/", "zh/"):
+                url = f"{SITE_BASE}/{repo}/" + suffix
+                document = '<!doctype html><html lang="en"><meta charset="utf-8"><link rel="canonical" href="' + html.escape(url, quote=True) + '">' + script + '<title>Mathesis paper</title><p><a href="' + html.escape(url, quote=True) + '">Open the paper</a>.</p></html>\n'
+                write(site / old / suffix / "index.html", document)
+            pdf = projections / repo / "paper.pdf"
+            (site / old).mkdir(parents=True, exist_ok=True)
+            shutil.copy2(pdf, site / old / "paper.pdf")
+
+
+SITE_BASE = "https://papers.trureturing.org"
+
+
+def ownership(files, work, version):
+    files = {p: b for p, b in files.items() if p != MARKER}
+    hashes = {p: hashlib.sha256(b).hexdigest() for p, b in files.items()}
+    blobs = {p: hashlib.sha1(b"blob " + str(len(b)).encode() + b"\0" + b).hexdigest() for p, b in files.items()}
+    return (json.dumps({"schema": SCHEMA, "work": work, "version": version, "sha256": hashes, "git_blobs": blobs}, sort_keys=True, indent=2) + "\n").encode()
+
+
 def prepare(projection, detail, destination, api_base):
     paper = read(projection / "paper.json")
     work = paper["work"]
@@ -120,10 +204,7 @@ def prepare(projection, detail, destination, api_base):
             target = destination / "versions" / ("v" + str(work["current_version"])) / path.relative_to(projection)
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(path, target)
-    files = {p.relative_to(destination).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+    files = {p.relative_to(destination).as_posix(): p.read_bytes()
              for p in destination.rglob("*") if p.is_file()}
-    blobs = {}
-    for name in files:
-        data = (destination / name).read_bytes()
-        blobs[name] = hashlib.sha1(b"blob " + str(len(data)).encode() + b"\0" + data).hexdigest()
-    write(destination / MARKER, json.dumps({"schema": SCHEMA, "work": work["work"], "version": work["current_version"], "sha256": files, "git_blobs": blobs}, sort_keys=True, indent=2) + "\n")
+    (destination / MARKER).parent.mkdir(parents=True, exist_ok=True)
+    (destination / MARKER).write_bytes(ownership(files, work["work"], work["current_version"]))

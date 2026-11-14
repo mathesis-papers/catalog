@@ -1,11 +1,130 @@
 {
-  "mathesis_repository": "the-omega-institute/mathesis",
-  "mathesis_commit": "f5262eb83e43878d866a51f2921e68295c0d6bb1",
-  "template_commit": "11468fdb359ade61549e89d76d40af85106bc788",
   "api_base": "https://mathesis-omega-research.apps.chrono-ai.fun",
-  "paper_publication": "collection",
-  "repository_naming": "objectid-v1",
   "book_works": [
     "chen-chen-step-m-eulerian-parity-positivity"
-  ]
+  ],
+  "mathesis_commit": "f5262eb83e43878d866a51f2921e68295c0d6bb1",
+  "mathesis_repository": "the-omega-institute/mathesis",
+  "paper_publication": "collection",
+  "repository_aliases": {
+    "a320043-square-values-refutation": [
+      "6af0f0e8964ba435e7b3ffca"
+    ],
+    "alikhani-griswold-2026-connected-minus-four-family": [
+      "6aec385208e1c0a6e1f65a27"
+    ],
+    "b164660-chebfloor": [
+      "6aec384eb72807af619767e9"
+    ],
+    "bajnok-beatty-original-conjecture-4-1": [
+      "6aec385ac094feef28f99ea6"
+    ],
+    "bala295462": [
+      "6aec296c8d83894561e7bb78"
+    ],
+    "bu-gu-jaffe-2025-mixed-state-inverse-sumset": [
+      "6aec384da3c95318f8824b8f"
+    ],
+    "chen-chen-step-m-eulerian-parity-positivity": [
+      "chen-chen-step-m-eulerian-parity-positivity"
+    ],
+    "chiral-event-parity-minimality": [
+      "6aec385b06f051afc69fcf80"
+    ],
+    "consiglio-apollaro-wiesniak-2022-xmems-css-shape": [
+      "6aec3855f1c54c784df87e82"
+    ],
+    "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance": [
+      "6aec384a764faffa93fead3c"
+    ],
+    "ggps2025": [
+      "6aec38570572f4d53e4f1556"
+    ],
+    "hardin-barker-a209723-edge-differences": [
+      "6aec3850f4cab60123ed7433"
+    ],
+    "hexagon-perp-line-counterexamples": [
+      "6aec3853648cbfae23c59128"
+    ],
+    "huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound": [
+      "6aec384fc2e94f3104cde418"
+    ],
+    "huang-stoica-xia-zhong-2020-tree-equations-nonconstant": [
+      "6aec385b5d5a8c54539a83af"
+    ],
+    "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing": [
+      "6aec38564ddece0d4a9bcb00"
+    ],
+    "kang-jager-2026-universal-permutative-lift-refutation": [
+      "6aec384bf903dfd2d5d82496"
+    ],
+    "kmvq31-sl3-obstruction": [
+      "6aec385d127fecfd3d2bfbf4"
+    ],
+    "koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8": [
+      "6aec3854f194c81629beec0a"
+    ],
+    "koljancic-oblak-2026-question-5-11-even-loop-path": [
+      "6aec3858e584399ee16a1b5a"
+    ],
+    "kurk396563": [
+      "6aec29cd3bcdf81eb5d50073"
+    ],
+    "malkoun-2026-mo512579-jordan-elementary": [
+      "6aec38560b38207a66628490"
+    ],
+    "mathar-a027182-closed-form": [
+      "6aec384a07848d67879121d7"
+    ],
+    "mathoverflow-469781-weighted-orthogonal-minors": [
+      "6aec385cdfa30d689ddd40d5"
+    ],
+    "mathoverflow-513954-singular-diagonal-downdate-inertia": [
+      "6aec3857f36f82c2025c5d3f"
+    ],
+    "oeis-a189733-curtz-denominator-conjecture": [
+      "6aec385ebbe9030500bdf621"
+    ],
+    "oeis-a378495-difference-conjectures": [
+      "6aec38505386727c8b0b631c"
+    ],
+    "oeis-a381423-hermite-differences": [
+      "6aec385cf92dd78867a52d00"
+    ],
+    "oeis-a391810-alternating-jacobsthal": [
+      "6aec384f18e9d5f3e99cfcd1"
+    ],
+    "oeis-a396659-edge-collision-ratio": [
+      "6aec384e8c2e4599d306bbc2"
+    ],
+    "okada-2020-premerged-determinant-nonpalindromic": [
+      "6aec38590da450359338390d"
+    ],
+    "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf": [
+      "6aec3858f30f8af15112d310"
+    ],
+    "pozsgay-wanless-nonlinear-classical-factors": [
+      "6aec3853a5db6bd59598cc5c"
+    ],
+    "radsarar-anando-2026-apollonian-second-eigenvalue": [
+      "6aec3851de92f716896248cd"
+    ],
+    "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight": [
+      "6aec38599153a8dcadd6fdda"
+    ],
+    "tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound": [
+      "6aec38517a6ceac006a4c051"
+    ],
+    "user3-2026-orthogonal-absolute-product-minimum": [
+      "6aec384caafcae7b566cfd4c"
+    ],
+    "wang-conjecture326": [
+      "6aec384bb5ab4ce92a483609"
+    ],
+    "xu-et-al-2023-noisy-ghz-witness-bound-gap": [
+      "6aec3852e0e3a8013bcd1496"
+    ]
+  },
+  "repository_naming": "doi-v1",
+  "template_commit": "11468fdb359ade61549e89d76d40af85106bc788"
 }
