@@ -3,9 +3,10 @@
   "book_works": [
     "chen-chen-step-m-eulerian-parity-positivity"
   ],
-  "mathesis_commit": "f5262eb83e43878d866a51f2921e68295c0d6bb1",
+  "mathesis_commit": "a7803091bde696f96a5c3b501abae19fceff7fa9",
   "mathesis_repository": "the-omega-institute/mathesis",
   "paper_publication": "collection",
+  "publication_selection": "all_eligible",
   "repository_aliases": {
     "a320043-square-values-refutation": [
       "6af0f0e8964ba435e7b3ffca"

@@ -174,7 +174,9 @@ def prepare(projection, detail, destination, api_base):
     work = paper["work"]
     if work.get("publication") != "public" or work.get("license") != "CC-BY-4.0":
         raise ValueError("collection paper is outside public archive scope")
-    if detail.get("id") != work["work"] or int(detail.get("revision", 0)) != work["current_version"]:
+    identity = detail.get("id") or detail.get("record")
+    version = detail.get("revision") or detail.get("version", 0)
+    if identity != work["work"] or int(version) != work["current_version"]:
         raise ValueError("collection details do not match the frozen version")
     shutil.copytree(projection, destination)
     title = work["title"]
@@ -183,7 +185,8 @@ def prepare(projection, detail, destination, api_base):
     site = f"https://papers.trureturing.org/{repo}/"
     repository = f"https://github.com/mathesis-papers/{repo}"
     record = api_base.rstrip("/") + "/papers/" + urllib.parse.quote(work["record"], safe="") + "?version=" + str(work["current_version"])
-    links = [("PDF", site + "paper.pdf"), ("Source", repository + "/tree/main/manuscript"), ("Mathesis record", record)]
+    source = repository + "/raw/refs/heads/main/source.archive" if (projection / "source.archive").is_file() else repository + "/tree/main/manuscript"
+    links = [("PDF", site + "paper.pdf"), ("Source", source), ("Mathesis record", record)]
     if work.get("doi"):
         links.append(("DOI", "https://doi.org/" + work["doi"]))
     lean = detail.get("lean")
@@ -220,3 +223,24 @@ def prepare(projection, detail, destination, api_base):
              for p in destination.rglob("*") if p.is_file()}
     (destination / MARKER).parent.mkdir(parents=True, exist_ok=True)
     (destination / MARKER).write_bytes(ownership(files, work["work"], work["current_version"]))
+
+
+def legacy_book_projection(source, destination):
+    """Adapt the checked projection to the pinned book template's older file layout."""
+    shutil.copytree(source, destination)
+    original = destination / "source.archive"
+    target = destination / "manuscript/original-source.archive"
+    if not original.is_file() or target.exists():
+        raise ValueError("legacy book original-source path missing or occupied")
+    original.rename(target)
+    paper = read(destination / "paper.json")
+    paper["files"]["source"].update(path="manuscript/", original_path="manuscript/original-source.archive")
+    encode = lambda value: json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2) + "\n"
+    write(destination / "paper.json", encode(paper))
+    manifest = read(destination / ".mathesis/generated.json")
+    hashes = {p.relative_to(destination).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+              for p in sorted(destination.rglob("*")) if p.is_file() and p.relative_to(destination).as_posix() != ".mathesis/generated.json"}
+    manifest.update(generated_paths=sorted(hashes), sha256=hashes,
+                    snapshot_identity=hashlib.sha256(json.dumps(hashes, sort_keys=True).encode()).hexdigest())
+    write(destination / ".mathesis/generated.json", encode(manifest))
+    return destination

@@ -21,6 +21,7 @@ import urllib.request
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import collection
+import factory
 
 ORG = "mathesis-papers"
 SITE = "https://papers.trureturing.org"
@@ -33,7 +34,7 @@ def formalization_managed(path):
     return path in FORMALIZATION_FILES or path.startswith(("targets/", "curated/", "proofs/", "disproofs/", "index/", "environment/", "ci/mathlib/"))
 
 
-CATALOG_FILES = {"README.md", "works.json", "nodes.json", "stats.json", "snapshot.json", "repositories.json", "archive-index.json"}
+CATALOG_FILES = {"README.md", "works.json", "nodes.json", "stats.json", "snapshot.json", "repositories.json", "archive-index.json", "factory.json", "FACTORY.md"}
 
 
 def read(path):
@@ -48,6 +49,15 @@ def write(path, value):
 def require(condition, message):
     if not condition:
         raise ValueError(message)
+
+
+def select_works(config, allowed, works):
+    selected = {w["work"]: w for w in works if w["publication"] == "public"}
+    mode = config.get("publication_selection", "allow_list")
+    require(mode in ("allow_list", "all_eligible"), "unknown publication selection")
+    for work in allowed:
+        require(work in selected, f"allow-listed work is absent or out of scope: {work}")
+    return selected, sorted(selected) if mode == "all_eligible" else allowed
 
 
 def plan_repositories(mapping, allowed, selected, naming="slug"):
@@ -68,8 +78,8 @@ def plan_repositories(mapping, allowed, selected, naming="slug"):
                 require(len(name) <= 100, f"DOI repository name is too long: {work}")
                 planned[work] = name
             else:
-                require(re.fullmatch(r"[a-z0-9][a-z0-9._-]{0,99}", work) is not None, f"invalid fallback work name: {work}")
-                planned[work] = work
+                require(re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9._-]{0,99}", work) is not None, f"invalid fallback work name: {work}")
+                planned[work] = work.lower()
             continue
         dates = [v.get("published_on") for v in row.get("versions", [])]
         dates.append(row.get("published_on"))
@@ -142,6 +152,7 @@ class API:
         self.base = base.rstrip("/")
         self.token = token
         self.opener = urllib.request.build_opener(NoRedirect())
+        self.receipts = {}
 
     def call(self, method, path, data=None, missing=False):
         require(path.startswith("/") and not path.startswith("//"), "invalid API path")
@@ -197,11 +208,13 @@ class API:
                 require(path != "CNAME", "refusing to remove CNAME")
                 changes.append({"path": path, "mode": entry["mode"], "type": entry["type"], "sha": None})
         if not changes:
+            self.receipts[name] = {"before": parent, "after": parent, "changed_paths": 0}
             print(f"{name}: unchanged")
             return False
         tree = self.call("POST", prefix + "/trees", {"base_tree": base_tree, "tree": changes})
         commit = self.call("POST", prefix + "/commits", {"message": message, "tree": tree["sha"], "parents": [parent]})
         self.call("PATCH", prefix + "/refs/heads/" + urllib.parse.quote(branch, safe=""), {"sha": commit["sha"], "force": False})
+        self.receipts[name] = {"before": parent, "after": commit["sha"], "changed_paths": len(changes)}
         print(f"{name}: committed {len(changes)} paths")
         return True
 
@@ -230,7 +243,7 @@ class API:
         self.call("POST", f"/repos/{ORG}/{name}/issues", {"title": TITLE, "body": MARKER + "\n\n" + checklist})
 
 
-def material_downloads(mapping, destination, aliases=None, previous_materials=None):
+def material_downloads(mapping, destination, aliases=None, previous_materials=None, versions=None):
     opener = urllib.request.build_opener(NoRedirect())
     for work, repo in sorted(mapping.items()):
         value = None
@@ -266,6 +279,9 @@ def material_downloads(mapping, destination, aliases=None, previous_materials=No
             require(unavailable is None, unavailable)
             continue
         require(value.get("work") == work, "materials work differs")
+        if versions and work in versions and value.get("version") != versions[work]:
+            require(isinstance(value.get("version"), int) and value["version"] < versions[work], "materials version is ahead of snapshot")
+            continue
         if value.get("repository_url") != f"https://github.com/{ORG}/{repo}":
             previous = next((name for name in (aliases or {}).get(work, [])
                              if value.get("repository_url") == f"https://github.com/{ORG}/{name}"), None)
@@ -291,14 +307,13 @@ def prepare(binary, source, stage):
     run(*args)
     run(binary, "check", "--output", output)
     works = read(output / "catalog/works.json")["works"]
-    selected = {w["work"]: w for w in works if w["publication"] == "public"}
-    for work in allowed:
-        require(work in selected, f"allow-listed work is absent or out of scope: {work}")
-    planned = plan_repositories(mapping, allowed, selected, config.get("repository_naming", "slug"))
+    selected, eligible = select_works(config, allowed, works)
+    planned = plan_repositories(mapping, eligible, selected, config.get("repository_naming", "slug"))
     write(stage / "planned-repositories.json", planned)
     aliases = config.get("repository_aliases", {})
     collection.validate_aliases(planned, aliases)
-    material_downloads(planned, stage / "materials", aliases, source / "materials")
+    material_downloads({w: r for w, r in planned.items() if w in selected}, stage / "materials", aliases, source / "materials",
+                       {w: row["current_version"] for w, row in selected.items()})
     args[-1] = stage / "planned-repositories.json"
     run(*args, "--materials", stage / "materials")
     run(binary, "check", "--output", output)
@@ -308,18 +323,24 @@ def prepare(binary, source, stage):
     require(all(formalization_managed(p) for p in tree_files(output / "formalization")), "unmanaged formalization output")
     book_works = config.get("book_works", [])
     require(isinstance(book_works, list) and all(isinstance(w, str) for w in book_works), "book_works must be a list of work ids")
-    collected = sorted(set(planned) - set(book_works)) if publication == "collection" else []
+    collected = sorted(set(planned) & set(selected) - set(book_works)) if publication == "collection" else []
     write(stage / "plan.json", {"original_mapping": mapping, "mapping": planned, "new_works": sorted(set(planned) - set(mapping)), "collection_works": collected, "allow_list": allowed, "config": config})
     # Archive an already public paper directly. Exposition and proof jobs do not
     # gate collection; only the selected public version and frozen files do.
+    accepted = {w["record"]: w for w in read(snapshot / "raw/papers.json") if w.get("archive_consent") is True and w.get("archive")}
+    details = dict(accepted)
     for work in collected:
         row = selected[work]
-        url = config["api_base"].rstrip("/") + "/api/v1/collected-papers/" + urllib.parse.quote(work, safe="") + "?version=" + str(row["current_version"])
-        request = urllib.request.Request(url, headers={"User-Agent": "mathesis-papers-publisher", "Accept": "application/json"})
-        with urllib.request.build_opener(NoRedirect()).open(request, timeout=30) as response:
-            raw = response.read(8 * 1024 * 1024 + 1)
-            require(len(raw) <= 8 * 1024 * 1024, "public paper detail exceeds 8 MiB")
-            detail = json.loads(raw)
+        if work in accepted:
+            detail = accepted[work]
+        else:
+            url = config["api_base"].rstrip("/") + "/api/v1/collected-papers/" + urllib.parse.quote(work, safe="") + "?version=" + str(row["current_version"])
+            request = urllib.request.Request(url, headers={"User-Agent": "mathesis-papers-publisher", "Accept": "application/json"})
+            with urllib.request.build_opener(NoRedirect()).open(request, timeout=30) as response:
+                raw = response.read(8 * 1024 * 1024 + 1)
+                require(len(raw) <= 8 * 1024 * 1024, "public paper detail exceeds 8 MiB")
+                detail = json.loads(raw)
+        details[work] = detail
         collection.prepare(output / "papers" / planned[work], detail, stage / "papers" / planned[work], config["api_base"])
     collection.redirects(output / "site", planned, aliases, output / "papers")
     # Pin a template snapshot and prepare every fill/check locally before the first write.
@@ -340,17 +361,24 @@ def prepare(binary, source, stage):
         with tarfile.open(fileobj=io.BytesIO(archive)) as tar:
             tar.extractall(dest, filter="data")
         row = selected[work]
+        # The pinned legacy book template accepts source files under manuscript/.
+        # Adapt downstream without changing either the SDK output or the template.
+        legacy = collection.legacy_book_projection(output / "papers" / repo, stage / "book-input" / repo)
         # Reuse the exact recorded title explicitly, pending a reviewed Chinese translation.
         run(sys.executable, dest / "docs/layer-mathesis/scripts/paper.py", "--root", dest, "fill",
-            "--input", output / "papers" / repo, "--slug", repo, "--title-zh", row["title"], "--title-en", row["title"], "--repository", ORG + "/" + repo)
+            "--input", legacy, "--slug", work, "--title-zh", row["title"], "--title-en", row["title"], "--repository", ORG + "/" + repo)
+        # The combined template requires a registry even for an empty viz area.
+        write(dest / "books" / work / "viz/visualizations.json", {"version": 1, "visualizations": []})
         run(sys.executable, dest / "docs/layer-mathesis/scripts/paper.py", "--root", dest, "check")
         run("./tbook", "check", "--offline", cwd=dest)
+    factory.render(output, planned, details, set(planned) & set(selected) - set(collected))
     # Seal staged bytes, including plan and checklist. Apply rechecks before any mutation.
     write(stage / "seal.json", seal_files(stage))
     print("Prepared and checked; no authenticated requests or remote writes.")
 
 
 def apply(api, source, stage):
+    api.receipts.clear()
     seal = read(stage / "seal.json")
     actual = seal_files(stage)
     require(actual == seal, "staged publisher bytes changed after validation")
@@ -397,6 +425,7 @@ def apply(api, source, stage):
                     raise
                 time.sleep(min(2 ** attempt, 8))
         entries = state[3]
+        api.receipts[repo] = {"before": state[1], "after": state[1], "changed_paths": 0}
         if "paper.json" in entries:
             remote = json.loads(api.blob(repo, entries["paper.json"]))["work"]
             require(remote["work"] == work and remote["repository_name"] in [repo, *aliases.get(work, [])], "existing paper belongs to a different work")
@@ -448,6 +477,7 @@ def apply(api, source, stage):
     site_files = tree_files(output / "site")
     api.sync("mathesis-papers.github.io", site_files, lambda p: p in {"index.html", "404.html", "CNAME", ".nojekyll", "materials-index.json"} or p.startswith("doi/") or p.split("/", 1)[0] in {a for names in aliases.values() for a in names}, "Refresh Mathesis paper site", states["mathesis-papers.github.io"])
     catalog_files = tree_files(output / "catalog")
+    catalog_files.update(tree_files(stage / "factory"))
     api.sync("catalog", catalog_files, lambda p: p in CATALOG_FILES or p.startswith("materials/"), "Refresh Mathesis catalog and repository mapping", states["catalog"])
 
 
@@ -457,12 +487,21 @@ def main():
     parser.add_argument("--source", type=Path, default=Path.cwd())
     parser.add_argument("--stage", type=Path, required=True)
     parser.add_argument("--catalog-binary", type=Path)
+    parser.add_argument("--report", type=Path)
     args = parser.parse_args()
     if args.command == "prepare":
         require(args.catalog_binary is not None, "prepare needs --catalog-binary")
         prepare(args.catalog_binary.resolve(), args.source.resolve(), args.stage.resolve())
     else:
-        apply(API(os.environ["PUBLISHER_TOKEN"]), args.source.resolve(), args.stage.resolve())
+        report = (args.report or args.stage.with_name(args.stage.name + "-apply.json")).resolve()
+        require(not report.is_relative_to(args.stage.resolve()), "apply report must be outside sealed stage")
+        api = API(os.environ["PUBLISHER_TOKEN"])
+        completed = False
+        try:
+            apply(api, args.source.resolve(), args.stage.resolve())
+            completed = True
+        finally:
+            write(report, {"schema": "mathesis.paper-factory-publication.v1", "completed": completed, "repositories": api.receipts})
 
 
 if __name__ == "__main__":

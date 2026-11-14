@@ -1,6 +1,6 @@
 # Catalog publisher
 
-The workflow runs daily at **03:23 UTC** and manually with `workflow_dispatch`.
+The workflow runs hourly at **minute 23 UTC** and manually with `workflow_dispatch`.
 A manual `dry_run=true` performs staging without minting an App token or writing
 GitHub. Runs execute only on the default branch. Organization-wide concurrency
 `mathesis-papers-publisher`, with cancellation disabled, prevents overlap.
@@ -29,19 +29,26 @@ binary and tests the publisher against a local fake API. `prepare` then:
 
 1. Snapshots all anonymous public Mathesis pages, fetches frozen bytes, renders
    and checks the catalog.
-2. Combines durable `repositories.json` with eligible work ids explicitly listed
-   in `publish.json`. The reviewed allow-list contains the 39 public collected works.
-   Existing durable mappings are reused without renaming repositories.
+2. Applies the reviewed `publication_selection` policy. `all_eligible` automatically
+   includes every current eligible public archive paper, both collected works and
+   accepted author papers with exact published-version archive consent. The 39-work
+   `publish.json` baseline remains a presence/scope check. Default `allow_list` is
+   still supported. Durable mappings are reused without renaming repositories.
 3. Fetches mapped repository manifests anonymously from
    `https://papers.trureturing.org/<repo>/mathesis-materials.json`. A 404 means
-   no materials yet. Other HTTP, malformed, identity or version errors abort.
+   no materials yet. An older manifest is ignored for the new version; its reading
+   is never borrowed. Future versions, malformed data, wrong identity and other
+   non-migration HTTP failures abort.
 4. Renders and checks again with the proposed mapping and local manifests.
 5. Checks out the exact combined template commit, imports its checked-in
    preparation checklist, and fills every new paper offline with `paper.py fill`.
    The recorded title is explicitly reused for both edition headings, pending a
    reviewed translation; no translation or reading text is generated. Runs
-   `paper.py check` and `./tbook check --offline` on each skeleton.
-6. Seals all planned publishing bytes and file modes. A failed stage writes
+   `paper.py check` and `./tbook check --offline` on each skeleton. The downstream
+   legacy-book adapter retains original source bytes inside `manuscript/` and
+   writes the required empty visualization registry; the pinned template is unchanged.
+6. Writes `factory.json` and `FACTORY.md` beside the checked SDK output, then seals
+   all planned publishing bytes and file modes. A failed stage writes
    nothing remotely and does not edit publisher control files.
 
 `apply` verifies the seal, control files and shared repository heads, including
@@ -106,31 +113,27 @@ MATHESIS_TEST_PAPER=/absolute/path/to/selected-paper \
 The fixture contains no statement/proof rows and is explicitly a publisher
 transport/conversion test, not a substitute research snapshot.
 
-## Dispatcher order
+## Publication receipts and readback
 
-1. Review and push the upstream optional site-hook branch, including its film
-   sandbox root correction, then integrate it upstream or retain its reviewed
-   change in the combined template. The correction changes only the test
-   fixture; production hook behavior is unchanged.
-2. Review and push Mathesis layer 0.3.1; push the combined template branch with
-   the hook, the fixture correction, the layer and the preexisting compatibility
-   work intact. The pinned template includes the guarded post-build bootstrap,
-   so new repositories can run the inherited fixture tests successfully.
-3. Push the Mathesis catalog SDK commit. If the dispatcher squashes or rebases,
-   update `publisher.json` to the actual remotely reachable SDK/template SHAs.
-4. Review and push the updated Chen–Chen consumer. Its layer migration configures
-   the root redirect; its Pages build publishes the new materials manifest.
-5. Review and push this catalog publisher branch and merge through the normal
-   review process. `publish.json` and `repositories.json` must remain reviewed
-   control files; do not copy all prospective repository names from `works.json`.
-6. Grant Issues write and install the App on all org repositories. Confirm the
-   org site's current Pages source is its default branch root and preserve its
-   custom-domain configuration. Run a manual dry run, then a publishing run.
+The publisher writes per-repository before/after commits and changed-path counts
+to an apply receipt outside the sealed stage, including partial failures. The
+workflow then anonymously checks each public paper landing, exact-version material
+manifest, existing reading pages, PDF and original source hash. Bounded retries
+allow Pages deployments to finish. Authored books retain their existing frozen
+projection; their PDF and explicit address aliases are checked without replacing
+human-authored content or requiring newly generated source files.
 
-No push, PR, repository creation, App installation or authenticated request was
-performed in the local preparation. GitHub App installation access, branch
-protection compatibility, real token issuance, repository generation and Pages
-publication remain dispatcher checks.
+The checked inventory, seal, plan, publication receipts and live check report are
+retained as workflow artifacts for 30 days. `factory.json` and `FACTORY.md` are
+also published in this repository for maintenance: they distinguish missing DOI,
+bilingual reading, missing exact targets, open proof targets and actual public
+receipts. Repository publication itself confers no mathematical proof or credit.
+
+An unchanged paper has the same content-based generation identity even when the
+overall snapshot time changes, so it produces no paper commit or Pages rebuild.
+Catalog/profile snapshot dates still advance. Recover failed runs using the same
+workflow; no force pushes or manual recreation are needed. A human edit to a
+managed file requires review rather than being overwritten.
 
 ## Formalization content projection
 
@@ -169,8 +172,9 @@ or private formalization repositories failing before any write.
 ## Independent collection of the existing corpus
 
 `paper_publication: "collection"` in `publisher.json` publishes already public,
-CC-BY-4.0 collected papers directly. `publish.json` explicitly authorizes the
-39 currently collected works. `book_works` preserves the existing Chen–Chen
+CC-BY-4.0 collected papers and exactly consented accepted author papers directly.
+The automatic eligibility policy extends the reviewed 39-work baseline to newly
+arriving public archive papers. `book_works` preserves the existing Chen–Chen
 reading project; its authored content and publication workflow remain intact.
 New collection repositories still originate from `paper-template`, but their
 first publisher commit contains only the frozen paper projection, public
