@@ -54,6 +54,8 @@ pending. Never advertise files that have not actually been built.
 
 `local_checks_passed` records actual local checks, not publication, whole-paper
 Lean coverage, independent verification, visual approval or leaderboard credit.
+The host binds those outputs to a source inventory as well as render hashes;
+changed sources need a rebuild of the existing products, without a model rerun.
 Inspect the rendered contact sheets and mathematical scope before publication.
 An operational failure does not reject a paper or make its mathematics open.
 Worker output paths and request URLs are machine fields, not Markdown prose.
@@ -71,3 +73,26 @@ Keep authored source commits and unique evidence before cleaning reproducible
 build/stage caches. Do not remove a shared dependency or a live job's output.
 The current harness has no automatic GitHub-to-platform receipt/credit bridge;
 canonical request links preserve coordination but do not implement that bridge.
+
+## Local collection-to-book migration
+
+After inspecting and committing one paper's sources, prepare its migration with:
+
+```sh
+python3 scripts/promote_content.py --run /path/to/checked-attempt \
+  --output /outside/paper-repos/promotion
+```
+
+The command creates a local branch based on the original collection commit. It
+preserves every `versions/vN/` byte and original author/DOI identity, replaces
+only collection-owned files, and refuses conflicts with unrelated human work.
+Checked render hashes must still match. The original source checkout is never
+edited. The Mathesis layer must support the generated collection-history record
+before the migrated repository passes its layout and site checks.
+
+`promotion.json` and `publisher-proposal.json` stay outside the paper checkout.
+The latter adds the work to `book_works`; publication must coordinate that
+publisher control change so a scheduled collection refresh cannot overwrite
+authored content. This command does not edit controls, commit the new branch,
+push, trigger Pages, reserve/deposit a DOI or grant proof credit. Revalidate the
+migrated checkout and preserved version URLs before publication.

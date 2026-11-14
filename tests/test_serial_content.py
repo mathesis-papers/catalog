@@ -3,6 +3,7 @@ import importlib.util
 import json
 from pathlib import Path
 import tempfile
+import subprocess
 import unittest
 from unittest.mock import patch
 
@@ -96,6 +97,24 @@ class SerialContent(unittest.TestCase):
             runner.validate_cohort({"schema": "mathesis.serial-cohort.v1", "papers": [paper, paper]})
         with self.assertRaises(ValueError):
             runner.validate_cohort({"schema": "mathesis.serial-cohort.v1", "papers": [dict(paper, repository="other/repo")]})
+
+    def test_source_binding_detects_changes_but_ignores_build_caches(self):
+        subprocess.run(["git", "init", "-q", str(self.root)], check=True)
+        (self.root / ".gitignore").write_text("build/\n")
+        before = runner.source_inventory(self.root)
+        (self.root / "build").mkdir()
+        (self.root / "build/render.pdf").write_bytes(b"a rendering")
+        self.assertEqual(runner.source_inventory(self.root), before)
+        (self.root / "story.md").write_text("A new, unbuilt explanation")
+        self.assertNotEqual(runner.source_inventory(self.root), before)
+
+    def test_source_binding_hashes_the_symlink_itself_and_executable_mode(self):
+        subprocess.run(["git", "init", "-q", str(self.root)], check=True)
+        (self.root / "shared-skill").symlink_to("story.md")
+        before = runner.source_inventory(self.root)
+        self.assertEqual(before["shared-skill"]["mode"], "120000")
+        (self.root / "story.md").chmod(0o755)
+        self.assertNotEqual(runner.source_inventory(self.root), before)
 
 
 if __name__ == "__main__":
