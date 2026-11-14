@@ -313,6 +313,10 @@ def validate_run(repo, run, build=False):
         films = list((repo / "books" / mapping["book"] / "films").glob("*/film.json"))
         if films:
             env["TBOOK_FILMS"] = "require"
+            env["FILM_WORKERS"] = "1"
+            env["OMP_NUM_THREADS"] = "1"
+            env["OPENBLAS_NUM_THREADS"] = "1"
+            env["VECLIB_MAXIMUM_THREADS"] = "1"
             checks.append(["./tbook", "build", "films", "--book", mapping["book"]])
         for target in ("html", "pdf", "slides"):
             checks.append(["./tbook", "build", target, "--book", mapping["book"]])
@@ -349,7 +353,7 @@ def validate_run(repo, run, build=False):
 def preview_index(workspace, cohort):
     preview = workspace / "preview"
     preview.mkdir(exist_ok=True)
-    rows, ready = [], 0
+    rows, ready, videos_ready = [], 0, 0
     for paper in cohort["papers"]:
         checkpoints = sorted((workspace / "runs" / paper["id"]).glob("*/checkpoint.json"), key=lambda p: p.stat().st_mtime)
         checked = [p for p in checkpoints if read(p).get("state") == "local_checks_passed"]
@@ -369,10 +373,14 @@ def preview_index(workspace, cohort):
                 url = slide.get("pdf_url")
                 if url:
                     links.append(f'<a href="/{html.escape(name)}/{html.escape(url.removeprefix(prefix))}">Slides ({html.escape(slide.get("language", slide.get("lang", "")))})</a>')
+            for video in material.get("videos", []):
+                links.append(f'<a href="/{html.escape(name)}/{html.escape(video["url"].removeprefix(prefix))}">Narrated video</a>')
+            if material.get("videos"):
+                videos_ready += 1
             ready += 1
-        status = "Local checks passed" if checked else read(checkpoints[-1]).get("state", "Pending") if checkpoints else "Pending"
+        status = ("Story and slides checked · " + ("video checked" if material.get("videos") else "video pending")) if checked else read(checkpoints[-1]).get("state", "Pending") if checkpoints else "Pending"
         rows.append(f'<li><h2>{html.escape(paper["title"])}</h2><p>Version {html.escape(str(paper["version"]))} · {html.escape(status)}</p><nav>{" · ".join(links)}</nav></li>')
-    (preview / "index.html").write_text('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mathesis local paper previews</title><style>body{max-width:70rem;margin:3rem auto;padding:0 2rem;font:18px/1.65 Georgia,serif;color:#172622;background:#fafaf7}h1{font-weight:500}h2{font-size:1.15rem;font-weight:500;margin:0}li{margin:2rem 0}ul{list-style:none;padding:0}p{margin:.3rem 0}a{color:#225f49}nav{display:flex;gap:1rem;flex-wrap:wrap}</style><h1>Mathesis local paper previews</h1><p>' + str(ready) + ' of ' + str(len(cohort["papers"])) + ' papers passed local content checks. These previews are not production publication or independent proof receipts.</p><ul>' + ''.join(rows) + '</ul></html>')
+    (preview / "index.html").write_text('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mathesis local paper previews</title><style>body{max-width:70rem;margin:3rem auto;padding:0 2rem;font:18px/1.65 Georgia,serif;color:#172622;background:#fafaf7}h1{font-weight:500}h2{font-size:1.15rem;font-weight:500;margin:0}li{margin:2rem 0}ul{list-style:none;padding:0}p{margin:.3rem 0}a{color:#225f49}nav{display:flex;gap:1rem;flex-wrap:wrap}</style><h1>Mathesis local paper previews</h1><p>' + str(ready) + ' of ' + str(len(cohort["papers"])) + ' papers have locally checked stories and slides; ' + str(videos_ready) + ' have a checked narrated video. Interaction is optional. These previews are not production publication or independent proof receipts.</p><ul>' + ''.join(rows) + '</ul></html>')
     return preview
 
 
