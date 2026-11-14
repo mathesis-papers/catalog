@@ -381,6 +381,7 @@ def main():
     p.add_argument("--allow-request-registration", action="store_true")
     p.add_argument("--model", help="explicit operator-selected model; omitted uses local Codex default")
     p.add_argument("--run", type=Path, help="existing run to check without another model call")
+    p.add_argument("--rebuild", action="store_true", help="with check, rebuild existing sources and rerun fixed QA without a model")
     a = p.parse_args()
     workspace = a.workspace.resolve()
     cohort = read(workspace / "cohort.json")
@@ -393,7 +394,7 @@ def main():
             p.error("check requires --run")
         with exclusive(workspace):
             envelope = read(a.run / "envelope.json")
-            state = validate_run(Path(envelope["repository_path"]), a.run)
+            state = validate_run(Path(envelope["repository_path"]), a.run, build=a.rebuild)
             write(a.run / "checkpoint.json", state)
             print(state["state"])
         return

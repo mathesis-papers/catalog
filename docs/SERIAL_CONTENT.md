@@ -69,6 +69,10 @@ restarts it. After repairing a report or output, recheck without a model:
 python3 scripts/serial_content.py check --workspace /path/to/run --run /path/to/existing-attempt
 ```
 
+Add `--rebuild` after a source/template repair, or to bind an earlier checkpoint
+to the new source inventory. It renders existing sources and runs fixed QA;
+it never starts another content worker. Omit it to check unchanged products.
+
 Keep authored source commits and unique evidence before cleaning reproducible
 build/stage caches. Do not remove a shared dependency or a live job's output.
 The current harness has no automatic GitHub-to-platform receipt/credit bridge;
