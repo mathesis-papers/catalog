@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-14T08:29:26.828586366Z`.
+Snapshot: `2026-11-14T09:28:18.332583519Z`.
 
 | Paper | Version | DOI | Reading | Formalization |
 |---|---:|---|---|---|
@@ -34,6 +34,7 @@ Snapshot: `2026-11-14T08:29:26.828586366Z`.
 | [Zero-mode corrections and closed bubble counts in Mukherjee et al. (2021, Sec. III, p. 7, third paragraph): extending Hoshino (2007) and Brown–Hoshino (2008)](https://github.com/mathesis-papers/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy) | 3 | Awaiting DOI | Awaiting reading | 9 no target yet |
 | [Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)](https://github.com/mathesis-papers/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation) | 3 | Awaiting DOI | Awaiting reading | 10 no target yet |
 | [Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011](https://github.com/mathesis-papers/10.5281-zenodo.23957583) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957584) | en, zh | 11 no target yet |
+| [Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28](https://github.com/mathesis-papers/oeis-a208509-affine-polynomial-pair-binomial-coefficients) | 2 | Awaiting DOI | Awaiting reading | 11 no target yet |
 | [OEIS A378495, FORMULA (revision #70): refutation and correction](https://github.com/mathesis-papers/10.5281-zenodo.23903308) | 3 | [DOI](https://doi.org/10.5281/zenodo.23903309) | en, zh | 2 no target yet |
 | [Resolving the Hermite coefficient conjectures in OEIS A381423, Comments (revision 8)](https://github.com/mathesis-papers/10.5281-zenodo.23957585) | 3 | [DOI](https://doi.org/10.5281/zenodo.23957586) | en, zh | 5 no target yet |
 | [OEIS A391810: formula (5), COMMENTS (C.1)--(C.10), and prime-index vanishing](https://github.com/mathesis-papers/10.5281-zenodo.23885968) | 4 | [DOI](https://doi.org/10.5281/zenodo.23885969) | en, zh | 8 no target yet |

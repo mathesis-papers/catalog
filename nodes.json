@@ -7204,6 +7204,435 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S1/Recurrence/Invariants/AffinePolynomialPairBinomialCoefficients.lean"
+      },
+      "lineage": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:s1",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq1$ and $k\\geq0$,\n\\begin{align}\n\\coeff{k}{v_n}&=\\binom{n-1}{2k+1}+\\binom n{2k+1},\\\\\n\\coeff{k}{u_n}&=\\binom{n-1}{2k}+\\binom n{2k}-\\mathbf1_{k=0}.\n\n\\end{align}\nThese identities include every coefficient beyond the degrees of the\npolynomials. In particular,\n$\\deg v_n=\\lfloor(n-1)/2\\rfloor$ and $\\deg u_n=\\lfloor n/2\\rfloor$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:2:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S1/Recurrence/Invariants/AffinePolynomialPairBinomialCoefficients.lean"
+      },
+      "lineage": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:s10",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "scope": "in_scope",
+      "statement": "For $n\\geq1$, the least $k$ for which subsets $A,B$ of\n$\\{0,\\ldots,n^2-1\\}$ satisfy $|A|=|B|=k$ and\n$\\{0,\\ldots,n^2-1\\}\\subseteq A+B$ is $n$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s11",
+      "contributor": null,
+      "identity": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:2:s11",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S1/Recurrence/Invariants/AffinePolynomialPairBinomialCoefficients.lean"
+      },
+      "lineage": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:s11",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "scope": "in_scope",
+      "statement": "Over any commutative ring $R$, let $t,p,q,c\\in R$ and let\n$u_1=p$, $v_1=q$, $u_{n+1}=u_n+tv_n$,\n$v_{n+1}=u_n+v_n+c$. Then, with $m=n-1$,\n\\[\nu_n=E_m(t)(p+c)+tO_m(t)q-c,\\qquad\nv_n=O_m(t)(p+c)+E_m(t)q.\n\\]",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S1/Recurrence/Invariants/AffinePolynomialPairBinomialCoefficients.lean"
+      },
+      "lineage": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:s2",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "scope": "in_scope",
+      "statement": "Let $P_0(x)=1$, $P_1(x)=3+x$ and\n$P_m=(x+2)P_{m-1}-P_{m-2}$ for $m\\geq2$. Then\n\\[\n[x^k]P_m=b_{m+k+1,k}\n=\\binom{m+k}{2k}+2\\binom{m+k}{2k+1}\\quad(0\\leq k\\leq m).\n\\]\nThese are Andr\\'e-Jeannin's $r=2$ coefficient theorem (1994,\nequation~(9)) and the array A111125 \\cite{andre,related-arrays}.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S1/Recurrence/Invariants/AffinePolynomialPairBinomialCoefficients.lean"
+      },
+      "lineage": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:s3",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "scope": "in_scope",
+      "statement": "With $P_m$ as above and $z$ invertible,\n\\[\nz^{2m+1}-z^{-(2m+1)}=(z-z^{-1})P_m((z-z^{-1})^2).\n\\]\nConsequently, with the usual Fibonacci numbers $F_n$ and Lucas numbers $L_n$,\n\\[\nP_m(1)=L_{2m+1},\\qquad\nF_{(2m+1)n}=\\sum_{k=0}^m[x^k]P_m(x)\\,\n(-1)^{(m+k)n}5^kF_n^{2k+1}\\quad(n\\geq0).\n\\]\nThe values $P_m(-1)$ repeat $1,2,1,-1,-2,-1$. For $m\\geq1$,\n\\[\nP_m(x)=\\prod_{j=1}^m\\left(x+4\\sin^2\\frac{j\\pi}{2m+1}\\right).\n\\]\nThese are established Morgan--Voyce and A111125 identities\n\\cite{andre,related-arrays}.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S1/Recurrence/Invariants/AffinePolynomialPairBinomialCoefficients.lean"
+      },
+      "lineage": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:s4",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "scope": "in_scope",
+      "statement": "In the ring $\\mathbb Z[x][[z]]$,\n\\begin{equation}\nF(z,x):=\\sum_{n\\geq1}v_n(x)z^{n-1}\n=\\frac{1+z}{1-2z+(1-x)z^2}.\n\\end{equation}\nFor every $k\\geq0$,\n\\begin{equation}\n\\sum_{n\\geq1}(\\coeff{k}{v_n})z^{n-1}\n=\\frac{z^{2k}(1+z)}{(1-z)^{2k+2}}.\n\\end{equation}\nFor $k\\geq1$, the companion column generating function is\n\\begin{equation}\n\\sum_{n\\geq1}(\\coeff{k}{u_n})z^{n-1}\n=\\frac{z^{2k-1}(1+z)}{(1-z)^{2k+1}},\n\\end{equation}\nand the constant column of $u_n$ has generating function $1/(1-z)$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S1/Recurrence/Invariants/AffinePolynomialPairBinomialCoefficients.lean"
+      },
+      "lineage": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:s5",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "scope": "in_scope",
+      "statement": "For $n\\geq2$,\n\\begin{equation}\nv_n(1)=3\\cdot2^{n-2},\\qquad u_n(1)=3\\cdot2^{n-2}-1,\n\\end{equation}\nwhereas $v_1(1)=u_1(1)=1$. If $w_n=v_n(-1)$, then\n\\begin{equation}\n\\sum_{n\\geq1}w_nz^{n-1}=\\frac{1+z}{1-2z+2z^2},\\quad\nw_{n+2}=2w_{n+1}-2w_n,\\quad w_1=1,\\ w_2=3.\n\\end{equation}\nThe cross-reference ``Row sums, $v(n,1)$: A003948'' in A208509 is false:\nthe correct row sums are A003945 at index $n-1$, beginning $1,3,6,12,24$,\nnot $1,6,30,150,750$ \\cite{a003945}.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S1/Recurrence/Invariants/AffinePolynomialPairBinomialCoefficients.lean"
+      },
+      "lineage": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:s6",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "scope": "in_scope",
+      "statement": "For $d\\geq2$ and $m\\geq0$,\n\\begin{align}\nh_d(m)&=\\binom{m+d-1}{d-1}+\\binom{m+d-2}{d-1}\\\\\n&=2\\binom{m+d-1}{d-1}-\\binom{m+d-2}{d-2}\n=\\frac{2m+d-1}{d-1}\\binom{m+d-2}{d-2}.\\nonumber\n\\end{align}\nMoreover $h_{d+1}(m)=\\sum_{j=0}^m h_d(j)$ and\n\\[\nh_d(m)=\\sum_{j=1}^d(-1)^{j+1}\\binom dj h_d(m-j)\\qquad(m\\geq d).\n\\]\nAs a polynomial in $m$, $h_d$ has degree $d-1$, leading coefficient\n$2/(d-1)!$, and symmetry $h_d(-m-d+1)=(-1)^{d-1}h_d(m)$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S1/Recurrence/Invariants/AffinePolynomialPairBinomialCoefficients.lean"
+      },
+      "lineage": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:s7",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "scope": "in_scope",
+      "statement": "For $n\\geq1$ and $d\\geq2$,\n\\[\n\\sum_{j=0}^n(-1)^j h_d(j)\n\\frac{n(n-1)\\cdots(n-j+1)}{(n+d)(n+d+1)\\cdots(n+d+j-1)}=0,\n\\]\nwhere an empty product is $1$. This is Bala's terminating identity (2019)\nin A005585, A040977, A050486 and A053347 \\cite{columns}.\nIf $p>d-1$ is prime and $e\\geq1$, then $p^e\\mid h_d(m)$ whenever\n$m+j\\equiv0\\pmod{p^e}$ for some $1\\leq j\\leq d-2$, or\n$2m+d-1\\equiv0\\pmod{p^e}$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S1/Recurrence/Invariants/AffinePolynomialPairBinomialCoefficients.lean"
+      },
+      "lineage": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:s8",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "scope": "in_scope",
+      "statement": "Let $d\\geq4$ and $m\\geq0$.\n\\begin{enumerate}\n\\item In a set $X$ of size $m+d$, take disjoint subsets $Y,Z$ of sizes\n$2$ and $m+d-3$. The number of $d$-subsets meeting both is $h_d(m)$.\n\\item The number of placements of $d-2$ queens on an\n$(m+d-2)\\times(m+d-2)$ board in distinct rows and columns, with every pair\nattacking diagonally, is $2h_d(m)$.\n\\item For the Chebyshev polynomials $T_0(t)=1$, $T_1(t)=t$,\n$T_{j+1}(t)=2tT_j(t)-T_{j-1}(t)$, and $r=d-1$,\n\\[\n[t^r]T_{r+2m}(t)=(-1)^m2^{r-1}h_d(m).\n\\]\n\\item The order polytope of a chain of $d-3$ elements below two\nincomparable elements has $h_d(m)$ lattice points in its $m$th dilation.\n\\end{enumerate}",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S1/Recurrence/Invariants/AffinePolynomialPairBinomialCoefficients.lean"
+      },
+      "lineage": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:s9",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Automatic translation needs attention before a proof can be checked.",
+      "proof_basis": null,
+      "proof_state": "needs_attention",
+      "receipt": null,
+      "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "scope": "in_scope",
+      "statement": "Write $a_m=v_{m+1}(-1)$ and define $b_0=2$,\n$a_0=1$, $a_{m+1}=a_m+b_m$, $b_{m+1}=b_m-a_m$.\nThen\n\\[\na_m+ib_m=(1+2i)(1-i)^m,\\qquad a_{m+4}=-4a_m,\\quad b_{m+4}=-4b_m.\n\\]\nIn particular,\n$b_0,\\ldots,b_3=2,1,-2,-6$ and $b_{18}=-512$.\nIf $\\alpha=\\arctan 2$, the continuous polar angle is\n$\\theta_m=\\alpha-m\\pi/4$, and\n\\[\na_m=A B^{\\theta_m}\\cos\\theta_m,\\qquad\nb_m=A B^{\\theta_m}\\sin\\theta_m,\n\\quad A=\\sqrt5\\,16^{\\alpha/(2\\pi)},\\ B=16^{-1/(2\\pi)}.\n\\]\nAlso $u_n(-1)=a_n-a_{n-1}-1$ for $n\\geq1$.",
+      "status": "needs_attention",
+      "target_digest": null,
+      "title": "Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:oeis-a378495-difference-conjectures:3:s1",
       "kind": "paper",
       "label": "Theorem",

@@ -1207,6 +1207,49 @@
       "work": "oeis-a189733-curtz-denominator-conjecture"
     },
     {
+      "abstract_text": "We give an alternative parity decomposition of Knuth's coefficient families (1993, pp. 285-286), proving Knud Werner's conjecture in OEIS A208509, Formula, revision 28: [x^k]v_n=binomial(n-1,2k+1)+binomial(n,2k+1) for n>=1 and k>=0. We identify the Pascal and Morgan-Voyce antecedents, prove the companion formula and all column generating functions, correct the A003948 and A054334 cross-references and two A090131 details, reprove established column interpretations and Blanco Gomez's 2026 solution of Chu's square-covering conjecture, and give an arbitrary-coupling initial-value formula over every commutative ring.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S1/Recurrence/Invariants/AffinePolynomialPairBinomialCoefficients.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "url": "/api/v1/collected-papers/oeis-a208509-affine-polynomial-pair-binomial-coefficients/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-14T08:34:05.914785339Z",
+      "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "repository_name": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "source": {
+        "url": "/api/v1/collected-papers/oeis-a208509-affine-polynomial-pair-binomial-coefficients/files/source?version=2"
+      },
+      "title": "Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-14T08:34:05.914785339Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
       "abstract_text": "We refute the adjacent-column Conjecture and prove the terminal-column Conjecture in the FORMULA section of Peter Kagey's OEIS entry A378495, revision #70 of October 17, 2026. For n>=5 the corrected adjacent difference is n!/[2(n-2)]=abs(A238474(n-3)); at n=4 it is 3. The literal conjecture fails at n=5, where its sides are 20 and 6. The earliest proof found of the row gcd, both differences and the index correction is Lien-Hung Su, DOI 10.5281/zenodo.23445724 v1 (October 18, 2026), Theorem 7.3, Proposition 7.4 and Remark 7.5; Ahaan Kallat gives a later independent proof in arXiv:2610.40342v1 (October 29, 2026), Theorem 4.1. This note gives a self-contained treatment of the differences and their boundary.",
       "authors": [
         {

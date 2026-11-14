@@ -1399,6 +1399,55 @@
       "work": "oeis-a189733-curtz-denominator-conjecture"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 122928,
+          "matches_public": null,
+          "path": "paper.pdf",
+          "public_sha256": null,
+          "sha256": "b277246578a47bf9de229819d5d638b278417a703d46d99a1f8361fb9b0a3ee4"
+        },
+        "source": {
+          "bytes": 146803,
+          "matches_public": null,
+          "path": "source.archive",
+          "public_sha256": null,
+          "sha256": "125c45af0e28903982ab235c7c493c7ea075b504768449a6f0a9ddf3c8c89fbd"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 11,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S1/Recurrence/Invariants/AffinePolynomialPairBinomialCoefficients.lean"
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "site_url": "https://papers.trureturing.org/oeis-a208509-affine-polynomial-pair-binomial-coefficients/",
+      "title": "Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
       "concept_doi": "10.5281/zenodo.23903308",
       "doi": "10.5281/zenodo.23903309",
       "files": {
@@ -2098,8 +2147,8 @@
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
     }
   ],
-  "papers": 42,
+  "papers": 43,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-14T08:29:26.828586366Z"
+  "snapshot_time": "2026-11-14T09:28:18.332583519Z"
 }
