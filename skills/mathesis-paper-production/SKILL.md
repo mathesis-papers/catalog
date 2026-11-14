@@ -21,7 +21,11 @@ the question with a concrete example, define the objects before naming them,
 explain the result and proof mechanism, give significance and exact limitations,
 and credit the original problem and earlier literature. Keep mathematical
 statements faithful. Derive an academic Beamer presentation and speaker notes
-from this same story. Use the installed renderer and theme, not a second site.
+from this same story. Use mathematical mode for formulas in speaker notes as
+in audience slides. Use the installed renderer and theme, not a second site.
+Keep execution, build and deployment bookkeeping in external run reports.
+Reader materials teach the mathematics, its scope and sources; use original
+theorem names and descriptive contribution links instead of internal claim ids.
 
 Decide whether interaction teaches something specific. Record that decision
 and its reason in the external result report. Only build an interactive
@@ -38,6 +42,10 @@ awaiting formalization, genuinely open mathematics and uninspected correspondenc
 are different states. Never infer whole-paper coverage from a Lean link, CI,
 issue closure or a book's completion stage. Do not invent GIDs or receipts.
 Search existing open and closed shared requests before registering a real gap.
+On Mathesis layer 0.6.2 or later, retain an uncovered result's registered
+`formalization_request` (`label` and canonical `url`) in its existing mapping
+row, including for unbadged remarks without a DOI. The written-proof request,
+when present, must agree. An exactly covered row needs no duplicate proof task.
 Follow the installed request contract, preserving paper/version/source location,
 original authors, earlier literature and historical registration markers.
 
