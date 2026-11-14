@@ -21,7 +21,11 @@ the question with a concrete example, define the objects before naming them,
 explain the result and proof mechanism, give significance and exact limitations,
 and credit the original problem and earlier literature. Keep mathematical
 statements faithful. Derive an academic Beamer presentation and speaker notes
-from this same story. Use mathematical mode for formulas in speaker notes as
+from this same story. Prepare one focused narrated video through the installed
+book-film interface: explain the question and mechanism in meaningful scenes,
+with English narration and aligned English/Chinese subtitles. Author the actual
+film sources, not a placeholder registry; the host renders and checks them with
+the shared film toolchain. Use mathematical mode for formulas in speaker notes as
 in audience slides. Use the installed renderer and theme, not a second site.
 Keep execution, build and deployment bookkeeping in external run reports.
 Reader materials teach the mathematics, its scope and sources; use original

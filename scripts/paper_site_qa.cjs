@@ -48,9 +48,40 @@ const chrome = process.env.PW_CHROMIUM_PATH || ['/Applications/Google Chrome.app
         await context.close();
       }
     }
+    const material = JSON.parse(fs.readFileSync(path.join(root, '_site/mathesis-materials.json')));
+    for (const [number, film] of (material.videos || []).entries()) {
+      if (!film.url.startsWith(material.site_url)) throw new Error('film page leaves this paper');
+      const relative = film.url.slice(material.site_url.length);
+      const file = path.resolve(root, '_site', relative, relative.endsWith('/') ? 'index.html' : '');
+      if (!file.startsWith(path.join(root, '_site') + path.sep)) throw new Error('unsafe film page');
+      for (const width of [1440, 390]) {
+        const context = await browser.newContext({ viewport: { width, height: 1000 } });
+        try {
+          const page = await context.newPage(), pageErrors = [];
+          page.on('pageerror', error => pageErrors.push(error.message));
+          await page.goto(pathToFileURL(file).href, { waitUntil: 'load' });
+          const video = page.locator('video').first();
+          await video.evaluate(async element => { element.muted = true; await element.play(); });
+          await page.waitForFunction(() => {
+            const video = document.querySelector('video');
+            return video && video.readyState >= 2 && video.currentTime > 0.1 && !video.paused;
+          });
+          const facts = await video.evaluate(element => {
+            element.pause();
+            return { videoWidth: element.videoWidth, videoHeight: element.videoHeight,
+              duration: element.duration, currentTime: element.currentTime, mediaError: element.error?.message || null };
+          });
+          if (!(facts.videoWidth > 0 && facts.videoHeight > 0 && facts.duration > 0) || facts.mediaError) throw new Error('film did not play');
+          const layout = await page.evaluate(() => ({ bodyWidth: document.body.scrollWidth, viewport: innerWidth }));
+          results.push({ lang: 'en/zh subtitles', theme: 'light', width, chapter: relative,
+            main: true, katexErrors: 0, rawDollars: false, ...layout, ...facts, pageErrors });
+          await page.screenshot({ path: path.join(output, `film-${number + 1}-${width}.png`), fullPage: true });
+        } finally { await context.close(); }
+      }
+    }
   } finally { await browser.close(); }
   const failures = results.filter(r => !r.main || r.katexErrors || r.rawDollars || r.pageErrors.length || r.bodyWidth > r.viewport + 1);
   fs.writeFileSync(path.join(output, 'browser.json'), JSON.stringify({ schema: 'mathesis.paper-browser-check.v1', results, failures }, null, 2) + '\n');
-  console.log(`${results.length} reading configurations; ${failures.length} failures`);
+  console.log(`${results.length} reading/media configurations; ${failures.length} failures`);
   if (failures.length) process.exitCode = 1;
 })().catch(error => { console.error(error); process.exitCode = 1; });

@@ -45,8 +45,10 @@ one paper require inspection instead of selecting a success over newer work.
 Running the cohort again is
 therefore a continuation, not a request to regenerate completed papers.
 
-The supplied compatible toolchain shares ignored `.venv`, `node_modules` and
-the Tectonic resource cache. Put mdBook on the process PATH or set `MDBOOK`;
+The supplied compatible toolchain shares ignored `.venv`, `node_modules`,
+the Tectonic resource cache and an existing `.cache/film` toolchain. Install the
+published film requirements/Kokoro model once in that shared location, with a
+supported Python version, rather than downloading models per paper. Put mdBook on the process PATH or set `MDBOOK`;
 `PW_CHROMIUM_PATH` may select an existing working browser. Check available
 memory, disk and active Lean/Lake executables before heavy work. This runner
 does not rebuild Lean libraries. It refuses to start below 8 GiB free disk.
@@ -61,7 +63,13 @@ preserves earlier public versions and updates `book_works` consistently.
 
 The worker writes content sources and comparison records. The host then runs
 complete layer and language checks, the installed HTML/PDF/Beamer builds, site
-assembly, browser checks, artifact identity checks and PDF rendering. Interactive
+assembly, browser checks, artifact identity checks and PDF rendering. New content
+jobs also author a focused narrated film through the installed book-film
+interface, using the same story and aligned English/Chinese subtitles. The host
+renders registered films with `TBOOK_FILMS=require` before assembling reading
+editions, decodes the actual audiovisual file with ffmpeg, checks that narration
+is present, and extracts video contact sheets for inspection. The model worker
+does not render the full video or install models. Interactive
 visualization is optional: record `not_useful` with a concrete reason when prose
 or static figures teach the result sufficiently. A missing planned video stays
 pending. Never advertise files that have not actually been built.
