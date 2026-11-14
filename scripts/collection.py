@@ -108,24 +108,36 @@ def relocate_materials(value, old, new):
 
 
 def relocate_book(files, old, new):
-    """Change only book address metadata; authored text and evidence stay intact."""
+    """Keep the book's frozen identity and request registrations; move its site."""
     paper = json.loads(files["paper.json"])
     marker = json.loads(files[".mathesis/generated.json"])
     if marker["sha256"]["paper.json"] != hashlib.sha256(files["paper.json"]).hexdigest():
         raise ValueError("book paper metadata edited outside publisher")
-    if paper["work"]["repository_name"] != old:
+    current = paper["work"]["repository_name"]
+    if current not in (old, new):
         raise ValueError("book repository differs")
     config = files["site.toml"].decode()
-    repo_line = f'repo = "mathesis-papers/{old}"'
-    base_line = f'base_url = "https://papers.trureturing.org/{old}/"'
-    if config.count(repo_line) != 1 or config.count(base_line) != 1:
+    repo_line = f'repo = "mathesis-papers/{current}"'
+    bases = [f'base_url = "https://papers.trureturing.org/{name}/"' for name in (old, new)]
+    found = [base for base in bases if config.count(base) == 1]
+    if config.count(repo_line) != 1 or len(found) != 1:
         raise ValueError("book address config differs")
-    config = config.replace(repo_line, f'repo = "mathesis-papers/{new}"').replace(base_line, f'base_url = "https://papers.trureturing.org/{new}/"')
-    paper["work"]["repository_name"] = new
+    # Upstream book/request contracts use the original repository identity as
+    # a stable registration key and book fixture slug. GitHub redirects that
+    # identity to this same repository. Public navigation uses the new base.
+    config = config.replace(repo_line, f'repo = "mathesis-papers/{old}"').replace(found[0], f'base_url = "https://papers.trureturing.org/{new}/"')
+    paper["work"]["repository_name"] = old
     encode = lambda value: (json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2) + "\n").encode()
     encoded = encode(paper)
     marker["sha256"]["paper.json"] = hashlib.sha256(encoded).hexdigest()
-    return {"paper.json": encoded, ".mathesis/generated.json": encode(marker), "site.toml": config.encode()}
+    front_marker = b"\n<!-- Mathesis generated repository guide; refresh with paper.py front. -->\n"
+    prefix, separator, guide = files["README.md"].partition(front_marker)
+    if not separator or marker["sha256"]["README.md"] != hashlib.sha256(prefix).hexdigest():
+        raise ValueError("book README catalog prefix differs")
+    guide = guide.replace(f"https://papers.trureturing.org/{old}/".encode(),
+                          f"https://papers.trureturing.org/{new}/".encode())
+    return {"paper.json": encoded, ".mathesis/generated.json": encode(marker), "site.toml": config.encode(),
+            "README.md": prefix + separator + guide}
 
 
 def redirects(site, mapping, aliases, projections):

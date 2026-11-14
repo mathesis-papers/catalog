@@ -220,8 +220,11 @@ handles other old nested paths through its 404 page. GitHub Pages does not
 provide server redirects on repository rename, so browser redirects are explicit.
 
 Collection updates keep original version snapshots byte-for-byte, even when
-the current address changes. Existing authored books receive only three
-address metadata changes: `site.toml`, `paper.json`, and the corresponding
-integrity hash in `.mathesis/generated.json`. Chapters, figures, slides, proofs,
+the current address changes. Authored books retain their original projection identity and registration
+keys, which GitHub redirects to the same renamed repository. Their public
+`site.base_url` uses the DOI address. Their legacy material identities are
+adapted through the same explicit alias mapping; the existing book contract
+and upstream request registrations remain valid. The generated README navigation
+uses the DOI address while its frozen catalog prefix is preserved. Chapters, figures, slides, proofs,
 Lean evidence, source files and PDFs are preserved. Other user edits remain
 protected by the existing ownership checks.
