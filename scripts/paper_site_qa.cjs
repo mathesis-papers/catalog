@@ -52,14 +52,17 @@ const chrome = process.env.PW_CHROMIUM_PATH || ['/Applications/Google Chrome.app
     for (const [number, film] of (material.videos || []).entries()) {
       if (!film.url.startsWith(material.site_url)) throw new Error('film page leaves this paper');
       const relative = film.url.slice(material.site_url.length);
-      const file = path.resolve(root, '_site', relative, relative.endsWith('/') ? 'index.html' : '');
+      const relativePath = relative.split('#', 1)[0];
+      const file = path.resolve(root, '_site', relativePath, relativePath.endsWith('/') ? 'index.html' : '');
       if (!file.startsWith(path.join(root, '_site') + path.sep)) throw new Error('unsafe film page');
+      const localUrl = pathToFileURL(file);
+      localUrl.hash = new URL(film.url).hash;
       for (const width of [1440, 390]) {
         const context = await browser.newContext({ viewport: { width, height: 1000 } });
         try {
           const page = await context.newPage(), pageErrors = [];
           page.on('pageerror', error => pageErrors.push(error.message));
-          await page.goto(pathToFileURL(file).href, { waitUntil: 'load' });
+          await page.goto(localUrl.href, { waitUntil: 'load' });
           const video = page.locator('video').first();
           await video.evaluate(async element => { element.muted = true; await element.play(); });
           await page.waitForFunction(() => {
