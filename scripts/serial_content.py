@@ -455,7 +455,7 @@ def preview_index(workspace, cohort):
     return preview
 
 
-def run_paper(workspace, paper, template, allow_requests=False, model=None, toolchain=None):
+def run_paper(workspace, paper, template, allow_requests=False, model=None, toolchain=None, source_only=False):
     previous = previous_attempt(workspace, paper)
     if previous is not None:
         state = read(previous / "checkpoint.json")
@@ -486,7 +486,15 @@ def run_paper(workspace, paper, template, allow_requests=False, model=None, tool
     try:
         if code:
             raise RuntimeError("Codex worker failed; inspect the existing transcript")
-        state.update(validate_run(repo, run, build=True))
+        if source_only:
+            result = read(run / "result.json")
+            check_result(result, repo)
+            if result["status"] != "prepared":
+                raise ValueError("author reported unfinished sources; inspect the saved result")
+            state.update(state="sources_prepared", visualization=result["visualization"],
+                         proof_certification="not_performed", publication="not_performed")
+        else:
+            state.update(validate_run(repo, run, build=True))
     except (ValueError, RuntimeError, OSError, KeyError, TypeError, subprocess.CalledProcessError) as exc:
         state["error"] = str(exc)
     write(checkpoint, state)
@@ -525,7 +533,11 @@ def main():
     p.add_argument("--model", help="explicit operator-selected model; omitted uses local Codex default")
     p.add_argument("--run", type=Path, help="existing run to check without another model call")
     p.add_argument("--rebuild", action="store_true", help="with check, rebuild existing sources and rerun fixed QA without a model")
+    p.add_argument("--source-only", action="store_true",
+                   help="with run --paper, stop after authoring for source inspection; then use check --rebuild")
     a = p.parse_args()
+    if a.source_only and (a.action != "run" or a.paper is None):
+        p.error("--source-only requires run --paper so sources are inspected one paper at a time")
     workspace = a.workspace.resolve()
     cohort = read(workspace / "cohort.json")
     validate_cohort(cohort)
@@ -562,8 +574,10 @@ def main():
                         import produce_video
                         state = produce_video.run(workspace, paper, a.template.resolve(), a.toolchain, a.model)
                     else:
-                        state = run_paper(workspace, paper, a.template.resolve(), a.allow_request_registration, a.model, a.toolchain)
-                    if state["state"] != "local_checks_passed":
+                        state = run_paper(workspace, paper, a.template.resolve(), a.allow_request_registration, a.model, a.toolchain,
+                                          source_only=a.source_only)
+                    accepted_states = {"local_checks_passed", "sources_prepared"} if a.source_only else {"local_checks_passed"}
+                    if state["state"] not in accepted_states:
                         raise RuntimeError("paper requires inspection before continuing: " + paper["id"])
                 except (ValueError, RuntimeError, OSError, subprocess.CalledProcessError) as exc:
                     write(workspace / "runs" / paper["id"] / "intake-error.json", {"state": "needs_attention", "error": str(exc), "at": now()})

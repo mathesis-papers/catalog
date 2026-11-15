@@ -143,6 +143,53 @@ class SerialContent(unittest.TestCase):
             runner.run_paper(self.root, {"id": "paper"}, self.root)
         execute.assert_not_called()
 
+    def test_source_inspection_checkpoint_does_not_render_or_claim_validation(self):
+        run = self.root / "run"
+        runner.write(run / "result.json", self.result)
+        (run / "prompt.txt").write_text("Prepare this paper")
+        with patch.object(runner, "prepare", return_value=(self.root, run, {})), \
+                patch.object(runner.subprocess, "run") as author, \
+                patch.object(runner, "validate_run") as render, \
+                patch.object(runner, "preview_index"):
+            author.return_value.returncode = 0
+            runner.write(self.root / "cohort.json", {})
+            state = runner.run_paper(self.root, {"id": "paper"}, self.root, source_only=True)
+        self.assertEqual(author.call_count, 1)
+        render.assert_not_called()
+        self.assertEqual(state["state"], "sources_prepared")
+        self.assertNotIn("source_sha256", state)
+        self.assertFalse((run / "site-sha256.json").exists())
+        self.assertEqual(state["publication"], "not_performed")
+        self.assertEqual(runner.read(run / "checkpoint.json"), state)
+
+    def test_source_inspection_still_rejects_missing_or_unfinished_outputs(self):
+        for result in (dict(self.result, outputs=["missing.md"]), dict(self.result, status="needs_attention")):
+            with self.subTest(result=result):
+                run = self.root / str(len(list(self.root.iterdir())))
+                runner.write(run / "result.json", result)
+                (run / "prompt.txt").write_text("Prepare this paper")
+                runner.write(self.root / "cohort.json", {})
+                with patch.object(runner, "prepare", return_value=(self.root, run, {})), \
+                        patch.object(runner.subprocess, "run") as author, \
+                        patch.object(runner, "validate_run") as render, \
+                        patch.object(runner, "preview_index"):
+                    author.return_value.returncode = 0
+                    state = runner.run_paper(self.root, {"id": "paper"}, self.root, source_only=True)
+                render.assert_not_called()
+                self.assertEqual(state["state"], "needs_attention")
+
+    def test_source_only_cli_requires_a_single_paper_and_accepts_unrendered_sources(self):
+        args = ["serial_content.py", "run", "--workspace", str(self.root), "--template", str(self.root), "--source-only"]
+        with patch.object(sys, "argv", args), self.assertRaises(SystemExit) as error:
+            runner.main()
+        self.assertEqual(error.exception.code, 2)
+        paper = {"id": "paper", "version": 2, "repository": "mathesis-papers/paper"}
+        runner.write(self.root / "cohort.json", {"schema": "mathesis.serial-cohort.v1", "papers": [paper]})
+        with patch.object(sys, "argv", args + ["--paper", "paper"]), \
+                patch.object(runner, "run_paper", return_value={"state": "sources_prepared"}) as author:
+            runner.main()
+        self.assertTrue(author.call_args.kwargs["source_only"])
+
     def test_interrupted_attempt_is_not_blindly_restarted(self):
         run = self.root / "run"
         runner.write(run / "checkpoint.json", {"state": "authoring"})
