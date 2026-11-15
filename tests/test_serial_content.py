@@ -77,6 +77,30 @@ class SerialContent(unittest.TestCase):
                 with runner.exclusive(self.root):
                     self.fail("second lock was acquired")
 
+    def test_shared_tools_stay_untracked_in_checkout_and_worktree(self):
+        source = self.root / "source"
+        subprocess.run(["git", "init", "-b", "main", str(source)], check=True, capture_output=True)
+        (source / ".mathesis").mkdir()
+        (source / ".mathesis/book.json").write_text("{}")
+        subprocess.run(["git", "add", "."], cwd=source, check=True)
+        subprocess.run(["git", "-c", "user.name=Test", "-c", "user.email=test@example.org",
+                        "-c", "commit.gpgsign=false", "commit", "-m", "Fixture"],
+                       cwd=source, check=True, capture_output=True)
+        worktree = self.root / "worktree"
+        subprocess.run(["git", "worktree", "add", "-b", "test", str(worktree)],
+                       cwd=source, check=True, capture_output=True)
+        tools = self.root / "tools"
+        for name in (".venv", "node_modules"):
+            (tools / name).mkdir(parents=True)
+        for checkout in (source, worktree):
+            with self.subTest(checkout=checkout.name):
+                runner.authored_workspace(self.root, {"id": "paper"}, self.root,
+                                          checkout, self.root, tools)
+                self.assertTrue((checkout / ".venv").is_symlink())
+                ignored = runner.command(["git", "check-ignore", ".venv", "node_modules"], checkout)
+                self.assertEqual(set(ignored.splitlines()), {".venv", "node_modules"})
+                self.assertEqual(runner.command(["git", "status", "--porcelain"], checkout), "")
+
     def test_real_film_duration_replaces_estimate_without_changing_other_metadata(self):
         path = self.root / "books/paper/films/001-demo/film.json"
         meta = {"duration": "2:56", "title": "Original title", "lean": ["original.scope"],

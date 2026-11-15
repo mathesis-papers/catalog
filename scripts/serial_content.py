@@ -25,6 +25,7 @@ import tarfile
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import collection
+import discover_paper_doi
 import plan_content
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -127,6 +128,18 @@ def authored_workspace(workspace, paper, template, source, run, toolchain=None):
         subprocess.run(["git", "add", "."], cwd=dest, check=True)
         subprocess.run(["git", "commit", "-m", "Stage frozen paper with published template for local content preview"], cwd=dest, check=True, stdout=subprocess.DEVNULL)
     if toolchain:
+        # Shared local tools are not paper content. Keep them outside the layout
+        # inventory without modifying the template's tracked ignore rules.
+        exclude = Path(command(["git", "rev-parse", "--git-path", "info/exclude"], dest))
+        if not exclude.is_absolute():
+            exclude = dest / exclude
+        existing = exclude.read_text() if exclude.exists() else ""
+        missing = ["/" + name for name in (".venv", "node_modules")
+                   if "/" + name not in existing.splitlines()]
+        if missing:
+            exclude.parent.mkdir(parents=True, exist_ok=True)
+            with exclude.open("a") as stream:
+                stream.write("\n" + "\n".join(missing) + "\n")
         for name in ("node_modules", ".venv"):
             target = toolchain / name
             if not target.is_dir():
@@ -172,10 +185,13 @@ def prepare(workspace, paper, template, allow_requests=False, toolchain=None):
     run.mkdir(parents=True, exist_ok=True)
     source = repo
     repo = authored_workspace(workspace, paper, template, source, run, toolchain)
+    doi_report = discover_paper_doi.discover(repo)
+    write(run / "doi-discovery.json", doi_report)
     envelope = {"schema": "mathesis.paper-production-envelope.v1", "identity": identity,
                 "repository_path": str(repo), "source_repository_path": str(source), "template_path": str(template), "skill_path": str(SKILL),
                 "run_path": str(run), "concurrency": 1,
                 "publication_authorized": False, "do_not_rereview": True,
+                "doi_discovery": str(run / "doi-discovery.json"),
                 "runner_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
     write(run / "envelope.json", envelope)
     write(run / "result-schema.json", RESULT_SCHEMA)
@@ -185,6 +201,11 @@ This is content production, not another referee review. Complete the bilingual s
 Beamer presentation in aligned Chinese and English editions, optional visualization only if mathematically useful, exact statement/Lean
 comparison, DOI audit and canonical shared-request handoff. The output should teach the result
 to a curious high-school student, not simply repeat the abstract.
+Read {run / 'doi-discovery.json'} before writing citations or registering shared requests.
+If its status is verified, use its exact version DOI in the authored citations and request
+metadata even when frozen paper.json has null DOI fields. Keep those frozen fields untouched.
+If unconfirmed, retain that uncertainty and inspect the stated limitation; never assert that
+no DOI is assigned merely because the catalog or a registry lookup did not provide one.
 Also prepare an actual focused narrated film from this same story using the installed book-film
 interface: film.json, aligned English/Chinese script.json and meaningful scenes.js. The host
 has a shared local Kokoro/ffmpeg toolchain and will render your video sources serially. Use the

@@ -4,6 +4,15 @@
 paper worker at a time. The envelope, prompt, result schema and pinned template
 are the executor contract; a CMA adapter should consume those same inputs.
 This command does not call CMA, deposit DOIs, publish repositories or deploy.
+
+Before authoring, the host writes an external `doi-discovery.json` and points
+the envelope and author prompt at it. It searches DataCite even when the frozen
+catalog has null DOI fields. The Zenodo adapter confirms the exact title,
+version, authors, affiliations and licence, then requires both the public PDF
+and source archive to match the frozen SHA-256 hashes. Only a unique match is
+provided as a verified version DOI; the concept DOI remains separate. A registry
+outage, unsupported registry or unmatched candidate stays unconfirmed and never
+becomes a claim that no DOI exists. Frozen publisher records are not rewritten.
 The ordinary catalog publisher remains deterministic and model-free.
 
 Keep the run workspace outside every paper repository. Its `cohort.json` has
