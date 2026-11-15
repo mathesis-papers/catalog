@@ -128,6 +128,18 @@ def authored_workspace(workspace, paper, template, source, run, toolchain=None):
         subprocess.run(["git", "add", "."], cwd=dest, check=True)
         subprocess.run(["git", "commit", "-m", "Stage frozen paper with published template for local content preview"], cwd=dest, check=True, stdout=subprocess.DEVNULL)
     if toolchain:
+        # Shared local tools are not paper content. Keep them outside the layout
+        # inventory without modifying the template's tracked ignore rules.
+        exclude = Path(command(["git", "rev-parse", "--git-path", "info/exclude"], dest))
+        if not exclude.is_absolute():
+            exclude = dest / exclude
+        existing = exclude.read_text() if exclude.exists() else ""
+        missing = ["/" + name for name in (".venv", "node_modules")
+                   if "/" + name not in existing.splitlines()]
+        if missing:
+            exclude.parent.mkdir(parents=True, exist_ok=True)
+            with exclude.open("a") as stream:
+                stream.write("\n" + "\n".join(missing) + "\n")
         for name in ("node_modules", ".venv"):
             target = toolchain / name
             if not target.is_dir():
