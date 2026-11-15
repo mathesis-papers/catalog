@@ -31,7 +31,10 @@ Keep execution, build and deployment bookkeeping in external run reports.
 Reader materials teach the mathematics, its scope and sources; use original
 theorem names and descriptive contribution links instead of internal claim ids.
 Explain formal evidence in mathematical terms: which statement is checked and
-which hypotheses or conclusions remain to formalize. Keep template badge rules,
+which hypotheses or conclusions remain to formalize. Keep raw declaration
+identifiers and repository procedures in source-linked evidence and contribution
+guides. Original section/page locators refer to the manuscript, not the new
+explanation's chapter numbering. Keep template badge rules,
 DOI-based formatting restrictions and comparison-field names out of the story,
 slides and narration; retain them in the external report or comparison record.
 
@@ -66,7 +69,12 @@ Keep the existing DOI and concept/version distinction. Audit the actual public
 record, licence, authors and source identity. An explanation, slides or new repo
 name does not require another DOI for the paper. Never invent, reserve or deposit
 a DOI to satisfy a template check. Missing or mismatched metadata remains an
-explicit unresolved item. An attributed prose result may be explained without
+explicit unresolved item. A null DOI in the catalog does not establish that no
+DOI exists. Search the public registry by the exact title (DataCite for Zenodo),
+then verify the candidate version, authors, licence and both PDF/source hashes.
+Use the version DOI only after that match; record missing catalog fields in an
+external enrichment proposal without rewriting frozen publisher inputs. Keep
+an unmatched candidate unconfirmed. An attributed prose result may be explained without
 falsely using a verification badge. Follow the template's written-proof rules.
 
 Run template and layer checks, build actual bilingual reading and presentation,
