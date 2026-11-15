@@ -31,6 +31,15 @@ flag does not authorize other remote writes. No publication credentials need
 to be passed as task inputs. The GitHub CLI may use the operator's existing
 login for the explicitly authorized request registration.
 
+To inspect narration, attribution and mathematical scope before an expensive
+render, use `run --paper <work-id> --source-only`. This option requires one
+explicit paper. It stops at `sources_prepared` after checking the author's
+result and reported source files; it does not build products or claim local
+validation. Review and edit those saved sources, then run `check --rebuild`
+with the printed run path. This builds them without calling the author again.
+An unfinished report still fails. Ordinary `run` keeps its automatic build,
+and rerunning an unvalidated attempt still requires inspecting that saved run.
+
 The runner first looks for the paper's latest saved attempt, even if the
 template or production skill has since changed its input key. A successful
 attempt reuses its original envelope and rechecks the bound sources and rendered
