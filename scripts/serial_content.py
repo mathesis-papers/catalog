@@ -333,6 +333,10 @@ def validate_run(repo, run, build=False):
         log.write(f"\nOperator checks {now()} · rebuild={build}\n")
         log.flush()
         for args in checks:
+            if film_build and args == film_build:
+                changes = measure_new_film_durations(repo, mapping["book"], films, log, env)
+                if changes:
+                    write(run / "film-duration-preflight.json", changes)
             subprocess.run(args, cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
             if film_build and args == film_build:
                 changes = reconcile_film_durations(repo, mapping["book"], films)
@@ -364,6 +368,32 @@ def validate_run(repo, run, build=False):
     write(run / "source-sha256.json", sources)
     return {"state": "local_checks_passed", "finished_at": now(), "publication": "not_performed",
             "proof_certification": "not_performed", "visualization": result["visualization"], "source_sha256": digest(sources)}
+
+
+def measure_new_film_durations(repo, book, films, log, env):
+    """Measure narration before a new film's first expensive frame render."""
+    changes = []
+    for path in films:
+        meta = read(path)
+        name = meta["outputs"]["narrated_720p"]
+        output = repo / "build/films" / book / path.parent.name / name
+        if Path(name).name != name or output.is_symlink():
+            raise ValueError("unsafe narrated film output")
+        if output.is_file():
+            continue  # Existing builds retain the ordinary cache/probe path.
+        subprocess.run(["theme/film/film.sh", str(path.parent), "tts"], cwd=repo,
+                       stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
+        seconds = float(read(path.parent / "out/timeline.json")["duration"])
+        if not math.isfinite(seconds) or seconds < 1:
+            raise ValueError("invalid measured narration duration")
+        rounded = int(round(seconds))
+        duration = f"{rounded // 60}:{rounded % 60:02d}"
+        if meta.get("duration") != duration:
+            changes.append({"file": str(path.relative_to(repo)), "before": meta.get("duration"),
+                            "after": duration, "narration_seconds": seconds})
+            meta["duration"] = duration
+            write(path, meta)
+    return changes
 
 
 def reconcile_film_durations(repo, book, films, update=True):

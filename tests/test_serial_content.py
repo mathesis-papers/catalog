@@ -1,5 +1,6 @@
 """Serial checkpoints preserve completed work and reject false output reports."""
 import importlib.util
+import io
 import json
 from pathlib import Path
 import tempfile
@@ -95,6 +96,45 @@ class SerialContent(unittest.TestCase):
         for duration in ("nan", "0"):
             with patch.object(runner, "command", return_value=duration), self.assertRaisesRegex(ValueError, "invalid actual"):
                 runner.reconcile_film_durations(self.root, "paper", [path])
+
+    def test_new_film_measures_narration_before_first_render(self):
+        path = self.root / "books/paper/films/001-demo/film.json"
+        meta = {"duration": "2:56", "title": "Original title", "lean": ["original.scope"],
+                "outputs": {"narrated_720p": "demo.mp4"}}
+        runner.write(path, meta)
+        def synthesize(args, **kwargs):
+            self.assertEqual(args, ["theme/film/film.sh", str(path.parent), "tts"])
+            runner.write(path.parent / "out/timeline.json", {"duration": 173.734})
+        with patch.object(runner.subprocess, "run", side_effect=synthesize) as execute:
+            changes = runner.measure_new_film_durations(self.root, "paper", [path], io.StringIO(), {})
+        execute.assert_called_once()
+        self.assertEqual(changes[0]["narration_seconds"], 173.734)
+        self.assertEqual(runner.read(path), dict(meta, duration="2:54"))
+        self.assertFalse((self.root / "build").exists())
+
+    def test_existing_video_skips_narration_preflight_even_with_stale_timeline(self):
+        path = self.root / "books/paper/films/001-demo/film.json"
+        runner.write(path, {"duration": "2:56", "outputs": {"narrated_720p": "demo.mp4"}})
+        runner.write(path.parent / "out/timeline.json", {"duration": 1})
+        output = self.root / "build/films/paper/001-demo/demo.mp4"
+        output.parent.mkdir(parents=True)
+        output.write_bytes(b"existing output; normal build and final probe remain required")
+        with patch.object(runner.subprocess, "run") as execute:
+            self.assertEqual(runner.measure_new_film_durations(self.root, "paper", [path], io.StringIO(), {}), [])
+        execute.assert_not_called()
+        self.assertEqual(runner.read(path)["duration"], "2:56")
+
+    def test_invalid_narration_cannot_replace_declared_duration(self):
+        path = self.root / "books/paper/films/001-demo/film.json"
+        meta = {"duration": "2:56", "outputs": {"narrated_720p": "demo.mp4"}}
+        runner.write(path, meta)
+        for seconds in (float("nan"), 0):
+            with self.subTest(seconds=seconds):
+                def synthesize(*args, **kwargs):
+                    runner.write(path.parent / "out/timeline.json", {"duration": seconds})
+                with patch.object(runner.subprocess, "run", side_effect=synthesize), self.assertRaisesRegex(ValueError, "invalid measured narration"):
+                    runner.measure_new_film_durations(self.root, "paper", [path], io.StringIO(), {})
+                self.assertEqual(runner.read(path), meta)
 
     def test_completed_checkpoint_never_calls_model_again(self):
         run = self.root / "run"

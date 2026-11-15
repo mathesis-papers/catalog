@@ -71,7 +71,13 @@ editions, decodes the actual audiovisual file with ffmpeg, checks that narration
 is present, and extracts video contact sheets for inspection. The model worker
 does not render the full video or install models. The local host uses one film
 renderer at a time and bounds native numerical-library threads; it does not use
-the upstream renderer's default multi-worker setting. The preview index reports
+the upstream renderer's default multi-worker setting. Before a new film's first
+frame render, the host runs the installed `film.sh ... tts` step and fills its
+duration from the measured narration timeline. This avoids rendering the same
+frames again merely to replace an estimated duration. The final MP4 is still
+probed and any actual duration difference goes through the ordinary metadata
+rebuild and verification. Existing video builds keep their normal cache path.
+The preview index reports
 checked story/slide sets and narrated videos separately. Interactive
 visualization is optional: record `not_useful` with a concrete reason when prose
 or static figures teach the result sufficiently. A missing planned video stays
