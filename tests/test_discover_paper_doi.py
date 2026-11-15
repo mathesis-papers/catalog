@@ -5,6 +5,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from urllib.parse import urlsplit
 
 sys.path.insert(0, str(Path(__file__).parents[1] / "scripts"))
 import discover_paper_doi as discovery
@@ -85,7 +86,7 @@ class DiscoverPaperDoi(unittest.TestCase):
     def test_concept_record_is_not_a_version_citation(self):
         self.hits[0]["attributes"]["relatedIdentifiers"] = [{"relationType": "HasVersion"}]
         self.assertEqual(discovery.discover(self.root, self.fetch)["status"], "unconfirmed")
-        self.assertFalse(any("zenodo.org" in url for url in self.urls))
+        self.assertFalse(any(urlsplit(url).hostname == "zenodo.org" for url in self.urls))
 
     def test_unrelated_title_is_not_downloaded(self):
         self.hits[0]["attributes"]["titles"][0]["title"] = "Another paper"
@@ -104,7 +105,7 @@ class DiscoverPaperDoi(unittest.TestCase):
         self.work["doi"] = "10.5281/zenodo.101"
         self.save_paper()
         def unavailable_search(url, limit):
-            if "datacite.org" in url:
+            if urlsplit(url).hostname == "api.datacite.org":
                 raise OSError("search unavailable")
             return self.fetch(url, limit)
         self.assertEqual(discovery.discover(self.root, unavailable_search)["status"], "verified")
@@ -120,7 +121,7 @@ class DiscoverPaperDoi(unittest.TestCase):
         for file in self.record["files"]:
             file["links"] = {"self": "https://unrelated.example/secret"}
         self.assertEqual(discovery.discover(self.root, self.fetch)["status"], "verified")
-        self.assertFalse(any("unrelated.example" in url for url in self.urls))
+        self.assertFalse(any(urlsplit(url).hostname == "unrelated.example" for url in self.urls))
 
 
 if __name__ == "__main__":
