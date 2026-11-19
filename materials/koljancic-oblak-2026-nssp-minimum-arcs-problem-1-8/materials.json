@@ -1,18 +1,52 @@
 {
   "doi": "10.5281/zenodo.23904482",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Lemma 2, Section 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/189"
+    },
+    {
+      "label": "Corollary 4, Section 2; Theorem 3, Section 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/190"
+    },
+    {
+      "label": "Theorem 1, Section 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/191"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23904481/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/10.5281-zenodo.23904481/en/",
-    "zh": "https://papers.trureturing.org/10.5281-zenodo.23904481/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23904481/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23904481/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23904481",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23904481/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23904481/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8/slides/seminar/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23904481/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8/slides/seminar/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23904481/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8/slides/seminar/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23904481/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8/slides/seminar/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8-seminar-zh.pdf"
+    }
+  ],
   "version": 3,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-balanced-flows-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.23904481/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8/films/001-balanced-flows/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.23904481/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8/films/001-balanced-flows/poster.jpg",
+      "title": "Counting arcs through balanced flows",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23904481/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8/films/#001-balanced-flows"
+    }
+  ],
   "visualizations": [],
   "work": "koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8"
 }

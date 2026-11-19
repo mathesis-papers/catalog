@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-19T15:05:20.03663538Z`.
+Snapshot: `2026-11-19T15:26:24.75013606Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -31,8 +31,8 @@ Snapshot: `2026-11-19T15:05:20.03663538Z`.
 | [A negative answer to Kang–Jäger's Question 1.10 on permutative lifts](https://github.com/mathesis-papers/10.5281-zenodo.23885964) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885965) | en, zh | 2 / 1 / 0 | 6 no target yet |
 | [A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras](https://github.com/mathesis-papers/10.5281-zenodo.23957572) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957573) | en, zh | 2 / 1 / 0 | 11 no target yet |
 | [Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)](https://github.com/mathesis-papers/kok-jaco-addition-law-refutation) | 3 | Awaiting DOI | en, zh | 0 / 0 / 0 | 10 no target yet |
-| [The 2n−1 arc minimum in Koljančić–Oblak, Problem 1.8 (p. 759)](https://github.com/mathesis-papers/10.5281-zenodo.23904481) | 3 | [DOI](https://doi.org/10.5281/zenodo.23904482) | en, zh | 0 / 0 / 0 | 7 no target yet |
-| [Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths](https://github.com/mathesis-papers/10.5281-zenodo.23920567) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920568) | en, zh | 0 / 0 / 0 | 6 no target yet |
+| [The 2n−1 arc minimum in Koljančić–Oblak, Problem 1.8 (p. 759)](https://github.com/mathesis-papers/10.5281-zenodo.23904481) | 3 | [DOI](https://doi.org/10.5281/zenodo.23904482) | en, zh | 2 / 1 / 0 | 7 no target yet |
+| [Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths](https://github.com/mathesis-papers/10.5281-zenodo.23920567) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920568) | en, zh | 2 / 1 / 0 | 6 no target yet |
 | [Corrected formulas and integer exponents for Amdeberhan–Ekhad (2022): Kurkov's OEIS A396563 FORMULA conjecture, revision 15 (1 June 2026)](https://github.com/mathesis-papers/kurk396563) | 2 | Awaiting DOI | en, zh | 0 / 0 / 0 | 7 no target yet |
 | [MathOverflow 512579, revision 1: The elementary symmetric inequality for a Hermitian Jordan product](https://github.com/mathesis-papers/10.5281-zenodo.23920582) | 1 | [DOI](https://doi.org/10.5281/zenodo.23920583) | en, zh | 0 / 0 / 0 | 5 no target yet |
 | [Proof of Mathar's conjecture on OEIS A027182: a closed form and the six-term recurrence](https://github.com/mathesis-papers/10.5281-zenodo.23884889) | 4 | [DOI](https://doi.org/10.5281/zenodo.23884890) | en, zh | 0 / 0 / 0 | 4 no target yet |
