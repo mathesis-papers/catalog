@@ -1,18 +1,52 @@
 {
   "doi": "10.5281/zenodo.23904476",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1 (Section 2)",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/183"
+    },
+    {
+      "label": "Corollary 2 (Section 3)",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/184"
+    },
+    {
+      "label": "Corollary 3 (Section 3)",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/185"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23904475/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/10.5281-zenodo.23904475/en/",
-    "zh": "https://papers.trureturing.org/10.5281-zenodo.23904475/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23904475/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23904475/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23904475",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23904475/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23904475/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing/slides/seminar/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23904475/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing/slides/seminar/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23904475/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing/slides/seminar/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23904475/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing/slides/seminar/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing-seminar-zh.pdf"
+    }
+  ],
   "version": 1,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-earliest-swapping-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.23904475/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing/films/001-earliest-swapping/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.23904475/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing/films/001-earliest-swapping/poster.jpg",
+      "title": "Earliest swapping: no wasted cost",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23904475/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing/films/#001-earliest-swapping"
+    }
+  ],
   "visualizations": [],
   "work": "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing"
 }
