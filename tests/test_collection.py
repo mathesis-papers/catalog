@@ -121,7 +121,7 @@ class CollectionRendering(unittest.TestCase):
         self.assertTrue(updated["README.md"].startswith(prefix))
         self.assertIn(b'https://papers.trureturing.org/10.1234-paper/', updated["README.md"])
         self.assertEqual(collection.relocate_book(updated, "old", "10.1234-paper"), updated)
-        # Repair a previous address migration without changing the public DOI URL.
+        # A book authored under the DOI repository keeps that registration too.
         migrated_paper = json.loads(updated["paper.json"])
         migrated_paper["work"]["repository_name"] = "10.1234-paper"
         migrated_bytes = json.dumps(migrated_paper).encode()
@@ -131,7 +131,13 @@ class CollectionRendering(unittest.TestCase):
                     ".mathesis/generated.json": json.dumps(migrated_marker).encode(),
                     "README.md": updated["README.md"],
                     "site.toml": updated["site.toml"].replace(b'mathesis-papers/old', b'mathesis-papers/10.1234-paper')}
-        self.assertEqual(collection.relocate_book(migrated, "old", "10.1234-paper"), updated)
+        relocated = collection.relocate_book(migrated, "old", "10.1234-paper")
+        self.assertEqual(relocated, migrated)
+        self.assertEqual(relocated["paper.json"], migrated_bytes)
+        self.assertEqual(json.loads(relocated["paper.json"])["work"]["repository_name"], "10.1234-paper")
+        tampered = dict(migrated, **{"paper.json": migrated_bytes + b" "})
+        with self.assertRaisesRegex(ValueError, "metadata edited outside publisher"):
+            collection.relocate_book(tampered, "old", "10.1234-paper")
         files["README.md"] = files["README.md"].replace(prefix, b"Unreviewed catalog edit\n")
         with self.assertRaisesRegex(ValueError, "catalog prefix differs"):
             collection.relocate_book(files, "old", "10.1234-paper")
