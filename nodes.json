@@ -11761,6 +11761,300 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:rowland-sistos-barron-2025-rank-sequences:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/RowlandSistosBarronRankSequences.lean"
+      },
+      "lineage": "collected:rowland-sistos-barron-2025-rank-sequences:s1",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "rowland-sistos-barron-2025-rank-sequences",
+      "scope": "in_scope",
+      "statement": "For each integer $p\\geq3$, set $s_p(n)=p8^n-4^n-2^n$ for $n\\geq0$.\nThese positive integer sequences have rank three and all satisfy\n\\begin{equation}\n s_p(n+3)=14s_p(n+2)-56s_p(n+1)+64s_p(n).\n\\end{equation}\nWrite $R_p=R_{s_p}$. Then\n\\begin{equation}\n R_p(M)=\\#\\{0\\leq j\\leq2M:[X^j](1+X-pX^2)^M\\ne0\\}.\n\\end{equation}\nFor each fixed $M\\geq1$, $R_p(M)=2M+1$ for all but finitely many\nintegers $p\\geq3$, but $R_p(2p+1)\\leq4p+2$ for every $p$.\nThe set $\\{R_p:p\\geq3\\}$ is infinite.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Infinitely many general rank sequences: extending Patel's polynomiality picture (2026) at arXiv:2501.14643v1, Section 1, p. 2",
+      "toolchain": null,
+      "version": 2,
+      "work": "rowland-sistos-barron-2025-rank-sequences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:rowland-sistos-barron-2025-rank-sequences:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/RowlandSistosBarronRankSequences.lean"
+      },
+      "lineage": "collected:rowland-sistos-barron-2025-rank-sequences:s2",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "rowland-sistos-barron-2025-rank-sequences",
+      "scope": "in_scope",
+      "statement": "Let $v_1,\\ldots,v_h$ be distinct nonzero rational numbers and let\n$a_1,\\ldots,a_h$ be nonzero rational numbers. If\n$t(n)=\\sum_{i=1}^h a_i v_i^n$ is integer-valued, then $\\rank t=h$.\nThe same lower bound holds for recurrences with complex coefficients.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Infinitely many general rank sequences: extending Patel's polynomiality picture (2026) at arXiv:2501.14643v1, Section 1, p. 2",
+      "toolchain": null,
+      "version": 2,
+      "work": "rowland-sistos-barron-2025-rank-sequences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:rowland-sistos-barron-2025-rank-sequences:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/RowlandSistosBarronRankSequences.lean"
+      },
+      "lineage": "collected:rowland-sistos-barron-2025-rank-sequences:s3",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "rowland-sistos-barron-2025-rank-sequences",
+      "scope": "in_scope",
+      "statement": "For every $L\\geq1$, infinitely many distinct rank sequences from this\nfamily satisfy $R(M)=2M+1$ for all $1\\leq M\\leq L$, and each differs\nfrom $2M+1$ at some later exponent.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Infinitely many general rank sequences: extending Patel's polynomiality picture (2026) at arXiv:2501.14643v1, Section 1, p. 2",
+      "toolchain": null,
+      "version": 2,
+      "work": "rowland-sistos-barron-2025-rank-sequences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:rowland-sistos-barron-2025-rank-sequences:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/RowlandSistosBarronRankSequences.lean"
+      },
+      "lineage": "collected:rowland-sistos-barron-2025-rank-sequences:s4",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "rowland-sistos-barron-2025-rank-sequences",
+      "scope": "in_scope",
+      "statement": "For every fixed integer $b\\geq2$, the positive integer sequences\n$s_{p,b}(n)=pb^{3n}-b^{2n}-b^n$, $p\\geq3$, have the same rank\nsequences $R_p$ as above. In particular, infinitely many occur under\nthe single characteristic polynomial $(T-b)(T-b^2)(T-b^3)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Infinitely many general rank sequences: extending Patel's polynomiality picture (2026) at arXiv:2501.14643v1, Section 1, p. 2",
+      "toolchain": null,
+      "version": 2,
+      "work": "rowland-sistos-barron-2025-rank-sequences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:rowland-sistos-barron-2025-rank-sequences:2:s5",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/RowlandSistosBarronRankSequences.lean"
+      },
+      "lineage": "collected:rowland-sistos-barron-2025-rank-sequences:s5",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "rowland-sistos-barron-2025-rank-sequences",
+      "scope": "in_scope",
+      "statement": "Fix $r\\geq3$ and distinct odd primes $q_1,\\ldots,q_{r-3}$, with an empty\nlist when $r=3$. For every integer $K\\geq2$, put\n\\[\n u_{r,K}(n)=1+2^n+2^{Kn}+\\sum_{i=1}^{r-3}q_i^n.\n\\]\nThis is a positive integer sequence of rank $r$, and its general rank\nsequence is\n\\begin{equation}\n H_{r,K}(M)=\\binom{M+r-1}{r-1}-\n \\begin{cases}\\binom{M-K+r-1}{r-1},&M\\geq K,\\\\0,&M<K.\\end{cases}\n\\end{equation}\nDifferent $K$ give different rank sequences. For $M\\geq K$ the displayed\nexpression is a polynomial of degree $r-2$ with leading coefficient\n$K/(r-2)!$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Infinitely many general rank sequences: extending Patel's polynomiality picture (2026) at arXiv:2501.14643v1, Section 1, p. 2",
+      "toolchain": null,
+      "version": 2,
+      "work": "rowland-sistos-barron-2025-rank-sequences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:rowland-sistos-barron-2025-rank-sequences:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/RowlandSistosBarronRankSequences.lean"
+      },
+      "lineage": "collected:rowland-sistos-barron-2025-rank-sequences:s6",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "rowland-sistos-barron-2025-rank-sequences",
+      "scope": "in_scope",
+      "statement": "For every $r\\geq3$ and $L\\geq1$, infinitely many general rank sequences\nhave $R(M)=\\binom{M+r-1}{r-1}$ for $1\\leq M\\leq L$, but differ at\nlater exponents. At rank three their eventual polynomials are\n$KM+K(3-K)/2$, for all $K\\geq2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Infinitely many general rank sequences: extending Patel's polynomiality picture (2026) at arXiv:2501.14643v1, Section 1, p. 2",
+      "toolchain": null,
+      "version": 2,
+      "work": "rowland-sistos-barron-2025-rank-sequences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:rowland-sistos-barron-2025-rank-sequences:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/RowlandSistosBarronRankSequences.lean"
+      },
+      "lineage": "collected:rowland-sistos-barron-2025-rank-sequences:s7",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "rowland-sistos-barron-2025-rank-sequences",
+      "scope": "in_scope",
+      "statement": "Every subgroup\n\\[\n N_K=\\mathbb Z(K-1,-K,1,0,\\ldots,0)\\subseteq\\mathbb Z^r,\\quad K\\geq2,\n\\]\nis exactly the subgroup of homogeneous product relations of an\ninteger-root characteristic polynomial of degree $r$. Its quotient is\nfree of rank $r-1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Infinitely many general rank sequences: extending Patel's polynomiality picture (2026) at arXiv:2501.14643v1, Section 1, p. 2",
+      "toolchain": null,
+      "version": 2,
+      "work": "rowland-sistos-barron-2025-rank-sequences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation:2:s1",
       "kind": "paper",
       "label": "Theorem",

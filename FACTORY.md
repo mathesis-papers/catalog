@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-19T21:28:58.529236079Z`.
+Snapshot: `2026-11-19T22:28:36.550326239Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -50,6 +50,7 @@ Snapshot: `2026-11-19T21:28:58.529236079Z`.
 | [Refuting Peled et al.'s Section IV conjectures after Theorems 1 and 3, Eqs. (10) and (12): sharp fourth-order bounds without filter normal form](https://github.com/mathesis-papers/10.5281-zenodo.23920609) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920610) | en, zh | 0 / 0 / 0 | 7 no target yet |
 | [Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture](https://github.com/mathesis-papers/10.5281-zenodo.23903312) | 2 | [DOI](https://doi.org/10.5281/zenodo.23903313) | en, zh | 0 / 0 / 0 | 9 no target yet |
 | [MathOverflow 516405, revision 1: the second adjacency eigenvalue of Apollonian networks and the fixed-rank extreme spectrum](https://github.com/mathesis-papers/10.5281-zenodo.23919070) | 2 | [DOI](https://doi.org/10.5281/zenodo.23919071) | en, zh | 0 / 0 / 0 | 5 no target yet |
+| [Infinitely many general rank sequences: extending Patel's polynomiality picture (2026) at arXiv:2501.14643v1, Section 1, p. 2](https://github.com/mathesis-papers/rowland-sistos-barron-2025-rank-sequences) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [A cubic counterexample at Schnell–Ketzmerick–Eckardt (2018, Sec. V, p. 11, Eq. (55)), and an extension of their Ohmic bound](https://github.com/mathesis-papers/schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24211823) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Answering the finite-outcome question of Aloy et al. (2024), arXiv:2312.09278v2, end of §IV.B.3, p. 17: an extension of their binary spin-one theorem](https://github.com/mathesis-papers/spin-one-rotation-boxes) | 2 | Awaiting DOI | en, zh | 0 / 0 / 0 | 9 no target yet |
 | [Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c](https://github.com/mathesis-papers/10.5281-zenodo.23927427) | 2 | [DOI](https://doi.org/10.5281/zenodo.23927428) | en, zh | 0 / 0 / 0 | 10 no target yet |
