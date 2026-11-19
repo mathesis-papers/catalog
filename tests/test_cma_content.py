@@ -10,6 +10,7 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import cma_content as cma
+import hosted_materials
 import serial_content as serial
 
 
@@ -39,7 +40,8 @@ class FakeCMA:
             return {'id':'operation_original'}
         if 'agent-lifecycle' in path:
             return {'status':'failed' if self.fail else 'succeeded', 'agent_id':'agent_original'}
-        return {'status':'ready', 'sandbox':{'id':'sbx_wks_internal'}, 'first_message':{'state':'completed'}}
+        return {'status':'ready', 'sandbox':{'id':'sbx_wks_internal'}, 'first_message':{'state':'completed'},
+                'worktree':{'path':'/home/cma/workspace/.worktrees/wt-186'}}
 
 
 class AdapterTests(unittest.TestCase):
@@ -59,6 +61,7 @@ class AdapterTests(unittest.TestCase):
         cma.reconcile(provider, resumed, save, 'wks_external')
         self.assertEqual(provider.posts, 2)  # same provider key, one admitted operation
         self.assertEqual(resumed['agent_id'], 'agent_original')
+        self.assertEqual(resumed['worktree_path'], '/home/cma/workspace/.worktrees/wt-186')
         updated = cma.intent(envelope('f'*40), 'b'*40, 'e'*40, 'wks_internal', 'collection')
         self.assertEqual(updated['key'], state['key'])
         self.assertNotEqual(updated['identity']['template_commit'], state['identity']['template_commit'])
@@ -89,6 +92,47 @@ class AdapterTests(unittest.TestCase):
         for name in ('../secret', '/tmp/file', '.git/config', 'x\\y', 'x/../y', './x'):
             with self.assertRaises(ValueError): cma.safe_path(name)
 
+    def test_handoff_is_read_from_provider_worktree_under_retained_home(self):
+        state = cma.intent(envelope(), 'b'*40, 'e'*40, 'wks_internal', 'collection')
+        cma.reconcile(FakeCMA(), state, lambda s: None, 'wks_external')
+        pack = b'actual source pack'
+        handoff = json.dumps({'identity':state['identity'], 'archive_sha256':hashlib.sha256(pack).hexdigest(),
+                              'result':{'visualization':{'decision':'not_useful','reason':'A short proof suffices'}}}).encode()
+        prefix = 'cma/workspace/.worktrees/wt-186/mathesis-content/' + state['key'] + '/'
+        files = {prefix+'handoff.json':handoff, prefix+'sources.tar.gz':pack}
+        class Provider:
+            def file(self, agent, path):
+                self_agent = 'agent_original'
+                if agent != self_agent or path not in files:
+                    raise FileNotFoundError('File API paths are relative to /home')
+                return files[path]
+        class Ledger:
+            def put(self, value, files):
+                self.saved = copy.deepcopy(value), files
+        ledger = Ledger()
+        hosted_materials.save_sources(Provider(), ledger, state)
+        self.assertEqual(state['phase'], 'sources_saved')
+        self.assertIn(pack, ledger.saved[1].values())
+        for path in (None, '/home', '/etc', '/home/cma/../other', '/home//cma', '/home/cma/.git'):
+            with self.assertRaises(ValueError): cma.artifact_prefix(dict(state, worktree_path=path))
+
+    def test_resuming_authoring_rejects_a_changed_provider_worktree(self):
+        state = cma.intent(envelope(), 'b'*40, 'e'*40, 'wks_internal', 'collection')
+        state.update(phase='authoring', agent_id='agent_original', sandbox='sbx_wks_internal',
+                     worktree_path='/home/cma/workspace/.worktrees/another-job')
+        with self.assertRaisesRegex(ValueError, 'worktree identity'):
+            cma.reconcile(FakeCMA(), state, lambda s: None, 'wks_external')
+        self.assertEqual(state['phase'], 'authoring')
+
+    def test_completed_original_job_can_bind_its_worktree_without_recreating(self):
+        state = cma.intent(envelope(), 'b'*40, 'e'*40, 'wks_internal', 'collection')
+        state.update(phase='sources_ready', agent_id='agent_original', sandbox='sbx_wks_internal')
+        provider = FakeCMA()
+        cma.reconcile(provider, state, lambda s: None, 'wks_external')
+        self.assertEqual(provider.posts, 0)
+        self.assertEqual(state['phase'], 'sources_ready')
+        self.assertEqual(state['worktree_path'], '/home/cma/workspace/.worktrees/wt-186')
+
     def test_import_rejects_template_change_before_mutation(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp); repo = root/'repo'; run = root/'run'; repo.mkdir(); run.mkdir()
@@ -109,6 +153,6 @@ class AdapterTests(unittest.TestCase):
             class Files:
                 def file(self, agent, path): return json.dumps(handoff).encode() if path.endswith('.json') else content
             state = cma.intent(envelope(), 'b'*40, 'e'*40, 'wks_internal', 'collection')
-            state.update(phase='sources_ready',agent_id='agent')
+            state.update(phase='sources_ready',agent_id='agent',worktree_path='/home/cma/workspace/.worktrees/wt-186')
             with self.assertRaisesRegex(ValueError, 'managed template'): cma.import_sources(Files(), state, repo, run)
             self.assertEqual((repo/'tools/build.py').read_text(), 'original build')

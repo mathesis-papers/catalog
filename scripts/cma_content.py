@@ -173,17 +173,38 @@ def reconcile(cma, state, save, other_workspace):
         elif receipt["status"] == "succeeded" and receipt.get("agent_id"):
             state.update(phase="authoring", agent_id=identifier(receipt["agent_id"]))
             save(state)
-    if state["phase"] == "authoring":
+    if state["phase"] == "authoring" or (state["phase"] == "sources_ready" and "worktree_path" not in state):
         agent = cma.call("GET", "/api/v1/agents/" + identifier(state["agent_id"]))
         require(agent["sandbox"]["id"] == state["sandbox"], "CMA changed the admitted sandbox identity")
         first = agent.get("first_message") or {}
-        if first.get("state") == "completed":
-            state.update(phase="sources_ready")
-            save(state)
-        elif first.get("state") == "failed" or agent["status"] in ("failed", "deleted"):
+        if first.get("state") == "failed" or agent["status"] in ("failed", "deleted"):
             state.update(phase="needs_attention", blocked_stage="authoring")
             save(state)
+        else:
+            worktree = (agent.get("worktree") or {}).get("path")
+            # File API paths start at retained /home, while the bootstrap runs
+            # inside the agent's assigned worktree. Bind that provider-owned
+            # location before accepting a source handoff.
+            artifact_prefix(dict(state, worktree_path=worktree))
+            require(state.get("worktree_path", worktree) == worktree, "CMA changed the admitted worktree identity")
+            if "worktree_path" not in state:
+                state["worktree_path"] = worktree
+                save(state)
+            if first.get("state") == "completed":
+                state.update(phase="sources_ready")
+                save(state)
     return state
+
+
+def artifact_prefix(state):
+    """Map an admitted worktree to CMA's documented /home-relative file API."""
+    worktree = state.get("worktree_path")
+    require(isinstance(worktree, str) and worktree.startswith("/home/")
+            and str(PurePosixPath(worktree)) == worktree, "CMA worktree must be a canonical path below /home")
+    relative = PurePosixPath(worktree).relative_to("/home").as_posix()
+    safe_path(relative)
+    require(re.fullmatch(r"[a-f0-9]{64}", state["key"]) is not None, "invalid source handoff key")
+    return relative + "/mathesis-content/" + state["key"] + "/"
 
 
 def safe_path(name):
@@ -222,7 +243,7 @@ def export_sources(run, output):
 def import_sources(cma, state, repo, run, approved_template_rebase=False):
     """Restore only book content over a locally prepared, pinned template."""
     require(state["phase"] == "sources_ready", "CMA sources are not ready")
-    prefix = "mathesis-content/" + state["key"] + "/"
+    prefix = artifact_prefix(state)
     handoff = json.loads(cma.file(state["agent_id"], prefix + "handoff.json"))
     require(handoff["schema"] == "mathesis.cma-content-handoff.v1" and handoff["identity"] == state["identity"], "CMA source identity differs")
     data = cma.file(state["agent_id"], prefix + "sources.tar.gz")

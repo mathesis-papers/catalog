@@ -47,6 +47,11 @@ This does not change open registration, author submission limits or BYOK policy.
    book content and its mapping; frozen manuscript bytes and managed template
    files cannot be changed. Read-only template symlinks must match the baseline;
    authored content cannot introduce symlinks.
+   CMA's file API reads paths relative to retained `/home`. The adapter binds
+   the provider's assigned worktree path to the admitted sandbox, then reads
+   `mathesis-content/<key>` inside that worktree. A changed worktree stops
+   retrieval; a missing old checkpoint binding is recovered from the original
+   agent without creating another job.
 3. Attach immutable version history before building. New versions preserve the
    prior manuscript, DOI metadata and exposition sources in the same repository.
    Template manifests detect human edits; conflicting source changes stop for
