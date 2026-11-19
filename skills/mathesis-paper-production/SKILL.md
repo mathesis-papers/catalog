@@ -78,7 +78,11 @@ an unmatched candidate unconfirmed. An attributed prose result may be explained 
 falsely using a verification badge. Follow the template's written-proof rules.
 
 Run template and layer checks, build actual bilingual reading and presentation,
-and inspect rendered output. Verify repository-to-Mathesis links and the
+and inspect rendered output. When EPUB is enabled, build every configured edition
+and run the upstream EPUB checker with a working Java runtime and its installed
+Python package. A skipped checker or a system Java launcher without a runtime
+is not validation. Set `JAVA_HOME` or the process `PATH` to the shared installed
+runtime; keep its cache outside paper commits. Verify repository-to-Mathesis links and the
 exact-version materials manifest. Commit authored sources only; put renderings,
 worker transcripts and run evidence outside the committed paper layout. Do not
 execute manuscript-supplied code merely to read it. Do not publish a repository,
