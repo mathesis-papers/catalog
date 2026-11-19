@@ -267,6 +267,21 @@ class PublisherTests(unittest.TestCase):
         self.assertEqual(len(self.fake.writes), count)
         self.assertEqual(self.api.receipts[WORK]["changed_paths"], 0)
 
+    def test_collection_selector_does_not_replace_a_migrated_authored_book(self):
+        self.apply()
+        files = self.fake.files(WORK)
+        files["books/reading.md"] = b"Reviewed bilingual story"
+        files["slides/talk.tex"] = b"Reviewed presentation"
+        files[".mathesis/collection-history.json"] = json.dumps({"schema":"mathesis.collection-history.v1", "work":WORK}).encode()
+        self.fake.add_repo(WORK, files)
+        plan = json.loads((self.stage / "plan.json").read_text())
+        plan["collection_works"] = [WORK]
+        publisher.write(self.stage / "plan.json", plan)
+        self.seal()
+        self.apply()
+        self.assertEqual(self.fake.files(WORK), files)
+        self.assertEqual(self.api.receipts[WORK]["changed_paths"], 0)
+
     def test_resume_template_only_repo_and_closed_paginated_issue(self):
         self.fake.add_repo(WORK, {"README.md": b"template"})
         self.fake.issues[WORK] = [{"title":"unrelated", "body":""} for _ in range(100)] + [{"title":publisher.TITLE, "body":publisher.MARKER, "state":"closed"}]

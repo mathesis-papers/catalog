@@ -425,12 +425,21 @@ def apply(api, source, stage):
                     raise
                 time.sleep(min(2 ** attempt, 8))
         entries = state[3]
+        # A completed content migration owns the authored book. A stale manual
+        # selector must not turn it back into a bare collection on refresh.
+        migrated_book = (".mathesis/book.json" in entries
+                         and ".mathesis/collection-history.json" in entries)
+        if migrated_book:
+            history = json.loads(api.blob(repo, entries[".mathesis/collection-history.json"]))
+            require(history.get("schema") == "mathesis.collection-history.v1"
+                    and history.get("work") == work, "book migration identity differs")
+        is_collection = work in plan.get("collection_works", []) and not migrated_book
         api.receipts[repo] = {"before": state[1], "after": state[1], "changed_paths": 0}
         if "paper.json" in entries:
             remote = json.loads(api.blob(repo, entries["paper.json"]))["work"]
             require(remote["work"] == work and remote["repository_name"] in [repo, *aliases.get(work, [])], "existing paper belongs to a different work")
             require(".mathesis/generated.json" in entries, "existing paper import incomplete; review required")
-            if work in plan.get("collection_works", []):
+            if is_collection:
                 marker = entries.get(collection.MARKER)
                 require(marker is not None, "existing book cannot be replaced by a collection projection")
                 previous = json.loads(api.blob(repo, marker))
@@ -452,7 +461,6 @@ def apply(api, source, stage):
         if any(info.get(key) != value for key, value in metadata.items()):
             api.call("PATCH", f"/repos/{ORG}/{repo}", metadata)
         api.pages(repo, "workflow")
-        is_collection = work in plan.get("collection_works", [])
         if not is_collection and "paper.json" in entries and work in aliases:
             files = {p: api.blob(repo, entries[p]) for p in ("paper.json", ".mathesis/generated.json", "site.toml", "README.md")}
             relocated = collection.relocate_book(files, aliases[work][0], repo)
