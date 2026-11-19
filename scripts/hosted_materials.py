@@ -145,7 +145,7 @@ def prepare(root, workspace, work, config, state=None, factory_stage=None):
 
 
 def save_sources(cma, ledger, state):
-    prefix = 'mathesis-content/' + state['key'] + '/'
+    prefix = cma_content.artifact_prefix(state)
     handoff = cma.file(state['agent_id'], prefix + 'handoff.json')
     pack = cma.file(state['agent_id'], prefix + 'sources.tar.gz')
     receipt = json.loads(handoff)
