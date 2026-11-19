@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-19T15:34:15.366712664Z`.
+Snapshot: `2026-11-19T15:54:05.289486507Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -34,8 +34,8 @@ Snapshot: `2026-11-19T15:34:15.366712664Z`.
 | [The 2n−1 arc minimum in Koljančić–Oblak, Problem 1.8 (p. 759)](https://github.com/mathesis-papers/10.5281-zenodo.23904481) | 3 | [DOI](https://doi.org/10.5281/zenodo.23904482) | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths](https://github.com/mathesis-papers/10.5281-zenodo.23920567) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920568) | en, zh | 2 / 1 / 0 | 6 no target yet |
 | [Corrected formulas and integer exponents for Amdeberhan–Ekhad (2022): Kurkov's OEIS A396563 FORMULA conjecture, revision 15 (1 June 2026)](https://github.com/mathesis-papers/kurk396563) | 2 | Awaiting DOI | en, zh | 2 / 1 / 0 | 7 no target yet |
-| [MathOverflow 512579, revision 1: The elementary symmetric inequality for a Hermitian Jordan product](https://github.com/mathesis-papers/10.5281-zenodo.23920582) | 1 | [DOI](https://doi.org/10.5281/zenodo.23920583) | en, zh | 0 / 0 / 0 | 5 no target yet |
-| [Proof of Mathar's conjecture on OEIS A027182: a closed form and the six-term recurrence](https://github.com/mathesis-papers/10.5281-zenodo.23884889) | 4 | [DOI](https://doi.org/10.5281/zenodo.23884890) | en, zh | 0 / 0 / 0 | 4 no target yet |
+| [MathOverflow 512579, revision 1: The elementary symmetric inequality for a Hermitian Jordan product](https://github.com/mathesis-papers/10.5281-zenodo.23920582) | 1 | [DOI](https://doi.org/10.5281/zenodo.23920583) | en, zh | 2 / 1 / 0 | 5 no target yet |
+| [Proof of Mathar's conjecture on OEIS A027182: a closed form and the six-term recurrence](https://github.com/mathesis-papers/10.5281-zenodo.23884889) | 4 | [DOI](https://doi.org/10.5281/zenodo.23884890) | en, zh | 2 / 1 / 0 | 4 no target yet |
 | [Proof of the weighted-minor inequality in MathOverflow 469781](https://github.com/mathesis-papers/10.5281-zenodo.23931737) | 2 | [DOI](https://doi.org/10.5281/zenodo.23931738) | en, zh | 0 / 0 / 0 | 7 no target yet |
 | [MathOverflow 513954, revision 2: singular signed downdates, fixed coordinates, and a sharp polynomial sphere bound](https://github.com/mathesis-papers/10.5281-zenodo.23920597) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920598) | en, zh | 0 / 0 / 0 | 11 no target yet |
 | [Zero-mode corrections and closed bubble counts in Mukherjee et al. (2021, Sec. III, p. 7, third paragraph): extending Hoshino (2007) and Brown–Hoshino (2008)](https://github.com/mathesis-papers/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy) | 3 | [DOI](https://doi.org/10.5281/zenodo.24210281) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
