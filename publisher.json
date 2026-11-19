@@ -2,6 +2,7 @@
   "api_base": "https://mathesis-omega-research.apps.chrono-ai.fun",
   "book_works": [
     "a320043-square-values-refutation",
+    "abbott-2019-sequential-weak-pointer-bound",
     "aks2610-twin-free-theta-separation",
     "alikhani-griswold-2026-connected-minus-four-family",
     "b164660-chebfloor",
