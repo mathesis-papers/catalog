@@ -1,18 +1,64 @@
 {
   "doi": "10.5281/zenodo.23931731",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Lemma 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/131"
+    },
+    {
+      "label": "Lemma 6",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/132"
+    },
+    {
+      "label": "Corollary 7",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/133"
+    },
+    {
+      "label": "Corollary 8",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/134"
+    },
+    {
+      "label": "Lemma 9",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/135"
+    },
+    {
+      "label": "Corollary 11",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/136"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23931730/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/10.5281-zenodo.23931730/en/",
-    "zh": "https://papers.trureturing.org/10.5281-zenodo.23931730/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23931730/bajnok-beatty-original-conjecture-4-1/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23931730/bajnok-beatty-original-conjecture-4-1/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23931730",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23931730/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23931730/bajnok-beatty-original-conjecture-4-1/slides/seminar/bajnok-beatty-original-conjecture-4-1-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23931730/bajnok-beatty-original-conjecture-4-1/slides/seminar/bajnok-beatty-original-conjecture-4-1-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23931730/bajnok-beatty-original-conjecture-4-1/slides/seminar/bajnok-beatty-original-conjecture-4-1-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23931730/bajnok-beatty-original-conjecture-4-1/slides/seminar/bajnok-beatty-original-conjecture-4-1-seminar-zh.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-diamond-square-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.23931730/bajnok-beatty-original-conjecture-4-1/films/001-diamond-square/bajnok-beatty-original-conjecture-4-1_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.23931730/bajnok-beatty-original-conjecture-4-1/films/001-diamond-square/poster.jpg",
+      "title": "From a diamond to a square",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23931730/bajnok-beatty-original-conjecture-4-1/films/#001-diamond-square"
+    }
+  ],
   "visualizations": [],
   "work": "bajnok-beatty-original-conjecture-4-1"
 }

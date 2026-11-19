@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-19T12:41:24.469703925Z`.
+Snapshot: `2026-11-19T12:48:54.587372284Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -10,8 +10,8 @@ Snapshot: `2026-11-19T12:41:24.469703925Z`.
 | [Extending Sun–Luo–Ye bounds to refute Abbott et al.'s pointer-product conjecture](https://github.com/mathesis-papers/abbott-2019-sequential-weak-pointer-bound) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212412) | en, zh | 2 / 1 / 0 | 4 no target yet |
 | [A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)](https://github.com/mathesis-papers/aks2610-twin-free-theta-separation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212419) | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [Alikhani–Griswold, Section 4(3): connected graphs with domination root −4](https://github.com/mathesis-papers/10.5281-zenodo.23919065) | 1 | [DOI](https://doi.org/10.5281/zenodo.23919066) | en, zh | 2 / 1 / 0 | 3 no target yet |
-| [OEIS A164660, final FORMULA (29 May 2016): Chebyshev numerators and floor products](https://github.com/mathesis-papers/10.5281-zenodo.23884882) | 1 | [DOI](https://doi.org/10.5281/zenodo.23884883) | en, zh | 0 / 0 / 0 | 3 no target yet |
-| [Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order](https://github.com/mathesis-papers/10.5281-zenodo.23931730) | 2 | [DOI](https://doi.org/10.5281/zenodo.23931731) | en, zh | 0 / 0 / 0 | 11 no target yet |
+| [OEIS A164660, final FORMULA (29 May 2016): Chebyshev numerators and floor products](https://github.com/mathesis-papers/10.5281-zenodo.23884882) | 1 | [DOI](https://doi.org/10.5281/zenodo.23884883) | en, zh | 2 / 1 / 0 | 3 no target yet |
+| [Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order](https://github.com/mathesis-papers/10.5281-zenodo.23931730) | 2 | [DOI](https://doi.org/10.5281/zenodo.23931731) | en, zh | 2 / 1 / 0 | 11 no target yet |
 | [Parity and product extensions of Bala's divisibilities (2026): OEIS A295462, References (record #19; contribution dated 23 August 2026)](https://github.com/mathesis-papers/10.5281-zenodo.23971278) | 4 | [DOI](https://doi.org/10.5281/zenodo.23971279) | en, zh | 0 / 0 / 0 | 6 no target yet |
 | [Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)](https://github.com/mathesis-papers/bouafia-diversity-negative-type) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212421) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [A counterexample to Bu--Gu--Jaffe's expected mixed-state inverse sumset estimate](https://github.com/mathesis-papers/10.5281-zenodo.23885950) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885951) | en, zh | 0 / 0 / 0 | 3 no target yet |

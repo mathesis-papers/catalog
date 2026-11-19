@@ -1,18 +1,48 @@
 {
   "doi": "10.5281/zenodo.23884883",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Proposition 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/234"
+    },
+    {
+      "label": "Proposition 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/235"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23884882/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/10.5281-zenodo.23884882/en/",
-    "zh": "https://papers.trureturing.org/10.5281-zenodo.23884882/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23884882/b164660-chebfloor/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23884882/b164660-chebfloor/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23884882",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23884882/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23884882/b164660-chebfloor/slides/seminar/b164660-chebfloor-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23884882/b164660-chebfloor/slides/seminar/b164660-chebfloor-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23884882/b164660-chebfloor/slides/seminar/b164660-chebfloor-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23884882/b164660-chebfloor/slides/seminar/b164660-chebfloor-seminar-zh.pdf"
+    }
+  ],
   "version": 1,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-divisibility-sign-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.23884882/b164660-chebfloor/films/001-divisibility-sign/b164660-chebfloor_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.23884882/b164660-chebfloor/films/001-divisibility-sign/poster.jpg",
+      "title": "Two floors, one sign flip",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23884882/b164660-chebfloor/films/#001-divisibility-sign"
+    }
+  ],
   "visualizations": [],
   "work": "b164660-chebfloor"
 }
