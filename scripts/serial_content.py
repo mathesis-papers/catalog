@@ -127,7 +127,7 @@ def authored_workspace(workspace, paper, template, source, run, toolchain=None):
         subprocess.run(["git", "init", "-b", "content-preview", str(dest)], check=True, stdout=subprocess.DEVNULL)
         subprocess.run(["git", "remote", "add", "origin", "https://github.com/" + paper["repository"] + ".git"], cwd=dest, check=True)
         subprocess.run(["git", "add", "."], cwd=dest, check=True)
-        subprocess.run(["git", "commit", "-m", "Stage frozen paper with published template for local content preview"], cwd=dest, check=True, stdout=subprocess.DEVNULL)
+        subprocess.run(["git", "-c", "user.name=Mathesis materials", "-c", "user.email=contact@chrono-ai.fun", "commit", "-m", "Stage frozen paper with published template for local content preview"], cwd=dest, check=True, stdout=subprocess.DEVNULL)
     if toolchain:
         # Shared local tools are not paper content. Keep them outside the layout
         # inventory without modifying the template's tracked ignore rules.
@@ -157,7 +157,7 @@ def authored_workspace(workspace, paper, template, source, run, toolchain=None):
     return dest
 
 
-def prepare(workspace, paper, template, allow_requests=False, toolchain=None):
+def prepare(workspace, paper, template, allow_requests=False, toolchain=None, source_projection=None):
     if shutil.disk_usage(workspace).free < 8 * 1024**3:
         raise RuntimeError("less than 8 GiB free; preserve outputs and clear disposable caches first")
     repo = workspace / "papers" / paper["id"]
@@ -166,13 +166,15 @@ def prepare(workspace, paper, template, allow_requests=False, toolchain=None):
     remote = command(["git", "remote", "get-url", "origin"], repo)
     if remote.removesuffix(".git") != "https://github.com/" + paper["repository"]:
         raise ValueError("paper checkout has an unexpected origin")
-    record = read(repo / "paper.json")
+    origin = repo
+    inputs = source_projection or repo
+    record = read(inputs / "paper.json")
     if record["work"]["work"] != paper["id"] or str(record["work"]["current_version"]) != str(paper["version"]):
         raise ValueError("frozen cohort differs from paper checkout; never silently switch versions")
-    frozen = read(repo / ".mathesis/generated.json")
+    frozen = read(inputs / ".mathesis/generated.json")
     for name, expected in frozen["sha256"].items():
-        path = repo / name
-        if path.is_symlink() or not path.resolve().is_relative_to(repo.resolve()):
+        path = inputs / name
+        if path.is_symlink() or not path.resolve().is_relative_to(inputs.resolve()):
             raise ValueError("unsafe frozen source path")
         data = path.read_bytes()
         if name == "README.md":
@@ -184,12 +186,12 @@ def prepare(workspace, paper, template, allow_requests=False, toolchain=None):
                 "skill_sha256": hashlib.sha256(SKILL.read_bytes()).hexdigest(), "allow_request_registration": allow_requests}
     run = workspace / "runs" / paper["id"] / digest(identity)
     run.mkdir(parents=True, exist_ok=True)
-    source = repo
+    source = inputs
     repo = authored_workspace(workspace, paper, template, source, run, toolchain)
     doi_report = discover_paper_doi.discover(repo)
     write(run / "doi-discovery.json", doi_report)
     envelope = {"schema": "mathesis.paper-production-envelope.v1", "identity": identity,
-                "repository_path": str(repo), "source_repository_path": str(source), "template_path": str(template), "skill_path": str(SKILL),
+                "repository_path": str(repo), "source_repository_path": str(origin), "input_projection_path": str(inputs), "template_path": str(template), "skill_path": str(SKILL),
                 "run_path": str(run), "concurrency": 1,
                 "publication_authorized": False, "do_not_rereview": True,
                 "doi_discovery": str(run / "doi-discovery.json"),
@@ -219,7 +221,8 @@ The operator has staged the published template and frozen paper with the catalog
 legacy_book_projection and paper.py fill interfaces. The source collection checkout at {source}
 remains untouched. Work ONLY at {repo}; it is a local authored preview, not an in-place
 publication/migration. Preserve its frozen catalog bytes and hashes; do not hand-edit them.
-Reuse original public reading from {source}/site when useful. The current template source is
+Reuse original public reading from {origin}/site and {origin}/books when useful, including earlier versions.
+The frozen current-version inputs are at {source}. Earlier exposition is context, never a substitute for checking the new manuscript. The current template source is
 {template}. Its installed book/media/sync skills are available in your working directory.
 Use shared existing dependencies (operator may provide ignored node_modules symlink); do not
 download or build the complete trureturing library. Inspect pinned public Lean source and

@@ -171,3 +171,80 @@ if __name__ == "__main__":
     parser.add_argument("--output", required=True, type=Path)
     args = parser.parse_args()
     prepare(args.run.resolve(), args.catalog.resolve(), args.output)
+
+
+def advance_version_tree(original, authored, work, version, source_commit):
+    """Keep old manuscript and exposition sources under the same repository.
+
+    Template manifests fence managed files; unrecognized human files survive.
+    An existing immutable version path is never replaced.
+    """
+    old = json.loads(original['paper.json'][0])['work']
+    new = json.loads(authored['paper.json'][0])['work']
+    require(old['work'] == new['work'] == work and old['current_version'] < version == new['current_version'], 'invalid paper version advancement')
+    require(old['repository_name'] == new['repository_name'], 'paper repository identity changed')
+    managed = set()
+    for name, (data, mode) in original.items():
+        if name == 'template-manifest.json' or (name.startswith('template.d/') and name.endswith('.manifest.json')):
+            manifest = json.loads(data)
+            for path, expected in manifest['files'].items():
+                require(path in original and hashlib.sha256(original[path][0]).hexdigest() == expected['sha256']
+                        and original[path][1] == expected['mode'], 'human-edited managed template needs explicit rebase: ' + path)
+                managed.add(path)
+    if collection.MARKER in original and '.mathesis/book.json' not in original:
+        marker = owned_collection(original, work, old['current_version'])
+        managed.update(marker['sha256'])
+    require(managed, 'existing paper has no verifiable template ownership')
+    frozen = json.loads(original['.mathesis/generated.json'][0])
+    owned = set(frozen['sha256']) | {'.mathesis/generated.json', '.mathesis/book.json', HISTORY,
+                                      collection.MARKER, 'template-manifest.json', 'template.toml'}
+    result = dict(authored)
+    for name, entry in original.items():
+        if name.startswith('versions/'):
+            require(name not in result or result[name] == entry, 'immutable historical version changed')
+            result[name] = entry
+        elif name.startswith('books/') or name in frozen['sha256'] or name == '.mathesis/book.json':
+            # Archive current-version mathematical content and teaching sources,
+            # without duplicating all template code or generated renderings.
+            archive = f"versions/v{old['current_version']}/materials/{name}"
+            require(archive not in result or result[archive] == entry, 'historical material snapshot differs')
+            result[archive] = entry
+        elif name not in owned and name not in managed and not name.startswith('template.d/'):
+            require(name not in result or result[name] == entry, 'unrelated human file conflicts with template update: ' + name)
+            result[name] = entry
+    history = {name:hashlib.sha256(value[0]).hexdigest() for name,value in result.items() if name.startswith('versions/')}
+    result[HISTORY] = ((json.dumps({'schema':'mathesis.collection-history.v1','work':work,'source_commit':source_commit,'sha256':history},sort_keys=True,indent=2)+'\n').encode(),'100644')
+    return result
+
+
+def working_tree(root):
+    inventory = serial.source_inventory(root)
+    return {name: ((str((root/name).readlink()).encode() if entry['mode'] == '120000' else (root/name).read_bytes()), entry['mode'])
+            for name,entry in inventory.items()}
+
+
+def attach_history(source, authored, work, version, source_commit):
+    """Construct the final source tree before fixed build/QA, not after it."""
+    original, current = tracked_tree(source), working_tree(authored)
+    previous_version = json.loads(original['paper.json'][0])['work']['current_version']
+    if previous_version < version:
+        final = advance_version_tree(original,current,work,version,source_commit)
+    elif collection.MARKER in original and '.mathesis/book.json' not in original:
+        final = migration_tree(original,current,work,version,source_commit)
+    else:
+        require(previous_version == version, 'paper version moved backwards')
+        final = dict(current)
+        for name,entry in original.items():
+            if name.startswith('versions/') or name == HISTORY:
+                require(name not in final or final[name] == entry,'historical version changed')
+                final[name] = entry
+    for name,(data,mode) in final.items():
+        if current.get(name) == (data,mode): continue
+        safe_name(name)
+        path=authored/name
+        require(path.resolve().is_relative_to(authored.resolve()),'historical destination escapes repository')
+        path.parent.mkdir(parents=True,exist_ok=True)
+        require(mode != '120000','historical source must not introduce symlinks')
+        path.write_bytes(data)
+        path.chmod(0o755 if mode == '100755' else 0o644)
+    return final

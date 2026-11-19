@@ -1,0 +1,132 @@
+import copy
+import hashlib
+import json
+from pathlib import Path
+import sys
+import tempfile
+import unittest
+import urllib.error
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
+import hosted_materials as hosted
+import promote_content as promote
+import serial_content as serial
+
+
+class Ledger:
+    def __init__(self, jobs=()): self.rows=copy.deepcopy(list(jobs)); self.writes=[]
+    def put(self,state,files=None): self.writes.append(copy.deepcopy(state))
+    def jobs(self): return self.rows
+
+
+class HostedTests(unittest.TestCase):
+    def test_private_ledger_required(self):
+        class API:
+            def repo(self,name): return {'private':False}
+        with self.assertRaisesRegex(ValueError,'private'): hosted.Ledger(API(),'production-state')
+
+    def test_external_input_requires_public_archive_consent(self):
+        work={'publication':'public','license':'CC-BY-4.0','work':'WP-2026-0001','record':'WP-2026-0001','current_version':2}
+        detail={'summary':{'archive_consent':False},'publication':{'version':2},'archive':{'source':{}}}
+        def fetch(url,limit):
+            if 'collected-papers' in url: raise urllib.error.HTTPError(url,404,'',{},None)
+            return json.dumps(detail).encode()
+        with self.assertRaisesRegex(ValueError,'archive-eligible'): hosted.public_detail('https://mathesis-omega-research.apps.chrono-ai.fun',work,fetch)
+        detail['summary']['archive_consent']=True
+        self.assertEqual(hosted.public_detail('https://mathesis-omega-research.apps.chrono-ai.fun',work,fetch)[0],'external')
+
+    def test_publication_uncertain_receipt_resolves_original_exact_tree(self):
+        entries={'paper.json':{'sha':'a'*40,'mode':'100644'}}
+        class API:
+            def state(self,name): return ('main','b'*40,'c'*40,entries)
+        ledger=Ledger();ledger.api=API()
+        state={'identity':{'paper':{'repository':'mathesis-papers/example'}},'paper_commit':'d'*40,
+               'publication_intent':{'source_tree':entries,'manifest':{'work':'example'}}}
+        self.assertTrue(hosted.recover_publication(ledger,state))
+        self.assertEqual(state['published_commit'],'b'*40)
+        self.assertEqual(state['phase'],'publication_pending')
+        entries['human.md']={'sha':'e'*40,'mode':'100644'}
+        # Copy the immutable intention before testing an unrelated new edit.
+        state['publication_intent']['source_tree']={'paper.json':{'sha':'a'*40,'mode':'100644'}}
+        with self.assertRaisesRegex(ValueError,'advanced'): hosted.recover_publication(ledger,state)
+
+    def test_canonical_readback_keeps_missing_film_pending_and_accepts_no_visualization(self):
+        base='https://papers.trureturing.org/example/'
+        manifest={'schema':'mathesis.materials.v1','work':'example','version':1,'site_url':base,
+                  'reading':{'en':base+'en/','zh':base+'zh/'},'slides':[
+                      {'language':lang,'pdf_url':base+lang+'.pdf','notes_url':base+lang+'-notes.pdf'} for lang in ('en','zh')],
+                  'videos':[],'visualizations':[]}
+        state={'phase':'publication_pending','identity':{'template_commit':'a'*40,'paper':{'repository':'mathesis-papers/example'}},
+               'expected_manifest':manifest,'published_commit':'b'*40,'visualization':{'decision':'not_useful','reason':'A short argument is clearer in prose.'}}
+        ledger=Ledger()
+        def fetch(url,limit):
+            if '/actions/runs?' in url:return json.dumps({'workflow_runs':[{'id':123,'path':'.github/workflows/pages.yml','head_sha':'b'*40,'status':'completed','conclusion':'success'}]}).encode()
+            return json.dumps(manifest).encode() if url.endswith('.json') else b'<html>reading</html>'
+        def wrong_head(url,limit):
+            if '/actions/runs?' in url:return json.dumps({'workflow_runs':[{'id':1,'path':'.github/workflows/pages.yml','head_sha':'c'*40,'status':'completed','conclusion':'success'}]}).encode()
+            raise AssertionError('Do not bless matching URLs before the checked commit is deployed')
+        self.assertFalse(hosted.readback(ledger,state,wrong_head,lambda url,n:b'%PDF-'))
+        self.assertEqual(state['phase'],'publication_pending')
+        self.assertTrue(hosted.readback(ledger,state,fetch,lambda url,n:b'%PDF-'))
+        self.assertEqual(state['products']['video'],'pending')
+        self.assertEqual(state['products']['visualization'],'not_useful')
+        self.assertEqual(state['products']['story'],'published')
+
+    def test_new_versions_preserve_old_exposition_and_original_doi(self):
+        def entry(data): return (data,'100644')
+        oldpaper={'work':{'work':'note','current_version':1,'repository_name':'10.5281-zenodo.123','doi':'10.5281/zenodo.123'}}
+        newpaper={'work':dict(oldpaper['work'],current_version=2,doi='10.5281/zenodo.456')}
+        original={'paper.json':entry(json.dumps(oldpaper).encode()),'.mathesis/generated.json':entry(json.dumps({'sha256':{'paper.json':'unused'}}).encode()),
+                  'books/note/en/README.md':entry(b'Prior explanation'), 'tools/build.py':entry(b'original build'),
+                  'versions/v1/paper.pdf':entry(b'%PDF-original'), 'human.txt':entry(b'human addition')}
+        original['template-manifest.json']=entry(json.dumps({'files':{'tools/build.py':{'sha256':hashlib.sha256(b'original build').hexdigest(),'mode':'100644'}}}).encode())
+        authored={'paper.json':entry(json.dumps(newpaper).encode()),'.mathesis/generated.json':entry(b'{}'), 'books/note/en/README.md':entry(b'New explanation'), 'tools/build.py':entry(b'new pinned build')}
+        tree=promote.advance_version_tree(original,authored,'note',2,'a'*40)
+        self.assertEqual(tree['versions/v1/paper.pdf'],original['versions/v1/paper.pdf'])
+        self.assertEqual(tree['versions/v1/materials/books/note/en/README.md'][0],b'Prior explanation')
+        self.assertEqual(json.loads(tree['versions/v1/materials/paper.json'][0])['work']['doi'],'10.5281/zenodo.123')
+        self.assertEqual(tree['human.txt'][0],b'human addition')
+        original['tools/build.py']=entry(b'human edit')
+        with self.assertRaisesRegex(ValueError,'human-edited'): promote.advance_version_tree(original,authored,'note',2,'a'*40)
+
+
+class RecoveryTests(unittest.TestCase):
+    def test_template_update_reuses_source_and_original_remote_identity(self):
+        state={'key':'immutable-key','phase':'published','identity':{'template_commit':'a'*40},
+               'source_archive_sha256':'c'*64,'published_commit':'b'*40,'agent_id':'original-agent',
+               'publication_intent':{'source_tree':{}},'expected_manifest':{'version':1}}
+        self.assertTrue(hosted.plan_template_adaptation(state,'d'*40))
+        self.assertEqual(state['key'],'immutable-key')
+        self.assertEqual(state['agent_id'],'original-agent')
+        self.assertEqual(state['identity']['template_commit'],'a'*40)
+        self.assertEqual(state['template_adaptation']['template_commit'],'d'*40)
+        self.assertEqual(state['publication_base'],'b'*40)
+        self.assertNotIn('publication_intent',state)
+        self.assertEqual(state['publication_history'][0]['published_commit'],'b'*40)
+        self.assertEqual(state['phase'],'sources_saved')
+
+    def test_failed_internal_provider_does_not_stop_external_observation(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            for name,value in [('works.json',{'works':[]}),('repositories.json',{}),('publisher.json',{}),('production.json',{})]:
+                serial.write(root/name,value)
+            jobs=[{'schema':'mathesis.cma-content.v1','key':lane,'phase':'intent','lane':lane,
+                   'request':{'workspace_id':'wks_'+lane},'idempotency_key':lane} for lane in ('collection','external')]
+            ledger=Ledger(jobs)
+            class Provider:
+                def __init__(self):self.called=[]
+                def facts(self,workspace):return 'sbx_'+workspace
+                def call(self,method,path,body=None,key=None):
+                    self.called.append((method,path,key))
+                    if method=='POST':
+                        if key=='collection':raise TimeoutError('internal unavailable')
+                        return {'id':'external_operation'}
+                    if 'agent-lifecycle' in path:return {'status':'provisioning'}
+                    raise AssertionError(path)
+            provider=Provider()
+            hosted.reconcile(root,root/'work',{'template_commit':'a'*40},ledger,provider,
+                             {'collection':'wks_collection','external':'wks_external'},None)
+            external=next(s for s in ledger.rows if s['lane']=='external')
+            self.assertEqual(external['lifecycle_id'],'external_operation')
+            self.assertEqual(external['phase'],'provisioning')
+            self.assertEqual(ledger.rows[0]['phase'],'intent')
