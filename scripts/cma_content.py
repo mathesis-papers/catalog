@@ -15,6 +15,7 @@ import os
 from pathlib import Path, PurePosixPath
 import re
 import subprocess
+import sys
 import tarfile
 import urllib.error
 import urllib.parse
@@ -261,9 +262,26 @@ def import_sources(cma, state, repo, run, approved_template_rebase=False):
     actual = {name: {"sha256": hashlib.sha256(data).hexdigest(), "mode": "120000" if mode == 0o120000 else "100755" if mode & 0o111 else "100644"} for name, (data, mode) in files.items()}
     require(actual == handoff["inventory"], "source pack inventory differs")
     book = state["identity"]["paper"]["id"]
-    editable = lambda name: name.startswith("books/" + book + "/") or name == ".mathesis/book.json"
+    editable = lambda name: name.startswith("books/" + book + "/") or name in (".mathesis/book.json", ".mathesis/review.json", ".mathesis/REVIEW.md")
+    generated = set()
     for name in set(before) | set(actual):
-        if not editable(name) and (not approved_template_rebase or name in frozen):
+        if name in ("README.md", "trureturing.lock.json") and before.get(name) != actual.get(name):
+            require(name in before and name in files and actual[name]['mode'] == before[name]['mode'] == '100644',
+                    "generated source index cannot be created, deleted or replaced by a symlink: " + name)
+            original, proposed = (repo / name).read_bytes(), files[name][0]
+            if name == 'README.md':
+                marker = b'\n<!-- Mathesis generated repository guide; refresh with paper.py front. -->\n'
+                require(marker in original and marker in proposed and original.split(marker, 1)[0] == proposed.split(marker, 1)[0],
+                        "CMA changed the frozen README prefix")
+            else:
+                old_lock, new_lock = json.loads(original), json.loads(proposed)
+                require(old_lock.get('schema') == 'trureturing-books.lock.v1'
+                        and old_lock.get('repo') == 'the-omega-institute/trureturing'
+                        and {k:v for k,v in old_lock.items() if k != 'declarations'}
+                            == {k:v for k,v in new_lock.items() if k != 'declarations'},
+                        "CMA changed the admitted formalization revision")
+            generated.add(name)
+        elif not editable(name) and (not approved_template_rebase or name in frozen):
             require(before.get(name) == actual.get(name), "CMA changed a frozen source or managed template: " + name)
         elif name in actual:
             require(actual[name]['mode'] != '120000', 'authored content cannot introduce symlinks')
@@ -280,6 +298,20 @@ def import_sources(cma, state, repo, run, approved_template_rebase=False):
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_bytes(data)
         path.chmod(0o755 if mode & 0o111 else 0o644)
+    # These are template-generated indexes, not free-form worker output. Replay
+    # the installed interfaces and require their independently resolved bytes.
+    # The lock refresh retains the admitted revision; it downloads no Lean build.
+    if generated:
+        commands = []
+        if 'trureturing.lock.json' in generated:
+            commands.append(['./tbook', 'pin', '--refresh'])
+        if 'README.md' in generated:
+            commands.append([sys.executable, 'docs/layer-mathesis/scripts/paper.py', 'front'])
+        with (run / 'import-generated-indexes.log').open('a') as log:
+            for command in commands:
+                subprocess.run(command, cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True)
+        for name in generated:
+            require((repo / name).read_bytes() == files[name][0], "worker source index differs from the installed generator: " + name)
     serial.check_result(handoff["result"], repo)
     serial.write(run / "result.json", handoff["result"])
     serial.write(run / "cma-handoff.json", handoff)

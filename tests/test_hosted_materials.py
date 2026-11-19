@@ -20,6 +20,64 @@ class Ledger:
 
 
 class HostedTests(unittest.TestCase):
+    def test_cleanup_persists_and_reuses_its_key_then_observes_the_original_deletion(self):
+        state={'key':'a'*64,'agent_id':'original-agent','source_archive_sha256':'b'*64}
+        ledger=Ledger()
+        class Provider:
+            def __init__(self):self.deletes=[];self.lose_receipt=True;self.deleted=False;self.stopped=False;self.stops=[]
+            def call(self,method,path,body=None,key=None,missing=False):
+                if method=='POST':
+                    assert path.endswith('/stop') and body=={}
+                    assert key and ledger.writes[-1]['cleanup_stop_key']==key
+                    self.stops.append(key);self.stopped=True
+                    return {}
+                if method=='DELETE':
+                    assert self.stopped
+                    self.deletes.append(key)
+                    assert key and ledger.writes[-1]['cleanup_idempotency_key']==key
+                    if self.lose_receipt:
+                        self.lose_receipt=False
+                        raise TimeoutError('uncertain deletion receipt')
+                    return {'id':'original-cleanup-operation'}
+                return {'status':'deleted' if self.deleted else 'stopped' if self.stopped else 'ready'}
+        provider=Provider()
+        with self.assertRaises(TimeoutError):hosted.cleanup(provider,ledger,state)
+        hosted.cleanup(provider,ledger,state)
+        self.assertEqual(provider.deletes,[state['cleanup_idempotency_key']]*2)
+        self.assertEqual(state['cleanup_receipt_id'],'original-cleanup-operation')
+        self.assertEqual(provider.stops,[state['cleanup_stop_key']])
+        hosted.cleanup(provider,ledger,state)
+        self.assertEqual(len(provider.deletes),2)
+        provider.deleted=True
+        hosted.cleanup(provider,ledger,state)
+        self.assertTrue(state['cleanup_complete'])
+
+    def test_cleanup_waits_for_the_acknowledged_stop_before_deleting(self):
+        state={'key':'a'*64,'agent_id':'original-agent','source_archive_sha256':'b'*64}
+        ledger=Ledger()
+        class Provider:
+            def __init__(self):self.status='ready';self.stops=0;self.deletes=0
+            def call(self,method,path,body=None,key=None,missing=False):
+                if method=='POST':self.stops+=1;return {}
+                if method=='DELETE':
+                    assert self.status=='stopped'
+                    self.deletes+=1;self.status='deleted';return {}
+                return {'status':self.status}
+        provider=Provider()
+        hosted.cleanup(provider,ledger,state)
+        hosted.cleanup(provider,ledger,state)
+        self.assertEqual((provider.stops,provider.deletes),(1,0))
+        provider.status='stopped'
+        hosted.cleanup(provider,ledger,state)
+        self.assertEqual((provider.stops,provider.deletes),(1,1))
+        self.assertTrue(state['cleanup_complete'])
+
+    def test_cleanup_never_deletes_the_only_copy_of_work(self):
+        class Provider:
+            def call(self,*args,**kwargs):raise AssertionError('source was not preserved')
+        with self.assertRaisesRegex(ValueError,'only copy'):
+            hosted.cleanup(Provider(),Ledger(),{'key':'a'*64,'agent_id':'original-agent'})
+
     def test_private_ledger_required(self):
         class API:
             def repo(self,name): return {'private':False}

@@ -171,10 +171,36 @@ def cleanup(cma, ledger, state):
     if not state.get('agent_id') or state.get('cleanup_complete'):
         return
     require(state.get('source_archive_sha256'), 'never delete the only copy of authored work')
-    if not state.get('cleanup_intent'):
-        state['cleanup_intent'] = True
+    agent = cma.call('GET','/api/v1/agents/'+state['agent_id'],missing=True)
+    if agent is None or agent.get('status') == 'deleted':
+        state['cleanup_complete'] = True
         ledger.put(state)
-    cma.call('DELETE','/api/v1/agents/'+state['agent_id'],missing=True)
+        return
+    if agent.get('status') != 'stopped':
+        if not state.get('cleanup_stop_key'):
+            state['cleanup_stop_key'] = 'mathesis:paper-materials:stop:' + state['key']
+            ledger.put(state)
+        if not state.get('cleanup_stop_requested'):
+            cma.call('POST','/api/v1/agents/'+state['agent_id']+'/stop',{},key=state['cleanup_stop_key'])
+            state['cleanup_stop_requested'] = True
+            ledger.put(state)
+        agent = cma.call('GET','/api/v1/agents/'+state['agent_id'],missing=True)
+        if agent is None or agent.get('status') == 'deleted':
+            state['cleanup_complete'] = True
+            ledger.put(state)
+            return
+        if agent.get('status') != 'stopped':
+            return
+    if not state.get('cleanup_intent') or not state.get('cleanup_idempotency_key'):
+        state['cleanup_intent'] = True
+        state['cleanup_idempotency_key'] = 'mathesis:paper-materials:delete:' + state['key']
+        ledger.put(state)
+    if not state.get('cleanup_requested'):
+        receipt = cma.call('DELETE','/api/v1/agents/'+state['agent_id'],key=state['cleanup_idempotency_key'],missing=True)
+        state['cleanup_requested'] = True
+        if receipt and receipt.get('id'):
+            state['cleanup_receipt_id'] = cma_content.identifier(receipt['id'])
+        ledger.put(state)
     agent = cma.call('GET','/api/v1/agents/'+state['agent_id'],missing=True)
     if agent is None or agent.get('status') == 'deleted':
         state['cleanup_complete'] = True
