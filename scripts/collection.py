@@ -122,21 +122,17 @@ def relocate_book(files, old, new):
     found = [base for base in bases if config.count(base) == 1]
     if config.count(repo_line) != 1 or len(found) != 1:
         raise ValueError("book address config differs")
-    # Upstream book/request contracts use the original repository identity as
-    # a stable registration key and book fixture slug. GitHub redirects that
-    # identity to this same repository. Public navigation uses the new base.
-    config = config.replace(repo_line, f'repo = "mathesis-papers/{old}"').replace(found[0], f'base_url = "https://papers.trureturing.org/{new}/"')
-    paper["work"]["repository_name"] = old
-    encode = lambda value: (json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2) + "\n").encode()
-    encoded = encode(paper)
-    marker["sha256"]["paper.json"] = hashlib.sha256(encoded).hexdigest()
+    # The actual authored identity is the request registration key. It may be
+    # either repository address; choosing an alias would silently invalidate
+    # existing registrations. Only public navigation moves.
+    config = config.replace(found[0], f'base_url = "https://papers.trureturing.org/{new}/"')
     front_marker = b"\n<!-- Mathesis generated repository guide; refresh with paper.py front. -->\n"
     prefix, separator, guide = files["README.md"].partition(front_marker)
     if not separator or marker["sha256"]["README.md"] != hashlib.sha256(prefix).hexdigest():
         raise ValueError("book README catalog prefix differs")
     guide = guide.replace(f"https://papers.trureturing.org/{old}/".encode(),
                           f"https://papers.trureturing.org/{new}/".encode())
-    return {"paper.json": encoded, ".mathesis/generated.json": encode(marker), "site.toml": config.encode(),
+    return {"paper.json": files["paper.json"], ".mathesis/generated.json": files[".mathesis/generated.json"], "site.toml": config.encode(),
             "README.md": prefix + separator + guide}
 
 
