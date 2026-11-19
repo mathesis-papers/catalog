@@ -2,6 +2,7 @@
 import importlib.util
 import io
 import json
+import os
 from pathlib import Path
 import tempfile
 import subprocess
@@ -70,6 +71,37 @@ class SerialContent(unittest.TestCase):
         material["slides"].append({"language": "zh", "pdf_url": "zh.pdf"})
         with self.assertRaisesRegex(ValueError, "speaker notes"):
             runner.check_material_products(material, self.result["visualization"])
+
+    def test_epub_validation_rejects_missing_editions_and_successful_skips(self):
+        config = self.root / "books/paper/book.toml"
+        config.parent.mkdir(parents=True)
+        config.write_text('[book]\nversion="2"\neditions=["zh","en"]\n[outputs]\nepub=true\n')
+        with (self.root / "checks.log").open("w") as log:
+            with self.assertRaisesRegex(ValueError, "editions are not built"):
+                runner.validate_epubs(self.root, "paper", dict(os.environ), log)
+            outputs = self.root / "build/dist/paper"
+            outputs.mkdir(parents=True)
+            for lang in ("zh", "en"):
+                (outputs / f"paper-2-{lang}.epub").write_bytes(b"existing product")
+            tools = self.root / "tools/tbook"
+            tools.mkdir(parents=True)
+            (tools / "__init__.py").write_text("")
+            checker = tools / "pandoc.py"
+            checker.write_text('from types import SimpleNamespace\ndef check_epub(path):\n'
+                               '    return SimpleNamespace(valid=True, skipped="epubcheck not installed", errors=[])\n')
+            java = self.root / "bin/java"
+            java.parent.mkdir()
+            java.write_text("#!/bin/sh\nexit 0\n")
+            java.chmod(0o755)
+            env = dict(os.environ, PATH=str(java.parent) + os.pathsep + os.environ.get("PATH", ""))
+            with self.assertRaises(subprocess.CalledProcessError):
+                runner.validate_epubs(self.root, "paper", env, log)
+            checker.write_text(checker.read_text().replace('skipped="epubcheck not installed"', 'skipped=""'))
+            runner.validate_epubs(self.root, "paper", env, log)
+        checked = (self.root / "checks.log").read_text()
+        self.assertIn("EPUB not validated", checked)
+        self.assertIn("paper-2-zh.epub", checked)
+        self.assertIn("paper-2-en.epub", checked)
 
     def test_workspace_cannot_have_two_workers(self):
         with runner.exclusive(self.root):

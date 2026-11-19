@@ -22,6 +22,7 @@ import shutil
 import subprocess
 import sys
 import tarfile
+import tomllib
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import collection
@@ -318,6 +319,33 @@ def previous_attempt(workspace, paper):
     return run
 
 
+def validate_epubs(repo, book, env, log):
+    """Do not count optional upstream validation skips as checked products."""
+    config = tomllib.loads((repo / "books" / book / "book.toml").read_text())
+    if not config.get("outputs", {}).get("epub", True):
+        return
+    metadata = config["book"]
+    paths = [repo / "build/dist" / book / f"{book}-{metadata['version']}-{lang}.epub"
+             for lang in metadata["editions"]]
+    if not paths or any(not path.is_file() for path in paths):
+        raise ValueError("configured EPUB editions are not built")
+    subprocess.run(["java", "-version"], cwd=repo, env=env, check=True,
+                   stdout=log, stderr=subprocess.STDOUT, timeout=15)
+    python = repo / ".venv/bin/python"
+    code = """import sys
+from pathlib import Path
+sys.path.insert(0, 'tools')
+from tbook.pandoc import check_epub
+for name in sys.argv[1:]:
+    report = check_epub(Path(name))
+    if report.skipped or not report.valid:
+        raise SystemExit(f'EPUB not validated: {name}: {report.skipped or report.errors}')
+    print(f'EPUB validated: {name}')
+"""
+    subprocess.run([str(python) if python.exists() else sys.executable, "-c", code, *map(str, paths)],
+                   cwd=repo, env=env, check=True, stdout=log, stderr=subprocess.STDOUT)
+
+
 def validate_run(repo, run, build=False):
     result = read(run / "result.json")
     check_result(result, repo)
@@ -331,6 +359,8 @@ def validate_run(repo, run, build=False):
         if not rendered.is_file() or read(rendered) != site_inventory(repo):
             raise ValueError("rendered output changed or lacks a build binding; rebuild the existing products without another model call")
     env = dict(os.environ, PATH=str(repo / ".venv/bin") + os.pathsep + os.environ.get("PATH", ""))
+    if env.get("JAVA_HOME"):
+        env["PATH"] = str(Path(env["JAVA_HOME"]) / "bin") + os.pathsep + env["PATH"]
     mapping = read(repo / ".mathesis/book.json")
     checks = [[sys.executable, "docs/layer-mathesis/scripts/paper.py", "front"]] if build else []
     checks.extend([[sys.executable, "docs/layer-mathesis/scripts/paper.py", "check", "--complete"], ["./tbook", "check"]])
@@ -345,7 +375,7 @@ def validate_run(repo, run, build=False):
             env["VECLIB_MAXIMUM_THREADS"] = "1"
             film_build = ["./tbook", "build", "films", "--book", mapping["book"]]
             checks.append(film_build)
-        for target in ("html", "pdf", "slides"):
+        for target in ("html", "pdf", "epub", "slides"):
             checks.append(["./tbook", "build", target, "--book", mapping["book"]])
         if result["visualization"]["decision"] == "built":
             checks.append(["./tbook", "build", "viz", "--book", mapping["book"]])
@@ -367,6 +397,7 @@ def validate_run(repo, run, build=False):
                     # through that interface instead of blessing stale output.
                     subprocess.run(film_build, cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
                     reconcile_film_durations(repo, mapping["book"], films, update=False)
+        validate_epubs(repo, mapping["book"], env, log)
         if build:
             subprocess.run(["node", str(ROOT / "scripts/paper_site_qa.cjs"), str(repo), str(run / "qa")],
                            cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
