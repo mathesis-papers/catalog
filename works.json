@@ -22,6 +22,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 86029,
+        "sha256": "1d6c6694fa9d6c135aaa35940d8e1efb59bd797fb0ec203b9259d7770ddac8dc",
         "url": "/api/v1/collected-papers/a320043-square-values-refutation/files/pdf?version=2"
       },
       "previous_version": null,
@@ -30,6 +32,8 @@
       "record": "a320043-square-values-refutation",
       "repository_name": "a320043-square-values-refutation",
       "source": {
+        "bytes": 15461,
+        "sha256": "cba154200baa956b653c5682fb45e14c940dedc584ee19b9e08ff7880f5f5144",
         "url": "/api/v1/collected-papers/a320043-square-values-refutation/files/source?version=2"
       },
       "title": "OEIS A320043, COMMENTS, revision 43: a square-value refutation extending Zhu's Pell-prime result (2011)",
@@ -65,6 +69,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 88686,
+        "sha256": "e4ca73e37356301dc848fd0b91405066a52c8a635666ec10b3e5176e75cb0347",
         "url": "/api/v1/collected-papers/abbott-2019-sequential-weak-pointer-bound/files/pdf?version=2"
       },
       "previous_version": null,
@@ -73,6 +79,8 @@
       "record": "abbott-2019-sequential-weak-pointer-bound",
       "repository_name": "abbott-2019-sequential-weak-pointer-bound",
       "source": {
+        "bytes": 15823,
+        "sha256": "98ca2b3100b6a0d6d57ee2e1e44a2364c7c6370d874a23017d567daadaa431b6",
         "url": "/api/v1/collected-papers/abbott-2019-sequential-weak-pointer-bound/files/source?version=2"
       },
       "title": "Extending Sun–Luo–Ye bounds to refute Abbott et al.'s pointer-product conjecture",
@@ -108,6 +116,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 110097,
+        "sha256": "503b4046d6a4750b9f8538ced6949d05086fb5b1f1d22bed5edd3b260e0a38d1",
         "url": "/api/v1/collected-papers/aks2610-twin-free-theta-separation/files/pdf?version=2"
       },
       "previous_version": null,
@@ -116,6 +126,8 @@
       "record": "aks2610-twin-free-theta-separation",
       "repository_name": "aks2610-twin-free-theta-separation",
       "source": {
+        "bytes": 22922,
+        "sha256": "52a9dcd04c04e876fb58da92a213e37f6ed3c33388b8e70382c2c374fbdfca90",
         "url": "/api/v1/collected-papers/aks2610-twin-free-theta-separation/files/source?version=2"
       },
       "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
@@ -151,6 +163,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 78705,
+        "sha256": "4bdf3ece7299b4053a045d88539ea211d37b0406794155ab03eed849b4075452",
         "url": "/api/v1/collected-papers/alikhani-griswold-2026-connected-minus-four-family/files/pdf?version=1"
       },
       "previous_version": null,
@@ -159,6 +173,8 @@
       "record": "alikhani-griswold-2026-connected-minus-four-family",
       "repository_name": "10.5281-zenodo.23919065",
       "source": {
+        "bytes": 13887,
+        "sha256": "f2df6166ecbd33f1e983477f29f1f13293da93692a1125a90c6c96b8724ae935",
         "url": "/api/v1/collected-papers/alikhani-griswold-2026-connected-minus-four-family/files/source?version=1"
       },
       "title": "Alikhani–Griswold, Section 4(3): connected graphs with domination root −4",
@@ -194,6 +210,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 80049,
+        "sha256": "cb6925ab5fbb293057703a6f10abb8171b5fcfcfea3c13baa75fc6ff15ab454f",
         "url": "/api/v1/collected-papers/b164660-chebfloor/files/pdf?version=1"
       },
       "previous_version": null,
@@ -202,6 +220,8 @@
       "record": "b164660-chebfloor",
       "repository_name": "10.5281-zenodo.23884882",
       "source": {
+        "bytes": 12455,
+        "sha256": "b330f3067e11838d06d009d798130be5e471e606927578ba408ea77e0c20070d",
         "url": "/api/v1/collected-papers/b164660-chebfloor/files/source?version=1"
       },
       "title": "OEIS A164660, final FORMULA (29 May 2016): Chebyshev numerators and floor products",
@@ -237,6 +257,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 107744,
+        "sha256": "a0fbaedc2c607e5862f3580fac346a6e5f16e7474e92a1cfe1d19225d09cefc8",
         "url": "/api/v1/collected-papers/bajnok-beatty-original-conjecture-4-1/files/pdf?version=2"
       },
       "previous_version": null,
@@ -245,6 +267,8 @@
       "record": "bajnok-beatty-original-conjecture-4-1",
       "repository_name": "10.5281-zenodo.23931730",
       "source": {
+        "bytes": 19914,
+        "sha256": "64ea5cfdeed1218940783c144c01fd4515f45497ea15a837fc19d41d4bd4c043",
         "url": "/api/v1/collected-papers/bajnok-beatty-original-conjecture-4-1/files/source?version=2"
       },
       "title": "Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order",
@@ -280,6 +304,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 108445,
+        "sha256": "734a22a1e6a901dbed284b3c75196fc10976ca431ee19af7325f795faf20ffde",
         "url": "/api/v1/collected-papers/bala295462/files/pdf?version=4"
       },
       "previous_version": null,
@@ -288,6 +314,8 @@
       "record": "bala295462",
       "repository_name": "10.5281-zenodo.23971278",
       "source": {
+        "bytes": 18160,
+        "sha256": "5b1938a1ca48fb1e3b7ac4e6075d8acc6475be15065348779f352df0f42d5e89",
         "url": "/api/v1/collected-papers/bala295462/files/source?version=4"
       },
       "title": "Parity and product extensions of Bala's divisibilities (2026): OEIS A295462, References (record #19; contribution dated 23 August 2026)",
@@ -323,6 +351,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 102360,
+        "sha256": "c9e99e4e9e7983fadddb3c185102244da74c97c8633265e42da43973f4f30ed9",
         "url": "/api/v1/collected-papers/bouafia-diversity-negative-type/files/pdf?version=2"
       },
       "previous_version": null,
@@ -331,6 +361,8 @@
       "record": "bouafia-diversity-negative-type",
       "repository_name": "bouafia-diversity-negative-type",
       "source": {
+        "bytes": 122736,
+        "sha256": "9d497ce78b9b00a1fd94d95b5ce5f312b9075298be6dfa034411e03c7104d907",
         "url": "/api/v1/collected-papers/bouafia-diversity-negative-type/files/source?version=2"
       },
       "title": "Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)",
@@ -366,6 +398,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 90845,
+        "sha256": "b4b28d1bd7cda426d37481e91318edf131c5b41a7afe818234a85d20ff4a38b1",
         "url": "/api/v1/collected-papers/bu-gu-jaffe-2025-mixed-state-inverse-sumset/files/pdf?version=2"
       },
       "previous_version": null,
@@ -374,6 +408,8 @@
       "record": "bu-gu-jaffe-2025-mixed-state-inverse-sumset",
       "repository_name": "10.5281-zenodo.23885950",
       "source": {
+        "bytes": 11530,
+        "sha256": "80a80ddb1885b50e1da525787c20ee0f8bf4f2517806abcedbac96de8c4131ac",
         "url": "/api/v1/collected-papers/bu-gu-jaffe-2025-mixed-state-inverse-sumset/files/source?version=2"
       },
       "title": "A counterexample to Bu--Gu--Jaffe's expected mixed-state inverse sumset estimate",
@@ -409,6 +445,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 97471,
+        "sha256": "332a6641a91997beec7ab6360a0779fbce5133d7dcc8517bbce4490154b79aff",
         "url": "/api/v1/collected-papers/chen-chen-step-m-eulerian-parity-positivity/files/pdf?version=2"
       },
       "previous_version": null,
@@ -417,6 +455,8 @@
       "record": "chen-chen-step-m-eulerian-parity-positivity",
       "repository_name": "10.5281-zenodo.23957559",
       "source": {
+        "bytes": 20148,
+        "sha256": "f84d29a7bc1570d7d681c23cd28833eb7f96acc428627fc4affd04629f158638",
         "url": "/api/v1/collected-papers/chen-chen-step-m-eulerian-parity-positivity/files/source?version=2"
       },
       "title": "Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)",
@@ -452,6 +492,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 80647,
+        "sha256": "5f9f543e2f98291c2197122b3251a36803b1f7df1a0990dd861c8b00a86fe8f4",
         "url": "/api/v1/collected-papers/chiral-event-parity-minimality/files/pdf?version=2"
       },
       "previous_version": null,
@@ -460,6 +502,8 @@
       "record": "chiral-event-parity-minimality",
       "repository_name": "10.5281-zenodo.23934999",
       "source": {
+        "bytes": 13900,
+        "sha256": "fe419ff0377c5d68996af0f957f3e5015754571831ca6b1a8ce9e99089ccd1a0",
         "url": "/api/v1/collected-papers/chiral-event-parity-minimality/files/source?version=2"
       },
       "title": "The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary",
@@ -495,6 +539,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 99278,
+        "sha256": "42f725eea09152e88c0b1ffada643678841660a30dbd15a8363eaa32ef66103a",
         "url": "/api/v1/collected-papers/consiglio-apollaro-wiesniak-2022-xmems-css-shape/files/pdf?version=2"
       },
       "previous_version": null,
@@ -503,6 +549,8 @@
       "record": "consiglio-apollaro-wiesniak-2022-xmems-css-shape",
       "repository_name": "10.5281-zenodo.23904463",
       "source": {
+        "bytes": 15768,
+        "sha256": "ae058574e3248138386a005ed0cdc912b938450bbe292da15000dce463670ec8",
         "url": "/api/v1/collected-papers/consiglio-apollaro-wiesniak-2022-xmems-css-shape/files/source?version=2"
       },
       "title": "Refuting the X-MEMS closest-separable-state conjecture in arXiv:2209.01430v2, Appendix A, Eq. (A11)",
@@ -538,6 +586,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 77377,
+        "sha256": "3d7598ee5a99a29ff963e4e4cbb6588a4709258edd552feb4707deb731027c42",
         "url": "/api/v1/collected-papers/denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance/files/pdf?version=4"
       },
       "previous_version": null,
@@ -546,6 +596,8 @@
       "record": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance",
       "repository_name": "10.5281-zenodo.23884884",
       "source": {
+        "bytes": 18540,
+        "sha256": "3348000be59f47cf185efbb70419f585656f0bd3a2a9746f7fa173b0a4f4cc52",
         "url": "/api/v1/collected-papers/denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance/files/source?version=4"
       },
       "title": "Refuting the trace-distance case of axiom (T4) of Denis, Lacaille, Martin and Serrano-Ensástiga",
@@ -581,6 +633,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 84360,
+        "sha256": "c7db31e8aa41e264144dab37ad4eb3756f6e82a21346a3d0edfef8407133adbe",
         "url": "/api/v1/collected-papers/ggps2025/files/pdf?version=1"
       },
       "previous_version": null,
@@ -589,6 +643,8 @@
       "record": "ggps2025",
       "repository_name": "10.5281-zenodo.23920556",
       "source": {
+        "bytes": 94345,
+        "sha256": "04db4d84ada6184ca8b0deaaa870a6f111aff5ece8d8f670ff8f4d86ec4c4d83",
         "url": "/api/v1/collected-papers/ggps2025/files/source?version=1"
       },
       "title": "Counterexamples to Conjecture 25 and Remark 6 of Garrappa–Gerhold–Popolizio–Simon: Global modulus lower bounds in arXiv:2410.11852v4",
@@ -624,6 +680,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 69025,
+        "sha256": "9e2b06434d01fef18dfb7929c4cda7d4a53dd4d09e78b2bdcf3a4f13cbef86cd",
         "url": "/api/v1/collected-papers/hardin-barker-a209723-edge-differences/files/pdf?version=2"
       },
       "previous_version": null,
@@ -632,6 +690,8 @@
       "record": "hardin-barker-a209723-edge-differences",
       "repository_name": "10.5281-zenodo.23903300",
       "source": {
+        "bytes": 14396,
+        "sha256": "db9ef08096ef5ad46737453548c5e0375fdc76b6ac445569d3e6dab2f344d6ce",
         "url": "/api/v1/collected-papers/hardin-barker-a209723-edge-differences/files/source?version=2"
       },
       "title": "OEIS A209723: Barker's conjectures on distinct clockwise edge differences",
@@ -667,6 +727,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 108493,
+        "sha256": "305c7dc094953b40a24b7d4026344b8eb59023fdc1862e14829947590ddd5080",
         "url": "/api/v1/collected-papers/he-tubbenhauer-2025-null-tensor-summand/files/pdf?version=2"
       },
       "previous_version": null,
@@ -675,6 +737,8 @@
       "record": "he-tubbenhauer-2025-null-tensor-summand",
       "repository_name": "he-tubbenhauer-2025-null-tensor-summand",
       "source": {
+        "bytes": 18554,
+        "sha256": "63943470c0a544408236a63faca97c1229a5ed602da3e2184c16b2489fcb27a9",
         "url": "/api/v1/collected-papers/he-tubbenhauer-2025-null-tensor-summand/files/source?version=2"
       },
       "title": "Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem",
@@ -710,6 +774,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 99832,
+        "sha256": "e942ec3e50473014eab69d1192e0ca42c3b8e9d0722071409eecf5117764a1fa",
         "url": "/api/v1/collected-papers/hexagon-perp-line-counterexamples/files/pdf?version=2"
       },
       "previous_version": null,
@@ -718,6 +784,8 @@
       "record": "hexagon-perp-line-counterexamples",
       "repository_name": "10.5281-zenodo.23904467",
       "source": {
+        "bytes": 14641,
+        "sha256": "c6ec59a03b18b53642e22b15d1926677b8abdef80445d7309c322413a1ba2972",
         "url": "/api/v1/collected-papers/hexagon-perp-line-counterexamples/files/source?version=2"
       },
       "title": "A degree-12 counterexample to Saniga et al.'s Section 4.4 line-subgeometry conjecture",
@@ -753,6 +821,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 81098,
+        "sha256": "8d00a9ce0fa2f9d5840c5fbb52ea033260f6f69ba59f27138c8d4671c760f6b1",
         "url": "/api/v1/collected-papers/huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound/files/pdf?version=4"
       },
       "previous_version": null,
@@ -761,6 +831,8 @@
       "record": "huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound",
       "repository_name": "10.5281-zenodo.23885960",
       "source": {
+        "bytes": 26901,
+        "sha256": "76b2a0c39560d94ce4fb33706f03cf4c151e935661119862df985e05bf29e7a1",
         "url": "/api/v1/collected-papers/huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound/files/source?version=4"
       },
       "title": "Reflection-symmetric diagonal synthesis: resolving a conjecture of Huang, Kosugi, Nishi and Matsushita",
@@ -796,6 +868,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 75130,
+        "sha256": "aa102b2c254cc785cdd3e6a1880fd60008c64e5a0e19e98cac23bf2a89f26396",
         "url": "/api/v1/collected-papers/huang-stoica-xia-zhong-2020-tree-equations-nonconstant/files/pdf?version=2"
       },
       "previous_version": null,
@@ -804,6 +878,8 @@
       "record": "huang-stoica-xia-zhong-2020-tree-equations-nonconstant",
       "repository_name": "10.5281-zenodo.23935003",
       "source": {
+        "bytes": 14150,
+        "sha256": "2a6ba6d8f60e700da4b7252088e84ce50bb4ea230d1b4152bbb3250254a1c25a",
         "url": "/api/v1/collected-papers/huang-stoica-xia-zhong-2020-tree-equations-nonconstant/files/source?version=2"
       },
       "title": "Counterexamples to Conjectures 3 and 4 of Huang, Stoica, Xia and Zhong (arXiv:2006.06716v1, Section 5.2, printed page 32)",
@@ -839,6 +915,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 70185,
+        "sha256": "ac14a9517f2b9f0aedce316c2b125eee2757a27ca32bdfca41490393c664008b",
         "url": "/api/v1/collected-papers/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing/files/pdf?version=1"
       },
       "previous_version": null,
@@ -847,6 +925,8 @@
       "record": "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing",
       "repository_name": "10.5281-zenodo.23904475",
       "source": {
+        "bytes": 12096,
+        "sha256": "f2c7ce85df347bfe8ef46202b170129c3baca0698e3ca493ec4e4879eca7e1f8",
         "url": "/api/v1/collected-papers/kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing/files/source?version=1"
       },
       "title": "Earliest swapping for every chain length: Kamin et al. (2023), Section IV D 1, Eq. (41)",
@@ -882,6 +962,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 81478,
+        "sha256": "56b0a4b828fbdc8ce42852041a899a988f7f063fcdb4f0f4e6b2476d9fe4359a",
         "url": "/api/v1/collected-papers/kang-jager-2026-universal-permutative-lift-refutation/files/pdf?version=2"
       },
       "previous_version": null,
@@ -890,6 +972,8 @@
       "record": "kang-jager-2026-universal-permutative-lift-refutation",
       "repository_name": "10.5281-zenodo.23885964",
       "source": {
+        "bytes": 12194,
+        "sha256": "d72a96ff874e970cc96ada12c1d20bd30a456dfa7105c8b31e1e65da9b790266",
         "url": "/api/v1/collected-papers/kang-jager-2026-universal-permutative-lift-refutation/files/source?version=2"
       },
       "title": "A negative answer to Kang–Jäger's Question 1.10 on permutative lifts",
@@ -925,6 +1009,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 102897,
+        "sha256": "ca782a8ae13d0ed127005ac496b1ea27e9d89b8e5272471597ab9a30d0f95ff7",
         "url": "/api/v1/collected-papers/kmvq31-sl3-obstruction/files/pdf?version=2"
       },
       "previous_version": null,
@@ -933,6 +1019,8 @@
       "record": "kmvq31-sl3-obstruction",
       "repository_name": "10.5281-zenodo.23957572",
       "source": {
+        "bytes": 18925,
+        "sha256": "82a80ae1f631b524c826460904f6274a15763516fc59277dea73f95c1234bf2e",
         "url": "/api/v1/collected-papers/kmvq31-sl3-obstruction/files/source?version=2"
       },
       "title": "A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras",
@@ -968,6 +1056,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 78458,
+        "sha256": "c54c7ad4aae7872c3e36d9f71ff43fe03c910aab3c3262ea84a414826f6fb027",
         "url": "/api/v1/collected-papers/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8/files/pdf?version=3"
       },
       "previous_version": null,
@@ -976,6 +1066,8 @@
       "record": "koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8",
       "repository_name": "10.5281-zenodo.23904481",
       "source": {
+        "bytes": 92531,
+        "sha256": "9c9d372fc4c851fa947a403e952ecdb4c03e29d15950b4be56309fd910bae0ed",
         "url": "/api/v1/collected-papers/koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8/files/source?version=3"
       },
       "title": "The 2n−1 arc minimum in Koljančić–Oblak, Problem 1.8 (p. 759)",
@@ -1011,6 +1103,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 86203,
+        "sha256": "f4926754b9bdfa14458a7b888ba5cb54ae24806fb067d0d740685602e5e35062",
         "url": "/api/v1/collected-papers/koljancic-oblak-2026-question-5-11-even-loop-path/files/pdf?version=2"
       },
       "previous_version": null,
@@ -1019,6 +1113,8 @@
       "record": "koljancic-oblak-2026-question-5-11-even-loop-path",
       "repository_name": "10.5281-zenodo.23920567",
       "source": {
+        "bytes": 21819,
+        "sha256": "96421268e1b7be2fd1d42a02285a6c123bf650b646133daef546dbd00f47d090",
         "url": "/api/v1/collected-papers/koljancic-oblak-2026-question-5-11-even-loop-path/files/source?version=2"
       },
       "title": "Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths",
@@ -1054,6 +1150,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 113213,
+        "sha256": "1a24a365e94677c5a949c9fafeab48e65cc2e9a0031402738f99932b2d1f60f0",
         "url": "/api/v1/collected-papers/kurk396563/files/pdf?version=2"
       },
       "previous_version": null,
@@ -1062,6 +1160,8 @@
       "record": "kurk396563",
       "repository_name": "kurk396563",
       "source": {
+        "bytes": 18514,
+        "sha256": "ed4a98924bc8e3d3dc25b3302f5f79870f0500f8e4b20a000714a412edee476a",
         "url": "/api/v1/collected-papers/kurk396563/files/source?version=2"
       },
       "title": "Corrected formulas and integer exponents for Amdeberhan–Ekhad (2022): Kurkov's OEIS A396563 FORMULA conjecture, revision 15 (1 June 2026)",
@@ -1097,6 +1197,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 74342,
+        "sha256": "19e07c579f04c0eced139bfe405939713096e4edd0d556e3740427da1dac8e97",
         "url": "/api/v1/collected-papers/malkoun-2026-mo512579-jordan-elementary/files/pdf?version=1"
       },
       "previous_version": null,
@@ -1105,6 +1207,8 @@
       "record": "malkoun-2026-mo512579-jordan-elementary",
       "repository_name": "10.5281-zenodo.23920582",
       "source": {
+        "bytes": 11812,
+        "sha256": "23c1ed9555e3d32c5cc6f8b423ff147ae75d2151015e0d09ba54ab41293664a7",
         "url": "/api/v1/collected-papers/malkoun-2026-mo512579-jordan-elementary/files/source?version=1"
       },
       "title": "MathOverflow 512579, revision 1: The elementary symmetric inequality for a Hermitian Jordan product",
@@ -1142,6 +1246,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 84411,
+        "sha256": "452af97384302ff222fac940759d321ec76bf44e80ddd4e1eca8e78b8bfcab38",
         "url": "/api/v1/collected-papers/mathar-a027182-closed-form/files/pdf?version=4"
       },
       "previous_version": null,
@@ -1150,6 +1256,8 @@
       "record": "mathar-a027182-closed-form",
       "repository_name": "10.5281-zenodo.23884889",
       "source": {
+        "bytes": 16405,
+        "sha256": "a36826a45523cdafc39b1f2055e51130f9e6af99908175fa1fb01569ec53e0cf",
         "url": "/api/v1/collected-papers/mathar-a027182-closed-form/files/source?version=4"
       },
       "title": "Proof of Mathar's conjecture on OEIS A027182: a closed form and the six-term recurrence",
@@ -1185,6 +1293,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 82773,
+        "sha256": "9a6bbd4b87f272350065b27f92ef8589b90c55a4aa357ef8c76236747c67ec13",
         "url": "/api/v1/collected-papers/mathoverflow-469781-weighted-orthogonal-minors/files/pdf?version=2"
       },
       "previous_version": null,
@@ -1193,6 +1303,8 @@
       "record": "mathoverflow-469781-weighted-orthogonal-minors",
       "repository_name": "10.5281-zenodo.23931737",
       "source": {
+        "bytes": 14409,
+        "sha256": "b20fcaf33adee2ae534ff9cdb6b1be5e8a92fd02d76b15445f946edfc4c9ce02",
         "url": "/api/v1/collected-papers/mathoverflow-469781-weighted-orthogonal-minors/files/source?version=2"
       },
       "title": "Proof of the weighted-minor inequality in MathOverflow 469781",
@@ -1228,6 +1340,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 89479,
+        "sha256": "1ff6e176bba5f4a136715d973b1e7aab97d0c722b44ddeba455ea32ecb0f20f5",
         "url": "/api/v1/collected-papers/mathoverflow-513954-singular-diagonal-downdate-inertia/files/pdf?version=2"
       },
       "previous_version": null,
@@ -1236,6 +1350,8 @@
       "record": "mathoverflow-513954-singular-diagonal-downdate-inertia",
       "repository_name": "10.5281-zenodo.23920597",
       "source": {
+        "bytes": 17687,
+        "sha256": "54c90cb282486ee24e36c65945340c9b2f181b483878cf1152044205d858ff24",
         "url": "/api/v1/collected-papers/mathoverflow-513954-singular-diagonal-downdate-inertia/files/source?version=2"
       },
       "title": "MathOverflow 513954, revision 2: singular signed downdates, fixed coordinates, and a sharp polynomial sphere bound",
@@ -1271,6 +1387,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 125122,
+        "sha256": "2732d153a233a18b44e1188049e3ed0eb0a5dd07b23df354d16b2246d5dc962c",
         "url": "/api/v1/collected-papers/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/files/pdf?version=3"
       },
       "previous_version": null,
@@ -1279,6 +1397,8 @@
       "record": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy",
       "repository_name": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy",
       "source": {
+        "bytes": 23398,
+        "sha256": "80e4a36468af64e9b9d357a05a1dc4b79adb31097b47396c0aa5b385bb699d98",
         "url": "/api/v1/collected-papers/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/files/source?version=3"
       },
       "title": "Zero-mode corrections and closed bubble counts in Mukherjee et al. (2021, Sec. III, p. 7, third paragraph): extending Hoshino (2007) and Brown–Hoshino (2008)",
@@ -1314,6 +1434,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 103012,
+        "sha256": "3567c8c170be766be683a3af63dbfabc336094af604e1f4c285b08d060297162",
         "url": "/api/v1/collected-papers/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/files/pdf?version=3"
       },
       "previous_version": null,
@@ -1322,6 +1444,8 @@
       "record": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
       "repository_name": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
       "source": {
+        "bytes": 15951,
+        "sha256": "60795e9521b046dba2e73d47f9ccf7764e68a01890633c724d29f9e3d9391a20",
         "url": "/api/v1/collected-papers/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/files/source?version=3"
       },
       "title": "Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)",
@@ -1357,6 +1481,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 103261,
+        "sha256": "8c85d4b11398ba174f0332ccdc1555d60eea63a55d2dd7cac23ee31e70730521",
         "url": "/api/v1/collected-papers/oeis-a189733-curtz-denominator-conjecture/files/pdf?version=2"
       },
       "previous_version": null,
@@ -1365,6 +1491,8 @@
       "record": "oeis-a189733-curtz-denominator-conjecture",
       "repository_name": "10.5281-zenodo.23957583",
       "source": {
+        "bytes": 22046,
+        "sha256": "60c7720a75ab65f75bf8a823a7df84e59e8d78e57680ddeca38ebfbeea1e9d7d",
         "url": "/api/v1/collected-papers/oeis-a189733-curtz-denominator-conjecture/files/source?version=2"
       },
       "title": "Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011",
@@ -1400,6 +1528,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 122928,
+        "sha256": "b277246578a47bf9de229819d5d638b278417a703d46d99a1f8361fb9b0a3ee4",
         "url": "/api/v1/collected-papers/oeis-a208509-affine-polynomial-pair-binomial-coefficients/files/pdf?version=2"
       },
       "previous_version": null,
@@ -1408,6 +1538,8 @@
       "record": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
       "repository_name": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
       "source": {
+        "bytes": 146803,
+        "sha256": "125c45af0e28903982ab235c7c493c7ea075b504768449a6f0a9ddf3c8c89fbd",
         "url": "/api/v1/collected-papers/oeis-a208509-affine-polynomial-pair-binomial-coefficients/files/source?version=2"
       },
       "title": "Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28",
@@ -1443,6 +1575,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 63142,
+        "sha256": "70b8b5b7d9f2f72bdb1f90c7b813c7d73fe6012a21f5224a1310af66f576fc4a",
         "url": "/api/v1/collected-papers/oeis-a378495-difference-conjectures/files/pdf?version=3"
       },
       "previous_version": null,
@@ -1451,6 +1585,8 @@
       "record": "oeis-a378495-difference-conjectures",
       "repository_name": "10.5281-zenodo.23903308",
       "source": {
+        "bytes": 10749,
+        "sha256": "f9f0b693326dc3adc3105fb70a0b959fb884060986c62d3f7a0af54d47255dac",
         "url": "/api/v1/collected-papers/oeis-a378495-difference-conjectures/files/source?version=3"
       },
       "title": "OEIS A378495, FORMULA (revision #70): refutation and correction",
@@ -1486,6 +1622,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 82406,
+        "sha256": "0470db8befb72219b653b9e6514031002d57c32e136f6ff2dccfbf28daa579ec",
         "url": "/api/v1/collected-papers/oeis-a381423-hermite-differences/files/pdf?version=3"
       },
       "previous_version": null,
@@ -1494,6 +1632,8 @@
       "record": "oeis-a381423-hermite-differences",
       "repository_name": "10.5281-zenodo.23957585",
       "source": {
+        "bytes": 15213,
+        "sha256": "b845034701b29e338ef1e2a0a5c12db84dc2af126ac9807fe7b9f2903fcfa69b",
         "url": "/api/v1/collected-papers/oeis-a381423-hermite-differences/files/source?version=3"
       },
       "title": "Resolving the Hermite coefficient conjectures in OEIS A381423, Comments (revision 8)",
@@ -1529,6 +1669,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 85628,
+        "sha256": "1d955b6c585d70d30ee880a6ebf447c5dba8446708a8fa2c198969881ddef8e6",
         "url": "/api/v1/collected-papers/oeis-a391810-alternating-jacobsthal/files/pdf?version=4"
       },
       "previous_version": null,
@@ -1537,6 +1679,8 @@
       "record": "oeis-a391810-alternating-jacobsthal",
       "repository_name": "10.5281-zenodo.23885968",
       "source": {
+        "bytes": 62921,
+        "sha256": "13c6d95622b8342b1e2e9746c205c0474ee36017695bb33402b481f0c8362726",
         "url": "/api/v1/collected-papers/oeis-a391810-alternating-jacobsthal/files/source?version=4"
       },
       "title": "OEIS A391810: formula (5), COMMENTS (C.1)--(C.10), and prime-index vanishing",
@@ -1572,6 +1716,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 73756,
+        "sha256": "d0b0257c8b72b82a0c9331362bfd6f28fee6cd9685b33aec28b3f176cb925d52",
         "url": "/api/v1/collected-papers/oeis-a396659-edge-collision-ratio/files/pdf?version=4"
       },
       "previous_version": null,
@@ -1580,6 +1726,8 @@
       "record": "oeis-a396659-edge-collision-ratio",
       "repository_name": "10.5281-zenodo.23885974",
       "source": {
+        "bytes": 12767,
+        "sha256": "d74e5e49909c55c1e46eb9639136c83beef7283b09d81537e79ec0c3b730e054",
         "url": "/api/v1/collected-papers/oeis-a396659-edge-collision-ratio/files/source?version=4"
       },
       "title": "Proof of Arkadeep Dutta's edge-collision ratio conjecture (OEIS A396659)",
@@ -1615,6 +1763,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 90098,
+        "sha256": "bee9c2388a14ba0ccfefe584385b3800a103614186e94567a2ffd8111443069e",
         "url": "/api/v1/collected-papers/okada-2020-premerged-determinant-nonpalindromic/files/pdf?version=2"
       },
       "previous_version": null,
@@ -1623,6 +1773,8 @@
       "record": "okada-2020-premerged-determinant-nonpalindromic",
       "repository_name": "10.5281-zenodo.23927423",
       "source": {
+        "bytes": 16755,
+        "sha256": "da99d1f3682c59285a8d9f3e47f664b8a5f844ae5c45da303328e3fef6f4ffa0",
         "url": "/api/v1/collected-papers/okada-2020-premerged-determinant-nonpalindromic/files/source?version=2"
       },
       "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
@@ -1658,6 +1810,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 101335,
+        "sha256": "9f448e5884788af0eb056bb2d3d6a8cdc6047a60f31159c23530f1abe567e25d",
         "url": "/api/v1/collected-papers/peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf/files/pdf?version=2"
       },
       "previous_version": null,
@@ -1666,6 +1820,8 @@
       "record": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf",
       "repository_name": "10.5281-zenodo.23920609",
       "source": {
+        "bytes": 116166,
+        "sha256": "dca4210c50c30bdda34fbbea75eb8f4ce57a955439810f7ad04062eaa794437e",
         "url": "/api/v1/collected-papers/peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf/files/source?version=2"
       },
       "title": "Refuting Peled et al.'s Section IV conjectures after Theorems 1 and 3, Eqs. (10) and (12): sharp fourth-order bounds without filter normal form",
@@ -1701,6 +1857,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 104170,
+        "sha256": "f0580902b8a6302e50f88e18480c38647cad878c4eee83a0cd272ee698c9a695",
         "url": "/api/v1/collected-papers/pozsgay-wanless-nonlinear-classical-factors/files/pdf?version=2"
       },
       "previous_version": null,
@@ -1709,6 +1867,8 @@
       "record": "pozsgay-wanless-nonlinear-classical-factors",
       "repository_name": "10.5281-zenodo.23903312",
       "source": {
+        "bytes": 18509,
+        "sha256": "827ec27485b7e22ccc9dcc2565101df9820fff8639f2791e4931040902c2e6c8",
         "url": "/api/v1/collected-papers/pozsgay-wanless-nonlinear-classical-factors/files/source?version=2"
       },
       "title": "Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture",
@@ -1744,6 +1904,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 91374,
+        "sha256": "3dc8a6e240adcbfeecab9557eff87f6d8e03074540c1ee98300b2a91ea880093",
         "url": "/api/v1/collected-papers/radsarar-anando-2026-apollonian-second-eigenvalue/files/pdf?version=2"
       },
       "previous_version": null,
@@ -1752,6 +1914,8 @@
       "record": "radsarar-anando-2026-apollonian-second-eigenvalue",
       "repository_name": "10.5281-zenodo.23919070",
       "source": {
+        "bytes": 12155,
+        "sha256": "9e1df1cece40ac4437e5f2788eaa76d5787ce82d06d3e754434e2c7c8144c982",
         "url": "/api/v1/collected-papers/radsarar-anando-2026-apollonian-second-eigenvalue/files/source?version=2"
       },
       "title": "MathOverflow 516405, revision 1: the second adjacency eigenvalue of Apollonian networks and the fixed-rank extreme spectrum",
@@ -1787,6 +1951,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 89571,
+        "sha256": "3c814ec140126cd3bfa2bbf4bc756981ef1c5b710a4a90a7bfb87e1855aa6d8c",
         "url": "/api/v1/collected-papers/schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation/files/pdf?version=2"
       },
       "previous_version": null,
@@ -1795,6 +1961,8 @@
       "record": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation",
       "repository_name": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation",
       "source": {
+        "bytes": 15474,
+        "sha256": "8a5ea19cd907a9e55437adca23b0ec438de543cf3a5d0a545f9b960286d69a1d",
         "url": "/api/v1/collected-papers/schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation/files/source?version=2"
       },
       "title": "A cubic counterexample at Schnell–Ketzmerick–Eckardt (2018, Sec. V, p. 11, Eq. (55)), and an extension of their Ohmic bound",
@@ -1830,6 +1998,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 91243,
+        "sha256": "ff5c1a8f5af8d94f0c8785dab07e672516a3931bcbfb0a93ca2c5c7340185e1e",
         "url": "/api/v1/collected-papers/stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight/files/pdf?version=2"
       },
       "previous_version": null,
@@ -1838,6 +2008,8 @@
       "record": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
       "repository_name": "10.5281-zenodo.23927427",
       "source": {
+        "bytes": 14624,
+        "sha256": "85119aab85cb1109001de5f66ba19df8306867142b3a3e6bbecb1c7baa1b2385",
         "url": "/api/v1/collected-papers/stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight/files/source?version=2"
       },
       "title": "Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c",
@@ -1873,6 +2045,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 83016,
+        "sha256": "754a342b3ffea9b919bec481f62ba20ad2f40d726903042b6c599c87f2176ea8",
         "url": "/api/v1/collected-papers/ta-2025-problem-11-7-good-involution-bound-refutation/files/pdf?version=2"
       },
       "previous_version": null,
@@ -1881,6 +2055,8 @@
       "record": "ta-2025-problem-11-7-good-involution-bound-refutation",
       "repository_name": "ta-2025-problem-11-7-good-involution-bound-refutation",
       "source": {
+        "bytes": 20050,
+        "sha256": "5a13ed30a05e37d549b8445020d790c5fb8745f2c3da137586ad7ceaf2aa6776",
         "url": "/api/v1/collected-papers/ta-2025-problem-11-7-good-involution-bound-refutation/files/source?version=2"
       },
       "title": "An orbitwise equality criterion for Ta's Problem 11.7 (arXiv:2505.08090v5, p. 27): extensions of the Kamada–Oshiro (2009/2010) examples",
@@ -1916,6 +2092,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 91355,
+        "sha256": "edaa13b040137f7972b377fd48e0d9ecd327de8902a12efcc552decbad37905b",
         "url": "/api/v1/collected-papers/tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound/files/pdf?version=1"
       },
       "previous_version": null,
@@ -1924,6 +2102,8 @@
       "record": "tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound",
       "repository_name": "10.5281-zenodo.23903315",
       "source": {
+        "bytes": 15714,
+        "sha256": "a7d626b93c374df5fcaa0e8cfd7fc25a3838ae2c65fa582b912e79e439b8649c",
         "url": "/api/v1/collected-papers/tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound/files/source?version=1"
       },
       "title": "A counterexample to the Shannon conjecture following Eq. (69) in Tarabunga et al., Section V.C",
@@ -1959,6 +2139,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 80980,
+        "sha256": "805cf769eb415c69e5fad5bc5a595cdb7d17a484ece2c18e649165213d1a3a26",
         "url": "/api/v1/collected-papers/user3-2026-orthogonal-absolute-product-minimum/files/pdf?version=2"
       },
       "previous_version": null,
@@ -1967,6 +2149,8 @@
       "record": "user3-2026-orthogonal-absolute-product-minimum",
       "repository_name": "10.5281-zenodo.23885983",
       "source": {
+        "bytes": 11203,
+        "sha256": "864a589fac81968f5d9ac782ccee5a312deeed7e1c5fcddb3df23c1048a808fb",
         "url": "/api/v1/collected-papers/user3-2026-orthogonal-absolute-product-minimum/files/source?version=2"
       },
       "title": "Resolving User3's orthogonal absolute-product question: minimum and minimizers",
@@ -2002,6 +2186,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 74237,
+        "sha256": "408baf09236d7181e06fe9963d1e8aa693313b47d15ef8e370a8d38f7b0128e1",
         "url": "/api/v1/collected-papers/wang-conjecture326/files/pdf?version=2"
       },
       "previous_version": null,
@@ -2010,6 +2196,8 @@
       "record": "wang-conjecture326",
       "repository_name": "10.5281-zenodo.23884900",
       "source": {
+        "bytes": 9953,
+        "sha256": "28de06013c852de15802885af7e42d7a3e729b8f7617449758071b262b5a2fb6",
         "url": "/api/v1/collected-papers/wang-conjecture326/files/source?version=2"
       },
       "title": "Counterexamples to Wang's Conjectures 3.26 and 5.3 on semigroup algebras",
@@ -2045,6 +2233,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 106651,
+        "sha256": "3cca45aae0f5af1a3628f26aae699e67543e40f4c4ea3c02b053e1210dfe390a",
         "url": "/api/v1/collected-papers/wiseman-a344611/files/pdf?version=2"
       },
       "previous_version": null,
@@ -2053,6 +2243,8 @@
       "record": "wiseman-a344611",
       "repository_name": "wiseman-a344611",
       "source": {
+        "bytes": 21952,
+        "sha256": "6160dc89b6d594fae5bf92331393672c531c5b9f742e3bc70eff61a1f0636411",
         "url": "/api/v1/collected-papers/wiseman-a344611/files/source?version=2"
       },
       "title": "Strictness and sibling corrections for OEIS A344611, FORMULA, with an alternative derivation of Manyama's (2026) convolution",
@@ -2088,6 +2280,8 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
+        "bytes": 85757,
+        "sha256": "e7e900847d74441093a70f26d84d41963a0a678e7e1f24ef198ecdc5f3425178",
         "url": "/api/v1/collected-papers/xu-et-al-2023-noisy-ghz-witness-bound-gap/files/pdf?version=1"
       },
       "previous_version": null,
@@ -2096,6 +2290,8 @@
       "record": "xu-et-al-2023-noisy-ghz-witness-bound-gap",
       "repository_name": "10.5281-zenodo.23919078",
       "source": {
+        "bytes": 10796,
+        "sha256": "c4335e273e615af20ffbd3f336bbdbb35f8fc6ce1b20713ac48000a4bd6b6ffc",
         "url": "/api/v1/collected-papers/xu-et-al-2023-noisy-ghz-witness-bound-gap/files/source?version=1"
       },
       "title": "A strict gap in the noisy-GHZ equality question of Xu et al., Section 4.2, page 12 of arXiv:2211.05563v1",
