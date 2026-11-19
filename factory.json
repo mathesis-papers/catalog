@@ -1724,15 +1724,13 @@
         "url": "https://github.com/the-omega-institute/trureturing/blob/c55f6f7c7d7e3cf46b0a7da9efbba687448b29aa/D5/S3/Geometry/ProbabilityTransport/WeightedProjectionMinors.lean"
       },
       "materials": {
-        "formalization_requests": 0,
-        "slides": 0,
-        "videos": 0,
+        "formalization_requests": 7,
+        "slides": 2,
+        "videos": 1,
         "visualizations": 0
       },
       "mode": "authored_book",
       "next_steps": [
-        "prepare_slides",
-        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1782,15 +1780,13 @@
         "url": "https://github.com/the-omega-institute/trureturing/blob/0f1f822c673c1903dc6b0a209a23dacebca2aa6c/D5/S3/QuadraticForms/StructuredRankOneFamily.lean"
       },
       "materials": {
-        "formalization_requests": 0,
-        "slides": 0,
-        "videos": 0,
+        "formalization_requests": 10,
+        "slides": 2,
+        "videos": 1,
         "visualizations": 0
       },
       "mode": "authored_book",
       "next_steps": [
-        "prepare_slides",
-        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -1840,19 +1836,19 @@
         "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/SpinChains/BubbleEigenstateDegeneracy.lean"
       },
       "materials": {
-        "formalization_requests": 0,
-        "slides": 0,
-        "videos": 0,
+        "formalization_requests": 8,
+        "slides": 2,
+        "videos": 1,
         "visualizations": 0
       },
       "mode": "authored_book",
       "next_steps": [
-        "prepare_bilingual_reading",
-        "prepare_slides",
-        "prepare_video",
         "prepare_exact_targets"
       ],
-      "reading_languages": [],
+      "reading_languages": [
+        "en",
+        "zh"
+      ],
       "repository_url": "https://github.com/mathesis-papers/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy",
       "site_url": "https://papers.trureturing.org/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/",
       "title": "Zero-mode corrections and closed bubble counts in Mukherjee et al. (2021, Sec. III, p. 7, third paragraph): extending Hoshino (2007) and Brown–Hoshino (2008)",
@@ -1896,19 +1892,19 @@
         "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/QuantumChannels/CoolingMapThermalOperationRefutation.lean"
       },
       "materials": {
-        "formalization_requests": 0,
-        "slides": 0,
-        "videos": 0,
+        "formalization_requests": 10,
+        "slides": 2,
+        "videos": 1,
         "visualizations": 0
       },
       "mode": "authored_book",
       "next_steps": [
-        "prepare_bilingual_reading",
-        "prepare_slides",
-        "prepare_video",
         "prepare_exact_targets"
       ],
-      "reading_languages": [],
+      "reading_languages": [
+        "en",
+        "zh"
+      ],
       "repository_url": "https://github.com/mathesis-papers/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
       "site_url": "https://papers.trureturing.org/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/",
       "title": "Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)",
@@ -3019,5 +3015,5 @@
   "papers": 53,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-19T15:54:05.289486507Z"
+  "snapshot_time": "2026-11-19T16:30:32.070958354Z"
 }

@@ -1,15 +1,80 @@
 {
   "doi": "10.5281/zenodo.24209470",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Population-preserving thermal blocks for arbitrary full-support inputs",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/76"
+    },
+    {
+      "label": "Expose the existing concrete four-level exact-separation witness",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/77"
+    },
+    {
+      "label": "Dimension-independent rational four-unitary Gram gap",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/78"
+    },
+    {
+      "label": "Four-level thermal-output trace-norm closure separation",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/79"
+    },
+    {
+      "label": "Finite Gibbs-tail stability of the four-level obstruction",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/80"
+    },
+    {
+      "label": "Full-support phase-parameter family of exact cooling separation",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/81"
+    },
+    {
+      "label": "Closure separation with four occupied distinct energy levels",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/82"
+    },
+    {
+      "label": "Three-vector unitary-family and rank-two S2.6 obstructions",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/83"
+    },
+    {
+      "label": "Cooling channel outside closed optimally coherent convex hull",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/84"
+    },
+    {
+      "label": "Minimum generic dimension four for closure separation",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/85"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/en/",
+    "zh": "https://papers.trureturing.org/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/slides/seminar/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/slides/seminar/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/slides/seminar/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/slides/seminar/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation-seminar-zh.pdf"
+    }
+  ],
   "version": 3,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-coherence-obstruction-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/films/001-coherence-obstruction/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/films/001-coherence-obstruction/poster.jpg",
+      "title": "Cooling without energy loss",
+      "url": "https://papers.trureturing.org/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation/films/#001-coherence-obstruction"
+    }
+  ],
   "visualizations": [],
   "work": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation"
 }

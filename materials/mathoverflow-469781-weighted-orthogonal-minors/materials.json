@@ -1,18 +1,68 @@
 {
   "doi": "10.5281/zenodo.23931738",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1, Sections 1 and 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/117"
+    },
+    {
+      "label": "Lemma 2, Section 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/118"
+    },
+    {
+      "label": "Corollary 3, Section 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/119"
+    },
+    {
+      "label": "Corollary 4, Section 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/120"
+    },
+    {
+      "label": "Corollary 5, Section 4",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/121"
+    },
+    {
+      "label": "Corollary 6, Section 4",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/122"
+    },
+    {
+      "label": "Corollary 7, Section 5",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/123"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23931737/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/10.5281-zenodo.23931737/en/",
-    "zh": "https://papers.trureturing.org/10.5281-zenodo.23931737/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23931737/mathoverflow-469781-weighted-orthogonal-minors/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23931737/mathoverflow-469781-weighted-orthogonal-minors/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23931737",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23931737/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23931737/mathoverflow-469781-weighted-orthogonal-minors/slides/seminar/mathoverflow-469781-weighted-orthogonal-minors-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23931737/mathoverflow-469781-weighted-orthogonal-minors/slides/seminar/mathoverflow-469781-weighted-orthogonal-minors-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23931737/mathoverflow-469781-weighted-orthogonal-minors/slides/seminar/mathoverflow-469781-weighted-orthogonal-minors-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23931737/mathoverflow-469781-weighted-orthogonal-minors/slides/seminar/mathoverflow-469781-weighted-orthogonal-minors-seminar-zh.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-minors-to-volumes-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.23931737/mathoverflow-469781-weighted-orthogonal-minors/films/001-minors-to-volumes/mathoverflow-469781-weighted-orthogonal-minors_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.23931737/mathoverflow-469781-weighted-orthogonal-minors/films/001-minors-to-volumes/poster.jpg",
+      "title": "From areas to volumes",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23931737/mathoverflow-469781-weighted-orthogonal-minors/films/#001-minors-to-volumes"
+    }
+  ],
   "visualizations": [],
   "work": "mathoverflow-469781-weighted-orthogonal-minors"
 }

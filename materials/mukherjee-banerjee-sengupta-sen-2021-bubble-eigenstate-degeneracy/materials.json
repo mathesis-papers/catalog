@@ -1,15 +1,72 @@
 {
   "doi": "10.5281/zenodo.24210281",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Energy-resolved cycle counts with arbitrary minimum gap",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/68"
+    },
+    {
+      "label": "Full-packing and two-parity near-zero bubble lower bounds",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/69"
+    },
+    {
+      "label": "Exact counterexample to the printed positive-exponent bubble bound",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/70"
+    },
+    {
+      "label": "Parity-refined placements and balanced-fragment zero modes",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/71"
+    },
+    {
+      "label": "Catalan multiplicity of simultaneous bubble zero modes",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/72"
+    },
+    {
+      "label": "Bubble field spectrum and imbalanced zero-mode resonance",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/73"
+    },
+    {
+      "label": "Non-bubble endpoint eigenstates at chain length fourteen",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/74"
+    },
+    {
+      "label": "Correct bubble evolution phase and staggered magnetization offset",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/75"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/en/",
+    "zh": "https://papers.trureturing.org/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "bubble-seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/slides/bubble-seminar/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy-bubble-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/slides/bubble-seminar/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy-bubble-seminar-en.pdf"
+    },
+    {
+      "id": "bubble-seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/slides/bubble-seminar/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy-bubble-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/slides/bubble-seminar/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy-bubble-seminar-zh.pdf"
+    }
+  ],
   "version": 3,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-marked-gaps-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/films/001-marked-gaps/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/films/001-marked-gaps/poster.jpg",
+      "title": "Mark one bubble on the ring",
+      "url": "https://papers.trureturing.org/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy/films/#001-marked-gaps"
+    }
+  ],
   "visualizations": [],
   "work": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy"
 }

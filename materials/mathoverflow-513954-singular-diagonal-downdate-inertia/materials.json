@@ -1,18 +1,80 @@
 {
   "doi": "10.5281/zenodo.23920598",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/169"
+    },
+    {
+      "label": "Corollary 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/170"
+    },
+    {
+      "label": "Corollary 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/171"
+    },
+    {
+      "label": "Corollary 4",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/172"
+    },
+    {
+      "label": "Theorem 5",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/173"
+    },
+    {
+      "label": "Corollary 7",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/174"
+    },
+    {
+      "label": "Corollary 8",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/175"
+    },
+    {
+      "label": "Corollary 9",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/176"
+    },
+    {
+      "label": "Corollary 10",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/177"
+    },
+    {
+      "label": "Theorem 11",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/178"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23920597/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/10.5281-zenodo.23920597/en/",
-    "zh": "https://papers.trureturing.org/10.5281-zenodo.23920597/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23920597/mathoverflow-513954-singular-diagonal-downdate-inertia/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23920597/mathoverflow-513954-singular-diagonal-downdate-inertia/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23920597",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23920597/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23920597/mathoverflow-513954-singular-diagonal-downdate-inertia/slides/seminar/mathoverflow-513954-singular-diagonal-downdate-inertia-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23920597/mathoverflow-513954-singular-diagonal-downdate-inertia/slides/seminar/mathoverflow-513954-singular-diagonal-downdate-inertia-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23920597/mathoverflow-513954-singular-diagonal-downdate-inertia/slides/seminar/mathoverflow-513954-singular-diagonal-downdate-inertia-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23920597/mathoverflow-513954-singular-diagonal-downdate-inertia/slides/seminar/mathoverflow-513954-singular-diagonal-downdate-inertia-seminar-zh.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-one-direction-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.23920597/mathoverflow-513954-singular-diagonal-downdate-inertia/films/001-one-direction/mathoverflow-513954-singular-diagonal-downdate-inertia_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.23920597/mathoverflow-513954-singular-diagonal-downdate-inertia/films/001-one-direction/poster.jpg",
+      "title": "One direction and a diffuse tail",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23920597/mathoverflow-513954-singular-diagonal-downdate-inertia/films/#001-one-direction"
+    }
+  ],
   "visualizations": [],
   "work": "mathoverflow-513954-singular-diagonal-downdate-inertia"
 }
