@@ -7,6 +7,7 @@ import sys
 import tarfile
 import tempfile
 import unittest
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import cma_content as cma
@@ -45,6 +46,89 @@ class FakeCMA:
 
 
 class AdapterTests(unittest.TestCase):
+    def generated_index_case(self, root):
+        repo, run = root/'repo', root/'run'
+        repo.mkdir(); run.mkdir()
+        marker = b'\n<!-- Mathesis generated repository guide; refresh with paper.py front. -->\n'
+        readme = b'Frozen catalog README\n' + marker + b'Skeleton guide\n'
+        lock = {'schema':'trureturing-books.lock.v1', 'repo':'the-omega-institute/trureturing',
+                'branch':'dev', 'commit':'a'*40, 'pinned_at':'2026-11-08T12:32:04Z', 'declarations':{}}
+        initial = {'paper.json':b'original paper', 'README.md':readme,
+                   'trureturing.lock.json':json.dumps(lock).encode(), '.mathesis/book.json':b'{"book":"example-note"}'}
+        for name, data in initial.items():
+            path=repo/name; path.parent.mkdir(parents=True,exist_ok=True); path.write_bytes(data)
+        serial.command(['git','init','-q',str(repo)])
+        serial.command(['git','add','.'],repo)
+        resolved = copy.deepcopy(lock)
+        resolved['declarations']={'Module.result':{'kind':'theorem','statement_id':'sha256:'+'f'*64}}
+        expected = {'README.md':readme.replace(b'Skeleton guide',b'Result guide'),
+                    'trureturing.lock.json':json.dumps(resolved).encode()}
+        files = dict(initial, **expected)
+        files['.mathesis/review.json']=b'{"results":{"result":{"comparison_verdict":"same"}}}'
+        state=cma.intent(envelope(), 'b'*40, 'e'*40, 'wks_internal', 'collection')
+        state.update(phase='sources_ready',agent_id='agent',worktree_path='/home/cma/workspace/.worktrees/wt-186')
+        return repo,run,state,files,expected
+
+    def handoff_files(self, state, files):
+        stream=io.BytesIO()
+        with tarfile.open(fileobj=stream,mode='w:gz') as archive:
+            for name,data in files.items():
+                info=tarfile.TarInfo(name);info.size=len(data);info.mode=0o644
+                archive.addfile(info,io.BytesIO(data))
+        pack=stream.getvalue()
+        result={'status':'prepared','summary':'source prepared',
+                'visualization':{'decision':'not_useful','reason':'Static examples explain the proof'},
+                'outputs':['.mathesis/review.json'],'checks':[],'requests':[], 'doi_observation':'unchanged','remaining':[]}
+        handoff={'schema':'mathesis.cma-content-handoff.v1','identity':state['identity'],'result':result,
+                 'archive_sha256':hashlib.sha256(pack).hexdigest(),
+                 'inventory':{name:{'sha256':hashlib.sha256(data).hexdigest(),'mode':'100644'} for name,data in files.items()}}
+        class Files:
+            def file(self,agent,path):return json.dumps(handoff).encode() if path.endswith('handoff.json') else pack
+        return Files()
+
+    def test_normal_authoring_indexes_are_regenerated_without_changing_frozen_inputs(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            repo,run,state,files,expected=self.generated_index_case(Path(tmp))
+            original_run=cma.subprocess.run
+            generated=[]
+            def generate(command,**kwargs):
+                if command[0]!='./tbook' and command[-1]!='front':return original_run(command,**kwargs)
+                generated.append(command)
+                name='trureturing.lock.json' if command==['./tbook','pin','--refresh'] else 'README.md'
+                (repo/name).write_bytes(expected[name])
+            with patch.object(cma.subprocess,'run',side_effect=generate):
+                cma.import_sources(self.handoff_files(state,files),state,repo,run)
+            self.assertEqual(len(generated),2)
+            self.assertEqual((repo/'paper.json').read_bytes(),b'original paper')
+            self.assertEqual((repo/'.mathesis/review.json').read_bytes(),files['.mathesis/review.json'])
+            for name,data in expected.items():self.assertEqual((repo/name).read_bytes(),data)
+
+    def test_forged_declaration_metadata_must_match_independent_pin_resolution(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            repo,run,state,files,expected=self.generated_index_case(Path(tmp))
+            forged=json.loads(files['trureturing.lock.json']);forged['declarations']['Module.result']['statement_id']='sha256:'+'0'*64
+            files['trureturing.lock.json']=json.dumps(forged).encode()
+            original_run=cma.subprocess.run
+            def generate(command,**kwargs):
+                if command[0]!='./tbook' and command[-1]!='front':return original_run(command,**kwargs)
+                name='trureturing.lock.json' if command==['./tbook','pin','--refresh'] else 'README.md'
+                (repo/name).write_bytes(expected[name])
+            with patch.object(cma.subprocess,'run',side_effect=generate):
+                with self.assertRaisesRegex(ValueError,'installed generator'):
+                    cma.import_sources(self.handoff_files(state,files),state,repo,run)
+
+    def test_generated_indexes_cannot_change_the_source_prefix_or_library_revision(self):
+        for target in ('README.md','trureturing.lock.json'):
+            with self.subTest(target=target),tempfile.TemporaryDirectory() as tmp:
+                repo,run,state,files,expected=self.generated_index_case(Path(tmp))
+                if target=='README.md':files[target]=files[target].replace(b'Frozen catalog',b'Changed catalog')
+                else:
+                    lock=json.loads(files[target]);lock['commit']='0'*40;files[target]=json.dumps(lock).encode()
+                with patch.object(cma.subprocess,'run',wraps=cma.subprocess.run) as generator:
+                    with self.assertRaises(ValueError):cma.import_sources(self.handoff_files(state,files),state,repo,run)
+                    self.assertFalse(any(call.args[0][0]=='./tbook' or call.args[0][-1]=='front' for call in generator.call_args_list))
+                self.assertFalse((repo/'.mathesis/review.json').exists())
+
     def test_uncertain_admission_replays_original_intent_and_never_regenerates_after_success(self):
         state = cma.intent(envelope(), 'b'*40, 'e'*40, 'wks_internal', 'collection')
         saved = []

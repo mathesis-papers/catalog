@@ -52,6 +52,17 @@ This does not change open registration, author submission limits or BYOK policy.
    `mathesis-content/<key>` inside that worktree. A changed worktree stops
    retrieval; a missing old checkpoint binding is recovered from the original
    agent without creating another job.
+   The statement-comparison record is authored data alongside the book mapping.
+   The host regenerates the README guide and cited-declaration index using the
+   installed `paper.py front` and `tbook pin --refresh` interfaces, requiring
+   their bytes to match the handoff. The frozen README prefix, library repository
+   and admitted library revision cannot change through this route. A worker's
+   proposed declaration metadata is never copied over the independently resolved
+   index.
+   Agent cleanup stops the original agent and waits for its stopped state before
+   deleting it. Each operation persists its own idempotency key. An uncertain
+   reply reuses that key; acknowledged operations are observed without issuing
+   another mutation, and the deletion receipt is retained until completion.
 3. Attach immutable version history before building. New versions preserve the
    prior manuscript, DOI metadata and exposition sources in the same repository.
    Template manifests detect human edits; conflicting source changes stop for
