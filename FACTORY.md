@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-19T14:13:27.838407681Z`.
+Snapshot: `2026-11-19T15:05:20.03663538Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -25,11 +25,11 @@ Snapshot: `2026-11-19T14:13:27.838407681Z`.
 | [OEIS A209723: Barker's conjectures on distinct clockwise edge differences](https://github.com/mathesis-papers/10.5281-zenodo.23903300) | 2 | [DOI](https://doi.org/10.5281/zenodo.23903301) | en, zh | 2 / 1 / 0 | 4 no target yet |
 | [Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem](https://github.com/mathesis-papers/he-tubbenhauer-2025-null-tensor-summand) | 2 | Awaiting DOI | en, zh | 2 / 1 / 0 | 8 no target yet |
 | [A degree-12 counterexample to Saniga et al.'s Section 4.4 line-subgeometry conjecture](https://github.com/mathesis-papers/10.5281-zenodo.23904467) | 2 | [DOI](https://doi.org/10.5281/zenodo.23904468) | en, zh | 2 / 1 / 0 | 5 no target yet |
-| [Reflection-symmetric diagonal synthesis: resolving a conjecture of Huang, Kosugi, Nishi and Matsushita](https://github.com/mathesis-papers/10.5281-zenodo.23885960) | 4 | [DOI](https://doi.org/10.5281/zenodo.23885961) | en, zh | 0 / 0 / 0 | 3 no target yet |
-| [Counterexamples to Conjectures 3 and 4 of Huang, Stoica, Xia and Zhong (arXiv:2006.06716v1, Section 5.2, printed page 32)](https://github.com/mathesis-papers/10.5281-zenodo.23935003) | 2 | [DOI](https://doi.org/10.5281/zenodo.23935004) | en, zh | 0 / 0 / 0 | 6 no target yet |
-| [Earliest swapping for every chain length: Kamin et al. (2023), Section IV D 1, Eq. (41)](https://github.com/mathesis-papers/10.5281-zenodo.23904475) | 1 | [DOI](https://doi.org/10.5281/zenodo.23904476) | en, zh | 0 / 0 / 0 | 3 no target yet |
-| [A negative answer to Kang–Jäger's Question 1.10 on permutative lifts](https://github.com/mathesis-papers/10.5281-zenodo.23885964) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885965) | en, zh | 0 / 0 / 0 | 6 no target yet |
-| [A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras](https://github.com/mathesis-papers/10.5281-zenodo.23957572) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957573) | en, zh | 0 / 0 / 0 | 11 no target yet |
+| [Reflection-symmetric diagonal synthesis: resolving a conjecture of Huang, Kosugi, Nishi and Matsushita](https://github.com/mathesis-papers/10.5281-zenodo.23885960) | 4 | [DOI](https://doi.org/10.5281/zenodo.23885961) | en, zh | 2 / 1 / 0 | 3 no target yet |
+| [Counterexamples to Conjectures 3 and 4 of Huang, Stoica, Xia and Zhong (arXiv:2006.06716v1, Section 5.2, printed page 32)](https://github.com/mathesis-papers/10.5281-zenodo.23935003) | 2 | [DOI](https://doi.org/10.5281/zenodo.23935004) | en, zh | 2 / 1 / 0 | 6 no target yet |
+| [Earliest swapping for every chain length: Kamin et al. (2023), Section IV D 1, Eq. (41)](https://github.com/mathesis-papers/10.5281-zenodo.23904475) | 1 | [DOI](https://doi.org/10.5281/zenodo.23904476) | en, zh | 2 / 1 / 0 | 3 no target yet |
+| [A negative answer to Kang–Jäger's Question 1.10 on permutative lifts](https://github.com/mathesis-papers/10.5281-zenodo.23885964) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885965) | en, zh | 2 / 1 / 0 | 6 no target yet |
+| [A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras](https://github.com/mathesis-papers/10.5281-zenodo.23957572) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957573) | en, zh | 2 / 1 / 0 | 11 no target yet |
 | [Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)](https://github.com/mathesis-papers/kok-jaco-addition-law-refutation) | 3 | Awaiting DOI | en, zh | 0 / 0 / 0 | 10 no target yet |
 | [The 2n−1 arc minimum in Koljančić–Oblak, Problem 1.8 (p. 759)](https://github.com/mathesis-papers/10.5281-zenodo.23904481) | 3 | [DOI](https://doi.org/10.5281/zenodo.23904482) | en, zh | 0 / 0 / 0 | 7 no target yet |
 | [Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths](https://github.com/mathesis-papers/10.5281-zenodo.23920567) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920568) | en, zh | 0 / 0 / 0 | 6 no target yet |

@@ -1,18 +1,80 @@
 {
   "doi": "10.5281/zenodo.23957573",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/101"
+    },
+    {
+      "label": "Lemma 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/102"
+    },
+    {
+      "label": "Lemma 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/103"
+    },
+    {
+      "label": "Lemma 4",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/104"
+    },
+    {
+      "label": "Corollary 6",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/105"
+    },
+    {
+      "label": "Corollary 7",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/106"
+    },
+    {
+      "label": "Corollary 8",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/107"
+    },
+    {
+      "label": "Corollary 9",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/108"
+    },
+    {
+      "label": "Corollary 10",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/109"
+    },
+    {
+      "label": "Corollary 11",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/110"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23957572/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/10.5281-zenodo.23957572/en/",
-    "zh": "https://papers.trureturing.org/10.5281-zenodo.23957572/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23957572/kmvq31-sl3-obstruction/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23957572/kmvq31-sl3-obstruction/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23957572",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23957572/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23957572/kmvq31-sl3-obstruction/slides/seminar/kmvq31-sl3-obstruction-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23957572/kmvq31-sl3-obstruction/slides/seminar/kmvq31-sl3-obstruction-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23957572/kmvq31-sl3-obstruction/slides/seminar/kmvq31-sl3-obstruction-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23957572/kmvq31-sl3-obstruction/slides/seminar/kmvq31-sl3-obstruction-seminar-zh.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-eight-directions-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.23957572/kmvq31-sl3-obstruction/films/001-eight-directions/kmvq31-sl3-obstruction_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.23957572/kmvq31-sl3-obstruction/films/001-eight-directions/poster.jpg",
+      "title": "Why eight directions cannot fit",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23957572/kmvq31-sl3-obstruction/films/#001-eight-directions"
+    }
+  ],
   "visualizations": [],
   "work": "kmvq31-sl3-obstruction"
 }

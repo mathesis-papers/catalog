@@ -1,18 +1,64 @@
 {
   "doi": "10.5281/zenodo.23935004",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1, Section 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/125"
+    },
+    {
+      "label": "Corollary 2, Section 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/126"
+    },
+    {
+      "label": "Lemma 3, Section 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/127"
+    },
+    {
+      "label": "Corollary 4, Section 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/128"
+    },
+    {
+      "label": "Corollary 5, Section 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/129"
+    },
+    {
+      "label": "Corollary 6, Section 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/130"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23935003/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/10.5281-zenodo.23935003/en/",
-    "zh": "https://papers.trureturing.org/10.5281-zenodo.23935003/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23935003/huang-stoica-xia-zhong-2020-tree-equations-nonconstant/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23935003/huang-stoica-xia-zhong-2020-tree-equations-nonconstant/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23935003",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23935003/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23935003/huang-stoica-xia-zhong-2020-tree-equations-nonconstant/slides/seminar/huang-stoica-xia-zhong-2020-tree-equations-nonconstant-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23935003/huang-stoica-xia-zhong-2020-tree-equations-nonconstant/slides/seminar/huang-stoica-xia-zhong-2020-tree-equations-nonconstant-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23935003/huang-stoica-xia-zhong-2020-tree-equations-nonconstant/slides/seminar/huang-stoica-xia-zhong-2020-tree-equations-nonconstant-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23935003/huang-stoica-xia-zhong-2020-tree-equations-nonconstant/slides/seminar/huang-stoica-xia-zhong-2020-tree-equations-nonconstant-seminar-zh.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-balanced-tree-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.23935003/huang-stoica-xia-zhong-2020-tree-equations-nonconstant/films/001-balanced-tree/huang-stoica-xia-zhong-2020-tree-equations-nonconstant_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.23935003/huang-stoica-xia-zhong-2020-tree-equations-nonconstant/films/001-balanced-tree/poster.jpg",
+      "title": "Locally balanced, globally nonuniform",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23935003/huang-stoica-xia-zhong-2020-tree-equations-nonconstant/films/#001-balanced-tree"
+    }
+  ],
   "visualizations": [],
   "work": "huang-stoica-xia-zhong-2020-tree-equations-nonconstant"
 }
