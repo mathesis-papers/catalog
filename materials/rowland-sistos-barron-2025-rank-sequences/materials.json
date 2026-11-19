@@ -1,6 +1,7 @@
 {
   "doi": null,
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/rowland-sistos-barron-2025-rank-sequences/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/rowland-sistos-barron-2025-rank-sequences",
