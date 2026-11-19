@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-19T13:30:07.158726216Z`.
+Snapshot: `2026-11-19T13:38:43.638369273Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -20,7 +20,7 @@ Snapshot: `2026-11-19T13:30:07.158726216Z`.
 | [Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)](https://github.com/mathesis-papers/10.5281-zenodo.23957559) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957560) | en, zh | 1 / 0 / 1 | 8 no target yet |
 | [The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary](https://github.com/mathesis-papers/10.5281-zenodo.23934999) | 2 | [DOI](https://doi.org/10.5281/zenodo.23935000) | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [Refuting the X-MEMS closest-separable-state conjecture in arXiv:2209.01430v2, Appendix A, Eq. (A11)](https://github.com/mathesis-papers/10.5281-zenodo.23904463) | 2 | [DOI](https://doi.org/10.5281/zenodo.23904464) | en, zh | 2 / 1 / 0 | 3 no target yet |
-| [Refuting the trace-distance case of axiom (T4) of Denis, Lacaille, Martin and Serrano-Ensástiga](https://github.com/mathesis-papers/10.5281-zenodo.23884884) | 4 | [DOI](https://doi.org/10.5281/zenodo.23884885) | en, zh | 0 / 0 / 0 | 3 no target yet |
+| [Refuting the trace-distance case of axiom (T4) of Denis, Lacaille, Martin and Serrano-Ensástiga](https://github.com/mathesis-papers/10.5281-zenodo.23884884) | 4 | [DOI](https://doi.org/10.5281/zenodo.23884885) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [Counterexamples to Conjecture 25 and Remark 6 of Garrappa–Gerhold–Popolizio–Simon: Global modulus lower bounds in arXiv:2410.11852v4](https://github.com/mathesis-papers/10.5281-zenodo.23920556) | 1 | [DOI](https://doi.org/10.5281/zenodo.23920557) | en, zh | 0 / 0 / 0 | 4 no target yet |
 | [OEIS A209723: Barker's conjectures on distinct clockwise edge differences](https://github.com/mathesis-papers/10.5281-zenodo.23903300) | 2 | [DOI](https://doi.org/10.5281/zenodo.23903301) | en, zh | 0 / 0 / 0 | 4 no target yet |
 | [Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem](https://github.com/mathesis-papers/he-tubbenhauer-2025-null-tensor-summand) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
