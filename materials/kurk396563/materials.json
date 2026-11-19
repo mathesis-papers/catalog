@@ -1,18 +1,60 @@
 {
   "doi": null,
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Corrected subset weights",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/257"
+    },
+    {
+      "label": "Integer-exponent Stirling-minor extension",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/258"
+    },
+    {
+      "label": "Stirling-minor rational generating function",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/260"
+    },
+    {
+      "label": "Companion A132393 Stirling identities",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/261"
+    },
+    {
+      "label": "Stirling moment determinant",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/263"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/kurk396563/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/kurk396563/en/",
-    "zh": "https://papers.trureturing.org/kurk396563/zh/"
+    "en": "https://papers.trureturing.org/kurk396563/kurk396563/en/",
+    "zh": "https://papers.trureturing.org/kurk396563/kurk396563/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/kurk396563",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/kurk396563/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "kurkov-stirling",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/kurk396563/kurk396563/slides/kurkov-stirling/kurk396563-kurkov-stirling-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/kurk396563/kurk396563/slides/kurkov-stirling/kurk396563-kurkov-stirling-en.pdf"
+    },
+    {
+      "id": "kurkov-stirling",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/kurk396563/kurk396563/slides/kurkov-stirling/kurk396563-kurkov-stirling-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/kurk396563/kurk396563/slides/kurkov-stirling/kurk396563-kurkov-stirling-zh.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-determinant-to-schur-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/kurk396563/kurk396563/films/001-determinant-to-schur/kurk396563_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/kurk396563/kurk396563/films/001-determinant-to-schur/poster.jpg",
+      "title": "Determinant to Schur",
+      "url": "https://papers.trureturing.org/kurk396563/kurk396563/films/#001-determinant-to-schur"
+    }
+  ],
   "visualizations": [],
   "work": "kurk396563"
 }
