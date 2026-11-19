@@ -1,15 +1,72 @@
 {
   "doi": null,
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Maximal null multiplicity and rank bound",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/44"
+    },
+    {
+      "label": "Quantitative singular tensor summand bounds over any field",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/45"
+    },
+    {
+      "label": "Composition multiplicities with rank deficit",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/46"
+    },
+    {
+      "label": "Nonmodular monoid splitting and unit-group count comparison",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/47"
+    },
+    {
+      "label": "Right-zero tensor decomposition and finite-exponent correction",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/48"
+    },
+    {
+      "label": "Exact counts for the C2 union S3 zero semigroup",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/49"
+    },
+    {
+      "label": "Explicit nilpotent tensor Jordan multiplicities",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/50"
+    },
+    {
+      "label": "Exact recurrence for the published six-dimensional fusion example",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/51"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/he-tubbenhauer-2025-null-tensor-summand/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/he-tubbenhauer-2025-null-tensor-summand/he-tubbenhauer-2025-null-tensor-summand/en/",
+    "zh": "https://papers.trureturing.org/he-tubbenhauer-2025-null-tensor-summand/he-tubbenhauer-2025-null-tensor-summand/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/he-tubbenhauer-2025-null-tensor-summand",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/he-tubbenhauer-2025-null-tensor-summand/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "null-summands",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/he-tubbenhauer-2025-null-tensor-summand/he-tubbenhauer-2025-null-tensor-summand/slides/null-summands/he-tubbenhauer-2025-null-tensor-summand-null-summands-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/he-tubbenhauer-2025-null-tensor-summand/he-tubbenhauer-2025-null-tensor-summand/slides/null-summands/he-tubbenhauer-2025-null-tensor-summand-null-summands-en.pdf"
+    },
+    {
+      "id": "null-summands",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/he-tubbenhauer-2025-null-tensor-summand/he-tubbenhauer-2025-null-tensor-summand/slides/null-summands/he-tubbenhauer-2025-null-tensor-summand-null-summands-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/he-tubbenhauer-2025-null-tensor-summand/he-tubbenhauer-2025-null-tensor-summand/slides/null-summands/he-tubbenhauer-2025-null-tensor-summand-null-summands-zh.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-null-summands-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/he-tubbenhauer-2025-null-tensor-summand/he-tubbenhauer-2025-null-tensor-summand/films/001-null-summands/he-tubbenhauer-2025-null-tensor-summand_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/he-tubbenhauer-2025-null-tensor-summand/he-tubbenhauer-2025-null-tensor-summand/films/001-null-summands/poster.jpg",
+      "title": "From a common zero space to an independent summand",
+      "url": "https://papers.trureturing.org/he-tubbenhauer-2025-null-tensor-summand/he-tubbenhauer-2025-null-tensor-summand/films/#001-null-summands"
+    }
+  ],
   "visualizations": [],
   "work": "he-tubbenhauer-2025-null-tensor-summand"
 }

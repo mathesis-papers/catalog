@@ -1,18 +1,56 @@
 {
   "doi": "10.5281/zenodo.23904468",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/192"
+    },
+    {
+      "label": "Corollary 4; Proposition 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/193"
+    },
+    {
+      "label": "Lemma 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/194"
+    },
+    {
+      "label": "Corollary 5",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/195"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23904467/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/10.5281-zenodo.23904467/en/",
-    "zh": "https://papers.trureturing.org/10.5281-zenodo.23904467/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23904467/hexagon-perp-line-counterexamples/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23904467/hexagon-perp-line-counterexamples/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23904467",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23904467/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23904467/hexagon-perp-line-counterexamples/slides/seminar/hexagon-perp-line-counterexamples-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23904467/hexagon-perp-line-counterexamples/slides/seminar/hexagon-perp-line-counterexamples-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23904467/hexagon-perp-line-counterexamples/slides/seminar/hexagon-perp-line-counterexamples-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23904467/hexagon-perp-line-counterexamples/slides/seminar/hexagon-perp-line-counterexamples-seminar-zh.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-twelve-fifteen-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.23904467/hexagon-perp-line-counterexamples/films/001-twelve-fifteen/hexagon-perp-line-counterexamples_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.23904467/hexagon-perp-line-counterexamples/films/001-twelve-fifteen/poster.jpg",
+      "title": "Why twelve is not fifteen",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23904467/hexagon-perp-line-counterexamples/films/#001-twelve-fifteen"
+    }
+  ],
   "visualizations": [],
   "work": "hexagon-perp-line-counterexamples"
 }

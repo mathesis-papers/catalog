@@ -1,18 +1,56 @@
 {
   "doi": "10.5281/zenodo.23920557",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/165"
+    },
+    {
+      "label": "Corollary 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/166"
+    },
+    {
+      "label": "Proposition 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/167"
+    },
+    {
+      "label": "Proposition 4",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/168"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23920556/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/10.5281-zenodo.23920556/en/",
-    "zh": "https://papers.trureturing.org/10.5281-zenodo.23920556/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23920556/ggps2025/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23920556/ggps2025/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23920556",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23920556/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23920556/ggps2025/slides/seminar/ggps2025-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23920556/ggps2025/slides/seminar/ggps2025-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23920556/ggps2025/slides/seminar/ggps2025-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23920556/ggps2025/slides/seminar/ggps2025-seminar-zh.pdf"
+    }
+  ],
   "version": 1,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-modulus-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.23920556/ggps2025/films/001-modulus/ggps2025_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.23920556/ggps2025/films/001-modulus/poster.jpg",
+      "title": "Why moving off the real axis breaks a bound",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23920556/ggps2025/films/#001-modulus"
+    }
+  ],
   "visualizations": [],
   "work": "ggps2025"
 }
