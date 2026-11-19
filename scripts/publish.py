@@ -434,12 +434,15 @@ def apply(api, source, stage):
             require(history.get("schema") == "mathesis.collection-history.v1"
                     and history.get("work") == work, "book migration identity differs")
         is_collection = work in plan.get("collection_works", []) and not migrated_book
+        pending_book_migration = (not is_collection and not migrated_book
+                                  and collection.MARKER in entries
+                                  and ".mathesis/book.json" not in entries)
         api.receipts[repo] = {"before": state[1], "after": state[1], "changed_paths": 0}
         if "paper.json" in entries:
             remote = json.loads(api.blob(repo, entries["paper.json"]))["work"]
             require(remote["work"] == work and remote["repository_name"] in [repo, *aliases.get(work, [])], "existing paper belongs to a different work")
             require(".mathesis/generated.json" in entries, "existing paper import incomplete; review required")
-            if is_collection:
+            if is_collection or pending_book_migration:
                 marker = entries.get(collection.MARKER)
                 require(marker is not None, "existing book cannot be replaced by a collection projection")
                 previous = json.loads(api.blob(repo, marker))
@@ -461,7 +464,7 @@ def apply(api, source, stage):
         if any(info.get(key) != value for key, value in metadata.items()):
             api.call("PATCH", f"/repos/{ORG}/{repo}", metadata)
         api.pages(repo, "workflow")
-        if not is_collection and "paper.json" in entries and work in aliases:
+        if not is_collection and not pending_book_migration and "paper.json" in entries and work in aliases:
             files = {p: api.blob(repo, entries[p]) for p in ("paper.json", ".mathesis/generated.json", "site.toml", "README.md")}
             relocated = collection.relocate_book(files, aliases[work][0], repo)
             api.sync(repo, relocated, lambda p: p in relocated, "Update paper repository DOI address", state)
@@ -484,7 +487,7 @@ def apply(api, source, stage):
                 # outside this publisher's ownership are never removed.
                 managed = lambda p: p in local or (p in previous_paths and not p.startswith("versions/"))
             api.sync(repo, local, managed, "Publish Mathesis paper " + work, state, modes)
-        if not is_collection:
+        if not is_collection and not pending_book_migration:
             api.issue(repo, (stage / "checklist.md").read_text())
     api.sync("formalization", formalization_files, formalization_managed, "Refresh Mathesis formalization projection", states["formalization"])
     api.sync(".github", {"profile/README.md": (output / "profile/README.md").read_bytes()}, lambda p: p == "profile/README.md", "Refresh Mathesis organization profile", states[".github"])

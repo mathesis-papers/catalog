@@ -2,6 +2,7 @@
 import hashlib
 import io
 import json
+import shutil
 from pathlib import Path
 import tempfile
 import unittest
@@ -282,3 +283,17 @@ class CollectionPublishing(PublisherTests):
         with self.assertRaisesRegex(ValueError, "existing book cannot be replaced"):
             self.apply()
         self.assertEqual(len(self.fake.writes), writes)
+
+    def test_publisher_continues_while_reviewed_books_are_being_migrated(self):
+        self.make_collection()
+        self.apply()
+        original = self.fake.files(WORK)
+        plan = publisher.read(self.stage / "plan.json")
+        plan["collection_works"] = []
+        publisher.write(self.stage / "plan.json", plan)
+        shutil.rmtree(self.stage / "papers" / WORK)
+        self.seal()
+        self.apply()
+        self.assertEqual(self.fake.files(WORK), original)
+        self.assertEqual(self.api.receipts[WORK]["changed_paths"], 0)
+        self.assertNotIn(WORK, self.fake.issues)
