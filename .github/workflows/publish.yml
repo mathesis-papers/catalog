@@ -21,7 +21,9 @@ jobs:
   publish:
     if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     runs-on: ubuntu-24.04
-    timeout-minutes: 60
+    # A single material build may include a narrated film. Core publication
+    # finishes first; provider observation itself never blocks on a model turn.
+    timeout-minutes: 240
     defaults:
       run:
         working-directory: publisher
@@ -91,6 +93,71 @@ jobs:
         run: |
           python3 scripts/verify_factory.py --stage "$RUNNER_TEMP/mathesis-publisher" \
             --report "$RUNNER_TEMP/mathesis-publisher-live.json" --attempts 10
+      - name: Check material service access without starting a model
+        if: ${{ !inputs.dry_run && vars.MATHESIS_MATERIALS_AUTOMATION == 'probe' }}
+        env:
+          PUBLISHER_TOKEN: ${{ steps.app.outputs.token || steps.app_no_issues.outputs.token }}
+          CMA_TOKEN: ${{ secrets.MATHESIS_MATERIALS_CMA_TOKEN }}
+          CMA_COLLECTION_WORKSPACE: ${{ vars.CMA_COLLECTION_WORKSPACE }}
+          CMA_EXTERNAL_WORKSPACE: ${{ vars.CMA_EXTERNAL_WORKSPACE }}
+        run: python3 scripts/hosted_materials.py probe --workspace "$RUNNER_TEMP/mathesis-materials"
+      # Scope: default-branch hourly/manual publisher only. Existing PR/CI,
+      # proof verification, review policy and release gates are unchanged.
+      - name: Reconcile one exact-version material job
+        if: ${{ !inputs.dry_run && vars.MATHESIS_MATERIALS_AUTOMATION == 'enabled' }}
+        id: materials
+        env:
+          PUBLISHER_TOKEN: ${{ steps.app.outputs.token || steps.app_no_issues.outputs.token }}
+          CMA_TOKEN: ${{ secrets.MATHESIS_MATERIALS_CMA_TOKEN }}
+          CMA_COLLECTION_WORKSPACE: ${{ vars.CMA_COLLECTION_WORKSPACE }}
+          CMA_EXTERNAL_WORKSPACE: ${{ vars.CMA_EXTERNAL_WORKSPACE }}
+        run: |
+          python3 scripts/hosted_materials.py reconcile \
+            --workspace "$RUNNER_TEMP/mathesis-materials" \
+            --factory-stage "$RUNNER_TEMP/mathesis-publisher"
+      - name: Build and inspect the authored sources with the pinned toolchain
+        if: ${{ steps.materials.outputs.ready == 'true' }}
+        id: material_build
+        timeout-minutes: 180
+        env:
+          MATERIAL_RUN: ${{ steps.materials.outputs.run }}
+          MATERIAL_REPOSITORY: ${{ steps.materials.outputs.repository }}
+        run: |
+          set -euo pipefail
+          material_image=$(python3 -c 'import json; print(json.load(open("production.json"))["toolchain_image"])')
+          docker run --rm --init --ipc=host \
+            --mount "type=bind,src=$GITHUB_WORKSPACE/publisher,dst=$GITHUB_WORKSPACE/publisher,readonly" \
+            --mount "type=bind,src=$RUNNER_TEMP/mathesis-materials,dst=$RUNNER_TEMP/mathesis-materials" \
+            --workdir "$MATERIAL_REPOSITORY" \
+            --env MATERIAL_RUN --env MATERIAL_REPOSITORY \
+            --env MATERIAL_CONTROLS="$GITHUB_WORKSPACE/publisher" \
+            "$material_image" bash -euo pipefail -c '
+              git config --global --add safe.directory "$MATERIAL_REPOSITORY"
+              python /opt/tbook/container/prepare.py
+              python "$MATERIAL_CONTROLS/scripts/hosted_materials.py" build \
+                --workspace "$(dirname "$MATERIAL_RUN")" --run "$MATERIAL_RUN"
+            '
+      - name: Mint a fresh App token after material rendering
+        if: ${{ !cancelled() && steps.materials.outputs.ready == 'true' }}
+        id: material_app
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        with:
+          app-id: ${{ vars.MATHESIS_APP_ID }}
+          private-key: ${{ secrets.MATHESIS_APP_PRIVATE_KEY }}
+          owner: mathesis-papers
+          permission-contents: write
+          permission-workflows: write
+      - name: Publish the checked material source commit
+        if: ${{ steps.materials.outputs.ready == 'true' && steps.material_build.outcome == 'success' }}
+        id: material_publish
+        env:
+          PUBLISHER_TOKEN: ${{ steps.material_app.outputs.token }}
+        run: python3 scripts/hosted_materials.py publish --workspace "$RUNNER_TEMP/mathesis-materials"
+      - name: Preserve a build or publication failure without restarting authoring
+        if: ${{ !cancelled() && steps.materials.outputs.ready == 'true' && (steps.material_build.outcome == 'failure' || steps.material_publish.outcome == 'failure') }}
+        env:
+          PUBLISHER_TOKEN: ${{ steps.material_app.outputs.token }}
+        run: python3 scripts/hosted_materials.py attention --workspace "$RUNNER_TEMP/mathesis-materials"
       - name: Keep the checked inventory and publication receipts
         if: always()
         uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6

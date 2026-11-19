@@ -98,7 +98,7 @@ def plan_repositories(mapping, allowed, selected, naming="slug"):
         identity = hashlib.sha256(("mathesis-paper-repository:v1:" + work).encode()).hexdigest()[:16]
         planned[work] = f"{timestamp:08x}" + identity
     require(len({r.lower() for r in planned.values()}) == len(planned), "repository mapping collision")
-    require(all(r.lower() not in ("catalog", ".github", "paper-template", "mathesis-papers.github.io", "formalization", ".", "..") for r in planned.values()), "reserved repository name")
+    require(all(r.lower() not in ("catalog", ".github", "paper-template", "mathesis-papers.github.io", "formalization", "production-state", ".", "..") for r in planned.values()), "reserved repository name")
     return planned
 
 
