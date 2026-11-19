@@ -1,15 +1,56 @@
 {
   "doi": "10.5281/zenodo.24212412",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/274"
+    },
+    {
+      "label": "Corollary 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/275"
+    },
+    {
+      "label": "Corollary 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/276"
+    },
+    {
+      "label": "Corollary 4",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/277"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/abbott-2019-sequential-weak-pointer-bound/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/abbott-2019-sequential-weak-pointer-bound/abbott-2019-sequential-weak-pointer-bound/en/",
+    "zh": "https://papers.trureturing.org/abbott-2019-sequential-weak-pointer-bound/abbott-2019-sequential-weak-pointer-bound/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/abbott-2019-sequential-weak-pointer-bound",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/abbott-2019-sequential-weak-pointer-bound/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "pointer-bounds",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/abbott-2019-sequential-weak-pointer-bound/abbott-2019-sequential-weak-pointer-bound/slides/pointer-bounds/abbott-2019-sequential-weak-pointer-bound-pointer-bounds-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/abbott-2019-sequential-weak-pointer-bound/abbott-2019-sequential-weak-pointer-bound/slides/pointer-bounds/abbott-2019-sequential-weak-pointer-bound-pointer-bounds-en.pdf"
+    },
+    {
+      "id": "pointer-bounds",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/abbott-2019-sequential-weak-pointer-bound/abbott-2019-sequential-weak-pointer-bound/slides/pointer-bounds/abbott-2019-sequential-weak-pointer-bound-pointer-bounds-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/abbott-2019-sequential-weak-pointer-bound/abbott-2019-sequential-weak-pointer-bound/slides/pointer-bounds/abbott-2019-sequential-weak-pointer-bound-pointer-bounds-zh.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-pointer-product-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/abbott-2019-sequential-weak-pointer-bound/abbott-2019-sequential-weak-pointer-bound/films/001-pointer-product/abbott-2019-sequential-weak-pointer-bound_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/abbott-2019-sequential-weak-pointer-bound/abbott-2019-sequential-weak-pointer-bound/films/001-pointer-product/poster.jpg",
+      "title": "Three pointers below −1/8",
+      "url": "https://papers.trureturing.org/abbott-2019-sequential-weak-pointer-bound/abbott-2019-sequential-weak-pointer-bound/films/#001-pointer-product"
+    }
+  ],
   "visualizations": [],
   "work": "abbott-2019-sequential-weak-pointer-bound"
 }

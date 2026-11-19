@@ -2,12 +2,12 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-19T10:53:51.054431418Z`.
+Snapshot: `2026-11-19T11:02:28.209386402Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
 | [OEIS A320043, COMMENTS, revision 43: a square-value refutation extending Zhu's Pell-prime result (2011)](https://github.com/mathesis-papers/a320043-square-values-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24058057) | en, zh | 2 / 1 / 0 | 7 no target yet |
-| [Extending Sun–Luo–Ye bounds to refute Abbott et al.'s pointer-product conjecture](https://github.com/mathesis-papers/abbott-2019-sequential-weak-pointer-bound) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212412) | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
+| [Extending Sun–Luo–Ye bounds to refute Abbott et al.'s pointer-product conjecture](https://github.com/mathesis-papers/abbott-2019-sequential-weak-pointer-bound) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212412) | en, zh | 2 / 1 / 0 | 4 no target yet |
 | [A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)](https://github.com/mathesis-papers/aks2610-twin-free-theta-separation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212419) | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [Alikhani–Griswold, Section 4(3): connected graphs with domination root −4](https://github.com/mathesis-papers/10.5281-zenodo.23919065) | 1 | [DOI](https://doi.org/10.5281/zenodo.23919066) | en, zh | 0 / 0 / 0 | 3 no target yet |
 | [OEIS A164660, final FORMULA (29 May 2016): Chebyshev numerators and floor products](https://github.com/mathesis-papers/10.5281-zenodo.23884882) | 1 | [DOI](https://doi.org/10.5281/zenodo.23884883) | en, zh | 0 / 0 / 0 | 3 no target yet |
