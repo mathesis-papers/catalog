@@ -2,19 +2,20 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-19T11:29:27.641501822Z`.
+Snapshot: `2026-11-19T12:34:10.292221354Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
 | [OEIS A320043, COMMENTS, revision 43: a square-value refutation extending Zhu's Pell-prime result (2011)](https://github.com/mathesis-papers/a320043-square-values-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24058057) | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [Extending Sun–Luo–Ye bounds to refute Abbott et al.'s pointer-product conjecture](https://github.com/mathesis-papers/abbott-2019-sequential-weak-pointer-bound) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212412) | en, zh | 2 / 1 / 0 | 4 no target yet |
 | [A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)](https://github.com/mathesis-papers/aks2610-twin-free-theta-separation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212419) | en, zh | 2 / 1 / 0 | 7 no target yet |
-| [Alikhani–Griswold, Section 4(3): connected graphs with domination root −4](https://github.com/mathesis-papers/10.5281-zenodo.23919065) | 1 | [DOI](https://doi.org/10.5281/zenodo.23919066) | en, zh | 0 / 0 / 0 | 3 no target yet |
-| [OEIS A164660, final FORMULA (29 May 2016): Chebyshev numerators and floor products](https://github.com/mathesis-papers/10.5281-zenodo.23884882) | 1 | [DOI](https://doi.org/10.5281/zenodo.23884883) | en, zh | 0 / 0 / 0 | 3 no target yet |
+| [Alikhani–Griswold, Section 4(3): connected graphs with domination root −4](https://github.com/mathesis-papers/10.5281-zenodo.23919065) | 1 | [DOI](https://doi.org/10.5281/zenodo.23919066) | en, zh | 2 / 1 / 0 | 3 no target yet |
+| [OEIS A164660, final FORMULA (29 May 2016): Chebyshev numerators and floor products](https://github.com/mathesis-papers/10.5281-zenodo.23884882) | 1 | [DOI](https://doi.org/10.5281/zenodo.23884883) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order](https://github.com/mathesis-papers/10.5281-zenodo.23931730) | 2 | [DOI](https://doi.org/10.5281/zenodo.23931731) | en, zh | 0 / 0 / 0 | 11 no target yet |
 | [Parity and product extensions of Bala's divisibilities (2026): OEIS A295462, References (record #19; contribution dated 23 August 2026)](https://github.com/mathesis-papers/10.5281-zenodo.23971278) | 4 | [DOI](https://doi.org/10.5281/zenodo.23971279) | en, zh | 0 / 0 / 0 | 6 no target yet |
 | [Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)](https://github.com/mathesis-papers/bouafia-diversity-negative-type) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212421) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [A counterexample to Bu--Gu--Jaffe's expected mixed-state inverse sumset estimate](https://github.com/mathesis-papers/10.5281-zenodo.23885950) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885951) | en, zh | 0 / 0 / 0 | 3 no target yet |
+| [Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)](https://github.com/mathesis-papers/central-edges) | 3 | Awaiting DOI | en, zh | 0 / 0 / 0 | 11 no target yet |
 | [Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)](https://github.com/mathesis-papers/10.5281-zenodo.23957559) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957560) | en, zh | 1 / 0 / 1 | 8 no target yet |
 | [The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary](https://github.com/mathesis-papers/10.5281-zenodo.23934999) | 2 | [DOI](https://doi.org/10.5281/zenodo.23935000) | en, zh | 0 / 0 / 0 | 7 no target yet |
 | [Refuting the X-MEMS closest-separable-state conjecture in arXiv:2209.01430v2, Appendix A, Eq. (A11)](https://github.com/mathesis-papers/10.5281-zenodo.23904463) | 2 | [DOI](https://doi.org/10.5281/zenodo.23904464) | en, zh | 0 / 0 / 0 | 3 no target yet |
@@ -28,6 +29,7 @@ Snapshot: `2026-11-19T11:29:27.641501822Z`.
 | [Earliest swapping for every chain length: Kamin et al. (2023), Section IV D 1, Eq. (41)](https://github.com/mathesis-papers/10.5281-zenodo.23904475) | 1 | [DOI](https://doi.org/10.5281/zenodo.23904476) | en, zh | 0 / 0 / 0 | 3 no target yet |
 | [A negative answer to Kang–Jäger's Question 1.10 on permutative lifts](https://github.com/mathesis-papers/10.5281-zenodo.23885964) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885965) | en, zh | 0 / 0 / 0 | 6 no target yet |
 | [A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras](https://github.com/mathesis-papers/10.5281-zenodo.23957572) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957573) | en, zh | 0 / 0 / 0 | 11 no target yet |
+| [Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)](https://github.com/mathesis-papers/kok-jaco-addition-law-refutation) | 3 | Awaiting DOI | en, zh | 0 / 0 / 0 | 10 no target yet |
 | [The 2n−1 arc minimum in Koljančić–Oblak, Problem 1.8 (p. 759)](https://github.com/mathesis-papers/10.5281-zenodo.23904481) | 3 | [DOI](https://doi.org/10.5281/zenodo.23904482) | en, zh | 0 / 0 / 0 | 7 no target yet |
 | [Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths](https://github.com/mathesis-papers/10.5281-zenodo.23920567) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920568) | en, zh | 0 / 0 / 0 | 6 no target yet |
 | [Corrected formulas and integer exponents for Amdeberhan–Ekhad (2022): Kurkov's OEIS A396563 FORMULA conjecture, revision 15 (1 June 2026)](https://github.com/mathesis-papers/kurk396563) | 2 | Awaiting DOI | en, zh | 0 / 0 / 0 | 7 no target yet |

@@ -1,18 +1,52 @@
 {
   "doi": "10.5281/zenodo.23919066",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Lemma 1, Section 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/203"
+    },
+    {
+      "label": "Theorem 2, Section 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/204"
+    },
+    {
+      "label": "Corollary 3, Section 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/205"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23919065/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/10.5281-zenodo.23919065/en/",
-    "zh": "https://papers.trureturing.org/10.5281-zenodo.23919065/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23919065/alikhani-griswold-2026-connected-minus-four-family/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23919065/alikhani-griswold-2026-connected-minus-four-family/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23919065",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23919065/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23919065/alikhani-griswold-2026-connected-minus-four-family/slides/seminar/alikhani-griswold-2026-connected-minus-four-family-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23919065/alikhani-griswold-2026-connected-minus-four-family/slides/seminar/alikhani-griswold-2026-connected-minus-four-family-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23919065/alikhani-griswold-2026-connected-minus-four-family/slides/seminar/alikhani-griswold-2026-connected-minus-four-family-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23919065/alikhani-griswold-2026-connected-minus-four-family/slides/seminar/alikhani-griswold-2026-connected-minus-four-family-seminar-zh.pdf"
+    }
+  ],
   "version": 1,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-leaf-support-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.23919065/alikhani-griswold-2026-connected-minus-four-family/films/001-leaf-support/alikhani-griswold-2026-connected-minus-four-family_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.23919065/alikhani-griswold-2026-connected-minus-four-family/films/001-leaf-support/poster.jpg",
+      "title": "A leaf preserves a root",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23919065/alikhani-griswold-2026-connected-minus-four-family/films/#001-leaf-support"
+    }
+  ],
   "visualizations": [],
   "work": "alikhani-griswold-2026-connected-minus-four-family"
 }

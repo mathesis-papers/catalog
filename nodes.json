@@ -2114,6 +2114,468 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:central-edges:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+      },
+      "lineage": "collected:central-edges:s1",
+      "macros": {
+        "\\CG": "\\operatorname{CG}",
+        "\\E": "\\operatorname{E}",
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "central-edges",
+      "scope": "in_scope",
+      "statement": "Conjecture 4.2 is false. Its implication $\\mathrm{(i)}\\Rightarrow\n\\mathrm{(ii)}$ fails for a four-point space.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "central-edges"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:central-edges:3:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+      },
+      "lineage": "collected:central-edges:s10",
+      "macros": {
+        "\\CG": "\\operatorname{CG}",
+        "\\E": "\\operatorname{E}",
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "central-edges",
+      "scope": "in_scope",
+      "statement": "For a finite homogeneous ultrametric space $X$,\n$|\\operatorname{Is}(X)|\\ge2^{|X|-1}$, with equality exactly when\n$X$ is MCD. A finite rooted tree is the representing tree of some\nhomogeneous ultrametric space exactly when it has no vertex of\nout-degree one and all vertices at the same level have the same\nout-degree.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "central-edges"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s11",
+      "contributor": null,
+      "identity": "collected:central-edges:3:s11",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+      },
+      "lineage": "collected:central-edges:s11",
+      "macros": {
+        "\\CG": "\\operatorname{CG}",
+        "\\E": "\\operatorname{E}",
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "central-edges",
+      "scope": "in_scope",
+      "statement": "For a finite ultrametric with center $\\{0=c_0<\\cdots<c_h\\}$,\nthe sphere counts $1,1,2,\\ldots,2^{h-1}$ at every point hold\nexactly when $X$ is MCD with $|X|=2^h$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "central-edges"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:central-edges:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+      },
+      "lineage": "collected:central-edges:s2",
+      "macros": {
+        "\\CG": "\\operatorname{CG}",
+        "\\E": "\\operatorname{E}",
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "central-edges",
+      "scope": "in_scope",
+      "statement": "If a finite metric space has $n$ points and $|C(X)|=k$, then\n\\[\n |\\E(\\CG_X)|\\ge (k-1)\\ceil{n/2}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "central-edges"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:central-edges:3:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+      },
+      "lineage": "collected:central-edges:s3",
+      "macros": {
+        "\\CG": "\\operatorname{CG}",
+        "\\E": "\\operatorname{E}",
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "central-edges",
+      "scope": "in_scope",
+      "statement": "For every $n\\ge4$, the minimum number of central edges among\nthree-central $n$-point metric spaces is $2\\ceil{n/2}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "central-edges"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:central-edges:3:s4",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+      },
+      "lineage": "collected:central-edges:s4",
+      "macros": {
+        "\\CG": "\\operatorname{CG}",
+        "\\E": "\\operatorname{E}",
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "central-edges",
+      "scope": "in_scope",
+      "statement": "For every $n\\ge4$, the minimum number of central edges among\nthree-central $n$-point ultrametric spaces is\n\\[\n 2n-4+\\ceil{n/2}.\n\\]\nEquality holds exactly when the diametrical graph is complete\nbipartite with part sizes $2,n-2$, and the other positive central\ndistance has exactly $\\ceil{n/2}$ edges.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "central-edges"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:central-edges:3:s5",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+      },
+      "lineage": "collected:central-edges:s5",
+      "macros": {
+        "\\CG": "\\operatorname{CG}",
+        "\\E": "\\operatorname{E}",
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "central-edges",
+      "scope": "in_scope",
+      "statement": "For $n\\ge1$, a metric space of order $n$ with a complete,\n$n$-central graph exists if and only if $n=1$ or $n$ is even.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "central-edges"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:central-edges:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+      },
+      "lineage": "collected:central-edges:s6",
+      "macros": {
+        "\\CG": "\\operatorname{CG}",
+        "\\E": "\\operatorname{E}",
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "central-edges",
+      "scope": "in_scope",
+      "statement": "Let $k\\ge1$. The smallest order $v(k)$ of a metric space with\n$|C(X)|=k$, as asked in Problem 4.3, is\n\\[\n v(k)=\\begin{cases}\n 1,&k=1,\\\\\n k,&k\\text{ even},\\\\\n k+1,&k\\ge3\\text{ odd}.\n \\end{cases}\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "central-edges"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:central-edges:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+      },
+      "lineage": "collected:central-edges:s7",
+      "macros": {
+        "\\CG": "\\operatorname{CG}",
+        "\\E": "\\operatorname{E}",
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "central-edges",
+      "scope": "in_scope",
+      "statement": "For $n\\ge3$, the feasible center sizes are $1\\le k\\le n$ when $n$\nis even, and $1\\le k\\le n-1$ when $n$ is odd. For each feasible pair,\nthe minimum central-edge count is\n\\[\n (k-1)\\ceil{n/2}.\n\\]\nAt $n=1$ only $k=1$ occurs; at $n=2$ only $k=2$ occurs.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "central-edges"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:central-edges:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+      },
+      "lineage": "collected:central-edges:s8",
+      "macros": {
+        "\\CG": "\\operatorname{CG}",
+        "\\E": "\\operatorname{E}",
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "central-edges",
+      "scope": "in_scope",
+      "statement": "Among nonempty central graphs of order $n\\ge2$, the minimum is\n$\\ceil{n/2}$. Equality graphs are $(n/2)P_2$ for even $n$ and\n$P_3\\cup((n-3)/2)P_2$ for odd $n$. They are bicentral.\nAmong all central graphs of order $n\\ge3$, the minimum is zero.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "central-edges"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:central-edges:3:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+      },
+      "lineage": "collected:central-edges:s9",
+      "macros": {
+        "\\CG": "\\operatorname{CG}",
+        "\\E": "\\operatorname{E}",
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "central-edges",
+      "scope": "in_scope",
+      "statement": "Let $X$ be MCD, $|X|=2^h$, and write\n$C(X)=\\{0=c_0<c_1<\\cdots<c_h\\}$. Then $X$ is homogeneous,\nmeaning that its isometry group is transitive on points, and\n\\[\n \\operatorname{Is}(X)\\cong G_h,\\qquad\n G_0=\\{1\\},\\qquad\n G_h=(G_{h-1}\\times G_{h-1})\\rtimes C_2,\n \\qquad |G_h|=2^{2^h-1},\n\\]\nwhere $C_2$ swaps the two factors. Moreover, for every $p\\in X$,\n\\[\n |\\{x:d(p,x)=c_i\\}|=2^{i-1}\\quad(1\\le i\\le h).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "central-edges"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:chen-chen-step-m-eulerian-parity-positivity:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -5105,6 +5567,416 @@
       "toolchain": null,
       "version": 2,
       "work": "kmvq31-sl3-obstruction"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:kok-jaco-addition-law-refutation:3:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/ConceptDynamics/GraphColoring/JacoAdditionLawRefutation.lean"
+      },
+      "lineage": "collected:kok-jaco-addition-law-refutation:s1",
+      "macros": {
+        "\\J": "\\mathcal J",
+        "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kok-jaco-addition-law-refutation",
+      "scope": "in_scope",
+      "statement": "For all positive labels and all $1\\le i\\le n$,\n\\begin{equation}\n R_i=i+b_i=\\fl{(i+1)\\ph}-1,\\qquad\n \\deg_{J_n(1)}(v_i)=\\min\\{i,n-b_i\\}.\n\\end{equation}\nConsequently, for every $n\\ge1$,\n\\begin{equation}\n \\Delta_n=\\fl{\\frac{n+2}{\\ph}}-1.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "kok-jaco-addition-law-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:kok-jaco-addition-law-refutation:3:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/ConceptDynamics/GraphColoring/JacoAdditionLawRefutation.lean"
+      },
+      "lineage": "collected:kok-jaco-addition-law-refutation:s10",
+      "macros": {
+        "\\J": "\\mathcal J",
+        "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kok-jaco-addition-law-refutation",
+      "scope": "in_scope",
+      "statement": "The first three assertions of Proposition 3.2 hold throughout its stated\ndomain. Its singleton-sum assertion fails exactly at $(h,l)=(5,5)$.\nMore generally, for $r,s\\ge4$, the sum assertions are\n\\[\n \\Delta_{F_r+F_s}=F_{r-1}+F_{s-1},\\qquad\n \\J_{F_r+F_s}=\\{v_{F_{r-1}+F_{s-1}}\\},\n\\]\nexcept that the degree assertion fails at $(F_r,F_s)=(3,3)$, and the\nsingleton assertion fails at $(3,3)$ and $(5,5)$. The pair $(3,3)$ is\noutside the literal domain of Proposition 3.2 because its $t$ would be two.\nAt these exceptions, $\\Delta_6=3$, $\\J_6=\\{v_3,v_4,v_5\\}$ and\n$\\Delta_{10}=6$, $\\J_{10}=\\{v_6,v_7\\}$. Thus both assertions hold\nwithout exceptions if the two Fibonacci orders are distinct.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "kok-jaco-addition-law-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:kok-jaco-addition-law-refutation:3:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/ConceptDynamics/GraphColoring/JacoAdditionLawRefutation.lean"
+      },
+      "lineage": "collected:kok-jaco-addition-law-refutation:s2",
+      "macros": {
+        "\\J": "\\mathcal J",
+        "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kok-jaco-addition-law-refutation",
+      "scope": "in_scope",
+      "statement": "Let $n,m\\ge1$, set $x_n=\\{(n+2)/\\ph\\}$ and $\\alpha=2/\\ph-1=\\sqrt5-2$.\nThen\n\\begin{equation}\n \\Delta_{n+m}-\\Delta_n-\\Delta_m\n =\\fl{x_n+x_m-\\alpha}\n =\\begin{cases}\n -1,&x_n+x_m<\\alpha,\\\\\n 0,&\\alpha\\le x_n+x_m<1+\\alpha,\\\\\n 1,&1+\\alpha\\le x_n+x_m.\n \\end{cases}\n\\end{equation}\nAll three values occur for distinct orders at least three.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "kok-jaco-addition-law-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:kok-jaco-addition-law-refutation:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/ConceptDynamics/GraphColoring/JacoAdditionLawRefutation.lean"
+      },
+      "lineage": "collected:kok-jaco-addition-law-refutation:s3",
+      "macros": {
+        "\\J": "\\mathcal J",
+        "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kok-jaco-addition-law-refutation",
+      "scope": "in_scope",
+      "statement": "For $r\\ge2$ and positive orders $n_1,\\ldots,n_r$, put\n$N=\\sum_{j=1}^r n_j$ and $x_j=\\{(n_j+2)/\\ph\\}$. Then\n\\[\n \\Delta_N-\\sum_{j=1}^r\\Delta_{n_j}\n   =\\fl{\\sum_{j=1}^r x_j-(r-1)\\alpha}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "kok-jaco-addition-law-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:kok-jaco-addition-law-refutation:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/ConceptDynamics/GraphColoring/JacoAdditionLawRefutation.lean"
+      },
+      "lineage": "collected:kok-jaco-addition-law-refutation:s4",
+      "macros": {
+        "\\J": "\\mathcal J",
+        "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kok-jaco-addition-law-refutation",
+      "scope": "in_scope",
+      "statement": "Theorem 2.3 of \\cite{original} becomes valid for $n\\ge2$ with prime\nmaximum label $k$ after adding $n=R_k$ to each left-hand condition.\nIts unqualified parts (a) and (b) fail respectively at $(n,k)=(6,3)$\nand $(4,2)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "kok-jaco-addition-law-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:kok-jaco-addition-law-refutation:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/ConceptDynamics/GraphColoring/JacoAdditionLawRefutation.lean"
+      },
+      "lineage": "collected:kok-jaco-addition-law-refutation:s5",
+      "macros": {
+        "\\J": "\\mathcal J",
+        "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kok-jaco-addition-law-refutation",
+      "scope": "in_scope",
+      "statement": "For $n=7+3k$, $k\\ge0$, the bound in Theorem 2.15 holds:\n$\\Delta_n\\le4+2k=n-(3+k)$. Its claimed edge $v_{\\Delta_n}v_n$\nexists exactly when $n=R_{\\Delta_n}$, and fails at $n=19$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "kok-jaco-addition-law-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:kok-jaco-addition-law-refutation:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/ConceptDynamics/GraphColoring/JacoAdditionLawRefutation.lean"
+      },
+      "lineage": "collected:kok-jaco-addition-law-refutation:s6",
+      "macros": {
+        "\\J": "\\mathcal J",
+        "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kok-jaco-addition-law-refutation",
+      "scope": "in_scope",
+      "statement": "The recurrence form of Conjecture 2.16.1 of \\cite[p.~73]{critical}\nis as follows. Set $p_0=1$ and, for $j\\ge0$, define\n\\[\n p_{j+1}=p_j+3+2\\left(\\fl{(j+2)/\\ph}-\\fl{(j+1)/\\ph}\\right).\n\\]\nThe actual orders with three maximum-degree vertices are\n$p_1,p_2,\\ldots=6,9,14,19,22,\\ldots$.\nSuccessive increments are $3$ or $5$, with no consecutive $3$s\nand no three consecutive $5$s. The order-one value is a synthetic\nseed, not a graph with three maximum-degree vertices.\nThis is the recurrence reformulation of Patel's prior classification\n\\cite{patelsets}; the full maximum-set and never-singleton-label\nclassifications \\cite{patelsets,patelnever} are separate results.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "kok-jaco-addition-law-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:kok-jaco-addition-law-refutation:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/ConceptDynamics/GraphColoring/JacoAdditionLawRefutation.lean"
+      },
+      "lineage": "collected:kok-jaco-addition-law-refutation:s7",
+      "macros": {
+        "\\J": "\\mathcal J",
+        "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kok-jaco-addition-law-refutation",
+      "scope": "in_scope",
+      "statement": "Conjecture 2.48.1 of \\cite[p.~91]{critical} follows directly from\nits Theorem 2.48 and the endpoint formula: for $n\\ge3$,\nthe infinite outdegree $b_n$ is nonrepetitive exactly when the\nMcPherson number $\\Upsilon_n$ is nonrepetitive. More precisely,\n$\\Upsilon_n=b_n-1$ for every $n\\ge1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "kok-jaco-addition-law-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:kok-jaco-addition-law-refutation:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/ConceptDynamics/GraphColoring/JacoAdditionLawRefutation.lean"
+      },
+      "lineage": "collected:kok-jaco-addition-law-refutation:s8",
+      "macros": {
+        "\\J": "\\mathcal J",
+        "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kok-jaco-addition-law-refutation",
+      "scope": "in_scope",
+      "statement": "Conjectured Lemma 2.2 of \\cite[p.~4]{original} holds on its positive-label\ndomain: if $n\\ge2$ and $b_{n-1}<b_n<b_{n+1}$, then\n$\\J_n=\\{v_{b_n}\\}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "kok-jaco-addition-law-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:kok-jaco-addition-law-refutation:3:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/ConceptDynamics/GraphColoring/JacoAdditionLawRefutation.lean"
+      },
+      "lineage": "collected:kok-jaco-addition-law-refutation:s9",
+      "macros": {
+        "\\J": "\\mathcal J",
+        "\\fl": "\\left\\lfloor #1\\right\\rfloor",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kok-jaco-addition-law-refutation",
+      "scope": "in_scope",
+      "statement": "The first open problem on page 11 of \\cite{original} has the following\npartition. Set $\\beta=5/\\ph-3>0$, $k_0=1$ and, for $q\\ge1$, set\n\\begin{equation}\n k_q=\\left\\lceil\\frac{q-\\alpha}{\\beta}\\right\\rceil\n     =\\fl{(5q-1)\\ph}+3q.\n\\end{equation}\nTake $P_0=\\{1,\\ldots,5k_1-1\\}$ and\n$P_q=\\{5k_q,\\ldots,5k_{q+1}-1\\}$ for $q\\ge1$. These partition the\npositive integers, and whenever $n=5k\\in P_q$,\n\\begin{equation}\n \\Delta_{5k}=3k+q.\n\\end{equation}\nIn particular $P_0=[1,44]$, $P_1=[45,99]$ and $P_2=[100,154]$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "kok-jaco-addition-law-refutation"
     },
     {
       "attribution": null,

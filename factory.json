@@ -200,15 +200,13 @@
         "url": "https://github.com/the-omega-institute/trureturing/blob/a87bdf39e4517497a9773c0c724243bc700c5bb1/D5/S3/Combinatorics/Graph/Domination/MinusFourReassembly.lean"
       },
       "materials": {
-        "formalization_requests": 0,
-        "slides": 0,
-        "videos": 0,
+        "formalization_requests": 3,
+        "slides": 2,
+        "videos": 1,
         "visualizations": 0
       },
       "mode": "authored_book",
       "next_steps": [
-        "prepare_slides",
-        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -258,15 +256,13 @@
         "url": "https://github.com/the-omega-institute/trureturing/blob/122c987d276498783de7d873378a28b27ced8761/D5/S3/ArithSums/BrowneA164660ChebyshevFloorProduct.lean"
       },
       "materials": {
-        "formalization_requests": 0,
-        "slides": 0,
-        "videos": 0,
+        "formalization_requests": 2,
+        "slides": 2,
+        "videos": 1,
         "visualizations": 0
       },
       "mode": "authored_book",
       "next_steps": [
-        "prepare_slides",
-        "prepare_video",
         "prepare_exact_targets"
       ],
       "reading_languages": [
@@ -513,6 +509,65 @@
       },
       "version": 2,
       "work": "bu-gu-jaffe-2025-mixed-state-inverse-sumset"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 105303,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "7217222ee474bdbba0c41c9078b9236b0a24615a3317284bbd45929e6dddfa7c",
+          "sha256": "7217222ee474bdbba0c41c9078b9236b0a24615a3317284bbd45929e6dddfa7c"
+        },
+        "source": {
+          "bytes": 22872,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "0df6f71620156c76b18d2f65b8062992175013bf8ee0d9a9c9eb429254058b9b",
+          "sha256": "0df6f71620156c76b18d2f65b8062992175013bf8ee0d9a9c9eb429254058b9b"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 11,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [
+        "en",
+        "zh"
+      ],
+      "repository_url": "https://github.com/mathesis-papers/central-edges",
+      "site_url": "https://papers.trureturing.org/central-edges/",
+      "title": "Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "central-edges"
     },
     {
       "concept_doi": "10.5281/zenodo.23957559",
@@ -1265,6 +1320,65 @@
       },
       "version": 2,
       "work": "kmvq31-sl3-obstruction"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 101873,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "856960c31a76ad63ec167999ece17e7785d39823fab62cda4b519bcaa660dac0",
+          "sha256": "856960c31a76ad63ec167999ece17e7785d39823fab62cda4b519bcaa660dac0"
+        },
+        "source": {
+          "bytes": 19431,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "8852f0318ab9f6723582b869cfc7130ed078fb2b40d5488cf79be7b3a65a6877",
+          "sha256": "8852f0318ab9f6723582b869cfc7130ed078fb2b40d5488cf79be7b3a65a6877"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 10,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/ConceptDynamics/GraphColoring/JacoAdditionLawRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [
+        "en",
+        "zh"
+      ],
+      "repository_url": "https://github.com/mathesis-papers/kok-jaco-addition-law-refutation",
+      "site_url": "https://papers.trureturing.org/kok-jaco-addition-law-refutation/",
+      "title": "Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "kok-jaco-addition-law-refutation"
     },
     {
       "concept_doi": "10.5281/zenodo.23904481",
@@ -2822,8 +2936,8 @@
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
     }
   ],
-  "papers": 49,
+  "papers": 51,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-19T11:29:27.641501822Z"
+  "snapshot_time": "2026-11-19T12:34:10.292221354Z"
 }
