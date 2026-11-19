@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "doi": "10.5281/zenodo.24058057",
+      "id": "a320043-square-values-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24212412",
+      "id": "abbott-2019-sequential-weak-pointer-bound",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24212419",
+      "id": "aks2610-twin-free-theta-separation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23919066",
       "id": "alikhani-griswold-2026-connected-minus-four-family",
       "kind": "collected",
@@ -23,6 +41,12 @@
       "id": "bala295462",
       "kind": "collected",
       "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.24212421",
+      "id": "bouafia-diversity-negative-type",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.23885951",
@@ -139,8 +163,26 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24210281",
+      "id": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24209470",
+      "id": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.23957584",
       "id": "oeis-a189733-curtz-denominator-conjecture",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24211281",
+      "id": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
       "kind": "collected",
       "version": 2
     },
@@ -193,8 +235,20 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24211823",
+      "id": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23927428",
       "id": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24212427",
+      "id": "ta-2025-problem-11-7-good-involution-bound-refutation",
       "kind": "collected",
       "version": 2
     },
@@ -217,12 +271,18 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24209474",
+      "id": "wiseman-a344611",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23919079",
       "id": "xu-et-al-2023-noisy-ghz-witness-bound-gap",
       "kind": "collected",
       "version": 1
     }
   ],
-  "generated_at": "2026-11-19T09:30:42.587655582Z",
+  "generated_at": "2026-11-19T10:53:51.054431418Z",
   "schema": "mathesis.archive-index.v1"
 }

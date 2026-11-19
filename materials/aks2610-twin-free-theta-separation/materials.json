@@ -1,15 +1,60 @@
 {
-  "doi": null,
-  "formalization_requests": [],
+  "doi": "10.5281/zenodo.24212419",
+  "formalization_requests": [
+    {
+      "label": "Corollary 2 — explicit theta family; Theorem 1 — precise theta-family spectrum",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/39"
+    },
+    {
+      "label": "Corollary 3 — six-residue spectral classification; Corollary 4 — complete all-length classification",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/40"
+    },
+    {
+      "label": "Corollary 5 — Paone–Paone specialization at eigenvalue two",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/41"
+    },
+    {
+      "label": "Corollary 6 — rooted-path separation in both directions",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/42"
+    },
+    {
+      "label": "Corollary 7 — disjoint-module lower bound",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/43"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/aks2610-twin-free-theta-separation/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/aks2610-twin-free-theta-separation/aks2610-twin-free-theta-separation/en/",
+    "zh": "https://papers.trureturing.org/aks2610-twin-free-theta-separation/aks2610-twin-free-theta-separation/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/aks2610-twin-free-theta-separation",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/aks2610-twin-free-theta-separation/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/aks2610-twin-free-theta-separation/aks2610-twin-free-theta-separation/slides/seminar/aks2610-twin-free-theta-separation-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/aks2610-twin-free-theta-separation/aks2610-twin-free-theta-separation/slides/seminar/aks2610-twin-free-theta-separation-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/aks2610-twin-free-theta-separation/aks2610-twin-free-theta-separation/slides/seminar/aks2610-twin-free-theta-separation-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/aks2610-twin-free-theta-separation/aks2610-twin-free-theta-separation/slides/seminar/aks2610-twin-free-theta-separation-seminar-zh.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-landmarks-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/aks2610-twin-free-theta-separation/aks2610-twin-free-theta-separation/films/001-landmarks/aks2610-twin-free-theta-separation_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/aks2610-twin-free-theta-separation/aks2610-twin-free-theta-separation/films/001-landmarks/poster.jpg",
+      "title": "Two landmarks, two spectral rules",
+      "url": "https://papers.trureturing.org/aks2610-twin-free-theta-separation/aks2610-twin-free-theta-separation/films/#001-landmarks"
+    }
+  ],
   "visualizations": [],
   "work": "aks2610-twin-free-theta-separation"
 }

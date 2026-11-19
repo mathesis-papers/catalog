@@ -1,15 +1,68 @@
 {
-  "doi": null,
-  "formalization_requests": [],
+  "doi": "10.5281/zenodo.24058057",
+  "formalization_requests": [
+    {
+      "label": "Proposition 2, Section 2, PDF page 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/94"
+    },
+    {
+      "label": "Corollary 3, Section 2, PDF page 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/95"
+    },
+    {
+      "label": "Corollary 4, Section 2, PDF page 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/96"
+    },
+    {
+      "label": "Corollary 5, Section 2, PDF page 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/97"
+    },
+    {
+      "label": "Corollary 6, Section 3, PDF page 4",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/98"
+    },
+    {
+      "label": "Corollary 7, Section 3, PDF page 4",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/99"
+    },
+    {
+      "label": "Theorem 1, Section 1, PDF page 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/100"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/a320043-square-values-refutation/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/a320043-square-values-refutation/a320043-square-values-refutation/en/",
+    "zh": "https://papers.trureturing.org/a320043-square-values-refutation/a320043-square-values-refutation/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/a320043-square-values-refutation",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/a320043-square-values-refutation/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "overview",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/a320043-square-values-refutation/a320043-square-values-refutation/slides/overview/a320043-square-values-refutation-overview-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/a320043-square-values-refutation/a320043-square-values-refutation/slides/overview/a320043-square-values-refutation-overview-en.pdf"
+    },
+    {
+      "id": "overview",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/a320043-square-values-refutation/a320043-square-values-refutation/slides/overview/a320043-square-values-refutation-overview-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/a320043-square-values-refutation/a320043-square-values-refutation/slides/overview/a320043-square-values-refutation-overview-zh.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-pell-square-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/a320043-square-values-refutation/a320043-square-values-refutation/films/001-pell-square/a320043-square-values-refutation_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/a320043-square-values-refutation/a320043-square-values-refutation/films/001-pell-square/poster.jpg",
+      "title": "Pell numbers and the counterexample",
+      "url": "https://papers.trureturing.org/a320043-square-values-refutation/a320043-square-values-refutation/films/#001-pell-square"
+    }
+  ],
   "visualizations": [],
   "work": "a320043-square-values-refutation"
 }

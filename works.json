@@ -12,9 +12,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24058056",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24058057",
       "lean_source": {
         "revision": "73ec20a01fc35e0f53bc258c605821728f3c33b6",
         "url": "https://github.com/the-omega-institute/trureturing/blob/73ec20a01fc35e0f53bc258c605821728f3c33b6/D5/S3/ArithSums/SpeziaA320043SquareValuesRefutation.lean"
@@ -59,9 +59,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24212411",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24212412",
       "lean_source": {
         "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
         "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S3/Quantum/Measurement/Weak/SequentialWeakPointerRefutation.lean"
@@ -106,9 +106,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24212418",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24212419",
       "lean_source": {
         "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
@@ -341,9 +341,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24212420",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24212421",
       "lean_source": {
         "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
         "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S3/Geometry/BouafiaNegativeTypeDiversityDeletionRefutation.lean"
@@ -1377,9 +1377,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24210280",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24210281",
       "lean_source": {
         "revision": "f7ba557ae2a5d2c3a3a519e0713d65ac86af2973",
         "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/SpinChains/BubbleEigenstateDegeneracy.lean"
@@ -1424,9 +1424,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24209469",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24209470",
       "lean_source": {
         "revision": "0eae8e045cb2ba958e2097dbac034f62f9c1dd7a",
         "url": "https://github.com/the-omega-institute/trureturing/blob/0eae8e045cb2ba958e2097dbac034f62f9c1dd7a/D5/S3/QuantumChannels/CoolingMapThermalOperationRefutation.lean"
@@ -1518,9 +1518,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24211280",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24211281",
       "lean_source": {
         "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
         "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S1/Recurrence/Invariants/AffinePolynomialPairBinomialCoefficients.lean"
@@ -1941,9 +1941,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24211822",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24211823",
       "lean_source": {
         "revision": "6ffa76e4424ce4c0d1048e56afb0724762ed8285",
         "url": "https://github.com/the-omega-institute/trureturing/blob/6ffa76e4424ce4c0d1048e56afb0724762ed8285/D5/S3/StatisticalMechanics/BoseSelectionCubicTwoBathRefutation.lean"
@@ -2035,9 +2035,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24212426",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24212427",
       "lean_source": {
         "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaGoodInvolutionBoundRefutation.lean"
@@ -2223,9 +2223,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24209473",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24209474",
       "lean_source": {
         "revision": "d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d133fcb1d5e4878bdf5232fd0c07ef2abb3da1d9/D5/S1/Words/Compositions/WisemanA344611OddLengthInjection.lean"
