@@ -1679,6 +1679,339 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:bernath-a400645-consecutive-ratio:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/OEISA400645.lean"
+      },
+      "lineage": "collected:bernath-a400645-consecutive-ratio:s1",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bernath-a400645-consecutive-ratio",
+      "scope": "in_scope",
+      "statement": "The recurrence \\eqref{eq:rec} defines a unique nonnegative integer\nsequence. It is nondecreasing and positive from index four. There is a\nconstant $c>0$ such that\n\\[\n a_n\\sim c\\lambda^n,\\qquad\n \\lim_{n\\to\\infty}\\frac{a_{n+1}}{a_n}=\\lambda.\n\\]\nIn particular, the limit asserted in A400645 is the largest real root of\n$x^8-x^6-x^4-x^2+1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-error asymptotics for Bernáth's conjecture: OEIS A400645, revision 21, COMMENTS, and its rounded-norm siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:bernath-a400645-consecutive-ratio:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/OEISA400645.lean"
+      },
+      "lineage": "collected:bernath-a400645-consecutive-ratio:s2",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bernath-a400645-consecutive-ratio",
+      "scope": "in_scope",
+      "statement": "Let a monic real polynomial $p$ have distinct roots, a root $R>1$,\nand all its other roots of modulus at most one. If a real sequence\nobeys the recurrence with characteristic polynomial $p$, with additive\nerror $e_j=O(q^j)$ for some $1<q<R$, then\n\\[\n b_j=L R^j+O(q^j)\n\\]\nfor some real $L$. If $b_j\\sim L R^j$ with $L>0$ and the error also\nsatisfies $e_j=O(b_j^{1/2})$, then\n$b_j=L R^j+O(R^{j/2})$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-error asymptotics for Bernáth's conjecture: OEIS A400645, revision 21, COMMENTS, and its rounded-norm siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:bernath-a400645-consecutive-ratio:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/OEISA400645.lean"
+      },
+      "lineage": "collected:bernath-a400645-consecutive-ratio:s3",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bernath-a400645-consecutive-ratio",
+      "scope": "in_scope",
+      "statement": "For the sequence in Theorem~\\ref{thm:main},\n$a_n=c\\lambda^n+O(1)$, and\n$a_{n+1}/a_n=\\lambda+O(\\lambda^{-n})$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-error asymptotics for Bernáth's conjecture: OEIS A400645, revision 21, COMMENTS, and its rounded-norm siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:bernath-a400645-consecutive-ratio:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/OEISA400645.lean"
+      },
+      "lineage": "collected:bernath-a400645-consecutive-ratio:s4",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bernath-a400645-consecutive-ratio",
+      "scope": "in_scope",
+      "statement": "Replace the initial tuple in \\eqref{eq:rec} by any nondecreasing\nnonnegative integer tuple with $a_4\\ge292$. The resulting signed\nrecurrence satisfies $a_n=c\\lambda^n+O(1)$ for some $c>0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-error asymptotics for Bernáth's conjecture: OEIS A400645, revision 21, COMMENTS, and its rounded-norm siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:bernath-a400645-consecutive-ratio:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/OEISA400645.lean"
+      },
+      "lineage": "collected:bernath-a400645-consecutive-ratio:s5",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bernath-a400645-consecutive-ratio",
+      "scope": "in_scope",
+      "statement": "Let $m=2$ or $3$ and start with nondecreasing nonnegative integer data\n$x_0,\\ldots,x_{m-1}$. Define\n\\[\n x_{n+m}=\\operatorname{round}\\sqrt{\\sum_{i=0}^{m-1}x_{n+i}^2}.\n\\]\nFor $m=2$ assume $x_1\\ge2$; for $m=3$ assume $x_2\\ge1$.\nIf $R_m$ is the positive root above one of\n$p_m(y)=y^m-y^{m-1}-\\cdots-y-1$, then for some $C>0$,\n\\[\n x_n=C R_m^{n/2}+O(1),\\qquad\n \\frac{x_{n+1}}{x_n}=\\sqrt{R_m}+O(R_m^{-n/2}).\n\\]\nIn particular, the asserted limits in A063827, revision 12, COMMENTS,\nand A400644, revision 28, COMMENTS, hold for their specified initial\ndata: $\\sqrt{(1+\\sqrt5)/2}$ and the square root of the tribonacci\nconstant, respectively.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-error asymptotics for Bernáth's conjecture: OEIS A400645, revision 21, COMMENTS, and its rounded-norm siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:bernath-a400645-consecutive-ratio:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/OEISA400645.lean"
+      },
+      "lineage": "collected:bernath-a400645-consecutive-ratio:s6",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bernath-a400645-consecutive-ratio",
+      "scope": "in_scope",
+      "statement": "For every fixed integer $h\\ge0$, $a_{n+h}/a_n\\to\\lambda^h$, and\n$\\log(a_n)/n\\to\\log\\lambda$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-error asymptotics for Bernáth's conjecture: OEIS A400645, revision 21, COMMENTS, and its rounded-norm siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:bernath-a400645-consecutive-ratio:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/OEISA400645.lean"
+      },
+      "lineage": "collected:bernath-a400645-consecutive-ratio:s7",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bernath-a400645-consecutive-ratio",
+      "scope": "in_scope",
+      "statement": "The unique extension of $u_n$ to all integer indices satisfies\n$u_n=-u_{2-n}$, the identity recorded by Michael Somos (July 25, 2025)\nin A116732, revision 33, FORMULA.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-error asymptotics for Bernáth's conjecture: OEIS A400645, revision 21, COMMENTS, and its rounded-norm siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:bernath-a400645-consecutive-ratio:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/OEISA400645.lean"
+      },
+      "lineage": "collected:bernath-a400645-consecutive-ratio:s8",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bernath-a400645-consecutive-ratio",
+      "scope": "in_scope",
+      "statement": "The increasing-sequence conjecture in Kimberling's A289916, revision 11,\nCOMMENTS, holds: its coefficients $v_n$ are strictly increasing for\n$n\\ge0$. Moreover $v_n=D r^n+O(1)$ for some $D>0$, so their\nconsecutive-ratio limit is the number defined in A289917 \\cite{kimberling}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-error asymptotics for Bernáth's conjecture: OEIS A400645, revision 21, COMMENTS, and its rounded-norm siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:bernath-a400645-consecutive-ratio:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/OEISA400645.lean"
+      },
+      "lineage": "collected:bernath-a400645-consecutive-ratio:s9",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bernath-a400645-consecutive-ratio",
+      "scope": "in_scope",
+      "statement": "For real $y\\ne0$,\n\\[\n \\left(\\sum_{i=0}^3y^{-i}\\right)^2-3\\sum_{i=0}^3y^{-2i}\n =-\\frac{2(y^2+1)Q(y)}{y^6}.\n\\]\nConsequently the largest real solution of the left side equal to zero\nis $r$. This proves the algebraic identity recorded by Charles L. Hohn\n(November 13, 2025), A289917, revision 48, FORMULA.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-error asymptotics for Bernáth's conjecture: OEIS A400645, revision 21, COMMENTS, and its rounded-norm siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:bouafia-diversity-negative-type:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -11618,6 +11951,384 @@
       "toolchain": null,
       "version": 2,
       "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:spin-one-rotation-boxes:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "4b14c77599edfd8a52c0a7926d038f4121ca7db1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4b14c77599edfd8a52c0a7926d038f4121ca7db1/D5/S3/Quantum/Measurement/RotationBoxes/SpinOneRotationBoxes.lean"
+      },
+      "lineage": "collected:spin-one-rotation-boxes:s1",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\diag": "\\operatorname{diag}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "spin-one-rotation-boxes",
+      "scope": "in_scope",
+      "statement": "For every finite nonempty $\\mathcal A$,\n$\\mathcal Q_1^{\\mathcal A}=\\mathcal R_1^{\\mathcal A}$.\nEvery family in this set has a realization on $\\C^3$ with\n$U_\\theta=\\diag(e^{-i\\theta},1,e^{i\\theta})$ and a pure state.\nThe state can be chosen as $\\rho=\\psi\\psi^*$, where\n\\[\n \\psi=(\\sqrt t,\\sqrt{1-2t},\\sqrt t)^T,\n \\qquad 0\\leq t\\leq\\tfrac12.\n\\]\nThe parameter $t$ and the POVM may depend on the family $p$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Answering the finite-outcome question of Aloy et al. (2024), arXiv:2312.09278v2, end of §IV.B.3, p. 17: an extension of their binary spin-one theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "spin-one-rotation-boxes"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:spin-one-rotation-boxes:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "4b14c77599edfd8a52c0a7926d038f4121ca7db1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4b14c77599edfd8a52c0a7926d038f4121ca7db1/D5/S3/Quantum/Measurement/RotationBoxes/SpinOneRotationBoxes.lean"
+      },
+      "lineage": "collected:spin-one-rotation-boxes:s2",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\diag": "\\operatorname{diag}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "spin-one-rotation-boxes",
+      "scope": "in_scope",
+      "statement": "Every nonnegative real trigonometric polynomial $f$ of degree at most two\nhas a representation $f=q_Q$ with $Q\\geq0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Answering the finite-outcome question of Aloy et al. (2024), arXiv:2312.09278v2, end of §IV.B.3, p. 17: an extension of their binary spin-one theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "spin-one-rotation-boxes"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:spin-one-rotation-boxes:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "4b14c77599edfd8a52c0a7926d038f4121ca7db1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4b14c77599edfd8a52c0a7926d038f4121ca7db1/D5/S3/Quantum/Measurement/RotationBoxes/SpinOneRotationBoxes.lean"
+      },
+      "lineage": "collected:spin-one-rotation-boxes:s3",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\diag": "\\operatorname{diag}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "spin-one-rotation-boxes",
+      "scope": "in_scope",
+      "statement": "Suppose $Q_a\\geq0$ and $\\sum_a q_{Q_a}(\\theta)=1$ for all $\\theta$.\nThere are $B_a\\geq0$ with $q_{B_a}=q_{Q_a}$ such that\n\\[\n \\sum_a B_a=C=\\diag(c_0,c_1,c_2),\\qquad\n c_j\\geq0,\\quad c_0+c_1+c_2=1,\\quad c_0=c_2.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Answering the finite-outcome question of Aloy et al. (2024), arXiv:2312.09278v2, end of §IV.B.3, p. 17: an extension of their binary spin-one theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "spin-one-rotation-boxes"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:spin-one-rotation-boxes:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4b14c77599edfd8a52c0a7926d038f4121ca7db1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4b14c77599edfd8a52c0a7926d038f4121ca7db1/D5/S3/Quantum/Measurement/RotationBoxes/SpinOneRotationBoxes.lean"
+      },
+      "lineage": "collected:spin-one-rotation-boxes:s4",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\diag": "\\operatorname{diag}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "spin-one-rotation-boxes",
+      "scope": "in_scope",
+      "statement": "Every stochastic postprocessing of the outcomes is realized with the same\npure state and rotation representation.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Answering the finite-outcome question of Aloy et al. (2024), arXiv:2312.09278v2, end of §IV.B.3, p. 17: an extension of their binary spin-one theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "spin-one-rotation-boxes"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:spin-one-rotation-boxes:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4b14c77599edfd8a52c0a7926d038f4121ca7db1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4b14c77599edfd8a52c0a7926d038f4121ca7db1/D5/S3/Quantum/Measurement/RotationBoxes/SpinOneRotationBoxes.lean"
+      },
+      "lineage": "collected:spin-one-rotation-boxes:s5",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\diag": "\\operatorname{diag}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "spin-one-rotation-boxes",
+      "scope": "in_scope",
+      "statement": "For every finite nonempty outcome set,\n$\\mathcal Q_0^{\\mathcal A}=\\mathcal R_0^{\\mathcal A}$ and\n$\\mathcal Q_{1/2}^{\\mathcal A}=\\mathcal R_{1/2}^{\\mathcal A}$.\nThese equalities, proved in \\cite[\\S IV.A, Theorem~5]{AGJLM}, admit\none-dimensional and fixed equatorial-qubit realizations, respectively.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Answering the finite-outcome question of Aloy et al. (2024), arXiv:2312.09278v2, end of §IV.B.3, p. 17: an extension of their binary spin-one theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "spin-one-rotation-boxes"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:spin-one-rotation-boxes:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4b14c77599edfd8a52c0a7926d038f4121ca7db1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4b14c77599edfd8a52c0a7926d038f4121ca7db1/D5/S3/Quantum/Measurement/RotationBoxes/SpinOneRotationBoxes.lean"
+      },
+      "lineage": "collected:spin-one-rotation-boxes:s6",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\diag": "\\operatorname{diag}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "spin-one-rotation-boxes",
+      "scope": "in_scope",
+      "statement": "At spin one, the positive-Gram feasibility conditions for\n$\\mathcal R_1^{\\mathcal A}$ in \\cite[Lemma~10 and Appendix~B.2]{AGJLM}\nalso characterize $\\mathcal Q_1^{\\mathcal A}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Answering the finite-outcome question of Aloy et al. (2024), arXiv:2312.09278v2, end of §IV.B.3, p. 17: an extension of their binary spin-one theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "spin-one-rotation-boxes"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:spin-one-rotation-boxes:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4b14c77599edfd8a52c0a7926d038f4121ca7db1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4b14c77599edfd8a52c0a7926d038f4121ca7db1/D5/S3/Quantum/Measurement/RotationBoxes/SpinOneRotationBoxes.lean"
+      },
+      "lineage": "collected:spin-one-rotation-boxes:s7",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\diag": "\\operatorname{diag}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "spin-one-rotation-boxes",
+      "scope": "in_scope",
+      "statement": "Dimension three is necessary for some spin-one families. In particular,\nthe binary family $p_+=\\tfrac12+(\\cos\\theta+\\cos2\\theta)/8$,\n$p_-=1-p_+$ has no realization in dimension at most two with the\nspin-one spectrum.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Answering the finite-outcome question of Aloy et al. (2024), arXiv:2312.09278v2, end of §IV.B.3, p. 17: an extension of their binary spin-one theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "spin-one-rotation-boxes"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:spin-one-rotation-boxes:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4b14c77599edfd8a52c0a7926d038f4121ca7db1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4b14c77599edfd8a52c0a7926d038f4121ca7db1/D5/S3/Quantum/Measurement/RotationBoxes/SpinOneRotationBoxes.lean"
+      },
+      "lineage": "collected:spin-one-rotation-boxes:s8",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\diag": "\\operatorname{diag}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "spin-one-rotation-boxes",
+      "scope": "in_scope",
+      "statement": "There is no fixed density state in any fixed finite spin-one representation\nthat realizes every binary spin-one family merely by changing the POVM.\nIn particular, the parameter $t$ in Theorem~\\ref{main} cannot be universal.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Answering the finite-outcome question of Aloy et al. (2024), arXiv:2312.09278v2, end of §IV.B.3, p. 17: an extension of their binary spin-one theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "spin-one-rotation-boxes"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:spin-one-rotation-boxes:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4b14c77599edfd8a52c0a7926d038f4121ca7db1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4b14c77599edfd8a52c0a7926d038f4121ca7db1/D5/S3/Quantum/Measurement/RotationBoxes/SpinOneRotationBoxes.lean"
+      },
+      "lineage": "collected:spin-one-rotation-boxes:s9",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\diag": "\\operatorname{diag}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "spin-one-rotation-boxes",
+      "scope": "in_scope",
+      "statement": "In dimension four, reversal-transpose averaging alone need not turn a\nnormalized Gram matrix into a diagonal one.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Answering the finite-outcome question of Aloy et al. (2024), arXiv:2312.09278v2, end of §IV.B.3, p. 17: an extension of their binary spin-one theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "spin-one-rotation-boxes"
     },
     {
       "attribution": null,

@@ -1,15 +1,72 @@
 {
   "doi": "10.5281/zenodo.24212421",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1 (Section 2) — Full five-point scaled-Hamming certificate",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/31"
+    },
+    {
+      "label": "Proposition 2 (Section 3) — Positive-definite simplex optimality criterion",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/32"
+    },
+    {
+      "label": "Corollary 3 (Section 3) — Unique optimizer restoring a deleted point",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/33"
+    },
+    {
+      "label": "Theorem 4 (Section 4) — Eight-point Euclidean exponential-similarity failure",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/34"
+    },
+    {
+      "label": "Proposition 5 (Section 4) — Strict-sign small-scale transfer of deletion failure",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/35"
+    },
+    {
+      "label": "Corollary 6 (Section 4) — Huntsman configuration at all sufficiently small scales",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/36"
+    },
+    {
+      "label": "Corollary 7 (Section 5) — Hamming positive-scale failure with optimal zero-scale limit",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/37"
+    },
+    {
+      "label": "Corollary 8 (Section 5) — Robustness and arbitrary-cardinality deletion failures",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/38"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/bouafia-diversity-negative-type/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/bouafia-diversity-negative-type/bouafia-diversity-negative-type/en/",
+    "zh": "https://papers.trureturing.org/bouafia-diversity-negative-type/bouafia-diversity-negative-type/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/bouafia-diversity-negative-type",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/bouafia-diversity-negative-type/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/bouafia-diversity-negative-type/bouafia-diversity-negative-type/slides/seminar/bouafia-diversity-negative-type-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/bouafia-diversity-negative-type/bouafia-diversity-negative-type/slides/seminar/bouafia-diversity-negative-type-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/bouafia-diversity-negative-type/bouafia-diversity-negative-type/slides/seminar/bouafia-diversity-negative-type-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/bouafia-diversity-negative-type/bouafia-diversity-negative-type/slides/seminar/bouafia-diversity-negative-type-seminar-zh.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-deleted-point-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/bouafia-diversity-negative-type/bouafia-diversity-negative-type/films/001-deleted-point/bouafia-diversity-negative-type_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/bouafia-diversity-negative-type/bouafia-diversity-negative-type/films/001-deleted-point/poster.jpg",
+      "title": "Can a deleted point come back?",
+      "url": "https://papers.trureturing.org/bouafia-diversity-negative-type/bouafia-diversity-negative-type/films/#001-deleted-point"
+    }
+  ],
   "visualizations": [],
   "work": "bouafia-diversity-negative-type"
 }

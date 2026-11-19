@@ -330,6 +330,53 @@
       "work": "bala295462"
     },
     {
+      "abstract_text": "For Bernáth's consecutive-ratio conjecture in OEIS A400645, revision 21, COMMENTS, we prove the stronger bounded-error asymptotic a_n=c lambda^n+O(1) with c>0, where lambda is the largest real root of x^8-x^6-x^4-x^2+1, namely 1.3122819079.... The squared terms satisfy a linear recurrence with a controlled rounding error. A finite seed bounds its entire normalized error tail and ensures a positive leading coefficient; a three-coordinate contraction then gives an exponential asymptotic. The same error analysis proves the ratio assertions for A063827 and A400644, and extends them to nondecreasing initial data. We also prove the increasing-sequence conjecture in A289916 and recover its limiting ratio, identified in A289917.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/OEISA400645.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 96654,
+        "sha256": "7a15c57500130e96a01364fccdd01ccb2a7df0f9529794e4c2d65f2ce72c7f30",
+        "url": "/api/v1/collected-papers/bernath-a400645-consecutive-ratio/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-19T12:54:34.235716266Z",
+      "record": "bernath-a400645-consecutive-ratio",
+      "repository_name": "bernath-a400645-consecutive-ratio",
+      "source": {
+        "bytes": 16091,
+        "sha256": "bb986e83deca047e90fd9cfcff9748793e775e7d148ad89790862c2beb391c88",
+        "url": "/api/v1/collected-papers/bernath-a400645-consecutive-ratio/files/source?version=2"
+      },
+      "title": "Bounded-error asymptotics for Bernáth's conjecture: OEIS A400645, revision 21, COMMENTS, and its rounded-norm siblings",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-19T12:54:34.235716266Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
       "abstract_text": "An exponential-similarity extension of Huntsman's (2026, Appendix G.3, Theorem 4) distance-objective counterexample, together with an exact five-point example, answers both parts of Bouafia's Open problem in Magnitude and diversity of trees, arXiv:2605.03681v1, Section 4.1, page 18, negatively. Irreversible negative-weight deletion can fail even on eight points in R^4 with ordinary Euclidean distance. Rational outward bounds certify this at scale 1/1000 for Huntsman's integer coordinates. The separate five-point scaled-Hamming example has a rational similarity matrix and an exact energy decrease; its unique optimizer restores a point deleted by the first solve. We also prove small-scale persistence and negative-type examples of every cardinality at least five.",
       "authors": [
         {
@@ -2069,6 +2116,53 @@
         }
       ],
       "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
+    },
+    {
+      "abstract_text": "Extending the binary-outcome theorem of Aloy, Galley, Jones, Ludescher and Müller (2024), we answer yes to their unnumbered question at the end of §IV.B.3 of arXiv:2312.09278v2, p. 17 (§IV.2.3 in the arXiv HTML): quantum and general spin-one rotation correlations coincide for every finite outcome set with at least three elements. Reversal-transpose averaging preserves each positive Gram polynomial and makes the total Gram matrix diagonal. Diagonal normalization yields one pure qutrit state and one POVM for the complete probability family, including singular boundary cases.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "4b14c77599edfd8a52c0a7926d038f4121ca7db1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4b14c77599edfd8a52c0a7926d038f4121ca7db1/D5/S3/Quantum/Measurement/RotationBoxes/SpinOneRotationBoxes.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 88562,
+        "sha256": "a5de02377457244209ac992f4c6513cb6dc7d1b161a43c0e7fa2706c59f0ea7e",
+        "url": "/api/v1/collected-papers/spin-one-rotation-boxes/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-19T13:07:59.062276321Z",
+      "record": "spin-one-rotation-boxes",
+      "repository_name": "spin-one-rotation-boxes",
+      "source": {
+        "bytes": 17747,
+        "sha256": "537449af9f7245ff2d236654a888d3cb56f9f24f2674e76cd8a82366e137df95",
+        "url": "/api/v1/collected-papers/spin-one-rotation-boxes/files/source?version=2"
+      },
+      "title": "Answering the finite-outcome question of Aloy et al. (2024), arXiv:2312.09278v2, end of §IV.B.3, p. 17: an extension of their binary spin-one theorem",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-19T13:07:59.062276321Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "spin-one-rotation-boxes"
     },
     {
       "abstract_text": "We resolve Question III.5 of Stepanov, Herrmann and Guhr (arXiv:2104.08966v1, p. 7): on the remaining domain D = A minus (A1 union A2), correlation matrices with prescribed mean c and standard deviation sigma and a nonmaximal top-eigenvector weight in every orthonormal eigenbasis exist in every sufficiently large dimension exactly when sigma > c. Centered spectral moments exclude the diagonal, and a positive definite rank-two construction gives existence above it. Throughout the legal half-disc sigma >= 0, c^2 + sigma^2 <= 1, eventual existence holds exactly for 0 <= c < 1/2, sigma > c and c^2 + sigma^2 < 1. A spectral-projection criterion treats eigenvalue multiplicities and shows that a rank-one boundary matrix has the universal gap exactly when c < 0.",

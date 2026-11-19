@@ -1,18 +1,52 @@
 {
   "doi": "10.5281/zenodo.23904464",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1, Sections 2–3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/186"
+    },
+    {
+      "label": "Corollary 2, Section 4.1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/187"
+    },
+    {
+      "label": "Corollary 3, Section 4.3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/188"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23904463/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/10.5281-zenodo.23904463/en/",
-    "zh": "https://papers.trureturing.org/10.5281-zenodo.23904463/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23904463/consiglio-apollaro-wiesniak-2022-xmems-css-shape/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23904463/consiglio-apollaro-wiesniak-2022-xmems-css-shape/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23904463",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23904463/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23904463/consiglio-apollaro-wiesniak-2022-xmems-css-shape/slides/seminar/consiglio-apollaro-wiesniak-2022-xmems-css-shape-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23904463/consiglio-apollaro-wiesniak-2022-xmems-css-shape/slides/seminar/consiglio-apollaro-wiesniak-2022-xmems-css-shape-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23904463/consiglio-apollaro-wiesniak-2022-xmems-css-shape/slides/seminar/consiglio-apollaro-wiesniak-2022-xmems-css-shape-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23904463/consiglio-apollaro-wiesniak-2022-xmems-css-shape/slides/seminar/consiglio-apollaro-wiesniak-2022-xmems-css-shape-seminar-zh.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-escaping-the-shape-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.23904463/consiglio-apollaro-wiesniak-2022-xmems-css-shape/films/001-escaping-the-shape/consiglio-apollaro-wiesniak-2022-xmems-css-shape_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.23904463/consiglio-apollaro-wiesniak-2022-xmems-css-shape/films/001-escaping-the-shape/poster.jpg",
+      "title": "Escaping the conjectured shape",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23904463/consiglio-apollaro-wiesniak-2022-xmems-css-shape/films/#001-escaping-the-shape"
+    }
+  ],
   "visualizations": [],
   "work": "consiglio-apollaro-wiesniak-2022-xmems-css-shape"
 }

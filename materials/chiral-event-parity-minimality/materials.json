@@ -1,18 +1,44 @@
 {
   "doi": "10.5281/zenodo.23935000",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Corollary 3; Corollary 4; Corollary 5; Corollary 6; Corollary 7; Lemma 2 and equation (1); Theorem 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/124"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23934999/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/10.5281-zenodo.23934999/en/",
-    "zh": "https://papers.trureturing.org/10.5281-zenodo.23934999/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23934999/chiral-event-parity-minimality/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23934999/chiral-event-parity-minimality/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23934999",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23934999/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "parity-minimality",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23934999/chiral-event-parity-minimality/slides/parity-minimality/chiral-event-parity-minimality-parity-minimality-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23934999/chiral-event-parity-minimality/slides/parity-minimality/chiral-event-parity-minimality-parity-minimality-en.pdf"
+    },
+    {
+      "id": "parity-minimality",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23934999/chiral-event-parity-minimality/slides/parity-minimality/chiral-event-parity-minimality-parity-minimality-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23934999/chiral-event-parity-minimality/slides/parity-minimality/chiral-event-parity-minimality-parity-minimality-zh.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-antipodal-sphere-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.23934999/chiral-event-parity-minimality/films/001-antipodal-sphere/chiral-event-parity-minimality_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.23934999/chiral-event-parity-minimality/films/001-antipodal-sphere/poster.jpg",
+      "title": "The Antipodal Sphere",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23934999/chiral-event-parity-minimality/films/#001-antipodal-sphere"
+    }
+  ],
   "visualizations": [],
   "work": "chiral-event-parity-minimality"
 }

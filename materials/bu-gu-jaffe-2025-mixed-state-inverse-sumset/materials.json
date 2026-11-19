@@ -1,18 +1,52 @@
 {
   "doi": "10.5281/zenodo.23885951",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/236"
+    },
+    {
+      "label": "Corollary 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/237"
+    },
+    {
+      "label": "Corollary 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/238"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23885950/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/10.5281-zenodo.23885950/en/",
-    "zh": "https://papers.trureturing.org/10.5281-zenodo.23885950/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23885950/bu-gu-jaffe-2025-mixed-state-inverse-sumset/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23885950/bu-gu-jaffe-2025-mixed-state-inverse-sumset/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23885950",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23885950/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23885950/bu-gu-jaffe-2025-mixed-state-inverse-sumset/slides/seminar/bu-gu-jaffe-2025-mixed-state-inverse-sumset-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23885950/bu-gu-jaffe-2025-mixed-state-inverse-sumset/slides/seminar/bu-gu-jaffe-2025-mixed-state-inverse-sumset-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23885950/bu-gu-jaffe-2025-mixed-state-inverse-sumset/slides/seminar/bu-gu-jaffe-2025-mixed-state-inverse-sumset-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23885950/bu-gu-jaffe-2025-mixed-state-inverse-sumset/slides/seminar/bu-gu-jaffe-2025-mixed-state-inverse-sumset-seminar-zh.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-two-point-obstruction-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.23885950/bu-gu-jaffe-2025-mixed-state-inverse-sumset/films/001-two-point-obstruction/bu-gu-jaffe-2025-mixed-state-inverse-sumset_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.23885950/bu-gu-jaffe-2025-mixed-state-inverse-sumset/films/001-two-point-obstruction/poster.jpg",
+      "title": "Two points among seven",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23885950/bu-gu-jaffe-2025-mixed-state-inverse-sumset/films/#001-two-point-obstruction"
+    }
+  ],
   "visualizations": [],
   "work": "bu-gu-jaffe-2025-mixed-state-inverse-sumset"
 }

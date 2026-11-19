@@ -1,18 +1,56 @@
 {
   "doi": "10.5281/zenodo.23971279",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Corollary 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/264"
+    },
+    {
+      "label": "Corollary 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/265"
+    },
+    {
+      "label": "Corollary 4",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/266"
+    },
+    {
+      "label": "Corollary 6",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/267"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.23971278/mathesis-materials.json",
   "reading": {
-    "en": "https://papers.trureturing.org/10.5281-zenodo.23971278/en/",
-    "zh": "https://papers.trureturing.org/10.5281-zenodo.23971278/zh/"
+    "en": "https://papers.trureturing.org/10.5281-zenodo.23971278/bala295462/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.23971278/bala295462/zh/"
   },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23971278",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.23971278/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23971278/bala295462/slides/seminar/bala295462-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23971278/bala295462/slides/seminar/bala295462-seminar-en.pdf"
+    },
+    {
+      "id": "seminar",
+      "language": "zh",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.23971278/bala295462/slides/seminar/bala295462-seminar-zh-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.23971278/bala295462/slides/seminar/bala295462-seminar-zh.pdf"
+    }
+  ],
   "version": 4,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-binary-spacing-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.23971278/bala295462/films/001-binary-spacing/bala295462_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.23971278/bala295462/films/001-binary-spacing/poster.jpg",
+      "title": "Three zeros decide parity",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.23971278/bala295462/films/#001-binary-spacing"
+    }
+  ],
   "visualizations": [],
   "work": "bala295462"
 }
