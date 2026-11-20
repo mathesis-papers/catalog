@@ -83,8 +83,11 @@ def inspect(root, output):
         raise ValueError("write PDF evidence outside the paper repository")
     output.mkdir(parents=True, exist_ok=True)
     pdfs = sorted((root / "_site").rglob("*.pdf"))
-    if len(pdfs) < 4:
-        raise ValueError("missing bilingual audience and speaker-note presentations")
+    if not pdfs:
+        raise ValueError("missing reading and presentation PDF artifacts")
+    from serial_content import check_material_products
+    material = json.loads((root / '_site/mathesis-materials.json').read_text())
+    check_material_products(material, {'decision':'built' if material.get('visualizations') else 'not_useful'})
     results = []
     for path in pdfs:
         if path.is_symlink() or not path.resolve().is_relative_to(root / "_site"):

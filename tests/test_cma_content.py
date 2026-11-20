@@ -161,6 +161,30 @@ class AdapterTests(unittest.TestCase):
         cma.reconcile(provider, state, lambda s: None, 'wks_external')
         self.assertEqual(provider.posts, 1)
 
+    def test_serial_shared_admission_uses_existing_workspace_without_allocating_a_sandbox(self):
+        state = cma.intent(envelope(), 'b'*40, 'e'*40, 'wks_internal', 'collection')
+        provider=FakeCMA();provider.same=True
+        provider.call_original=provider.call
+        def call(method,path,body=None,key=None):
+            row=provider.call_original(method,path,body,key)
+            if method=='GET' and '/agents/' in path:row['sandbox']['id']='sbx_same'
+            return row
+        provider.call=call
+        cma.reconcile(provider,state,lambda s:None)
+        self.assertEqual(state['phase'],'sources_ready')
+        self.assertEqual(provider.posts,1)
+        self.assertEqual(provider.calls[0][2]['workspace_id'],'wks_internal')
+        self.assertFalse(any('/sandboxes' in path for _,path,_,_ in provider.calls))
+
+    def test_request_registration_is_explicit_and_bound_to_the_original_envelope(self):
+        allowed=envelope();allowed['identity']['allow_request_registration']=True
+        state=cma.intent(allowed,'b'*40,'e'*40,'wks_internal','collection')
+        self.assertIn('Register only deduplicated formalization requests',state['request']['initial_message'])
+        code=state['request']['initial_message'].split('```python\n')[1].split('```')[0]
+        self.assertIn("spec['identity']['allow_request_registration']",code)
+        denied=cma.intent(envelope(),'b'*40,'e'*40,'wks_internal','collection')
+        self.assertIn('Do not register requests.',denied['request']['initial_message'])
+
     def test_bootstrap_is_valid_python_and_contains_no_publisher_authority(self):
         prompt = cma.bootstrap(envelope()['identity'], 'b'*40, 'e'*40, 'c'*64)
         code = prompt.split('```python\n')[1].split('```')[0]

@@ -1,6 +1,11 @@
 {
+  "allow_request_registration": true,
   "api_base": "https://mathesis-omega-research.apps.chrono-ai.fun",
-  "enabled": false,
+  "enabled": true,
+  "execution_mode": "serial_shared",
+  "lanes": [
+    "collection"
+  ],
   "manual_reservations": {
     "a320043-square-values-refutation": 2,
     "abbott-2019-sequential-weak-pointer-bound": 2,

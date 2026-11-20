@@ -63,12 +63,20 @@ class SerialContent(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "judgment"):
             runner.check_material_products(material, self.result["visualization"])
 
-    def test_duplicate_pdfs_in_one_language_cannot_pass_bilingual_checks(self):
+    def test_english_slides_are_sufficient_but_reading_stays_bilingual(self):
         material = {"reading": {"en": "en/", "zh": "zh/"},
-                    "slides": [{"language": "en", "pdf_url": "en.pdf", "notes_url": "notes.pdf"}] * 4}
-        with self.assertRaisesRegex(ValueError, "bilingual audience"):
+                    "slides": [{"language": "en", "pdf_url": "en.pdf", "notes_url": "notes.pdf"}]}
+        runner.check_material_products(material, self.result["visualization"])
+        material['reading'].pop('zh')
+        with self.assertRaisesRegex(ValueError, "bilingual reading"):
             runner.check_material_products(material, self.result["visualization"])
-        material["slides"].append({"language": "zh", "pdf_url": "zh.pdf"})
+
+    def test_english_audience_and_notes_are_both_required(self):
+        material = {"reading": {"en": "en/", "zh": "zh/"},
+                    "slides": [{"language": "zh", "pdf_url": "zh.pdf", "notes_url": "notes.pdf"}] * 4}
+        with self.assertRaisesRegex(ValueError, "English audience"):
+            runner.check_material_products(material, self.result["visualization"])
+        material["slides"].append({"language": "en", "pdf_url": "en.pdf"})
         with self.assertRaisesRegex(ValueError, "speaker notes"):
             runner.check_material_products(material, self.result["visualization"])
 
