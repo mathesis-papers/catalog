@@ -659,6 +659,53 @@
       "work": "consiglio-apollaro-wiesniak-2022-xmems-css-shape"
     },
     {
+      "abstract_text": "The surjectivity question in the final paragraph of Section 5, p. 9, of Delgado, Süer and Yeşil's A Symmetrization for Almost Symmetric Numerical Semigroups (arXiv:2611.14268v1) has a negative answer: pseudo-Frobenius row deletion always leaves 1 as a gap. The symmetric numerical set {0,1} union {n >= 4} is therefore not in the image. In fact, at least half of all symmetric numerical sets with any prescribed odd Frobenius number at least 3 are excluded. Every symmetric numerical semigroup, in contrast, is fixed by the map. We identify the entire fiber over the target with sole gap 1 and obtain at most 2^(floor((F+1)/2)-1) distinct images of sources with Frobenius number F.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 78208,
+        "sha256": "bba7b71a00d850b38e27377fbd06cf3e74dcb53c27a6447b14731e0691b621c3",
+        "url": "/api/v1/collected-papers/delgado-suer-yesil-2026-symmetrization-surjectivity/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-20T08:02:23.315589437Z",
+      "record": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "repository_name": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "source": {
+        "bytes": 12256,
+        "sha256": "ec8be0a1c44059467a66540335e9c7f877f5feb37233eae5af88774ef0839c19",
+        "url": "/api/v1/collected-papers/delgado-suer-yesil-2026-symmetrization-surjectivity/files/source?version=2"
+      },
+      "title": "A negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-20T08:02:23.315589437Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
+    },
+    {
       "abstract_text": "We refute the trace-distance case of axiom (T4) of Denis, Lacaille, Martin and Serrano-Ensástiga (arXiv:2605.29436v1, Section III.A.2, Eq. (22) with p=1; (T4) in Section II.B, Eqs. (7)–(8)), where “a proof is left open.” An explicit SU(2)-covariant channel decreases the order-seven anticoherence of a mixed spin-four state by exactly 95/90552, disproving the universal validity suggested by their reported numerical evidence. The channel is a normalized sum of quadrupole Kraus operations; its covariance and trace preservation follow from Cartesian tensor identities. Both reduced states are diagonal, so the strict inequality reduces to rational arithmetic. We reconstruct an existing spin-four witness and give a self-contained exact counterexample within the full mixed-state domain of the proposed axiom.",
       "authors": [
         {

@@ -3650,6 +3650,211 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
+      },
+      "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s1",
+      "macros": {
+        "\\AS": "\\mathcal{AS}",
+        "\\N": "\\mathbb{N}_0",
+        "\\PF": "\\operatorname{PF}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "scope": "in_scope",
+      "statement": "For every proper numerical semigroup $S$, one has $1\\notin\\Phi(S)$.\nIn particular, $\\Phi:\\AS\\longrightarrow\\{\\text{symmetric numerical sets}\\}$\nis not surjective, where $\\AS$ denotes the proper almost symmetric\nnumerical semigroups.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "toolchain": null,
+      "version": 2,
+      "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
+      },
+      "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s2",
+      "macros": {
+        "\\AS": "\\mathcal{AS}",
+        "\\N": "\\mathbb{N}_0",
+        "\\PF": "\\operatorname{PF}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "scope": "in_scope",
+      "statement": "For each integer $h\\geq2$, there are $2^{h-1}$ symmetric numerical sets\nwith Frobenius number $2h-1$, and at least $2^{h-2}$ of them are outside\nthe image of $\\Phi$, regardless of the source Frobenius number.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "toolchain": null,
+      "version": 2,
+      "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
+      },
+      "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s3",
+      "macros": {
+        "\\AS": "\\mathcal{AS}",
+        "\\N": "\\mathbb{N}_0",
+        "\\PF": "\\operatorname{PF}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "scope": "in_scope",
+      "statement": "Every proper symmetric numerical semigroup $S$ is almost symmetric and\nsatisfies $\\Phi(S)=S$. Thus every symmetric numerical semigroup occurs in\nthe image. Conversely, among proper numerical semigroups, these are exactly\nthe fixed points of the extended map.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "toolchain": null,
+      "version": 2,
+      "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
+      },
+      "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s4",
+      "macros": {
+        "\\AS": "\\mathcal{AS}",
+        "\\N": "\\mathbb{N}_0",
+        "\\PF": "\\operatorname{PF}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "scope": "in_scope",
+      "statement": "Let $U_1=\\N\\setminus\\{1\\}$. Among all proper numerical semigroups,\n\\[\n \\Phi(S)=U_1\\quad\\Longleftrightarrow\\quad\n S=O_m:=\\{0\\}\\cup\\{n\\in\\N:n\\geq m\\}\\quad\\text{for some }m\\geq2.\n\\]\nEvery $O_m$ is almost symmetric. Hence $U_1$ has an infinite fiber, with\nexactly one source of each positive Frobenius number.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "toolchain": null,
+      "version": 2,
+      "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
+      },
+      "lineage": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:s5",
+      "macros": {
+        "\\AS": "\\mathcal{AS}",
+        "\\N": "\\mathbb{N}_0",
+        "\\PF": "\\operatorname{PF}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "scope": "in_scope",
+      "statement": "For $F\\geq1$, let $\\AS_F$ be the almost symmetric numerical semigroups\nof Frobenius number $F$, $\\mathcal S_F=\\Phi(\\AS_F)$, and\n$\\mathcal{NS}_F$ the semigroups in $\\mathcal S_F$, as in\n\\cite[Section~5, pp.~8--9]{DSY}. Then\n\\[\n 1\\leq|\\mathcal{NS}_F|\\leq|\\mathcal S_F|\n \\leq 2^{\\lfloor(F+1)/2\\rfloor-1}.\n\\]\nEvery output has Frobenius number $2(F-g(S)+1)-1\\leq F$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "toolchain": null,
+      "version": 2,
+      "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance:4:s1",
       "kind": "paper",
       "label": "Theorem",
