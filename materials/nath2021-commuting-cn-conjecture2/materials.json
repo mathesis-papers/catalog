@@ -1,6 +1,7 @@
 {
   "doi": null,
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/nath2021-commuting-cn-conjecture2/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/nath2021-commuting-cn-conjecture2",
