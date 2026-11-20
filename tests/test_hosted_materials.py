@@ -6,6 +6,7 @@ import sys
 import tempfile
 import unittest
 import urllib.error
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import hosted_materials as hosted
@@ -20,6 +21,37 @@ class Ledger:
 
 
 class HostedTests(unittest.TestCase):
+    def test_existing_workspace_configuration_does_not_reserve_an_external_machine(self):
+        self.assertEqual(hosted.material_workspaces({'CMA_EXTERNAL_WORKSPACE':'existing'}),
+                         {'collection':'existing','external':'existing'})
+        self.assertEqual(hosted.material_workspaces({'CMA_COLLECTION_WORKSPACE':'own'}),
+                         {'collection':'own','external':'own'})
+        self.assertIsNone(hosted.isolation_workspace({}, {'collection':'same','external':'same'}, 'collection'))
+        with self.assertRaisesRegex(ValueError,'existing Mathesis'):
+            hosted.material_workspaces({})
+
+    def test_validated_operator_handoff_is_reused_without_another_worker_or_old_request_drafts(self):
+        pack=b'checked source including actual canonical request links'
+        handoff=b'checked source receipt'
+        key='a'*64;prefix='validated/'+key+'/approved/'
+        manifest=json.dumps({'key':key,'files':{name:{'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()}
+                                             for name,data in [('sources.tar.gz',pack),('handoff.json',handoff)]}}).encode()
+        state={'phase':'sources_saved','key':key,'agent_id':'deleted-original-agent',
+               'validated_handoff':{'prefix':prefix,'manifest_sha256':hashlib.sha256(manifest).hexdigest()}}
+        files={prefix+'archive-manifest.json':manifest,prefix+'sources.tar.gz':pack,prefix+'handoff.json':handoff}
+        class SavedLedger:
+            def get_bytes(self,path):return files[path]
+        def restore(provider,job,repo,run,**options):
+            self.assertTrue(options['approved_operator_handoff'])
+            self.assertEqual(job['phase'],'sources_ready')
+            self.assertEqual(provider.file(job['agent_id'],'original/handoff.json'),handoff)
+            return provider.file(job['agent_id'],'original/sources.tar.gz')
+        with patch.object(hosted.cma_content,'import_sources',side_effect=restore):
+            self.assertEqual(hosted.restore_sources(SavedLedger(),state,Path('repo'),Path('run')),pack)
+            files[prefix+'sources.tar.gz']=b'changed checked source'
+            with self.assertRaisesRegex(ValueError,'artifact differs'):
+                hosted.restore_sources(SavedLedger(),state,Path('repo'),Path('run'))
+
     def test_cleanup_persists_and_reuses_its_key_then_observes_the_original_deletion(self):
         state={'key':'a'*64,'agent_id':'original-agent','source_archive_sha256':'b'*64}
         ledger=Ledger()
@@ -149,6 +181,57 @@ class HostedTests(unittest.TestCase):
 
 
 class RecoveryTests(unittest.TestCase):
+    def test_two_codex_tasks_share_one_machine_and_do_not_duplicate_on_the_next_tick(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            serial.write(root/'works.json',{'works':[]})
+            works=[{'work':name,'current_version':1,'repository_name':name} for name in ('one','two','three')]
+            class StateLedger(Ledger):
+                def get(self,key):return next((s for s in self.rows if s['key']==key),None)
+            ledger=StateLedger()
+            class Provider:
+                def __init__(self):self.posts=[]
+                def facts(self,workspace):return 'one-existing-sandbox'
+                def call(self,method,path,body=None,key=None):
+                    if method=='POST':
+                        self.posts.append(copy.deepcopy(body))
+                        return {'id':'original-operation-'+str(len(self.posts))}
+                    return {'status':'provisioning'}
+            def prepare(root,workspace,work,config,**kwargs):
+                identity={'paper':{'id':work['work'],'version':1,'repository':'mathesis-papers/'+work['work'],'title':work['work']},
+                          'source_hashes':{'paper.json':'b'*64},'template_commit':'c'*40,'skill_sha256':'d'*64,
+                          'allow_request_registration':True}
+                envelope={'schema':'mathesis.paper-production-envelope.v1','identity':identity,'input_projection_path':'projection',
+                          'do_not_rereview':True,'publication_authorized':False}
+                return root/'repo',root/'run',envelope,'e'*40
+            provider=Provider();config={'api_base':'public-source','execution_mode':'shared','authoring_concurrency':2}
+            with patch.object(hosted,'candidate_works',return_value=works),patch.object(hosted,'public_detail',return_value=('collection',{})),\
+                 patch.object(hosted,'prepare',side_effect=prepare),patch.object(hosted.cma_content,'projection_packet',return_value={}),\
+                 patch.object(hosted.serial,'command',return_value='f'*40):
+                first=hosted.reconcile(root,root/'work',config,ledger,provider,{'collection':'same-workspace','external':'same-workspace'},None)
+                second=hosted.reconcile(root,root/'work',config,ledger,provider,{'collection':'same-workspace','external':'same-workspace'},None)
+            self.assertEqual(first['admitted'],['one','two'])
+            self.assertEqual(second['state'],'waiting_for_original_job')
+            self.assertEqual(len(provider.posts),2)
+            self.assertEqual({p['workspace_id'] for p in provider.posts},{'same-workspace'})
+
+    def test_original_shared_job_prevents_admitting_the_next_paper(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            for name,value in [('works.json',{'works':[]}),('repositories.json',{}),('publisher.json',{}),('production.json',{})]:
+                serial.write(root/name,value)
+            job={'schema':'mathesis.cma-content.v1','key':'original','phase':'provisioning', 'lane':'collection',
+                 'lifecycle_id':'original-operation'}
+            ledger=Ledger([job])
+            class Provider:
+                def call(self,method,path,*args,**kwargs):
+                    if method!='GET' or 'original-operation' not in path:raise AssertionError('Do not admit another job')
+                    return {'status':'provisioning'}
+            with patch.object(hosted,'candidate_works',side_effect=AssertionError('Do not advance while the original runs')):
+                result=hosted.reconcile(root,root/'work',{'execution_mode':'serial_shared'},ledger,Provider(),
+                                       {'collection':'same','external':'same'},None)
+            self.assertEqual(result['state'],'waiting_for_original_job')
+
     def test_template_update_reuses_source_and_original_remote_identity(self):
         state={'key':'immutable-key','phase':'published','identity':{'template_commit':'a'*40},
                'source_archive_sha256':'c'*64,'published_commit':'b'*40,'agent_id':'original-agent',

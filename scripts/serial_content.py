@@ -157,7 +157,7 @@ def authored_workspace(workspace, paper, template, source, run, toolchain=None):
     return dest
 
 
-def prepare(workspace, paper, template, allow_requests=False, toolchain=None, source_projection=None):
+def prepare(workspace, paper, template, allow_requests=False, toolchain=None, source_projection=None, skill_path=None):
     if shutil.disk_usage(workspace).free < 8 * 1024**3:
         raise RuntimeError("less than 8 GiB free; preserve outputs and clear disposable caches first")
     repo = workspace / "papers" / paper["id"]
@@ -182,8 +182,9 @@ def prepare(workspace, paper, template, allow_requests=False, toolchain=None, so
         if hashlib.sha256(data).hexdigest() != expected:
             raise ValueError("changed frozen source: " + name)
     template_commit = command(["git", "rev-parse", "HEAD"], template)
+    skill = skill_path or SKILL
     identity = {"paper": paper, "source_hashes": frozen["sha256"], "template_commit": template_commit,
-                "skill_sha256": hashlib.sha256(SKILL.read_bytes()).hexdigest(), "allow_request_registration": allow_requests}
+                "skill_sha256": hashlib.sha256(skill.read_bytes()).hexdigest(), "allow_request_registration": allow_requests}
     run = workspace / "runs" / paper["id"] / digest(identity)
     run.mkdir(parents=True, exist_ok=True)
     source = inputs
@@ -191,7 +192,7 @@ def prepare(workspace, paper, template, allow_requests=False, toolchain=None, so
     doi_report = discover_paper_doi.discover(repo)
     write(run / "doi-discovery.json", doi_report)
     envelope = {"schema": "mathesis.paper-production-envelope.v1", "identity": identity,
-                "repository_path": str(repo), "source_repository_path": str(origin), "input_projection_path": str(inputs), "template_path": str(template), "skill_path": str(SKILL),
+                "repository_path": str(repo), "source_repository_path": str(origin), "input_projection_path": str(inputs), "template_path": str(template), "skill_path": str(skill),
                 "run_path": str(run), "concurrency": 1,
                 "publication_authorized": False, "do_not_rereview": True,
                 "doi_discovery": str(run / "doi-discovery.json"),
@@ -199,9 +200,10 @@ def prepare(workspace, paper, template, allow_requests=False, toolchain=None, so
     write(run / "envelope.json", envelope)
     write(run / "result-schema.json", RESULT_SCHEMA)
     prompt = f"""Prepare this ONE accepted public Mathesis paper. Do not spawn agents, jobs, or parallel tasks.
-Read {run / 'envelope.json'} and {SKILL}, then apply the installed paper-template skills.
+Read {run / 'envelope.json'} and {skill}, then apply the installed paper-template skills.
 This is content production, not another referee review. Complete the bilingual story, academic
-Beamer presentation in aligned Chinese and English editions, optional visualization only if mathematically useful, exact statement/Lean
+Beamer presentation and speaker notes in English only (deck editions=["en"], English source slides.tex),
+optional visualization only if mathematically useful, exact statement/Lean
 comparison, DOI audit and canonical shared-request handoff. The output should teach the result
 to a curious high-school student, not simply repeat the abstract.
 Read {run / 'doi-discovery.json'} before writing citations or registering shared requests.
@@ -275,11 +277,12 @@ def check_result(result, repo):
 def check_material_products(materials, visualization):
     if not {"en", "zh"}.issubset(materials.get("reading", {})):
         raise ValueError("missing bilingual reading")
-    # A PDF count alone cannot establish that both language editions exist.
+    # The reading is bilingual; the presentation and its speaker notes need
+    # English only. Existing additional presentation languages remain valid.
     slide_languages = {s.get("language") for s in materials.get("slides", [])
                        if s.get("pdf_url") and s.get("notes_url")}
-    if not {"en", "zh"}.issubset(slide_languages):
-        raise ValueError("missing bilingual audience slides or speaker notes")
+    if "en" not in slide_languages:
+        raise ValueError("missing English audience slides or speaker notes")
     actual_viz = bool(materials.get("visualizations"))
     if visualization["decision"] == "built" and not actual_viz:
         raise ValueError("visualization was reported built but is absent from the material manifest")
@@ -366,7 +369,12 @@ def validate_run(repo, run, build=False):
         env["PATH"] = str(Path(env["JAVA_HOME"]) / "bin") + os.pathsep + env["PATH"]
     mapping = read(repo / ".mathesis/book.json")
     checks = [[sys.executable, "docs/layer-mathesis/scripts/paper.py", "front"]] if build else []
-    checks.extend([[sys.executable, "docs/layer-mathesis/scripts/paper.py", "check", "--complete"], ["./tbook", "check"]])
+    checks.append([sys.executable, "docs/layer-mathesis/scripts/paper.py", "check", "--complete"])
+    if build:
+        for film in sorted((repo / 'books' / mapping['book'] / 'films').glob('*/film.json')):
+            if not (film.parent / 'poster.jpg').is_file():
+                checks.append(['theme/film/film.sh', film.parent.relative_to(repo).as_posix(), 'poster'])
+    checks.append(["./tbook", "check"])
     film_build = None
     if build:
         films = list((repo / "books" / mapping["book"] / "films").glob("*/film.json"))

@@ -3,12 +3,17 @@
 The ordinary hourly publisher still archives eligible public manuscripts and
 refreshes the catalog. The material adapter extends that workflow after the
 core publication and readback. It does not run another review, deposit a DOI,
-register a formalization request, certify a proof or award credit.
+certify a proof or award credit. The source envelope separately controls whether
+the content worker may register existing shared-queue formalization requests.
 
 A material job uses the existing `mathesis.paper-production-envelope.v1`,
 Mathesis-owned production skill, template fill interface, fixed serial renderer,
 EPUB checks, browser checks and product checks. Visualization is assessed;
-`not_useful` with a reason is a completed assessment. Reading, slides and video
+`not_useful` with a reason is a completed assessment. Reading remains Chinese
+and English, selected by the website's existing global language switch. New
+presentations and speaker notes are English only (`editions=["en"]`, whose
+first source is `slides.tex`). Existing checked Chinese presentations can be
+reused without another generation. Reading, slides and video
 have separate publication states. A missing video remains pending.
 
 ## Durable ownership and credentials
@@ -26,15 +31,31 @@ only public, hash-bound source inputs and immutable repository/template/skill
 pins. Its separate NyxID proxy key is stored in the Actions secret
 `MATHESIS_MATERIALS_CMA_TOKEN`. It is restricted to the personal CMA service;
 no publisher credential is copied to CMA. Rotate it before the expiry recorded
-in the operator's credential receipt. Configure `CMA_EXTERNAL_WORKSPACE` and
-`CMA_COLLECTION_WORKSPACE` as repository variables, resolving to distinct live
-sandboxes. The adapter checks actual sandbox IDs before new admission.
+in the operator's credential receipt. Configure `CMA_COLLECTION_WORKSPACE` for
+an existing live Mathesis workspace. The previous `CMA_EXTERNAL_WORKSPACE`
+setting is accepted as a fallback. `execution_mode=shared` and
+`authoring_concurrency=2` run two independent Codex content tasks on that
+machine while host rendering and publishing remain serialized. Finished
+sources waiting for the renderer are also bounded by that capacity. No machine
+is reserved for hypothetical external
+submissions. `lanes=["collection"]` admits our collected papers during
+preparation. An explicitly configured `isolated` mode retains distinct-sandbox
+checks. No route creates a new sandbox.
 
 Set `MATHESIS_MATERIALS_AUTOMATION=probe` to verify private state-repository
 access and CMA credentials without calling a model. Production requires both
-`production.json.enabled=true` and the variable set to `enabled`. They remain
-off while the second live CMA sandbox and its real acceptance test are missing.
+`production.json.enabled=true` and the variable set to `enabled`. The existing
+hourly publisher observes the original operation, builds finished sources, then
+publishes and checks the exact public version. Enabling does not restart a
+completed authoring attempt. A failed stage keeps its source and reason for
+inspection while later eligible papers can progress on subsequent runs.
 This does not change open registration, author submission limits or BYOK policy.
+
+`allow_request_registration=true` authorizes the content worker to register
+deduplicated requests only in `trureturing-requests` using its existing GitHub
+service access. It does not grant publisher credentials, upstream code changes,
+DOI deposits, proof certification or credit. Missing service permission remains
+an unresolved stage; no request URL is invented.
 
 ## Resume, validate, publish
 
@@ -68,7 +89,7 @@ This does not change open registration, author submission limits or BYOK policy.
    Template manifests detect human edits; conflicting source changes stop for
    an explicit rebase. No whole Trureturing build is downloaded.
 4. Render one paper with the pinned public toolchain image. The container gets
-   no CMA or publisher token. Run the existing bilingual reading, slide/notes,
+   no CMA or publisher token. Run the existing bilingual reading, English slide/notes,
    EPUB, browser, visualization and actual-film checks. Preserve a build failure
    without asking CMA to write the paper again.
 5. Check the source inventory against the fixed build. Fence the repository

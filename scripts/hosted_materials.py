@@ -13,6 +13,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
+import re
 import subprocess
 import urllib.error
 import urllib.parse
@@ -130,13 +131,28 @@ def prepare(root, workspace, work, config, state=None, factory_stage=None):
     source = folder / 'papers' / paper['id']
     head = checkout(paper['repository'], source, state.get('publication_base',state['paper_commit']) if state else None)
     projection = folder / 'frozen-input'
-    if state:
+    if state and state.get('input_packet') is None:
+        projection = None  # Original operator admission used the pinned public repo.
+    elif state:
         cma_content.restore_projection(state['input_packet'], projection)
     else:
         require(factory_stage is not None, 'material admission requires the publisher-checked public projection')
         packet = cma_content.projection_packet(factory_stage / 'output/papers' / work['repository_name'], config['api_base'])
         cma_content.restore_projection(packet, projection)
-    repo, run, envelope = serial.prepare(folder, paper, template, False, source_projection=projection)
+    skill = None
+    if state and state['identity']['skill_sha256'] != hashlib.sha256(serial.SKILL.read_bytes()).hexdigest():
+        commit = state['catalog_commit']
+        require(re.fullmatch(r'[a-f0-9]{40}', commit) is not None, 'production skill needs an immutable source revision')
+        request = urllib.request.Request('https://raw.githubusercontent.com/mathesis-papers/catalog/' + commit
+                                         + '/skills/mathesis-paper-production/SKILL.md', headers={'User-Agent':'mathesis-paper-production'})
+        with urllib.request.urlopen(request, timeout=30) as response:
+            data = response.read(256 * 1024 + 1)
+        require(len(data) <= 256 * 1024 and hashlib.sha256(data).hexdigest() == state['identity']['skill_sha256'],
+                'original production skill bytes differ')
+        skill = folder / 'original-production-skill.md'
+        skill.write_bytes(data)
+    allow_requests = state['identity']['allow_request_registration'] if state else config.get('allow_request_registration', False)
+    repo, run, envelope = serial.prepare(folder, paper, template, allow_requests, source_projection=projection, skill_path=skill)
     if state:
         expected=copy.deepcopy(state['identity'])
         expected['template_commit']=template_pin
@@ -156,15 +172,40 @@ def save_sources(cma, ledger, state):
 
 
 def restore_sources(ledger, state, repo, run):
+    approved = state.get('validated_handoff')
+    if approved:
+        prefix = approved['prefix']
+        require(prefix.startswith('validated/' + state['key'] + '/'), 'validated handoff belongs to another job')
+        manifest_bytes = ledger.get_bytes(prefix + 'archive-manifest.json')
+        require(manifest_bytes is not None and hashlib.sha256(manifest_bytes).hexdigest() == approved['manifest_sha256'],
+                'validated handoff manifest differs')
+        manifest = json.loads(manifest_bytes)
+        require(manifest['key'] == state['key'], 'validated handoff source identity differs')
     class SavedFiles:
         def file(self, agent, path):
             name = path.rsplit('/',1)[1]
-            data = ledger.get_bytes('sources/' + state['key'] + '/' + name)
+            data = ledger.get_bytes((approved['prefix'] if approved else 'sources/' + state['key'] + '/') + name)
             require(data is not None, 'durable source pack is missing; never restart authoring')
+            if approved:
+                entry = manifest['files'][name]
+                require(len(data) == entry['bytes'] and hashlib.sha256(data).hexdigest() == entry['sha256'],
+                        'validated handoff artifact differs')
             return data
     imported = copy.deepcopy(state)
     imported['phase'] = 'sources_ready'
-    return cma_content.import_sources(SavedFiles(), imported, repo, run, approved_template_rebase=bool(state.get('template_adaptation')))
+    return cma_content.import_sources(SavedFiles(), imported, repo, run,
+                                      approved_template_rebase=bool(state.get('template_adaptation')),
+                                      approved_operator_handoff=bool(approved))
+
+
+def material_workspaces(environment):
+    shared = environment.get('CMA_COLLECTION_WORKSPACE') or environment.get('CMA_EXTERNAL_WORKSPACE')
+    require(shared, 'configure an existing Mathesis CMA workspace')
+    return {'collection':shared, 'external':environment.get('CMA_EXTERNAL_WORKSPACE') or shared}
+
+
+def isolation_workspace(config, workspaces, lane):
+    return workspaces['external' if lane == 'collection' else 'collection'] if config.get('execution_mode') == 'isolated' else None
 
 
 def cleanup(cma, ledger, state):
@@ -237,6 +278,9 @@ def plan_template_adaptation(state, template):
 
 def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
     jobs = ledger.jobs()
+    capacity = config.get('authoring_concurrency', 1)
+    require(type(capacity) is int and capacity >= 1, 'authoring concurrency must be a positive integer')
+    ready = None
     # Original operations have priority, even after template/config changes.
     # An occupied or broken lane does not prevent observing the other lane.
     for state in jobs:
@@ -267,7 +311,7 @@ def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
             continue
         if state['phase'] in ('intent', 'provisioning', 'authoring'):
             try:
-                cma_content.reconcile(cma, state, ledger.put, workspaces['external' if state['lane'] == 'collection' else 'collection'])
+                cma_content.reconcile(cma, state, ledger.put, isolation_workspace(config, workspaces, state['lane']))
             except (OSError, ValueError, RuntimeError):
                 state['waiting_stage']='provider'
                 ledger.put(state)
@@ -281,6 +325,8 @@ def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
         if state['phase'] == 'sources_saved':
             try: cleanup(cma,ledger,state)
             except (OSError,RuntimeError,ValueError): pass
+            if ready is not None:
+                continue  # One host render/publication at a time.
             work = next((w for w in serial.read(root/'works.json')['works'] if w['work'] == state['identity']['paper']['id']), None)
             try:
                 require(work is not None and work['current_version'] == state['identity']['paper']['version'], 'saved output is historical; current publication needs inspection')
@@ -294,11 +340,23 @@ def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
                 ledger.put(state)
                 continue
             serial.write(workspace/'ready.json', {'key':state['key'], 'run':str(run), 'repository':str(repo)})
-            return {'state':'ready_for_host_qa', 'run':str(run), 'repository':str(repo)}
-    occupied = {s['lane'] for s in jobs if s['phase'] not in ('published','needs_attention')}
+            ready = {'state':'ready_for_host_qa', 'run':str(run), 'repository':str(repo)}
+    in_flight = sum(s['phase'] in ('intent','provisioning','authoring','sources_ready') for s in jobs)
+    buffered = sum(s['phase'] == 'sources_saved' for s in jobs)
+    # Keep remote Codex tasks busy while one finished paper renders, without
+    # allowing an unbounded pile of source packages to await the host.
+    if in_flight >= capacity or buffered >= capacity:
+        return ready or {'state':'waiting_for_original_job'}
+    known = {(s['identity']['paper']['id'], s['identity']['paper']['version'])
+             for s in jobs if s.get('identity')}
+    admitted = []
     for work in candidate_works(root):
+        if in_flight >= capacity:
+            break
+        if (work['work'], work['current_version']) in known:
+            continue
         lane, detail = public_detail(config['api_base'], work)
-        if lane in occupied:
+        if lane not in config.get('lanes', ['collection']):
             continue
         repo, run, envelope, head = prepare(root, workspace, work, config, factory_stage=factory_stage)
         packet = cma_content.projection_packet(Path(envelope['input_projection_path']), config['api_base'])
@@ -308,9 +366,12 @@ def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
             # Source identity, not a changed template, owns this mathematical job.
             continue
         ledger.put(state)
-        cma_content.reconcile(cma, state, ledger.put, workspaces['external' if lane == 'collection' else 'collection'])
-        return {'state':state['phase'], 'work':work['work']}
-    return {'state':'waiting_or_up_to_date'}
+        jobs.append(state)
+        known.add((work['work'],work['current_version']))
+        cma_content.reconcile(cma, state, ledger.put, isolation_workspace(config, workspaces, lane))
+        admitted.append(work['work'])
+        in_flight += 1
+    return ready or {'state':'authoring_started' if admitted else 'waiting_or_up_to_date','admitted':admitted}
 
 
 def build(run):
@@ -416,16 +477,17 @@ def main():
         result={'schema':'mathesis.hosted-material-plan.v1','candidates':[{'work':w['work'],'version':w['current_version']} for w in candidate_works(root)],'provider_calls':0}
     else:
         config=serial.read(root/'production.json')
-        require(args.action == 'probe' or config['enabled'] is True,'hosted material production is disabled until its two live CMA lanes are verified')
+        require(args.action == 'probe' or config['enabled'] is True,'hosted material production is disabled')
         api=publish.API(os.environ['PUBLISHER_TOKEN'])
         ledger=Ledger(api,config['state_repository'])
         if args.action == 'probe':
             cma=cma_content.CMA(os.environ['CMA_TOKEN'])
-            external=cma.facts(os.environ['CMA_EXTERNAL_WORKSPACE'])
-            internal=os.environ.get('CMA_COLLECTION_WORKSPACE')
-            if internal:
-                require(cma.facts(internal) != external,'material lanes resolve to one sandbox')
-            result={'state':'setup_ready' if internal else 'internal_workspace_required'}
+            workspaces=material_workspaces(os.environ)
+            for lane in config.get('lanes', ['collection']):
+                sandbox=cma.facts(workspaces[lane])
+                other=isolation_workspace(config,workspaces,lane)
+                if other: require(cma.facts(other) != sandbox,'material lanes resolve to one sandbox')
+            result={'state':'setup_ready'}
         elif args.action == 'attention':
             ready=serial.read(workspace/'ready.json')
             state=ledger.get(ready['key'])
@@ -439,7 +501,7 @@ def main():
         elif args.action == 'publish': result=publish_checked(root,workspace,ledger,api)
         else:
             cma=cma_content.CMA(os.environ['CMA_TOKEN'])
-            workspaces={'collection':os.environ['CMA_COLLECTION_WORKSPACE'],'external':os.environ['CMA_EXTERNAL_WORKSPACE']}
+            workspaces=material_workspaces(os.environ)
             result=reconcile(root,workspace,config,ledger,cma,workspaces,args.factory_stage.resolve() if args.factory_stage else None)
             if result.get('state') == 'ready_for_host_qa' and os.environ.get('GITHUB_OUTPUT'):
                 with open(os.environ['GITHUB_OUTPUT'],'a') as output:

@@ -20,8 +20,13 @@ Chinese and English explanation for a curious high-school student: introduce
 the question with a concrete example, define the objects before naming them,
 explain the result and proof mechanism, give significance and exact limitations,
 and credit the original problem and earlier literature. Keep mathematical
-statements faithful. Derive an academic Beamer presentation and speaker notes
-from this same story. Prepare one focused narrated video through the installed
+statements faithful. Derive an English academic Beamer presentation and English
+speaker notes from this same story. Set the deck's editions to `["en"]`; the
+English source is `slides.tex`, as the installed academic interface specifies
+for its first edition. The reading keeps both `zh` and `en`, selectable through
+the site's existing language switch. Do not translate a new deck into Chinese
+unless requested; reuse an existing checked Chinese deck without regenerating it.
+Prepare one focused narrated video through the installed
 book-film interface: explain the question and mechanism in meaningful scenes,
 with English narration and aligned English/Chinese subtitles. Author the actual
 film sources, not a placeholder registry; the host renders and checks them with
@@ -77,7 +82,7 @@ external enrichment proposal without rewriting frozen publisher inputs. Keep
 an unmatched candidate unconfirmed. An attributed prose result may be explained without
 falsely using a verification badge. Follow the template's written-proof rules.
 
-Run template and layer checks, build actual bilingual reading and presentation,
+Run template and layer checks, build actual bilingual reading and the English presentation,
 and inspect rendered output. When EPUB is enabled, build every configured edition
 and run the upstream EPUB checker with a working Java runtime and its installed
 Python package. A skipped checker or a system Java launcher without a runtime
