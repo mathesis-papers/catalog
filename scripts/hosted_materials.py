@@ -278,6 +278,9 @@ def plan_template_adaptation(state, template):
 
 def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
     jobs = ledger.jobs()
+    capacity = config.get('authoring_concurrency', 1)
+    require(type(capacity) is int and capacity >= 1, 'authoring concurrency must be a positive integer')
+    ready = None
     # Original operations have priority, even after template/config changes.
     # An occupied or broken lane does not prevent observing the other lane.
     for state in jobs:
@@ -322,6 +325,8 @@ def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
         if state['phase'] == 'sources_saved':
             try: cleanup(cma,ledger,state)
             except (OSError,RuntimeError,ValueError): pass
+            if ready is not None:
+                continue  # One host render/publication at a time.
             work = next((w for w in serial.read(root/'works.json')['works'] if w['work'] == state['identity']['paper']['id']), None)
             try:
                 require(work is not None and work['current_version'] == state['identity']['paper']['version'], 'saved output is historical; current publication needs inspection')
@@ -335,15 +340,23 @@ def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
                 ledger.put(state)
                 continue
             serial.write(workspace/'ready.json', {'key':state['key'], 'run':str(run), 'repository':str(repo)})
-            return {'state':'ready_for_host_qa', 'run':str(run), 'repository':str(repo)}
-    occupied = {s['lane'] for s in jobs if s['phase'] not in ('published','needs_attention')}
-    if occupied and config.get('execution_mode', 'serial_shared') == 'serial_shared':
-        return {'state':'waiting_for_original_job'}
+            ready = {'state':'ready_for_host_qa', 'run':str(run), 'repository':str(repo)}
+    in_flight = sum(s['phase'] in ('intent','provisioning','authoring','sources_ready') for s in jobs)
+    buffered = sum(s['phase'] == 'sources_saved' for s in jobs)
+    # Keep remote Codex tasks busy while one finished paper renders, without
+    # allowing an unbounded pile of source packages to await the host.
+    if in_flight >= capacity or buffered >= capacity:
+        return ready or {'state':'waiting_for_original_job'}
+    known = {(s['identity']['paper']['id'], s['identity']['paper']['version'])
+             for s in jobs if s.get('identity')}
+    admitted = []
     for work in candidate_works(root):
+        if in_flight >= capacity:
+            break
+        if (work['work'], work['current_version']) in known:
+            continue
         lane, detail = public_detail(config['api_base'], work)
         if lane not in config.get('lanes', ['collection']):
-            continue
-        if lane in occupied:
             continue
         repo, run, envelope, head = prepare(root, workspace, work, config, factory_stage=factory_stage)
         packet = cma_content.projection_packet(Path(envelope['input_projection_path']), config['api_base'])
@@ -353,9 +366,12 @@ def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
             # Source identity, not a changed template, owns this mathematical job.
             continue
         ledger.put(state)
+        jobs.append(state)
+        known.add((work['work'],work['current_version']))
         cma_content.reconcile(cma, state, ledger.put, isolation_workspace(config, workspaces, lane))
-        return {'state':state['phase'], 'work':work['work']}
-    return {'state':'waiting_or_up_to_date'}
+        admitted.append(work['work'])
+        in_flight += 1
+    return ready or {'state':'authoring_started' if admitted else 'waiting_or_up_to_date','admitted':admitted}
 
 
 def build(run):

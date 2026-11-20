@@ -1,8 +1,9 @@
 {
   "allow_request_registration": true,
+  "authoring_concurrency": 2,
   "api_base": "https://mathesis-omega-research.apps.chrono-ai.fun",
   "enabled": true,
-  "execution_mode": "serial_shared",
+  "execution_mode": "shared",
   "lanes": [
     "collection"
   ],

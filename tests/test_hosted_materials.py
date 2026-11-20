@@ -181,6 +181,40 @@ class HostedTests(unittest.TestCase):
 
 
 class RecoveryTests(unittest.TestCase):
+    def test_two_codex_tasks_share_one_machine_and_do_not_duplicate_on_the_next_tick(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            serial.write(root/'works.json',{'works':[]})
+            works=[{'work':name,'current_version':1,'repository_name':name} for name in ('one','two','three')]
+            class StateLedger(Ledger):
+                def get(self,key):return next((s for s in self.rows if s['key']==key),None)
+            ledger=StateLedger()
+            class Provider:
+                def __init__(self):self.posts=[]
+                def facts(self,workspace):return 'one-existing-sandbox'
+                def call(self,method,path,body=None,key=None):
+                    if method=='POST':
+                        self.posts.append(copy.deepcopy(body))
+                        return {'id':'original-operation-'+str(len(self.posts))}
+                    return {'status':'provisioning'}
+            def prepare(root,workspace,work,config,**kwargs):
+                identity={'paper':{'id':work['work'],'version':1,'repository':'mathesis-papers/'+work['work'],'title':work['work']},
+                          'source_hashes':{'paper.json':'b'*64},'template_commit':'c'*40,'skill_sha256':'d'*64,
+                          'allow_request_registration':True}
+                envelope={'schema':'mathesis.paper-production-envelope.v1','identity':identity,'input_projection_path':'projection',
+                          'do_not_rereview':True,'publication_authorized':False}
+                return root/'repo',root/'run',envelope,'e'*40
+            provider=Provider();config={'api_base':'public-source','execution_mode':'shared','authoring_concurrency':2}
+            with patch.object(hosted,'candidate_works',return_value=works),patch.object(hosted,'public_detail',return_value=('collection',{})),\
+                 patch.object(hosted,'prepare',side_effect=prepare),patch.object(hosted.cma_content,'projection_packet',return_value={}),\
+                 patch.object(hosted.serial,'command',return_value='f'*40):
+                first=hosted.reconcile(root,root/'work',config,ledger,provider,{'collection':'same-workspace','external':'same-workspace'},None)
+                second=hosted.reconcile(root,root/'work',config,ledger,provider,{'collection':'same-workspace','external':'same-workspace'},None)
+            self.assertEqual(first['admitted'],['one','two'])
+            self.assertEqual(second['state'],'waiting_for_original_job')
+            self.assertEqual(len(provider.posts),2)
+            self.assertEqual({p['workspace_id'] for p in provider.posts},{'same-workspace'})
+
     def test_original_shared_job_prevents_admitting_the_next_paper(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder)
