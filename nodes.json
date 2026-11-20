@@ -9283,6 +9283,286 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:nath2021-commuting-cn-conjecture2:2:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "b3bd002bc644799939f299fe6c6c26195e3bb998",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b3bd002bc644799939f299fe6c6c26195e3bb998/D5/S3/Combinatorics/Graph/CommonNeighborhood/NoncentralBound.lean"
+      },
+      "lineage": "collected:nath2021-commuting-cn-conjecture2:s1",
+      "macros": {
+        "\\CN": "\\mathrm{CN}",
+        "\\ECN": "E_{\\mathrm{CN}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "nath2021-commuting-cn-conjecture2",
+      "scope": "in_scope",
+      "statement": "If $H$ has $m$ edges and $r$ vertices of positive degree, then\n\\[\n \\ECN(H)\\le4m,\\qquad\n \\ECN(H)\\le2\\sum_v\\max\\{d_H(v)-1,0\\}=4m-2r.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proofs of Nath–Fasfous–Das–Shang's commuting and surface conjectures, and a sharp form of Tak–Dutta–Nath's clique theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "nath2021-commuting-cn-conjecture2"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:nath2021-commuting-cn-conjecture2:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "b3bd002bc644799939f299fe6c6c26195e3bb998",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b3bd002bc644799939f299fe6c6c26195e3bb998/D5/S3/Combinatorics/Graph/CommonNeighborhood/NoncentralBound.lean"
+      },
+      "lineage": "collected:nath2021-commuting-cn-conjecture2:s2",
+      "macros": {
+        "\\CN": "\\mathrm{CN}",
+        "\\ECN": "E_{\\mathrm{CN}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "nath2021-commuting-cn-conjecture2",
+      "scope": "in_scope",
+      "statement": "Let $G$ be a finite nonabelian group, $z=|Z(G)|$, and\n$n=|G\\setminus Z(G)|$. Then $z\\ge1$, $n\\ge z+2\\ge3$, and\n\\begin{equation}\n \\ECN(\\Gamma_c(G))\\le n(n-z-2)<B(n).\n\\end{equation}\nIn particular, Conjecture~2 of~\\cite[Section~4, p.~11]{NFDS} holds.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proofs of Nath–Fasfous–Das–Shang's commuting and surface conjectures, and a sharp form of Tak–Dutta–Nath's clique theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "nath2021-commuting-cn-conjecture2"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:nath2021-commuting-cn-conjecture2:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b3bd002bc644799939f299fe6c6c26195e3bb998",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b3bd002bc644799939f299fe6c6c26195e3bb998/D5/S3/Combinatorics/Graph/CommonNeighborhood/NoncentralBound.lean"
+      },
+      "lineage": "collected:nath2021-commuting-cn-conjecture2:s3",
+      "macros": {
+        "\\CN": "\\mathrm{CN}",
+        "\\ECN": "E_{\\mathrm{CN}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "nath2021-commuting-cn-conjecture2",
+      "scope": "in_scope",
+      "statement": "If $R$ is any finite noncommutative ring, $z=|Z(R)|$, and\n$n=|R\\setminus Z(R)|$, then $n\\ge z+2\\ge3$ and\n\\[\n \\ECN(\\Gamma_c(R))\\le n(n-z-2)<B(n).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proofs of Nath–Fasfous–Das–Shang's commuting and surface conjectures, and a sharp form of Tak–Dutta–Nath's clique theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "nath2021-commuting-cn-conjecture2"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:nath2021-commuting-cn-conjecture2:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b3bd002bc644799939f299fe6c6c26195e3bb998",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b3bd002bc644799939f299fe6c6c26195e3bb998/D5/S3/Combinatorics/Graph/CommonNeighborhood/NoncentralBound.lean"
+      },
+      "lineage": "collected:nath2021-commuting-cn-conjecture2:s4",
+      "macros": {
+        "\\CN": "\\mathrm{CN}",
+        "\\ECN": "E_{\\mathrm{CN}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "nath2021-commuting-cn-conjecture2",
+      "scope": "in_scope",
+      "statement": "For either $S=G$ or $S=R$ as above, let $p$ be the least prime divisor\nof $|S|$. Then\n\\[\n \\ECN(\\Gamma_c(S))\\le\n 2\\sum_{x\\notin Z(S)}\\max\\{|C_S(x)|-z-2,0\\},\\qquad\n \\ECN(\\Gamma_c(S))\\le2n\\left(\\frac{n+z}{p}-z-1\\right).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proofs of Nath–Fasfous–Das–Shang's commuting and surface conjectures, and a sharp form of Tak–Dutta–Nath's clique theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "nath2021-commuting-cn-conjecture2"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:nath2021-commuting-cn-conjecture2:2:s5",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "b3bd002bc644799939f299fe6c6c26195e3bb998",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b3bd002bc644799939f299fe6c6c26195e3bb998/D5/S3/Combinatorics/Graph/CommonNeighborhood/NoncentralBound.lean"
+      },
+      "lineage": "collected:nath2021-commuting-cn-conjecture2:s5",
+      "macros": {
+        "\\CN": "\\mathrm{CN}",
+        "\\ECN": "E_{\\mathrm{CN}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "nath2021-commuting-cn-conjecture2",
+      "scope": "in_scope",
+      "statement": "Every simple graph on at most seven vertices and of positive order is\nnon-CN-hyperenergetic.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proofs of Nath–Fasfous–Das–Shang's commuting and surface conjectures, and a sharp form of Tak–Dutta–Nath's clique theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "nath2021-commuting-cn-conjecture2"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:nath2021-commuting-cn-conjecture2:2:s6",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "b3bd002bc644799939f299fe6c6c26195e3bb998",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b3bd002bc644799939f299fe6c6c26195e3bb998/D5/S3/Combinatorics/Graph/CommonNeighborhood/NoncentralBound.lean"
+      },
+      "lineage": "collected:nath2021-commuting-cn-conjecture2:s6",
+      "macros": {
+        "\\CN": "\\mathrm{CN}",
+        "\\ECN": "E_{\\mathrm{CN}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "nath2021-commuting-cn-conjecture2",
+      "scope": "in_scope",
+      "statement": "If $H$ is a finite simple planar or toroidal graph of positive order $n$,\nthen $\\ECN(H)\\le B(n)$. Thus Conjecture~1 of\n\\cite[Section~4, p.~11]{NFDS} holds.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proofs of Nath–Fasfous–Das–Shang's commuting and surface conjectures, and a sharp form of Tak–Dutta–Nath's clique theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "nath2021-commuting-cn-conjecture2"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:nath2021-commuting-cn-conjecture2:2:s7",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "b3bd002bc644799939f299fe6c6c26195e3bb998",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b3bd002bc644799939f299fe6c6c26195e3bb998/D5/S3/Combinatorics/Graph/CommonNeighborhood/NoncentralBound.lean"
+      },
+      "lineage": "collected:nath2021-commuting-cn-conjecture2:s7",
+      "macros": {
+        "\\CN": "\\mathrm{CN}",
+        "\\ECN": "E_{\\mathrm{CN}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "nath2021-commuting-cn-conjecture2",
+      "scope": "in_scope",
+      "statement": "If $H=K_{s_1}\\sqcup\\cdots\\sqcup K_{s_k}$, with $k\\ge1$, $s_i\\ge1$\nand $n=\\sum_i s_i$, then\n\\[\n \\ECN(H)=2\\sum_i(s_i-1)(s_i-2)\\le B(n).\n\\]\nEquality holds exactly for $k=1$, or $k=2$ and $s_1=s_2=1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proofs of Nath–Fasfous–Das–Shang's commuting and surface conjectures, and a sharp form of Tak–Dutta–Nath's clique theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "nath2021-commuting-cn-conjecture2"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:oeis-a189733-curtz-denominator-conjecture:2:s1",
       "kind": "paper",
       "label": "Theorem",

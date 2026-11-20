@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-20T14:29:40.855566128Z`.
+Snapshot: `2026-11-20T15:29:52.444009758Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -41,6 +41,7 @@ Snapshot: `2026-11-20T14:29:40.855566128Z`.
 | [MathOverflow 513954, revision 2: singular signed downdates, fixed coordinates, and a sharp polynomial sphere bound](https://github.com/mathesis-papers/10.5281-zenodo.23920597) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920598) | en, zh | 2 / 1 / 0 | 11 no target yet |
 | [Zero-mode corrections and closed bubble counts in Mukherjee et al. (2021, Sec. III, p. 7, third paragraph): extending Hoshino (2007) and Brown–Hoshino (2008)](https://github.com/mathesis-papers/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy) | 3 | [DOI](https://doi.org/10.5281/zenodo.24210281) | en, zh | 2 / 1 / 0 | 9 no target yet |
 | [Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)](https://github.com/mathesis-papers/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation) | 3 | [DOI](https://doi.org/10.5281/zenodo.24209470) | en, zh | 2 / 1 / 0 | 10 no target yet |
+| [Proofs of Nath–Fasfous–Das–Shang's commuting and surface conjectures, and a sharp form of Tak–Dutta–Nath's clique theorem](https://github.com/mathesis-papers/nath2021-commuting-cn-conjecture2) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011](https://github.com/mathesis-papers/10.5281-zenodo.23957583) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957584) | en, zh | 0 / 0 / 0 | 11 no target yet |
 | [Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28](https://github.com/mathesis-papers/oeis-a208509-affine-polynomial-pair-binomial-coefficients) | 2 | [DOI](https://doi.org/10.5281/zenodo.24211281) | Awaiting reading | 0 / 0 / 0 | 11 no target yet |
 | [OEIS A378495, FORMULA (revision #70): refutation and correction](https://github.com/mathesis-papers/10.5281-zenodo.23903308) | 3 | [DOI](https://doi.org/10.5281/zenodo.23903309) | en, zh | 0 / 0 / 0 | 2 no target yet |
