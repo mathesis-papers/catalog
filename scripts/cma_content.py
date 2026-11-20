@@ -148,7 +148,7 @@ def intent(envelope, paper_commit, catalog_commit, workspace, lane, projection=N
                        "pdf": hashes.get("paper.pdf")}
     key = serial.digest(source_identity)
     request = {"name": "Mathesis paper materials " + envelope["identity"]["paper"]["id"], "workspace_id": workspace,
-               "profile": {"model": "gpt-6.1-sol", "reasoning_effort": "high", "permission_mode": "autonomous"},
+               "profile": {"model": "gpt-6.2-sol", "reasoning_effort": "high", "permission_mode": "autonomous"},
                "initial_message": bootstrap(envelope["identity"], paper_commit, catalog_commit, key, projection)}
     require(len(request["initial_message"].encode()) <= 250 * 1024, "pinned public projection exceeds CMA input limit")
     return {"schema": "mathesis.cma-content.v1", "key": key, "lane": lane, "identity": envelope["identity"],

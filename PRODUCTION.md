@@ -34,11 +34,13 @@ no publisher credential is copied to CMA. Rotate it before the expiry recorded
 in the operator's credential receipt. Configure `CMA_COLLECTION_WORKSPACE` for
 an existing live Mathesis workspace. The previous `CMA_EXTERNAL_WORKSPACE`
 setting is accepted as a fallback. `execution_mode=shared` and
-`authoring_concurrency=2` run two independent Codex content tasks on that
-machine while host rendering and publishing remain serialized. Finished
+`authoring_concurrency=6` run up to six independent Codex content tasks on that
+machine using GPT-6.2 Sol with high reasoning effort. Existing admitted tasks
+keep their original model and operation; model changes apply to new admissions.
+Host rendering and publishing remain serialized. Finished
 sources waiting for the renderer are also bounded by that capacity. No machine
-is reserved for hypothetical external
-submissions. `lanes=["collection"]` admits our collected papers during
+is reserved for hypothetical external submissions. `lanes=["collection"]`
+admits our collected papers during
 preparation. An explicitly configured `isolated` mode retains distinct-sandbox
 checks. No route creates a new sandbox.
 
