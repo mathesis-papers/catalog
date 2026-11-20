@@ -54,6 +54,20 @@ class Promotion(unittest.TestCase):
         self.assertEqual(set(history["sha256"]), {"versions/v1/paper.pdf", "versions/v2/paper.pdf"})
         self.assertEqual(json.loads(result["paper.json"][0])["work"], self.work)
 
+    def test_restoring_an_already_checked_handoff_does_not_repeat_its_history_migration(self):
+        first=self.migrate()
+        second=promotion.migration_tree(self.tree(self.original),first,'example',2,'a'*40)
+        self.assertEqual(second,first)
+
+    def test_saved_history_cannot_name_other_files_or_a_different_source_revision(self):
+        first=self.migrate()
+        for field in ('source_commit','sha256'):
+            changed=dict(first);record=json.loads(changed[promotion.HISTORY][0])
+            record[field]='b'*40 if field=='source_commit' else {}
+            changed[promotion.HISTORY]=(encoded(record),'100644')
+            with self.subTest(field=field),self.assertRaisesRegex(ValueError,'saved history differs'):
+                promotion.migration_tree(self.tree(self.original),changed,'example',2,'a'*40)
+
     def test_unrelated_authored_files_survive_and_conflicts_need_review(self):
         self.original["personal.txt"] = b"An existing collaborator note"
         self.assertEqual(self.migrate()["personal.txt"][0], self.original["personal.txt"])

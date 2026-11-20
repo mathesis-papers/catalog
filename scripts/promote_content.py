@@ -94,10 +94,12 @@ def migration_tree(original, authored, work, version, source_commit):
     for name, entry in authored.items():
         require(name not in result or result[name] == entry, "unrelated file conflicts with authored tree: " + name)
         result[name] = entry
-    require(HISTORY not in result, "history was already migrated; inspect the existing book")
     record = {"schema": "mathesis.collection-history.v1", "work": work,
               "source_commit": source_commit, "sha256": dict(sorted(history.items()))}
-    result[HISTORY] = ((json.dumps(record, sort_keys=True, indent=2) + "\n").encode(), "100644")
+    expected_history = ((json.dumps(record, sort_keys=True, indent=2) + "\n").encode(), "100644")
+    require(HISTORY not in result or result[HISTORY] == expected_history,
+            "saved history differs from the original source revision or version files")
+    result[HISTORY] = expected_history
     return result
 
 
