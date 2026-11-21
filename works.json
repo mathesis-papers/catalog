@@ -1648,6 +1648,53 @@
       "work": "mathoverflow-513954-singular-diagonal-downdate-inertia"
     },
     {
+      "abstract_text": "Extending Moothathu's progression-exclusion construction (2010), we answer the open Question 5.6 of Meddaugh and Stephens (arXiv:2509.04312v1, Section 5, p. 12; 2025) affirmatively by constructing a mixing, surjective binary forward subshift with neighborhood 2-shadowing and a nonempty clopen set containing no nonempty periodic set. The subshift forbids an all-one arithmetic progression of length p^2+3 and difference p, for each positive integer p. Two separated deletion masks from a quadratic-irrational rotation trace every sufficiently accurate pseudo-orbit. The same construction is not of quasi-finite type, giving a further affirmative example for Question 5.3 (Section 5, p. 11), and has no ordinary shadowing. The same conclusions hold for every progression-length function ell(p)>=3 with ell(p)/p tending to infinity, without a monotonicity assumption. Each of the two tracing points can trace at a syndetic set of times, despite failure of quasi-finite type.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S1/Dynamics/Shadowing/ProgressionExample.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 92861,
+        "sha256": "61befad46d22d0938903763f0b950be3695ec05853016c54d546fae65cadab90",
+        "url": "/api/v1/collected-papers/meddaugh-stephens-2025-mixing-small-periodic-sets/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-21T13:22:13.589140010Z",
+      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
+      "repository_name": "meddaugh-stephens-2025-mixing-small-periodic-sets",
+      "source": {
+        "bytes": 17184,
+        "sha256": "5b4413ddacc7fb9509abb21ffa980f07a3b180a2bdbd1723501f8570bbaca5bd",
+        "url": "/api/v1/collected-papers/meddaugh-stephens-2025-mixing-small-periodic-sets/files/source?version=2"
+      },
+      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-21T13:22:13.589140010Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
+    },
+    {
       "abstract_text": "Extending the cycle enumerator of Hoshino (2007) and Brown–Hoshino (2008), we give the closed bubble degeneracy sought by Mukherjee, Banerjee, Sengupta and Sen (2021, Sec. III, p. 7, third paragraph). A marked-centre gap bijection counts every integer energy on a labelled cycle, and a parity refinement counts the balanced fragments contributing zero modes in a staggered field. Their simultaneous zero modes have Catalan multiplicities. The field-dependent spectrum gives an imbalanced fragment with 56 zero modes at L=48, Delta=2/sqrt(7), correcting the unrestricted disappearance statement in Sec. VI.A. We also correct the printed Eq. (3.7) and show that the authors' own dispersive construction contradicts the literal all-length exhaustion conjecture at L=14.",
       "authors": [
         {

@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-21T13:23:01.013884635Z`.
+Snapshot: `2026-11-21T14:30:08.958724183Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -41,6 +41,7 @@ Snapshot: `2026-11-21T13:23:01.013884635Z`.
 | [Proof of Mathar's conjecture on OEIS A027182: a closed form and the six-term recurrence](https://github.com/mathesis-papers/10.5281-zenodo.23884889) | 4 | [DOI](https://doi.org/10.5281/zenodo.23884890) | en, zh | 2 / 1 / 0 | 4 no target yet |
 | [Proof of the weighted-minor inequality in MathOverflow 469781](https://github.com/mathesis-papers/10.5281-zenodo.23931737) | 2 | [DOI](https://doi.org/10.5281/zenodo.23931738) | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [MathOverflow 513954, revision 2: singular signed downdates, fixed coordinates, and a sharp polynomial sphere bound](https://github.com/mathesis-papers/10.5281-zenodo.23920597) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920598) | en, zh | 2 / 1 / 0 | 11 no target yet |
+| [Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6](https://github.com/mathesis-papers/meddaugh-stephens-2025-mixing-small-periodic-sets) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Zero-mode corrections and closed bubble counts in Mukherjee et al. (2021, Sec. III, p. 7, third paragraph): extending Hoshino (2007) and Brown–Hoshino (2008)](https://github.com/mathesis-papers/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy) | 3 | [DOI](https://doi.org/10.5281/zenodo.24210281) | en, zh | 2 / 1 / 0 | 9 no target yet |
 | [Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)](https://github.com/mathesis-papers/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation) | 3 | [DOI](https://doi.org/10.5281/zenodo.24209470) | en, zh | 2 / 1 / 0 | 10 no target yet |
 | [Proofs of Nath–Fasfous–Das–Shang's commuting and surface conjectures, and a sharp form of Tak–Dutta–Nath's clique theorem](https://github.com/mathesis-papers/nath2021-commuting-cn-conjecture2) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |

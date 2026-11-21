@@ -8964,6 +8964,211 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S1/Dynamics/Shadowing/ProgressionExample.lean"
+      },
+      "lineage": "collected:meddaugh-stephens-2025-mixing-small-periodic-sets:s1",
+      "macros": {
+        "\\NN": "\\mathbb N_0",
+        "\\diam": "\\operatorname{diam}",
+        "\\dist": "\\operatorname{dist}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
+      "scope": "in_scope",
+      "statement": "The space $X$ is nonempty and compact, and $\\sigma:X\\to X$ is\ncontinuous, surjective, and topologically mixing. It has neighborhood\n$2$-shadowing. The nonempty clopen cylinder\n$U=\\{x\\in X:x_0=1\\}$ contains no nonempty set $B$ satisfying\n$\\sigma^p(B)\\subseteq B$ for any $p\\geq1$.\nIn particular $(X,\\sigma)$ answers Question 5.6 affirmatively for every\ninteger $N\\geq2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S1/Dynamics/Shadowing/ProgressionExample.lean"
+      },
+      "lineage": "collected:meddaugh-stephens-2025-mixing-small-periodic-sets:s2",
+      "macros": {
+        "\\NN": "\\mathbb N_0",
+        "\\diam": "\\operatorname{diam}",
+        "\\dist": "\\operatorname{dist}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
+      "scope": "in_scope",
+      "statement": "Let $M\\geq1$ be an integer, $\\alpha=\\sqrt2/M$, and\n$P=256M(M+3)$. For every $p\\geq1$, $\\theta\\in\\mathbb R$, and\n$0\\leq a\\leq3/4$, some integer $0\\leq j\\leq Pp$ satisfies\n\\[\n \\{\\theta+jp\\alpha\\}\\in[a,a+1/4].\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S1/Dynamics/Shadowing/ProgressionExample.lean"
+      },
+      "lineage": "collected:meddaugh-stephens-2025-mixing-small-periodic-sets:s3",
+      "macros": {
+        "\\NN": "\\mathbb N_0",
+        "\\diam": "\\operatorname{diam}",
+        "\\dist": "\\operatorname{dist}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
+      "scope": "in_scope",
+      "statement": "The system $X$ has exactly one periodic point, the zero point.\nIt has no ordinary shadowing and is not of quasi-finite type.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S1/Dynamics/Shadowing/ProgressionExample.lean"
+      },
+      "lineage": "collected:meddaugh-stephens-2025-mixing-small-periodic-sets:s4",
+      "macros": {
+        "\\NN": "\\mathbb N_0",
+        "\\diam": "\\operatorname{diam}",
+        "\\dist": "\\operatorname{dist}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
+      "scope": "in_scope",
+      "statement": "Let $\\ell:\\mathbb N_{>0}\\to\\mathbb N$ satisfy $\\ell(p)\\geq3$ and\n$\\ell(p)/p\\to\\infty$. Replace $L(p)$ in \\eqref{eq:X} by $\\ell(p)$\nand call the resulting forward subshift $X_\\ell$. Then\nTheorem~\\ref{thm:main} and Corollary~\\ref{cor:companions} hold for\n$X_\\ell$. Moreover $X_\\ell$ has no mixing number, is not sofic,\nand has no specification property in the sense of \\cite[Section 2]{MS}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S1/Dynamics/Shadowing/ProgressionExample.lean"
+      },
+      "lineage": "collected:meddaugh-stephens-2025-mixing-small-periodic-sets:s5",
+      "macros": {
+        "\\NN": "\\mathbb N_0",
+        "\\diam": "\\operatorname{diam}",
+        "\\dist": "\\operatorname{dist}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
+      "scope": "in_scope",
+      "statement": "The tracing points $a^0,a^1$ in Theorem~\\ref{thm:main} and\nCorollary~\\ref{cor:general} can be chosen so that, for each $b=0,1$,\nthe set $\\{i\\geq0:d(\\sigma^i a^b,z^i)<\\varepsilon\\}$ is syndetic:\nevery interval $[s,s+P]$ of integer times meets it.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy:3:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -15593,196 +15798,6 @@
       "toolchain": null,
       "version": 1,
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
-    },
-    {
-      "attribution": null,
-      "authors": [
-        {
-          "affiliation": "ChronoAI Pte Ltd, Singapore",
-          "name": "Haobo Ma"
-        },
-        {
-          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
-          "name": "Wenlin Zhang"
-        }
-      ],
-      "claim": "s1",
-      "contributor": null,
-      "identity": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s1",
-      "kind": "paper",
-      "label": "Theorem",
-      "lean_source": null,
-      "lineage": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:s1",
-      "macros": {
-        "\\NN": "\\mathbb N_0",
-        "\\diam": "\\operatorname{diam}",
-        "\\dist": "\\operatorname{dist}"
-      },
-      "next_step": null,
-      "proof_basis": null,
-      "proof_state": null,
-      "receipt": null,
-      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
-      "scope": "out_of_scope",
-      "statement": "The space $X$ is nonempty and compact, and $\\sigma:X\\to X$ is\ncontinuous, surjective, and topologically mixing. It has neighborhood\n$2$-shadowing. The nonempty clopen cylinder\n$U=\\{x\\in X:x_0=1\\}$ contains no nonempty set $B$ satisfying\n$\\sigma^p(B)\\subseteq B$ for any $p\\geq1$.\nIn particular $(X,\\sigma)$ answers Question 5.6 affirmatively for every\ninteger $N\\geq2$.",
-      "status": "preparing",
-      "target_digest": null,
-      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
-      "toolchain": null,
-      "version": 2,
-      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
-    },
-    {
-      "attribution": null,
-      "authors": [
-        {
-          "affiliation": "ChronoAI Pte Ltd, Singapore",
-          "name": "Haobo Ma"
-        },
-        {
-          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
-          "name": "Wenlin Zhang"
-        }
-      ],
-      "claim": "s2",
-      "contributor": null,
-      "identity": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s2",
-      "kind": "paper",
-      "label": "Lemma",
-      "lean_source": null,
-      "lineage": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:s2",
-      "macros": {
-        "\\NN": "\\mathbb N_0",
-        "\\diam": "\\operatorname{diam}",
-        "\\dist": "\\operatorname{dist}"
-      },
-      "next_step": null,
-      "proof_basis": null,
-      "proof_state": null,
-      "receipt": null,
-      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
-      "scope": "out_of_scope",
-      "statement": "Let $M\\geq1$ be an integer, $\\alpha=\\sqrt2/M$, and\n$P=256M(M+3)$. For every $p\\geq1$, $\\theta\\in\\mathbb R$, and\n$0\\leq a\\leq3/4$, some integer $0\\leq j\\leq Pp$ satisfies\n\\[\n \\{\\theta+jp\\alpha\\}\\in[a,a+1/4].\n\\]",
-      "status": "preparing",
-      "target_digest": null,
-      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
-      "toolchain": null,
-      "version": 2,
-      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
-    },
-    {
-      "attribution": null,
-      "authors": [
-        {
-          "affiliation": "ChronoAI Pte Ltd, Singapore",
-          "name": "Haobo Ma"
-        },
-        {
-          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
-          "name": "Wenlin Zhang"
-        }
-      ],
-      "claim": "s3",
-      "contributor": null,
-      "identity": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s3",
-      "kind": "paper",
-      "label": "Corollary",
-      "lean_source": null,
-      "lineage": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:s3",
-      "macros": {
-        "\\NN": "\\mathbb N_0",
-        "\\diam": "\\operatorname{diam}",
-        "\\dist": "\\operatorname{dist}"
-      },
-      "next_step": null,
-      "proof_basis": null,
-      "proof_state": null,
-      "receipt": null,
-      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
-      "scope": "out_of_scope",
-      "statement": "The system $X$ has exactly one periodic point, the zero point.\nIt has no ordinary shadowing and is not of quasi-finite type.",
-      "status": "preparing",
-      "target_digest": null,
-      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
-      "toolchain": null,
-      "version": 2,
-      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
-    },
-    {
-      "attribution": null,
-      "authors": [
-        {
-          "affiliation": "ChronoAI Pte Ltd, Singapore",
-          "name": "Haobo Ma"
-        },
-        {
-          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
-          "name": "Wenlin Zhang"
-        }
-      ],
-      "claim": "s4",
-      "contributor": null,
-      "identity": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s4",
-      "kind": "paper",
-      "label": "Corollary",
-      "lean_source": null,
-      "lineage": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:s4",
-      "macros": {
-        "\\NN": "\\mathbb N_0",
-        "\\diam": "\\operatorname{diam}",
-        "\\dist": "\\operatorname{dist}"
-      },
-      "next_step": null,
-      "proof_basis": null,
-      "proof_state": null,
-      "receipt": null,
-      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
-      "scope": "out_of_scope",
-      "statement": "Let $\\ell:\\mathbb N_{>0}\\to\\mathbb N$ satisfy $\\ell(p)\\geq3$ and\n$\\ell(p)/p\\to\\infty$. Replace $L(p)$ in \\eqref{eq:X} by $\\ell(p)$\nand call the resulting forward subshift $X_\\ell$. Then\nTheorem~\\ref{thm:main} and Corollary~\\ref{cor:companions} hold for\n$X_\\ell$. Moreover $X_\\ell$ has no mixing number, is not sofic,\nand has no specification property in the sense of \\cite[Section 2]{MS}.",
-      "status": "preparing",
-      "target_digest": null,
-      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
-      "toolchain": null,
-      "version": 2,
-      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
-    },
-    {
-      "attribution": null,
-      "authors": [
-        {
-          "affiliation": "ChronoAI Pte Ltd, Singapore",
-          "name": "Haobo Ma"
-        },
-        {
-          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
-          "name": "Wenlin Zhang"
-        }
-      ],
-      "claim": "s5",
-      "contributor": null,
-      "identity": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s5",
-      "kind": "paper",
-      "label": "Corollary",
-      "lean_source": null,
-      "lineage": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:s5",
-      "macros": {
-        "\\NN": "\\mathbb N_0",
-        "\\diam": "\\operatorname{diam}",
-        "\\dist": "\\operatorname{dist}"
-      },
-      "next_step": null,
-      "proof_basis": null,
-      "proof_state": null,
-      "receipt": null,
-      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
-      "scope": "out_of_scope",
-      "statement": "The tracing points $a^0,a^1$ in Theorem~\\ref{thm:main} and\nCorollary~\\ref{cor:general} can be chosen so that, for each $b=0,1$,\nthe set $\\{i\\geq0:d(\\sigma^i a^b,z^i)<\\varepsilon\\}$ is syndetic:\nevery interval $[s,s+P]$ of integer times meets it.",
-      "status": "preparing",
-      "target_digest": null,
-      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
-      "toolchain": null,
-      "version": 2,
-      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
     }
   ]
 }
