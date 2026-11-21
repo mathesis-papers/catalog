@@ -43,6 +43,12 @@
       "version": 4
     },
     {
+      "doi": "10.5281/zenodo.24369110",
+      "id": "bernath-a400645-consecutive-ratio",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24212421",
       "id": "bouafia-diversity-negative-type",
       "kind": "collected",
@@ -53,6 +59,12 @@
       "id": "bu-gu-jaffe-2025-mixed-state-inverse-sumset",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24369118",
+      "id": "central-edges",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.23957560",
@@ -73,16 +85,34 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24391331",
+      "id": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23884885",
       "id": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance",
       "kind": "collected",
       "version": 4
     },
     {
+      "doi": "10.5281/zenodo.24408308",
+      "id": "finch-zero-runs",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.23920557",
       "id": "ggps2025",
       "kind": "collected",
       "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.24404938",
+      "id": "han-pedon-metallic-hankel-quasipolynomial",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.23903301",
@@ -127,6 +157,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24369124",
+      "id": "kok-jaco-addition-law-refutation",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.23904482",
       "id": "koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8",
       "kind": "collected",
@@ -163,6 +199,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24404947",
+      "id": "meddaugh-stephens-2025-mixing-small-periodic-sets",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24210281",
       "id": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy",
       "kind": "collected",
@@ -173,6 +215,12 @@
       "id": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
       "kind": "collected",
       "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24398996",
+      "id": "nath2021-commuting-cn-conjecture2",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.23957584",
@@ -235,8 +283,26 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24381374",
+      "id": "rowland-sistos-barron-2025-rank-sequences",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24211823",
       "id": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24404952",
+      "id": "sp322844-serpentine-higher",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24369131",
+      "id": "spin-one-rotation-boxes",
       "kind": "collected",
       "version": 2
     },
@@ -265,6 +331,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24404958",
+      "id": "velez-cadavid-numerical-semigroup-realizability",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23884901",
       "id": "wang-conjecture326",
       "kind": "collected",
@@ -283,6 +355,6 @@
       "version": 1
     }
   ],
-  "generated_at": "2026-11-21T15:29:47.345513797Z",
+  "generated_at": "2026-11-21T16:29:23.326679062Z",
   "schema": "mathesis.archive-index.v1"
 }

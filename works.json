@@ -341,9 +341,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24369109",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24369110",
       "lean_source": {
         "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
         "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/OEISA400645.lean"
@@ -482,9 +482,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24369117",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24369118",
       "lean_source": {
         "revision": "8aa554ef66d0c1970b81b49632cd8a73a09ee34f",
         "url": "https://github.com/the-omega-institute/trureturing/blob/8aa554ef66d0c1970b81b49632cd8a73a09ee34f/D5/S3/Combinatorics/Geometry/DovgosheyRovenskaCentralEdges.lean"
@@ -670,9 +670,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24391330",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24391331",
       "lean_source": {
         "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
         "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
@@ -764,9 +764,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24408307",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24408308",
       "lean_source": {
         "revision": "0d064f0d28d301cd8a1d1b09173035a9f2fd6c02",
         "url": "https://github.com/the-omega-institute/trureturing/blob/0d064f0d28d301cd8a1d1b09173035a9f2fd6c02/D5/S1/Recurrence/FinchZeroRunsModThree.lean"
@@ -858,9 +858,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24404937",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24404938",
       "lean_source": {
         "revision": "8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f",
         "url": "https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankelResiduePolynomials.lean"
@@ -1281,9 +1281,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24369123",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24369124",
       "lean_source": {
         "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
         "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/ConceptDynamics/GraphColoring/JacoAdditionLawRefutation.lean"
@@ -1659,9 +1659,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24404946",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24404947",
       "lean_source": {
         "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S1/Dynamics/Shadowing/ProgressionExample.lean"
@@ -1800,9 +1800,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24398995",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24398996",
       "lean_source": {
         "revision": "b3bd002bc644799939f299fe6c6c26195e3bb998",
         "url": "https://github.com/the-omega-institute/trureturing/blob/b3bd002bc644799939f299fe6c6c26195e3bb998/D5/S3/Combinatorics/Graph/CommonNeighborhood/NoncentralBound.lean"
@@ -2317,9 +2317,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24381373",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24381374",
       "lean_source": {
         "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
         "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/RowlandSistosBarronRankSequences.lean"
@@ -2411,9 +2411,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24404951",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24404952",
       "lean_source": {
         "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/SpeziaSerpentineHigherExteriorTrace.lean"
@@ -2458,9 +2458,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24369130",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24369131",
       "lean_source": {
         "revision": "4b14c77599edfd8a52c0a7926d038f4121ca7db1",
         "url": "https://github.com/the-omega-institute/trureturing/blob/4b14c77599edfd8a52c0a7926d038f4121ca7db1/D5/S3/Quantum/Measurement/RotationBoxes/SpinOneRotationBoxes.lean"
@@ -2693,9 +2693,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24404957",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24404958",
       "lean_source": {
         "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
         "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Arith/Additive/NumericalSemigroupRealizability.lean"
