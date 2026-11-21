@@ -181,6 +181,44 @@ class HostedTests(unittest.TestCase):
 
 
 class RecoveryTests(unittest.TestCase):
+    def test_saved_build_recovery_is_exact_and_does_not_restart_a_failed_build_forever(self):
+        state = {'key': 'a'*64, 'phase': 'needs_attention', 'blocked_stage': 'host_build_or_publication',
+                 'source_archive_sha256': 'b'*64, 'agent_id': 'original-agent'}
+        recovery = {'id': 'matching-toolchain-v1', 'source_archive_sha256': 'b'*64, 'toolchain_image': 'matching-image'}
+        config = {'saved_build_recovery': {state['key']: recovery}, 'toolchain_image': 'matching-image'}
+        ledger = Ledger()
+        hosted.resume_saved_build(state, config, ledger)
+        self.assertEqual(state['phase'], 'sources_saved')
+        self.assertEqual(state['agent_id'], 'original-agent')
+        state.update(phase='needs_attention', blocked_stage='host_build_or_publication')
+        hosted.resume_saved_build(state, config, ledger)
+        self.assertEqual(state['phase'], 'needs_attention')
+        self.assertEqual(len(state['build_recovery_history']), 1)
+        state.pop('build_recovery_history')
+        state['source_archive_sha256'] = 'changed'
+        with self.assertRaisesRegex(ValueError, 'exact source'):
+            hosted.resume_saved_build(state, config, ledger)
+
+    def test_parked_failures_are_visible_instead_of_reported_up_to_date(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            ledger = Ledger([{'key':'original', 'phase':'needs_attention'}])
+            with patch.object(hosted, 'candidate_works', return_value=[]):
+                result = hosted.reconcile(root, root/'work', {}, ledger, object(), {}, None)
+            self.assertEqual(result['state'], 'needs_attention')
+            self.assertEqual(result['needs_attention'], ['original'])
+            self.assertEqual(result['phases'], {'needs_attention': 1})
+
+    def test_provider_error_observation_retains_status_without_a_new_task(self):
+        ledger = Ledger()
+        state = {'key':'original', 'phase':'intent'}
+        error = hosted.cma_content.ProviderError('POST', '/api/v1/agents', 422, 'invalid_request', 'name')
+        hosted.wait_for(state, 'provider', error, ledger)
+        self.assertEqual(state['phase'], 'intent')
+        self.assertEqual(state['last_error']['status'], 422)
+        self.assertEqual(state['last_error']['field'], 'name')
+        self.assertEqual(ledger.writes[-1], state)
+
     def test_two_codex_tasks_share_one_machine_and_do_not_duplicate_on_the_next_tick(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder)
