@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-21T14:30:08.958724183Z`.
+Snapshot: `2026-11-21T15:29:47.345513797Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -57,6 +57,7 @@ Snapshot: `2026-11-21T14:30:08.958724183Z`.
 | [MathOverflow 516405, revision 1: the second adjacency eigenvalue of Apollonian networks and the fixed-rank extreme spectrum](https://github.com/mathesis-papers/10.5281-zenodo.23919070) | 2 | [DOI](https://doi.org/10.5281/zenodo.23919071) | en, zh | 0 / 0 / 0 | 5 no target yet |
 | [Infinitely many general rank sequences: extending Patel's polynomiality picture (2026) at arXiv:2501.14643v1, Section 1, p. 2](https://github.com/mathesis-papers/rowland-sistos-barron-2025-rank-sequences) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [A cubic counterexample at Schnell–Ketzmerick–Eckardt (2018, Sec. V, p. 11, Eq. (55)), and an extension of their Ohmic bound](https://github.com/mathesis-papers/schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24211823) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
+| [Rank-two extensions of Spezia's 2018 determinant result: the two conjectures in OEIS A322844, Comments (revision 68)](https://github.com/mathesis-papers/sp322844-serpentine-higher) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Answering the finite-outcome question of Aloy et al. (2024), arXiv:2312.09278v2, end of §IV.B.3, p. 17: an extension of their binary spin-one theorem](https://github.com/mathesis-papers/spin-one-rotation-boxes) | 2 | Awaiting DOI | en, zh | 0 / 0 / 0 | 9 no target yet |
 | [Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c](https://github.com/mathesis-papers/10.5281-zenodo.23927427) | 2 | [DOI](https://doi.org/10.5281/zenodo.23927428) | en, zh | 0 / 0 / 0 | 10 no target yet |
 | [An orbitwise equality criterion for Ta's Problem 11.7 (arXiv:2505.08090v5, p. 27): extensions of the Kamada–Oshiro (2009/2010) examples](https://github.com/mathesis-papers/ta-2025-problem-11-7-good-involution-bound-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212427) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |

@@ -2400,6 +2400,53 @@
       "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
     },
     {
+      "abstract_text": "Extending Spezia's determinant result (2018), we prove his two conjectures in OEIS A322844, Comments, the two statements in the conjectures block (revision 68, August 23, 2025): the absolute second exterior trace of the serpentine matrix is the stated quartic quasipolynomial, and every exterior trace of order greater than two vanishes. The matrix has rank exactly two for every size at least two. A factorization through a two-dimensional space gives its characteristic polynomial, including the sign of the second exterior trace. Corollaries give a minimal polynomial, a permanent formula, diagonal sums, generating functions and reciprocal sums. We distinguish the exponential generating function from a shifted-factorial expression in the source.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/SpeziaSerpentineHigherExteriorTrace.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 118358,
+        "sha256": "a8a0bd95a2f979eb2be1ef4f668ca0cf1757f5712f647713210f406d7dac3551",
+        "url": "/api/v1/collected-papers/sp322844-serpentine-higher/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-21T15:06:16.936418123Z",
+      "record": "sp322844-serpentine-higher",
+      "repository_name": "sp322844-serpentine-higher",
+      "source": {
+        "bytes": 21628,
+        "sha256": "5ab78eeaaa950c63e8688f2ee2e77c172d3fa1e38fd0aba097ca994e44be7719",
+        "url": "/api/v1/collected-papers/sp322844-serpentine-higher/files/source?version=2"
+      },
+      "title": "Rank-two extensions of Spezia's 2018 determinant result: the two conjectures in OEIS A322844, Comments (revision 68)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-21T15:06:16.936418123Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "sp322844-serpentine-higher"
+    },
+    {
       "abstract_text": "Extending the binary-outcome theorem of Aloy, Galley, Jones, Ludescher and Müller (2024), we answer yes to their unnumbered question at the end of §IV.B.3 of arXiv:2312.09278v2, p. 17 (§IV.2.3 in the arXiv HTML): quantum and general spin-one rotation correlations coincide for every finite outcome set with at least three elements. Reversal-transpose averaging preserves each positive Gram polynomial and makes the total Gram matrix diagonal. Diagonal normalization yields one pure qutrit state and one POVM for the complete probability family, including singular boundary cases.",
       "authors": [
         {

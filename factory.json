@@ -2897,6 +2897,63 @@
       "doi": null,
       "files": {
         "pdf": {
+          "bytes": 118358,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "a8a0bd95a2f979eb2be1ef4f668ca0cf1757f5712f647713210f406d7dac3551",
+          "sha256": "a8a0bd95a2f979eb2be1ef4f668ca0cf1757f5712f647713210f406d7dac3551"
+        },
+        "source": {
+          "bytes": 21628,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "5ab78eeaaa950c63e8688f2ee2e77c172d3fa1e38fd0aba097ca994e44be7719",
+          "sha256": "5ab78eeaaa950c63e8688f2ee2e77c172d3fa1e38fd0aba097ca994e44be7719"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/SpeziaSerpentineHigherExteriorTrace.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/sp322844-serpentine-higher",
+      "site_url": "https://papers.trureturing.org/sp322844-serpentine-higher/",
+      "title": "Rank-two extensions of Spezia's 2018 determinant result: the two conjectures in OEIS A322844, Comments (revision 68)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "sp322844-serpentine-higher"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
           "bytes": 88562,
           "matches_public": true,
           "path": "paper.pdf",
@@ -3411,8 +3468,8 @@
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
     }
   ],
-  "papers": 60,
+  "papers": 61,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-21T14:30:08.958724183Z"
+  "snapshot_time": "2026-11-21T15:29:47.345513797Z"
 }
