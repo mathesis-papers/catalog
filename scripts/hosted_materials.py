@@ -276,14 +276,50 @@ def plan_template_adaptation(state, template):
     return True
 
 
+def wait_for(state, stage, error, ledger):
+    state['waiting_stage'] = stage
+    state['last_error'] = {'type': type(error).__name__, 'observed_at': serial.now()}
+    if isinstance(error, cma_content.ProviderError):
+        state['last_error'].update(error.observation())
+    ledger.put(state)
+
+
+def resume_saved_build(state, config, ledger):
+    recovery = config.get('saved_build_recovery', {}).get(state['key'])
+    if not recovery or state['phase'] != 'needs_attention':
+        return
+    if recovery['id'] in [r['id'] for r in state.get('build_recovery_history', [])]:
+        return
+    require(state.get('blocked_stage') == 'host_build_or_publication'
+            and state.get('source_archive_sha256') == recovery['source_archive_sha256']
+            and recovery['toolchain_image'] == config['toolchain_image'],
+            'saved build recovery does not match the exact source and toolchain')
+    state.setdefault('build_recovery_history', []).append({
+        **recovery, 'resumed_at': serial.now(), 'previous_stage': state['blocked_stage']})
+    state.update(phase='sources_saved')
+    state.pop('blocked_stage', None)
+    ledger.put(state)
+
+
 def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
     jobs = ledger.jobs()
     capacity = config.get('authoring_concurrency', 1)
     require(type(capacity) is int and capacity >= 1, 'authoring concurrency must be a positive integer')
     ready = None
+    def outcome(result):
+        attention = [s['key'] for s in jobs if s['phase'] == 'needs_attention']
+        waiting = [{'key': s['key'], 'stage': s['waiting_stage'], 'error': s.get('last_error')}
+                   for s in jobs if s.get('waiting_stage') and s['phase'] != 'published']
+        result.update(needs_attention=attention, waiting=waiting,
+                      phases={phase: sum(s['phase'] == phase for s in jobs) for phase in sorted({s['phase'] for s in jobs})})
+        if result['state'] == 'waiting_or_up_to_date':
+            if attention: result['state'] = 'needs_attention'
+            elif waiting: result['state'] = 'waiting_on_provider'
+        return result
     # Original operations have priority, even after template/config changes.
     # An occupied or broken lane does not prevent observing the other lane.
     for state in jobs:
+        resume_saved_build(state, config, ledger)
         if state['phase'] == 'published':
             if not state.get('cleanup_complete'):
                 try: cleanup(cma,ledger,state)
@@ -312,15 +348,16 @@ def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
         if state['phase'] in ('intent', 'provisioning', 'authoring'):
             try:
                 cma_content.reconcile(cma, state, ledger.put, isolation_workspace(config, workspaces, state['lane']))
-            except (OSError, ValueError, RuntimeError):
-                state['waiting_stage']='provider'
-                ledger.put(state)
+            except (OSError, ValueError, RuntimeError) as error:
+                wait_for(state, 'provider', error, ledger)
                 continue
+            state.pop('waiting_stage', None)
+            state.pop('last_error', None)
+            ledger.put(state)
         if state['phase'] == 'sources_ready':
             try: save_sources(cma, ledger, state)
-            except (OSError,RuntimeError,ValueError,KeyError):
-                state['waiting_stage']='source_retrieval'
-                ledger.put(state)
+            except (OSError,RuntimeError,ValueError,KeyError) as error:
+                wait_for(state, 'source_retrieval', error, ledger)
                 continue
         if state['phase'] == 'sources_saved':
             try: cleanup(cma,ledger,state)
@@ -346,7 +383,7 @@ def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
     # Keep remote Codex tasks busy while one finished paper renders, without
     # allowing an unbounded pile of source packages to await the host.
     if in_flight >= capacity or buffered >= capacity:
-        return ready or {'state':'waiting_for_original_job'}
+        return outcome(ready or {'state':'waiting_for_original_job'})
     known = {(s['identity']['paper']['id'], s['identity']['paper']['version'])
              for s in jobs if s.get('identity')}
     admitted = []
@@ -368,10 +405,13 @@ def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
         ledger.put(state)
         jobs.append(state)
         known.add((work['work'],work['current_version']))
-        cma_content.reconcile(cma, state, ledger.put, isolation_workspace(config, workspaces, lane))
+        try:
+            cma_content.reconcile(cma, state, ledger.put, isolation_workspace(config, workspaces, lane))
+        except (OSError, ValueError, RuntimeError) as error:
+            wait_for(state, 'provider', error, ledger)
         admitted.append(work['work'])
         in_flight += 1
-    return ready or {'state':'authoring_started' if admitted else 'waiting_or_up_to_date','admitted':admitted}
+    return outcome(ready or {'state':'authoring_started' if admitted else 'waiting_or_up_to_date','admitted':admitted})
 
 
 def build(run):
@@ -507,8 +547,13 @@ def main():
                 with open(os.environ['GITHUB_OUTPUT'],'a') as output:
                     output.write('ready=true\nrun='+result['run']+'\nrepository='+result['repository']+'\n')
     # Keep opaque operation handles and full checkpoints in the private ledger.
-    serial.write(workspace/'status.json', {'state':result.get('state',result.get('phase'))})
-    print(json.dumps(result if args.action == 'plan' else {'state':result.get('state',result.get('phase'))},ensure_ascii=False))
+    status = {k: result[k] for k in ('state', 'phases', 'needs_attention', 'waiting', 'admitted') if k in result}
+    status.setdefault('state', result.get('phase'))
+    serial.write(workspace/'status.json', status)
+    if os.environ.get('GITHUB_STEP_SUMMARY') and args.action == 'reconcile':
+        with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+            summary.write('\n### Paper material processing\n\n```json\n' + json.dumps(status, indent=2) + '\n```\n')
+    print(json.dumps(result if args.action == 'plan' else status,ensure_ascii=False))
 
 
 if __name__ == '__main__': main()

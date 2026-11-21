@@ -41,6 +41,37 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
         return None
 
 
+class ProviderError(RuntimeError):
+    """Retain actionable protocol facts without logging provider payloads."""
+    def __init__(self, method, path, status, code=None, field=None):
+        self.status = status
+        self.code = code if isinstance(code, str) and re.fullmatch(r"[a-zA-Z0-9_-]{1,100}", code) else None
+        self.field = field
+        super().__init__(f"CMA {method} {path.split('?')[0]}: HTTP {status}"
+                         + (f" ({self.code})" if self.code else ""))
+
+    def observation(self):
+        return {"status": self.status, "code": self.code, "field": self.field}
+
+
+def provider_error(method, path, status, body):
+    try:
+        problem = json.loads(body)
+    except (ValueError, UnicodeError):
+        problem = {}
+    if not isinstance(problem, dict):
+        problem = {}
+    detail = problem.get('detail')
+    field = 'name' if isinstance(detail, str) and 'name must contain 1-80 non-control bytes' in detail else None
+    return ProviderError(method, path, status, problem.get('code'), field)
+
+
+def agent_name(work, key):
+    # CMA permits at most 64 characters and 80 UTF-8 bytes. Work IDs are ASCII;
+    # the source suffix keeps truncated names distinguishable to operators.
+    return 'Mathesis materials ' + work[:30] + ' ' + key[:12]
+
+
 class CMA:
     def __init__(self, token, base="https://api.nyxid.ai/api/v1/proxy/s/cma"):
         url = urllib.parse.urlsplit(base)
@@ -64,11 +95,12 @@ class CMA:
                 return json.loads(data) if data else {}
         except urllib.error.HTTPError as error:
             status = error.code
+            body = error.read(64 * 1024)
             error.close()
             if missing and status == 404:
                 return None
-            # No provider body, request headers or token in logs/checkpoints.
-            raise RuntimeError(f"CMA {method} {path.split('?')[0]}: HTTP {status}") from None
+            # Only allowlisted problem facts enter logs/checkpoints.
+            raise provider_error(method, path, status, body) from None
 
     def facts(self, workspace):
         row = self.call("GET", "/api/v1/workspaces/" + identifier(workspace))
@@ -147,7 +179,7 @@ def intent(envelope, paper_commit, catalog_commit, workspace, lane, projection=N
                        "source": hashes.get("source.archive", hashes.get("manuscript/original-source.archive", hashes.get("paper.json"))),
                        "pdf": hashes.get("paper.pdf")}
     key = serial.digest(source_identity)
-    request = {"name": "Mathesis paper materials " + envelope["identity"]["paper"]["id"], "workspace_id": workspace,
+    request = {"name": agent_name(envelope["identity"]["paper"]["id"], key), "workspace_id": workspace,
                "profile": {"model": "gpt-6.2-sol", "reasoning_effort": "high", "permission_mode": "autonomous"},
                "initial_message": bootstrap(envelope["identity"], paper_commit, catalog_commit, key, projection)}
     require(len(request["initial_message"].encode()) <= 250 * 1024, "pinned public projection exceeds CMA input limit")
@@ -168,7 +200,23 @@ def reconcile(cma, state, save, other_workspace=None):
         # Durability precedes the side effect, including an uncertain POST retry.
         state["sandbox"] = sandbox
         save(state)
-        receipt = cma.call("POST", "/api/v1/agents", state["request"], state["idempotency_key"])
+        try:
+            receipt = cma.call("POST", "/api/v1/agents", state["request"], state["idempotency_key"])
+        except ProviderError as error:
+            name = state['request'].get('name', '')
+            if (error.status == 422 and error.code == 'invalid_request' and error.field == 'name'
+                    and (len(name) > 64 or len(name.encode()) > 80)
+                    and not state.get('lifecycle_id') and not state.get('admission_rejections')):
+                # A definitive pre-admission validation refusal is different
+                # from an uncertain POST. Preserve it before correcting ONLY
+                # the display name and allocating a distinct replay key.
+                state.setdefault('admission_rejections', []).append({
+                    'request': dict(state['request']), 'idempotency_key': state['idempotency_key'],
+                    **error.observation(), 'observed_at': serial.now()})
+                state['request'] = dict(state['request'], name=agent_name(state['identity']['paper']['id'], state['key']))
+                state['idempotency_key'] += ':name-v2'
+                save(state)
+            raise
         state.update(lifecycle_id=identifier(receipt["id"]), phase="provisioning")
         save(state)
     if state["phase"] == "provisioning":

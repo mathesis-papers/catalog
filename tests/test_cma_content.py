@@ -46,6 +46,60 @@ class FakeCMA:
 
 
 class AdapterTests(unittest.TestCase):
+    def test_long_work_id_uses_a_bounded_distinguishable_provider_name(self):
+        e = envelope()
+        e['identity']['paper']['id'] = 'delgado-suer-yesil-2026-symmetrization-surjectivity'
+        state = cma.intent(e, 'b'*40, 'e'*40, 'wks_internal', 'collection')
+        self.assertLessEqual(len(state['request']['name']), 64)
+        self.assertLessEqual(len(state['request']['name'].encode()), 80)
+        self.assertTrue(state['request']['name'].endswith(state['key'][:12]))
+
+    def test_definitively_rejected_legacy_name_is_corrected_once_without_changing_the_task(self):
+        e = envelope()
+        work = 'delgado-suer-yesil-2026-symmetrization-surjectivity'
+        e['identity']['paper']['id'] = work
+        state = cma.intent(e, 'b'*40, 'e'*40, 'wks_internal', 'collection')
+        state['request']['name'] = 'Mathesis paper materials ' + work
+        original = copy.deepcopy(state)
+        saved = []
+        provider = FakeCMA()
+        call = provider.call
+        def reject(method, path, body=None, key=None):
+            if method == 'POST' and len(body['name']) > 64:
+                raise cma.ProviderError(method, path, 422, 'invalid_request', 'name')
+            return call(method, path, body, key)
+        provider.call = reject
+        with self.assertRaises(cma.ProviderError):
+            cma.reconcile(provider, state, lambda s: saved.append(copy.deepcopy(s)))
+        self.assertEqual(state['phase'], 'intent')
+        self.assertEqual(state['request']['initial_message'], original['request']['initial_message'])
+        self.assertEqual(state['identity'], original['identity'])
+        self.assertEqual(state['admission_rejections'][0]['request'], original['request'])
+        self.assertEqual(saved[-1]['idempotency_key'], original['idempotency_key'] + ':name-v2')
+        cma.reconcile(provider, state, lambda s: saved.append(copy.deepcopy(s)))
+        self.assertEqual(state['phase'], 'sources_ready')
+        self.assertEqual(provider.posts, 1)
+
+    def test_unknown_or_uncertain_refusals_never_change_the_original_request(self):
+        for error in (TimeoutError('uncertain'), cma.ProviderError('POST', '/api/v1/agents', 422, 'invalid_request')):
+            with self.subTest(error=type(error).__name__):
+                state = cma.intent(envelope(), 'b'*40, 'e'*40, 'wks_internal', 'collection')
+                state['request']['name'] = 'long-name-' * 9
+                original = copy.deepcopy(state)
+                provider = FakeCMA()
+                provider.call = lambda *args: (_ for _ in ()).throw(error)
+                with self.assertRaises(type(error)):
+                    cma.reconcile(provider, state, lambda s: None)
+                self.assertEqual(state['request'], original['request'])
+                self.assertEqual(state['idempotency_key'], original['idempotency_key'])
+
+    def test_problem_observation_does_not_include_arbitrary_provider_content(self):
+        error = cma.provider_error('POST', '/api/v1/agents', 422, json.dumps({
+            'code': 'invalid_request', 'detail': 'secret request text', 'token': 'do not retain'}).encode())
+        self.assertEqual(error.observation(), {'status': 422, 'code': 'invalid_request', 'field': None})
+        self.assertNotIn('secret', str(error))
+        self.assertIsNone(cma.provider_error('GET', '/api/v1/agents', 503, b'not JSON').code)
+
     def generated_index_case(self, root):
         repo, run = root/'repo', root/'run'
         repo.mkdir(); run.mkdir()

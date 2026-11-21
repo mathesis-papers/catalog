@@ -116,3 +116,24 @@ are workflow steps. A model's `prepared` output means source prepared; it does
 not assert QA, publication or formal verification. Use the saved job and source
 pack to repair failures. Do not remove a checkpoint or use a fresh key to get
 around a failed stage.
+
+### Communication diagnostics and saved-build recovery
+
+CMA display names are bounded to its 64-character/80-byte limit, with a source
+key suffix. An older oversized name is corrected only after an observed 422
+`invalid_request` explicitly identifies the name field, before any lifecycle
+receipt exists. Preserve the rejected request and replay key, then save the
+name-only correction with a new key. Timeouts and other uncertain requests
+always retain their original body and key.
+
+Provider waits retain the HTTP status and allowlisted problem code/field, never
+raw provider payloads, headers or credentials. Each reconciliation reports phase
+counts, waiting jobs and parked failures in its Actions log and step summary;
+`needs_attention` must not be described as up to date.
+
+The production toolchain digest must match all eight recorded template input
+hashes, including `requirements.txt`. The 2026-11-21 recovery selects the already
+published matching image rather than rebuilding or editing upstream. Its
+`saved_build_recovery` entries bind an operator-authorized retry to one immutable
+source archive and that exact image. Each recovery ID runs once. Another build
+failure remains parked; it never asks CMA to regenerate completed mathematics.
