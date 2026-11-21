@@ -243,6 +243,25 @@ class API:
         self.call("POST", f"/repos/{ORG}/{name}/issues", {"title": TITLE, "body": MARKER + "\n\n" + checklist})
 
 
+def read_material_manifest(opener, request):
+    """Retry transient public reads only; persistent failures still stop staging."""
+    for attempt in range(3):
+        try:
+            with opener.open(request, timeout=30) as response:
+                raw = response.read(1024 * 1024 + 1)
+                require(len(raw) <= 1024 * 1024, "materials manifest exceeds 1 MiB")
+                return json.loads(raw)
+        except urllib.error.HTTPError as error:
+            if error.code not in (502, 503, 504) or attempt == 2:
+                raise
+            error.close()
+            time.sleep(attempt + 1)
+        except (TimeoutError, urllib.error.URLError):
+            if attempt == 2:
+                raise
+            time.sleep(attempt + 1)
+
+
 def material_downloads(mapping, destination, aliases=None, previous_materials=None, versions=None):
     opener = urllib.request.build_opener(NoRedirect())
     for work, repo in sorted(mapping.items()):
@@ -255,10 +274,7 @@ def material_downloads(mapping, destination, aliases=None, previous_materials=No
             # The site sits behind Cloudflare, which refuses the default Python-urllib agent.
             request = urllib.request.Request(url, headers={"User-Agent": "mathesis-papers-publisher", "Accept": "application/json"})
             try:
-                with opener.open(request, timeout=30) as response:
-                    raw = response.read(1024 * 1024 + 1)
-                    require(len(raw) <= 1024 * 1024, "materials manifest exceeds 1 MiB")
-                    value = json.loads(raw)
+                value = read_material_manifest(opener, request)
             except urllib.error.HTTPError as exc:
                 if exc.code == 404 or (work in (aliases or {}) and exc.code in (502, 503, 504)):
                     if exc.code != 404:
