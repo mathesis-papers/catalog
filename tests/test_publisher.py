@@ -19,6 +19,41 @@ spec.loader.exec_module(publisher)
 WORK = "chen-chen-step-m-eulerian-parity-positivity"
 
 
+class MaterialReadTests(unittest.TestCase):
+    def test_transient_read_retries_the_same_url_and_keeps_the_manifest(self):
+        response = mock.MagicMock()
+        response.__enter__.return_value.read.return_value = b'{"work":"example","version":2}'
+        opener = mock.Mock()
+        opener.open.side_effect = [publisher.urllib.error.HTTPError('https://example.org', 503, '', {}, None), response]
+        request = publisher.urllib.request.Request('https://example.org/materials.json')
+        with mock.patch.object(publisher.time, 'sleep') as sleep:
+            value = publisher.read_material_manifest(opener, request)
+        self.assertEqual(value, {'work':'example', 'version':2})
+        self.assertEqual(opener.open.call_args_list, [mock.call(request, timeout=30)]*2)
+        sleep.assert_called_once_with(1)
+
+    def test_persistent_transient_failure_is_bounded_and_not_treated_as_missing(self):
+        opener = mock.Mock()
+        opener.open.side_effect = lambda *a, **kw: (_ for _ in ()).throw(
+            publisher.urllib.error.HTTPError('https://example.org', 503, '', {}, None))
+        with mock.patch.object(publisher.time, 'sleep') as sleep:
+            with self.assertRaises(publisher.urllib.error.HTTPError):
+                publisher.read_material_manifest(opener, object())
+        self.assertEqual(opener.open.call_count, 3)
+        self.assertEqual(sleep.call_args_list, [mock.call(1), mock.call(2)])
+
+    def test_missing_or_forbidden_sources_are_not_retried(self):
+        for code in (403, 404):
+            with self.subTest(code=code):
+                opener = mock.Mock()
+                opener.open.side_effect = publisher.urllib.error.HTTPError('https://example.org', code, '', {}, None)
+                with mock.patch.object(publisher.time, 'sleep') as sleep:
+                    with self.assertRaises(publisher.urllib.error.HTTPError):
+                        publisher.read_material_manifest(opener, object())
+                self.assertEqual(opener.open.call_count, 1)
+                sleep.assert_not_called()
+
+
 class Fake:
     def __init__(self):
         self.blobs = {}
