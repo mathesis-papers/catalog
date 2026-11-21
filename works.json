@@ -753,6 +753,53 @@
       "work": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance"
     },
     {
+      "abstract_text": "Extending Finch's analysis of the zero-run question in Three Quadratic Recurrences Modulo 3, arXiv:2610.34300v1, Section 6, Remark 20, page 8, we answer universal attainment negatively: a closed ternary-state orbit proves that the maximum at lag 61 is ten gaps rather than the upper bound fifteen. The ten-gap starts are exactly 2780+8946m for m >= 0, and the least preperiod is 739; Harder's earlier period value 8946 is recovered. We also correct Finch's capture-offset Conjecture 23 (Section 7, page 9): whenever the eventual period is four, the offset is six for every lag k >= 3, and nine at k=2.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "0d064f0d28d301cd8a1d1b09173035a9f2fd6c02",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0d064f0d28d301cd8a1d1b09173035a9f2fd6c02/D5/S1/Recurrence/FinchZeroRunsModThree.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 77483,
+        "sha256": "342ee197255e82a384cc930824d7cbcc8954dd750e02487f2739502ff4d94cb8",
+        "url": "/api/v1/collected-papers/finch-zero-runs/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-21T11:58:43.414040897Z",
+      "record": "finch-zero-runs",
+      "repository_name": "finch-zero-runs",
+      "source": {
+        "bytes": 19020,
+        "sha256": "0d4d4df5263ab2aad02e2aee52805c23767d68b532f5ac41d2a1f9deec9b072c",
+        "url": "/api/v1/collected-papers/finch-zero-runs/files/source?version=3"
+      },
+      "title": "Extending Finch's zero-run analysis: nonattainment and a corrected capture theorem",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-21T11:58:43.414040897Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "finch-zero-runs"
+    },
+    {
       "abstract_text": "Conjecture 25 and the question in Remark 6 of Garrappa, Gerhold, Popolizio and Simon, arXiv:2410.11852v4, both have negative answers. For every 1<alpha<2, the proposed Mittag–Leffler modulus lower bound fails at beta=alpha-1, and at one fixed nonreal point it continues to fail on a closed interval [alpha-1,alpha-1+epsilon] with epsilon>0. A Hankel-contour expansion gives this family, while an exact rational certificate supplies the explicit instance (alpha,beta,z)=(3/2,1/2,-115+10i). The Kummer question has the elementary witness M(1/2,-3/2,z)=exp(z)(1-4z/3+4z^2/3).",
       "authors": [
         {
@@ -798,6 +845,53 @@
         }
       ],
       "work": "ggps2025"
+    },
+    {
+      "abstract_text": "Extending Han–Pedon's lower-shift results (2026), we prove their Conjecture C (arXiv:2610.36132v1, p. 6): for every n ≥ 1 and ℓ ≥ n+3, every residue subsequence of the shifted q-metallic Hankel determinants is a rational polynomial, from its first term, with period 2n(n+1) for even n and 4n(n+1) for odd n. Each polynomial is integer-valued on all integers. A complementary-minor formula reduces the determinant to a matrix of fixed size with polynomial dependence on the number of continued-fraction periods. We give a degree bound, rational generating functions, constant-coefficient recurrences and periodicity from the first term modulo every positive integer at every shift. Exact complementary-minor identities and the degree bound prove the affine laws extending Ovsienko–Pedon's golden shift-4 pattern (2023; published 2025).",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankelResiduePolynomials.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 148283,
+        "sha256": "06da0efe3db8fda81093880ecc07196b1c01c7038e92856cbcef8d3b72f69e2b",
+        "url": "/api/v1/collected-papers/han-pedon-metallic-hankel-quasipolynomial/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-21T12:36:44.124601068Z",
+      "record": "han-pedon-metallic-hankel-quasipolynomial",
+      "repository_name": "han-pedon-metallic-hankel-quasipolynomial",
+      "source": {
+        "bytes": 22518,
+        "sha256": "5d016ba17216f66ed84de92dc8d64622e72832afd35f0449f14e781e6dc25607",
+        "url": "/api/v1/collected-papers/han-pedon-metallic-hankel-quasipolynomial/files/source?version=2"
+      },
+      "title": "Extending Han–Pedon (2026): proof of Conjecture C for metallic Hankel determinants (arXiv:2610.36132v1, p. 6)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-21T12:36:44.124601068Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "han-pedon-metallic-hankel-quasipolynomial"
     },
     {
       "abstract_text": "We prove the Conjectures of Colin Barker in the FORMULA section of OEIS A209723, dated July 12, 2018: the parity formulas and ordinary generating function for ternary arrays with distinct clockwise edge differences. We also prove Hardin's empirical recurrence. A decomposition of the row-compatibility graph into two three-vertex stars and isolated edges gives a formula for every rectangular size. Its corollaries include the companion formulas in A209721–A209726, Beck's first A209721 conjecture, Peterson's A209721 recurrence and triangle interpretation, and the column recurrences and diagonal identification in A209727.",
@@ -2492,6 +2586,53 @@
         }
       ],
       "work": "user3-2026-orthogonal-absolute-product-minimum"
+    },
+    {
+      "abstract_text": "We answer the realizability question of Vélez Caicedo and Cadavid (§5, p. 17, second paragraph of arXiv:2611.14316v1) by reflecting semigroup generators about a prescribed maximum jump: every numerical semigroup T is realizable, and a positive integer M is an admissible maximum exactly when M belongs to T and every minimal generator h satisfies h<2M and 2M-h belongs to T. The construction gives the unique inclusion-minimal jump set at each admissible maximum and realizes every sufficiently large maximum. Using the source's spectral formulas, we also recover the semigroup from two global dimensions and M-2 restricted dimensions when M>=2. For prime maxima, eventual dimensions at proper-divisor moduli alone need not distinguish semigroups.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Arith/Additive/NumericalSemigroupRealizability.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 73750,
+        "sha256": "637af1d67c4063d18b56582453d4207a35c7a734b47e19f526bcbdb0642829a0",
+        "url": "/api/v1/collected-papers/velez-cadavid-numerical-semigroup-realizability/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-21T11:28:59.304714016Z",
+      "record": "velez-cadavid-numerical-semigroup-realizability",
+      "repository_name": "velez-cadavid-numerical-semigroup-realizability",
+      "source": {
+        "bytes": 13389,
+        "sha256": "609dadb94a90ab3db0f96e1e6138a8829c2630c94cfe4b93d412812e1ce9c4c7",
+        "url": "/api/v1/collected-papers/velez-cadavid-numerical-semigroup-realizability/files/source?version=2"
+      },
+      "title": "Vélez Caicedo and Cadavid's numerical-semigroup realizability question: prescribed maxima and reduced spectral data",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-21T11:28:59.304714016Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "velez-cadavid-numerical-semigroup-realizability"
     },
     {
       "abstract_text": "We refute Conjectures 3.26 and 5.3 of Wang's Semigroup rings and algebraically independent sequences with respect to idempotents in commutative semigroups (arXiv:2509.18724v1, pp. 23 and 27). The commutative periodic monoid of finite subsets of the natural numbers, paired with levels zero, one and two under union and capped addition, has algebraic Davenport constant one over every nonzero commutative unitary ring. Its nongroup relative Davenport constants are unbounded. The finite submonoids with supports contained in {1,...,m}, m>=1, have the same algebraic constant, whereas the expression conjectured to equal it grows without bound as m increases.",

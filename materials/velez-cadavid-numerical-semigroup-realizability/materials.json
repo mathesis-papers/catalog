@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/velez-cadavid-numerical-semigroup-realizability/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/velez-cadavid-numerical-semigroup-realizability",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/velez-cadavid-numerical-semigroup-realizability/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "velez-cadavid-numerical-semigroup-realizability"
+}

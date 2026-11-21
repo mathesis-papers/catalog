@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-21T11:28:59.076620084Z`.
+Snapshot: `2026-11-21T13:23:01.013884635Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -22,7 +22,9 @@ Snapshot: `2026-11-21T11:28:59.076620084Z`.
 | [Refuting the X-MEMS closest-separable-state conjecture in arXiv:2209.01430v2, Appendix A, Eq. (A11)](https://github.com/mathesis-papers/10.5281-zenodo.23904463) | 2 | [DOI](https://doi.org/10.5281/zenodo.23904464) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [A negative answer to Delgado, Süer and Yeşil's symmetrization question](https://github.com/mathesis-papers/delgado-suer-yesil-2026-symmetrization-surjectivity) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Refuting the trace-distance case of axiom (T4) of Denis, Lacaille, Martin and Serrano-Ensástiga](https://github.com/mathesis-papers/10.5281-zenodo.23884884) | 4 | [DOI](https://doi.org/10.5281/zenodo.23884885) | en, zh | 2 / 1 / 0 | 3 no target yet |
+| [Extending Finch's zero-run analysis: nonattainment and a corrected capture theorem](https://github.com/mathesis-papers/finch-zero-runs) | 3 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
 | [Counterexamples to Conjecture 25 and Remark 6 of Garrappa–Gerhold–Popolizio–Simon: Global modulus lower bounds in arXiv:2410.11852v4](https://github.com/mathesis-papers/10.5281-zenodo.23920556) | 1 | [DOI](https://doi.org/10.5281/zenodo.23920557) | en, zh | 2 / 1 / 0 | 4 no target yet |
+| [Extending Han–Pedon (2026): proof of Conjecture C for metallic Hankel determinants (arXiv:2610.36132v1, p. 6)](https://github.com/mathesis-papers/han-pedon-metallic-hankel-quasipolynomial) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [OEIS A209723: Barker's conjectures on distinct clockwise edge differences](https://github.com/mathesis-papers/10.5281-zenodo.23903300) | 2 | [DOI](https://doi.org/10.5281/zenodo.23903301) | en, zh | 2 / 1 / 0 | 4 no target yet |
 | [Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem](https://github.com/mathesis-papers/he-tubbenhauer-2025-null-tensor-summand) | 2 | Awaiting DOI | en, zh | 2 / 1 / 0 | 8 no target yet |
 | [A degree-12 counterexample to Saniga et al.'s Section 4.4 line-subgeometry conjecture](https://github.com/mathesis-papers/10.5281-zenodo.23904467) | 2 | [DOI](https://doi.org/10.5281/zenodo.23904468) | en, zh | 2 / 1 / 0 | 5 no target yet |
@@ -59,6 +61,7 @@ Snapshot: `2026-11-21T11:28:59.076620084Z`.
 | [An orbitwise equality criterion for Ta's Problem 11.7 (arXiv:2505.08090v5, p. 27): extensions of the Kamada–Oshiro (2009/2010) examples](https://github.com/mathesis-papers/ta-2025-problem-11-7-good-involution-bound-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212427) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [A counterexample to the Shannon conjecture following Eq. (69) in Tarabunga et al., Section V.C](https://github.com/mathesis-papers/10.5281-zenodo.23903315) | 1 | [DOI](https://doi.org/10.5281/zenodo.23903316) | en, zh | 0 / 0 / 0 | 7 no target yet |
 | [Resolving User3's orthogonal absolute-product question: minimum and minimizers](https://github.com/mathesis-papers/10.5281-zenodo.23885983) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885984) | en, zh | 0 / 0 / 0 | 4 no target yet |
+| [Vélez Caicedo and Cadavid's numerical-semigroup realizability question: prescribed maxima and reduced spectral data](https://github.com/mathesis-papers/velez-cadavid-numerical-semigroup-realizability) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Counterexamples to Wang's Conjectures 3.26 and 5.3 on semigroup algebras](https://github.com/mathesis-papers/10.5281-zenodo.23884900) | 2 | [DOI](https://doi.org/10.5281/zenodo.23884901) | en, zh | 0 / 0 / 0 | 5 no target yet |
 | [Strictness and sibling corrections for OEIS A344611, FORMULA, with an alternative derivation of Manyama's (2026) convolution](https://github.com/mathesis-papers/wiseman-a344611) | 2 | [DOI](https://doi.org/10.5281/zenodo.24209474) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [A strict gap in the noisy-GHZ equality question of Xu et al., Section 4.2, page 12 of arXiv:2211.05563v1](https://github.com/mathesis-papers/10.5281-zenodo.23919078) | 1 | [DOI](https://doi.org/10.5281/zenodo.23919079) | en, zh | 0 / 0 / 0 | 3 no target yet |

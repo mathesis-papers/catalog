@@ -3981,6 +3981,123 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:finch-zero-runs:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "0d064f0d28d301cd8a1d1b09173035a9f2fd6c02",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0d064f0d28d301cd8a1d1b09173035a9f2fd6c02/D5/S1/Recurrence/FinchZeroRunsModThree.lean"
+      },
+      "lineage": "collected:finch-zero-runs:s1",
+      "macros": {
+        "\\F": "\\mathbb F_3"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "finch-zero-runs",
+      "scope": "in_scope",
+      "statement": "For the sequence \\eqref{eq:recurrence} with $k=61$, the maximum number\nof gaps in a run \\eqref{eq:run} is exactly ten. In particular, the\nbound $\\lfloor(61-1)/4\\rfloor=15$ is not attained. The least eventual\nperiod is $8946$, and the least $\\mu\\ge0$ such that\n$x_{n+8946}=x_n$ for all $n>\\mu$ is $739$.\nThe ten-gap runs start exactly at $2780+8946m$, for integers $m\\ge0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Finch's zero-run analysis: nonattainment and a corrected capture theorem",
+      "toolchain": null,
+      "version": 3,
+      "work": "finch-zero-runs"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:finch-zero-runs:3:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "0d064f0d28d301cd8a1d1b09173035a9f2fd6c02",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0d064f0d28d301cd8a1d1b09173035a9f2fd6c02/D5/S1/Recurrence/FinchZeroRunsModThree.lean"
+      },
+      "lineage": "collected:finch-zero-runs:s2",
+      "macros": {
+        "\\F": "\\mathbb F_3"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "finch-zero-runs",
+      "scope": "in_scope",
+      "statement": "Suppose $k\\ge2$ and the least eventual period of\n\\eqref{eq:recurrence} is four. Then\n\\[\nz(k)-\\mu_A(k)=\n\\begin{cases}9,&k=2,\\\\6,&k\\ge3.\\end{cases}\n\\]\nIn particular, the restriction of Conjecture~23 to $k\\ge3$ is true.\nFor $k\\ge3$, necessarily $k\\equiv2,3\\pmod4$, and the first\ncapturing run starts at\n\\[\ns=\\begin{cases}\n\\mu_A(k)-k+4,&k\\equiv2\\pmod4,\\\\\n\\mu_A(k)-k+5,&k\\equiv3\\pmod4.\n\\end{cases}\n\\]\nThe triple $(x_{\\mu_A(k)},x_{\\mu_A(k)+1},x_{\\mu_A(k)+2})$\nis respectively $(2,2,0)$ or $(1,2,0)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Finch's zero-run analysis: nonattainment and a corrected capture theorem",
+      "toolchain": null,
+      "version": 3,
+      "work": "finch-zero-runs"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:finch-zero-runs:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0d064f0d28d301cd8a1d1b09173035a9f2fd6c02",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0d064f0d28d301cd8a1d1b09173035a9f2fd6c02/D5/S1/Recurrence/FinchZeroRunsModThree.lean"
+      },
+      "lineage": "collected:finch-zero-runs:s3",
+      "macros": {
+        "\\F": "\\mathbb F_3"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "finch-zero-runs",
+      "scope": "in_scope",
+      "statement": "Under the hypotheses of Theorem~\\ref{thm:capture}, put $s=z-4G$.\nFor $k\\ge3$ the neighborhood conditions in Finch's Remark~24 hold:\n$b_{s-4}=1$ when $k\\equiv2\\pmod4$, and\n$b_{s-5}=0$, $b_{s-1}=1$ when $k\\equiv3\\pmod4$.\nAt $k=2$ the proposed condition fails: $s=5$ and $b_{s-4}=b_1=0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Finch's zero-run analysis: nonattainment and a corrected capture theorem",
+      "toolchain": null,
+      "version": 3,
+      "work": "finch-zero-runs"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:ggps2025:1:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -4130,6 +4247,350 @@
       "toolchain": null,
       "version": 1,
       "work": "ggps2025"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:han-pedon-metallic-hankel-quasipolynomial:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankelResiduePolynomials.lean"
+      },
+      "lineage": "collected:han-pedon-metallic-hankel-quasipolynomial:s1",
+      "macros": {
+        "\\D": "\\Delta_{#1}^{(#2)}",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[q^{#1}]",
+        "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankel#1.lean}{\\nolinkurl{#2}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "han-pedon-metallic-hankel-quasipolynomial",
+      "scope": "in_scope",
+      "statement": "For every $n\\ge1$ and $\\ell\\ge n+3$ there are polynomials\n$Q_{\\ell,r}\\in\\Q[X]$, $0\\le r<\\rho$, such that\n\\[\n \\D{r+m\\rho}\\ell=Q_{\\ell,r}(m)\\quad(m\\ge0),\\qquad\n Q_{\\ell,r}(z)\\in\\Z\\quad(z\\in\\Z).\n\\]\nMore explicitly, set $a=\\ell-(n+1)$,\n$K_0=\\lceil(r+a)/\\rho\\rceil$, and $t=K_0\\rho-r$. Then\n\\begin{equation}\n \\deg Q_{\\ell,r}\\le t(t-a)+a(a-1),\\qquad a\\le t\\le a+\\rho-1,\n\\end{equation}\nwhere a zero polynomial satisfies any nonnegative degree bound.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Han–Pedon (2026): proof of Conjecture C for metallic Hankel determinants (arXiv:2610.36132v1, p. 6)",
+      "toolchain": null,
+      "version": 2,
+      "work": "han-pedon-metallic-hankel-quasipolynomial"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:han-pedon-metallic-hankel-quasipolynomial:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankelResiduePolynomials.lean"
+      },
+      "lineage": "collected:han-pedon-metallic-hankel-quasipolynomial:s2",
+      "macros": {
+        "\\D": "\\Delta_{#1}^{(#2)}",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[q^{#1}]",
+        "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankel#1.lean}{\\nolinkurl{#2}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "han-pedon-metallic-hankel-quasipolynomial",
+      "scope": "in_scope",
+      "statement": "For each $h\\ge0$, the coefficients of $x^h$ in $c,d$ from\n\\eqref{normal} are rational polynomials in $K$ of degree at most $h$.\nThe same holds for $c^*(q)=q^Nc(q^{-1})$ and\n$d^*(q)=q^Nd(q^{-1})$ whenever $h<2K\\rho$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Han–Pedon (2026): proof of Conjecture C for metallic Hankel determinants (arXiv:2610.36132v1, p. 6)",
+      "toolchain": null,
+      "version": 2,
+      "work": "han-pedon-metallic-hankel-quasipolynomial"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:han-pedon-metallic-hankel-quasipolynomial:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankelResiduePolynomials.lean"
+      },
+      "lineage": "collected:han-pedon-metallic-hankel-quasipolynomial:s3",
+      "macros": {
+        "\\D": "\\Delta_{#1}^{(#2)}",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[q^{#1}]",
+        "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankel#1.lean}{\\nolinkurl{#2}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "han-pedon-metallic-hankel-quasipolynomial",
+      "scope": "in_scope",
+      "statement": "Let $H=(g_{i+k})_{i,k<N}$ have determinant $1$ and let $c,d$ satisfy\n\\eqref{orth}, with $c$ monic of degree $N$ and $\\deg d<N$.\nExtend their coefficients by zero. Then\n\\begin{equation}\n (H^{-1})_{ik}=-\\sum_{v=0}^{k}\n (c_{i+k+1-v}d_v-d_{i+k+1-v}c_v).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Han–Pedon (2026): proof of Conjecture C for metallic Hankel determinants (arXiv:2610.36132v1, p. 6)",
+      "toolchain": null,
+      "version": 2,
+      "work": "han-pedon-metallic-hankel-quasipolynomial"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:han-pedon-metallic-hankel-quasipolynomial:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankelResiduePolynomials.lean"
+      },
+      "lineage": "collected:han-pedon-metallic-hankel-quasipolynomial:s4",
+      "macros": {
+        "\\D": "\\Delta_{#1}^{(#2)}",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[q^{#1}]",
+        "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankel#1.lean}{\\nolinkurl{#2}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "han-pedon-metallic-hankel-quasipolynomial",
+      "scope": "in_scope",
+      "statement": "For fixed $n\\ge1$ and $\\ell\\ge n+3$, let $d\\ge0$ bound the degrees of\nall residue polynomials. For every integer $M\\ge1$, the sequence\n$(\\D j\\ell\\bmod M)_{j\\ge0}$ has period $\\rho M L_d$, where\n$L_d=\\operatorname{lcm}(1,\\ldots,\\max(1,d))$.\nIn particular $\\rho M d!$ is also a valid period.\nOne possible explicit bound is\n$d=a(a-1)+(a+\\rho-1)(\\rho-1)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Han–Pedon (2026): proof of Conjecture C for metallic Hankel determinants (arXiv:2610.36132v1, p. 6)",
+      "toolchain": null,
+      "version": 2,
+      "work": "han-pedon-metallic-hankel-quasipolynomial"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:han-pedon-metallic-hankel-quasipolynomial:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankelResiduePolynomials.lean"
+      },
+      "lineage": "collected:han-pedon-metallic-hankel-quasipolynomial:s5",
+      "macros": {
+        "\\D": "\\Delta_{#1}^{(#2)}",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[q^{#1}]",
+        "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankel#1.lean}{\\nolinkurl{#2}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "han-pedon-metallic-hankel-quasipolynomial",
+      "scope": "in_scope",
+      "statement": "For every $n\\ge1$ and $\\ell\\ge0$, the sequence $(\\D j\\ell)_{j\\ge0}$\nis periodic from $j=0$ modulo every positive integer $M$.\nFor $\\ell\\le n+2$ a valid period is $\\rho$; for $\\ell\\ge n+3$ a valid\nperiod is $\\rho M L_d$, with $d,L_d$ as in Corollary~\\ref{modular}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Han–Pedon (2026): proof of Conjecture C for metallic Hankel determinants (arXiv:2610.36132v1, p. 6)",
+      "toolchain": null,
+      "version": 2,
+      "work": "han-pedon-metallic-hankel-quasipolynomial"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:han-pedon-metallic-hankel-quasipolynomial:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankelResiduePolynomials.lean"
+      },
+      "lineage": "collected:han-pedon-metallic-hankel-quasipolynomial:s6",
+      "macros": {
+        "\\D": "\\Delta_{#1}^{(#2)}",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[q^{#1}]",
+        "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankel#1.lean}{\\nolinkurl{#2}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "han-pedon-metallic-hankel-quasipolynomial",
+      "scope": "in_scope",
+      "statement": "For fixed $n\\ge1$ and $\\ell\\ge0$, there are an integer $d\\ge0$ and\n$R\\in\\Z[z]$, with $\\deg R<\\rho(d+1)$, such that\n\\[\n \\sum_{j\\ge0}\\D j\\ell z^j=\\frac{R(z)}{(1-z^\\rho)^{d+1}}.\n\\]\nWriting $E$ for the shift $(Eu)_j=u_{j+1}$, one has\n$(E^\\rho-1)^{d+1}\\D j\\ell=0$ for every $j\\ge0$.\nOne can take $d=0$ for $\\ell\\le n+2$, and the degree bound of\nCorollary~\\ref{modular} otherwise.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Han–Pedon (2026): proof of Conjecture C for metallic Hankel determinants (arXiv:2610.36132v1, p. 6)",
+      "toolchain": null,
+      "version": 2,
+      "work": "han-pedon-metallic-hankel-quasipolynomial"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:han-pedon-metallic-hankel-quasipolynomial:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankelResiduePolynomials.lean"
+      },
+      "lineage": "collected:han-pedon-metallic-hankel-quasipolynomial:s7",
+      "macros": {
+        "\\D": "\\Delta_{#1}^{(#2)}",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[q^{#1}]",
+        "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankel#1.lean}{\\nolinkurl{#2}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "han-pedon-metallic-hankel-quasipolynomial",
+      "scope": "in_scope",
+      "statement": "For $n=1$, $\\ell=4$, and every integer $m\\ge0$, the eight polynomials are\n\\[\n\\begin{array}{c|rrrrrrrr}\nr&0&1&2&3&4&5&6&7\\\\\\hline\nQ_{4,r}(m)&1+4m&2+4m&0&-2-4m&-3-4m&-4-4m&0&4+4m\n\\end{array}\n\\]\nConsequently this sequence is unbounded and is not eventually periodic\nover $\\Z$. Modulo $M\\ge1$, a valid period is $8M/\\gcd(M,4)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Han–Pedon (2026): proof of Conjecture C for metallic Hankel determinants (arXiv:2610.36132v1, p. 6)",
+      "toolchain": null,
+      "version": 2,
+      "work": "han-pedon-metallic-hankel-quasipolynomial"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:han-pedon-metallic-hankel-quasipolynomial:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankelResiduePolynomials.lean"
+      },
+      "lineage": "collected:han-pedon-metallic-hankel-quasipolynomial:s8",
+      "macros": {
+        "\\D": "\\Delta_{#1}^{(#2)}",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[q^{#1}]",
+        "\\leanlink": "\\href{https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankel#1.lean}{\\nolinkurl{#2}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "han-pedon-metallic-hankel-quasipolynomial",
+      "scope": "in_scope",
+      "statement": "Let $A(x)=\\sum_{s\\ge0}a_sx^s$, $a_0=1$, be the RNA secondary-structure\nseries \\textup{OEIS A004148}, satisfying\n$x^2A^2-(1-x+x^2)A+1=0$.\nThen $\\det(a_{3+i+k})_{0\\le i,k<r+8m}=Q_{4,r}(m)$, with the eight\naffine laws in Corollary~\\ref{golden}. Equivalently these laws evaluate\nthe diagonal $T(j+2,j)$ of the number wall \\textup{A123634} \\cite{OEISwall}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Han–Pedon (2026): proof of Conjecture C for metallic Hankel determinants (arXiv:2610.36132v1, p. 6)",
+      "toolchain": null,
+      "version": 2,
+      "work": "han-pedon-metallic-hankel-quasipolynomial"
     },
     {
       "attribution": null,
@@ -14258,6 +14719,246 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:velez-cadavid-numerical-semigroup-realizability:2:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Arith/Additive/NumericalSemigroupRealizability.lean"
+      },
+      "lineage": "collected:velez-cadavid-numerical-semigroup-realizability:s1",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\gen": "\\langle #1\\rangle"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "velez-cadavid-numerical-semigroup-realizability",
+      "scope": "in_scope",
+      "statement": "The indecomposable elements form the unique minimal positive generating\nset $H$ of $T$. This set is finite, nonempty, has $\\gcd H=1$, and\n\\[\n \\max H\\le\\max\\{m,c+m-1\\}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Vélez Caicedo and Cadavid's numerical-semigroup realizability question: prescribed maxima and reduced spectral data",
+      "toolchain": null,
+      "version": 2,
+      "work": "velez-cadavid-numerical-semigroup-realizability"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:velez-cadavid-numerical-semigroup-realizability:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Arith/Additive/NumericalSemigroupRealizability.lean"
+      },
+      "lineage": "collected:velez-cadavid-numerical-semigroup-realizability:s2",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\gen": "\\langle #1\\rangle"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "velez-cadavid-numerical-semigroup-realizability",
+      "scope": "in_scope",
+      "statement": "Let $H$ be the minimal positive generating set of a numerical semigroup\n$T$. A positive integer $M$ is admissible for $T$ if and only if\n\\begin{equation}\n M\\in T,\\qquad h<2M\\ \\hbox{and}\\ 2M-h\\in T\\quad(h\\in H).\n\\end{equation}\nWhen these conditions hold, the set\n\\begin{equation}\n S_{\\min}(T,M)=\\{M\\}\\cup\\{|M-h|:h\\in H,\\ h\\ne M\\}\n\\end{equation}\nrealizes $T$, has gcd one, and is contained in every jump set realizing\n$T$ with maximum $M$. It is therefore the unique inclusion-minimal such\nset and has the smallest possible number of jumps.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Vélez Caicedo and Cadavid's numerical-semigroup realizability question: prescribed maxima and reduced spectral data",
+      "toolchain": null,
+      "version": 2,
+      "work": "velez-cadavid-numerical-semigroup-realizability"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:velez-cadavid-numerical-semigroup-realizability:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Arith/Additive/NumericalSemigroupRealizability.lean"
+      },
+      "lineage": "collected:velez-cadavid-numerical-semigroup-realizability:s3",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\gen": "\\langle #1\\rangle"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "velez-cadavid-numerical-semigroup-realizability",
+      "scope": "in_scope",
+      "statement": "For any finite nonempty positive generating set $G$ of $T$, every\n$M\\ge\\max\\{c,\\max G\\}$ is admissible, with realization\n\\[\n S_M=\\{M\\}\\cup\\{M-h:h\\in G,\\ h<M\\},\\qquad\n |S_M|=1+|G|-\\mathbf1_{\\{M\\in G\\}}.\n\\]\nIn particular every numerical semigroup is realizable, and every\n$M\\ge\\max\\{1,c+m-1\\}$ is admissible. The least admissible maximum\ncan be found by testing \\eqref{eq:criterion} for\n$1\\le M\\le\\max\\{1,c+m-1\\}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Vélez Caicedo and Cadavid's numerical-semigroup realizability question: prescribed maxima and reduced spectral data",
+      "toolchain": null,
+      "version": 2,
+      "work": "velez-cadavid-numerical-semigroup-realizability"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:velez-cadavid-numerical-semigroup-realizability:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Arith/Additive/NumericalSemigroupRealizability.lean"
+      },
+      "lineage": "collected:velez-cadavid-numerical-semigroup-realizability:s4",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\gen": "\\langle #1\\rangle"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "velez-cadavid-numerical-semigroup-realizability",
+      "scope": "in_scope",
+      "statement": "For $T_m=\\{0\\}\\cup\\{m,m+1,\\ldots\\}$, $m\\ge1$, the admissible maxima\nare exactly\n\\[\n M\\ge \\left\\lceil\\frac{3m-1}{2}\\right\\rceil.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Vélez Caicedo and Cadavid's numerical-semigroup realizability question: prescribed maxima and reduced spectral data",
+      "toolchain": null,
+      "version": 2,
+      "work": "velez-cadavid-numerical-semigroup-realizability"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:velez-cadavid-numerical-semigroup-realizability:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Arith/Additive/NumericalSemigroupRealizability.lean"
+      },
+      "lineage": "collected:velez-cadavid-numerical-semigroup-realizability:s5",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\gen": "\\langle #1\\rangle"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "velez-cadavid-numerical-semigroup-realizability",
+      "scope": "in_scope",
+      "statement": "If $M\\ge2$, two global dimensions at $D,D+2$ and the $M-2$ dimensions\nrestricted to $n\\equiv-t\\pmod M$, $1\\le t\\le M-2$, at degree $D$\ndetermine $M$ and $\\Sigma_S$. All degrees must lie in the source's\ncommon stable range.\nIf $M=1$, then $\\Sigma_S=\\N$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Vélez Caicedo and Cadavid's numerical-semigroup realizability question: prescribed maxima and reduced spectral data",
+      "toolchain": null,
+      "version": 2,
+      "work": "velez-cadavid-numerical-semigroup-realizability"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:velez-cadavid-numerical-semigroup-realizability:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Arith/Additive/NumericalSemigroupRealizability.lean"
+      },
+      "lineage": "collected:velez-cadavid-numerical-semigroup-realizability:s6",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\gen": "\\langle #1\\rangle"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "velez-cadavid-numerical-semigroup-realizability",
+      "scope": "in_scope",
+      "statement": "For every prime maximum $M\\ge5$, eventual dimensions at all moduli\nproperly dividing $M$, even together with the eventual global dimensions,\nneed not distinguish defect semigroups.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Vélez Caicedo and Cadavid's numerical-semigroup realizability question: prescribed maxima and reduced spectral data",
+      "toolchain": null,
+      "version": 2,
+      "work": "velez-cadavid-numerical-semigroup-realizability"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:wang-conjecture326:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -14892,6 +15593,196 @@
       "toolchain": null,
       "version": 1,
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": null,
+      "lineage": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:s1",
+      "macros": {
+        "\\NN": "\\mathbb N_0",
+        "\\diam": "\\operatorname{diam}",
+        "\\dist": "\\operatorname{dist}"
+      },
+      "next_step": null,
+      "proof_basis": null,
+      "proof_state": null,
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
+      "scope": "out_of_scope",
+      "statement": "The space $X$ is nonempty and compact, and $\\sigma:X\\to X$ is\ncontinuous, surjective, and topologically mixing. It has neighborhood\n$2$-shadowing. The nonempty clopen cylinder\n$U=\\{x\\in X:x_0=1\\}$ contains no nonempty set $B$ satisfying\n$\\sigma^p(B)\\subseteq B$ for any $p\\geq1$.\nIn particular $(X,\\sigma)$ answers Question 5.6 affirmatively for every\ninteger $N\\geq2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": null,
+      "lineage": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:s2",
+      "macros": {
+        "\\NN": "\\mathbb N_0",
+        "\\diam": "\\operatorname{diam}",
+        "\\dist": "\\operatorname{dist}"
+      },
+      "next_step": null,
+      "proof_basis": null,
+      "proof_state": null,
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
+      "scope": "out_of_scope",
+      "statement": "Let $M\\geq1$ be an integer, $\\alpha=\\sqrt2/M$, and\n$P=256M(M+3)$. For every $p\\geq1$, $\\theta\\in\\mathbb R$, and\n$0\\leq a\\leq3/4$, some integer $0\\leq j\\leq Pp$ satisfies\n\\[\n \\{\\theta+jp\\alpha\\}\\in[a,a+1/4].\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": null,
+      "lineage": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:s3",
+      "macros": {
+        "\\NN": "\\mathbb N_0",
+        "\\diam": "\\operatorname{diam}",
+        "\\dist": "\\operatorname{dist}"
+      },
+      "next_step": null,
+      "proof_basis": null,
+      "proof_state": null,
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
+      "scope": "out_of_scope",
+      "statement": "The system $X$ has exactly one periodic point, the zero point.\nIt has no ordinary shadowing and is not of quasi-finite type.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": null,
+      "lineage": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:s4",
+      "macros": {
+        "\\NN": "\\mathbb N_0",
+        "\\diam": "\\operatorname{diam}",
+        "\\dist": "\\operatorname{dist}"
+      },
+      "next_step": null,
+      "proof_basis": null,
+      "proof_state": null,
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
+      "scope": "out_of_scope",
+      "statement": "Let $\\ell:\\mathbb N_{>0}\\to\\mathbb N$ satisfy $\\ell(p)\\geq3$ and\n$\\ell(p)/p\\to\\infty$. Replace $L(p)$ in \\eqref{eq:X} by $\\ell(p)$\nand call the resulting forward subshift $X_\\ell$. Then\nTheorem~\\ref{thm:main} and Corollary~\\ref{cor:companions} hold for\n$X_\\ell$. Moreover $X_\\ell$ has no mixing number, is not sofic,\nand has no specification property in the sense of \\cite[Section 2]{MS}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": null,
+      "lineage": "record:meddaugh-stephens-2025-mixing-small-periodic-sets:s5",
+      "macros": {
+        "\\NN": "\\mathbb N_0",
+        "\\diam": "\\operatorname{diam}",
+        "\\dist": "\\operatorname{dist}"
+      },
+      "next_step": null,
+      "proof_basis": null,
+      "proof_state": null,
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-mixing-small-periodic-sets",
+      "scope": "out_of_scope",
+      "statement": "The tracing points $a^0,a^1$ in Theorem~\\ref{thm:main} and\nCorollary~\\ref{cor:general} can be chosen so that, for each $b=0,1$,\nthe set $\\{i\\geq0:d(\\sigma^i a^b,z^i)<\\varepsilon\\}$ is syndetic:\nevery interval $[s,s+P]$ of integer times meets it.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
     }
   ]
 }

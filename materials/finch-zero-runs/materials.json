@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/finch-zero-runs/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/finch-zero-runs",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/finch-zero-runs/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "finch-zero-runs"
+}

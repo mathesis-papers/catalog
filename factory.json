@@ -905,6 +905,63 @@
       "work": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 77483,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "342ee197255e82a384cc930824d7cbcc8954dd750e02487f2739502ff4d94cb8",
+          "sha256": "342ee197255e82a384cc930824d7cbcc8954dd750e02487f2739502ff4d94cb8"
+        },
+        "source": {
+          "bytes": 19020,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "0d4d4df5263ab2aad02e2aee52805c23767d68b532f5ac41d2a1f9deec9b072c",
+          "sha256": "0d4d4df5263ab2aad02e2aee52805c23767d68b532f5ac41d2a1f9deec9b072c"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 3,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "0d064f0d28d301cd8a1d1b09173035a9f2fd6c02",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0d064f0d28d301cd8a1d1b09173035a9f2fd6c02/D5/S1/Recurrence/FinchZeroRunsModThree.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/finch-zero-runs",
+      "site_url": "https://papers.trureturing.org/finch-zero-runs/",
+      "title": "Extending Finch's zero-run analysis: nonattainment and a corrected capture theorem",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "finch-zero-runs"
+    },
+    {
       "concept_doi": "10.5281/zenodo.23920556",
       "doi": "10.5281/zenodo.23920557",
       "files": {
@@ -959,6 +1016,63 @@
       },
       "version": 1,
       "work": "ggps2025"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 148283,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "06da0efe3db8fda81093880ecc07196b1c01c7038e92856cbcef8d3b72f69e2b",
+          "sha256": "06da0efe3db8fda81093880ecc07196b1c01c7038e92856cbcef8d3b72f69e2b"
+        },
+        "source": {
+          "bytes": 22518,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "5d016ba17216f66ed84de92dc8d64622e72832afd35f0449f14e781e6dc25607",
+          "sha256": "5d016ba17216f66ed84de92dc8d64622e72832afd35f0449f14e781e6dc25607"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8c7bbde1c8750c7c307bdc6bc62f44c94b7b2c7f/D5/S3/Combinatorics/MetallicHankel/MetallicHankelResiduePolynomials.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/han-pedon-metallic-hankel-quasipolynomial",
+      "site_url": "https://papers.trureturing.org/han-pedon-metallic-hankel-quasipolynomial/",
+      "title": "Extending Han–Pedon (2026): proof of Conjecture C for metallic Hankel determinants (arXiv:2610.36132v1, p. 6)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "han-pedon-metallic-hankel-quasipolynomial"
     },
     {
       "concept_doi": "10.5281/zenodo.23903300",
@@ -3011,6 +3125,63 @@
       "work": "user3-2026-orthogonal-absolute-product-minimum"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 73750,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "637af1d67c4063d18b56582453d4207a35c7a734b47e19f526bcbdb0642829a0",
+          "sha256": "637af1d67c4063d18b56582453d4207a35c7a734b47e19f526bcbdb0642829a0"
+        },
+        "source": {
+          "bytes": 13389,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "609dadb94a90ab3db0f96e1e6138a8829c2630c94cfe4b93d412812e1ce9c4c7",
+          "sha256": "609dadb94a90ab3db0f96e1e6138a8829c2630c94cfe4b93d412812e1ce9c4c7"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Arith/Additive/NumericalSemigroupRealizability.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/velez-cadavid-numerical-semigroup-realizability",
+      "site_url": "https://papers.trureturing.org/velez-cadavid-numerical-semigroup-realizability/",
+      "title": "Vélez Caicedo and Cadavid's numerical-semigroup realizability question: prescribed maxima and reduced spectral data",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "velez-cadavid-numerical-semigroup-realizability"
+    },
+    {
       "concept_doi": "10.5281/zenodo.23884900",
       "doi": "10.5281/zenodo.23884901",
       "files": {
@@ -3183,8 +3354,8 @@
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
     }
   ],
-  "papers": 56,
+  "papers": 59,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-21T11:28:59.076620084Z"
+  "snapshot_time": "2026-11-21T13:23:01.013884635Z"
 }

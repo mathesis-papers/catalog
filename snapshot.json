@@ -4,7 +4,7 @@
   "listings": {
     "collected-papers": {
       "pages": 1,
-      "rows": 56
+      "rows": 59
     },
     "formalizations/confirmed": {
       "pages": 1,
@@ -20,11 +20,11 @@
     },
     "formalizations/preparing": {
       "pages": 4,
-      "rows": 364
+      "rows": 386
     },
     "formalizations/unverified": {
       "pages": 4,
-      "rows": 364
+      "rows": 386
     },
     "formalizations/verified": {
       "pages": 1,
@@ -48,12 +48,12 @@
     }
   },
   "rows": {
-    "nodes": 364,
-    "works": 56
+    "nodes": 386,
+    "works": 59
   },
   "schema_versions": {
     "catalog": "1",
     "snapshot": "1"
   },
-  "time": "2026-11-21T11:28:59.076620084Z"
+  "time": "2026-11-21T13:23:01.013884635Z"
 }
