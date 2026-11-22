@@ -213,6 +213,36 @@ class HostedTests(unittest.TestCase):
 
 
 class RecoveryTests(unittest.TestCase):
+    def test_build_failure_names_the_exact_command_and_keeps_bounded_output(self):
+        with tempfile.TemporaryDirectory() as folder:
+            run = Path(folder)
+            serial.write(run/'envelope.json', {'repository_path':str(run/'paper')})
+            serial.write(run/'result.json', {'visualization':{'decision':'not_useful'}})
+            (run/'operator-checks.log').write_text('x'*10000+'\nMathesis: layout violations: node_modules\n')
+            command = ['python', 'paper.py', 'check', '--complete']
+            with patch.object(hosted.serial, 'validate_run', side_effect=subprocess.CalledProcessError(1, command)):
+                with self.assertRaises(subprocess.CalledProcessError): hosted.build(run)
+            failure = serial.read(run/'checkpoint.json')['last_failure']
+            self.assertEqual(failure['stage'], 'host_qa')
+            self.assertEqual(failure['command'], command)
+            self.assertEqual(failure['exit_code'], 1)
+            self.assertIn('layout violations: node_modules', failure['output_tail'])
+            self.assertLessEqual(len(failure['output_tail'].encode()), 6000)
+            ledger = Ledger(); state = {'key':'a'*64}
+            hosted.record_build_failure(ledger, state, run)
+            self.assertEqual(ledger.writes[-1]['last_failure'], failure)
+
+    def test_publication_failure_retains_the_successful_build_receipt(self):
+        with tempfile.TemporaryDirectory() as folder:
+            run=Path(folder)
+            serial.write(run/'checkpoint.json', {'state':'local_checks_passed','source_sha256':'a'*64})
+            hosted.record_failed_check(run, 'publication', ValueError('paper repository advanced'))
+            checkpoint=serial.read(run/'checkpoint.json')
+            self.assertEqual(checkpoint['state'], 'local_checks_passed')
+            self.assertEqual(checkpoint['source_sha256'], 'a'*64)
+            self.assertEqual(checkpoint['last_failure']['reason'], 'paper repository advanced')
+            self.assertEqual(checkpoint['last_failure']['stage'], 'publication')
+
     def test_repeated_build_failures_preserve_old_checks_and_save_current_failure(self):
         class API:
             def __init__(self): self.files = {}
