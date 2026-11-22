@@ -181,6 +181,38 @@ class HostedTests(unittest.TestCase):
 
 
 class RecoveryTests(unittest.TestCase):
+    def test_repeated_build_failures_preserve_old_checks_and_save_current_failure(self):
+        class API:
+            def __init__(self): self.files = {}
+            def repo(self, name): return {'private': True}
+            def state(self, name):
+                return (None, None, None, {p: {'sha': hosted.publish.sha(b)} for p, b in self.files.items()})
+            def sync(self, name, files, *args): self.files.update(files)
+        api = API()
+        ledger = hosted.Ledger(api, 'production-state')
+        state = {'key': 'a'*64, 'phase': 'sources_saved'}
+        ledger.get(state['key'])
+        legacy = 'checks/' + state['key'] + '/operator-checks.log'
+        api.files[legacy] = b'original failure'
+        with tempfile.TemporaryDirectory() as folder:
+            run = Path(folder)
+            (run/'operator-checks.log').write_bytes(b'first retry')
+            hosted.record_build_failure(ledger, state, run)
+            first = copy.deepcopy(state['latest_checks'])
+            (run/'operator-checks.log').write_bytes(b'second retry')
+            hosted.record_build_failure(ledger, state, run)
+            second = state['latest_checks']
+            self.assertNotEqual(first['prefix'], second['prefix'])
+            self.assertEqual(api.files[first['prefix']+'operator-checks.log'], b'first retry')
+            self.assertEqual(api.files[second['prefix']+'operator-checks.log'], b'second retry')
+            before = dict(api.files)
+            hosted.record_build_failure(ledger, state, run)
+            self.assertEqual(api.files, before)
+            self.assertEqual(api.files[legacy], b'original failure')
+            saved = json.loads(api.files['jobs/'+state['key']+'.json'])
+            self.assertEqual(saved['phase'], 'needs_attention')
+            self.assertEqual(saved['latest_checks'], second)
+
     def test_saved_build_recovery_is_exact_and_does_not_restart_a_failed_build_forever(self):
         state = {'key': 'a'*64, 'phase': 'needs_attention', 'blocked_stage': 'host_build_or_publication',
                  'source_archive_sha256': 'b'*64, 'agent_id': 'original-agent'}

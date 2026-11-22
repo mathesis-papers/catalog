@@ -430,6 +430,18 @@ def build(run):
     return state
 
 
+def record_build_failure(ledger, state, run):
+    logs = {name: (run/name).read_bytes()[-2*1024*1024:]
+            for name in ('operator-checks.log', 'checkpoint.json') if (run/name).is_file()}
+    # Sources and previous checks stay immutable. A retry can produce different
+    # diagnostics, so address each bundle by its bytes instead of replacing it.
+    inventory = {name: hashlib.sha256(data).hexdigest() for name, data in logs.items()}
+    prefix = 'checks/' + state['key'] + '/' + serial.digest(inventory) + '/'
+    state.update(phase='needs_attention', blocked_stage='host_build_or_publication',
+                 latest_checks={'prefix': prefix, 'sha256': inventory})
+    ledger.put(state, {prefix+name: data for name, data in logs.items()})
+
+
 def publish_checked(root, workspace, ledger, api):
     ready = serial.read(workspace/'ready.json')
     run = Path(ready['run'])
@@ -531,12 +543,7 @@ def main():
         elif args.action == 'attention':
             ready=serial.read(workspace/'ready.json')
             state=ledger.get(ready['key'])
-            state.update(phase='needs_attention',blocked_stage='host_build_or_publication')
-            logs={}
-            for name in ('operator-checks.log','checkpoint.json'):
-                path=Path(ready['run'])/name
-                if path.is_file(): logs['checks/'+state['key']+'/'+name]=path.read_bytes()[-2*1024*1024:]
-            ledger.put(state,logs)
+            record_build_failure(ledger, state, Path(ready['run']))
             result=state
         elif args.action == 'publish': result=publish_checked(root,workspace,ledger,api)
         else:
