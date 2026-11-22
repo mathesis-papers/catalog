@@ -3650,6 +3650,265 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:copeland-a131758:2:s1",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "742ce086eb9c8e6e36cde0fcdf712f63260c045c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/742ce086eb9c8e6e36cde0fcdf712f63260c045c/D5/S0/Certificates/CopelandA131758PolynomialContentRefutation.lean"
+      },
+      "lineage": "collected:copeland-a131758:s1",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "copeland-a131758",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq0$, the polynomial $P_n$ has integer coefficients, degree\n$n$, leading coefficient $n!$, and $P_n(1)=n!$. Moreover\n\\begin{equation}\n P_n(t)=(1-t)^{n+1}\\sum_{r\\geq0}B_n(r+1)t^r,\n \\qquad\n c_n=\\gcd\\{B_n(v):v\\in\\mathbb Z_{>0}\\}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence",
+      "toolchain": null,
+      "version": 2,
+      "work": "copeland-a131758"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:copeland-a131758:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "742ce086eb9c8e6e36cde0fcdf712f63260c045c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/742ce086eb9c8e6e36cde0fcdf712f63260c045c/D5/S0/Certificates/CopelandA131758PolynomialContentRefutation.lean"
+      },
+      "lineage": "collected:copeland-a131758:s2",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "copeland-a131758",
+      "scope": "in_scope",
+      "statement": "The contents of Copeland's array are\n\\begin{equation}\n c_n=\\begin{cases}\n 1,& n=0,\\ n=1,\\ \\text{or }n\\text{ is even},\\\\\n 2,& n\\geq3\\text{ is odd}.\n \\end{cases}\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence",
+      "toolchain": null,
+      "version": 2,
+      "work": "copeland-a131758"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:copeland-a131758:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "742ce086eb9c8e6e36cde0fcdf712f63260c045c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/742ce086eb9c8e6e36cde0fcdf712f63260c045c/D5/S0/Certificates/CopelandA131758PolynomialContentRefutation.lean"
+      },
+      "lineage": "collected:copeland-a131758:s3",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "copeland-a131758",
+      "scope": "in_scope",
+      "statement": "For positive $n$, the source equation $c_n=D(n)$ holds exactly at\n$n=1,2$ and at odd integers $n=p^2,p^3,pq$, where $p,q$ are distinct\nodd primes in the last expression.\nThe unposed shifted equation $c_n=D(n+1)$ holds exactly at $n=0,1$,\nat even $n\\geq2$ with $n+1$ prime, and at odd indices\n$n=3,7,2q-1$ with $q$ an odd prime.\nIn particular, both equations fail at every $n=6s+8$, $s\\geq0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence",
+      "toolchain": null,
+      "version": 2,
+      "work": "copeland-a131758"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:copeland-a131758:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "742ce086eb9c8e6e36cde0fcdf712f63260c045c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/742ce086eb9c8e6e36cde0fcdf712f63260c045c/D5/S0/Certificates/CopelandA131758PolynomialContentRefutation.lean"
+      },
+      "lineage": "collected:copeland-a131758:s4",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "copeland-a131758",
+      "scope": "in_scope",
+      "statement": "For even $n\\geq2$, $P_n(t)\\equiv(1+t)^{n-1}\\pmod2$.\nFor odd $n\\geq3$, $P_n(t)\\equiv0\\pmod2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence",
+      "toolchain": null,
+      "version": 2,
+      "work": "copeland-a131758"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:copeland-a131758:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "742ce086eb9c8e6e36cde0fcdf712f63260c045c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/742ce086eb9c8e6e36cde0fcdf712f63260c045c/D5/S0/Certificates/CopelandA131758PolynomialContentRefutation.lean"
+      },
+      "lineage": "collected:copeland-a131758:s5",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "copeland-a131758",
+      "scope": "in_scope",
+      "statement": "Writing $y=x(t-1)$, one has\n\\begin{align}\n \\sum_{n\\geq0}R_n(t)z^n\n &=\\frac{t}{(1+z)(\\exp(-z/(1+z))-t)},\\\\\n G(x,t)&=\\frac{t-1}{(1-y)(t-\\exp(y/(1-y)))}.\n\\end{align}\nLet $s_j=\\mathrm{A000262}(j)$, characterized by\n$\\sum s_j u^j/j!=\\exp(u/(1-u))$. Then the modified Riordan recurrence\nstated in A131758 is\n\\begin{equation}\n P_n(t)=n!(t-1)^n+\\sum_{j=0}^{n-1}\\binom nj s_{n-j}\n (t-1)^{n-j-1}P_j(t)\\quad(n\\geq1).\n\\end{equation}\nIf $E_n(t)$ denotes the Eulerian polynomial normalized by\n$\\sum_{v\\geq1}v^n t^v=tE_n(t)/(1-t)^{n+1}$, including $E_0=1$, then\n\\begin{equation}\n \\frac{E_n(t)}{n!}=\\sum_{j=0}^n\\binom nj(1-t)^{n-j}\\frac{P_j(t)}{j!}.\n\\end{equation}\nThe inverse replaces $E_n$ on the left by $P_n$, and $P_j$ on the right\nby $E_j$ and $(1-t)^{n-j}$ by $(t-1)^{n-j}$. In particular the\nalternating row sum is\n\\[\n P_n(-1)=n!\\sum_{j=0}^n\\binom nj(-2)^{n-j}\\frac{E_j(-1)}{j!}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence",
+      "toolchain": null,
+      "version": 2,
+      "work": "copeland-a131758"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:copeland-a131758:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "742ce086eb9c8e6e36cde0fcdf712f63260c045c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/742ce086eb9c8e6e36cde0fcdf712f63260c045c/D5/S0/Certificates/CopelandA131758PolynomialContentRefutation.lean"
+      },
+      "lineage": "collected:copeland-a131758:s6",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "copeland-a131758",
+      "scope": "in_scope",
+      "statement": "Let $A_n(t)$ be the row polynomials of A131202, including $A_0=1$,\nwith the generating function specified in that entry \\cite{related}.\nThen\n\\begin{equation}\n A_n(t)=P_n(t)-n(t-1)P_{n-1}(t)\\quad(n\\geq1),\\qquad\n P_n(t)=\\sum_{k=0}^n\\binom nk A_{n-k}(t)k!(t-1)^k.\n\\end{equation}\nConsequently the multiplier sequence in its reconstruction of $P_n$\nis $k!(t-1)^k$, rather than the printed\n``c(n,t) = n!*(t-1)\\^{}(n-1) for n > 0''.\nAt $n=1$ the printed rule gives $2$, whereas $P_1(t)=t$.\nAt $t=2$ the identity is $A_n(2)=P_n(2)-nP_{n-1}(2)$, as stated in\nA084358. The binomial matrix with entries\n$\\binom nk A_{n-k}(2)$ is A133289 and its inverse is $2I-$A129652.\nAlso $A_n(1)=n!$, and $A_n(t)$ has degree $n-1$ and leading\ncoefficient $s_n$ for $n\\geq1$, as stated in A131202.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence",
+      "toolchain": null,
+      "version": 2,
+      "work": "copeland-a131758"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:copeland-a131758:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "742ce086eb9c8e6e36cde0fcdf712f63260c045c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/742ce086eb9c8e6e36cde0fcdf712f63260c045c/D5/S0/Certificates/CopelandA131758PolynomialContentRefutation.lean"
+      },
+      "lineage": "collected:copeland-a131758:s7",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "copeland-a131758",
+      "scope": "in_scope",
+      "statement": "Let $F_n=\\mathrm{A000670}(n)$ be the ordered Bell numbers, defined by\n$\\sum F_n z^n/n!=1/(2-e^z)$, and put $b_n=(-1)^nF_n$.\nThe reciprocal Laguerre-transform pair involving $P_n(2)$ in A131758\nholds with $b_n$ as the signed ordered Bell sequence.\nThe printed identity ``OB(n) = -Li(-n,2)'' instead requires\n\\begin{equation}\n b_n=-\\tfrac12\\operatorname{Li}_{-n}(2)\\quad(n\\geq0).\n\\end{equation}\nIn the same specialization, $P_n(2)/n!=(-1)^{n+1}R_n(2)/2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence",
+      "toolchain": null,
+      "version": 2,
+      "work": "copeland-a131758"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -6005,6 +6264,384 @@
       "toolchain": null,
       "version": 2,
       "work": "kang-jager-2026-universal-permutative-lift-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.lean"
+      },
+      "lineage": "collected:khesin-li-2024-bipartite-encoder-equivalence:s1",
+      "macros": {
+        "\\F": "\\mathbb F_2",
+        "\\GL": "\\operatorname{GL}",
+        "\\Row": "\\operatorname{Row}",
+        "\\rk": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "khesin-li-2024-bipartite-encoder-equivalence",
+      "scope": "in_scope",
+      "statement": "If $G$ and $H$ are bipartite encoder graphs and $G\\sim H$, then a finite\nsequence of output permutations, input permutations and additions of\ndistinct input rows takes $G$ to $H$. Every graph in this sequence is\nbipartite.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2",
+      "toolchain": null,
+      "version": 2,
+      "work": "khesin-li-2024-bipartite-encoder-equivalence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.lean"
+      },
+      "lineage": "collected:khesin-li-2024-bipartite-encoder-equivalence:s2",
+      "macros": {
+        "\\F": "\\mathbb F_2",
+        "\\GL": "\\operatorname{GL}",
+        "\\Row": "\\operatorname{Row}",
+        "\\rk": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "khesin-li-2024-bipartite-encoder-equivalence",
+      "scope": "in_scope",
+      "statement": "If $G\\sim H$, some output relabelling $\\sigma$ of $G$ satisfies\n$\\rho_{G^\\sigma}(S)=\\rho_H(S)$ for every $S\\subseteq O$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2",
+      "toolchain": null,
+      "version": 2,
+      "work": "khesin-li-2024-bipartite-encoder-equivalence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.lean"
+      },
+      "lineage": "collected:khesin-li-2024-bipartite-encoder-equivalence:s3",
+      "macros": {
+        "\\F": "\\mathbb F_2",
+        "\\GL": "\\operatorname{GL}",
+        "\\Row": "\\operatorname{Row}",
+        "\\rk": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "khesin-li-2024-bipartite-encoder-equivalence",
+      "scope": "in_scope",
+      "statement": "For binary matrices $B,C$ of the same size, the following are equivalent:\n\\[\n \\rk B[:,S]=\\rk C[:,S]\\ (S\\subseteq O),\\qquad\n \\ker B=\\ker C,\\qquad \\Row B=\\Row C.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2",
+      "toolchain": null,
+      "version": 2,
+      "work": "khesin-li-2024-bipartite-encoder-equivalence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s4",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.lean"
+      },
+      "lineage": "collected:khesin-li-2024-bipartite-encoder-equivalence:s4",
+      "macros": {
+        "\\F": "\\mathbb F_2",
+        "\\GL": "\\operatorname{GL}",
+        "\\Row": "\\operatorname{Row}",
+        "\\rk": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "khesin-li-2024-bipartite-encoder-equivalence",
+      "scope": "in_scope",
+      "statement": "If $B,C\\in\\F^{k\\times n}$ have equal row spaces, there exists\n$R\\in\\GL_k(\\F)$ with $C=RB$. Thus row permutations and additions of\ndistinct rows take $B$ to $C$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2",
+      "toolchain": null,
+      "version": 2,
+      "work": "khesin-li-2024-bipartite-encoder-equivalence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.lean"
+      },
+      "lineage": "collected:khesin-li-2024-bipartite-encoder-equivalence:s5",
+      "macros": {
+        "\\F": "\\mathbb F_2",
+        "\\GL": "\\operatorname{GL}",
+        "\\Row": "\\operatorname{Row}",
+        "\\rk": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "khesin-li-2024-bipartite-encoder-equivalence",
+      "scope": "in_scope",
+      "statement": "For bipartite $G,H$, the following conditions are equivalent:\n\\begin{enumerate}\n\\item $G\\sim H$;\n\\item some output relabelling $\\sigma$ gives\n$\\Row B_{G^\\sigma}=\\Row B_H$;\n\\item some output relabelling $\\sigma$ gives\n$\\rho_{G^\\sigma}(S)=\\rho_H(S)$ for every $S\\subseteq O$.\n\\end{enumerate}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2",
+      "toolchain": null,
+      "version": 2,
+      "work": "khesin-li-2024-bipartite-encoder-equivalence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.lean"
+      },
+      "lineage": "collected:khesin-li-2024-bipartite-encoder-equivalence:s6",
+      "macros": {
+        "\\F": "\\mathbb F_2",
+        "\\GL": "\\operatorname{GL}",
+        "\\Row": "\\operatorname{Row}",
+        "\\rk": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "khesin-li-2024-bipartite-encoder-equivalence",
+      "scope": "in_scope",
+      "statement": "Input permutations can be omitted from the restricted generating set.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2",
+      "toolchain": null,
+      "version": 2,
+      "work": "khesin-li-2024-bipartite-encoder-equivalence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.lean"
+      },
+      "lineage": "collected:khesin-li-2024-bipartite-encoder-equivalence:s7",
+      "macros": {
+        "\\F": "\\mathbb F_2",
+        "\\GL": "\\operatorname{GL}",
+        "\\Row": "\\operatorname{Row}",
+        "\\rk": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "khesin-li-2024-bipartite-encoder-equivalence",
+      "scope": "in_scope",
+      "statement": "Two bipartite graphs with two inputs and $n$ outputs are equivalent if\nand only if they have the same $z$ and the same unordered triple\n$\\{a,b,c\\}$, with multiplicities retained. Over all equivalent bipartite\nforms, the minimum number of shared outputs is\n\\[\n m=\\min(a,b,c)\\leq\\left\\lfloor\\frac{n-z}{3}\\right\\rfloor.\n\\]\nThe minimum total number of edges is $n-z+m$.\nWhen the row rank is two, the minimum can be attained in a pivot form.\nThe upper bound is sharp for every $n-z\\geq2$.\nFor two inputs, output cut ranks on singletons and pairs already determine\nthe row space, with the output labels fixed.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2",
+      "toolchain": null,
+      "version": 2,
+      "work": "khesin-li-2024-bipartite-encoder-equivalence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.lean"
+      },
+      "lineage": "collected:khesin-li-2024-bipartite-encoder-equivalence:s8",
+      "macros": {
+        "\\F": "\\mathbb F_2",
+        "\\GL": "\\operatorname{GL}",
+        "\\Row": "\\operatorname{Row}",
+        "\\rk": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "khesin-li-2024-bipartite-encoder-equivalence",
+      "scope": "in_scope",
+      "statement": "For one input, the row weight classifies bipartite graphs under $\\sim$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2",
+      "toolchain": null,
+      "version": 2,
+      "work": "khesin-li-2024-bipartite-encoder-equivalence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.lean"
+      },
+      "lineage": "collected:khesin-li-2024-bipartite-encoder-equivalence:s9",
+      "macros": {
+        "\\F": "\\mathbb F_2",
+        "\\GL": "\\operatorname{GL}",
+        "\\Row": "\\operatorname{Row}",
+        "\\rk": "\\operatorname{rank}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "khesin-li-2024-bipartite-encoder-equivalence",
+      "scope": "in_scope",
+      "statement": "A full-rank two-input bipartite graph has no disconnected graph in its\noperation-generated equivalence class exactly when $z=0$ and $a,b,c>0$.\nIts classes with this property correspond to unordered triples of positive\nintegers summing to $n$. In particular there is exactly one such class\nfor $n=4$, already in \\cite[Claim F, pp.~17--18]{Li} and later\n\\cite[Proposition 8.1, p.~22]{KL}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2",
+      "toolchain": null,
+      "version": 2,
+      "work": "khesin-li-2024-bipartite-encoder-equivalence"
     },
     {
       "attribution": null,

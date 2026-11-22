@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-22T08:30:58.672462196Z`.
+Snapshot: `2026-11-22T09:29:47.664398794Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -20,6 +20,7 @@ Snapshot: `2026-11-22T08:30:58.672462196Z`.
 | [Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)](https://github.com/mathesis-papers/10.5281-zenodo.23957559) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957560) | en, zh | 1 / 0 / 1 | 8 no target yet |
 | [The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary](https://github.com/mathesis-papers/10.5281-zenodo.23934999) | 2 | [DOI](https://doi.org/10.5281/zenodo.23935000) | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [Refuting the X-MEMS closest-separable-state conjecture in arXiv:2209.01430v2, Appendix A, Eq. (A11)](https://github.com/mathesis-papers/10.5281-zenodo.23904463) | 2 | [DOI](https://doi.org/10.5281/zenodo.23904464) | en, zh | 2 / 1 / 0 | 3 no target yet |
+| [Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence](https://github.com/mathesis-papers/copeland-a131758) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [A negative answer to Delgado, Süer and Yeşil's symmetrization question](https://github.com/mathesis-papers/delgado-suer-yesil-2026-symmetrization-surjectivity) | 2 | [DOI](https://doi.org/10.5281/zenodo.24391331) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Refuting the trace-distance case of axiom (T4) of Denis, Lacaille, Martin and Serrano-Ensástiga](https://github.com/mathesis-papers/10.5281-zenodo.23884884) | 4 | [DOI](https://doi.org/10.5281/zenodo.23884885) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [Extending Finch's zero-run analysis: nonattainment and a corrected capture theorem](https://github.com/mathesis-papers/finch-zero-runs) | 3 | [DOI](https://doi.org/10.5281/zenodo.24408308) | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
@@ -32,6 +33,7 @@ Snapshot: `2026-11-22T08:30:58.672462196Z`.
 | [Counterexamples to Conjectures 3 and 4 of Huang, Stoica, Xia and Zhong (arXiv:2006.06716v1, Section 5.2, printed page 32)](https://github.com/mathesis-papers/10.5281-zenodo.23935003) | 2 | [DOI](https://doi.org/10.5281/zenodo.23935004) | en, zh | 2 / 1 / 0 | 6 no target yet |
 | [Earliest swapping for every chain length: Kamin et al. (2023), Section IV D 1, Eq. (41)](https://github.com/mathesis-papers/10.5281-zenodo.23904475) | 1 | [DOI](https://doi.org/10.5281/zenodo.23904476) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [A negative answer to Kang–Jäger's Question 1.10 on permutative lifts](https://github.com/mathesis-papers/10.5281-zenodo.23885964) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885965) | en, zh | 2 / 1 / 0 | 6 no target yet |
+| [Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2](https://github.com/mathesis-papers/khesin-li-2024-bipartite-encoder-equivalence) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
 | [A negative answer to Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1): special linear obstructions for evolution algebras](https://github.com/mathesis-papers/10.5281-zenodo.23957572) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957573) | en, zh | 2 / 1 / 0 | 11 no target yet |
 | [Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)](https://github.com/mathesis-papers/kok-jaco-addition-law-refutation) | 3 | [DOI](https://doi.org/10.5281/zenodo.24369124) | en, zh | 0 / 0 / 0 | 10 no target yet |
 | [The 2n−1 arc minimum in Koljančić–Oblak, Problem 1.8 (p. 759)](https://github.com/mathesis-papers/10.5281-zenodo.23904481) | 3 | [DOI](https://doi.org/10.5281/zenodo.23904482) | en, zh | 2 / 1 / 0 | 7 no target yet |

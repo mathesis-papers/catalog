@@ -790,6 +790,63 @@
       "work": "consiglio-apollaro-wiesniak-2022-xmems-css-shape"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 90525,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "c78303ca2452d84e8686b781e6193c27b4381adc386c6ee0c5c3fb11ef8c7dd6",
+          "sha256": "c78303ca2452d84e8686b781e6193c27b4381adc386c6ee0c5c3fb11ef8c7dd6"
+        },
+        "source": {
+          "bytes": 16252,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "aa574b4f901213dc480f7c644d117bc2e1eb7d198258cd7ff3ba9534def351ef",
+          "sha256": "aa574b4f901213dc480f7c644d117bc2e1eb7d198258cd7ff3ba9534def351ef"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "742ce086eb9c8e6e36cde0fcdf712f63260c045c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/742ce086eb9c8e6e36cde0fcdf712f63260c045c/D5/S0/Certificates/CopelandA131758PolynomialContentRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/copeland-a131758",
+      "site_url": "https://papers.trureturing.org/copeland-a131758/",
+      "title": "Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "copeland-a131758"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24391330",
       "doi": "10.5281/zenodo.24391331",
       "files": {
@@ -1461,6 +1518,63 @@
       },
       "version": 2,
       "work": "kang-jager-2026-universal-permutative-lift-refutation"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 97787,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "6df3dc52b29e3886634186131d29f5a8e50bb9d22f6eff7af4249c618c78aab2",
+          "sha256": "6df3dc52b29e3886634186131d29f5a8e50bb9d22f6eff7af4249c618c78aab2"
+        },
+        "source": {
+          "bytes": 19277,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "eeb9da9760342bcb5e1e46433553baa2bfec23f56ec7ec0a9e1dc9f65dc55d79",
+          "sha256": "eeb9da9760342bcb5e1e46433553baa2bfec23f56ec7ec0a9e1dc9f65dc55d79"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 9,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/khesin-li-2024-bipartite-encoder-equivalence",
+      "site_url": "https://papers.trureturing.org/khesin-li-2024-bipartite-encoder-equivalence/",
+      "title": "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "khesin-li-2024-bipartite-encoder-equivalence"
     },
     {
       "concept_doi": "10.5281/zenodo.23957572",
@@ -3456,8 +3570,8 @@
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
     }
   ],
-  "papers": 61,
+  "papers": 63,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-22T08:30:58.672462196Z"
+  "snapshot_time": "2026-11-22T09:29:47.664398794Z"
 }

@@ -659,6 +659,53 @@
       "work": "consiglio-apollaro-wiesniak-2022-xmems-css-shape"
     },
     {
+      "abstract_text": "For Copeland's polynomial-content conjecture (OEIS A131758, revision 48, COMMENTS block signed September 9, 2008), we determine every row content using Carlitz's polynomial congruence (1953/54, Theorem 3, equation (4.8)). The content is 1 at indices 0, 1 and all even indices, and 2 at every odd index at least 3. This replaces the proposed divisor-count formula; every index 6s+8, s>=0, also excludes its one-place shift. The proof identifies content with a fixed divisor of an integer Laguerre polynomial. Direct proofs of associated transform identities and normalization corrections are included.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "742ce086eb9c8e6e36cde0fcdf712f63260c045c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/742ce086eb9c8e6e36cde0fcdf712f63260c045c/D5/S0/Certificates/CopelandA131758PolynomialContentRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 90525,
+        "sha256": "c78303ca2452d84e8686b781e6193c27b4381adc386c6ee0c5c3fb11ef8c7dd6",
+        "url": "/api/v1/collected-papers/copeland-a131758/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-22T09:02:19.592630054Z",
+      "record": "copeland-a131758",
+      "repository_name": "copeland-a131758",
+      "source": {
+        "bytes": 16252,
+        "sha256": "aa574b4f901213dc480f7c644d117bc2e1eb7d198258cd7ff3ba9534def351ef",
+        "url": "/api/v1/collected-papers/copeland-a131758/files/source?version=2"
+      },
+      "title": "Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-22T09:02:19.592630054Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "copeland-a131758"
+    },
+    {
       "abstract_text": "The surjectivity question in the final paragraph of Section 5, p. 9, of Delgado, Süer and Yeşil's A Symmetrization for Almost Symmetric Numerical Semigroups (arXiv:2611.14268v1) has a negative answer: pseudo-Frobenius row deletion always leaves 1 as a gap. The symmetric numerical set {0,1} union {n >= 4} is therefore not in the image. In fact, at least half of all symmetric numerical sets with any prescribed odd Frobenius number at least 3 are excluded. Every symmetric numerical semigroup, in contrast, is fixed by the map. We identify the entire fiber over the target with sole gap 1 and obtain at most 2^(floor((F+1)/2)-1) distinct images of sources with Frobenius number F.",
       "authors": [
         {
@@ -1221,6 +1268,53 @@
         }
       ],
       "work": "kang-jager-2026-universal-permutative-lift-refutation"
+    },
+    {
+      "abstract_text": "We extend Khesin–Li (2024), Section 8, by proving the operation-generated, decoration-free graph formulation of Conjecture 8.3 (page 23) and correcting the shared-output bound in Proposition 8.2 (page 23). For bipartite encoder graphs in one class, local complementations and input-edge deletions can be eliminated: output permutations and binary input-row additions suffice. The output cut-rank function is invariant under the original operations, up to output relabelling. At a bipartite endpoint this function determines the binary kernel, hence the row space, of the input–output matrix. For two inputs, the number of zero columns and the unordered multiplicities of the three nonzero column types classify the graphs. Their smallest achievable number of shared outputs is the least of these multiplicities, at most floor((n-z)/3) for z zero columns. The [3,2] matrix with all three nonzero column types has minimum one, whereas the published bound gives zero.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 97787,
+        "sha256": "6df3dc52b29e3886634186131d29f5a8e50bb9d22f6eff7af4249c618c78aab2",
+        "url": "/api/v1/collected-papers/khesin-li-2024-bipartite-encoder-equivalence/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-22T09:19:15.131066666Z",
+      "record": "khesin-li-2024-bipartite-encoder-equivalence",
+      "repository_name": "khesin-li-2024-bipartite-encoder-equivalence",
+      "source": {
+        "bytes": 19277,
+        "sha256": "eeb9da9760342bcb5e1e46433553baa2bfec23f56ec7ec0a9e1dc9f65dc55d79",
+        "url": "/api/v1/collected-papers/khesin-li-2024-bipartite-encoder-equivalence/files/source?version=2"
+      },
+      "title": "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-22T09:19:15.131066666Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "khesin-li-2024-bipartite-encoder-equivalence"
     },
     {
       "abstract_text": "Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1) of Kaygorodov–Martín González–Viruel has a negative answer in its algebraic-group and group-scheme formulations: no finite-dimensional complex evolution algebra has full automorphism group SL_n for n=3 or n>=5. We prove Conjecture 5 and answer the semisimple clause of Question 36: the possible semisimple derivation algebras are exactly finite sums of so_m, m>=3. For zero-annihilator algebras, the same restriction holds for the semisimple quotient of the derivation algebra, settling the simple-ideal issue in the comment following Conjecture 5. We distinguish simple ideals from special-linear subalgebras. The abstract-group clause of Question 31 remains outside these conclusions.",
