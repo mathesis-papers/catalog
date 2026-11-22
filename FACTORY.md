@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-22T11:29:24.930269714Z`.
+Snapshot: `2026-11-22T12:32:47.024160486Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -60,6 +60,7 @@ Snapshot: `2026-11-22T11:29:24.930269714Z`.
 | [Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)](https://github.com/mathesis-papers/10.5281-zenodo.23927423) | 2 | [DOI](https://doi.org/10.5281/zenodo.23927424) | en, zh | 0 / 0 / 0 | 8 no target yet |
 | [Refuting Peled et al.'s Section IV conjectures after Theorems 1 and 3, Eqs. (10) and (12): sharp fourth-order bounds without filter normal form](https://github.com/mathesis-papers/10.5281-zenodo.23920609) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920610) | en, zh | 0 / 0 / 0 | 7 no target yet |
 | [Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture](https://github.com/mathesis-papers/10.5281-zenodo.23903312) | 2 | [DOI](https://doi.org/10.5281/zenodo.23903313) | en, zh | 0 / 0 / 0 | 9 no target yet |
+| [Identity-containing counterexamples to Conjecture 4.9 (Iosue–Mooney–Ehrenberg–Gorshkov, Section 4.3, p. 15, arXiv:2311.13479v3): certificates and extensions of Abdukhalikov's (2014) construction](https://github.com/mathesis-papers/projective-toric-design-subgroup-counterexample) | 3 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
 | [MathOverflow 516405, revision 1: the second adjacency eigenvalue of Apollonian networks and the fixed-rank extreme spectrum](https://github.com/mathesis-papers/10.5281-zenodo.23919070) | 2 | [DOI](https://doi.org/10.5281/zenodo.23919071) | en, zh | 0 / 0 / 0 | 5 no target yet |
 | [Infinitely many general rank sequences: extending Patel's polynomiality picture (2026) at arXiv:2501.14643v1, Section 1, p. 2](https://github.com/mathesis-papers/rowland-sistos-barron-2025-rank-sequences) | 2 | [DOI](https://doi.org/10.5281/zenodo.24381374) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [A cubic counterexample at Schnell–Ketzmerick–Eckardt (2018, Sec. V, p. 11, Eq. (55)), and an extension of their Ohmic bound](https://github.com/mathesis-papers/schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24211823) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
@@ -73,5 +74,6 @@ Snapshot: `2026-11-22T11:29:24.930269714Z`.
 | [Counterexamples to Wang's Conjectures 3.26 and 5.3 on semigroup algebras](https://github.com/mathesis-papers/10.5281-zenodo.23884900) | 2 | [DOI](https://doi.org/10.5281/zenodo.23884901) | en, zh | 0 / 0 / 0 | 5 no target yet |
 | [Strictness and sibling corrections for OEIS A344611, FORMULA, with an alternative derivation of Manyama's (2026) convolution](https://github.com/mathesis-papers/wiseman-a344611) | 2 | [DOI](https://doi.org/10.5281/zenodo.24209474) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [A strict gap in the noisy-GHZ equality question of Xu et al., Section 4.2, page 12 of arXiv:2211.05563v1](https://github.com/mathesis-papers/10.5281-zenodo.23919078) | 1 | [DOI](https://doi.org/10.5281/zenodo.23919079) | en, zh | 0 / 0 / 0 | 3 no target yet |
+| [Flat averages refute Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11): an extension of Skotiniotis et al. (2018)](https://github.com/mathesis-papers/zhan-gupta-hillery-detector-sensor-flat-averaging) | 3 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 10 no target yet |
 
 Publication proceeds independently of exposition and proof work. A pinned Lean source is not statement-level verification. Exact targets, verified bundles and original attribution remain in [formalization](https://github.com/mathesis-papers/formalization). Public Mathesis receipts and leaderboards are authoritative.

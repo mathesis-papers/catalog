@@ -14901,6 +14901,384 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:projective-toric-design-subgroup-counterexample:3:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "f7ba557ae2a5d2c3a3a519e0713d65ac86af2973",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "lineage": "collected:projective-toric-design-subgroup-counterexample:s1",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Sset": "\\mathcal S",
+        "\\T": "\\mathbb T",
+        "\\leanurl": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "projective-toric-design-subgroup-counterexample",
+      "scope": "in_scope",
+      "statement": "Let $p$ be an odd prime, $V=\\F_p^n$, and $d=p^n$. Suppose $\\Sset$ consists of $d$ symmetric $n\\times n$ matrices over $\\F_p$, contains zero, and every difference of distinct matrices is invertible. For $M\\in\\Sset$ and $b\\in V$, set\n\\[\nf_{M,b}(x)=x^TMx+b^Tx,\\quad\n\\phi_{M,b}(x)=\\frac{2\\pi}{p}f_{M,b}(x)\\pmod {2\\pi},\\quad\nX(\\Sset)=\\{\\phi_{M,b}:M\\in\\Sset,\\ b\\in V\\}.\n\\]\nThen $X(\\Sset)$ has $d^2$ points, contains zero, is anchored at $x=0$, satisfies \\eqref{eq:moment} and \\eqref{eq:overlap}, and is a subgroup if and only if $\\Sset$ is closed under matrix addition.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Identity-containing counterexamples to Conjecture 4.9 (Iosue–Mooney–Ehrenberg–Gorshkov, Section 4.3, p. 15, arXiv:2311.13479v3): certificates and extensions of Abdukhalikov's (2014) construction",
+      "toolchain": null,
+      "version": 3,
+      "work": "projective-toric-design-subgroup-counterexample"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:projective-toric-design-subgroup-counterexample:3:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f7ba557ae2a5d2c3a3a519e0713d65ac86af2973",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "lineage": "collected:projective-toric-design-subgroup-counterexample:s2",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Sset": "\\mathcal S",
+        "\\T": "\\mathbb T",
+        "\\leanurl": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "projective-toric-design-subgroup-counterexample",
+      "scope": "in_scope",
+      "statement": "The order-27 spread in Abdukhalikov \\cite[Section~3.3, Corollary~3.7]{abdu} yields an identity-containing counterexample to Conjecture~4.9.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Identity-containing counterexamples to Conjecture 4.9 (Iosue–Mooney–Ehrenberg–Gorshkov, Section 4.3, p. 15, arXiv:2311.13479v3): certificates and extensions of Abdukhalikov's (2014) construction",
+      "toolchain": null,
+      "version": 3,
+      "work": "projective-toric-design-subgroup-counterexample"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:projective-toric-design-subgroup-counterexample:3:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "f7ba557ae2a5d2c3a3a519e0713d65ac86af2973",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "lineage": "collected:projective-toric-design-subgroup-counterexample:s3",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Sset": "\\mathcal S",
+        "\\T": "\\mathbb T",
+        "\\leanurl": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "projective-toric-design-subgroup-counterexample",
+      "scope": "in_scope",
+      "statement": "The set $X(\\Sset)$ defined from Table~\\ref{tab:matrices} is an identity-containing projective toric two-design of size $729$ in $P(\\T^{27})$ satisfying \\eqref{eq:overlap}, but it is not a subgroup. Hence Conjecture 4.9 of \\cite{iosue} is refuted by an explicit counterexample, including when its hypotheses additionally require the identity.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Identity-containing counterexamples to Conjecture 4.9 (Iosue–Mooney–Ehrenberg–Gorshkov, Section 4.3, p. 15, arXiv:2311.13479v3): certificates and extensions of Abdukhalikov's (2014) construction",
+      "toolchain": null,
+      "version": 3,
+      "work": "projective-toric-design-subgroup-counterexample"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:projective-toric-design-subgroup-counterexample:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f7ba557ae2a5d2c3a3a519e0713d65ac86af2973",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "lineage": "collected:projective-toric-design-subgroup-counterexample:s4",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Sset": "\\mathcal S",
+        "\\T": "\\mathbb T",
+        "\\leanurl": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "projective-toric-design-subgroup-counterexample",
+      "scope": "in_scope",
+      "statement": "The vectors $v_{M,b}=27^{-1/2}(\\chi(f_{M,b}(x)))_{x\\in\\F_3^3}$ form 27 orthonormal bases which, together with the coordinate basis, are 28 mutually unbiased bases. Moreover, no translate of $X(\\Sset)$ in $P(\\T^{27})$ is a subgroup.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Identity-containing counterexamples to Conjecture 4.9 (Iosue–Mooney–Ehrenberg–Gorshkov, Section 4.3, p. 15, arXiv:2311.13479v3): certificates and extensions of Abdukhalikov's (2014) construction",
+      "toolchain": null,
+      "version": 3,
+      "work": "projective-toric-design-subgroup-counterexample"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:projective-toric-design-subgroup-counterexample:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f7ba557ae2a5d2c3a3a519e0713d65ac86af2973",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "lineage": "collected:projective-toric-design-subgroup-counterexample:s5",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Sset": "\\mathcal S",
+        "\\T": "\\mathbb T",
+        "\\leanurl": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "projective-toric-design-subgroup-counterexample",
+      "scope": "in_scope",
+      "statement": "Let $d\\geq2$ and let $X\\subset P(\\T^d)$ be a finite uniformly weighted two-design. Every translate $X+a$ is a two-design, with the same distinct-point overlaps. There exists such a translate which does not contain zero and therefore is not a subgroup. If a complete set of MUBs exists in dimension $d$, this gives a two-design of size $d^2$ which is not a subgroup. For Conjecture~4.7 and the forward implication in Conjecture~4.8 of \\cite[Section~4.3, p.~15]{iosue}, the coverage is: literal statement only; translation-invariant version not covered.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Identity-containing counterexamples to Conjecture 4.9 (Iosue–Mooney–Ehrenberg–Gorshkov, Section 4.3, p. 15, arXiv:2311.13479v3): certificates and extensions of Abdukhalikov's (2014) construction",
+      "toolchain": null,
+      "version": 3,
+      "work": "projective-toric-design-subgroup-counterexample"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:projective-toric-design-subgroup-counterexample:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f7ba557ae2a5d2c3a3a519e0713d65ac86af2973",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "lineage": "collected:projective-toric-design-subgroup-counterexample:s6",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Sset": "\\mathcal S",
+        "\\T": "\\mathbb T",
+        "\\leanurl": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "projective-toric-design-subgroup-counterexample",
+      "scope": "in_scope",
+      "statement": "There is a uniformly weighted $P(\\T^6)$ two-design of size $36$ which is a coset of a subgroup but not itself a subgroup. For the unnumbered conjecture immediately following Conjecture~4.8 in \\cite[Section~4.3, p.~15]{iosue}, that ``there do not exist non-group, uniformly-weighted $P(T^6)$ 2-designs of size 36'', the coverage is: literal statement only; translation-invariant version not covered. This example does not satisfy Eq.~(25).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Identity-containing counterexamples to Conjecture 4.9 (Iosue–Mooney–Ehrenberg–Gorshkov, Section 4.3, p. 15, arXiv:2311.13479v3): certificates and extensions of Abdukhalikov's (2014) construction",
+      "toolchain": null,
+      "version": 3,
+      "work": "projective-toric-design-subgroup-counterexample"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:projective-toric-design-subgroup-counterexample:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f7ba557ae2a5d2c3a3a519e0713d65ac86af2973",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "lineage": "collected:projective-toric-design-subgroup-counterexample:s7",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Sset": "\\mathcal S",
+        "\\T": "\\mathbb T",
+        "\\leanurl": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "projective-toric-design-subgroup-counterexample",
+      "scope": "in_scope",
+      "statement": "For the question ``Must the minimal design be a group?'' in \\cite[Section~5, p.~16, ``Minimal projective toric designs'']{iosue}, the coverage is: literal statement only; translation-invariant version not covered. In $P(\\T^2)$, the three points\n\\[\n\\{(0,\\pi/3),(0,\\pi),(0,5\\pi/3)\\}\n\\]\nform a uniformly weighted two-design of minimal size and are a coset of a subgroup, but not themselves a subgroup.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Identity-containing counterexamples to Conjecture 4.9 (Iosue–Mooney–Ehrenberg–Gorshkov, Section 4.3, p. 15, arXiv:2311.13479v3): certificates and extensions of Abdukhalikov's (2014) construction",
+      "toolchain": null,
+      "version": 3,
+      "work": "projective-toric-design-subgroup-counterexample"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:projective-toric-design-subgroup-counterexample:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f7ba557ae2a5d2c3a3a519e0713d65ac86af2973",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "lineage": "collected:projective-toric-design-subgroup-counterexample:s8",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Sset": "\\mathcal S",
+        "\\T": "\\mathbb T",
+        "\\leanurl": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "projective-toric-design-subgroup-counterexample",
+      "scope": "in_scope",
+      "statement": "On $V\\oplus V$, take the lines $x=c$ and $y=Mx+c$ for $c\\in V$, $M\\in\\Sset$. They form an affine plane of order $d$. The explicit non-group design therefore accompanies an affine plane of order 27, and completing the parallel classes gives a projective plane of order 27.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Identity-containing counterexamples to Conjecture 4.9 (Iosue–Mooney–Ehrenberg–Gorshkov, Section 4.3, p. 15, arXiv:2311.13479v3): certificates and extensions of Abdukhalikov's (2014) construction",
+      "toolchain": null,
+      "version": 3,
+      "work": "projective-toric-design-subgroup-counterexample"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:projective-toric-design-subgroup-counterexample:3:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f7ba557ae2a5d2c3a3a519e0713d65ac86af2973",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "lineage": "collected:projective-toric-design-subgroup-counterexample:s9",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Sset": "\\mathcal S",
+        "\\T": "\\mathbb T",
+        "\\leanurl": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "projective-toric-design-subgroup-counterexample",
+      "scope": "in_scope",
+      "statement": "The matrices $H_M=d^{-1/2}(\\chi(f_{M,b}(x)))_{x,b}$ are normalized complex Hadamard matrices. For $M\\ne N$, $H_M^*H_N$ is also a normalized complex Hadamard matrix. This realizes the Hadamard connection suggested in \\cite[Section~5, p.~16]{iosue} for every spread in Lemma~\\ref{lem:spread}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Identity-containing counterexamples to Conjecture 4.9 (Iosue–Mooney–Ehrenberg–Gorshkov, Section 4.3, p. 15, arXiv:2311.13479v3): certificates and extensions of Abdukhalikov's (2014) construction",
+      "toolchain": null,
+      "version": 3,
+      "work": "projective-toric-design-subgroup-counterexample"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:radsarar-anando-2026-apollonian-second-eigenvalue:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -18315,6 +18693,416 @@
       "toolchain": null,
       "version": 1,
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:3:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/Quantum/Measurements/DetectorSensorStrictAveragingRefutation.lean"
+      },
+      "lineage": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:s1",
+      "macros": {
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zhan-gupta-hillery-detector-sensor-flat-averaging",
+      "scope": "in_scope",
+      "statement": "Two labelled pure-state ensembles with identical Gram matrices have\nthe same attainable measurement probabilities, including the same optimal\nminimum-error success for any fixed priors.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Flat averages refute Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11): an extension of Skotiniotis et al. (2018)",
+      "toolchain": null,
+      "version": 3,
+      "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:3:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/Quantum/Measurements/DetectorSensorStrictAveragingRefutation.lean"
+      },
+      "lineage": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:s10",
+      "macros": {
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zhan-gupta-hillery-detector-sensor-flat-averaging",
+      "scope": "in_scope",
+      "statement": "For the original equal-prior model, restricting the measurement to an\narbitrary global projective measurement leaves both optimal values\nunchanged. Unambiguous measurements include an inconclusive outcome.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Flat averages refute Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11): an extension of Skotiniotis et al. (2018)",
+      "toolchain": null,
+      "version": 3,
+      "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:3:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/Quantum/Measurements/DetectorSensorStrictAveragingRefutation.lean"
+      },
+      "lineage": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:s2",
+      "macros": {
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zhan-gupta-hillery-detector-sensor-flat-averaging",
+      "scope": "in_scope",
+      "statement": "Let $n\\geq3$, $1\\leq k\\leq n-1$, $k\\ne n-k$, and $0<\\theta<\\pi$.\nFor $0\\leq t\\leq1$ define\n$\\ket{A_t}=\\sum_x\\sqrt{t p^{(k)}_x+(1-t)p^{(n-k)}_x}\\ket x$.\nThe coefficient-square distributions of $D_k$ and $D_{n-k}$ are distinct,\nbut\n\\[\n P(D_k)=P(D_{n-k})=P(A_t)\\quad(0\\leq t\\leq1).\n\\]\nIn particular, $t=1/2$ refutes Conjecture 2.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Flat averages refute Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11): an extension of Skotiniotis et al. (2018)",
+      "toolchain": null,
+      "version": 3,
+      "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:3:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/Quantum/Measurements/DetectorSensorStrictAveragingRefutation.lean"
+      },
+      "lineage": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:s3",
+      "macros": {
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zhan-gupta-hillery-detector-sensor-flat-averaging",
+      "scope": "in_scope",
+      "statement": "For $n$ equiprobable normalized pure states with Gram matrix\n$G=(1-c)I+cJ\\succeq0$, their optimal success equals\n\\begin{equation}\n F_n(c)=\\frac{\\bigl(\\sqrt{1+(n-1)c}+(n-1)\\sqrt{1-c}\\bigr)^2}{n^2}.\n\\end{equation}\nOn $0\\leq c\\leq1$, this function is nonincreasing.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Flat averages refute Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11): an extension of Skotiniotis et al. (2018)",
+      "toolchain": null,
+      "version": 3,
+      "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:3:s4",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/Quantum/Measurements/DetectorSensorStrictAveragingRefutation.lean"
+      },
+      "lineage": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:s4",
+      "macros": {
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zhan-gupta-hillery-detector-sensor-flat-averaging",
+      "scope": "in_scope",
+      "statement": "For coefficient-square distributions $p,q$ and $0\\leq t\\leq1$,\n\\begin{equation}\n P(tp+(1-t)q)\\leq tP(p)+(1-t)P(q).\n\\end{equation}\nThus equal-error inputs have an average with no larger error; strict\nimprovement is not guaranteed.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Flat averages refute Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11): an extension of Skotiniotis et al. (2018)",
+      "toolchain": null,
+      "version": 3,
+      "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/Quantum/Measurements/DetectorSensorStrictAveragingRefutation.lean"
+      },
+      "lineage": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:s5",
+      "macros": {
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zhan-gupta-hillery-detector-sensor-flat-averaging",
+      "scope": "in_scope",
+      "statement": "For equal priors there is an optimal coefficient-square distribution\nconstant on each Hamming-weight layer.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Flat averages refute Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11): an extension of Skotiniotis et al. (2018)",
+      "toolchain": null,
+      "version": 3,
+      "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/Quantum/Measurements/DetectorSensorStrictAveragingRefutation.lean"
+      },
+      "lineage": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:s6",
+      "macros": {
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zhan-gupta-hillery-detector-sensor-flat-averaging",
+      "scope": "in_scope",
+      "statement": "Put $m=\\lfloor n/2\\rfloor$ and\n\\[\n c_{\\min}=1-\\frac{4m(n-m)}{n(n-1)}\\sin^2\\theta,\n \\qquad c_*=\\max\\{0,c_{\\min}\\}.\n\\]\nThe global minimum error over normalized pure probes is $1-F_n(c_*)$.\nIf $c_{\\min}\\geq0$, a uniform probe on any layer minimizing $c_k$ is\noptimal. This proves Conjecture 1 of~\\cite[Section 5, p.~10:10]{ZGH}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Flat averages refute Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11): an extension of Skotiniotis et al. (2018)",
+      "toolchain": null,
+      "version": 3,
+      "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/Quantum/Measurements/DetectorSensorStrictAveragingRefutation.lean"
+      },
+      "lineage": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:s7",
+      "macros": {
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zhan-gupta-hillery-detector-sensor-flat-averaging",
+      "scope": "in_scope",
+      "statement": "Unambiguous failure is convex in coefficient-squares, and the flat\nfamily of Theorem~\\ref{thm:flat} has constant failure for any fixed priors.\nFor equal priors its global optimum is $c_*=\\max\\{0,c_{\\min}\\}$.\nA probe attaining the minimum-error optimum in\nCorollary~\\ref{cor:optimal} also attains this unambiguous optimum.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Flat averages refute Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11): an extension of Skotiniotis et al. (2018)",
+      "toolchain": null,
+      "version": 3,
+      "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/Quantum/Measurements/DetectorSensorStrictAveragingRefutation.lean"
+      },
+      "lineage": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:s8",
+      "macros": {
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zhan-gupta-hillery-detector-sensor-flat-averaging",
+      "scope": "in_scope",
+      "statement": "Let $V_a\\ket x=v_a(x)\\ket x$, $|v_a(x)|=1$, be any finite family\nof diagonal unitaries with fixed priors. Minimum error and unambiguous\nfailure are convex in the coefficient-square distribution. Auxiliary\nsystems do not improve either optimum.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Flat averages refute Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11): an extension of Skotiniotis et al. (2018)",
+      "toolchain": null,
+      "version": 3,
+      "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:3:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/Quantum/Measurements/DetectorSensorStrictAveragingRefutation.lean"
+      },
+      "lineage": "collected:zhan-gupta-hillery-detector-sensor-flat-averaging:s9",
+      "macros": {
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zhan-gupta-hillery-detector-sensor-flat-averaging",
+      "scope": "in_scope",
+      "statement": "The existence of a layer-symmetric optimum does not require every optimum\nto be layer-symmetric. For $n=3$, $\\theta=\\pi/2$, and $0<a<1$,\n$p_x=(1+a(2x_1-1))/8$ is a non-layer-symmetric optimum for both criteria.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Flat averages refute Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11): an extension of Skotiniotis et al. (2018)",
+      "toolchain": null,
+      "version": 3,
+      "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
     }
   ]
 }

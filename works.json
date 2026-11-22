@@ -2541,6 +2541,53 @@
       "work": "pozsgay-wanless-nonlinear-classical-factors"
     },
     {
+      "abstract_text": "Extending Abdukhalikov's (2014) nonadditive-spread construction in Kantor's (2012) matrix formulation, we give explicit certificates refuting Conjecture 4.9 of Iosue, Mooney, Ehrenberg and Gorshkov, Projective toric designs, quantum state designs, and mutually unbiased bases (2024), Section 4.3, p. 15, arXiv:2311.13479v3, even with an identity-containing hypothesis. Our 729 quadratic phase functions in dimension 27 form a projective toric two-design with the required overlaps but without additive closure; no translate is a subgroup. Written proofs and exact finite certificates specify each conclusion's scope.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "f7ba557ae2a5d2c3a3a519e0713d65ac86af2973",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 102405,
+        "sha256": "c00de1c70c7050a281776500d8cc8d585e79c18894b892ac1600a0fe1097a460",
+        "url": "/api/v1/collected-papers/projective-toric-design-subgroup-counterexample/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-22T11:44:51.428054643Z",
+      "record": "projective-toric-design-subgroup-counterexample",
+      "repository_name": "projective-toric-design-subgroup-counterexample",
+      "source": {
+        "bytes": 19108,
+        "sha256": "8ffc1e449406fc0ac894cb00a7eb1eb1d1f1f6399d7c873fa983f8289052b5e1",
+        "url": "/api/v1/collected-papers/projective-toric-design-subgroup-counterexample/files/source?version=3"
+      },
+      "title": "Identity-containing counterexamples to Conjecture 4.9 (Iosue–Mooney–Ehrenberg–Gorshkov, Section 4.3, p. 15, arXiv:2311.13479v3): certificates and extensions of Abdukhalikov's (2014) construction",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-22T11:44:51.428054643Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "projective-toric-design-subgroup-counterexample"
+    },
+    {
       "abstract_text": "We prove the affirmative answer to MathOverflow question 516405, revision 1: the second ordinary adjacency eigenvalue of deterministic inner-face Apollonian networks divided by 2^(m/2) tends to sqrt(2). For every fixed rank r, the largest and smallest adjacency eigenvalues divided by 2^(m/2) converge to plus and minus sqrt(d_r), where the decreasing weight sequence consists of 3, three copies of 2, and 3^j copies of 3*2^(-j) for each j >= 1. An exact cutoff Gram identity gives a finite-stage bound and an O_r(2^(-m/4)) rate. The original second-eigenvalue limit is the scope of the pinned Lean declaration; the fixed-rank and quantitative extensions have written proofs.",
       "authors": [
         {
@@ -3150,6 +3197,53 @@
         }
       ],
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
+    },
+    {
+      "abstract_text": "For Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11; arXiv:2306.17401v6, p. 11), we derive a strict-averaging counterexample from the complementary-layer Gram formula of Skotiniotis et al. (2018). Two different coefficient-square distributions and their whole averaging segment have the same Gram matrix and, for three sensors at theta = pi/4, the same error (14 - 4*sqrt(10))/27. We extend the earlier symmetric-probe calculation by proving weak convexity and the existence of a symmetric pure optimum without a symmetry assumption. This proves the companion Conjecture 1 and answers the source’s final question: one probe is optimal for both minimum-error and unambiguous discrimination at every detector angle. The reductions also apply to fixed unequal priors and diagonal impact patterns, without solving their general optimizers.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/Quantum/Measurements/DetectorSensorStrictAveragingRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 97804,
+        "sha256": "9a8bbc72bb9982785d225d3c2b032f7162f3362dab41cbbb952bb5ea4e14d120",
+        "url": "/api/v1/collected-papers/zhan-gupta-hillery-detector-sensor-flat-averaging/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-22T11:59:39.782683275Z",
+      "record": "zhan-gupta-hillery-detector-sensor-flat-averaging",
+      "repository_name": "zhan-gupta-hillery-detector-sensor-flat-averaging",
+      "source": {
+        "bytes": 17943,
+        "sha256": "c38ff11fab7f90de3920d82e2b1a848c0a123c14197f5957877850fa70812fa8",
+        "url": "/api/v1/collected-papers/zhan-gupta-hillery-detector-sensor-flat-averaging/files/source?version=3"
+      },
+      "title": "Flat averages refute Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11): an extension of Skotiniotis et al. (2018)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-22T11:59:39.782683275Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
     }
   ]
 }
