@@ -1,0 +1,438 @@
+{
+  "entries": [
+    {
+      "doi": "10.5281/zenodo.24058057",
+      "id": "a320043-square-values-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24212412",
+      "id": "abbott-2019-sequential-weak-pointer-bound",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24212419",
+      "id": "aks2610-twin-free-theta-separation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23919066",
+      "id": "alikhani-griswold-2026-connected-minus-four-family",
+      "kind": "collected",
+      "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.23884883",
+      "id": "b164660-chebfloor",
+      "kind": "collected",
+      "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.23931731",
+      "id": "bajnok-beatty-original-conjecture-4-1",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24405774",
+      "id": "bala-machine3626-exact-halting-time",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.23971279",
+      "id": "bala295462",
+      "kind": "collected",
+      "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.24369110",
+      "id": "bernath-a400645-consecutive-ratio",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24212421",
+      "id": "bouafia-diversity-negative-type",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23885951",
+      "id": "bu-gu-jaffe-2025-mixed-state-inverse-sumset",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24369118",
+      "id": "central-edges",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.23957560",
+      "id": "chen-chen-step-m-eulerian-parity-positivity",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24405779",
+      "id": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23935000",
+      "id": "chiral-event-parity-minimality",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23904464",
+      "id": "consiglio-apollaro-wiesniak-2022-xmems-css-shape",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24445683",
+      "id": "copeland-a131758",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24391331",
+      "id": "delgado-suer-yesil-2026-symmetrization-surjectivity",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23884885",
+      "id": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance",
+      "kind": "collected",
+      "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.24408308",
+      "id": "finch-zero-runs",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.23920557",
+      "id": "ggps2025",
+      "kind": "collected",
+      "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.24404938",
+      "id": "han-pedon-metallic-hankel-quasipolynomial",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24408311",
+      "id": "hanna-a181074-binomial-exponentials",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24407818",
+      "id": "hanna-a181080-integrality",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24406600",
+      "id": "hanna-a381355",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23903301",
+      "id": "hardin-barker-a209723-edge-differences",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23904468",
+      "id": "hexagon-perp-line-counterexamples",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23885961",
+      "id": "huang-kosugi-nishi-matsushita-2024-reflection-diagonal-cnot-lower-bound",
+      "kind": "collected",
+      "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.23935004",
+      "id": "huang-stoica-xia-zhong-2020-tree-equations-nonconstant",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24404942",
+      "id": "jen2610-permuted-rotor-loops",
+      "kind": "collected",
+      "version": 5
+    },
+    {
+      "doi": "10.5281/zenodo.23904476",
+      "id": "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing",
+      "kind": "collected",
+      "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.23885965",
+      "id": "kang-jager-2026-universal-permutative-lift-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24404944",
+      "id": "khesin-li-2024-bipartite-encoder-equivalence",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23957573",
+      "id": "kmvq31-sl3-obstruction",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24369124",
+      "id": "kok-jaco-addition-law-refutation",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.23904482",
+      "id": "koljancic-oblak-2026-nssp-minimum-arcs-problem-1-8",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.23920568",
+      "id": "koljancic-oblak-2026-question-5-11-even-loop-path",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23920583",
+      "id": "malkoun-2026-mo512579-jordan-elementary",
+      "kind": "collected",
+      "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.23884890",
+      "id": "mathar-a027182-closed-form",
+      "kind": "collected",
+      "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.24405789",
+      "id": "mathar-a174193-order-four-recurrence",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.23931738",
+      "id": "mathoverflow-469781-weighted-orthogonal-minors",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23920598",
+      "id": "mathoverflow-513954-singular-diagonal-downdate-inertia",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24404947",
+      "id": "meddaugh-stephens-2025-mixing-small-periodic-sets",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24210281",
+      "id": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24209470",
+      "id": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24398996",
+      "id": "nath2021-commuting-cn-conjecture2",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24405795",
+      "id": "noe-2013-a222759-prime-cube-growth",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24405799",
+      "id": "oeis-a112399-morken-first-divisor-sum",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.23957584",
+      "id": "oeis-a189733-curtz-denominator-conjecture",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24211281",
+      "id": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23903309",
+      "id": "oeis-a378495-difference-conjectures",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.23957586",
+      "id": "oeis-a381423-hermite-differences",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.23885969",
+      "id": "oeis-a391810-alternating-jacobsthal",
+      "kind": "collected",
+      "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.23885975",
+      "id": "oeis-a396659-edge-collision-ratio",
+      "kind": "collected",
+      "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.23927424",
+      "id": "okada-2020-premerged-determinant-nonpalindromic",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23920610",
+      "id": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23903313",
+      "id": "pozsgay-wanless-nonlinear-classical-factors",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24405806",
+      "id": "projective-toric-design-subgroup-counterexample",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.23919071",
+      "id": "radsarar-anando-2026-apollonian-second-eigenvalue",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24381374",
+      "id": "rowland-sistos-barron-2025-rank-sequences",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24211823",
+      "id": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24404952",
+      "id": "sp322844-serpentine-higher",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24369131",
+      "id": "spin-one-rotation-boxes",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23927428",
+      "id": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24212427",
+      "id": "ta-2025-problem-11-7-good-involution-bound-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23903316",
+      "id": "tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound",
+      "kind": "collected",
+      "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.23885984",
+      "id": "user3-2026-orthogonal-absolute-product-minimum",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24404958",
+      "id": "velez-cadavid-numerical-semigroup-realizability",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23884901",
+      "id": "wang-conjecture326",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24209474",
+      "id": "wiseman-a344611",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.23919079",
+      "id": "xu-et-al-2023-noisy-ghz-witness-bound-gap",
+      "kind": "collected",
+      "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.24405810",
+      "id": "zhan-gupta-hillery-detector-sensor-flat-averaging",
+      "kind": "collected",
+      "version": 3
+    }
+  ],
+  "generated_at": "2026-11-22T21:18:16.236735879Z",
+  "schema": "mathesis.archive-index.v1"
+}

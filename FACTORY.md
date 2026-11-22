@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-22T18:07:21.530204334Z`.
+Snapshot: `2026-11-22T21:18:16.236735879Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -19,6 +19,7 @@ Snapshot: `2026-11-22T18:07:21.530204334Z`.
 | [A counterexample to Bu--Gu--Jaffe's expected mixed-state inverse sumset estimate](https://github.com/mathesis-papers/10.5281-zenodo.23885950) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885951) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)](https://github.com/mathesis-papers/central-edges) | 3 | [DOI](https://doi.org/10.5281/zenodo.24369118) | en, zh | 0 / 0 / 0 | 11 no target yet |
 | [Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)](https://github.com/mathesis-papers/10.5281-zenodo.23957559) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957560) | en, zh | 1 / 0 / 1 | 8 no target yet |
+| [Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)](https://github.com/mathesis-papers/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary](https://github.com/mathesis-papers/10.5281-zenodo.23934999) | 2 | [DOI](https://doi.org/10.5281/zenodo.23935000) | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [Refuting the X-MEMS closest-separable-state conjecture in arXiv:2209.01430v2, Appendix A, Eq. (A11)](https://github.com/mathesis-papers/10.5281-zenodo.23904463) | 2 | [DOI](https://doi.org/10.5281/zenodo.23904464) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence](https://github.com/mathesis-papers/copeland-a131758) | 2 | [DOI](https://doi.org/10.5281/zenodo.24445683) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
@@ -53,6 +54,7 @@ Snapshot: `2026-11-22T18:07:21.530204334Z`.
 | [Zero-mode corrections and closed bubble counts in Mukherjee et al. (2021, Sec. III, p. 7, third paragraph): extending Hoshino (2007) and Brown–Hoshino (2008)](https://github.com/mathesis-papers/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy) | 3 | [DOI](https://doi.org/10.5281/zenodo.24210281) | en, zh | 2 / 1 / 0 | 9 no target yet |
 | [Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)](https://github.com/mathesis-papers/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation) | 3 | [DOI](https://doi.org/10.5281/zenodo.24209470) | en, zh | 2 / 1 / 0 | 10 no target yet |
 | [Proofs of Nath–Fasfous–Das–Shang's commuting and surface conjectures, and a sharp form of Tak–Dutta–Nath's clique theorem](https://github.com/mathesis-papers/nath2021-commuting-cn-conjecture2) | 2 | [DOI](https://doi.org/10.5281/zenodo.24398996) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
+| [Exact counts and sharp growth for OEIS A222759, first comment (12 March 2013): extending Glaisher (1900)](https://github.com/mathesis-papers/noe-2013-a222759-prime-cube-growth) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Convention corrections and alternative proofs for Morken's conjectures in OEIS A112399: Revision 41, FORMULA; after Sander–Sander (2009) and Ramaré (2014–2015)](https://github.com/mathesis-papers/oeis-a112399-morken-first-divisor-sum) | 3 | [DOI](https://doi.org/10.5281/zenodo.24405799) | Awaiting reading | 0 / 0 / 0 | 11 no target yet |
 | [Curtz's denominator conjecture: OEIS A189733, revision 12, COMMENTS, May 23, 2011](https://github.com/mathesis-papers/10.5281-zenodo.23957583) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957584) | en, zh | 0 / 0 / 0 | 11 no target yet |
 | [Extensions of Knuth's coefficient families (1993), with corrected OEIS links: Werner's conjecture in OEIS A208509, Formula, revision 28](https://github.com/mathesis-papers/oeis-a208509-affine-polynomial-pair-binomial-coefficients) | 2 | [DOI](https://doi.org/10.5281/zenodo.24211281) | Awaiting reading | 0 / 0 / 0 | 11 no target yet |

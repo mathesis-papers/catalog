@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
+}

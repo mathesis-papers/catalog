@@ -3634,6 +3634,252 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "5a155fd74fe22ae43db3ccfb267df468c8c45377",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a155fd74fe22ae43db3ccfb267df468c8c45377/D5/S3/QuantumStates/FourQubitCorrelationMonogamy.lean"
+      },
+      "lineage": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:s1",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\id": "\\mathbb{1}",
+        "\\norm": "\\left\\lVert#1\\right\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy",
+      "scope": "in_scope",
+      "statement": "Every four-qubit density matrix satisfies\n\\begin{equation}\n \\norm{T_{AB}}_F^2+\\norm{T_{AC}}_F^2+\\norm{T_{AD}}_F^2\\leq3.\n\\end{equation}\nThe constant is attained by both $|0000\\rangle$ and\n$(|0000\\rangle+|1111\\rangle)/\\sqrt2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)",
+      "toolchain": null,
+      "version": 2,
+      "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "5a155fd74fe22ae43db3ccfb267df468c8c45377",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a155fd74fe22ae43db3ccfb267df468c8c45377/D5/S3/QuantumStates/FourQubitCorrelationMonogamy.lean"
+      },
+      "lineage": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:s2",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\id": "\\mathbb{1}",
+        "\\norm": "\\left\\lVert#1\\right\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy",
+      "scope": "in_scope",
+      "statement": "If Hermitian operators $Q_1,\\ldots,Q_r$ satisfy $Q_\\ell^2=\\id$ and\n$Q_\\ell Q_m=-Q_mQ_\\ell$ for $\\ell\\ne m$, then every density matrix\n$\\rho$ satisfies $\\sum_\\ell\\Tr(\\rho Q_\\ell)^2\\leq1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)",
+      "toolchain": null,
+      "version": 2,
+      "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "5a155fd74fe22ae43db3ccfb267df468c8c45377",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a155fd74fe22ae43db3ccfb267df468c8c45377/D5/S3/QuantumStates/FourQubitCorrelationMonogamy.lean"
+      },
+      "lineage": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:s3",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\id": "\\mathbb{1}",
+        "\\norm": "\\left\\lVert#1\\right\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy",
+      "scope": "in_scope",
+      "statement": "For every four-qubit state, pure or mixed,\n\\begin{equation}\n v_{B|A}^{2/3}+v_{C|A}^{2/3}+v_{D|A}^{2/3}\\leq1.\n\\end{equation}\nEquality holds for a Bell state on $AB$ tensored with any state on $CD$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)",
+      "toolchain": null,
+      "version": 2,
+      "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "5a155fd74fe22ae43db3ccfb267df468c8c45377",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a155fd74fe22ae43db3ccfb267df468c8c45377/D5/S3/QuantumStates/FourQubitCorrelationMonogamy.lean"
+      },
+      "lineage": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:s4",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\id": "\\mathbb{1}",
+        "\\norm": "\\left\\lVert#1\\right\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy",
+      "scope": "in_scope",
+      "statement": "Every pure four-qubit state satisfies $L_{BCD}\\geq a^2$, and the\nanalogous inequality holds for each choice of the omitted qubit.\nEquality is attained by every normalized state\n$\\alpha|0000\\rangle+\\beta|1111\\rangle$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)",
+      "toolchain": null,
+      "version": 2,
+      "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "5a155fd74fe22ae43db3ccfb267df468c8c45377",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a155fd74fe22ae43db3ccfb267df468c8c45377/D5/S3/QuantumStates/FourQubitCorrelationMonogamy.lean"
+      },
+      "lineage": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:s5",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\id": "\\mathbb{1}",
+        "\\norm": "\\left\\lVert#1\\right\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy",
+      "scope": "in_scope",
+      "statement": "Let $\\rho$ be any $(m+1)$-qubit state on $A,X_1,\\ldots,X_m$, where\n$m\\geq3$. Then\n\\begin{equation}\n \\sum_{t=1}^m\\norm{T_{AX_t}}_F^2\\leq m,\\qquad\n \\sum_{t=1}^m v_{X_t|A}^{2/3}\\leq\\frac m3,\\qquad\n \\frac1m\\sum_{t=1}^m v_{X_t|A}\\leq\\frac13.\n\\end{equation}\nThe correlation bound is sharp for every $m\\geq3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)",
+      "toolchain": null,
+      "version": 2,
+      "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "5a155fd74fe22ae43db3ccfb267df468c8c45377",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a155fd74fe22ae43db3ccfb267df468c8c45377/D5/S3/QuantumStates/FourQubitCorrelationMonogamy.lean"
+      },
+      "lineage": "collected:cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy:s6",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\id": "\\mathbb{1}",
+        "\\norm": "\\left\\lVert#1\\right\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy",
+      "scope": "in_scope",
+      "statement": "The volume inequalities above remain valid after arbitrary local\ntrace-preserving quantum channels on the qubits. More precisely,\n$v'_{X|A}\\leq v_{X|A}$ for each receiver $X$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)",
+      "toolchain": null,
+      "version": 2,
+      "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:chiral-event-parity-minimality:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -12980,6 +13226,252 @@
       "toolchain": null,
       "version": 2,
       "work": "nath2021-commuting-cn-conjecture2"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:noe-2013-a222759-prime-cube-growth:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "3d781ae04219d5c99e87e82e3bbc3f6816e3691e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d781ae04219d5c99e87e82e3bbc3f6816e3691e/D5/S3/Arith/PrimeRemainders/OeisA222759Growth.lean"
+      },
+      "lineage": "collected:noe-2013-a222759-prime-cube-growth:s1",
+      "macros": {
+        "\\binrem": "\\left[\\binom{#1#2}{#2}\\right]_{#2^{#3}}",
+        "\\ind": "\\mathbf 1",
+        "\\pr": "\\mathbb P"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "noe-2013-a222759-prime-cube-growth",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\ge1$, the following disjoint union is exact:\n\\begin{equation}\n W(n)=\\{p\\in\\pr:p^3\\le n\\}\\ \\dot\\cup\\ E_2(n)\\ \\dot\\cup\\ E_3(n).\n\\end{equation}\nIn particular,\n\\begin{equation}\n a(n)=\\pi(\\lfloor n^{1/3}\\rfloor)\n +\\ind_{\\{n<8,\\ n\\bmod4\\in\\{2,3\\}\\}}\n +\\ind_{\\{n<27,\\ n\\bmod3=2\\}}.\n\\end{equation}\nThus $a(n)=\\pi(\\lfloor n^{1/3}\\rfloor)$ for every $n\\ge27$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact counts and sharp growth for OEIS A222759, first comment (12 March 2013): extending Glaisher (1900)",
+      "toolchain": null,
+      "version": 2,
+      "work": "noe-2013-a222759-prime-cube-growth"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:noe-2013-a222759-prime-cube-growth:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "3d781ae04219d5c99e87e82e3bbc3f6816e3691e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d781ae04219d5c99e87e82e3bbc3f6816e3691e/D5/S3/Arith/PrimeRemainders/OeisA222759Growth.lean"
+      },
+      "lineage": "collected:noe-2013-a222759-prime-cube-growth:s2",
+      "macros": {
+        "\\binrem": "\\left[\\binom{#1#2}{#2}\\right]_{#2^{#3}}",
+        "\\ind": "\\mathbf 1",
+        "\\pr": "\\mathbb P"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "noe-2013-a222759-prime-cube-growth",
+      "scope": "in_scope",
+      "statement": "For every prime $p\\ge5$ and integer $n\\ge1$,\n$\\binom{np}{p}\\equiv n\\pmod{p^3}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact counts and sharp growth for OEIS A222759, first comment (12 March 2013): extending Glaisher (1900)",
+      "toolchain": null,
+      "version": 2,
+      "work": "noe-2013-a222759-prime-cube-growth"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:noe-2013-a222759-prime-cube-growth:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3d781ae04219d5c99e87e82e3bbc3f6816e3691e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d781ae04219d5c99e87e82e3bbc3f6816e3691e/D5/S3/Arith/PrimeRemainders/OeisA222759Growth.lean"
+      },
+      "lineage": "collected:noe-2013-a222759-prime-cube-growth:s3",
+      "macros": {
+        "\\binrem": "\\left[\\binom{#1#2}{#2}\\right]_{#2^{#3}}",
+        "\\ind": "\\mathbf 1",
+        "\\pr": "\\mathbb P"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "noe-2013-a222759-prime-cube-growth",
+      "scope": "in_scope",
+      "statement": "For integers $k\\ge3$ and $n\\ge1$,\n\\[\n a(n)\\ge k\\quad\\Longleftrightarrow\\quad n\\ge p_k^3.\n\\]\nIn particular, Noe's sufficient condition $n\\ge p_{p_k^3}$ holds.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact counts and sharp growth for OEIS A222759, first comment (12 March 2013): extending Glaisher (1900)",
+      "toolchain": null,
+      "version": 2,
+      "work": "noe-2013-a222759-prime-cube-growth"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:noe-2013-a222759-prime-cube-growth:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3d781ae04219d5c99e87e82e3bbc3f6816e3691e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d781ae04219d5c99e87e82e3bbc3f6816e3691e/D5/S3/Arith/PrimeRemainders/OeisA222759Growth.lean"
+      },
+      "lineage": "collected:noe-2013-a222759-prime-cube-growth:s4",
+      "macros": {
+        "\\binrem": "\\left[\\binom{#1#2}{#2}\\right]_{#2^{#3}}",
+        "\\ind": "\\mathbf 1",
+        "\\pr": "\\mathbb P"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "noe-2013-a222759-prime-cube-growth",
+      "scope": "in_scope",
+      "statement": "The least prime $b(n)$ in A222760~\\cite{companion} exists for every\n$n\\ge1$. With $M(n)=\\max(W(n)\\cup\\{1\\})$, it is the first prime greater\nthan $M(n)$. More explicitly,\n\\begin{equation}\n b(n)=p_{a(n)+1}\\quad(n\\ne5),\\qquad b(5)=5.\n\\end{equation}\nFor $n\\ge27$ it is\n\\[\n p_{\\pi(\\lfloor n^{1/3}\\rfloor)+1}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact counts and sharp growth for OEIS A222759, first comment (12 March 2013): extending Glaisher (1900)",
+      "toolchain": null,
+      "version": 2,
+      "work": "noe-2013-a222759-prime-cube-growth"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:noe-2013-a222759-prime-cube-growth:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3d781ae04219d5c99e87e82e3bbc3f6816e3691e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d781ae04219d5c99e87e82e3bbc3f6816e3691e/D5/S3/Arith/PrimeRemainders/OeisA222759Growth.lean"
+      },
+      "lineage": "collected:noe-2013-a222759-prime-cube-growth:s5",
+      "macros": {
+        "\\binrem": "\\left[\\binom{#1#2}{#2}\\right]_{#2^{#3}}",
+        "\\ind": "\\mathbf 1",
+        "\\pr": "\\mathbb P"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "noe-2013-a222759-prime-cube-growth",
+      "scope": "in_scope",
+      "statement": "For $e=1,2$, the number of primes $p$ with $\\binrem{n}{p}{e}\\ne n$ is\nrespectively $\\pi(n)$ and $\\pi(\\lfloor\\sqrt n\\rfloor)$.\nThese are the counts identified in A222759's second comment by its\ncross-references to A000720~\\cite{pi} and A056811~\\cite{square}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact counts and sharp growth for OEIS A222759, first comment (12 March 2013): extending Glaisher (1900)",
+      "toolchain": null,
+      "version": 2,
+      "work": "noe-2013-a222759-prime-cube-growth"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:noe-2013-a222759-prime-cube-growth:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3d781ae04219d5c99e87e82e3bbc3f6816e3691e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d781ae04219d5c99e87e82e3bbc3f6816e3691e/D5/S3/Arith/PrimeRemainders/OeisA222759Growth.lean"
+      },
+      "lineage": "collected:noe-2013-a222759-prime-cube-growth:s6",
+      "macros": {
+        "\\binrem": "\\left[\\binom{#1#2}{#2}\\right]_{#2^{#3}}",
+        "\\ind": "\\mathbf 1",
+        "\\pr": "\\mathbb P"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "noe-2013-a222759-prime-cube-growth",
+      "scope": "in_scope",
+      "statement": "The following descriptions hold.\n\\begin{enumerate}\n\\item $c_e(n)$ counts primes $p$ with $p^e\\le n$, and prime factors\nwhose exponent in $\\operatorname{lcm}(1,\\ldots,n)$ is at least $e$.\nFor $e=2$ it also counts positive integers at most $n$ with exactly\nthree divisors, and is the maximum size of a pairwise coprime collection\nof composite integers at most $n$.\n\\item For $e\\ge1$, $c_e(n)=j$ exactly when\n$p_j^e\\le n<p_{j+1}^e$, with the $j=0$ interval $1\\le n<2^e$.\nAs formal power series,\n\\[\n \\sum_{n\\ge1}c_e(n)x^n=\\frac{\\sum_{p\\in\\pr}x^{p^e}}{1-x}.\n\\]\nIn particular,\n\\[\n \\sum_{n\\ge1}a(n)x^n\n =\\frac{\\sum_{p\\in\\pr}x^{p^3}}{1-x}\n   +x^2+x^3+x^6+x^7+x^2\\sum_{j=0}^{8}x^{3j}.\n\\]\n\\item For fixed $e$, the prime number theorem gives\n$c_e(n)\\sim e n^{1/e}/\\log n$ as $n\\to\\infty$. In particular,\n$a(n)\\sim3n^{1/3}/\\log n$.\n\\end{enumerate}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact counts and sharp growth for OEIS A222759, first comment (12 March 2013): extending Glaisher (1900)",
+      "toolchain": null,
+      "version": 2,
+      "work": "noe-2013-a222759-prime-cube-growth"
     },
     {
       "attribution": null,
