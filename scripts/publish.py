@@ -160,17 +160,26 @@ class API:
         req = urllib.request.Request(self.base + path, data=body, method=method, headers={
             "Authorization": "Bearer " + self.token, "Accept": "application/vnd.github+json",
             "X-GitHub-Api-Version": "2022-11-28", "Content-Type": "application/json", "User-Agent": "mathesis-papers-publisher"})
-        try:
-            with self.opener.open(req, timeout=60) as response:
-                raw = response.read()
-                return json.loads(raw) if raw else {}
-        except urllib.error.HTTPError as exc:
-            code = exc.code
-            exc.close()
-            if missing and code == 404:
-                return None
-            # Do not echo request headers or token, even on API failures.
-            raise RuntimeError(f"GitHub {method} {path}: HTTP {code}") from None
+        for attempt in range(3):
+            try:
+                with self.opener.open(req, timeout=60) as response:
+                    raw = response.read()
+                    return json.loads(raw) if raw else {}
+            except urllib.error.HTTPError as exc:
+                code = exc.code
+                exc.close()
+                if missing and code == 404:
+                    return None
+                if method == "GET" and code in (502, 503, 504) and attempt < 2:
+                    time.sleep(attempt + 1)
+                    continue
+                # Do not echo request headers or token, even on API failures.
+                raise RuntimeError(f"GitHub {method} {path}: HTTP {code}") from None
+            except (urllib.error.URLError, TimeoutError) as exc:
+                if method == "GET" and attempt < 2:
+                    time.sleep(attempt + 1)
+                    continue
+                raise RuntimeError(f"GitHub {method} {path}: transport {type(exc).__name__}") from None
 
     def repo(self, name, missing=False):
         return self.call("GET", f"/repos/{ORG}/{name}", missing=missing)

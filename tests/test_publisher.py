@@ -54,6 +54,52 @@ class MaterialReadTests(unittest.TestCase):
                 sleep.assert_not_called()
 
 
+class GitHubReadTests(unittest.TestCase):
+    def test_transient_get_retries_and_returns_the_original_resource(self):
+        api = publisher.API('private-test-token')
+        response = mock.MagicMock()
+        response.__enter__.return_value.read.return_value = b'{"id":42}'
+        for failure in (publisher.urllib.error.HTTPError('https://api.github.com', 502, '', {}, None),
+                        publisher.urllib.error.URLError('connection reset'), TimeoutError()):
+            with self.subTest(failure=type(failure).__name__):
+                api.opener = mock.Mock()
+                api.opener.open.side_effect = [failure, response]
+                with mock.patch.object(publisher.time, 'sleep') as sleep:
+                    self.assertEqual(api.call('GET', '/repos/mathesis-papers/example'), {'id': 42})
+                first, second = api.opener.open.call_args_list
+                self.assertEqual(first.args[0].full_url, second.args[0].full_url)
+                sleep.assert_called_once_with(1)
+
+    def test_writes_and_permanent_reads_are_never_replayed(self):
+        for method, code in [('POST', 502), ('PATCH', 503), ('GET', 401), ('GET', 403), ('GET', 404)]:
+            with self.subTest(method=method, code=code):
+                api = publisher.API('private-test-token')
+                api.opener = mock.Mock()
+                api.opener.open.side_effect = publisher.urllib.error.HTTPError('https://api.github.com', code, '', {}, None)
+                with mock.patch.object(publisher.time, 'sleep') as sleep:
+                    with self.assertRaisesRegex(RuntimeError, 'HTTP '+str(code)):
+                        api.call(method, '/resource')
+                self.assertEqual(api.opener.open.call_count, 1)
+                sleep.assert_not_called()
+        api.opener.open.side_effect = TimeoutError('private-test-token')
+        with self.assertRaisesRegex(RuntimeError, '^GitHub POST /resource: transport TimeoutError$'):
+            api.call('POST', '/resource', {})
+        self.assertEqual(api.opener.open.call_count, 2)
+
+    def test_persistent_get_failure_is_bounded_and_missing_remains_missing(self):
+        api = publisher.API('private-test-token')
+        api.opener = mock.Mock()
+        api.opener.open.side_effect = lambda *a, **kw: (_ for _ in ()).throw(
+            publisher.urllib.error.HTTPError('https://api.github.com', 504, '', {}, None))
+        with mock.patch.object(publisher.time, 'sleep') as sleep:
+            with self.assertRaisesRegex(RuntimeError, 'HTTP 504'):
+                api.call('GET', '/resource')
+        self.assertEqual(api.opener.open.call_count, 3)
+        self.assertEqual(sleep.call_args_list, [mock.call(1), mock.call(2)])
+        api.opener.open.side_effect = publisher.urllib.error.HTTPError('https://api.github.com', 404, '', {}, None)
+        self.assertIsNone(api.call('GET', '/resource', missing=True))
+
+
 class Fake:
     def __init__(self):
         self.blobs = {}
