@@ -144,3 +144,15 @@ published matching image rather than rebuilding or editing upstream. Its
 `saved_build_recovery` entries bind an operator-authorized retry to one immutable
 source archive and that exact image. Each recovery ID runs once. Another build
 failure remains parked; it never asks CMA to regenerate completed mathematics.
+
+### Late DOI discovery
+
+`archive-discovery-index.json` extends the SDK's unchanged archive index with
+published version DOIs found after a collected paper arrived. Only a unique
+match for the exact title, ordered authors and affiliations, version, license,
+PDF and source archive enters the candidate index. Missing or failed lookups
+remain unconfirmed and never create a deposit or edit frozen delivery bytes.
+Point Mathesis's existing `WISHPOOL_ARCHIVE_INDEX_URL` at
+`https://raw.githubusercontent.com/mathesis-papers/catalog/main/archive-discovery-index.json`.
+Mathesis independently checks the registry and both source hashes before
+attaching each citation. No additional model run or operator token is needed.

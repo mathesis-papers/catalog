@@ -100,6 +100,32 @@ class GitHubReadTests(unittest.TestCase):
         self.assertIsNone(api.call('GET', '/resource', missing=True))
 
 
+class LateArchiveTests(unittest.TestCase):
+    def test_published_doi_discovery_keeps_the_sdk_projection_and_frozen_paper_unchanged(self):
+        with tempfile.TemporaryDirectory() as folder:
+            output = Path(folder)
+            original = {'schema':'mathesis.archive-index.v1', 'generated_at':'2026-11-23T00:00:00Z',
+                        'entries':[{'kind':'collected','id':'known','version':1,'doi':'10.5281/zenodo.100'}]}
+            publisher.write(output/'catalog/archive-index.json', original)
+            selected = {w:{'current_version':1} for w in ('known','late','missing','wrong-version','external')}
+            for work in selected:
+                url = '/api/v1/collected-papers/'+work+'/files/pdf?version=1'
+                if work == 'external': url = '/api/v1/papers/WP-2026-0001/files/pdf'
+                publisher.write(output/'papers'/work/'paper.json', {'work':{'pdf':{'url':url}}})
+            before = publisher.tree_files(output)
+            def discover(repo):
+                self.assertNotIn(repo.name, ('known','external'))
+                return {'status':'unconfirmed' if repo.name == 'missing' else 'verified',
+                        'work':repo.name,'version':2 if repo.name == 'wrong-version' else 1,
+                        'version_doi':'10.5281/zenodo.201','concept_doi':'10.5281/zenodo.200'}
+            publisher.discover_archives(output, {w:w for w in selected}, selected, discover)
+            after = publisher.tree_files(output)
+            for path, data in before.items(): self.assertEqual(after[path], data)
+            result = publisher.read(output/'catalog/archive-discovery-index.json')
+            self.assertEqual(result['entries'], original['entries']+[
+                {'kind':'collected','id':'late','version':1,'doi':'10.5281/zenodo.201'}])
+
+
 class Fake:
     def __init__(self):
         self.blobs = {}

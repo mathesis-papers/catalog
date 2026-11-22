@@ -21,6 +21,7 @@ import urllib.request
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import collection
+import discover_paper_doi
 import factory
 
 ORG = "mathesis-papers"
@@ -34,7 +35,7 @@ def formalization_managed(path):
     return path in FORMALIZATION_FILES or path.startswith(("targets/", "curated/", "proofs/", "disproofs/", "index/", "environment/", "ci/mathlib/"))
 
 
-CATALOG_FILES = {"README.md", "works.json", "nodes.json", "stats.json", "snapshot.json", "repositories.json", "archive-index.json", "factory.json", "FACTORY.md"}
+CATALOG_FILES = {"README.md", "works.json", "nodes.json", "stats.json", "snapshot.json", "repositories.json", "archive-index.json", "archive-discovery-index.json", "factory.json", "FACTORY.md"}
 
 
 def read(path):
@@ -315,6 +316,29 @@ def material_downloads(mapping, destination, aliases=None, previous_materials=No
         write(destination / (repo + ".json"), value)
 
 
+def discover_archives(output, mapping, selected, discover=discover_paper_doi.discover):
+    # Keep the SDK's rendered authority untouched. This separate candidate index
+    # is consumed by Mathesis's existing independent registry/file verifier.
+    index = read(output/'catalog/archive-index.json')
+    known = {(r['kind'], r['id'], r['version']) for r in index['entries']}
+    for work, row in sorted(selected.items()):
+        identity = ('collected', work, row['current_version'])
+        if identity in known or work not in mapping:
+            continue
+        repo = output/'papers'/mapping[work]
+        paper = read(repo/'paper.json')['work']
+        # Use the public resource identity, never an ID's spelling, to scope
+        # this adapter to collected papers. External archives retain their lane.
+        if paper.get('pdf', {}).get('url', '').split('?', 1)[0] != '/api/v1/collected-papers/'+urllib.parse.quote(work, safe='')+'/files/pdf':
+            continue
+        report = discover(repo)
+        if (report.get('status') == 'verified' and report.get('work') == work
+                and report.get('version') == row['current_version']):
+            index['entries'].append(dict(zip(('kind','id','version'), identity), doi=report['version_doi']))
+    index['entries'].sort(key=lambda r: (r['kind'],r['id'],r['version']))
+    write(output/'catalog/archive-discovery-index.json', index)
+
+
 def prepare(binary, source, stage):
     require(not stage.exists(), "stage already exists; use a fresh directory")
     stage.mkdir(parents=True)
@@ -397,6 +421,7 @@ def prepare(binary, source, stage):
         run(sys.executable, dest / "docs/layer-mathesis/scripts/paper.py", "--root", dest, "check")
         run("./tbook", "check", "--offline", cwd=dest)
     factory.render(output, planned, details, set(planned) & set(selected) - set(collected))
+    discover_archives(output, planned, selected)
     # Seal staged bytes, including plan and checklist. Apply rechecks before any mutation.
     write(stage / "seal.json", seal_files(stage))
     print("Prepared and checked; no authenticated requests or remote writes.")
