@@ -106,6 +106,13 @@ an unresolved stage; no request URL is invented.
    exposes them in Mathesis.
 
 The hourly publisher concurrency group also serializes material publication.
+Failed core public readback is retained in `paper-factory-receipts` and makes
+the run fail after independent material work finishes. It does not mark a
+paper published, waive a file or version check, or prevent other preserved
+material jobs from being observed, rendered and published under their own gates.
+Generated collection workflows use the released Pages v5 upload/deploy pair
+and bind the artifact name to the run and attempt. Retrying a deployment cannot
+select an older attempt's artifact or collide with another Pages workflow.
 No PR validation, required check, verifier environment or upstream workflow is
 changed. Its job budget permits one serial film render; a fresh organization
 App token is minted after rendering because the earlier token may have expired.
