@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-22T09:29:47.664398794Z`.
+Snapshot: `2026-11-22T10:30:07.966829131Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -31,6 +31,7 @@ Snapshot: `2026-11-22T09:29:47.664398794Z`.
 | [A degree-12 counterexample to Saniga et al.'s Section 4.4 line-subgeometry conjecture](https://github.com/mathesis-papers/10.5281-zenodo.23904467) | 2 | [DOI](https://doi.org/10.5281/zenodo.23904468) | en, zh | 2 / 1 / 0 | 5 no target yet |
 | [Reflection-symmetric diagonal synthesis: resolving a conjecture of Huang, Kosugi, Nishi and Matsushita](https://github.com/mathesis-papers/10.5281-zenodo.23885960) | 4 | [DOI](https://doi.org/10.5281/zenodo.23885961) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [Counterexamples to Conjectures 3 and 4 of Huang, Stoica, Xia and Zhong (arXiv:2006.06716v1, Section 5.2, printed page 32)](https://github.com/mathesis-papers/10.5281-zenodo.23935003) | 2 | [DOI](https://doi.org/10.5281/zenodo.23935004) | en, zh | 2 / 1 / 0 | 6 no target yet |
+| [Permuted rotor loops beyond Jenzer (2026): resolving Remark 5.5 (arXiv:2610.21593v1, p. 19)](https://github.com/mathesis-papers/jen2610-permuted-rotor-loops) | 5 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
 | [Earliest swapping for every chain length: Kamin et al. (2023), Section IV D 1, Eq. (41)](https://github.com/mathesis-papers/10.5281-zenodo.23904475) | 1 | [DOI](https://doi.org/10.5281/zenodo.23904476) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [A negative answer to Kang–Jäger's Question 1.10 on permutative lifts](https://github.com/mathesis-papers/10.5281-zenodo.23885964) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885965) | en, zh | 2 / 1 / 0 | 6 no target yet |
 | [Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2](https://github.com/mathesis-papers/khesin-li-2024-bipartite-encoder-equivalence) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 9 no target yet |

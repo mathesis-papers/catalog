@@ -1408,6 +1408,63 @@
       "work": "huang-stoica-xia-zhong-2020-tree-equations-nonconstant"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 101391,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "9c2fd275976304aa2c7693fa215fc3df33ec9e34983d9e5e25b45e410361e690",
+          "sha256": "9c2fd275976304aa2c7693fa215fc3df33ec9e34983d9e5e25b45e410361e690"
+        },
+        "source": {
+          "bytes": 19217,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "15776f3aa3e48392b337412d3bda4d39cf1a959887c18cdb0c3d6d69305c45d2",
+          "sha256": "15776f3aa3e48392b337412d3bda4d39cf1a959887c18cdb0c3d6d69305c45d2"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 9,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/QuadraticForms/JenzerPermutedRotorLoop.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/jen2610-permuted-rotor-loops",
+      "site_url": "https://papers.trureturing.org/jen2610-permuted-rotor-loops/",
+      "title": "Permuted rotor loops beyond Jenzer (2026): resolving Remark 5.5 (arXiv:2610.21593v1, p. 19)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 5,
+      "work": "jen2610-permuted-rotor-loops"
+    },
+    {
       "concept_doi": "10.5281/zenodo.23904475",
       "doi": "10.5281/zenodo.23904476",
       "files": {
@@ -3570,8 +3627,8 @@
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
     }
   ],
-  "papers": 63,
+  "papers": 64,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-22T09:29:47.664398794Z"
+  "snapshot_time": "2026-11-22T10:30:07.966829131Z"
 }

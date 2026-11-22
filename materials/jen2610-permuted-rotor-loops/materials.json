@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/jen2610-permuted-rotor-loops/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/jen2610-permuted-rotor-loops",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/jen2610-permuted-rotor-loops/",
+  "slides": [],
+  "version": 5,
+  "videos": [],
+  "visualizations": [],
+  "work": "jen2610-permuted-rotor-loops"
+}

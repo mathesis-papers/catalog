@@ -1176,6 +1176,53 @@
       "work": "huang-stoica-xia-zhong-2020-tree-equations-nonconstant"
     },
     {
+      "abstract_text": "Extending Jenzer's (2026) same-order and star-family proofs, we resolve his Remark 5.5 (arXiv:2610.21593v1, p. 19): every return permutation satisfies the rotor-loop subset formula for every anticommuting unit bivector family, without the star condition. Conjugation eliminates every off-diagonal scalar contribution except possibly complementary subsets when the family size is odd. Their total vanishes because a balanced product in an exterior algebra has even degree. Corollaries give mixed-sign compact and zero formulas, the exact chain correction, and the range and separability of every return order. For at most three factors the loop has only scalar and simple bivector parts, and every scalar power is a Chebyshev polynomial of its scalar part.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 5,
+      "doi": null,
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/QuadraticForms/JenzerPermutedRotorLoop.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 101391,
+        "sha256": "9c2fd275976304aa2c7693fa215fc3df33ec9e34983d9e5e25b45e410361e690",
+        "url": "/api/v1/collected-papers/jen2610-permuted-rotor-loops/files/pdf?version=5"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-22T10:18:25.363581930Z",
+      "record": "jen2610-permuted-rotor-loops",
+      "repository_name": "jen2610-permuted-rotor-loops",
+      "source": {
+        "bytes": 19217,
+        "sha256": "15776f3aa3e48392b337412d3bda4d39cf1a959887c18cdb0c3d6d69305c45d2",
+        "url": "/api/v1/collected-papers/jen2610-permuted-rotor-loops/files/source?version=5"
+      },
+      "title": "Permuted rotor loops beyond Jenzer (2026): resolving Remark 5.5 (arXiv:2610.21593v1, p. 19)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-22T10:18:25.363581930Z",
+          "revision": "5",
+          "version": 5
+        }
+      ],
+      "work": "jen2610-permuted-rotor-loops"
+    },
+    {
       "abstract_text": "The all-length earliest-swapping conjecture in Section IV D 1, Eq. (41), of Kamin, Shchukin, Schmidt and van Loock (2023) states that repeatedly merging an adjacent pair with smallest maximum ready time minimizes total dephasing. We give a self-contained potential proof for arbitrary nonnegative real ready times and every tie choice. The optimum is the largest ready time plus the sum of adjacent maxima minus the sum of ready times. An exact nonnegative slack formula characterizes all optimal histories. The pathwise inequality also answers the exponential-dephasing question in Section IV D 5, for the same fixed-readiness swapping model: earliest swapping simultaneously minimizes expected dephasing and maximizes every expected exponential attenuation factor.",
       "authors": [
         {

@@ -5898,6 +5898,366 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:jen2610-permuted-rotor-loops:5:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/QuadraticForms/JenzerPermutedRotorLoop.lean"
+      },
+      "lineage": "collected:jen2610-permuted-rotor-loops:s1",
+      "macros": {
+        "\\inv": "\\iota",
+        "\\scal": "\\langle #1\\rangle_0"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "jen2610-permuted-rotor-loops",
+      "scope": "in_scope",
+      "statement": "For every family satisfying \\eqref{family}, every real parameter vector,\nand every permutation $\\tau$ of $I$,\n\\begin{equation}\n\\scal{\\Theta_k(\\tau)}=\n\\sum_{S\\subseteq I}\\eta(|S|)(-1)^{\\inv(\\tau,S)}\n\\prod_{i\\in S}w_i\\prod_{i\\notin S}(1-w_i).\n\\end{equation}\nNo star condition is required.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Permuted rotor loops beyond Jenzer (2026): resolving Remark 5.5 (arXiv:2610.21593v1, p. 19)",
+      "toolchain": null,
+      "version": 5,
+      "work": "jen2610-permuted-rotor-loops"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:jen2610-permuted-rotor-loops:5:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/QuadraticForms/JenzerPermutedRotorLoop.lean"
+      },
+      "lineage": "collected:jen2610-permuted-rotor-loops:s2",
+      "macros": {
+        "\\inv": "\\iota",
+        "\\scal": "\\langle #1\\rangle_0"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "jen2610-permuted-rotor-loops",
+      "scope": "in_scope",
+      "statement": "If $\\varnothing\\ne D\\subseteq I$, then $t(B_D)=0$ unless $D=I$ and $k$\nis odd. The assertion remains true if $B_i^2=\\varepsilon_i\\in\\{-1,1\\}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Permuted rotor loops beyond Jenzer (2026): resolving Remark 5.5 (arXiv:2610.21593v1, p. 19)",
+      "toolchain": null,
+      "version": 5,
+      "work": "jen2610-permuted-rotor-loops"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:jen2610-permuted-rotor-loops:5:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/QuadraticForms/JenzerPermutedRotorLoop.lean"
+      },
+      "lineage": "collected:jen2610-permuted-rotor-loops:s3",
+      "macros": {
+        "\\inv": "\\iota",
+        "\\scal": "\\langle #1\\rangle_0"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "jen2610-permuted-rotor-loops",
+      "scope": "in_scope",
+      "statement": "In the exterior algebra on $e_1,\\ldots,e_k$, the element\n\\[\nW_\\tau=(1+e_1)\\cdots(1+e_k)\n(1-e_{\\tau(1)})\\cdots(1-e_{\\tau(k)})\n\\]\nhas no odd-degree component.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Permuted rotor loops beyond Jenzer (2026): resolving Remark 5.5 (arXiv:2610.21593v1, p. 19)",
+      "toolchain": null,
+      "version": 5,
+      "work": "jen2610-permuted-rotor-loops"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:jen2610-permuted-rotor-loops:5:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/QuadraticForms/JenzerPermutedRotorLoop.lean"
+      },
+      "lineage": "collected:jen2610-permuted-rotor-loops:s4",
+      "macros": {
+        "\\inv": "\\iota",
+        "\\scal": "\\langle #1\\rangle_0"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "jen2610-permuted-rotor-loops",
+      "scope": "in_scope",
+      "statement": "Let $B_i$ be pairwise anticommuting bivectors with\n$B_i^2=\\varepsilon_i\\in\\{-1,1\\}$. For arbitrary real $c_i,s_i$, put\n$U_i=c_i+s_iB_i$. Then for every return order,\n\\begin{equation}\nt(\\Theta_k(\\tau))=\n\\sum_{S\\subseteq I}(-1)^{|S|(|S|+1)/2+\\inv(\\tau,S)}\n\\prod_{i\\in S}(\\varepsilon_i s_i^2)\\prod_{i\\notin S}c_i^2.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Permuted rotor loops beyond Jenzer (2026): resolving Remark 5.5 (arXiv:2610.21593v1, p. 19)",
+      "toolchain": null,
+      "version": 5,
+      "work": "jen2610-permuted-rotor-loops"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:jen2610-permuted-rotor-loops:5:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/QuadraticForms/JenzerPermutedRotorLoop.lean"
+      },
+      "lineage": "collected:jen2610-permuted-rotor-loops:s5",
+      "macros": {
+        "\\inv": "\\iota",
+        "\\scal": "\\langle #1\\rangle_0"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "jen2610-permuted-rotor-loops",
+      "scope": "in_scope",
+      "statement": "Let $A$ be any unital associative real algebra with a linear functional\n$t:A\\to\\mathbb R$ satisfying $t(1)=1$ and $t(xy)=t(yx)$.\nIf $B_i\\in A$ anticommute pairwise and $B_i^2=\\varepsilon_i\\in\\{-1,1\\}$,\nthen \\eqref{mixedformula} holds for\n\\[\n(c_1+s_1B_1)\\cdots(c_k+s_kB_k)\n(c_{\\tau(1)}-s_{\\tau(1)}B_{\\tau(1)})\\cdots\n(c_{\\tau(k)}-s_{\\tau(k)}B_{\\tau(k)}).\n\\]\nNo dimension, grading or involution is needed for this algebraic statement.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Permuted rotor loops beyond Jenzer (2026): resolving Remark 5.5 (arXiv:2610.21593v1, p. 19)",
+      "toolchain": null,
+      "version": 5,
+      "work": "jen2610-permuted-rotor-loops"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:jen2610-permuted-rotor-loops:5:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/QuadraticForms/JenzerPermutedRotorLoop.lean"
+      },
+      "lineage": "collected:jen2610-permuted-rotor-loops:s6",
+      "macros": {
+        "\\inv": "\\iota",
+        "\\scal": "\\langle #1\\rangle_0"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "jen2610-permuted-rotor-loops",
+      "scope": "in_scope",
+      "statement": "For identity return order and normalized mixed-sign rotors\n$c_i^2-\\varepsilon_i s_i^2=1$, put $w_i=s_i^2$ and\n\\[\nz_i=1+\\varepsilon_iw_i+\\mathrm i\\varepsilon_iw_i\n       =\\rho_i e^{\\mathrm i\\alpha_i},\\qquad\n\\rho_i=\\sqrt{(1+\\varepsilon_iw_i)^2+w_i^2},\n\\]\nwhere $\\alpha_i=\\operatorname{atan2}(\\varepsilon_iw_i,1+\\varepsilon_iw_i)$.\nThen\n\\begin{equation}\nt(\\Theta_k(\\mathrm{id}))\n=\\operatorname{Re}\\!\\left[(1+\\mathrm i)\\prod_i z_i\\right]\n=\\sqrt2\\prod_i\\rho_i\\,\n  \\cos\\!\\left(\\frac\\pi4+\\sum_i\\alpha_i\\right).\n\\end{equation}\nIt vanishes exactly when $\\sum_i\\alpha_i\\in\\pi/4+\\pi\\mathbb Z$.\nZeros exist for some parameters exactly when at least two signs\n$\\varepsilon_i$ agree. In particular a two-factor opposite-square loop has\nscalar part $1+2w_1w_2$ and never vanishes.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Permuted rotor loops beyond Jenzer (2026): resolving Remark 5.5 (arXiv:2610.21593v1, p. 19)",
+      "toolchain": null,
+      "version": 5,
+      "work": "jen2610-permuted-rotor-loops"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:jen2610-permuted-rotor-loops:5:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/QuadraticForms/JenzerPermutedRotorLoop.lean"
+      },
+      "lineage": "collected:jen2610-permuted-rotor-loops:s7",
+      "macros": {
+        "\\inv": "\\iota",
+        "\\scal": "\\langle #1\\rangle_0"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "jen2610-permuted-rotor-loops",
+      "scope": "in_scope",
+      "statement": "Every mixed-sign family of Corollary~\\ref{mixed} has the exact chain formula\n\\begin{equation}\nt(U_1\\cdots U_k)=\n\\begin{cases}\n\\prod_i c_i,&k\\text{ even},\\\\\n\\prod_i c_i+t(B_I)\\prod_i s_i,&k\\text{ odd}.\n\\end{cases}\n\\end{equation}\nThe star condition is automatic unless $k\\equiv3\\pmod4$;\nin that remaining case it is equivalent to $t(B_I)=0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Permuted rotor loops beyond Jenzer (2026): resolving Remark 5.5 (arXiv:2610.21593v1, p. 19)",
+      "toolchain": null,
+      "version": 5,
+      "work": "jen2610-permuted-rotor-loops"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:jen2610-permuted-rotor-loops:5:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/QuadraticForms/JenzerPermutedRotorLoop.lean"
+      },
+      "lineage": "collected:jen2610-permuted-rotor-loops:s8",
+      "macros": {
+        "\\inv": "\\iota",
+        "\\scal": "\\langle #1\\rangle_0"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "jen2610-permuted-rotor-loops",
+      "scope": "in_scope",
+      "statement": "Let $1\\leq k\\leq3$, $B_i^2=\\varepsilon_i\\in\\{-1,1\\}$, and\n$c_i^2-\\varepsilon_i s_i^2=1$. For every return permutation,\n$R=\\Theta_k(\\tau)$ has the form $R=a+K$, where $a=t(R)$ and $K$ is\na simple bivector or zero, with $K^2=a^2-1$. For every integer $n\\geq0$,\n\\begin{equation}\nt(R^n)=T_n(a),\\qquad T_0(x)=1,\\quad T_1(x)=x,\\quad\nT_{n+1}(x)=2xT_n(x)-T_{n-1}(x).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Permuted rotor loops beyond Jenzer (2026): resolving Remark 5.5 (arXiv:2610.21593v1, p. 19)",
+      "toolchain": null,
+      "version": 5,
+      "work": "jen2610-permuted-rotor-loops"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:jen2610-permuted-rotor-loops:5:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/QuadraticForms/JenzerPermutedRotorLoop.lean"
+      },
+      "lineage": "collected:jen2610-permuted-rotor-loops:s9",
+      "macros": {
+        "\\inv": "\\iota",
+        "\\scal": "\\langle #1\\rangle_0"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "jen2610-permuted-rotor-loops",
+      "scope": "in_scope",
+      "statement": "For the square-minus-one formula, let $G_\\tau$ be the graph on $I$ with\nedge $\\{i,j\\}$ when $i<j$ and $\\tau^{-1}(i)<\\tau^{-1}(j)$.\nWrite $F_\\tau(w)=t(\\Theta_k(\\tau))$ and let $e_\\tau(S)$ count the\nedges induced by $S$. Then\n\\begin{equation}\nF_\\tau(w)=\\sum_{S\\subseteq I}(-1)^{e_\\tau(S)}\n       \\prod_{i\\in S}w_i\\prod_{i\\notin S}(1-w_i).\n\\end{equation}\nFor reverse return order its range is $\\{1\\}$; for every other order\nits range on $[0,1]^k$ is exactly $[-1,1]$, and it has a zero.\nIt factors across the connected components of $G_\\tau$, and cannot\nfactor across any partition that cuts an edge. In particular it is a\nproduct of single-variable functions exactly for reverse order.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Permuted rotor loops beyond Jenzer (2026): resolving Remark 5.5 (arXiv:2610.21593v1, p. 19)",
+      "toolchain": null,
+      "version": 5,
+      "work": "jen2610-permuted-rotor-loops"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing:1:s1",
       "kind": "paper",
       "label": "Theorem",
