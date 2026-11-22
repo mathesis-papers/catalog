@@ -5294,6 +5294,761 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:hanna-a181074-binomial-exponentials:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181074Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181074-binomial-exponentials:s1",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181074-binomial-exponentials",
+      "scope": "in_scope",
+      "statement": "Let \\(U(t)\\in1+t\\mathbb Z[[t]]\\), and write\n\\(c(n,k)=[t^k]U(t)^n\\) for \\(n\\ge1\\), \\(k\\ge0\\).\nLet the nonnegative exponent $E(n,k)$ have one of the forms\n\\begin{align*}\n E(n,k)&=rk+s &&(r,s\\ge1),\\\\\n E(n,k)&=rn+sk+q &&(r\\ge1,\\ s,q\\ge0),\\\\\n E(n,k)&=n+k-1.\n\\end{align*}\nAll parameters here are integers. Then\nthe series\n\\begin{equation}\n A_{U,E}(x)=\\exp\\left(\\sum_{n\\ge1,k\\ge0}\n                      c(n,k)^{E(n,k)}\\frac{x^{n+k}}{n}\\right)\n\\end{equation}\nbelongs to \\(1+x\\mathbb Z[[x]]\\).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Hanna's conjecture in OEIS A181074, Comments (2 October 2010): extensions of Moree (2003) and Gossow (2024)",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-a181074-binomial-exponentials"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:hanna-a181074-binomial-exponentials:3:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181074Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181074-binomial-exponentials:s10",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181074-binomial-exponentials",
+      "scope": "in_scope",
+      "statement": "The row sums A167007 of A209424 and A184730 of A228899, and the\ncolumn A209425 and central terms A209426 of A209424, are integral.\nTheir antidiagonal sums are respectively A166894 and A181070.\nColumn one of A209424 and the subdiagonal of A228899 both equal\n$\\sum_{j=1}^n j^{j-1}$, the defining formula of A060946.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Hanna's conjecture in OEIS A181074, Comments (2 October 2010): extensions of Moree (2003) and Gossow (2024)",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-a181074-binomial-exponentials"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s11",
+      "contributor": null,
+      "identity": "collected:hanna-a181074-binomial-exponentials:3:s11",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181074Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181074-binomial-exponentials:s11",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181074-binomial-exponentials",
+      "scope": "in_scope",
+      "statement": "The lowered-power variants asserted nonintegral in A228899 and A184730,\nComments, are nonintegral.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Hanna's conjecture in OEIS A181074, Comments (2 October 2010): extensions of Moree (2003) and Gossow (2024)",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-a181074-binomial-exponentials"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s12",
+      "contributor": null,
+      "identity": "collected:hanna-a181074-binomial-exponentials:3:s12",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181074Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181074-binomial-exponentials:s12",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181074-binomial-exponentials",
+      "scope": "in_scope",
+      "statement": "The arrays A209427 and A219207 are integral and satisfy\n\\eqref{eq:array}. A maximizing column $k_n$ of row $n$ of A219207 satisfies\n$k_n/n\\to u$, where $u$ is the unique root in $(1/2,1)$ of\n$(1-u)^{2u-1}=u^{2u}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Hanna's conjecture in OEIS A181074, Comments (2 October 2010): extensions of Moree (2003) and Gossow (2024)",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-a181074-binomial-exponentials"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hanna-a181074-binomial-exponentials:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181074Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181074-binomial-exponentials:s2",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181074-binomial-exponentials",
+      "scope": "in_scope",
+      "statement": "For \\(U\\in\\mathbb Z[[t]]\\), \\(n\\ge1\\), \\(k\\ge0\\), and prime \\(p\\),\n\\begin{align}\n n&\\mid k\\,c(n,k),\\\\\n c(pn,pk)&\\equiv c(n,k)\\pmod {p^{v_p(n)+1}}.\n\\end{align}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Hanna's conjecture in OEIS A181074, Comments (2 October 2010): extensions of Moree (2003) and Gossow (2024)",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-a181074-binomial-exponentials"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hanna-a181074-binomial-exponentials:3:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181074Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181074-binomial-exponentials:s3",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181074-binomial-exponentials",
+      "scope": "in_scope",
+      "statement": "Under the hypotheses of Theorem~\\ref{thm:general}, put\n\\(F(n,k)=c(n,k)^{E(n,k)}\\). Then\n\\begin{equation}\n n\\mid kF(n,k),\\qquad\n F(pn,pk)\\equiv F(n,k)\\pmod {p^{v_p(n)+1}}\n\\end{equation}\nfor every \\(n\\ge1\\), \\(k\\ge0\\), and prime \\(p\\).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Hanna's conjecture in OEIS A181074, Comments (2 October 2010): extensions of Moree (2003) and Gossow (2024)",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-a181074-binomial-exponentials"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hanna-a181074-binomial-exponentials:3:s4",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181074Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181074-binomial-exponentials:s4",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181074-binomial-exponentials",
+      "scope": "in_scope",
+      "statement": "Let \\(F(n,k)\\in\\mathbb Z\\), \\(n\\ge1\\), \\(k\\ge0\\), satisfy\n\\eqref{eq:array}. Define\n\\begin{equation}\n g_m=\\sum_{n=1}^m\\frac{m}{n}F(n,m-n),\\qquad m\\ge1.\n\\end{equation}\nThen \\(g_m\\in\\mathbb Z\\), and for every prime \\(p\\), \\(m\\ge1\\),\n\\begin{equation}\n g_{pm}\\equiv g_m\\pmod {p^{v_p(m)+1}}.\n\\end{equation}\nConsequently\n\\begin{equation}\n \\exp\\left(\\sum_{m\\ge1}g_m\\frac{x^m}{m}\\right)\n  =\\prod_{m\\ge1}(1-x^m)^{-h_m}\\in1+x\\mathbb Z[[x]],\n \\qquad h_m=\\frac1m\\sum_{d\\mid m}\\mu(d)g_{m/d}\\in\\mathbb Z.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Hanna's conjecture in OEIS A181074, Comments (2 October 2010): extensions of Moree (2003) and Gossow (2024)",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-a181074-binomial-exponentials"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hanna-a181074-binomial-exponentials:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181074Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181074-binomial-exponentials:s5",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181074-binomial-exponentials",
+      "scope": "in_scope",
+      "statement": "Let $P(t)\\in1+t\\mathbb Z[t]$ have degree at most $d\\ge1$, and let\n$r,s\\ge1$ be integers. Put $c(n,k)=[t^k]P(t)^n$. Then\n\\[\n \\exp\\left(\\sum_{n\\ge1}\\sum_{k=0}^{dn}\n c(n,k)^{r(dn-k)+s}\\frac{x^{n+k}}n\\right)\\in1+x\\mathbb Z[[x]].\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Hanna's conjecture in OEIS A181074, Comments (2 October 2010): extensions of Moree (2003) and Gossow (2024)",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-a181074-binomial-exponentials"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hanna-a181074-binomial-exponentials:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181074Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181074-binomial-exponentials:s6",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181074-binomial-exponentials",
+      "scope": "in_scope",
+      "statement": "The eight exponential series in Table~\\ref{tab:coverage} have nonnegative\ninteger coefficients.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Hanna's conjecture in OEIS A181074, Comments (2 October 2010): extensions of Moree (2003) and Gossow (2024)",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-a181074-binomial-exponentials"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:hanna-a181074-binomial-exponentials:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181074Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181074-binomial-exponentials:s7",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181074-binomial-exponentials",
+      "scope": "in_scope",
+      "statement": "Each of the eight logarithmic sequences below is integral and satisfies\nthe Dold congruences \\eqref{eq:dold}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Hanna's conjecture in OEIS A181074, Comments (2 October 2010): extensions of Moree (2003) and Gossow (2024)",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-a181074-binomial-exponentials"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:hanna-a181074-binomial-exponentials:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181074Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181074-binomial-exponentials:s8",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181074-binomial-exponentials",
+      "scope": "in_scope",
+      "statement": "For $g_m=\\sum_{k=0}^{\\lfloor m/2\\rfloor}\n\\binom{m-k}{k}^{m-k}m/(m-k)$, one has\n\\[\n \\lim_{m\\to\\infty}g_m^{1/m^2}\n =\\left(\\frac{1-r}{r}\\right)^{(1-r)^2/(3-4r)},\n\\]\nwhere $r$ is the unique root in $(0,1/2)$ of\n$(1-2r)^{3-4r}=(1-r)^{2(1-r)}r^{1-2r}$.\nThe same limit holds for the defining sum\n$b_m=\\sum_{k=0}^{\\lfloor m/2\\rfloor}\\binom{m-k}{k}^{m-k}$ of A209428.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Hanna's conjecture in OEIS A181074, Comments (2 October 2010): extensions of Moree (2003) and Gossow (2024)",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-a181074-binomial-exponentials"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:hanna-a181074-binomial-exponentials:3:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181074Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181074-binomial-exponentials:s9",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181074-binomial-exponentials",
+      "scope": "in_scope",
+      "statement": "Suppose $F(n,k)\\in\\mathbb Z$ satisfies \\eqref{eq:array} for $n\\ge1$, $k\\ge0$,\nand for each $n$ has finite support in $k$. Then\n\\[\n B_F(x,y)=\\exp\\left(\\sum_{n\\ge1,k\\ge0}F(n,k)\\frac{x^ny^k}{n}\\right)\n =\\prod_{n\\ge1,k\\ge0}(1-x^ny^k)^{-h_{n,k}}\n \\in1+x\\mathbb Z[y][[x]],\n\\]\nwhere $h_{n,k}=n^{-1}\\sum_{d\\mid\\gcd(n,k)}\\mu(d)F(n/d,k/d)$.\nIn particular the four triangles in Table~\\ref{tab:bivariate} are integral.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Hanna's conjecture in OEIS A181074, Comments (2 October 2010): extensions of Moree (2003) and Gossow (2024)",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-a181074-binomial-exponentials"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:hanna-a181080-integrality:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181080Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181080-integrality:s1",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\vp": "v_p"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181080-integrality",
+      "scope": "in_scope",
+      "statement": "The series $A(x)$ in \\eqref{eq:main} belongs to $1+x\\Z[[x]]$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's conjecture in OEIS A181080, COMMENTS, first line: integrality and binomial-power companions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a181080-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hanna-a181080-integrality:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181080Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181080-integrality:s2",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\vp": "v_p"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181080-integrality",
+      "scope": "in_scope",
+      "statement": "Suppose integers $c_m$, $m\\geq1$, satisfy\n\\begin{equation}\n c_{pm}\\equiv c_m\\pmod{p^{\\vp(m)+1}}\n \\qquad(p\\text{ prime},\\ m\\geq1).\n\\end{equation}\nThen $\\exp(\\sum_{m\\geq1}c_mx^m/m)$ has integer coefficients.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's conjecture in OEIS A181080, COMMENTS, first line: integrality and binomial-power companions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a181080-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hanna-a181080-integrality:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181080Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181080-integrality:s3",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\vp": "v_p"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181080-integrality",
+      "scope": "in_scope",
+      "statement": "For $U(t)\\in\\Z[[t]]$, write $B(n,k)=[t^k]U(t)^n$. For $n\\geq1$, $k\\geq0$\nand every prime $p$,\n\\begin{equation}\n n\\mid kB(n,k),\\qquad\n B(pn,pk)\\equiv B(n,k)\\pmod{p^{\\vp(n)+1}}.\n\\end{equation}\nIn particular, these statements hold for $B(n,k)=\\binom nk$ and\n$B(n,k)=\\binom{n+k-1}{k}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's conjecture in OEIS A181080, COMMENTS, first line: integrality and binomial-power companions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a181080-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hanna-a181080-integrality:2:s4",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181080Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181080-integrality:s4",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\vp": "v_p"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181080-integrality",
+      "scope": "in_scope",
+      "statement": "Let $n\\geq1$, $b,t\\geq0$ be integers with $n\\mid tb$. Then\n\\begin{equation}\n b^{pt+1}\\equiv b^{t+1}\\pmod{p^{\\vp(n)+1}}\n \\quad(p\\text{ prime}).\n\\end{equation}\nAlso, if $e\\geq n$ and $n\\mid eb$, then\n\\begin{equation}\n b^{pe}\\equiv b^e\\pmod{p^{\\vp(n)+1}}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's conjecture in OEIS A181080, COMMENTS, first line: integrality and binomial-power companions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a181080-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hanna-a181080-integrality:2:s5",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181080Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181080-integrality:s5",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\vp": "v_p"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181080-integrality",
+      "scope": "in_scope",
+      "statement": "Let $F(n,k)\\in\\Z$ for $n\\geq1$, $k\\geq0$. Suppose\n\\begin{equation}\n n\\mid kF(n,k),\\qquad\n F(pn,pk)\\equiv F(n,k)\\pmod{p^{\\vp(n)+1}}\n\\end{equation}\nfor every prime $p$. Then\n$\\exp(\\sum_{n\\geq1,k\\geq0}F(n,k)x^{n+k}/n)\\in1+x\\Z[[x]]$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's conjecture in OEIS A181080, COMMENTS, first line: integrality and binomial-power companions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a181080-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hanna-a181080-integrality:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181080Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181080-integrality:s6",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\vp": "v_p"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181080-integrality",
+      "scope": "in_scope",
+      "statement": "Let $U(t)\\in\\Z_{\\geq0}[[t]]$, $U(0)=1$, and put\n$B(n,k)=[t^k]U(t)^n$. The series\n\\[\n \\exp\\!\\left(\\sum_{n\\geq1,k\\geq0}\n B(n,k)^{rn+sk+\\delta}\\frac{x^{n+k}}n\\right)\n\\]\nhas integer coefficients in each of the following ranges of integer parameters:\n\\[\n\\begin{array}{c|c}\n\\delta\\geq1 & r,s\\geq0\\\\\n\\delta=0 & r\\geq1,\\ s\\geq0\\\\\n\\delta=-1 & r,s\\geq1.\n\\end{array}\n\\]\nAll exponents are nonnegative. In the third range the exponent can vanish\nonly at $n=1,k=0,r=1$, where $B(n,0)=1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's conjecture in OEIS A181080, COMMENTS, first line: integrality and binomial-power companions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a181080-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:hanna-a181080-integrality:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181080Integrality.lean"
+      },
+      "lineage": "collected:hanna-a181080-integrality:s7",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\vp": "v_p"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a181080-integrality",
+      "scope": "in_scope",
+      "statement": "The seven companion exponentials in Table~\\ref{tab:families} have\ninteger coefficients. In each of its eight rows the sequence\n$c_m=m[x^m]\\log A(x)$ is the indicated integer sequence and satisfies\n\\eqref{eq:dold}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's conjecture in OEIS A181080, COMMENTS, first line: integrality and binomial-power companions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a181080-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:hanna-a381355:2:s1",
       "kind": "paper",
       "label": "Lemma",

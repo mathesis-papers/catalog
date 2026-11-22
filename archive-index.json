@@ -37,6 +37,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24405774",
+      "id": "bala-machine3626-exact-halting-time",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.23971279",
       "id": "bala295462",
       "kind": "collected",
@@ -115,6 +121,24 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24408311",
+      "id": "hanna-a181074-binomial-exponentials",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24407818",
+      "id": "hanna-a181080-integrality",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24406600",
+      "id": "hanna-a381355",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23903301",
       "id": "hardin-barker-a209723-edge-differences",
       "kind": "collected",
@@ -139,6 +163,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24404942",
+      "id": "jen2610-permuted-rotor-loops",
+      "kind": "collected",
+      "version": 5
+    },
+    {
       "doi": "10.5281/zenodo.23904476",
       "id": "kamin-shchukin-schmidt-van-loock-2023-swap-earliest-dephasing",
       "kind": "collected",
@@ -147,6 +177,12 @@
     {
       "doi": "10.5281/zenodo.23885965",
       "id": "kang-jager-2026-universal-permutative-lift-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24404944",
+      "id": "khesin-li-2024-bipartite-encoder-equivalence",
       "kind": "collected",
       "version": 2
     },
@@ -187,6 +223,12 @@
       "version": 4
     },
     {
+      "doi": "10.5281/zenodo.24405789",
+      "id": "mathar-a174193-order-four-recurrence",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.23931738",
       "id": "mathoverflow-469781-weighted-orthogonal-minors",
       "kind": "collected",
@@ -221,6 +263,12 @@
       "id": "nath2021-commuting-cn-conjecture2",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24405799",
+      "id": "oeis-a112399-morken-first-divisor-sum",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.23957584",
@@ -275,6 +323,12 @@
       "id": "pozsgay-wanless-nonlinear-classical-factors",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24405806",
+      "id": "projective-toric-design-subgroup-counterexample",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.23919071",
@@ -353,8 +407,14 @@
       "id": "xu-et-al-2023-noisy-ghz-witness-bound-gap",
       "kind": "collected",
       "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.24405810",
+      "id": "zhan-gupta-hillery-detector-sensor-flat-averaging",
+      "kind": "collected",
+      "version": 3
     }
   ],
-  "generated_at": "2026-11-22T15:29:56.396743631Z",
+  "generated_at": "2026-11-22T17:29:48.378030707Z",
   "schema": "mathesis.archive-index.v1"
 }

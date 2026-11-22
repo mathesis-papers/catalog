@@ -294,9 +294,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24405773",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24405774",
       "lean_source": {
         "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
         "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
@@ -988,6 +988,100 @@
       "work": "han-pedon-metallic-hankel-quasipolynomial"
     },
     {
+      "abstract_text": "Extending coefficient congruences of Moree (2003) and Gossow (2024), we prove Paul D. Hanna's conjecture in the Comments of OEIS A181074 (2 October 2010) that exp(sum_{n>=1,k>=0} binomial(n+k-1,k)^(k+1) x^(n+k)/n) has integer coefficients. The general affine-power and reflected-polynomial theorems prove six companion integrality conjectures. A bivariate Euler product treats A209424, A228899, A209196 and A228904, including row sums A167007 and A184730. Written proofs also give logarithmic Dold congruences and Kotesovec's limits in A209428 and A166895. Exact rational coefficients confirm the sources' lowered-power nonintegrality assertions. The exponential/Euler-product criterion is credited to Du, Huang and Li (2005), and its Dold formulation to Byszewski, Graff and Ward (2021).",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24408310",
+      "current_version": 3,
+      "doi": "10.5281/zenodo.24408311",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181074Integrality.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 127723,
+        "sha256": "f2988362a32f8841448db08df08372d987e12578fca5f82a87b09202cae2033c",
+        "url": "/api/v1/collected-papers/hanna-a181074-binomial-exponentials/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-22T15:44:15.786410175Z",
+      "record": "hanna-a181074-binomial-exponentials",
+      "repository_name": "10.5281-zenodo.24408310",
+      "source": {
+        "bytes": 39614,
+        "sha256": "ac3e30db988f036c39673bfcd013ea0a79ede0d934880461f67542b71888aded",
+        "url": "/api/v1/collected-papers/hanna-a181074-binomial-exponentials/files/source?version=3"
+      },
+      "title": "Proving Hanna's conjecture in OEIS A181074, Comments (2 October 2010): extensions of Moree (2003) and Gossow (2024)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-22T15:44:15.786410175Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "hanna-a181074-binomial-exponentials"
+    },
+    {
+      "abstract_text": "We prove Paul D. Hanna's integrality conjecture in OEIS A181080, COMMENTS, first line (2 October 2010), for the series specified in NAME: exp(sum over n>=1 and 0<=k<=n of binomial(n,k)^(n-k+1) x^(n+k)/n) has integer coefficients. Prime-scaling congruences for binomial coefficients imply Dold congruences for its logarithmic derivative. The same argument proves the related assertions for A181070, A181074, A181076, A181078, A181082, A181084 and A166894, and gives integer logarithmic sequences in all eight cases. A linear-exponent extension applies to powers of any nonnegative integral series with constant term one. We also verify Hanna's three nonintegral comparison series and correct the exponential cross-reference in A181079.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24407817",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.24407818",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181080Integrality.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 89530,
+        "sha256": "3d543dd925e0538c57b559fbc432ffdfaca7f9c41b8c8cc9fa2af80598a4378e",
+        "url": "/api/v1/collected-papers/hanna-a181080-integrality/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-22T15:30:13.074747022Z",
+      "record": "hanna-a181080-integrality",
+      "repository_name": "10.5281-zenodo.24407817",
+      "source": {
+        "bytes": 16697,
+        "sha256": "5224bbb10b7fc6365983eb6182c02e615ccb594666b388b84c11a9591a8a7d77",
+        "url": "/api/v1/collected-papers/hanna-a181080-integrality/files/source?version=2"
+      },
+      "title": "Proof of Hanna's conjecture in OEIS A181080, COMMENTS, first line: integrality and binomial-power companions",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-22T15:30:13.074747022Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hanna-a181080-integrality"
+    },
+    {
       "abstract_text": "We prove Paul D. Hanna's conjecture in the COMMENTS of OEIS A381355, revision 13 (March 12, 2025): its nth term is divisible by the nth prime for every n>1. The source series of A381353 exists uniquely over the rationals and has integer coefficients. More generally, positive exponents m_n with gcd(m_n,n!)=1 define an integral source series with any prescribed integer linear coefficient, and m_n divides the nth logarithmic coefficient. The same argument proves companion integrality and the prime divisibility conjecture in A393867. A parity argument proves its oddness conjecture and the even-run conjecture in A393868. We also correct the coefficient index in A393866, FORMULA (2), and give a general nonzero-diagonal congruence.",
       "authors": [
         {
@@ -999,9 +1093,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24406599",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24406600",
       "lean_source": {
         "revision": "de81f09d1b5868b1ef5f62c9c8cab94962481c39",
         "url": "https://github.com/the-omega-institute/trureturing/blob/de81f09d1b5868b1ef5f62c9c8cab94962481c39/D5/S1/Recurrence/Invariants/HannaPrimeIndexLogDivisibility.lean"
@@ -1281,9 +1375,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24404941",
       "current_version": 5,
-      "doi": null,
+      "doi": "10.5281/zenodo.24404942",
       "lean_source": {
         "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
         "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/QuadraticForms/JenzerPermutedRotorLoop.lean"
@@ -1422,9 +1516,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24404943",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24404944",
       "lean_source": {
         "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
         "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.lean"
@@ -1800,9 +1894,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24405788",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24405789",
       "lean_source": {
         "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
         "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S1/Recurrence/Algebraic/MatharA174193OrderFourRecurrence.lean"
@@ -2129,9 +2223,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24405798",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24405799",
       "lean_source": {
         "revision": "4a11a6467d4ba3682c7630cd22c551cd11074cc6",
         "url": "https://github.com/the-omega-institute/trureturing/blob/4a11a6467d4ba3682c7630cd22c551cd11074cc6/D5/S3/Arith/MoebiusLogarithmic/MorkenFirstDivisorSum.lean"
@@ -2599,9 +2693,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24405805",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24405806",
       "lean_source": {
         "revision": "f7ba557ae2a5d2c3a3a519e0713d65ac86af2973",
         "url": "https://github.com/the-omega-institute/trureturing/blob/f7ba557ae2a5d2c3a3a519e0713d65ac86af2973/D5/S3/Quantum/Measurements/ProjectiveToricDesignNonGroup.lean"
@@ -3257,9 +3351,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24405809",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24405810",
       "lean_source": {
         "revision": "15070fa5f71c4237050acc7ebe058958cbc04e6e",
         "url": "https://github.com/the-omega-institute/trureturing/blob/15070fa5f71c4237050acc7ebe058958cbc04e6e/D5/S3/Quantum/Measurements/DetectorSensorStrictAveragingRefutation.lean"

@@ -1,0 +1,14 @@
+{
+  "doi": "10.5281/zenodo.24408311",
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.24408310/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.24408310",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/10.5281-zenodo.24408310/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "hanna-a181074-binomial-exponentials"
+}

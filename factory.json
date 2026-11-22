@@ -337,8 +337,8 @@
       "work": "bajnok-beatty-original-conjecture-4-1"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24405773",
+      "doi": "10.5281/zenodo.24405774",
       "files": {
         "pdf": {
           "bytes": 106481,
@@ -375,7 +375,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1184,8 +1183,120 @@
       "work": "han-pedon-metallic-hankel-quasipolynomial"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24408310",
+      "doi": "10.5281/zenodo.24408311",
+      "files": {
+        "pdf": {
+          "bytes": 127723,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "f2988362a32f8841448db08df08372d987e12578fca5f82a87b09202cae2033c",
+          "sha256": "f2988362a32f8841448db08df08372d987e12578fca5f82a87b09202cae2033c"
+        },
+        "source": {
+          "bytes": 39614,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "ac3e30db988f036c39673bfcd013ea0a79ede0d934880461f67542b71888aded",
+          "sha256": "ac3e30db988f036c39673bfcd013ea0a79ede0d934880461f67542b71888aded"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 12,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181074Integrality.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.24408310",
+      "site_url": "https://papers.trureturing.org/10.5281-zenodo.24408310/",
+      "title": "Proving Hanna's conjecture in OEIS A181074, Comments (2 October 2010): extensions of Moree (2003) and Gossow (2024)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "hanna-a181074-binomial-exponentials"
+    },
+    {
+      "concept_doi": "10.5281/zenodo.24407817",
+      "doi": "10.5281/zenodo.24407818",
+      "files": {
+        "pdf": {
+          "bytes": 89530,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "3d543dd925e0538c57b559fbc432ffdfaca7f9c41b8c8cc9fa2af80598a4378e",
+          "sha256": "3d543dd925e0538c57b559fbc432ffdfaca7f9c41b8c8cc9fa2af80598a4378e"
+        },
+        "source": {
+          "bytes": 16697,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "5224bbb10b7fc6365983eb6182c02e615ccb594666b388b84c11a9591a8a7d77",
+          "sha256": "5224bbb10b7fc6365983eb6182c02e615ccb594666b388b84c11a9591a8a7d77"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S1/Recurrence/Algebraic/HannaA181080Integrality.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.24407817",
+      "site_url": "https://papers.trureturing.org/10.5281-zenodo.24407817/",
+      "title": "Proof of Hanna's conjecture in OEIS A181080, COMMENTS, first line: integrality and binomial-power companions",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "hanna-a181080-integrality"
+    },
+    {
+      "concept_doi": "10.5281/zenodo.24406599",
+      "doi": "10.5281/zenodo.24406600",
       "files": {
         "pdf": {
           "bytes": 87652,
@@ -1222,7 +1333,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1522,8 +1632,8 @@
       "work": "huang-stoica-xia-zhong-2020-tree-equations-nonconstant"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24404941",
+      "doi": "10.5281/zenodo.24404942",
       "files": {
         "pdf": {
           "bytes": 101391,
@@ -1560,7 +1670,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1691,8 +1800,8 @@
       "work": "kang-jager-2026-universal-permutative-lift-refutation"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24404943",
+      "doi": "10.5281/zenodo.24404944",
       "files": {
         "pdf": {
           "bytes": 97787,
@@ -1729,7 +1838,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2143,8 +2251,8 @@
       "work": "mathar-a027182-closed-form"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24405788",
+      "doi": "10.5281/zenodo.24405789",
       "files": {
         "pdf": {
           "bytes": 95612,
@@ -2181,7 +2289,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2536,8 +2643,8 @@
       "work": "nath2021-commuting-cn-conjecture2"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24405798",
+      "doi": "10.5281/zenodo.24405799",
       "files": {
         "pdf": {
           "bytes": 109476,
@@ -2574,7 +2681,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3113,8 +3219,8 @@
       "work": "pozsgay-wanless-nonlinear-classical-factors"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24405805",
+      "doi": "10.5281/zenodo.24405806",
       "files": {
         "pdf": {
           "bytes": 102405,
@@ -3151,7 +3257,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3912,8 +4017,8 @@
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24405809",
+      "doi": "10.5281/zenodo.24405810",
       "files": {
         "pdf": {
           "bytes": 97804,
@@ -3950,7 +4055,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3969,8 +4073,8 @@
       "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
     }
   ],
-  "papers": 70,
+  "papers": 72,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-22T15:29:56.396743631Z"
+  "snapshot_time": "2026-11-22T17:29:48.378030707Z"
 }
