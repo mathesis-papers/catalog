@@ -27,6 +27,7 @@ jobs:
     timeout-minutes: 10
     permissions:
       contents: read
+      actions: read
       pages: write
       id-token: write
     environment:
@@ -40,11 +41,14 @@ jobs:
           cp -R site/. _site/
           cp paper.pdf _site/paper.pdf
           touch _site/.nojekyll
-      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: _site
-      - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e
+          name: paper-${{ github.run_id }}-${{ github.run_attempt }}
+      - uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
         id: deployment
+        with:
+          artifact_name: paper-${{ github.run_id }}-${{ github.run_attempt }}
 """
 
 

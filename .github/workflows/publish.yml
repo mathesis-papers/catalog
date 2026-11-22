@@ -89,7 +89,11 @@ jobs:
           PUBLISHER_ISSUES: ${{ steps.app.outcome == 'success' && '1' || '0' }}
         run: python3 scripts/publish.py apply --stage "$RUNNER_TEMP/mathesis-publisher"
       - name: Check deployed pages and frozen files
+        id: public_readback
         if: ${{ !inputs.dry_run }}
+        # One stale deployment must not starve unrelated material jobs. Report
+        # the original failure after the independent work and receipts finish.
+        continue-on-error: true
         run: |
           python3 scripts/verify_factory.py --stage "$RUNNER_TEMP/mathesis-publisher" \
             --report "$RUNNER_TEMP/mathesis-publisher-live.json" --attempts 10
@@ -171,3 +175,8 @@ jobs:
             ${{ runner.temp }}/mathesis-publisher-live.json
           if-no-files-found: ignore
           retention-days: 30
+      - name: Report incomplete public readback
+        if: ${{ !cancelled() && steps.public_readback.outcome == 'failure' }}
+        run: |
+          echo '::error::Paper deployments failed exact public readback; see paper-factory-receipts. Independent material work was allowed to advance.'
+          exit 1
