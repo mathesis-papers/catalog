@@ -5294,6 +5294,279 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:hanna-a381355:2:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "de81f09d1b5868b1ef5f62c9c8cab94962481c39",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/de81f09d1b5868b1ef5f62c9c8cab94962481c39/D5/S1/Recurrence/Invariants/HannaPrimeIndexLogDivisibility.lean"
+      },
+      "lineage": "collected:hanna-a381355:s1",
+      "macros": {
+        "\\coeff": "[x^{#1}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a381355",
+      "scope": "in_scope",
+      "statement": "Let $N\\ge1$ and $m\\ge1$ be integers with $\\gcd(m,N!)=1$.\nFor every $B\\in1+x\\mathbb Z[[x]]$,\n\\[\n B(x)^m\\equiv1\\pmod{(m,x^{N+1})}.\n\\]\nEquivalently, $m$ divides $\\coeff j B^m$ for every $1\\le j\\le N$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-index divisibility in Hanna's OEIS A381355: Revision 13, COMMENTS, and shifted-power siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a381355"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hanna-a381355:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "de81f09d1b5868b1ef5f62c9c8cab94962481c39",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/de81f09d1b5868b1ef5f62c9c8cab94962481c39/D5/S1/Recurrence/Invariants/HannaPrimeIndexLogDivisibility.lean"
+      },
+      "lineage": "collected:hanna-a381355:s2",
+      "macros": {
+        "\\coeff": "[x^{#1}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a381355",
+      "scope": "in_scope",
+      "statement": "Fix $c\\in\\mathbb Z$ and a sequence of positive integers $(m_n)_{n\\ge2}$\nsuch that $\\gcd(m_n,n!)=1$ for every $n\\ge2$.\nThere is exactly one $F\\in\\mathbb Q[[x]]$ such that\n\\[\n \\coeff0F=1,\\qquad\\coeff1F=c,\\qquad\n \\coeff nF^{m_n}=0\\quad(n\\ge2).\n\\]\nIt belongs to $\\mathbb Z[[x]]$. If $a_n=\\coeff{n-1}F'/F$, then\n$a_n\\in\\mathbb Z$ and $m_n\\mid a_n$ for every $n\\ge2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-index divisibility in Hanna's OEIS A381355: Revision 13, COMMENTS, and shifted-power siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a381355"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hanna-a381355:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "de81f09d1b5868b1ef5f62c9c8cab94962481c39",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/de81f09d1b5868b1ef5f62c9c8cab94962481c39/D5/S1/Recurrence/Invariants/HannaPrimeIndexLogDivisibility.lean"
+      },
+      "lineage": "collected:hanna-a381355:s3",
+      "macros": {
+        "\\coeff": "[x^{#1}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a381355",
+      "scope": "in_scope",
+      "statement": "The series in \\eqref{eq:source} exists uniquely over $\\mathbb Q$, has\ninteger coefficients, and its sequence \\eqref{eq:target} satisfies\n$p_n\\mid a_n$ for every $n>1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-index divisibility in Hanna's OEIS A381355: Revision 13, COMMENTS, and shifted-power siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a381355"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hanna-a381355:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "de81f09d1b5868b1ef5f62c9c8cab94962481c39",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/de81f09d1b5868b1ef5f62c9c8cab94962481c39/D5/S1/Recurrence/Invariants/HannaPrimeIndexLogDivisibility.lean"
+      },
+      "lineage": "collected:hanna-a381355:s4",
+      "macros": {
+        "\\coeff": "[x^{#1}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a381355",
+      "scope": "in_scope",
+      "statement": "For the same $F$, every $\\coeff jF^{p_n}/p_n$ is an integer when\n$n\\ge2$ and $1\\le j<p_n$. In particular,\n\\[\n b_n=\\frac{\\coeff{n-1}F^{p_n}}{p_n}\\in\\mathbb Z\\quad(n\\ge2).\n\\]\nThe logarithmic reconstruction is\n\\[\n F(x)=\\exp\\left(\\sum_{n\\ge1}\\frac{a_n}{n}x^n\\right)\n \\quad\\text{in }\\mathbb Q[[x]].\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-index divisibility in Hanna's OEIS A381355: Revision 13, COMMENTS, and shifted-power siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a381355"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hanna-a381355:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "de81f09d1b5868b1ef5f62c9c8cab94962481c39",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/de81f09d1b5868b1ef5f62c9c8cab94962481c39/D5/S1/Recurrence/Invariants/HannaPrimeIndexLogDivisibility.lean"
+      },
+      "lineage": "collected:hanna-a381355:s5",
+      "macros": {
+        "\\coeff": "[x^{#1}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a381355",
+      "scope": "in_scope",
+      "statement": "Under the exponent hypotheses of Theorem~\\ref{thm:general}, let\n$c,d_2,d_3,\\ldots$ be any integers. The equations\n$F(0)=1$, $\\coeff1F=c$, and\n$\\coeff nF^{m_n}=m_nd_n$ for $n\\ge2$ determine a unique rational\nseries. It is integral, and\n\\[\n \\coeff{n-1}F'/F\\equiv nd_n\\pmod {m_n}\\quad(n\\ge2).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-index divisibility in Hanna's OEIS A381355: Revision 13, COMMENTS, and shifted-power siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a381355"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hanna-a381355:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "de81f09d1b5868b1ef5f62c9c8cab94962481c39",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/de81f09d1b5868b1ef5f62c9c8cab94962481c39/D5/S1/Recurrence/Invariants/HannaPrimeIndexLogDivisibility.lean"
+      },
+      "lineage": "collected:hanna-a381355:s6",
+      "macros": {
+        "\\coeff": "[x^{#1}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a381355",
+      "scope": "in_scope",
+      "statement": "Equation~\\eqref{eq:shift} has a unique rational solution, which is integral,\nand $p_n\\mid\\alpha_n$ for every $n>1$.\nMore generally, for the exponents of Theorem~\\ref{thm:general}, any\nintegers $c,t_2,t_3,\\ldots$ define a unique integral series $V$ by\n\\[\n V(0)=1,\\quad\\coeff1V=c,\\quad\n \\coeff nV^{m_n}=m_nt_n\\coeff{n-1}V^{m_n}\\quad(n\\ge2),\n\\]\nand $m_n\\mid\\coeff{n-1}V'/V$ for every $n\\ge2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-index divisibility in Hanna's OEIS A381355: Revision 13, COMMENTS, and shifted-power siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a381355"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:hanna-a381355:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "de81f09d1b5868b1ef5f62c9c8cab94962481c39",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/de81f09d1b5868b1ef5f62c9c8cab94962481c39/D5/S1/Recurrence/Invariants/HannaPrimeIndexLogDivisibility.lean"
+      },
+      "lineage": "collected:hanna-a381355:s7",
+      "macros": {
+        "\\coeff": "[x^{#1}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a381355",
+      "scope": "in_scope",
+      "statement": "Every $\\alpha_n$ is odd for $n\\ge1$. Moreover,\n$u_{2k}\\equiv u_{2k+1}\\pmod2$ for every $k\\ge0$.\nConsequently every finite maximal parity run in A393866 has even length.\nThis is A393868, revision 9, COMMENTS: ``It appears that all terms\nare even'' \\cite{runs}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-index divisibility in Hanna's OEIS A381355: Revision 13, COMMENTS, and shifted-power siblings",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a381355"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:hardin-barker-a209723-edge-differences:2:s1",
       "kind": "paper",
       "label": "Theorem",

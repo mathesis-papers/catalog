@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-22T12:32:47.024160486Z`.
+Snapshot: `2026-11-22T13:29:36.384875599Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -27,6 +27,7 @@ Snapshot: `2026-11-22T12:32:47.024160486Z`.
 | [Extending Finch's zero-run analysis: nonattainment and a corrected capture theorem](https://github.com/mathesis-papers/finch-zero-runs) | 3 | [DOI](https://doi.org/10.5281/zenodo.24408308) | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
 | [Counterexamples to Conjecture 25 and Remark 6 of Garrappa–Gerhold–Popolizio–Simon: Global modulus lower bounds in arXiv:2410.11852v4](https://github.com/mathesis-papers/10.5281-zenodo.23920556) | 1 | [DOI](https://doi.org/10.5281/zenodo.23920557) | en, zh | 2 / 1 / 0 | 4 no target yet |
 | [Extending Han–Pedon (2026): proof of Conjecture C for metallic Hankel determinants (arXiv:2610.36132v1, p. 6)](https://github.com/mathesis-papers/han-pedon-metallic-hankel-quasipolynomial) | 2 | [DOI](https://doi.org/10.5281/zenodo.24404938) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
+| [Prime-index divisibility in Hanna's OEIS A381355: Revision 13, COMMENTS, and shifted-power siblings](https://github.com/mathesis-papers/hanna-a381355) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [OEIS A209723: Barker's conjectures on distinct clockwise edge differences](https://github.com/mathesis-papers/10.5281-zenodo.23903300) | 2 | [DOI](https://doi.org/10.5281/zenodo.23903301) | en, zh | 2 / 1 / 0 | 4 no target yet |
 | [Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem](https://github.com/mathesis-papers/he-tubbenhauer-2025-null-tensor-summand) | 2 | Awaiting DOI | en, zh | 2 / 1 / 0 | 8 no target yet |
 | [A degree-12 counterexample to Saniga et al.'s Section 4.4 line-subgeometry conjecture](https://github.com/mathesis-papers/10.5281-zenodo.23904467) | 2 | [DOI](https://doi.org/10.5281/zenodo.23904468) | en, zh | 2 / 1 / 0 | 5 no target yet |

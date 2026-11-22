@@ -988,6 +988,53 @@
       "work": "han-pedon-metallic-hankel-quasipolynomial"
     },
     {
+      "abstract_text": "We prove Paul D. Hanna's conjecture in the COMMENTS of OEIS A381355, revision 13 (March 12, 2025): its nth term is divisible by the nth prime for every n>1. The source series of A381353 exists uniquely over the rationals and has integer coefficients. More generally, positive exponents m_n with gcd(m_n,n!)=1 define an integral source series with any prescribed integer linear coefficient, and m_n divides the nth logarithmic coefficient. The same argument proves companion integrality and the prime divisibility conjecture in A393867. A parity argument proves its oddness conjecture and the even-run conjecture in A393868. We also correct the coefficient index in A393866, FORMULA (2), and give a general nonzero-diagonal congruence.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "de81f09d1b5868b1ef5f62c9c8cab94962481c39",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/de81f09d1b5868b1ef5f62c9c8cab94962481c39/D5/S1/Recurrence/Invariants/HannaPrimeIndexLogDivisibility.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 87652,
+        "sha256": "2b71f0ac1be58a93b9886b80fae96eb85162e8f2a0ec758b37efde6f2af919da",
+        "url": "/api/v1/collected-papers/hanna-a381355/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-22T12:36:19.890090033Z",
+      "record": "hanna-a381355",
+      "repository_name": "hanna-a381355",
+      "source": {
+        "bytes": 15205,
+        "sha256": "51183a742f38fba92350534395cff9779b8e6e69a5394cf801aa489b18e86b87",
+        "url": "/api/v1/collected-papers/hanna-a381355/files/source?version=2"
+      },
+      "title": "Prime-index divisibility in Hanna's OEIS A381355: Revision 13, COMMENTS, and shifted-power siblings",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-22T12:36:19.890090033Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hanna-a381355"
+    },
+    {
       "abstract_text": "We prove the Conjectures of Colin Barker in the FORMULA section of OEIS A209723, dated July 12, 2018: the parity formulas and ordinary generating function for ternary arrays with distinct clockwise edge differences. We also prove Hardin's empirical recurrence. A decomposition of the row-compatibility graph into two three-vertex stars and isolated edges gives a formula for every rectangular size. Its corollaries include the companion formulas in A209721–A209726, Beck's first A209721 conjecture, Peterson's A209721 recurrence and triangle interpretation, and the column recurrences and diagonal identification in A209727.",
       "authors": [
         {
