@@ -436,6 +436,26 @@ def configure_container_links(repo, toolchain=Path('/opt/tbook')):
             stream.write('\n/node_modules\n')
 
 
+def tail_bytes(path, limit):
+    with path.open('rb') as stream:
+        stream.seek(max(0, path.stat().st_size-limit))
+        return stream.read(limit)
+
+
+def record_failed_check(run, stage, error):
+    failure = {'stage': stage, 'type': type(error).__name__, 'observed_at': serial.now()}
+    if isinstance(error, subprocess.CalledProcessError):
+        failure.update(command=error.cmd, exit_code=error.returncode)
+    elif isinstance(error, (ValueError, RuntimeError, OSError)):
+        failure['reason'] = str(error)[:1000]
+    log = run/'operator-checks.log'
+    if stage == 'host_qa' and log.is_file():
+        failure['output_tail'] = tail_bytes(log, 6000).decode('utf-8', errors='replace')
+    checkpoint = serial.read(run/'checkpoint.json') if (run/'checkpoint.json').exists() else {}
+    checkpoint['last_failure'] = failure
+    serial.write(run/'checkpoint.json', checkpoint)
+
+
 def build(run):
     envelope = serial.read(run/'envelope.json')
     repo = Path(envelope['repository_path'])
@@ -446,15 +466,16 @@ def build(run):
         configure_container_links(repo)
         state = serial.validate_run(repo, run, build=True)
         require(state['state'] == 'local_checks_passed', 'host material checks did not pass')
-    except Exception:
+    except Exception as error:
         serial.write(run/'checkpoint.json', {'state':'needs_attention', 'stage':'host_qa'})
+        record_failed_check(run, 'host_qa', error)
         raise
     serial.write(run/'checkpoint.json', state)
     return state
 
 
 def record_build_failure(ledger, state, run):
-    logs = {name: (run/name).read_bytes()[-2*1024*1024:]
+    logs = {name: tail_bytes(run/name, 2*1024*1024)
             for name in ('operator-checks.log', 'checkpoint.json') if (run/name).is_file()}
     # Sources and previous checks stay immutable. A retry can produce different
     # diagnostics, so address each bundle by its bytes instead of replacing it.
@@ -462,6 +483,9 @@ def record_build_failure(ledger, state, run):
     prefix = 'checks/' + state['key'] + '/' + serial.digest(inventory) + '/'
     state.update(phase='needs_attention', blocked_stage='host_build_or_publication',
                  latest_checks={'prefix': prefix, 'sha256': inventory})
+    checkpoint = json.loads(logs.get('checkpoint.json', b'{}'))
+    if checkpoint.get('last_failure'):
+        state['last_failure'] = checkpoint['last_failure']
     ledger.put(state, {prefix+name: data for name, data in logs.items()})
 
 
@@ -568,7 +592,13 @@ def main():
             state=ledger.get(ready['key'])
             record_build_failure(ledger, state, Path(ready['run']))
             result=state
-        elif args.action == 'publish': result=publish_checked(root,workspace,ledger,api)
+        elif args.action == 'publish':
+            try:
+                result=publish_checked(root,workspace,ledger,api)
+            except Exception as error:
+                ready=serial.read(workspace/'ready.json')
+                record_failed_check(Path(ready['run']), 'publication', error)
+                raise
         else:
             cma=cma_content.CMA(os.environ['CMA_TOKEN'])
             workspaces=material_workspaces(os.environ)

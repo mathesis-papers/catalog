@@ -145,6 +145,12 @@ published matching image rather than rebuilding or editing upstream. Its
 source archive and that exact image. Each recovery ID runs once. Another build
 failure remains parked; it never asks CMA to regenerate completed mathematics.
 
+Host QA failures retain the exact failed command, exit code and bounded final
+output in the existing job checkpoint. Publication failures name their own
+stage while preserving the successful build receipt. The private ledger keeps
+each diagnostic bundle under its content digest and points the job at its latest
+failure; retries never overwrite previous checks or an immutable source pack.
+
 ### Late DOI discovery
 
 `archive-discovery-index.json` extends the SDK's unchanged archive index with
