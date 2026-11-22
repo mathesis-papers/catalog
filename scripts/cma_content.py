@@ -294,7 +294,8 @@ def export_sources(run, output):
                  "result": result, "inventory": inventory, "archive_sha256": hashlib.sha256(archive.read_bytes()).hexdigest()})
 
 
-def import_sources(cma, state, repo, run, approved_template_rebase=False, approved_operator_handoff=False):
+def import_sources(cma, state, repo, run, approved_template_rebase=False, approved_operator_handoff=False,
+                   approved_formalization_pin=None):
     """Restore only book content over a locally prepared, pinned template."""
     require(state["phase"] == "sources_ready", "CMA sources are not ready")
     prefix = artifact_prefix(state)
@@ -331,11 +332,21 @@ def import_sources(cma, state, repo, run, approved_template_rebase=False, approv
                         "CMA changed the frozen README prefix")
             else:
                 old_lock, new_lock = json.loads(original), json.loads(proposed)
+                metadata = lambda value: {k:v for k,v in value.items() if k != 'declarations'}
+                same_pin = metadata(old_lock) == metadata(new_lock)
+                if not same_pin:
+                    approved = approved_formalization_pin or {}
+                    require(approved_operator_handoff
+                            and approved.get('from_commit') == old_lock.get('commit')
+                            and approved.get('to_commit') == new_lock.get('commit')
+                            and approved.get('lock_sha256') == hashlib.sha256(proposed).hexdigest()
+                            and re.fullmatch(r'[a-f0-9]{40}', new_lock.get('commit', ''))
+                            and {k:v for k,v in old_lock.items() if k not in ('declarations','commit','pinned_at')}
+                                == {k:v for k,v in new_lock.items() if k not in ('declarations','commit','pinned_at')},
+                            'CMA changed the admitted formalization revision without an exact operator approval')
                 require(old_lock.get('schema') == 'trureturing-books.lock.v1'
-                        and old_lock.get('repo') == 'the-omega-institute/trureturing'
-                        and {k:v for k,v in old_lock.items() if k != 'declarations'}
-                            == {k:v for k,v in new_lock.items() if k != 'declarations'},
-                        "CMA changed the admitted formalization revision")
+                        and old_lock.get('repo') == 'the-omega-institute/trureturing',
+                        'unexpected formalization library')
             generated.add(name)
         elif not editable(name) and (not approved_template_rebase or name in frozen):
             require(before.get(name) == actual.get(name), "CMA changed a frozen source or managed template: " + name)

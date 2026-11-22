@@ -195,7 +195,8 @@ def restore_sources(ledger, state, repo, run):
     imported['phase'] = 'sources_ready'
     return cma_content.import_sources(SavedFiles(), imported, repo, run,
                                       approved_template_rebase=bool(state.get('template_adaptation')),
-                                      approved_operator_handoff=bool(approved))
+                                      approved_operator_handoff=bool(approved),
+                                      approved_formalization_pin=manifest.get('formalization_pin') if approved else None)
 
 
 def material_workspaces(environment):

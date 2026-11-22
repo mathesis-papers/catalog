@@ -183,6 +183,42 @@ class AdapterTests(unittest.TestCase):
                     self.assertFalse(any(call.args[0][0]=='./tbook' or call.args[0][-1]=='front' for call in generator.call_args_list))
                 self.assertFalse((repo/'.mathesis/review.json').exists())
 
+    def test_operator_pin_upgrade_is_exact_and_still_replays_the_installed_resolver(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            repo,run,state,files,expected=self.generated_index_case(Path(tmp))
+            marker=json.dumps({'sha256':{'paper.json':hashlib.sha256(files['paper.json']).hexdigest()}}).encode()
+            (repo/'.mathesis/generated.json').write_bytes(marker)
+            files['.mathesis/generated.json']=marker
+            lock=json.loads(files['trureturing.lock.json'])
+            lock.update(commit='b'*40,pinned_at='2026-11-23T00:00:00Z')
+            files['trureturing.lock.json']=json.dumps(lock).encode()
+            expected['trureturing.lock.json']=files['trureturing.lock.json']
+            approval={'from_commit':'a'*40,'to_commit':'b'*40,
+                      'lock_sha256':hashlib.sha256(files['trureturing.lock.json']).hexdigest()}
+            provider=self.handoff_files(state,files)
+            original=(repo/'trureturing.lock.json').read_bytes()
+            for operator,approved in [(False,approval),(True,dict(approval,lock_sha256='0'*64)),
+                                      (True,dict(approval,from_commit='c'*40))]:
+                with self.assertRaisesRegex(ValueError,'exact operator approval'):
+                    cma.import_sources(provider,state,repo,run,approved_operator_handoff=operator,
+                                       approved_formalization_pin=approved)
+                self.assertEqual((repo/'trureturing.lock.json').read_bytes(),original)
+                self.assertFalse((repo/'.mathesis/review.json').exists())
+            original_run=cma.subprocess.run
+            resolutions=[]
+            def generate(command,**kwargs):
+                if command[0]!='./tbook' and command[-1]!='front':return original_run(command,**kwargs)
+                name='trureturing.lock.json' if command==['./tbook','pin','--refresh'] else 'README.md'
+                if name=='trureturing.lock.json':
+                    self.assertEqual(json.loads((repo/name).read_bytes())['commit'],'b'*40)
+                    resolutions.append(command)
+                (repo/name).write_bytes(expected[name])
+            with patch.object(cma.subprocess,'run',side_effect=generate):
+                cma.import_sources(provider,state,repo,run,approved_operator_handoff=True,
+                                   approved_formalization_pin=approval)
+            self.assertEqual(resolutions,[['./tbook','pin','--refresh']])
+            self.assertEqual((repo/'paper.json').read_bytes(),files['paper.json'])
+
     def test_uncertain_admission_replays_original_intent_and_never_regenerates_after_success(self):
         state = cma.intent(envelope(), 'b'*40, 'e'*40, 'wks_internal', 'collection')
         saved = []
