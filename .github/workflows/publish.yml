@@ -33,6 +33,10 @@ jobs:
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
         with:
           path: publisher
+          # A previous serial run may publish new catalog/control commits while
+          # this run is queued. Read the latest admitted default-branch controls
+          # when execution starts; the later optimistic write fences still apply.
+          ref: ${{ github.event.repository.default_branch }}
           persist-credentials: false
       - name: Read and validate the Mathesis source pin
         id: pin

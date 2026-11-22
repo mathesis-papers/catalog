@@ -151,6 +151,13 @@ stage while preserving the successful build receipt. The private ledger keeps
 each diagnostic bundle under its content digest and points the job at its latest
 failure; retries never overwrite previous checks or an immutable source pack.
 
+The default-branch publisher checks out current controls when its serial job
+starts, rather than the event's older queued commit. A preceding publication
+can therefore reserve a completed book without making the next queued run's
+controls stale. Existing optimistic remote-write fences still reject changes
+that occur after that checkout. PR validation and source/template pins retain
+their existing behavior.
+
 ### Late DOI discovery
 
 `archive-discovery-index.json` extends the SDK's unchanged archive index with
