@@ -91,6 +91,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24445683",
+      "id": "copeland-a131758",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24391331",
       "id": "delgado-suer-yesil-2026-symmetrization-surjectivity",
       "kind": "collected",
@@ -415,6 +421,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-22T17:29:48.378030707Z",
+  "generated_at": "2026-11-22T17:46:18.935870102Z",
   "schema": "mathesis.archive-index.v1"
 }

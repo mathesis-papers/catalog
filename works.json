@@ -717,9 +717,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24445682",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24445683",
       "lean_source": {
         "revision": "742ce086eb9c8e6e36cde0fcdf712f63260c045c",
         "url": "https://github.com/the-omega-institute/trureturing/blob/742ce086eb9c8e6e36cde0fcdf712f63260c045c/D5/S0/Certificates/CopelandA131758PolynomialContentRefutation.lean"

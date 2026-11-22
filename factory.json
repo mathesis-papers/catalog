@@ -846,8 +846,8 @@
       "work": "consiglio-apollaro-wiesniak-2022-xmems-css-shape"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24445682",
+      "doi": "10.5281/zenodo.24445683",
       "files": {
         "pdf": {
           "bytes": 90525,
@@ -884,7 +884,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4076,5 +4075,5 @@
   "papers": 72,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-22T17:29:48.378030707Z"
+  "snapshot_time": "2026-11-22T17:46:18.935870102Z"
 }

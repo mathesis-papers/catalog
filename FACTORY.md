@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-22T17:29:48.378030707Z`.
+Snapshot: `2026-11-22T17:46:18.935870102Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -21,7 +21,7 @@ Snapshot: `2026-11-22T17:29:48.378030707Z`.
 | [Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)](https://github.com/mathesis-papers/10.5281-zenodo.23957559) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957560) | en, zh | 1 / 0 / 1 | 8 no target yet |
 | [The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary](https://github.com/mathesis-papers/10.5281-zenodo.23934999) | 2 | [DOI](https://doi.org/10.5281/zenodo.23935000) | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [Refuting the X-MEMS closest-separable-state conjecture in arXiv:2209.01430v2, Appendix A, Eq. (A11)](https://github.com/mathesis-papers/10.5281-zenodo.23904463) | 2 | [DOI](https://doi.org/10.5281/zenodo.23904464) | en, zh | 2 / 1 / 0 | 3 no target yet |
-| [Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence](https://github.com/mathesis-papers/copeland-a131758) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
+| [Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence](https://github.com/mathesis-papers/copeland-a131758) | 2 | [DOI](https://doi.org/10.5281/zenodo.24445683) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [A negative answer to Delgado, Süer and Yeşil's symmetrization question](https://github.com/mathesis-papers/delgado-suer-yesil-2026-symmetrization-surjectivity) | 2 | [DOI](https://doi.org/10.5281/zenodo.24391331) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Refuting the trace-distance case of axiom (T4) of Denis, Lacaille, Martin and Serrano-Ensástiga](https://github.com/mathesis-papers/10.5281-zenodo.23884884) | 4 | [DOI](https://doi.org/10.5281/zenodo.23884885) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [Extending Finch's zero-run analysis: nonattainment and a corrected capture theorem](https://github.com/mathesis-papers/finch-zero-runs) | 3 | [DOI](https://doi.org/10.5281/zenodo.24408308) | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
