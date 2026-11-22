@@ -352,6 +352,33 @@ for name in sys.argv[1:]:
                    cwd=repo, env=env, check=True, stdout=log, stderr=subprocess.STDOUT)
 
 
+@contextmanager
+def host_stage(run, name, command=None):
+    checkpoint = read(run/'checkpoint.json') if (run/'checkpoint.json').exists() else {}
+    active = {'name': name, 'started_at': now()}
+    if command is not None:
+        active['command'] = command
+    checkpoint['active_check'] = active
+    write(run/'checkpoint.json', checkpoint)
+    # Public workflow logs contain stage names only. Exact paths and commands
+    # remain in the private checkpoint, alongside the retained failure output.
+    print('Material stage started: ' + name, flush=True)
+    yield
+    checkpoint = read(run/'checkpoint.json')
+    checkpoint.setdefault('completed_checks', []).append(dict(active, finished_at=now()))
+    checkpoint.pop('active_check', None)
+    write(run/'checkpoint.json', checkpoint)
+    print('Material stage completed: ' + name, flush=True)
+
+
+def check_stage(args):
+    if args[0] == './tbook':
+        return ' '.join(['tbook', *args[1:3]])
+    if args[0] == 'theme/film/film.sh':
+        return 'film poster'
+    return Path(args[1]).name + ' ' + ' '.join(args[2:])
+
+
 def validate_run(repo, run, build=False):
     result = read(run / "result.json")
     check_result(result, repo)
@@ -396,25 +423,31 @@ def validate_run(repo, run, build=False):
         log.flush()
         for args in checks:
             if film_build and args == film_build:
-                changes = measure_new_film_durations(repo, mapping["book"], films, log, env)
+                with host_stage(run, 'Measure narration durations'):
+                    changes = measure_new_film_durations(repo, mapping["book"], films, log, env)
                 if changes:
                     write(run / "film-duration-preflight.json", changes)
-            subprocess.run(args, cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
+            with host_stage(run, check_stage(args), args):
+                subprocess.run(args, cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
             if film_build and args == film_build:
                 changes = reconcile_film_durations(repo, mapping["book"], films)
                 if changes:
                     write(run / "film-duration-updates.json", changes)
                     # Metadata is an input to the upstream build cache. Rebuild
                     # through that interface instead of blessing stale output.
-                    subprocess.run(film_build, cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
+                    with host_stage(run, 'Rebuild films with measured durations', film_build):
+                        subprocess.run(film_build, cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
                     reconcile_film_durations(repo, mapping["book"], films, update=False)
-        validate_epubs(repo, mapping["book"], env, log)
+        with host_stage(run, 'Validate EPUB editions'):
+            validate_epubs(repo, mapping["book"], env, log)
         if build:
-            subprocess.run(["node", str(ROOT / "scripts/paper_site_qa.cjs"), str(repo), str(run / "qa")],
-                           cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
+            with host_stage(run, 'Inspect rendered pages'):
+                subprocess.run(["node", str(ROOT / "scripts/paper_site_qa.cjs"), str(repo), str(run / "qa")],
+                               cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
             python = repo / ".venv/bin/python"
-            subprocess.run([str(python) if python.exists() else sys.executable, str(ROOT / "scripts/paper_products.py"), str(repo), str(run / "qa")],
-                           cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
+            with host_stage(run, 'Inspect PDFs, slides and video'):
+                subprocess.run([str(python) if python.exists() else sys.executable, str(ROOT / "scripts/paper_products.py"), str(repo), str(run / "qa")],
+                               cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
     plan = plan_content.plan(repo, repo / "_site")
     write(run / "content-plan.json", plan)
     states = {u["unit"]: u["state"] for u in plan["units"]}
@@ -430,7 +463,8 @@ def validate_run(repo, run, build=False):
     sources = source_inventory(repo)
     write(run / "source-sha256.json", sources)
     return {"state": "local_checks_passed", "finished_at": now(), "publication": "not_performed",
-            "proof_certification": "not_performed", "visualization": result["visualization"], "source_sha256": digest(sources)}
+            "proof_certification": "not_performed", "visualization": result["visualization"], "source_sha256": digest(sources),
+            "completed_checks": read(run/'checkpoint.json').get('completed_checks', [])}
 
 
 def measure_new_film_durations(repo, book, films, log, env):

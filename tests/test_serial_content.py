@@ -26,6 +26,24 @@ class SerialContent(unittest.TestCase):
                        "outputs": ["story.md"], "checks": [], "requests": [],
                        "doi_observation": "Existing version DOI retained", "remaining": ["Video not rendered"]}
 
+    def test_live_stage_retains_completed_work_and_identifies_the_unfinished_check(self):
+        runner.write(self.root/'checkpoint.json', {'state':'rebuilding_products'})
+        private_command=['python','/private/worktree/opaque-operation/renderer.py']
+        with patch('sys.stdout', new_callable=io.StringIO) as output:
+            with runner.host_stage(self.root, 'Paper layout check'):
+                pass
+            with self.assertRaisesRegex(ValueError, 'render failed'):
+                with runner.host_stage(self.root, 'Render narrated film', private_command):
+                    raise ValueError('render failed')
+        checkpoint=runner.read(self.root/'checkpoint.json')
+        self.assertEqual([c['name'] for c in checkpoint['completed_checks']], ['Paper layout check'])
+        self.assertEqual(checkpoint['active_check']['name'], 'Render narrated film')
+        self.assertEqual(checkpoint['active_check']['command'], private_command)
+        self.assertIn('Material stage completed: Paper layout check', output.getvalue())
+        self.assertIn('Material stage started: Render narrated film', output.getvalue())
+        self.assertNotIn('opaque-operation', output.getvalue())
+        self.assertNotIn('Material stage completed: Render narrated film', output.getvalue())
+
     def test_deliberately_omitted_interaction_is_valid(self):
         runner.check_result(self.result, self.root)
 

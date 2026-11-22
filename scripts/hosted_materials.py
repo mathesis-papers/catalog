@@ -467,7 +467,9 @@ def build(run):
         state = serial.validate_run(repo, run, build=True)
         require(state['state'] == 'local_checks_passed', 'host material checks did not pass')
     except Exception as error:
-        serial.write(run/'checkpoint.json', {'state':'needs_attention', 'stage':'host_qa'})
+        checkpoint = serial.read(run/'checkpoint.json')
+        checkpoint.update(state='needs_attention', stage='host_qa')
+        serial.write(run/'checkpoint.json', checkpoint)
         record_failed_check(run, 'host_qa', error)
         raise
     serial.write(run/'checkpoint.json', state)
