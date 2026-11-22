@@ -220,9 +220,14 @@ class RecoveryTests(unittest.TestCase):
             serial.write(run/'result.json', {'visualization':{'decision':'not_useful'}})
             (run/'operator-checks.log').write_text('x'*10000+'\nMathesis: layout violations: node_modules\n')
             command = ['python', 'paper.py', 'check', '--complete']
-            with patch.object(hosted.serial, 'validate_run', side_effect=subprocess.CalledProcessError(1, command)):
+            def fail(*args, **kwargs):
+                with hosted.serial.host_stage(run, 'Paper layout check', command):
+                    raise subprocess.CalledProcessError(1, command)
+            with patch.object(hosted.serial, 'validate_run', side_effect=fail):
                 with self.assertRaises(subprocess.CalledProcessError): hosted.build(run)
-            failure = serial.read(run/'checkpoint.json')['last_failure']
+            checkpoint = serial.read(run/'checkpoint.json')
+            failure = checkpoint['last_failure']
+            self.assertEqual(checkpoint['active_check']['name'], 'Paper layout check')
             self.assertEqual(failure['stage'], 'host_qa')
             self.assertEqual(failure['command'], command)
             self.assertEqual(failure['exit_code'], 1)

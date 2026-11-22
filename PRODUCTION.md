@@ -150,6 +150,9 @@ output in the existing job checkpoint. Publication failures name their own
 stage while preserving the successful build receipt. The private ledger keeps
 each diagnostic bundle under its content digest and points the job at its latest
 failure; retries never overwrite previous checks or an immutable source pack.
+Long builds also announce each stage's start and completion in the live workflow
+log. The same checkpoint retains completed stages and the active stage, including
+when a later check fails. Exact command paths remain in the private ledger.
 
 The default-branch publisher checks out current controls when its serial job
 starts, rather than the event's older queued commit. A preceding publication
