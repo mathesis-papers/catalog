@@ -1,6 +1,7 @@
 {
   "doi": null,
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/jen2610-permuted-rotor-loops/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/jen2610-permuted-rotor-loops",

@@ -1439,6 +1439,435 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:bala-machine3626-exact-halting-time:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+      },
+      "lineage": "collected:bala-machine3626-exact-halting-time:s1",
+      "macros": {
+        "\\val": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-machine3626-exact-halting-time",
+      "scope": "in_scope",
+      "statement": "For every positive integer $n$, machine 3626 terminates, leaves every tape\nsymbol unchanged, and satisfies\n\\[\n H(n)=C(n)=4\\cdot2^{\\val(n)}-3.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-machine3626-exact-halting-time"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:bala-machine3626-exact-halting-time:3:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+      },
+      "lineage": "collected:bala-machine3626-exact-halting-time:s10",
+      "macros": {
+        "\\val": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-machine3626-exact-halting-time",
+      "scope": "in_scope",
+      "statement": "The divisor-power ratio in Conjecture~1 is an integer for every\nnonnegative integer exponent. The value set, palindromic prefixes and\nprefix sums in Conjectures~2--4 have the stated forms below.\nThe divisor factorization also holds at every prime and real exponent\n$s\\geq0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-machine3626-exact-halting-time"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s11",
+      "contributor": null,
+      "identity": "collected:bala-machine3626-exact-halting-time:3:s11",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+      },
+      "lineage": "collected:bala-machine3626-exact-halting-time:s11",
+      "macros": {
+        "\\val": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-machine3626-exact-halting-time",
+      "scope": "in_scope",
+      "statement": "For $p=2$, $s=3$, \\eqref{eq:ratio} is\n\\[\n Q(n)=\\frac{\\sum_{d\\mid n}d^3}{\\sum_{e\\mid n,\\ e\\text{ odd}}e^3}\n     =\\frac{8^{v+1}-1}{7}.\n\\]\nThis is A318935, introduced by N. J. A. Sloane on 14 September 2018\nas the sum of cubes of the powers of two dividing $n$; Chai Wah Wu gave\nits valuation formula that day. Amiram Eldar recorded the equivalent\ncubic divisor ratio on 29 October 2026 \\cite{cubic}.\nThe underlying cubic power sum already occurs as $T$ on page~102 of\nLamont's 1982 paper on Cayley integers \\cite{lamont}.\nIt is also a direct weighted consequence:\n\\[\n Q(n)=1+4\\sum_{\\substack{d\\mid n\\\\d>1}}m(d)\\varphi(d)^3.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-machine3626-exact-halting-time"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:bala-machine3626-exact-halting-time:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+      },
+      "lineage": "collected:bala-machine3626-exact-halting-time:s2",
+      "macros": {
+        "\\val": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-machine3626-exact-halting-time",
+      "scope": "in_scope",
+      "statement": "Starting in $(A,u_k\\mid r)$, the machine first moves right past the starting\ncell after exactly $T_k$ transitions, reaches $E(u_k,r)$, and restores every\ntape symbol. The time is independent of $w$ and $r$, with\n\\[\n T_0=1,\\qquad T_{k+1}=2T_k+3,\\qquad T_k=4\\cdot2^k-3.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-machine3626-exact-halting-time"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:bala-machine3626-exact-halting-time:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+      },
+      "lineage": "collected:bala-machine3626-exact-halting-time:s3",
+      "macros": {
+        "\\val": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-machine3626-exact-halting-time",
+      "scope": "in_scope",
+      "statement": "Under the same initialization and boundary convention, the two other\nidentity-computing machines in Bala's A393210 comment have exact times\n\\[\n H_{3589}(n)=2\\val(n)+1,\\qquad\n H_{3197}(n)=2-(-1)^n\\quad(n\\geq1).\n\\]\nBoth restore the tape. These are A037227 and A010684, respectively\n\\cite{comparisons}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-machine3626-exact-halting-time"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:bala-machine3626-exact-halting-time:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+      },
+      "lineage": "collected:bala-machine3626-exact-halting-time:s4",
+      "macros": {
+        "\\val": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-machine3626-exact-halting-time",
+      "scope": "in_scope",
+      "statement": "For $N\\geq1$, the number of inputs $n\\leq N$ with\n$H(n)=4\\cdot2^k-3$ is\n\\[\n \\left\\lfloor\\frac{N}{2^k}\\right\\rfloor-\n \\left\\lfloor\\frac{N}{2^{k+1}}\\right\\rfloor\\quad(k\\geq0).\n\\]\nFurthermore,\n\\begin{equation}\n \\sum_{n=1}^N H(n)=N+4\\sum_{j\\geq1}2^{j-1}\n                    \\left\\lfloor\\frac{N}{2^j}\\right\\rfloor .\n\\end{equation}\nAmong the $2^{\\ell-1}$ inputs of binary length $\\ell\\geq1$, the mean\ntime is $2\\ell-1$ and the maximum is $2^{\\ell+1}-3$.\nThe maximum reproduces Wolfram's earlier closed form \\cite{wolfram}; the\ndistribution and mean follow from the individual-input formula above.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-machine3626-exact-halting-time"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:bala-machine3626-exact-halting-time:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+      },
+      "lineage": "collected:bala-machine3626-exact-halting-time:s5",
+      "macros": {
+        "\\val": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-machine3626-exact-halting-time",
+      "scope": "in_scope",
+      "statement": "For $n\\geq1$, $v=\\val(n)$, every integer $r\\geq1$, and every function\n$w$ on the positive integers with complex values,\n\\begin{equation}\n \\sum_{d\\mid n}m(d)^r w(d)=w(1)+2^r\\sum_{j=1}^v w(2^j).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-machine3626-exact-halting-time"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:bala-machine3626-exact-halting-time:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+      },
+      "lineage": "collected:bala-machine3626-exact-halting-time:s6",
+      "macros": {
+        "\\val": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-machine3626-exact-halting-time",
+      "scope": "in_scope",
+      "statement": "For integers $r\\geq1$, $s\\geq0$ and $n\\geq1$, with $v=\\val(n)$,\n\\[\n\\sum_{d\\mid n}m(d)^r\\varphi(d)^s=\n\\begin{cases}\n1+2^rv,&s=0,\\\\[2pt]\n1+2^r\\dfrac{2^{sv}-1}{2^s-1},&s>0.\n\\end{cases}\n\\]\nFor every integer $k\\geq1$,\n$\\sum_{d\\mid n}(2m(d)^k-m(d)^{k+1})=1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-machine3626-exact-halting-time"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:bala-machine3626-exact-halting-time:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+      },
+      "lineage": "collected:bala-machine3626-exact-halting-time:s7",
+      "macros": {
+        "\\val": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-machine3626-exact-halting-time",
+      "scope": "in_scope",
+      "statement": "For every integer $r\\geq1$,\n\\begin{equation}\n \\sum_{d\\mid n}m(d)^r\\mu(d)=1-2^r\\mathbf{1}_{2\\mid n}.\n\\end{equation}\nUsing $w(d)=(-1)^{d+1}\\mu(d)$ instead gives\n\\[\n \\sum_{d\\mid n}(-1)^{d+1}m(d)^r\\mu(d)\n =1+2^r\\mathbf{1}_{2\\mid n}.\n\\]\nThis is the general formula in Bala's A010684 block of 22 September 2026.\nIts case $r=1$, and also the expression\n\\[\n (-1)^{n+1}\\sum_{d\\mid n}m(d)^2\\mu(d),\n\\]\nequal $1$ for odd $n$ and $3$ for even $n$.\nThat block explicitly uses offset 1: in the entry's usual offset-0\nnotation these expressions are A010684$(n-1)$, whereas\n$H_{3197}(n)$ is A010684$(n)$ \\cite{comparisons}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-machine3626-exact-halting-time"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:bala-machine3626-exact-halting-time:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+      },
+      "lineage": "collected:bala-machine3626-exact-halting-time:s8",
+      "macros": {
+        "\\val": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-machine3626-exact-halting-time",
+      "scope": "in_scope",
+      "statement": "Write $B(n)=(2\\cdot4^v+1)/3$ and $D(n)=2^{v+1}-1$.\nThen $B(2n)=4B(n)-1$,\n$B(2n-1)=1$, $D(2n)=2D(n)+1$, and $D(2n-1)=1$.\nTheir generating functions, binary digit sums and summatory identities\nare given by the formulas below.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-machine3626-exact-halting-time"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:bala-machine3626-exact-halting-time:3:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+      },
+      "lineage": "collected:bala-machine3626-exact-halting-time:s9",
+      "macros": {
+        "\\val": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-machine3626-exact-halting-time",
+      "scope": "in_scope",
+      "statement": "For real $a\\geq0$, set $F_a(n)=\\sum_{j=0}^{\\val(n)}2^{aj}$.\nThen\n\\begin{align*}\n \\sum_{n\\geq1}F_a(n)x^n\n &=\\sum_{j\\geq0}\\frac{2^{aj}x^{2^j}}{1-x^{2^j}}\n &&(|x|<1),\\\\\n \\sum_{n\\geq1}\\frac{F_a(n)}{n^s}\n &=\\frac{\\zeta(s)}{1-2^{a-s}}\n &&(\\Re s>\\max\\{1,a\\}).\n\\end{align*}\nThe cases $a=1,2,3$ are A038712, A296306, A318935, respectively.\nAlso $F_0(n)=\\val(n)+1$\nand $\\sum_{d\\mid n}m(d)=2F_0(n)-1=H_{3589}(n)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-machine3626-exact-halting-time"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:bala295462:4:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -9194,6 +9623,318 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:mathar-a174193-order-four-recurrence:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S1/Recurrence/Algebraic/MatharA174193OrderFourRecurrence.lean"
+      },
+      "lineage": "collected:mathar-a174193-order-four-recurrence:s1",
+      "macros": {
+        "\\cb": "\\binom{2#1}{#1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a174193-order-four-recurrence",
+      "scope": "in_scope",
+      "statement": "There is a unique series $A\\in\\mathbb Q[[x]]$ satisfying\n\\eqref{eq:series}, and its coefficients are\n\\begin{equation}\n a_n=\\frac{F(n)C_n}{2(n+1)(n+2)(2n-1)}-1\\qquad(n\\geq0).\n\\end{equation}\nFor every integer $n\\geq4$ they satisfy Mathar's recurrence\n\\begin{align}\n0={}&-(n+2)(404489n-1866368)a_n\\notag\\\\\n&+(3147815n^2-8680082n-14098754)a_{n-1}\\notag\\\\\n&+2(-2336439n^2+652022n+14514849)a_{n-2}\\notag\\\\\n&+8(-1044770n^2+10585023n-20370553)a_{n-3}\\notag\\\\\n&+8(642982n-2004177)(2n-9)a_{n-4}.\n\\end{align}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's recurrence in OEIS A174193: FORMULA, 14 June 2016: a tableau-sum evaluation extending Brignall–Ekhad–Smith–Vatter (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "mathar-a174193-order-four-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:mathar-a174193-order-four-recurrence:3:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S1/Recurrence/Algebraic/MatharA174193OrderFourRecurrence.lean"
+      },
+      "lineage": "collected:mathar-a174193-order-four-recurrence:s2",
+      "macros": {
+        "\\cb": "\\binom{2#1}{#1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a174193-order-four-recurrence",
+      "scope": "in_scope",
+      "statement": "The same coefficients satisfy the first-order relation\n\\[\n (n+3)F(n)(a_{n+1}+1)\n =2(2n-1)F(n+1)(a_n+1)\\qquad(n\\geq0).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's recurrence in OEIS A174193: FORMULA, 14 June 2016: a tableau-sum evaluation extending Brignall–Ekhad–Smith–Vatter (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "mathar-a174193-order-four-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:mathar-a174193-order-four-recurrence:3:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S1/Recurrence/Algebraic/MatharA174193OrderFourRecurrence.lean"
+      },
+      "lineage": "collected:mathar-a174193-order-four-recurrence:s3",
+      "macros": {
+        "\\cb": "\\binom{2#1}{#1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a174193-order-four-recurrence",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq0$, the number\n$h_n=|\\operatorname{Av}_n(321)^{+1}|$ equals $a_n$ in\n\\eqref{eq:closed}. Thus \\eqref{eq:series} is its counting generating function.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's recurrence in OEIS A174193: FORMULA, 14 June 2016: a tableau-sum evaluation extending Brignall–Ekhad–Smith–Vatter (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "mathar-a174193-order-four-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:mathar-a174193-order-four-recurrence:3:s4",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S1/Recurrence/Algebraic/MatharA174193OrderFourRecurrence.lean"
+      },
+      "lineage": "collected:mathar-a174193-order-four-recurrence:s4",
+      "macros": {
+        "\\cb": "\\binom{2#1}{#1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a174193-order-four-recurrence",
+      "scope": "in_scope",
+      "statement": "Put $G(t)=2t^4-9t^3+19t^2+18t-24$. Then $b_0=b_1=1$, and\n\\begin{equation}\n b_n=\\frac{G(n)C_n}{4(n+1)(n+2)(2n-1)}\\qquad(n\\geq2).\n\\end{equation}\nFor $n\\geq4$, Mathar's A174195 recurrence holds:\n\\begin{align}\n0={}&2(n+2)(2013n^2-10435n+41550)b_n\\notag\\\\\n&+(4026n^3-128025n^2+34955n+59010)b_{n-1}\\notag\\\\\n&-2(2n-5)(20130n^2-110855n+93819)b_{n-2}.\n\\end{align}\nThe left side is $13998$ at $n=2$ and $57576$ at $n=3$;\nthus $n\\geq4$ is the exact range among integers $n\\geq2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's recurrence in OEIS A174193: FORMULA, 14 June 2016: a tableau-sum evaluation extending Brignall–Ekhad–Smith–Vatter (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "mathar-a174193-order-four-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:mathar-a174193-order-four-recurrence:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S1/Recurrence/Algebraic/MatharA174193OrderFourRecurrence.lean"
+      },
+      "lineage": "collected:mathar-a174193-order-four-recurrence:s5",
+      "macros": {
+        "\\cb": "\\binom{2#1}{#1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a174193-order-four-recurrence",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq2$,\n\\[\n (n+3)G(n)b_{n+1}=2(2n-1)G(n+1)b_n.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's recurrence in OEIS A174193: FORMULA, 14 June 2016: a tableau-sum evaluation extending Brignall–Ekhad–Smith–Vatter (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "mathar-a174193-order-four-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:mathar-a174193-order-four-recurrence:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S1/Recurrence/Algebraic/MatharA174193OrderFourRecurrence.lean"
+      },
+      "lineage": "collected:mathar-a174193-order-four-recurrence:s6",
+      "macros": {
+        "\\cb": "\\binom{2#1}{#1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a174193-order-four-recurrence",
+      "scope": "in_scope",
+      "statement": "For $n\\geq2$,\n\\[\n b_n-a_n=1+\\frac{n-4}{4(2n-1)}\\binom{2n}{n}.\n\\]\nIn particular\n$|\\operatorname{Av}_n(231)^{+1}|>|\\operatorname{Av}_n(321)^{+1}|$\nfor $n\\geq4$. Both sequences satisfy\n$a_n\\sim b_n\\sim 4^{n-1}\\sqrt{n/\\pi}$, and\n\\[\n b_n-a_n\\sim\\frac{4^n}{8\\sqrt{\\pi n}},\\qquad\n \\lim_{n\\to\\infty}n\\frac{b_n-a_n}{b_n}=\\frac12.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's recurrence in OEIS A174193: FORMULA, 14 June 2016: a tableau-sum evaluation extending Brignall–Ekhad–Smith–Vatter (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "mathar-a174193-order-four-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:mathar-a174193-order-four-recurrence:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S1/Recurrence/Algebraic/MatharA174193OrderFourRecurrence.lean"
+      },
+      "lineage": "collected:mathar-a174193-order-four-recurrence:s7",
+      "macros": {
+        "\\cb": "\\binom{2#1}{#1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a174193-order-four-recurrence",
+      "scope": "in_scope",
+      "statement": "There is a length-preserving injection from\n$\\operatorname{Av}(321)^{+1}$ to $\\operatorname{Av}(231)^{+1}$:\nsend the $r$th lexicographically ordered member of\n$\\operatorname{Av}_n(321)^{+1}$ to the $r$th member of\n$\\operatorname{Av}_n(231)^{+1}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's recurrence in OEIS A174193: FORMULA, 14 June 2016: a tableau-sum evaluation extending Brignall–Ekhad–Smith–Vatter (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "mathar-a174193-order-four-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:mathar-a174193-order-four-recurrence:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S1/Recurrence/Algebraic/MatharA174193OrderFourRecurrence.lean"
+      },
+      "lineage": "collected:mathar-a174193-order-four-recurrence:s8",
+      "macros": {
+        "\\cb": "\\binom{2#1}{#1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a174193-order-four-recurrence",
+      "scope": "in_scope",
+      "statement": "Conjecture~11 of \\cite{almost} holds for $t=1$: both almost-avoidance\ngenerating functions are rational in $x$ and $\\sqrt{1-4x}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's recurrence in OEIS A174193: FORMULA, 14 June 2016: a tableau-sum evaluation extending Brignall–Ekhad–Smith–Vatter (2009)",
+      "toolchain": null,
+      "version": 3,
+      "work": "mathar-a174193-order-four-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:mathoverflow-469781-weighted-orthogonal-minors:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -11211,6 +11952,457 @@
       "toolchain": null,
       "version": 2,
       "work": "nath2021-commuting-cn-conjecture2"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:oeis-a112399-morken-first-divisor-sum:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "4a11a6467d4ba3682c7630cd22c551cd11074cc6",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a11a6467d4ba3682c7630cd22c551cd11074cc6/D5/S3/Arith/MoebiusLogarithmic/MorkenFirstDivisorSum.lean"
+      },
+      "lineage": "collected:oeis-a112399-morken-first-divisor-sum:s1",
+      "macros": {
+        "\\C": "C",
+        "\\mob": "\\mu",
+        "\\rad": "\\operatorname{rad}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a112399-morken-first-divisor-sum",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\geq1$ and every integer $X\\geq0$,\n\\begin{align}\n \\C_n(X)\n &=\\sum_{\\substack{d\\mid n\\\\\\mob(d)\\ne0}}\n       \\C_d(\\lfloor X/d\\rfloor),\\\\\n \\C_n(X)\n &=\\sum_{\\substack{1\\leq q\\leq X\\\\\\rad(q)\\mid n}}\n       M(\\lfloor X/q\\rfloor).\n\\end{align}\nAll divisors and summation indices are positive.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Convention corrections and alternative proofs for Morken's conjectures in OEIS A112399: Revision 41, FORMULA; after Sander–Sander (2009) and Ramaré (2014–2015)",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a112399-morken-first-divisor-sum"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:oeis-a112399-morken-first-divisor-sum:3:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a11a6467d4ba3682c7630cd22c551cd11074cc6",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a11a6467d4ba3682c7630cd22c551cd11074cc6/D5/S3/Arith/MoebiusLogarithmic/MorkenFirstDivisorSum.lean"
+      },
+      "lineage": "collected:oeis-a112399-morken-first-divisor-sum:s10",
+      "macros": {
+        "\\C": "C",
+        "\\mob": "\\mu",
+        "\\rad": "\\operatorname{rad}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a112399-morken-first-divisor-sum",
+      "scope": "in_scope",
+      "statement": "For $n\\geq1$ and any arithmetic function $F$,\n\\begin{align}\n \\sum_{k=1}^{n}F((k,n))&=\\sum_{d\\mid n}F(d)\\varphi(n/d),\\\\\n \\sum_{k=1}^{n}F(n/(k,n))&=\\sum_{d\\mid n}F(d)\\varphi(d).\n\\end{align}\nThus the finite gcd formulas of A007431, A063659 and A276833\n\\cite{a007431,a063659,a276833} follow, with local factors\n\\begin{align*}\n \\mathrm{A007431}(p^e)&=\n \\begin{cases}p-2,&e=1,\\\\p^{e-2}(p-1)^2,&e\\geq2,\\end{cases}\\\\\n \\mathrm{A063659}(p^e)&=\n \\begin{cases}p,&e=1,\\\\p^e-p^{e-2},&e\\geq2,\\end{cases}\n \\qquad\n \\mathrm{A276833}(n)=\\prod_{p\\mid n}(2-p).\n\\end{align*}\nIn addition $\\sum_{d\\mid n}\\mathrm{A007431}(d)=\\varphi(n)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Convention corrections and alternative proofs for Morken's conjectures in OEIS A112399: Revision 41, FORMULA; after Sander–Sander (2009) and Ramaré (2014–2015)",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a112399-morken-first-divisor-sum"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s11",
+      "contributor": null,
+      "identity": "collected:oeis-a112399-morken-first-divisor-sum:3:s11",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a11a6467d4ba3682c7630cd22c551cd11074cc6",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a11a6467d4ba3682c7630cd22c551cd11074cc6/D5/S3/Arith/MoebiusLogarithmic/MorkenFirstDivisorSum.lean"
+      },
+      "lineage": "collected:oeis-a112399-morken-first-divisor-sum:s11",
+      "macros": {
+        "\\C": "C",
+        "\\mob": "\\mu",
+        "\\rad": "\\operatorname{rad}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a112399-morken-first-divisor-sum",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq1$, with $U$ as in Corollary~\\ref{cor:triangle},\n\\[\n a(n)=U(n^2,n)\n =\\sum_{\\substack{d\\mid n\\\\\\mob(d)\\ne0}}U(n,d),\n \\qquad\n \\mathrm{A372706}(n)=\\mob(n)U(n^2,n).\n\\]\nThese are the three formulas in A400203's history, revision 4,\n21 September 2026 \\cite{a400203}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Convention corrections and alternative proofs for Morken's conjectures in OEIS A112399: Revision 41, FORMULA; after Sander–Sander (2009) and Ramaré (2014–2015)",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a112399-morken-first-divisor-sum"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:oeis-a112399-morken-first-divisor-sum:3:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a11a6467d4ba3682c7630cd22c551cd11074cc6",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a11a6467d4ba3682c7630cd22c551cd11074cc6/D5/S3/Arith/MoebiusLogarithmic/MorkenFirstDivisorSum.lean"
+      },
+      "lineage": "collected:oeis-a112399-morken-first-divisor-sum:s2",
+      "macros": {
+        "\\C": "C",
+        "\\mob": "\\mu",
+        "\\rad": "\\operatorname{rad}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a112399-morken-first-divisor-sum",
+      "scope": "in_scope",
+      "statement": "For a multiplicative arithmetic function $f$, $n\\geq1$ and $X\\geq0$,\n\\[\n \\sum_{k=1}^{X}\\mob(nk)f(nk)\n =\\mob(n)f(n)\\sum_{\\substack{k\\leq X\\\\(k,n)=1}}\\mob(k)f(k).\n\\]\nIn particular,\n\\begin{equation}\n \\sum_{1\\leq k\\leq X}\\mob(nk)=\\mob(n)\\C_n(X).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Convention corrections and alternative proofs for Morken's conjectures in OEIS A112399: Revision 41, FORMULA; after Sander–Sander (2009) and Ramaré (2014–2015)",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a112399-morken-first-divisor-sum"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:oeis-a112399-morken-first-divisor-sum:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a11a6467d4ba3682c7630cd22c551cd11074cc6",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a11a6467d4ba3682c7630cd22c551cd11074cc6/D5/S3/Arith/MoebiusLogarithmic/MorkenFirstDivisorSum.lean"
+      },
+      "lineage": "collected:oeis-a112399-morken-first-divisor-sum:s3",
+      "macros": {
+        "\\C": "C",
+        "\\mob": "\\mu",
+        "\\rad": "\\operatorname{rad}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a112399-morken-first-divisor-sum",
+      "scope": "in_scope",
+      "statement": "For integers $X,Y\\geq0$,\n\\begin{equation}\n \\sum_{j=1}^{X}\\sum_{k=1}^{Y}\\mob(jk)\n =\\sum_{d=1}^{\\min(X,Y)}\\mob(d)\n   \\C_d(\\lfloor X/d\\rfloor)\\C_d(\\lfloor Y/d\\rfloor).\n\\end{equation}\nThus, for $T(N)=\\sum_{j,k=1}^{N}\\mob(jk)$ (A372700 \\cite{a372700}),\n\\begin{equation}\n T(N)=\\sum_{d=1}^{N}\\mob(d)\\C_d(\\lfloor N/d\\rfloor)^2\n \\qquad(N\\geq1).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Convention corrections and alternative proofs for Morken's conjectures in OEIS A112399: Revision 41, FORMULA; after Sander–Sander (2009) and Ramaré (2014–2015)",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a112399-morken-first-divisor-sum"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:oeis-a112399-morken-first-divisor-sum:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a11a6467d4ba3682c7630cd22c551cd11074cc6",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a11a6467d4ba3682c7630cd22c551cd11074cc6/D5/S3/Arith/MoebiusLogarithmic/MorkenFirstDivisorSum.lean"
+      },
+      "lineage": "collected:oeis-a112399-morken-first-divisor-sum:s4",
+      "macros": {
+        "\\C": "C",
+        "\\mob": "\\mu",
+        "\\rad": "\\operatorname{rad}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a112399-morken-first-divisor-sum",
+      "scope": "in_scope",
+      "statement": "For $N\\geq1$,\n\\begin{equation}\n T(N)=-1+2\\sum_{k=1}^{N}\\mob(k)a(k).\n\\end{equation}\nIn particular $T(N)=T(N-1)$ when $N$ is nonsquarefree.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Convention corrections and alternative proofs for Morken's conjectures in OEIS A112399: Revision 41, FORMULA; after Sander–Sander (2009) and Ramaré (2014–2015)",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a112399-morken-first-divisor-sum"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:oeis-a112399-morken-first-divisor-sum:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a11a6467d4ba3682c7630cd22c551cd11074cc6",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a11a6467d4ba3682c7630cd22c551cd11074cc6/D5/S3/Arith/MoebiusLogarithmic/MorkenFirstDivisorSum.lean"
+      },
+      "lineage": "collected:oeis-a112399-morken-first-divisor-sum:s5",
+      "macros": {
+        "\\C": "C",
+        "\\mob": "\\mu",
+        "\\rad": "\\operatorname{rad}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a112399-morken-first-divisor-sum",
+      "scope": "in_scope",
+      "statement": "Let $U(N,d)=\\C_d(\\lfloor N/d\\rfloor)$ for $1\\leq d\\leq N$,\nthe triangle A400203, revision 17, FORMULA \\cite{a400203}.\nThen\n\\begin{equation}\n U(N,d)=\\sum_{\\substack{q\\leq N/d\\\\\\rad(q)\\mid d}}\n                  M(\\lfloor N/(dq)\\rfloor).\n\\end{equation}\nIts boundary and plateau formulas are\n\\[\n U(N,1)=M(N),\\quad U(N,d)=1\\ (2d>N),\\quad\n U(N,d)=U(d\\lfloor N/d\\rfloor,d).\n\\]\nFor $1\\leq d<N$, its increment is $\\mob(N/d)$ when\n$d\\mid N$ and $(N/d,d)=1$, and zero otherwise.\nWriting $H(k)=1$ if every prime exponent of $k$ is at least two,\nand $H(k)=0$ otherwise, with $H(1)=1$, gives\n\\begin{align}\n \\sum_{d=1}^{N}U(N,d)&=\\sum_{k=1}^{N}H(k)\n                         =\\mathrm{A217038}(N+1),\\\\\n \\sum_{d=1}^{N}\\mob(d)U(N,d)&=\\sum_{k=1}^{N}\\mob(k)\\tau(k)\n                         =\\mathrm{A062563}(N),\\\\\n \\sum_{d=1}^{N}\\mob(d)^2U(N,d)&=1.\n\\end{align}\nHere $H$ is A112526, $\\tau(k)$ is the number of positive divisors,\nand A217038 counts powerful numbers strictly below its argument\n\\cite{triangle-aux}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Convention corrections and alternative proofs for Morken's conjectures in OEIS A112399: Revision 41, FORMULA; after Sander–Sander (2009) and Ramaré (2014–2015)",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a112399-morken-first-divisor-sum"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:oeis-a112399-morken-first-divisor-sum:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a11a6467d4ba3682c7630cd22c551cd11074cc6",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a11a6467d4ba3682c7630cd22c551cd11074cc6/D5/S3/Arith/MoebiusLogarithmic/MorkenFirstDivisorSum.lean"
+      },
+      "lineage": "collected:oeis-a112399-morken-first-divisor-sum:s6",
+      "macros": {
+        "\\C": "C",
+        "\\mob": "\\mu",
+        "\\rad": "\\operatorname{rad}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a112399-morken-first-divisor-sum",
+      "scope": "in_scope",
+      "statement": "With the powerful-number indicator $H$ above,\n$H(n)\\mob(n)=\\mathbf1_{n=1}$.\nThe multiplicative function with prime-power values zero for exponent\none and $-1$ for larger exponents is instead $H(n)\\mob(\\rad(n))$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Convention corrections and alternative proofs for Morken's conjectures in OEIS A112399: Revision 41, FORMULA; after Sander–Sander (2009) and Ramaré (2014–2015)",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a112399-morken-first-divisor-sum"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:oeis-a112399-morken-first-divisor-sum:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a11a6467d4ba3682c7630cd22c551cd11074cc6",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a11a6467d4ba3682c7630cd22c551cd11074cc6/D5/S3/Arith/MoebiusLogarithmic/MorkenFirstDivisorSum.lean"
+      },
+      "lineage": "collected:oeis-a112399-morken-first-divisor-sum:s7",
+      "macros": {
+        "\\C": "C",
+        "\\mob": "\\mu",
+        "\\rad": "\\operatorname{rad}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a112399-morken-first-divisor-sum",
+      "scope": "in_scope",
+      "statement": "Let $F$ be any complex-valued function on positive integers. For $n\\geq1$\nand $X\\geq0$,\n\\begin{equation}\n \\sum_{k=1}^{X}F\\!\\left(\\frac{k}{(k,n)}\\right)\n =\\sum_{d\\mid n}\\ \\sum_{\\substack{1\\leq m\\leq\\lfloor Xd/n\\rfloor\\\\(m,d)=1}}F(m).\n\\end{equation}\nIn particular, if $A_F(d)=\\sum_{m\\leq d,(m,d)=1}F(m)$ and\n$B_F(n)=\\sum_{k\\leq n}F(k/(k,n))$, then\n\\begin{equation}\n B_F(n)=\\sum_{d\\mid n}A_F(d),\\qquad\n A_F(n)=\\sum_{d\\mid n}\\mob(n/d)B_F(d).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Convention corrections and alternative proofs for Morken's conjectures in OEIS A112399: Revision 41, FORMULA; after Sander–Sander (2009) and Ramaré (2014–2015)",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a112399-morken-first-divisor-sum"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:oeis-a112399-morken-first-divisor-sum:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a11a6467d4ba3682c7630cd22c551cd11074cc6",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a11a6467d4ba3682c7630cd22c551cd11074cc6/D5/S3/Arith/MoebiusLogarithmic/MorkenFirstDivisorSum.lean"
+      },
+      "lineage": "collected:oeis-a112399-morken-first-divisor-sum:s8",
+      "macros": {
+        "\\C": "C",
+        "\\mob": "\\mu",
+        "\\rad": "\\operatorname{rad}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a112399-morken-first-divisor-sum",
+      "scope": "in_scope",
+      "statement": "For $b(n)=\\sum_{k\\leq n}\\mob(k/(k,n))$ (A332685 \\cite{a332685}),\n\\begin{equation}\n b(n)=\\sum_{d\\mid n}a(d),\\qquad\n a(n)=\\sum_{d\\mid n}\\mob(n/d)b(d).\n\\end{equation}\nAlso $b(n)=\\sum_{k\\leq n}\\mob(\\operatorname{lcm}(n,k)/n)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Convention corrections and alternative proofs for Morken's conjectures in OEIS A112399: Revision 41, FORMULA; after Sander–Sander (2009) and Ramaré (2014–2015)",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a112399-morken-first-divisor-sum"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:oeis-a112399-morken-first-divisor-sum:3:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a11a6467d4ba3682c7630cd22c551cd11074cc6",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a11a6467d4ba3682c7630cd22c551cd11074cc6/D5/S3/Arith/MoebiusLogarithmic/MorkenFirstDivisorSum.lean"
+      },
+      "lineage": "collected:oeis-a112399-morken-first-divisor-sum:s9",
+      "macros": {
+        "\\C": "C",
+        "\\mob": "\\mu",
+        "\\rad": "\\operatorname{rad}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a112399-morken-first-divisor-sum",
+      "scope": "in_scope",
+      "statement": "Write $s(d)=\\sum_{k\\leq d,(k,d)=1}\\mob(k)^2$ (A073311 \\cite{a073311}).\nThe formulas and data of A304575 \\cite{a304575} give the sequence\n\\begin{equation}\n R(n)=\\sum_{d\\mid n}s(d)\n =\\sum_{k=1}^{n}\\mob\\!\\left(\\frac{k}{(k,n)}\\right)^2\n =\\sum_{k=1}^{n}\\mob\\!\\left(\\frac{\\operatorname{lcm}(n,k)}{n}\\right)^2.\n\\end{equation}\nConsequently $R(n)\\leq n$ and\n$s(n)=\\sum_{d\\mid n}\\mob(n/d)R(d)$.\nIf the strict inequality $k<d$ in that entry's NAME is read literally\nfor positive $k$, its divisor sum equals $R(n)-1$, not $R(n)$.\nFor $Q(t)=\\sum_{1\\leq k<t}\\mob(k)^2$ (A013928 \\cite{a013928}),\nevery prime $p$ and integer $m\\geq0$ satisfy\n\\begin{align}\n R(p^{2m})&=1+\\sum_{i=0}^{m}Q(p^{2i}),\\\\\n R(p^{2m+1})&=1+\\sum_{i=0}^{m}Q(p^{2i+1}).\n\\end{align}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Convention corrections and alternative proofs for Morken's conjectures in OEIS A112399: Revision 41, FORMULA; after Sander–Sander (2009) and Ramaré (2014–2015)",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a112399-morken-first-divisor-sum"
     },
     {
       "attribution": null,

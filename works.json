@@ -283,6 +283,53 @@
       "work": "bajnok-beatty-original-conjecture-4-1"
     },
     {
+      "abstract_text": "Extending the pointwise formula recorded by Sequence Machine (18 April 2026) and Wolfram's (2026) worst-case analysis, we prove Peter Bala's conjecture dated 11 September 2026 in the Comments of OEIS A393210, revision 18, also stated in A069517, Formula, revision 31. For every positive integer n, the one-sided Turing machine 3626 halts after 4*2^v2(n)-3 transitions, including its final boundary crossing. A restoring block computation gives the recurrence T_(k+1)=2*T_k+3; the signed Möbius–totient divisor sum in the conjecture has the same value. The proof also gives exact timing statistics and the formulas for the two comparison machines in the same comment. A general weighted divisor identity gives the companion formulas in A069517 and A296306, including a correction to the latter entry's stated value on powers of two. The companion ordinary generating series recover Stephan's (2003) family.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S0/Computability/BinaryMachine/Machine3626.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 106481,
+        "sha256": "ea91793d00652ea40d70ec9cb8e5f8bb2640881792c3accb151385b72cfc9408",
+        "url": "/api/v1/collected-papers/bala-machine3626-exact-halting-time/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-22T10:30:32.614688826Z",
+      "record": "bala-machine3626-exact-halting-time",
+      "repository_name": "bala-machine3626-exact-halting-time",
+      "source": {
+        "bytes": 22731,
+        "sha256": "f7c3c25dcb902117f5f1538923c9897ec8e6c4da673cb78415bce047aec30427",
+        "url": "/api/v1/collected-papers/bala-machine3626-exact-halting-time/files/source?version=3"
+      },
+      "title": "A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-22T10:30:32.614688826Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "bala-machine3626-exact-halting-time"
+    },
+    {
       "abstract_text": "Extending Bala's divisibility results (Bala, 2026), we prove his conjecture in OEIS A295462, References (%D), record #19; contribution dated 23 August 2026: the integer a(n)=(15n)!(2n)!/((10n)!(6n)!n!) is odd exactly when consecutive one-bits of n have at least three zero-bits between them. A nonnegative floor function expresses its prime valuations. We reprove Bala's two divisibilities (Bala, 2026) and deduce product divisibility by (6n+1)(10n+1), preservation of the parity criterion, and counting and ordered recursions. We give written alternative proofs of the eleven XOR identities in A048718, verified by Karlsson (2022) with Walnut. For T(n)=(12n)!n!/((6n)!(4n)!(3n)!), we prove the five fixed divisibilities and both product families posed in A295431 on 28 August 2025, with C(k,R)=36(R-1)!lcm(1,...,12R) for k=1,2,3 and D(R)=(R-1)!lcm(1,...,R).",
       "authors": [
         {
@@ -1695,6 +1742,53 @@
       "work": "mathar-a027182-closed-form"
     },
     {
+      "abstract_text": "We extend the enumeration of Brignall, Ekhad, Smith and Vatter (2009) by proving the order-four recurrence conjectured by R. J. Mathar in OEIS A174193, FORMULA, 14 June 2016, and evaluating their tableau sum. A central-binomial closed form reduces the recurrence to an explicit polynomial identity. The same calculation proves Mathar's recurrence in the cross-referenced entry A174195 for n >= 4, so both recurrences hold for the corresponding permutation counts. An exact positive difference proves the inequality preceding Problem 10 of Brignall, Ekhad, Smith and Vatter. As a consequence of this inequality, equal lexicographic ranks give a length-preserving injection.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S1/Recurrence/Algebraic/MatharA174193OrderFourRecurrence.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 95612,
+        "sha256": "c37280c61d0c958e6b9da36a742886e37df2ca83f80268bf5862e8b837d824d6",
+        "url": "/api/v1/collected-papers/mathar-a174193-order-four-recurrence/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-22T10:29:44.649188517Z",
+      "record": "mathar-a174193-order-four-recurrence",
+      "repository_name": "mathar-a174193-order-four-recurrence",
+      "source": {
+        "bytes": 15954,
+        "sha256": "93437b7e29126f57d099e737a5639e16fb5fa71e3b455013cd7a0eee52791b51",
+        "url": "/api/v1/collected-papers/mathar-a174193-order-four-recurrence/files/source?version=3"
+      },
+      "title": "Mathar's recurrence in OEIS A174193: FORMULA, 14 June 2016: a tableau-sum evaluation extending Brignall–Ekhad–Smith–Vatter (2009)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-22T10:29:44.649188517Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "mathar-a174193-order-four-recurrence"
+    },
+    {
       "abstract_text": "We prove the displayed inequality in MathOverflow question 469781, which compares weighted squared two-by-two minors of an orthonormal pair with squared three-by-three minors, weighted by the largest edge weight of each triple. We prove the inequality by contraction in exterior algebra and a finite threshold decomposition. The proof gives both minimum and maximum bounds, permits signed weights and complex vectors, and extends to arbitrary exterior degrees and several orthogonal lifts. The orthonormal comparison follows from Lyons (2003); Miller and Bistroń (2025) give a direct two-sided proof and settle the linked distance-triangle conjecture.",
       "authors": [
         {
@@ -1975,6 +2069,53 @@
         }
       ],
       "work": "nath2021-commuting-cn-conjecture2"
+    },
+    {
+      "abstract_text": "We give alternative proofs of Jamie Morken's two conjectures in OEIS A112399, revision 41, FORMULA (18 September 2026), following the finite coprimality identity of Sander and Sander (2009) and equivalent identities of Ramaré (2014–2015). Both coprime Möbius sum identities hold with an arbitrary nonnegative integer cutoff. Complete finite derivations cover the A400203 triangle, the rectangular A372700 identity, and nearby divisor and gcd transforms, with their earlier proofs and formula records distinguished. We correct the strict endpoint in A304575's name and the signed-variant convention in A112526. The product identity is reproved with credit to Bala (2026).",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "4a11a6467d4ba3682c7630cd22c551cd11074cc6",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a11a6467d4ba3682c7630cd22c551cd11074cc6/D5/S3/Arith/MoebiusLogarithmic/MorkenFirstDivisorSum.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 109476,
+        "sha256": "53b1f2b474c50cd8947bffb22c7b7e280983106ac8a653ef202a851ff91f0cd1",
+        "url": "/api/v1/collected-papers/oeis-a112399-morken-first-divisor-sum/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-22T10:45:10.458178479Z",
+      "record": "oeis-a112399-morken-first-divisor-sum",
+      "repository_name": "oeis-a112399-morken-first-divisor-sum",
+      "source": {
+        "bytes": 18301,
+        "sha256": "4293f49a214fa1255fdd4e4f989d0b9ff8de24c0ef2208c824b85cbe874eaee2",
+        "url": "/api/v1/collected-papers/oeis-a112399-morken-first-divisor-sum/files/source?version=3"
+      },
+      "title": "Convention corrections and alternative proofs for Morken's conjectures in OEIS A112399: Revision 41, FORMULA; after Sander–Sander (2009) and Ramaré (2014–2015)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-22T10:45:10.458178479Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "oeis-a112399-morken-first-divisor-sum"
     },
     {
       "abstract_text": "We prove Paul Curtz's six-residue denominator conjecture in OEIS A189733, revision 12, COMMENTS (May 23, 2011), now in revision 36, FORMULA, with its convention that zero has denominator one. Following Gao's earlier generating-function proof, we derive exact values of the first row of the defining rational array. These values also prove the six-periodic numerator assertion, the denominator recurrence, and Barker's empirical generating function in the same entry. The same formulas settle Barker's recurrence and generating-function conjectures in A267068 and give the numerator identities in A278718. We also prove the full-array reflection and binomial-transform identity. The corresponding second-kind array yields A194767's denominator formulas and reciprocal sum, and corrects an index in its fourth-diagonal numerator identity. For the unsigned-seed array in A189731 and A242926, the same argument gives a Lucas-number formula and refutes the asserted prime-only integer ranks at the composite 705. An integer triangular transformation determines antidiagonal denominator lcms for arbitrary rational seeds.",

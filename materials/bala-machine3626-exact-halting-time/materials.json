@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/bala-machine3626-exact-halting-time/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/bala-machine3626-exact-halting-time",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/bala-machine3626-exact-halting-time/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "bala-machine3626-exact-halting-time"
+}
