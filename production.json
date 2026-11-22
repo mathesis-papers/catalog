@@ -60,27 +60,27 @@
   },
   "saved_build_recovery": {
     "24d6a1400bc6b843251a7513e980e30481dfa3296eada9dfcbbca4fb34bd7ee0": {
-      "id": "2026-11-21-matching-toolchain",
+      "id": "2026-11-23-container-dependency-links",
       "source_archive_sha256": "dc65ef2f1bfec0b5952ff96b0b76e5744b8a43ef09ded7cb0c6d1aff605830d8",
       "toolchain_image": "ghcr.io/the-omega-institute/trureturing-books-toolchain@sha256:bfd5d789f3d489aa8192ee6edc3128f2da0c674d0619a7d54f20a577564a716c"
     },
     "4607ef2b478b0de257aa0c6e3065970accf5f3d1335b23731fa111fa64f194c2": {
-      "id": "2026-11-21-matching-toolchain",
+      "id": "2026-11-23-container-dependency-links",
       "source_archive_sha256": "504a6f80a32dd60780ef4ef1941f3b5eb8e8d5b85f8ecba5bed2e6b90bf9d420",
       "toolchain_image": "ghcr.io/the-omega-institute/trureturing-books-toolchain@sha256:bfd5d789f3d489aa8192ee6edc3128f2da0c674d0619a7d54f20a577564a716c"
     },
     "4f0e686f619c8a280058a6391f49c834a7921fe2cd3b11a31c230a79b49894c1": {
-      "id": "2026-11-21-matching-toolchain",
+      "id": "2026-11-23-container-dependency-links",
       "source_archive_sha256": "0516b11b803ab87fe31494d12defcd63dbb9bdc1753572f79bbf8498c2cb04a7",
       "toolchain_image": "ghcr.io/the-omega-institute/trureturing-books-toolchain@sha256:bfd5d789f3d489aa8192ee6edc3128f2da0c674d0619a7d54f20a577564a716c"
     },
     "c30ef9107d124f4bd9878ebf91beb0ff1461a2a7fe9022980ba2ab50800f9335": {
-      "id": "2026-11-21-matching-toolchain",
+      "id": "2026-11-23-container-dependency-links",
       "source_archive_sha256": "2eef983e349705290cbb04d79c1f30c0efdec3ce4b31a9a0aeca1973dd64dea2",
       "toolchain_image": "ghcr.io/the-omega-institute/trureturing-books-toolchain@sha256:bfd5d789f3d489aa8192ee6edc3128f2da0c674d0619a7d54f20a577564a716c"
     },
     "fab16015dd303a65e25e9a62fbc548c2e7e0b17649c714f44de99037578ed21a": {
-      "id": "2026-11-21-matching-toolchain",
+      "id": "2026-11-23-container-dependency-links",
       "source_archive_sha256": "babdb54394c4563f41c7b8952b3ea6d0df9b379d7cf9b1ae7707aca9bd7f02cb",
       "toolchain_image": "ghcr.io/the-omega-institute/trureturing-books-toolchain@sha256:bfd5d789f3d489aa8192ee6edc3128f2da0c674d0619a7d54f20a577564a716c"
     }

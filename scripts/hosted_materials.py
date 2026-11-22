@@ -414,6 +414,27 @@ def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
     return outcome(ready or {'state':'authoring_started' if admitted else 'waiting_or_up_to_date','admitted':admitted})
 
 
+def configure_container_links(repo, toolchain=Path('/opt/tbook')):
+    link = repo/'node_modules'
+    if not link.is_symlink():
+        return
+    require(link.resolve() == (toolchain/'node_modules').resolve() and link.is_dir(),
+            'unexpected container dependency link')
+    require(not serial.command(['git', 'ls-files', '--', 'node_modules'], repo),
+            'container dependency link must not be tracked paper content')
+    # The template ignores node_modules/ as a directory, which does not match
+    # the symlink made by the verified toolchain image. Keep this runtime-only
+    # exclusion in local Git metadata; do not edit the paper or its template.
+    exclude = Path(serial.command(['git', 'rev-parse', '--git-path', 'info/exclude'], repo))
+    if not exclude.is_absolute():
+        exclude = repo/exclude
+    existing = exclude.read_text() if exclude.exists() else ''
+    if '/node_modules' not in existing.splitlines():
+        exclude.parent.mkdir(parents=True, exist_ok=True)
+        with exclude.open('a') as stream:
+            stream.write('\n/node_modules\n')
+
+
 def build(run):
     envelope = serial.read(run/'envelope.json')
     repo = Path(envelope['repository_path'])
@@ -421,6 +442,7 @@ def build(run):
     require(result['visualization']['decision'] in ('built','not_useful'),'visualization assessment is still pending')
     serial.write(run/'checkpoint.json', {'state':'rebuilding_products', 'started_at':serial.now()})
     try:
+        configure_container_links(repo)
         state = serial.validate_run(repo, run, build=True)
         require(state['state'] == 'local_checks_passed', 'host material checks did not pass')
     except Exception:
