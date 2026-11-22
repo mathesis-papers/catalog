@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import sys
 import tempfile
+import subprocess
 import unittest
 import urllib.error
 from unittest.mock import patch
@@ -21,6 +22,37 @@ class Ledger:
 
 
 class HostedTests(unittest.TestCase):
+    def test_verified_container_symlink_is_local_output_without_changing_template(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            repo, toolchain = root/'paper', root/'toolchain'
+            repo.mkdir()
+            (toolchain/'node_modules').mkdir(parents=True)
+            subprocess.run(['git', 'init', '-q', str(repo)], check=True)
+            (repo/'.gitignore').write_text('/node_modules/\n')
+            (repo/'node_modules').symlink_to(toolchain/'node_modules', target_is_directory=True)
+            def ignored():
+                return subprocess.run(['git', 'check-ignore', '-q', 'node_modules'], cwd=repo).returncode == 0
+            self.assertFalse(ignored())
+            hosted.configure_container_links(repo, toolchain)
+            self.assertTrue(ignored())
+            exclude = repo/'.git/info/exclude'
+            first = exclude.read_bytes()
+            hosted.configure_container_links(repo, toolchain)
+            self.assertEqual(exclude.read_bytes(), first)
+            self.assertEqual((repo/'.gitignore').read_text(), '/node_modules/\n')
+            subprocess.run(['git', 'add', '-f', 'node_modules'], cwd=repo, check=True)
+            with self.assertRaisesRegex(ValueError, 'tracked paper content'):
+                hosted.configure_container_links(repo, toolchain)
+
+    def test_unexpected_dependency_link_is_not_hidden(self):
+        with tempfile.TemporaryDirectory() as folder:
+            repo = Path(folder)
+            (repo/'node_modules').symlink_to(repo, target_is_directory=True)
+            with self.assertRaisesRegex(ValueError, 'unexpected container'):
+                hosted.configure_container_links(repo)
+            self.assertFalse((repo/'.git/info/exclude').exists())
+
     def test_existing_workspace_configuration_does_not_reserve_an_external_machine(self):
         self.assertEqual(hosted.material_workspaces({'CMA_EXTERNAL_WORKSPACE':'existing'}),
                          {'collection':'existing','external':'existing'})
