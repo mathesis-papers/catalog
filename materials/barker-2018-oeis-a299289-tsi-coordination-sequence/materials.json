@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/barker-2018-oeis-a299289-tsi-coordination-sequence/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/barker-2018-oeis-a299289-tsi-coordination-sequence",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/barker-2018-oeis-a299289-tsi-coordination-sequence/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "barker-2018-oeis-a299289-tsi-coordination-sequence"
+}

@@ -127,6 +127,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24482895",
+      "id": "barker-2018-oeis-a299289-tsi-coordination-sequence",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24409050",
       "id": "barker-tea-coordination-sequence",
       "kind": "collected",
@@ -135,6 +141,12 @@
     {
       "doi": "10.5281/zenodo.24369110",
       "id": "bernath-a400645-consecutive-ratio",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24482905",
+      "id": "bonamagarichey-2026-extremal-frequency",
       "kind": "collected",
       "version": 2
     },
@@ -913,6 +925,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-23T20:30:34.61324549Z",
+  "generated_at": "2026-11-23T21:30:05.460687389Z",
   "schema": "mathesis.archive-index.v1"
 }

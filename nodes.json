@@ -5652,6 +5652,166 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/StatisticalMechanics/TsiCoordinationSequence.lean"
+      },
+      "lineage": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:s1",
+      "macros": {
+        "\\Z": "\\mathbb Z",
+        "\\dist": "\\operatorname{dist}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "barker-2018-oeis-a299289-tsi-coordination-sequence",
+      "scope": "in_scope",
+      "statement": "For every $(i,j,k)\\in\\Z^3$,\n\\[\n \\dist_G((0,0,0),(i,j,k))\n =|k|+\\delta_{\\alpha_k}(i)+\\delta_{\\beta_k}(j).                 \\tag{3}\n\\]\nThe graph is vertex-transitive, $a(0)=1$, and at every center\n\\[\n a(n)=\\begin{cases}\n (13n^2+4)/2,&n>0\\text{ even},\\\\\n (13n^2+3)/2,&n\\text{ odd}.\n \\end{cases}                                                    \\tag{4}\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prism-stack shell bounds and proofs of Barker's and Spezia's conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "barker-2018-oeis-a299289-tsi-coordination-sequence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/StatisticalMechanics/TsiCoordinationSequence.lean"
+      },
+      "lineage": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:s2",
+      "macros": {
+        "\\Z": "\\mathbb Z",
+        "\\dist": "\\operatorname{dist}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "barker-2018-oeis-a299289-tsi-coordination-sequence",
+      "scope": "in_scope",
+      "statement": "As formal power series,\n\\begin{align}\n A(z):=\\sum_{n\\geq0}a(n)z^n\n &=\\frac{1+6z+12z^2+6z^3+z^4}{(1-z)^3(1+z)},                 \\tag{8}\\\\\n E(t):=\\sum_{n\\geq0}a(n)\\frac{t^n}{n!}\n &=\\frac{(4+13t+13t^2)\\cosh t+(3+13t+13t^2)\\sinh t-2}{2}.   \\tag{9}\n\\end{align}\nMoreover, $a(n)=2a(n-1)-2a(n-3)+a(n-4)$ for $n\\geq5$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prism-stack shell bounds and proofs of Barker's and Spezia's conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "barker-2018-oeis-a299289-tsi-coordination-sequence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/StatisticalMechanics/TsiCoordinationSequence.lean"
+      },
+      "lineage": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:s3",
+      "macros": {
+        "\\Z": "\\mathbb Z",
+        "\\dist": "\\operatorname{dist}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "barker-2018-oeis-a299289-tsi-coordination-sequence",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\geq0$,\n\\[\n b(n)=\\begin{cases}\n (26n^3+39n^2+34n+12)/12,&n\\text{ even},\\\\\n (26n^3+39n^2+34n+9)/12,&n\\text{ odd}.\n \\end{cases}                                                    \\tag{11}\n\\]\nIts ordinary generating function is\n\\[\n B(z)=\\frac{1+6z+12z^2+6z^3+z^4}{(1-z)^4(1+z)},             \\tag{12}\n\\]\nand, for $n\\geq5$,\n\\[\n b(n)=3b(n-1)-2b(n-2)-2b(n-3)+3b(n-4)-b(n-5).              \\tag{13}\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prism-stack shell bounds and proofs of Barker's and Spezia's conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "barker-2018-oeis-a299289-tsi-coordination-sequence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/StatisticalMechanics/TsiCoordinationSequence.lean"
+      },
+      "lineage": "collected:barker-2018-oeis-a299289-tsi-coordination-sequence:s4",
+      "macros": {
+        "\\Z": "\\mathbb Z",
+        "\\dist": "\\operatorname{dist}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "barker-2018-oeis-a299289-tsi-coordination-sequence",
+      "scope": "in_scope",
+      "statement": "In this graph the distance to $(i,j,k)$ is\n$|k|+\\delta_{c_k}(i)+\\delta_{d_k}(j)$.\nFor $n\\geq1$, its origin shell size $s(n)$ is\n\\begin{align}\n s(n)&=6n^2-2n+(|c_n|+1)(|d_n|+1)\n                     +(|c_{-n}|+1)(|d_{-n}|+1), \\tag{14}\\\\\n 6n^2+2&\\leq s(n)\\leq a(n). \\tag{15}\n\\end{align}\nBoth bounds are attained at every radius by fixed choices of the stack.\nThe same formula holds about any center after shifting the layer origin\nand the horizontal coordinates to that center.\nAn explicit scale-two embedding is\n\\[\n \\Phi(i,j,k)=(k,i,i-c_k,j,j-d_k)\\in\\Z^5,\n \\qquad \\|\\Phi(p)-\\Phi(q)\\|_1=2\\dist(p,q).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prism-stack shell bounds and proofs of Barker's and Spezia's conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "barker-2018-oeis-a299289-tsi-coordination-sequence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:barker-tea-coordination-sequence:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -6222,6 +6382,201 @@
       "toolchain": null,
       "version": 2,
       "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:bonamagarichey-2026-extremal-frequency:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1/D5/S1/Words/Forbidden/BonaMagaRicheyExtremalFrequency.lean"
+      },
+      "lineage": "collected:bonamagarichey-2026-extremal-frequency:s1",
+      "macros": {
+        "\\Om": "\\Omega"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bonamagarichey-2026-extremal-frequency",
+      "scope": "in_scope",
+      "statement": "For one-letter forbidden words,\n$\\rho_n^0=1$ and $\\rho_n^1=0$ for every $n\\geq1$.\nFor two-letter forbidden words the limits are\n\\[\n\\begin{array}{c|cccc}\n w&00&01&10&11\\\\ \\hline\n \\rho^w&\\displaystyle\\frac12+\\frac{1}{2\\sqrt5}\n &\\displaystyle\\frac12&\\displaystyle\\frac12\n &\\displaystyle\\frac12-\\frac{1}{2\\sqrt5}.\n\\end{array}\n\\]\nConsequently the unique maximizers at lengths one and two are $0$ and $00$,\nrespectively. The proposal on the full domain $k\\geq1$ is false, and it\nremains false if that domain is changed to $k\\geq2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Boundary corrections and a length-three extension of Bóna–Maga–Richey's extremal-frequency analysis",
+      "toolchain": null,
+      "version": 2,
+      "work": "bonamagarichey-2026-extremal-frequency"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:bonamagarichey-2026-extremal-frequency:2:s2",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1/D5/S1/Words/Forbidden/BonaMagaRicheyExtremalFrequency.lean"
+      },
+      "lineage": "collected:bonamagarichey-2026-extremal-frequency:s2",
+      "macros": {
+        "\\Om": "\\Omega"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bonamagarichey-2026-extremal-frequency",
+      "scope": "in_scope",
+      "statement": "Let $m\\geq2$, and let $r_m\\in(0,1)$ be the unique positive solution of\n$r_m+r_m^2+\\cdots+r_m^m=1$. Then\n\\[\n \\rho^{10^m}=\\rho^{0^m1}=\\rho^{0^m}\n =\\frac{1}{\\sum_{i=1}^m i r_m^i}.\n\\]\nFor $m=1$, instead, $\\rho^{10}=\\rho^{01}=1/2$ while $\\rho^0=1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Boundary corrections and a length-three extension of Bóna–Maga–Richey's extremal-frequency analysis",
+      "toolchain": null,
+      "version": 2,
+      "work": "bonamagarichey-2026-extremal-frequency"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:bonamagarichey-2026-extremal-frequency:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1/D5/S1/Words/Forbidden/BonaMagaRicheyExtremalFrequency.lean"
+      },
+      "lineage": "collected:bonamagarichey-2026-extremal-frequency:s3",
+      "macros": {
+        "\\Om": "\\Omega"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bonamagarichey-2026-extremal-frequency",
+      "scope": "in_scope",
+      "statement": "Put $f_m=(\\sum_{i=1}^m i r_m^i)^{-1}$ for $m\\geq2$.\nBesides the identities of Proposition~\\ref{prop:reduction},\n\\[\n \\rho^{01^m}=\\rho^{1^m0}=\\rho^{1^m}=1-f_m,\n \\qquad\n \\lambda^{10^m}=\\lambda^{0^m1}=\\lambda^{0^m}=r_m^{-1},\n\\]\nwhere $\\lambda^w=\\lim_{n\\to\\infty}|\\Om_n^w|^{1/n}$.\nThe complementary words have the same entropy. Moreover,\n$f_2>f_3>\\cdots>1/2$ and $f_m\\to1/2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Boundary corrections and a length-three extension of Bóna–Maga–Richey's extremal-frequency analysis",
+      "toolchain": null,
+      "version": 2,
+      "work": "bonamagarichey-2026-extremal-frequency"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:bonamagarichey-2026-extremal-frequency:2:s4",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1/D5/S1/Words/Forbidden/BonaMagaRicheyExtremalFrequency.lean"
+      },
+      "lineage": "collected:bonamagarichey-2026-extremal-frequency:s4",
+      "macros": {
+        "\\Om": "\\Omega"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bonamagarichey-2026-extremal-frequency",
+      "scope": "in_scope",
+      "statement": "Among the eight forbidden binary words of length three, the unique\nmaximizers are $100$ and $001$, with value\n$f_2=(1+1/\\sqrt5)/2$. The unique minimizers are $011$ and $110$,\nwith value $1-f_2$. More explicitly, let $r\\in(1/2,1)$ be the root of\n$1-2r+r^2-r^3=0$, and put\n$h=(1-r+2r^2)/(2-2r+3r^2)$. Then\n\\[\n\\begin{array}{c|cccccccc}\nw&000&001&010&011&100&101&110&111\\\\ \\hline\n\\rho^w&f_3&f_2&h&1-f_2&f_2&1-h&1-f_2&1-f_3\n\\end{array}\n\\]\nHere $1/2<h<2/3<f_2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Boundary corrections and a length-three extension of Bóna–Maga–Richey's extremal-frequency analysis",
+      "toolchain": null,
+      "version": 2,
+      "work": "bonamagarichey-2026-extremal-frequency"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:bonamagarichey-2026-extremal-frequency:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1/D5/S1/Words/Forbidden/BonaMagaRicheyExtremalFrequency.lean"
+      },
+      "lineage": "collected:bonamagarichey-2026-extremal-frequency:s5",
+      "macros": {
+        "\\Om": "\\Omega"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bonamagarichey-2026-extremal-frequency",
+      "scope": "in_scope",
+      "statement": "For an alphabet of size $N\\geq2$ and a fixed target symbol $b$, avoiding\nthe single symbol $b$ gives target frequency $0$ at every positive length.\nAvoiding any other single symbol gives frequency $1/(N-1)$.\nThus the $N-1$ non-target symbols are exactly the maximizing singleton\nforbidden words.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Boundary corrections and a length-three extension of Bóna–Maga–Richey's extremal-frequency analysis",
+      "toolchain": null,
+      "version": 2,
+      "work": "bonamagarichey-2026-extremal-frequency"
     },
     {
       "attribution": null,

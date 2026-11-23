@@ -1177,6 +1177,63 @@
       "work": "banica-ozteke-pittau-2018-truncation-isolation"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 93659,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "a318c61b97ed81446ea4f956c2e3555bbee6014982457c917f42a63a208b0269",
+          "sha256": "a318c61b97ed81446ea4f956c2e3555bbee6014982457c917f42a63a208b0269"
+        },
+        "source": {
+          "bytes": 16405,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "41b275d9a27b33ce440f2f120de3e8cce7bed4f4434deecb948923b534c073e8",
+          "sha256": "41b275d9a27b33ce440f2f120de3e8cce7bed4f4434deecb948923b534c073e8"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 4,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/StatisticalMechanics/TsiCoordinationSequence.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/barker-2018-oeis-a299289-tsi-coordination-sequence",
+      "site_url": "https://papers.trureturing.org/barker-2018-oeis-a299289-tsi-coordination-sequence/",
+      "title": "Prism-stack shell bounds and proofs of Barker's and Spezia's conjectures",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "barker-2018-oeis-a299289-tsi-coordination-sequence"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24409049",
       "doi": "10.5281/zenodo.24409050",
       "files": {
@@ -1291,6 +1348,63 @@
       "work": "bernath-a400645-consecutive-ratio"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 78930,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "30b3f9b97b9c898556693486274c285b0b91b4326ba17d4fdff2064b5b87c054",
+          "sha256": "30b3f9b97b9c898556693486274c285b0b91b4326ba17d4fdff2064b5b87c054"
+        },
+        "source": {
+          "bytes": 16455,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "50c4ae7c45be7f0fd607e6be1b995bcfa50309fc6da3f3108089a77796fb6f92",
+          "sha256": "50c4ae7c45be7f0fd607e6be1b995bcfa50309fc6da3f3108089a77796fb6f92"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1/D5/S1/Words/Forbidden/BonaMagaRicheyExtremalFrequency.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/bonamagarichey-2026-extremal-frequency",
+      "site_url": "https://papers.trureturing.org/bonamagarichey-2026-extremal-frequency/",
+      "title": "Boundary corrections and a length-three extension of Bóna–Maga–Richey's extremal-frequency analysis",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "bonamagarichey-2026-extremal-frequency"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24212420",
       "doi": "10.5281/zenodo.24212421",
       "files": {
@@ -1347,8 +1461,8 @@
       "work": "bouafia-diversity-negative-type"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24445667",
+      "doi": "10.5281/zenodo.24445668",
       "files": {
         "pdf": {
           "bytes": 76832,
@@ -1385,7 +1499,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1799,8 +1912,8 @@
       "work": "consiglio-apollaro-wiesniak-2022-xmems-css-shape"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24445674",
+      "doi": "10.5281/zenodo.24445675",
       "files": {
         "pdf": {
           "bytes": 91635,
@@ -1837,7 +1950,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3032,8 +3144,8 @@
       "work": "hardin185765"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24445693",
+      "doi": "10.5281/zenodo.24445694",
       "files": {
         "pdf": {
           "bytes": 103788,
@@ -3070,7 +3182,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4437,8 +4548,8 @@
       "work": "kurkov-a340991-convolution-row-recursion"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24446051",
+      "doi": "10.5281/zenodo.24446052",
       "files": {
         "pdf": {
           "bytes": 113639,
@@ -4475,7 +4586,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4662,8 +4772,8 @@
       "work": "luschny-a323206"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24446055",
+      "doi": "10.5281/zenodo.24446056",
       "files": {
         "pdf": {
           "bytes": 80987,
@@ -4700,7 +4810,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -5167,8 +5276,8 @@
       "work": "mathar-square-root-quotient-recurrence"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24446062",
+      "doi": "10.5281/zenodo.24446063",
       "files": {
         "pdf": {
           "bytes": 91403,
@@ -5205,7 +5314,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -5504,8 +5612,8 @@
       "work": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24477546",
+      "doi": "10.5281/zenodo.24477547",
       "files": {
         "pdf": {
           "bytes": 74733,
@@ -5542,7 +5650,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -5953,8 +6060,8 @@
       "work": "oeis-a130095-ratio-limit"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24415603",
+      "doi": "10.5281/zenodo.24415604",
       "files": {
         "pdf": {
           "bytes": 88251,
@@ -5991,7 +6098,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -8616,8 +8722,8 @@
       "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24477883",
+      "doi": "10.5281/zenodo.24477884",
       "files": {
         "pdf": {
           "bytes": 77249,
@@ -8654,7 +8760,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -8673,8 +8778,8 @@
       "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 154,
+  "papers": 156,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-23T20:30:34.61324549Z"
+  "snapshot_time": "2026-11-23T21:30:05.460687389Z"
 }

@@ -145,6 +145,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24445668",
+      "id": "brown-cameron-2020-irrational-imaginary-independence-root",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23885951",
       "id": "bu-gu-jaffe-2025-mixed-state-inverse-sumset",
       "kind": "collected",
@@ -185,6 +191,12 @@
       "id": "consiglio-apollaro-wiesniak-2022-xmems-css-shape",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24445675",
+      "id": "coons-strict-adjacent-multiplicity-growth",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.24445683",
@@ -311,6 +323,12 @@
       "id": "hardin185765",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24445694",
+      "id": "hardin233156",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.24414706",
@@ -445,6 +463,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24446052",
+      "id": "kurkov-binary-stirling-row-edge",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24414711",
       "id": "larotonda-principal-log-distance",
       "kind": "collected",
@@ -461,6 +485,12 @@
       "id": "luschny-a323206",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24446056",
+      "id": "ma2013-dsspectral-equal-blocks",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.23920583",
@@ -511,6 +541,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24446063",
+      "id": "mathex-2026-mo511715-cutoff-bound",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23931738",
       "id": "mathoverflow-469781-weighted-orthogonal-minors",
       "kind": "collected",
@@ -539,6 +575,12 @@
       "id": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy",
       "kind": "collected",
       "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24477547",
+      "id": "mukherjee-ray-ordered-connected-forcing-crossing",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.24407822",
@@ -581,6 +623,12 @@
       "id": "oeis-a130095-ratio-limit",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24415604",
+      "id": "oeis-a188475-original-shifted-hankel",
+      "kind": "collected",
+      "version": 4
     },
     {
       "doi": "10.5281/zenodo.23957584",
@@ -857,8 +905,14 @@
       "id": "zhan-gupta-hillery-detector-sensor-flat-averaging",
       "kind": "collected",
       "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24477884",
+      "id": "zoroa-strong-dominance-counterexample",
+      "kind": "collected",
+      "version": 3
     }
   ],
-  "generated_at": "2026-11-23T20:30:34.61324549Z",
+  "generated_at": "2026-11-23T21:30:05.460687389Z",
   "schema": "mathesis.archive-index.v1"
 }

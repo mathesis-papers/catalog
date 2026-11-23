@@ -988,6 +988,53 @@
       "work": "banica-ozteke-pittau-2018-truncation-isolation"
     },
     {
+      "abstract_text": "Extending Deza and Shtogrin's scale-two metric description (1999/2000, Tables 3-4) to exact shell enumeration, we prove Colin Barker's conjectures in the formula block of OEIS A299289, revision 16 (formulas dated February 11, 2018), and Stefano Spezia's conjectured exponential generating function in the same block (June 8, 2024), by expressing distance in the alternating-prism tiling as layer distance plus distance to an integer rectangle. The shell counts are a(0)=1 and 2a(n)=13n^2+4 for positive even n, or 13n^2+3 for odd n. They imply all of Barker's partial-sum conjectures in A299290, revision 10, formula block (February 11, 2018). For arbitrary stacks of square-faced triangular-prism slabs, the metric gives sharp shell bounds; a nonalternating stack can have the same coordination sequence at one center but a different sequence at another.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/StatisticalMechanics/TsiCoordinationSequence.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 93659,
+        "sha256": "a318c61b97ed81446ea4f956c2e3555bbee6014982457c917f42a63a208b0269",
+        "url": "/api/v1/collected-papers/barker-2018-oeis-a299289-tsi-coordination-sequence/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T21:19:41.701074625Z",
+      "record": "barker-2018-oeis-a299289-tsi-coordination-sequence",
+      "repository_name": "barker-2018-oeis-a299289-tsi-coordination-sequence",
+      "source": {
+        "bytes": 16405,
+        "sha256": "41b275d9a27b33ce440f2f120de3e8cce7bed4f4434deecb948923b534c073e8",
+        "url": "/api/v1/collected-papers/barker-2018-oeis-a299289-tsi-coordination-sequence/files/source?version=2"
+      },
+      "title": "Prism-stack shell bounds and proofs of Barker's and Spezia's conjectures",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T21:19:41.701074625Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "barker-2018-oeis-a299289-tsi-coordination-sequence"
+    },
+    {
       "abstract_text": "We prove Colin Barker's generating-function and recurrence conjectures of February 11, 2018 in the FORMULA fields of OEIS A299285 and A299286 for the tea uniform tiling. An exact distance formula reduces its graph spheres to integer hexagons in triangular layers. Their counts give a quadratic quasipolynomial of least period four, establish Stefano Spezia's conditional formula of June 8, 2024, and give the corresponding cubic ball count. We also prove that the proposed recurrences have the least possible eventual orders, six and seven. The same layer count proves the companion tcd formulas in A299287 and A299288. For arbitrary orientations of the tetrahedron–octahedron slabs, the tcd and tea counts are sharp lower and upper bounds, with sphere-count gap floor(n^2/8).",
       "authors": [
         {
@@ -1082,6 +1129,53 @@
       "work": "bernath-a400645-consecutive-ratio"
     },
     {
+      "abstract_text": "For Bóna, Maga and Richey's extremal-frequency question (arXiv:2606.06655v2, revised September 9, 2026, Section 5.3, p. 19), we extend the classical frequency calculations of Lekkerkerker (1951), Chang (1986) and Kovačević (2018/2019) to classify the maximizers at lengths one, two and three by exact counting and generating functions. They are 0, 00, and the pair 100,001, respectively: the first two lengths contradict the unrestricted proposal, whereas length three agrees with it. We prove the authors' reducible-word frequency identity with its necessary boundary restriction, obtain all four complementary families, and show that their candidate frequencies decrease strictly to 1/2. The comparison with all competitors at lengths at least four is separate.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1/D5/S1/Words/Forbidden/BonaMagaRicheyExtremalFrequency.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 78930,
+        "sha256": "30b3f9b97b9c898556693486274c285b0b91b4326ba17d4fdff2064b5b87c054",
+        "url": "/api/v1/collected-papers/bonamagarichey-2026-extremal-frequency/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T21:20:47.075791514Z",
+      "record": "bonamagarichey-2026-extremal-frequency",
+      "repository_name": "bonamagarichey-2026-extremal-frequency",
+      "source": {
+        "bytes": 16455,
+        "sha256": "50c4ae7c45be7f0fd607e6be1b995bcfa50309fc6da3f3108089a77796fb6f92",
+        "url": "/api/v1/collected-papers/bonamagarichey-2026-extremal-frequency/files/source?version=2"
+      },
+      "title": "Boundary corrections and a length-three extension of Bóna–Maga–Richey's extremal-frequency analysis",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T21:20:47.075791514Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "bonamagarichey-2026-extremal-frequency"
+    },
+    {
       "abstract_text": "An exponential-similarity extension of Huntsman's (2026, Appendix G.3, Theorem 4) distance-objective counterexample, together with an exact five-point example, answers both parts of Bouafia's Open problem in Magnitude and diversity of trees, arXiv:2605.03681v1, Section 4.1, page 18, negatively. Irreversible negative-weight deletion can fail even on eight points in R^4 with ordinary Euclidean distance. Rational outward bounds certify this at scale 1/1000 for Huntsman's integer coordinates. The separate five-point scaled-Hamming example has a rational similarity matrix and an exact energy decrease; its unique optimizer restores a point deleted by the first solve. We also prove small-scale persistence and negative-type examples of every cardinality at least five.",
       "authors": [
         {
@@ -1140,9 +1234,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24445667",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24445668",
       "lean_source": {
         "revision": "1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e",
         "url": "https://github.com/the-omega-institute/trureturing/blob/1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e/D5/S3/StatisticalMechanics/HardCore/IrrationalIndependenceRoot.lean"
@@ -1516,9 +1610,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24445674",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24445675",
       "lean_source": {
         "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
         "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
@@ -2550,9 +2644,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24445693",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24445694",
       "lean_source": {
         "revision": "e135d8e2afafffb707a541357df302c35e90baff",
         "url": "https://github.com/the-omega-institute/trureturing/blob/e135d8e2afafffb707a541357df302c35e90baff/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233156Row.lean"
@@ -3725,9 +3819,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24446051",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24446052",
       "lean_source": {
         "revision": "47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb",
         "url": "https://github.com/the-omega-institute/trureturing/blob/47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb/D5/S1/Recurrence/Parity/DyadicExtendedStirlingEdge.lean"
@@ -3913,9 +4007,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24446055",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24446056",
       "lean_source": {
         "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S0/Certificates/MouradAbbasC51Refutation.lean"
@@ -4338,9 +4432,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24446062",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24446063",
       "lean_source": {
         "revision": "1ad50310295853e27713693f182e8eac94296739",
         "url": "https://github.com/the-omega-institute/trureturing/blob/1ad50310295853e27713693f182e8eac94296739/D5/S3/Fourier/MO511715Source.lean"
@@ -4620,9 +4714,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24477546",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24477547",
       "lean_source": {
         "revision": "a165df4cad5a5538260a4e40d6b865a3db48795d",
         "url": "https://github.com/the-omega-institute/trureturing/blob/a165df4cad5a5538260a4e40d6b865a3db48795d/D5/S3/Combinatorics/Graph/ZeroForcing/ConnectedForcingCrossingRefutation.lean"
@@ -4996,9 +5090,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24415603",
       "current_version": 4,
-      "doi": null,
+      "doi": "10.5281/zenodo.24415604",
       "lean_source": {
         "revision": "c6d80ec1ad5920a0470d7ff831c17f6303e6e578",
         "url": "https://github.com/the-omega-institute/trureturing/blob/c6d80ec1ad5920a0470d7ff831c17f6303e6e578/D5/S3/Combinatorics/CatalanPowerHankel/BarryA188475.lean"
@@ -7205,9 +7299,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24477883",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24477884",
       "lean_source": {
         "revision": "ad59550e53d607f9e9dbd8110a79414c46e97f7e",
         "url": "https://github.com/the-omega-institute/trureturing/blob/ad59550e53d607f9e9dbd8110a79414c46e97f7e/D5/S3/Analytic/Probability/StrongDominanceRefutation.lean"
