@@ -132,9 +132,14 @@ jobs:
           MATERIAL_REPOSITORY: ${{ steps.materials.outputs.repository }}
         run: |
           set -euo pipefail
+          # The pinned renderer Chromium lacks H.264/AAC. Use the existing runner
+          # Chrome for mandatory playback QA; browser version is retained in its receipt.
+          test -x /opt/google/chrome/chrome
           material_image=$(python3 -c 'import json; print(json.load(open("production.json"))["toolchain_image"])')
           docker run --rm --init --ipc=host \
             --mount "type=bind,src=$GITHUB_WORKSPACE/publisher,dst=$GITHUB_WORKSPACE/publisher,readonly" \
+            --mount "type=bind,src=/opt/google/chrome,dst=/opt/mathesis-qa-chrome,readonly" \
+            --env PW_CHROMIUM_PATH=/opt/mathesis-qa-chrome/chrome \
             --mount "type=bind,src=$RUNNER_TEMP/mathesis-materials,dst=$RUNNER_TEMP/mathesis-materials" \
             --workdir "$MATERIAL_REPOSITORY" \
             --env MATERIAL_RUN --env MATERIAL_REPOSITORY \
