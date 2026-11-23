@@ -143,8 +143,18 @@ jobs:
             --mount "type=bind,src=$RUNNER_TEMP/mathesis-materials,dst=$RUNNER_TEMP/mathesis-materials" \
             --workdir "$MATERIAL_REPOSITORY" \
             --env MATERIAL_RUN --env MATERIAL_REPOSITORY \
+            --env MATERIAL_RUNNER_UID="$(id -u)" --env MATERIAL_RUNNER_GID="$(id -g)" \
+            --env MATERIAL_WORKSPACE="$RUNNER_TEMP/mathesis-materials" \
             --env MATERIAL_CONTROLS="$GITHUB_WORKSPACE/publisher" \
             "$material_image" bash -euo pipefail -c '
+              # The renderer prepares system dependencies as root. Hand only
+              # this task workspace back to the runner, including on failure.
+              restore_runner_ownership() {
+                material_exit=$?
+                chown -hR -- "$MATERIAL_RUNNER_UID:$MATERIAL_RUNNER_GID" "$MATERIAL_WORKSPACE" || exit 1
+                exit "$material_exit"
+              }
+              trap restore_runner_ownership EXIT
               git config --global --add safe.directory "$MATERIAL_REPOSITORY"
               python /opt/tbook/container/prepare.py
               bash "$MATERIAL_CONTROLS/scripts/prepare_material_qa.sh"
