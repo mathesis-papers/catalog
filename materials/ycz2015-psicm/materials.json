@@ -1,6 +1,7 @@
 {
   "doi": null,
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/ycz2015-psicm/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/ycz2015-psicm",

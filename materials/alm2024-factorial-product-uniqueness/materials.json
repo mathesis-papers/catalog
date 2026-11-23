@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/alm2024-factorial-product-uniqueness/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/alm2024-factorial-product-uniqueness",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/alm2024-factorial-product-uniqueness/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "alm2024-factorial-product-uniqueness"
+}

@@ -1,6 +1,7 @@
 {
   "doi": null,
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/crim-question-one-four-parts/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/crim-question-one-four-parts",

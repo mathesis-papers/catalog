@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/yoeli-gour-destruction-superchannel/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/yoeli-gour-destruction-superchannel",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/yoeli-gour-destruction-superchannel/",
+  "slides": [],
+  "version": 4,
+  "videos": [],
+  "visualizations": [],
+  "work": "yoeli-gour-destruction-superchannel"
+}

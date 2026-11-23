@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/mertens-2024-grid-cylinder-joint-growth/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/mertens-2024-grid-cylinder-joint-growth",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/mertens-2024-grid-cylinder-joint-growth/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "mertens-2024-grid-cylinder-joint-growth"
+}

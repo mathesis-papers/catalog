@@ -1,6 +1,7 @@
 {
   "doi": null,
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/oeis-a322026-sequence-machine-dirichlet-inverse-identity/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/oeis-a322026-sequence-machine-dirichlet-inverse-identity",

@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/h3894-composition-congruences/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/h3894-composition-congruences",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/h3894-composition-congruences/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "h3894-composition-congruences"
+}

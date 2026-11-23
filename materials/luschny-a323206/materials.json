@@ -1,6 +1,7 @@
 {
   "doi": null,
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/luschny-a323206/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/luschny-a323206",

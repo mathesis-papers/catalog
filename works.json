@@ -189,6 +189,53 @@
       "work": "aks2610-twin-free-theta-separation"
     },
     {
+      "abstract_text": "Extending Alekseyev's (2026) fixed-length enumeration, we answer negatively the question of whether the halving-partition count is 2-regular, posed in Section 6, second paragraph, page 18, of Halving Partitions and Hyperbinary Expansions (arXiv:2611.01243v1, 2026). An exact classification at n=2^m+1 gives a step function whose first difference has arbitrarily long zero blocks followed by a one. The dyadic length and total-part identities specialize his Theorem 5; the list classification supplies an alternative proof. A finite decimation family would impose a monic linear recurrence on this difference, which is impossible. The argument also excludes finite decimation families over every nonzero commutative ring and shows that the count modulo any integer q>=2 is not 2-automatic. We also give explicit dyadic deficit and digit-weight formulas, a flat length distribution, and the same nonregularity obstruction in every base 2^s, s>=1.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "1154841a3345ca579e0d56fc4ceebee38814557c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1154841a3345ca579e0d56fc4ceebee38814557c/D5/S1/Recurrence/Partitions/HalvingPartitionNonregularity.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 85473,
+        "sha256": "64c330aa4d512b0d614a852e6969453df6daf85931a64fbfb4b369d66f41b78a",
+        "url": "/api/v1/collected-papers/alekseyev-halving-partitions-nonregularity/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T02:26:39.441589809Z",
+      "record": "alekseyev-halving-partitions-nonregularity",
+      "repository_name": "alekseyev-halving-partitions-nonregularity",
+      "source": {
+        "bytes": 14142,
+        "sha256": "ce6480f9ec5f64f9d30e58ddf0d7900947f84ce702e85b097d08b61fcda9d604",
+        "url": "/api/v1/collected-papers/alekseyev-halving-partitions-nonregularity/files/source?version=2"
+      },
+      "title": "Halving-partition nonregularity and dyadic extensions of Alekseyev (2026): arXiv:2611.01243v1, Section 6, paragraph 2, p. 18",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T02:26:39.441589809Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "alekseyev-halving-partitions-nonregularity"
+    },
+    {
       "abstract_text": "We extend Korea Superintelligence Labs' (2026) affirmative answer to Aliabadi's Problem 7.6 (A nonabelian twist on differences of bijections, arXiv:2605.16478v2, Section 7, page 17) by giving exact two-letter and abelian-subgroup criteria, the latter answering Problem 7.4. For a finite group G of order n and distinct u,v, a multiset with k copies of v and n-k copies of u is quotient-realizable exactly when d=ord(u^-1 v) divides k; the number of realizing permutations is binomial(n/d,k/d). We give product-one obstructions in every nonabelian dihedral group, every dicyclic group of order at least eight, and A4. Hall's theorem (1952) supplies abelian sufficiency, the two-diagonal permanent formula of De Poi et al. (2018) supplies the enumeration antecedent, and the Erdős–Ginzburg–Ziv theorem (1961) supplies the block decomposition.",
       "authors": [
         {
@@ -281,6 +328,100 @@
         }
       ],
       "work": "alikhani-griswold-2026-connected-minus-four-family"
+    },
+    {
+      "abstract_text": "We answer Problem 5.6 of Aivazidis, Loukaki and Müller in the negative (J. Group Theory 27 (2024), p. 1281): the product of the weights f(m)=m!/m^m does not determine a finite set of distinct integers greater than one. The same example answers arXiv:2209.00986v1, Problem 12.6, and v2, Problem 5.6. The two disjoint eighteen-element sets have equal products and equal parameter sums. Their equality follows from the adjacent-weight identity f(n+1)/f(n)=(n/(n+1))^n and an explicit prime-exponent table. For every cardinality at least nineteen, infinitely many rational values have two distinct representations with equal cardinalities and equal sums.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "736015507f370926a4b39c6a5ca4f090fc50cae3",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/736015507f370926a4b39c6a5ca4f090fc50cae3/D5/S3/FiniteGroups/FactorialProductNonunique.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 72735,
+        "sha256": "17b018b9733343fa0587dccf7e68faa94e87bfbb8d88f1f4491f9d67c9f7ab4f",
+        "url": "/api/v1/collected-papers/alm2024-factorial-product-uniqueness/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T03:24:39.912748146Z",
+      "record": "alm2024-factorial-product-uniqueness",
+      "repository_name": "alm2024-factorial-product-uniqueness",
+      "source": {
+        "bytes": 10596,
+        "sha256": "957f61d305444b002cec3be1fbd4afaea9dc1ff79246a655c7a9efb1804f300a",
+        "url": "/api/v1/collected-papers/alm2024-factorial-product-uniqueness/files/source?version=3"
+      },
+      "title": "Equal products of m!/m^m over distinct parameter sets",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T03:24:39.912748146Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "alm2024-factorial-product-uniqueness"
+    },
+    {
+      "abstract_text": "We answer yes to Problem 5.2 of Aivazidis, Loukaki and Müller (arXiv:2209.00986v2, p. 37; journal version, p. 1280): for every finite group G, H ≤ G and N normal in G, P_G(H) ≤ P_G(HN). Equality holds exactly when N ≤ H or H is normal in G. The same criterion with N = ker f characterizes equality in the homomorphism inequality (5.1). The note also proves the coprime-order assertion in Problem 5.3 and supplies a finite-quotient probability model for the finite-index setting in Problem 5.4.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/FiniteGroups/TransversalProbabilityMonotone.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 90219,
+        "sha256": "44a8335c93797e59d546bcf66b06be31c67d8bba70a2ebbddf0ecd64ea0bbf6f",
+        "url": "/api/v1/collected-papers/alm2024-normal-extension-monotonicity/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T03:23:32.436932918Z",
+      "record": "alm2024-normal-extension-monotonicity",
+      "repository_name": "alm2024-normal-extension-monotonicity",
+      "source": {
+        "bytes": 14905,
+        "sha256": "37757f4a1e5642c58d26948ee4115ded5660c25baa4919d162e5b007b211671a",
+        "url": "/api/v1/collected-papers/alm2024-normal-extension-monotonicity/files/source?version=2"
+      },
+      "title": "Normal-extension monotonicity: Problem 5.2 of Aivazidis, Loukaki and Müller (arXiv:2209.00986v2, p. 37)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T03:23:32.436932918Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "alm2024-normal-extension-monotonicity"
     },
     {
       "abstract_text": "We prove Anthony Browne's conjecture in OEIS A164660, final FORMULA (29 May 2016): for every positive integer n, the reduced numerator of the integral from 0 to 1 of T_(n+1)(x) equals the stated floor product and (-1)^(n/rad(n)). Both sides are +1 exactly when 4 divides n. The same calculation proves the preceding rational-integral conjecture and gives its denominator sequence A164661. More generally, replacing the exponent n in the product by any integer r >= 2, and translating its interval by any integer, leaves the product unchanged. We give the exact root count for every r >= 1 and correct two coefficient-table discrepancies in the linked sources.",
@@ -469,6 +610,53 @@
         }
       ],
       "work": "bala295462"
+    },
+    {
+      "abstract_text": "We prove Colin Barker's generating-function and recurrence conjectures of February 11, 2018 in the FORMULA fields of OEIS A299285 and A299286 for the tea uniform tiling. An exact distance formula reduces its graph spheres to integer hexagons in triangular layers. Their counts give a quadratic quasipolynomial of least period four, establish Stefano Spezia's conditional formula of June 8, 2024, and give the corresponding cubic ball count. We also prove that the proposed recurrences have the least possible eventual orders, six and seven. The same layer count proves the companion tcd formulas in A299287 and A299288. For arbitrary orientations of the tetrahedron–octahedron slabs, the tcd and tea counts are sharp lower and upper bounds, with sphere-count gap floor(n^2/8).",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "e7f7c25c7de35e89418be730f50ec8fb94949133",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e7f7c25c7de35e89418be730f50ec8fb94949133/D5/S3/StatisticalMechanics/TeaCoordinationSequence.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 91872,
+        "sha256": "ece7cf1d656f065fb691b2db21c7c1a4c2ea488949475a455f9c28dbb534230c",
+        "url": "/api/v1/collected-papers/barker-tea-coordination-sequence/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T01:23:32.529298071Z",
+      "record": "barker-tea-coordination-sequence",
+      "repository_name": "barker-tea-coordination-sequence",
+      "source": {
+        "bytes": 16557,
+        "sha256": "5a5aae1a75a53ecb3f44319e1ef184ddf60c4d61ccd6d2081cee2f58874d4447",
+        "url": "/api/v1/collected-papers/barker-tea-coordination-sequence/files/source?version=2"
+      },
+      "title": "Proof of Barker's tea-tiling conjectures: OEIS A299285–A299286, FORMULA (February 11, 2018)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T01:23:32.529298071Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "barker-tea-coordination-sequence"
     },
     {
       "abstract_text": "For Bernáth's consecutive-ratio conjecture in OEIS A400645, revision 21, COMMENTS, we prove the stronger bounded-error asymptotic a_n=c lambda^n+O(1) with c>0, where lambda is the largest real root of x^8-x^6-x^4-x^2+1, namely 1.3122819079.... The squared terms satisfy a linear recurrence with a controlled rounding error. A finite seed bounds its entire normalized error tail and ensures a positive leading coefficient; a three-coordinate contraction then gives an exponential asymptotic. The same error analysis proves the ratio assertions for A063827 and A400644, and extends them to nondecreasing initial data. We also prove the increasing-sequence conjecture in A289916 and recover its limiting ratio, identified in A289917.",
@@ -941,6 +1129,53 @@
       "work": "crim-question-one-four-parts"
     },
     {
+      "abstract_text": "Extending Das et al., Quantum 9, 1867 (2025), we prove their full-orthonormal-basis tomography conjecture immediately after Theorem 3 in Section 3.2.1 by completing their reduction in Section 5.4 after Figure 5: the Nagaoka-Hayashi bound is at most d+1 times the Holevo bound once the latter is minimized by the maximally mixed state. For full-rank states the same sharp bound holds for the optimal individual-measurement cost, improving Theorem 5 as well as Theorem 3. For identity weight and purity P, both ratios are at most (d^2+d-1-P)/m_d(P), where m_d(P)=d-P+sqrt((d-1)(dP-1)) is the exact minimum Holevo cost at that purity. The proof evaluates the spectral Holevo formula within established D-invariant theory and combines the feasible NH blocks of Das et al. with Scott's (2006) estimator variance formula. The maximum ratio is attained uniquely at the maximally mixed state. Greater purity need not give greater Holevo cost for individual full-rank states.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S3/Quantum/Measurements/OnbTomographyHolevoRatio.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 94365,
+        "sha256": "87e04e8cc40494a3beeb4eb3a18e23a39905f9a987f4877943bcb91dba4bd0c9",
+        "url": "/api/v1/collected-papers/das-et-al-2025-onb-tomography-holevo-ratio/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T00:42:09.533984717Z",
+      "record": "das-et-al-2025-onb-tomography-holevo-ratio",
+      "repository_name": "das-et-al-2025-onb-tomography-holevo-ratio",
+      "source": {
+        "bytes": 17579,
+        "sha256": "e997bbc2bdc2f1e64904f588d3da397b61ce9b20c424719bb83c51d320f37964",
+        "url": "/api/v1/collected-papers/das-et-al-2025-onb-tomography-holevo-ratio/files/source?version=3"
+      },
+      "title": "Fixed-purity Holevo minima extending Das et al. (2025): a spectral proof of the full-ONB conjecture after Theorem 3 in Section 3.2.1",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T00:42:09.533984717Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "das-et-al-2025-onb-tomography-holevo-ratio"
+    },
+    {
       "abstract_text": "The surjectivity question in the final paragraph of Section 5, p. 9, of Delgado, Süer and Yeşil's A Symmetrization for Almost Symmetric Numerical Semigroups (arXiv:2611.14268v1) has a negative answer: pseudo-Frobenius row deletion always leaves 1 as a gap. The symmetric numerical set {0,1} union {n >= 4} is therefore not in the image. In fact, at least half of all symmetric numerical sets with any prescribed odd Frobenius number at least 3 are excluded. Every symmetric numerical semigroup, in contrast, is fixed by the map. We identify the entire fiber over the target with sole gap 1 and obtain at most 2^(floor((F+1)/2)-1) distinct images of sources with Frobenius number F.",
       "authors": [
         {
@@ -1176,6 +1411,53 @@
       "work": "ggps2025"
     },
     {
+      "abstract_text": "We prove Hanna's conjecture in OEIS A389474, FORMULA (3), and the companion conjectures in A389474, FORMULA (4), A389475, FORMULA (4.a), (4.b), and A389472, COMMENTS. For the first equation we establish A(x)^2 = x^2 + 2x^3 + 9Q(x), with Q in Z[[x]]. Integral coefficient constructions, Frobenius and binomial descent prove the six congruences. We also establish reversion identities and every even-power congruence modulo nine. If D is the A350432 series, every rational-seed solution of the A389472 equation is C_s=x+sD^2. Its product representation proves the stated convergence radius (sqrt(5)-1)/2 for D and every C_s with s nonzero.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 98951,
+        "sha256": "8930338ce7cb461c5cffdb0fc81de06f041a9dbc67c14c4a2f6f478f46d81885",
+        "url": "/api/v1/collected-papers/h3894-composition-congruences/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T01:01:41.753779204Z",
+      "record": "h3894-composition-congruences",
+      "repository_name": "h3894-composition-congruences",
+      "source": {
+        "bytes": 19219,
+        "sha256": "c88aa2b2345f4842d5b30141b4e8123be749039ff9d293d919ff231ca011bbd0",
+        "url": "/api/v1/collected-papers/h3894-composition-congruences/files/source?version=2"
+      },
+      "title": "Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T01:01:41.753779204Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "h3894-composition-congruences"
+    },
+    {
       "abstract_text": "Extending Han–Pedon's lower-shift results (2026), we prove their Conjecture C (arXiv:2610.36132v1, p. 6): for every n ≥ 1 and ℓ ≥ n+3, every residue subsequence of the shifted q-metallic Hankel determinants is a rational polynomial, from its first term, with period 2n(n+1) for even n and 4n(n+1) for odd n. Each polynomial is integer-valued on all integers. A complementary-minor formula reduces the determinant to a matrix of fixed size with polynomial dependence on the number of continued-fraction periods. We give a degree bound, rational generating functions, constant-coefficient recurrences and periodicity from the first term modulo every positive integer at every shift. Exact complementary-minor identities and the degree bound prove the affine laws extending Ovsienko–Pedon's golden shift-4 pattern (2023; published 2025).",
       "authors": [
         {
@@ -1364,6 +1646,100 @@
       "work": "hanna-a381355"
     },
     {
+      "abstract_text": "For Paul D. Hanna's OEIS A389472, revision 7 (2025), COMMENT 3, proved by Horace Dong (2026), we give an alternative proof of a(3n-1)=0 modulo 3 for every n>1, and integral-product extensions. The recurrence proof combines coefficient extraction with the least base-three digits of its binomial coefficients. An infinite-product identity relates this sequence to Hanna's A350432; it also proves the companion parity conjecture and the stated radius of convergence. A single product calculation also establishes the functional, inverse and radius identities of ten cross-referenced sequences, and identifies a missing series reversion in A273162's product formula.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Parity/SquareCubeSubstitutionThreeIndexModThree.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 84064,
+        "sha256": "233b80b3f936872af778e153f66bedd8a36f8449f5a77854eb94d0672cedeb1e",
+        "url": "/api/v1/collected-papers/hanna-a389472-congruences/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T02:42:54.912857219Z",
+      "record": "hanna-a389472-congruences",
+      "repository_name": "hanna-a389472-congruences",
+      "source": {
+        "bytes": 17855,
+        "sha256": "feca751421b3d069474617f7204846de42b5cce7e129acea52a4d1ea116c4968",
+        "url": "/api/v1/collected-papers/hanna-a389472-congruences/files/source?version=2"
+      },
+      "title": "Integral-product extensions and an alternative proof of Dong's (2026) theorem on OEIS A389472, revision 7, COMMENT 3",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T02:42:54.912857219Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hanna-a389472-congruences"
+    },
+    {
+      "abstract_text": "For Hanna's OEIS A389475, Formulas (4.a)–(4.b), we give integral lifting proofs and parameter extensions, together with alternative proofs of the A389472 congruences proved by Perez Fontelles (2026) and Dong (2026). The normalized rational series satisfying A(3x^2)=2x^2+A(x)^2−2A(x)^3 has integral coefficients and satisfies A(x)^3≡A(x^3) and A(x)^2≡x^2+2A(x^3) modulo three. A coefficient recursion with diagonal −2 has even numerators by characteristic-two Frobenius. The same lifting proves A389474, Formulas (3)–(4), including B(x)^2≡x^2+2x^3 modulo nine. Binomial descent reproves both A389472 congruences. An integral product links A389472 to A350432, classifies the free second coefficient, and proves the stated golden-ratio convergence radius.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaTripleSquareFrobeniusModThree.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 99516,
+        "sha256": "59779e555e6460616b9f47276dc49a20ffc34408989400c2cc7984c6b380aab7",
+        "url": "/api/v1/collected-papers/hanna-a389475-integral-lifting-congruences/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T01:43:15.243850406Z",
+      "record": "hanna-a389475-integral-lifting-congruences",
+      "repository_name": "hanna-a389475-integral-lifting-congruences",
+      "source": {
+        "bytes": 18696,
+        "sha256": "b49049ee805d91a564b6010ae1553d72a33df546fdb1b63fa4e054b848f8cbe2",
+        "url": "/api/v1/collected-papers/hanna-a389475-integral-lifting-congruences/files/source?version=2"
+      },
+      "title": "Integral lifting and extensions for Hanna's OEIS A389475, Formulas (4.a)–(4.b): complements to Perez Fontelles (2026) and Dong (2026)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T01:43:15.243850406Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hanna-a389475-integral-lifting-congruences"
+    },
+    {
       "abstract_text": "We prove Paul D. Hanna's conjecture in OEIS A389474, formula (4), by extending Salerno and Silverman's (2017) integrality argument to implicit composition equations: the normalized solution of A(x^2+2x^3+2A(x)^2)=3A(x)^2 satisfies A(x)^(3k) congruent to A(x^3)^k modulo 3 for every k>=1. A triangular coefficient recursion with even numerators proves integral existence and rational uniqueness. A unit factor proves A389474 (3), the square congruence modulo 9; the same construction proves A389475 (4.a) and (4.b). Odd-parameter extensions and an alternative proof of the Salerno–Silverman prime-degree special case cover the reversion and iteration identities in linked entries A273095, A273320 and A274396. Every integral series also satisfies F(x)^(p^r k) congruent to F(x^p)^(p^(r-1) k) modulo p^r for primes p, r>=1 and k>=0.",
       "authors": [
         {
@@ -1456,6 +1832,100 @@
         }
       ],
       "work": "hardin-barker-a209723-edge-differences"
+    },
+    {
+      "abstract_text": "We prove the three empirical formulas in OEIS A240513, revision 11, FORMULA entries 1–3, and extend Bala’s (2014) Chebyshev treatment of the related norm sequence by making the ladder connection explicit. These formulas are Hardin’s order-five recurrence, Barker’s generating function, and Mathar’s relation to A105309. The objects are binary two-column arrays in which no cell has exactly two equal-valued orthogonal neighbors, with the first cell fixed to zero. A transfer on sixteen ordered pairs of rows gives the recurrence and generating function. A norm identity proves the relation to A105309. The same construction proves the empirical width-three and width-four recurrences in A240514–A240515 and A240519; their minimal orders are 20 and 48. At every fixed width the generating function is rational. We also give correctly indexed Chebyshev identities and correct the sign and shift in A105309’s Chebyshev-transform formula.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "70badecc7fca07aa0b70e1202720702f7d1f9670",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/70badecc7fca07aa0b70e1202720702f7d1f9670/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA240513Ladder.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 101263,
+        "sha256": "27e75d45ba67ff6b21ba597a797becc00357accf5b318cb16fd75175584e1a02",
+        "url": "/api/v1/collected-papers/hardin240513-ladder-formulas/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T02:43:48.664254169Z",
+      "record": "hardin240513-ladder-formulas",
+      "repository_name": "hardin240513-ladder-formulas",
+      "source": {
+        "bytes": 21343,
+        "sha256": "8cea8e8240fed37fc7ffe65b6654dcfb5dda84284dadce68d242a3e75ed9d0e1",
+        "url": "/api/v1/collected-papers/hardin240513-ladder-formulas/files/source?version=3"
+      },
+      "title": "OEIS A240513, revision 11, FORMULA 1–3: ladder proofs and extensions of Bala (2014)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T02:43:48.664254169Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "hardin240513-ladder-formulas"
+    },
+    {
+      "abstract_text": "Following AFTD's negative answer dated November 5, 2026, to Hausmann's Question 5.4 in Weighted Max Cut in Subcubic Graphs (arXiv:2611.05178v1, Section 5), we give a different counterexample with an exact residual-order calculation: the generalized Petersen graph GP(7,2) has odd girth five, but deleting any independent set leaves a component with at least four vertices. We prove this by classifying its maximal independent sets into five symmetry classes. The bound four is attained on this graph. The same classification gives an obstruction to the nonempty-independent-side version of Question 5.3; its printed quantifiers admit an empty-side solution.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/Combinatorics/Graph/ComponentPacking/HausmannQuestion54Refutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 76398,
+        "sha256": "e09b8f545622a1545522c433bdb2bdb83bc422f6ae3b1f6f86bc4911dcb83437",
+        "url": "/api/v1/collected-papers/hausmann-2026-question-5-4-refutation/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T01:03:47.612428612Z",
+      "record": "hausmann-2026-question-5-4-refutation",
+      "repository_name": "hausmann-2026-question-5-4-refutation",
+      "source": {
+        "bytes": 14924,
+        "sha256": "3a25ae0cd49e98b08ddffd95cbf8567921dfb0f23af27aa12b9dbac5d8a9b68a",
+        "url": "/api/v1/collected-papers/hausmann-2026-question-5-4-refutation/files/source?version=2"
+      },
+      "title": "Residual order four in GP(7,2): an alternative proof for Hausmann's Question 5.4 (arXiv:2611.05178v1, Section 5), after AFTD (2026)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T01:03:47.612428612Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hausmann-2026-question-5-4-refutation"
     },
     {
       "abstract_text": "Extending the right-idempotent-generated case proved by He and Tubbenhauer in 2025, we prove their Conjecture 4.2 in Tensor powers of representations of (diagram) monoids, arXiv:2508.04054v1, p. 17: a finite-dimensional representation of a finite semigroup, with every element acting singularly, has a one-dimensional zero-action direct summand in a positive tensor power, and its indecomposable-summand count is asymptotic to the tensor dimension. The proof works over every field and bounds the deficit by twice the sum of the action-rank powers. A classical multiplicity identity gives the exact maximal null summand. The same argument proves the related monoid Conjecture 3A.2 when the unit-group order is invertible in the field. A two-element right-zero example corrects the literal finite-exponent equality printed in Proposition 4.4 to an asymptotic statement. Explicit Jordan multiplicities and the recurrence of the published fusion matrix are also given.",
@@ -1691,6 +2161,53 @@
         }
       ],
       "work": "jen2610-permuted-rotor-loops"
+    },
+    {
+      "abstract_text": "We correct the conjecture in comment 2 of Peter Kagey's OEIS A343881, revision 16 (June 14, 2021), and extend results of Kagey (2015) and Adenwalla (2025): the proposed value 72 at k=12 is inadmissible for every exponent n>=2. The exact prime-exponent minima are 27, 18, and 54 at p=2,3,5, respectively, and 144 at every prime p>=7. More generally, writing k=r^g with the prime-exponent vector of r having greatest common divisor 1, we prove that T(p,k)=r^(g+1) for all sufficiently large primes, with an explicit threshold. This gives the precise range in which the proposed formula k rad(k) is correct. We also prove the entry's distinct-prime-row assertion and first-column formula using the same valuation description. For the cross-referenced sequence minimum in A343825, we prove eventual equality with A071537 by an explicit determinant bound and reprove Adenwalla's k=12 prime column: 20 at p=2 and 18 at every odd prime. The valuation classes also answer the image questions in Kagey's Open problem collection, Problem 16: they characterize the cube-row image and show that the two-value rows are injective exactly at prime exponents.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/Arith/Factorization/OeisA343881KageyPowerProducts.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 103517,
+        "sha256": "12371cdf6ef520c9cd498f3da336498f66bc6b4a88e0c18484c9d91f1a15d22c",
+        "url": "/api/v1/collected-papers/kagey343881-powerproducts/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T01:22:34.780624452Z",
+      "record": "kagey343881-powerproducts",
+      "repository_name": "kagey343881-powerproducts",
+      "source": {
+        "bytes": 20381,
+        "sha256": "d063fd9993be0b6be5c65b41599313e131f73279a931947483fd71202440544d",
+        "url": "/api/v1/collected-papers/kagey343881-powerproducts/files/source?version=2"
+      },
+      "title": "Correction of OEIS A343881, comment 2, revision 16: extensions of Kagey (2015) and Adenwalla (2025)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T01:22:34.780624452Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "kagey343881-powerproducts"
     },
     {
       "abstract_text": "The all-length earliest-swapping conjecture in Section IV D 1, Eq. (41), of Kamin, Shchukin, Schmidt and van Loock (2023) states that repeatedly merging an adjacent pair with smallest maximum ready time minimizes total dephasing. We give a self-contained potential proof for arbitrary nonnegative real ready times and every tie choice. The optimum is the largest ready time plus the sum of adjacent maxima minus the sum of ready times. An exact nonnegative slack formula characterizes all optimal histories. The pathwise inequality also answers the exponential-dephasing question in Section IV D 5, for the same fixed-readiness swapping model: earliest swapping simultaneously minimizes expected dephasing and maximizes every expected exponential attenuation factor.",
@@ -2541,6 +3058,53 @@
       "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
     },
     {
+      "abstract_text": "We give a finite-boundary alternative proof of Mertens's grid–cylinder growth equality (2024, Section 5, page 19, after equation (22)), which already follows from Gangloff and Talon's grid results (2019/2020). The per-vertex counts have the same unrestricted joint limit as both side lengths tend to infinity. An injective boundary repair gives g(m,n) <= c(m,n) <= 4^n g(m,n). Block arguments yield explicit rectangle and strip bounds, and the comparison extends to every positive activity and to king graphs with periodic boundaries.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S3/Combinatorics/Graph/Domination/MertensGridGrowth.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 77174,
+        "sha256": "f70177131a3b0228ebc7012fafd24501506461cfc62bea1f9a16b05a5f8b16aa",
+        "url": "/api/v1/collected-papers/mertens-2024-grid-cylinder-joint-growth/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T01:42:22.714777139Z",
+      "record": "mertens-2024-grid-cylinder-joint-growth",
+      "repository_name": "mertens-2024-grid-cylinder-joint-growth",
+      "source": {
+        "bytes": 92173,
+        "sha256": "2e4c03c27770461dddd27b5c4b44951b3bd5d7b8c0f6409d568591d3195639da",
+        "url": "/api/v1/collected-papers/mertens-2024-grid-cylinder-joint-growth/files/source?version=3"
+      },
+      "title": "Boundary bounds for Mertens's grid–cylinder conjecture: an alternative proof and extensions",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T01:42:22.714777139Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "mertens-2024-grid-cylinder-joint-growth"
+    },
+    {
       "abstract_text": "Extending the cycle enumerator of Hoshino (2007) and Brown–Hoshino (2008), we give the closed bubble degeneracy sought by Mukherjee, Banerjee, Sengupta and Sen (2021, Sec. III, p. 7, third paragraph). A marked-centre gap bijection counts every integer energy on a labelled cycle, and a parity refinement counts the balanced fragments contributing zero modes in a staggered field. Their simultaneous zero modes have Catalan multiplicities. The field-dependent spectrum gives an imbalanced fragment with 56 zero modes at L=48, Delta=2/sqrt(7), correcting the unrestricted disappearance statement in Sec. VI.A. We also correct the printed Eq. (3.7) and show that the authors' own dispersive construction contradicts the literal all-length exhaustion conjecture at L=14.",
       "authors": [
         {
@@ -3246,6 +3810,53 @@
       "work": "oeis-a396659-edge-collision-ratio"
     },
     {
+      "abstract_text": "For Omar E. Pol's OEIS A401248 (Formulas, Conjectures 1 and 2, October 28, 2026), we extend the endpoint-minimum theorem of Xausa and Claude AI (October 28, 2026) to complete dense-factor fibres, strengthening Hriday Rungta's divisor-block identities (2026). For every real t >= 1 and positive integer n, let u be the largest divisor of n whose consecutive divisors have ratio at most t. Each maximal t-dense block of divisors of n is a disjoint union of complete copies of D(u), scaled by divisors of n/u. Thus every block length is a positive multiple of tau(u), and the first and last lengths equal tau(u). The proof uses the classical dense/rough divisor decomposition and an elementary argument that a dense copy cannot cross a block boundary.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S3/Factorization/TwoDenseDivisorBlockMinimum.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 91616,
+        "sha256": "7eeac7e48b4ca318487cea6dcce6f8cbc1461c2d398cef819cb198505c64867c",
+        "url": "/api/v1/collected-papers/oeis-a401248-first-two-dense-divisor-block-minimum/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T01:02:41.326004386Z",
+      "record": "oeis-a401248-first-two-dense-divisor-block-minimum",
+      "repository_name": "oeis-a401248-first-two-dense-divisor-block-minimum",
+      "source": {
+        "bytes": 17834,
+        "sha256": "91b57bc9e70f18b7d4709f51d41be2f2d0d9ea14617368109fb8572bb75a4ab0",
+        "url": "/api/v1/collected-papers/oeis-a401248-first-two-dense-divisor-block-minimum/files/source?version=3"
+      },
+      "title": "Complete-fibre extension of Xausa's endpoint minima (2026): OEIS A401248, Formulas, Conjectures 1 and 2 (October 28, 2026)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T01:02:41.326004386Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "oeis-a401248-first-two-dense-divisor-block-minimum"
+    },
+    {
       "abstract_text": "We prove Conjectures 9.63 and 9.64 in Section 9.8.3 of Okada's arXiv:2003.02112v2. At unit weights and degree shift zero, every natural width at least three gives a non-almost-palindromic determinant. At width two, almost palindromicity holds exactly when min(a2-a1,b2-b1)=1, giving proportion (lambda-2)(lambda-3)/(lambda(lambda+1)) at b2=lambda>=2. These conclusions hold for every constant positive integral base shift. An infinite family extends the width-two counterexample in Example 9.65. Conjecture 9.66, whose width is at least three, is proved on degree-shift slices e=0,1,G-1,G and at e=G/2 when G is even, where G is the direct-minus-reversed degree gap. The remaining degree shifts are not covered.",
       "authors": [
         {
@@ -3716,6 +4327,53 @@
       "work": "spin-one-rotation-boxes"
     },
     {
+      "abstract_text": "For the unnumbered operational conjecture after Theorem 2, Section III A, p. 5 of Stasiuk–Lütkenhaus–Tan (arXiv:2212.06975v3), we give sharp public-flag erasure bounds and an elementary proof of the unflagged nondisturbance consequence of Koashi–Imoto (2002). A Bell-violating three-qubit witness prevents every joint channel from equating the error states while fixing both correct states. For a real qubit family, the minimum residual error-state trace distance under exact preservation is sqrt(1-s^2) abs(cos(2 theta)); an explicit random-unitary channel attains it. At the rational witness this minimum is 399760004/500100005, whereas allowing disturbance gives the tradeoff lower bound 38004/50005 for total disturbance plus residual distance. We also construct a Chernoff-preserving measurement for this family and state the orthogonal-record sufficient condition with its earlier QKD antecedents. These are statements about operations on a fixed realization, not replacement attacks with the same observed correlations.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S3/Quantum/Foundation/StasiukLutkenhausTanErrorStateErasureRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 92878,
+        "sha256": "d5184d99895c1d967735818e0a0c01317a0459d6d2f50f37a1b6e4c59261d847",
+        "url": "/api/v1/collected-papers/stasiuk-lutkenhaus-tan-error-state-erasure/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T03:42:30.846414268Z",
+      "record": "stasiuk-lutkenhaus-tan-error-state-erasure",
+      "repository_name": "stasiuk-lutkenhaus-tan-error-state-erasure",
+      "source": {
+        "bytes": 16150,
+        "sha256": "ebbef827aaf22e0bb632965e39e860b095a3c3f5fb57ad8daa0ab363b7880972",
+        "url": "/api/v1/collected-papers/stasiuk-lutkenhaus-tan-error-state-erasure/files/source?version=3"
+      },
+      "title": "Sharp public-flag bounds for the Stasiuk–Lütkenhaus–Tan erasure conjecture",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T03:42:30.846414268Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "stasiuk-lutkenhaus-tan-error-state-erasure"
+    },
+    {
       "abstract_text": "We resolve Question III.5 of Stepanov, Herrmann and Guhr (arXiv:2104.08966v1, p. 7): on the remaining domain D = A minus (A1 union A2), correlation matrices with prescribed mean c and standard deviation sigma and a nonmaximal top-eigenvector weight in every orthonormal eigenbasis exist in every sufficiently large dimension exactly when sigma > c. Centered spectral moments exclude the diagonal, and a positive definite rank-two construction gives existence above it. Throughout the legal half-disc sigma >= 0, c^2 + sigma^2 <= 1, eventual existence holds exactly for 0 <= c < 1/2, sigma > c and c^2 + sigma^2 < 1. A spectral-projection criterion treats eigenvalue multiplicities and shows that a rank-one boundary matrix has the universal gap exactly when c < 0.",
       "authors": [
         {
@@ -3761,6 +4419,53 @@
         }
       ],
       "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
+    },
+    {
+      "abstract_text": "We answer negatively Ta's Problems 11.6–11.7 in arXiv:2505.08090v5, Section 11, page 27, and prove his Conjecture 5.13 in arXiv:2508.16772v1, Section 5.2.2, page 17, extending the counting methods of Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026). The two semidirect products C16 semidirect C4 with actions 5 and 7 have invariant triple (64,4,22), but respectively 8847360 and 2160000 good involutions. Ta's central-label characterization gives a weighted-involution formula for every finite conjugation subquandle and an exact criterion for equality in the central-label bound. The quaternion example attains that bound with two orbits and a center of order two. Inversion-closure is distinguished from classwise inverse stability, correcting Remark 2.14. For the linear quandle Lambda_(4n,2n-1), the number of good involutions is ten for odd n and four for even n; the odd case proves Conjecture 5.13, and the even case reproves Ta's Remark 5.14.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaThreeInvariantRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 103819,
+        "sha256": "90cffa68def305efdc005240a0d4bef0705793836dc118415ae7f17d88b77567",
+        "url": "/api/v1/collected-papers/ta-2025-problem-11-6-three-invariant-refutation/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T02:25:44.087330548Z",
+      "record": "ta-2025-problem-11-6-three-invariant-refutation",
+      "repository_name": "ta-2025-problem-11-6-three-invariant-refutation",
+      "source": {
+        "bytes": 24208,
+        "sha256": "b90641bf25c493eca9346bad7ecd5b885b970d8464da3093e5ca44474e007295",
+        "url": "/api/v1/collected-papers/ta-2025-problem-11-6-three-invariant-refutation/files/source?version=3"
+      },
+      "title": "Negative answers to Ta's Problems 11.6–11.7 (arXiv:2505.08090v5, Section 11, page 27) and a proof of Conjecture 5.13 (arXiv:2508.16772v1, Section 5.2.2, page 17): central-twist counting extending Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T02:25:44.087330548Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "ta-2025-problem-11-6-three-invariant-refutation"
     },
     {
       "abstract_text": "Ta's Problem 11.7 (arXiv:2505.08090v5, p. 27) has answer no: extending the dihedral examples of Kamada and Oshiro (2009/2010), we characterize equality in the center term of the good-involution bound. For finite H generated by a conjugation subquandle X with |Z(H)|>=2, equality holds exactly when z O^{-1}=O for every central z and every H-conjugation orbit O. The criterion gives equality examples in Q8^d with center order 2^d, 3^d orbits and 2^(d*3^d) good involutions. Reflection families rederive the known good-involution counts, affine antiautomorphism group and symmetric-isomorphism classes. Inverse-closure permutes, rather than necessarily fixes, conjugation orbits, correcting Ta's Remark 2.14.",
@@ -3998,6 +4703,53 @@
       "work": "velez-cadavid-numerical-semigroup-realizability"
     },
     {
+      "abstract_text": "For Chakrabarty and Kundu, arXiv:2610.35838v1 (2026), Section III D, page 5, Table III and Eq. (15), we complete the W-state and generalized-GHZ Bell-measurement optimizations and recover the W single-node value from Horodecki et al. (1995). The W-state value is exactly sqrt(13)/3. We prove the upper bound over both central orthonormal frames and every parity-index pair, including identity indices and repeated pairs. A quadratic identity for the W correlation tensor reduces the proof to Parseval's identity and a two-by-two submatrix estimate. Consequently the white-noise threshold in this measurement class is exactly 3/sqrt(13); ignoring either central node gives 2*sqrt(2)/3. An ellipsoid bound gives N_c(GHZ_alpha)=sqrt(1+sin^2(2alpha)), settling the neighboring conjecture. We also give the unequal-visibility threshold and explicit W-state entanglement-swapping probabilities.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "a252cc46f0e145418a978217b8abd41a73fd820d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a252cc46f0e145418a978217b8abd41a73fd820d/D5/S3/Quantum/MeasurementGeometry/WStateBellMeasurementOptimum.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 99031,
+        "sha256": "94eafb2cf9b80d772ea73e12c318cd9967690dc615aa21308b4388c7734412b1",
+        "url": "/api/v1/collected-papers/w-state-bsm-optimum/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T00:43:06.898381733Z",
+      "record": "w-state-bsm-optimum",
+      "repository_name": "w-state-bsm-optimum",
+      "source": {
+        "bytes": 20880,
+        "sha256": "455dbde6e54731173c5d40430c7438c9e7a9c2be0769d1642045d1a1240c2419",
+        "url": "/api/v1/collected-papers/w-state-bsm-optimum/files/source?version=2"
+      },
+      "title": "Exact W and generalized-GHZ Bell-measurement optima: Completing Chakrabarty–Kundu (2026), Section III D, page 5: Table III and Eq. (15), with the Horodecki (1995) single-node consequence",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T00:43:06.898381733Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "w-state-bsm-optimum"
+    },
+    {
       "abstract_text": "We refute Conjectures 3.26 and 5.3 of Wang's Semigroup rings and algebraically independent sequences with respect to idempotents in commutative semigroups (arXiv:2509.18724v1, pp. 23 and 27). The commutative periodic monoid of finite subsets of the natural numbers, paired with levels zero, one and two under union and capped addition, has algebraic Davenport constant one over every nonzero commutative unitary ring. Its nongroup relative Davenport constants are unbounded. The finite submonoids with supports contained in {1,...,m}, m>=1, have the same algebraic constant, whereas the expression conjectured to equal it grows without bound as m increases.",
       "authors": [
         {
@@ -4184,6 +4936,53 @@
         }
       ],
       "work": "ycz2015-psicm"
+    },
+    {
+      "abstract_text": "Extending the two-sided destruction construction of Saxena, Chitambar and Gour (2019), we answer Yoeli and Gour's fixed-superchannel question in Instability as a Quantum Resource, arXiv:2602.18323v1, p. 5, Open directions, negatively: in every dimension d >= 3, dephasing-covariant channels are not exactly the fixed channels of any deterministic superchannel. Any completely positive Choi action fixing every such channel must be the identity. Two-sector pinching, including qubit complete dephasing, admits an explicit physical projection. Uniformity-preserving channels have the same obstruction in every dimension d >= 2. Explicit negative determinants distinguish linear projection from physical retraction and give a counterexample to the affine-set assertion in arXiv:2402.05474v2, Theorem 9.2.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 4,
+      "doi": null,
+      "lean_source": {
+        "revision": "a252cc46f0e145418a978217b8abd41a73fd820d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a252cc46f0e145418a978217b8abd41a73fd820d/D5/S3/QuantumChannels/YoeliGourDestructionSuperchannelRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 92753,
+        "sha256": "889ca4368f188227fc39c1c5fa4b843bcbfac0201db55bf54c4fc33e131eaa51",
+        "url": "/api/v1/collected-papers/yoeli-gour-destruction-superchannel/files/pdf?version=4"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T03:41:31.713596998Z",
+      "record": "yoeli-gour-destruction-superchannel",
+      "repository_name": "yoeli-gour-destruction-superchannel",
+      "source": {
+        "bytes": 107950,
+        "sha256": "b021b870e21b5220689f1c10954390036787ec00d8e01adfa8d6cd75f85ef9b4",
+        "url": "/api/v1/collected-papers/yoeli-gour-destruction-superchannel/files/source?version=4"
+      },
+      "title": "Fixed points of superchannels for dephasing-covariant channels",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T03:41:31.713596998Z",
+          "revision": "4",
+          "version": 4
+        }
+      ],
+      "work": "yoeli-gour-destruction-superchannel"
     },
     {
       "abstract_text": "For Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11; arXiv:2306.17401v6, p. 11), we derive a strict-averaging counterexample from the complementary-layer Gram formula of Skotiniotis et al. (2018). Two different coefficient-square distributions and their whole averaging segment have the same Gram matrix and, for three sensors at theta = pi/4, the same error (14 - 4*sqrt(10))/27. We extend the earlier symmetric-probe calculation by proving weak convexity and the existence of a symmetric pure optimum without a symmetry assumption. This proves the companion Conjecture 1 and answers the source’s final question: one probe is optimal for both minimum-error and unambiguous discrimination at every detector angle. The reductions also apply to fixed unequal priors and diagonal impact patterns, without solving their general optimizers.",

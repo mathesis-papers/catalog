@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/oeis-a401248-first-two-dense-divisor-block-minimum/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/oeis-a401248-first-two-dense-divisor-block-minimum",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/oeis-a401248-first-two-dense-divisor-block-minimum/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "oeis-a401248-first-two-dense-divisor-block-minimum"
+}

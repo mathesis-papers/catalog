@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/w-state-bsm-optimum/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/w-state-bsm-optimum",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/w-state-bsm-optimum/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "w-state-bsm-optimum"
+}

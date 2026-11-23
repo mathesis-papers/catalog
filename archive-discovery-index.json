@@ -25,6 +25,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24409462",
+      "id": "alekseyev-halving-partitions-nonregularity",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24407816",
       "id": "aliabadi-2605-16478v2-problem-7-6",
       "kind": "collected",
@@ -35,6 +41,18 @@
       "id": "alikhani-griswold-2026-connected-minus-four-family",
       "kind": "collected",
       "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.24410081",
+      "id": "alm2024-factorial-product-uniqueness",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24410085",
+      "id": "alm2024-normal-extension-monotonicity",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.23884883",
@@ -59,6 +77,12 @@
       "id": "bala295462",
       "kind": "collected",
       "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.24409050",
+      "id": "barker-tea-coordination-sequence",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.24369110",
@@ -121,6 +145,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24408305",
+      "id": "das-et-al-2025-onb-tomography-holevo-ratio",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24391331",
       "id": "delgado-suer-yesil-2026-symmetrization-surjectivity",
       "kind": "collected",
@@ -151,6 +181,12 @@
       "version": 1
     },
     {
+      "doi": "10.5281/zenodo.24409052",
+      "id": "h3894-composition-congruences",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24404938",
       "id": "han-pedon-metallic-hankel-quasipolynomial",
       "kind": "collected",
@@ -175,6 +211,18 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24409465",
+      "id": "hanna-a389472-congruences",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24409469",
+      "id": "hanna-a389475-integral-lifting-congruences",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24408313",
       "id": "hanna-composition-congruences",
       "kind": "collected",
@@ -183,6 +231,18 @@
     {
       "doi": "10.5281/zenodo.23903301",
       "id": "hardin-barker-a209723-edge-differences",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24409472",
+      "id": "hardin240513-ladder-formulas",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24409056",
+      "id": "hausmann-2026-question-5-4-refutation",
       "kind": "collected",
       "version": 2
     },
@@ -209,6 +269,12 @@
       "id": "jen2610-permuted-rotor-loops",
       "kind": "collected",
       "version": 5
+    },
+    {
+      "doi": "10.5281/zenodo.24409058",
+      "id": "kagey343881-powerproducts",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.23904476",
@@ -313,6 +379,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24409065",
+      "id": "mertens-2024-grid-cylinder-joint-growth",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24210281",
       "id": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy",
       "kind": "collected",
@@ -403,6 +475,12 @@
       "version": 4
     },
     {
+      "doi": "10.5281/zenodo.24409071",
+      "id": "oeis-a401248-first-two-dense-divisor-block-minimum",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.23927424",
       "id": "okada-2020-premerged-determinant-nonpalindromic",
       "kind": "collected",
@@ -463,10 +541,22 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24410097",
+      "id": "stasiuk-lutkenhaus-tan-error-state-erasure",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.23927428",
       "id": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24409476",
+      "id": "ta-2025-problem-11-6-three-invariant-refutation",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.24212427",
@@ -499,6 +589,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24409079",
+      "id": "w-state-bsm-optimum",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23884901",
       "id": "wang-conjecture326",
       "kind": "collected",
@@ -523,12 +619,18 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24410104",
+      "id": "yoeli-gour-destruction-superchannel",
+      "kind": "collected",
+      "version": 4
+    },
+    {
       "doi": "10.5281/zenodo.24405810",
       "id": "zhan-gupta-hillery-detector-sensor-flat-averaging",
       "kind": "collected",
       "version": 3
     }
   ],
-  "generated_at": "2026-11-23T00:32:45.649540846Z",
+  "generated_at": "2026-11-23T03:57:44.894109941Z",
   "schema": "mathesis.archive-index.v1"
 }

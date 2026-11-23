@@ -1,6 +1,7 @@
 {
   "doi": null,
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/sp322844-serpentine/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/sp322844-serpentine",

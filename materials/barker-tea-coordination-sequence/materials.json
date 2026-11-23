@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/barker-tea-coordination-sequence/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/barker-tea-coordination-sequence",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/barker-tea-coordination-sequence/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "barker-tea-coordination-sequence"
+}

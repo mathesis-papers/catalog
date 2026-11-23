@@ -1,6 +1,7 @@
 {
   "doi": null,
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/korzekwa-et-al-2019-three-distinguishability-product-refutation/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/korzekwa-et-al-2019-three-distinguishability-product-refutation",
