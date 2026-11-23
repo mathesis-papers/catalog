@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/jp2025-hadamard-closure/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/jp2025-hadamard-closure",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/jp2025-hadamard-closure/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "jp2025-hadamard-closure"
+}

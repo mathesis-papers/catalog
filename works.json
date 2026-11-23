@@ -106,9 +106,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24407265",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24407266",
       "lean_source": {
         "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/AbedNikolaevaNovikovAFDensityBound.lean"
@@ -200,9 +200,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24409461",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24409462",
       "lean_source": {
         "revision": "1154841a3345ca579e0d56fc4ceebee38814557c",
         "url": "https://github.com/the-omega-institute/trureturing/blob/1154841a3345ca579e0d56fc4ceebee38814557c/D5/S1/Recurrence/Partitions/HalvingPartitionNonregularity.lean"
@@ -247,9 +247,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24407815",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24407816",
       "lean_source": {
         "revision": "1154841a3345ca579e0d56fc4ceebee38814557c",
         "url": "https://github.com/the-omega-institute/trureturing/blob/1154841a3345ca579e0d56fc4ceebee38814557c/D5/S3/FiniteGroups/AliabadiQuotientObstruction.lean"
@@ -341,9 +341,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24410080",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24410081",
       "lean_source": {
         "revision": "736015507f370926a4b39c6a5ca4f090fc50cae3",
         "url": "https://github.com/the-omega-institute/trureturing/blob/736015507f370926a4b39c6a5ca4f090fc50cae3/D5/S3/FiniteGroups/FactorialProductNonunique.lean"
@@ -388,9 +388,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24410084",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24410085",
       "lean_source": {
         "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
         "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/FiniteGroups/TransversalProbabilityMonotone.lean"
@@ -623,9 +623,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24409049",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24409050",
       "lean_source": {
         "revision": "e7f7c25c7de35e89418be730f50ec8fb94949133",
         "url": "https://github.com/the-omega-institute/trureturing/blob/e7f7c25c7de35e89418be730f50ec8fb94949133/D5/S3/StatisticalMechanics/TeaCoordinationSequence.lean"
@@ -905,9 +905,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24405778",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24405779",
       "lean_source": {
         "revision": "5a155fd74fe22ae43db3ccfb267df468c8c45377",
         "url": "https://github.com/the-omega-institute/trureturing/blob/5a155fd74fe22ae43db3ccfb267df468c8c45377/D5/S3/QuantumStates/FourQubitCorrelationMonogamy.lean"
@@ -1093,9 +1093,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24406583",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24406584",
       "lean_source": {
         "revision": "e0da8fcc80226febc4e7ea0836927bc71d158292",
         "url": "https://github.com/the-omega-institute/trureturing/blob/e0da8fcc80226febc4e7ea0836927bc71d158292/D5/S3/Combinatorics/Games/CrimFourPartClassification.lean"
@@ -1140,9 +1140,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24408304",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24408305",
       "lean_source": {
         "revision": "3d88df0f99ef3c8bfb034fa52be669b13746a844",
         "url": "https://github.com/the-omega-institute/trureturing/blob/3d88df0f99ef3c8bfb034fa52be669b13746a844/D5/S3/Quantum/Measurements/OnbTomographyHolevoRatio.lean"
@@ -1281,9 +1281,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24406591",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24406592",
       "lean_source": {
         "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
         "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Contextuality/SteeringEllipsoidFThreeThreshold.lean"
@@ -1411,6 +1411,53 @@
       "work": "ggps2025"
     },
     {
+      "abstract_text": "Applying Pieter Mostert's finite-sum identity (OEIS A119951, October 12, 2012) and the minimal-exponent theorem of Cação, Falcão and Malonek (2017, Theorem 6), we give short proofs of Groux Roland's denominator conjecture and Alexander Staunton's linked exponent conjecture in the FORMULA section of OEIS A120069 (December 11, 2010 and February 28, 2026, respectively). For every positive index, the reduced denominator of the partial sum of scaled Catalan numbers equals that of its last summand; we also give its binary-digit form. We correct an index in the companion numerator entry and a minimum expression in the exponent entry.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24411278",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.24411279",
+      "lean_source": {
+        "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/ArithSums/GrouxA120069Denominator.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 71578,
+        "sha256": "c16d55a44a7e8df70c678e43e8fae9dc718431ef1e8e542908407404fba70bc0",
+        "url": "/api/v1/collected-papers/groux-catalan-denominators/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T05:39:08.536581766Z",
+      "record": "groux-catalan-denominators",
+      "repository_name": "10.5281-zenodo.24411278",
+      "source": {
+        "bytes": 10014,
+        "sha256": "3c4882fbd5ad230a86fb833921af66cd8b102afb4e9b9f84b3fac736101648fb",
+        "url": "/api/v1/collected-papers/groux-catalan-denominators/files/source?version=2"
+      },
+      "title": "Catalan formula corrections and short proofs of Groux's and Staunton's conjectures",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T05:39:08.536581766Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "groux-catalan-denominators"
+    },
+    {
       "abstract_text": "We prove Hanna's conjecture in OEIS A389474, FORMULA (3), and the companion conjectures in A389474, FORMULA (4), A389475, FORMULA (4.a), (4.b), and A389472, COMMENTS. For the first equation we establish A(x)^2 = x^2 + 2x^3 + 9Q(x), with Q in Z[[x]]. Integral coefficient constructions, Frobenius and binomial descent prove the six congruences. We also establish reversion identities and every even-power congruence modulo nine. If D is the A350432 series, every rational-seed solution of the A389472 equation is C_s=x+sD^2. Its product representation proves the stated convergence radius (sqrt(5)-1)/2 for D and every C_s with s nonzero.",
       "authors": [
         {
@@ -1422,9 +1469,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24409051",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24409052",
       "lean_source": {
         "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
         "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
@@ -1657,9 +1704,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24409464",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24409465",
       "lean_source": {
         "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
         "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Parity/SquareCubeSubstitutionThreeIndexModThree.lean"
@@ -1704,9 +1751,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24409468",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24409469",
       "lean_source": {
         "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
         "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaTripleSquareFrobeniusModThree.lean"
@@ -1751,9 +1798,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24408312",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24408313",
       "lean_source": {
         "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
         "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
@@ -1834,6 +1881,100 @@
       "work": "hardin-barker-a209723-edge-differences"
     },
     {
+      "abstract_text": "Extending Fried's repetition-word enumeration (arXiv:2410.07237v3, 26 October 2024, Theorem 10), we prove Colin Barker's two conjectured formulas in the unpaginated FORMULA section of OEIS A268943, revision 8 (17 January 2019), for the arrays introduced by R. H. Hardin. The labels of successive adjacent equal pairs must advance cyclically through an eight-letter alphabet. A three-state decomposition proves the rational generating function and the radical expression for every positive length. The same decomposition works for every alphabet size at least two, establishing the empirical column recurrences and the first seven row polynomials in Hardin's related table A268944. More generally, the enumeration depends only on the common indegree of a loopless relation allowed between successive event labels; Fried's unequal-label rule is one case. We also count words by their number of equality events.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24410604",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.24410605",
+      "lean_source": {
+        "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Words/Patterns/BarkerCyclicRepetitionCounting.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 81979,
+        "sha256": "8c217e515fb22c439dcd5dd943cfa5d3954c67718d9d9025fd087285c9aa28fa",
+        "url": "/api/v1/collected-papers/hardin-barker-cyclic-repetitions/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T05:37:13.639632398Z",
+      "record": "hardin-barker-cyclic-repetitions",
+      "repository_name": "10.5281-zenodo.24410604",
+      "source": {
+        "bytes": 20993,
+        "sha256": "75f286e2423ed80f627ff5bcb4c7b1b26a1b9192c24af5c30b2a4a328d3039d5",
+        "url": "/api/v1/collected-papers/hardin-barker-cyclic-repetitions/files/source?version=2"
+      },
+      "title": "Barker and Hardin's cyclic-repetition formulas and an extension of Fried's enumeration",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T05:37:13.639632398Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hardin-barker-cyclic-repetitions"
+    },
+    {
+      "abstract_text": "We prove the empirical recurrence in R. H. Hardin's OEIS entry A185765, revision 9, sole FORMULA field (October 3, 2025; submitted February 3, 2011). It counts labeled (n+1)-by-6 binary arrays whose contiguous 2-by-2 blocks have unequal traces at horizontal and vertical neighbors. A row-pair transfer operator reduces the all-length assertion to three exact finite identities. The recurrence holds for every n >= 13 and fails at n = 12, where its residual is -4160. Its reduced rational generating function proves that nine is the least possible eventual recurrence order over Q. The same method proves the smaller-width recurrences and Colin Barker's conjectural generating functions in A185761-A185764, including his two-column closed form. Transposition, divisibility by eight, and rationality at every fixed width give further consequences for Hardin's bivariate table A185769.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24410608",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.24410609",
+      "lean_source": {
+        "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 86370,
+        "sha256": "cef7b1921a2b570b7baf24a182cfa1f707ff23b8dfa769371fe31d74918f9977",
+        "url": "/api/v1/collected-papers/hardin185765/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T05:21:56.812867248Z",
+      "record": "hardin185765",
+      "repository_name": "10.5281-zenodo.24410608",
+      "source": {
+        "bytes": 16406,
+        "sha256": "e0f80426ca879dcf9f20348b26d33700d9e69db94c2896a4ff4abe362a7a3589",
+        "url": "/api/v1/collected-papers/hardin185765/files/source?version=2"
+      },
+      "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T05:21:56.812867248Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hardin185765"
+    },
+    {
       "abstract_text": "We prove the three empirical formulas in OEIS A240513, revision 11, FORMULA entries 1–3, and extend Bala’s (2014) Chebyshev treatment of the related norm sequence by making the ladder connection explicit. These formulas are Hardin’s order-five recurrence, Barker’s generating function, and Mathar’s relation to A105309. The objects are binary two-column arrays in which no cell has exactly two equal-valued orthogonal neighbors, with the first cell fixed to zero. A transfer on sixteen ordered pairs of rows gives the recurrence and generating function. A norm identity proves the relation to A105309. The same construction proves the empirical width-three and width-four recurrences in A240514–A240515 and A240519; their minimal orders are 20 and 48. At every fixed width the generating function is rational. We also give correctly indexed Chebyshev identities and correct the sign and shift in A105309’s Chebyshev-transform formula.",
       "authors": [
         {
@@ -1845,9 +1986,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24409471",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24409472",
       "lean_source": {
         "revision": "70badecc7fca07aa0b70e1202720702f7d1f9670",
         "url": "https://github.com/the-omega-institute/trureturing/blob/70badecc7fca07aa0b70e1202720702f7d1f9670/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA240513Ladder.lean"
@@ -1892,9 +2033,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24409055",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24409056",
       "lean_source": {
         "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
         "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/Combinatorics/Graph/ComponentPacking/HausmannQuestion54Refutation.lean"
@@ -2163,7 +2304,7 @@
       "work": "jen2610-permuted-rotor-loops"
     },
     {
-      "abstract_text": "We correct the conjecture in comment 2 of Peter Kagey's OEIS A343881, revision 16 (June 14, 2021), and extend results of Kagey (2015) and Adenwalla (2025): the proposed value 72 at k=12 is inadmissible for every exponent n>=2. The exact prime-exponent minima are 27, 18, and 54 at p=2,3,5, respectively, and 144 at every prime p>=7. More generally, writing k=r^g with the prime-exponent vector of r having greatest common divisor 1, we prove that T(p,k)=r^(g+1) for all sufficiently large primes, with an explicit threshold. This gives the precise range in which the proposed formula k rad(k) is correct. We also prove the entry's distinct-prime-row assertion and first-column formula using the same valuation description. For the cross-referenced sequence minimum in A343825, we prove eventual equality with A071537 by an explicit determinant bound and reprove Adenwalla's k=12 prime column: 20 at p=2 and 18 at every odd prime. The valuation classes also answer the image questions in Kagey's Open problem collection, Problem 16: they characterize the cube-row image and show that the two-value rows are injective exactly at prime exponents.",
+      "abstract_text": "Question 9.1 of Johnson and Paparella, Perron similarities and the nonnegative inverse eigenvalue problem, arXiv:2409.07682v4, Section 9, p. 27, has a negative answer for both polyhedral cones and polytopes. For every integer m >= 1 we construct a rational polygon with m+4 edges whose lift to x_0=1 and conical hull are closed under coordinatewise multiplication and contain the all-ones vector. Every vector in the polygonal lift is the spectrum, in a fixed coordinate order, of a symmetric stochastic matrix with a common eigenbasis. Neither set is the complete spectratope or spectracone of any complex 3-by-3 matrix: the diagonal entries and trace obstruct the required facets away from the identity. The five-vertex case already fails these constraints. Cartesian products give full-dimensional counterexamples in every coordinate size n >= 3. With boundary in the source's complex Euclidean space or its first-coordinate affine hyperplane, Conjecture 9.2 also fails: (1,0,...,0) is a boundary stochastic spectrum but is not radially extremal.",
       "authors": [
         {
           "affiliation": "ChronoAI Pte Ltd, Singapore",
@@ -2177,6 +2318,53 @@
       "concept_doi": null,
       "current_version": 2,
       "doi": null,
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S0/FiniteGeometry/Polytopes/JohnsonPaparellaHadamardPolyhedraRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 92073,
+        "sha256": "34fc1c0470c9f4cbd9b7c7c02ea3163795d6b169176635c2ecdfaf8b66453ed4",
+        "url": "/api/v1/collected-papers/jp2025-hadamard-closure/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T04:23:21.900306054Z",
+      "record": "jp2025-hadamard-closure",
+      "repository_name": "jp2025-hadamard-closure",
+      "source": {
+        "bytes": 16571,
+        "sha256": "3367e9c3728cb5f506b87fdbb4122ae86d0350caf367a7b69e2320b6207ed582",
+        "url": "/api/v1/collected-papers/jp2025-hadamard-closure/files/source?version=2"
+      },
+      "title": "A five-vertex negative answer to Johnson and Paparella's Question 9.1 on Hadamard-closed spectral polyhedra",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T04:23:21.900306054Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "jp2025-hadamard-closure"
+    },
+    {
+      "abstract_text": "We correct the conjecture in comment 2 of Peter Kagey's OEIS A343881, revision 16 (June 14, 2021), and extend results of Kagey (2015) and Adenwalla (2025): the proposed value 72 at k=12 is inadmissible for every exponent n>=2. The exact prime-exponent minima are 27, 18, and 54 at p=2,3,5, respectively, and 144 at every prime p>=7. More generally, writing k=r^g with the prime-exponent vector of r having greatest common divisor 1, we prove that T(p,k)=r^(g+1) for all sufficiently large primes, with an explicit threshold. This gives the precise range in which the proposed formula k rad(k) is correct. We also prove the entry's distinct-prime-row assertion and first-column formula using the same valuation description. For the cross-referenced sequence minimum in A343825, we prove eventual equality with A071537 by an explicit determinant bound and reprove Adenwalla's k=12 prime column: 20 at p=2 and 18 at every odd prime. The valuation classes also answer the image questions in Kagey's Open problem collection, Problem 16: they characterize the cube-row image and show that the two-value rows are injective exactly at prime exponents.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24409057",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.24409058",
       "lean_source": {
         "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
         "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/Arith/Factorization/OeisA343881KageyPowerProducts.lean"
@@ -2550,9 +2738,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24406606",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24406607",
       "lean_source": {
         "revision": "73ec20a01fc35e0f53bc258c605821728f3c33b6",
         "url": "https://github.com/the-omega-institute/trureturing/blob/73ec20a01fc35e0f53bc258c605821728f3c33b6/D5/S3/Quantum/Measurements/ThreeDistinguishabilityProductRefutation.lean"
@@ -2633,7 +2821,7 @@
       "work": "kurk396563"
     },
     {
-      "abstract_text": "We prove Peter Luschny's conjecture in OEIS A323206, COMMENTS, revision 52 (first posed in revision 17, February 21, 2019): for all nonnegative n,k, the terminating hypergeometric value A(n,k) is odd precisely when n is even or k+2 is a positive power of two. Its coefficients are integer ballot numbers, and their sum is C_(k+1). Thus evaluation modulo two reduces to the constant coefficient or a Catalan number. A binary product describes the complete coefficient support; its consequences include the linked rows, columns, three adjacent diagonals, antidiagonal sums and generalized ballot triangle.",
+      "abstract_text": "Mikhail Kurkov's FORMULA conjectures of 5 April 2025 in OEIS A340991, revision 24, and A357583, revision 10 (both dated 6 April 2025), propose the same shifted-array recursion for the prime and Bell convolution triangles and for arbitrary coefficient sequences. We prove the recursion over every unital semiring, including noncommutative ones, with the stated order of multiplication. A shifted-tail coefficient formula determines every array column. It also gives the Bell specialization, finite-support recurrences, and the factorial generating function conjectured by Bala; the latter and its continued fraction are deductions of classical INVERT and Euler identities.",
       "authors": [
         {
           "affiliation": "ChronoAI Pte Ltd, Singapore",
@@ -2647,6 +2835,53 @@
       "concept_doi": null,
       "current_version": 2,
       "doi": null,
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/Algebraic/KurkovConvolutionRowRecursion.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 82257,
+        "sha256": "fa75f1671182ae4e81b07bb3e0236862e54f0f23dc74c8862ffe9cc281691650",
+        "url": "/api/v1/collected-papers/kurkov-a340991-convolution-row-recursion/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T04:42:33.985778225Z",
+      "record": "kurkov-a340991-convolution-row-recursion",
+      "repository_name": "kurkov-a340991-convolution-row-recursion",
+      "source": {
+        "bytes": 21870,
+        "sha256": "fc4200a3573dc9bdb31717509a0668db16cea8f5592deb9ce031e18cb7d3e693",
+        "url": "/api/v1/collected-papers/kurkov-a340991-convolution-row-recursion/files/source?version=2"
+      },
+      "title": "Kurkov's convolution-row conjectures over arbitrary semirings",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T04:42:33.985778225Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "kurkov-a340991-convolution-row-recursion"
+    },
+    {
+      "abstract_text": "We prove Peter Luschny's conjecture in OEIS A323206, COMMENTS, revision 52 (first posed in revision 17, February 21, 2019): for all nonnegative n,k, the terminating hypergeometric value A(n,k) is odd precisely when n is even or k+2 is a positive power of two. Its coefficients are integer ballot numbers, and their sum is C_(k+1). Thus evaluation modulo two reduces to the constant coefficient or a Catalan number. A binary product describes the complete coefficient support; its consequences include the linked rows, columns, three adjacent diagonals, antidiagonal sums and generalized ballot triangle.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24407819",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.24407820",
       "lean_source": {
         "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
         "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Invariants/LuschnyA323206Parity.lean"
@@ -2738,9 +2973,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24408320",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24408321",
       "lean_source": {
         "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
         "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/MatharA084261.lean"
@@ -2881,9 +3116,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24407267",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24407268",
       "lean_source": {
         "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
         "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S3/ArithSums/MatharA386829.lean"
@@ -3069,9 +3304,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24409064",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24409065",
       "lean_source": {
         "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
         "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S3/Combinatorics/Graph/Domination/MertensGridGrowth.lean"
@@ -3163,9 +3398,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24407821",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24407822",
       "lean_source": {
         "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
         "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S3/Combinatorics/YoungFibonacci/PetrovScottMultiplicityDominance.lean"
@@ -3304,9 +3539,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24405794",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24405795",
       "lean_source": {
         "revision": "3d781ae04219d5c99e87e82e3bbc3f6816e3691e",
         "url": "https://github.com/the-omega-institute/trureturing/blob/3d781ae04219d5c99e87e82e3bbc3f6816e3691e/D5/S3/Arith/PrimeRemainders/OeisA222759Growth.lean"
@@ -3351,9 +3586,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24407270",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24407271",
       "lean_source": {
         "revision": "d73267bacb7cde6604fdaee3818fa517d9ced843",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d73267bacb7cde6604fdaee3818fa517d9ced843/D5/S0/Certificates/BalaComplexShiftDeterminantRefutation.lean"
@@ -3539,9 +3774,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24407274",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24407275",
       "lean_source": {
         "revision": "e0da8fcc80226febc4e7ea0836927bc71d158292",
         "url": "https://github.com/the-omega-institute/trureturing/blob/e0da8fcc80226febc4e7ea0836927bc71d158292/D5/S3/Arith/DirichletInverse/OeisA322026DirichletInverseIdentity.lean"
@@ -3716,6 +3951,53 @@
       "work": "oeis-a391810-alternating-jacobsthal"
     },
     {
+      "abstract_text": "We prove R. J. Mathar's 'Conjecture D-finite with recurrence' in the third FORMULA line of OEIS A392976, revision 19 (January 31, 2026; conjecture dated January 29, 2026), and extend the cubic coefficient identities proved by Barry (2011, Theorem 3 and Example 7). The coefficients of the formal inverse of t((1-t^2)^2-t), divided by x, satisfy the stated six-term recurrence at every integer n >= 5. A change of variable reduces the assertion to an explicit polynomial identity. The same argument gives a nonzero homogeneous differential equation of order five; a trace argument lowers the existence bound to order four. Lagrange inversion gives an integer-exponent family containing the entry's binomial-sum formula and its three cross-referenced sequences, as well as all positive integral powers of their generating functions. Further corollaries cover the cubic entry's alternate sum, differential recurrence and derivative formulas.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24411295",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.24411296",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S1/Recurrence/Algebraic/A392976InverseRecurrence.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 110190,
+        "sha256": "f526e6a779f00e15324b4c0a60978a9ec235aa8f6c995b1f75c4dae7b60609fa",
+        "url": "/api/v1/collected-papers/oeis-a392976-inverse-recurrence/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T05:40:02.127157100Z",
+      "record": "oeis-a392976-inverse-recurrence",
+      "repository_name": "10.5281-zenodo.24411295",
+      "source": {
+        "bytes": 17381,
+        "sha256": "d073bb3147f50e67917b7a4f0d55bad4a14d1184a924f62cd43af25f2b301288",
+        "url": "/api/v1/collected-papers/oeis-a392976-inverse-recurrence/files/source?version=2"
+      },
+      "title": "Mathar's inverse-quintic recurrence conjecture and extensions of Barry's cubic formulas",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T05:40:02.127157100Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "oeis-a392976-inverse-recurrence"
+    },
+    {
       "abstract_text": "Extending Liang's (2025) free-board peak-entropy argument, we prove Kotěšovec's conjecture in OEIS A394697, history revision 21 (6 May 2026; entry snapshot revision 24): the largest coefficient of the n-by-n toroidal king independence polynomial has n²th root tending to A247413 through all integers n >= 3. The same comparison gives fixed-positive-activity entropy on arbitrary growing rectangles with free, cylindrical or toroidal boundaries, explicit boundary-to-area error bounds, and equal entropy for marked-count moments. Scalar log-concavity fails infinitely often; the even maximum-packing formula and its limiting density are reproved.",
       "authors": [
         {
@@ -3727,9 +4009,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24407279",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24407280",
       "lean_source": {
         "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
         "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S3/Combinatorics/Graph/Pressure/ToroidalKingsPeakEntropy.lean"
@@ -3821,9 +4103,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24409070",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24409071",
       "lean_source": {
         "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
         "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S3/Factorization/TwoDenseDivisorBlockMinimum.lean"
@@ -3902,6 +4184,53 @@
         }
       ],
       "work": "okada-2020-premerged-determinant-nonpalindromic"
+    },
+    {
+      "abstract_text": "We prove Ridouane Oudra's cubic floor conjecture, posed on October 6, 2023 in the FORMULA field of OEIS A248186, revision 18, and give an alternative proof of the tetrahedral counting formula contributed by Chai Wah Wu to A056556 on November 4, 2024 and treated in his 2025 article, Section 4, p.22. The least positive index k for which 1/18-sum_{h=1}^k 1/[h(h+1)(h+2)(h+3)]<n^(-3) is floor(r*n+r^2/n-1) for n>2, where r=3^(-1/3). An integer-target cubic inversion also recovers Oudra's earlier tetrahedral formula. A congruence argument proves his quadratic conjecture in A248183. For both threshold sequences we obtain exact jump positions and complementary densities, and for the cubic jumps we characterize their deviations from the associated Beatty sequence.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24410612",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.24410613",
+      "lean_source": {
+        "revision": "f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5/D5/S3/ArithSums/OudraA248186CubicFloor.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 86773,
+        "sha256": "1fc2246399defe0fda29bde94c38d6b6b8b0538a4d2a8230f1f175a53a3aab1e",
+        "url": "/api/v1/collected-papers/oudra-a248186-cubic-floor/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T05:20:55.021197564Z",
+      "record": "oudra-a248186-cubic-floor",
+      "repository_name": "10.5281-zenodo.24410612",
+      "source": {
+        "bytes": 12228,
+        "sha256": "a9e54a5d0c7f8bde019dc3d87e06858421ed3415b9c63af8265b2e1ab6e0899b",
+        "url": "/api/v1/collected-papers/oudra-a248186-cubic-floor/files/source?version=2"
+      },
+      "title": "Oudra's cubic and quadratic floor conjectures and an alternative proof of Wu's tetrahedral formula",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T05:20:55.021197564Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "oudra-a248186-cubic-floor"
     },
     {
       "abstract_text": "We refute the conjectures in Section IV immediately after Theorems 1 and 3, Eqs. (10) and (12), of Peled, Te'eni, Carmi and Cohen, Scientific Reports 11, 2849 (2021), that filter normal form can be removed from their correlation-minor bounds. Explicit separable states give robust violations in dimensions 2 by 4 and 2 by D for 5<=D<=8, including positive-definite examples. For every D>=4 and every Schatten parameter, the sharp fourth-order separable bound without filter normal form is 1/(192 sqrt(3)), attained by tetrahedral qubit projectors paired with four orthogonal flags. No common-size pair of regular coherent degree-1 pure designs exists in dimensions 2 and D>=5. We also correct the missing square root in arXiv:2005.12079v2, Appendix D.5, Eq. (D31), using the known separable covariance inequality. The original filter-normal-form theorems retain their scope.",
@@ -4197,9 +4526,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24408322",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24408323",
       "lean_source": {
         "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/SpeziaSerpentineSecondExteriorTrace.lean"
@@ -4338,9 +4667,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24410096",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24410097",
       "lean_source": {
         "revision": "abb48f723fe221da235c625800ba0d2ca1755296",
         "url": "https://github.com/the-omega-institute/trureturing/blob/abb48f723fe221da235c625800ba0d2ca1755296/D5/S3/Quantum/Foundation/StasiukLutkenhausTanErrorStateErasureRefutation.lean"
@@ -4421,6 +4750,53 @@
       "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
     },
     {
+      "abstract_text": "For Sun's On some determinants with Legendre symbol entries, arXiv:1308.2900v5, Conjecture 3.16, p. 17, we extend the zero-class identity credited to C. Krattenthaler in arXiv:1308.2900v6 (April 24, 2014), Remark 3.16. For A006077, the Hankel determinant of order n+1 vanishes exactly when n is congruent to 1 modulo 3; otherwise its quotient by (-1)^floor((n+1)/3) 6^n is a positive odd integer. Binomial translation gives a three-block factorization. Integral row normalization reduces parity to the Rueppel determinants, and a positive moment representation gives the sign. We also give parameter-independent and square-class consequences, the exact inertia, and a two-parameter deformation. Related moment arguments establish the harmonic sign assertion in Conjecture 3.9(i) and the two squared-number assertions in Conjecture 3.17.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24410616",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.24410617",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 115285,
+        "sha256": "522641cb92bf93685d7d975b98fda917a206dde038d563adad8e0ebc009e65f1",
+        "url": "/api/v1/collected-papers/sun-a006077-hankel-determinants/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T04:43:31.308618291Z",
+      "record": "sun-a006077-hankel-determinants",
+      "repository_name": "10.5281-zenodo.24410616",
+      "source": {
+        "bytes": 24689,
+        "sha256": "ff74770aac39599ad7edeac3e757f7b7438f81dc1f24e533d80a7442b9454f80",
+        "url": "/api/v1/collected-papers/sun-a006077-hankel-determinants/files/source?version=2"
+      },
+      "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T04:43:31.308618291Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "sun-a006077-hankel-determinants"
+    },
+    {
       "abstract_text": "We answer negatively Ta's Problems 11.6–11.7 in arXiv:2505.08090v5, Section 11, page 27, and prove his Conjecture 5.13 in arXiv:2508.16772v1, Section 5.2.2, page 17, extending the counting methods of Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026). The two semidirect products C16 semidirect C4 with actions 5 and 7 have invariant triple (64,4,22), but respectively 8847360 and 2160000 good involutions. Ta's central-label characterization gives a weighted-involution formula for every finite conjugation subquandle and an exact criterion for equality in the central-label bound. The quaternion example attains that bound with two orbits and a center of order two. Inversion-closure is distinguished from classwise inverse stability, correcting Remark 2.14. For the linear quandle Lambda_(4n,2n-1), the number of good involutions is ten for odd n and four for even n; the odd case proves Conjecture 5.13, and the even case reproves Ta's Remark 5.14.",
       "authors": [
         {
@@ -4432,9 +4808,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24409475",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24409476",
       "lean_source": {
         "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S3/FiniteGroups/Quandles/TaThreeInvariantRefutation.lean"
@@ -4573,9 +4949,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24406608",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24406609",
       "lean_source": {
         "revision": "3978330935ee256403f739686c6ae335ea620e68",
         "url": "https://github.com/the-omega-institute/trureturing/blob/3978330935ee256403f739686c6ae335ea620e68/D5/S3/Arith/Congruence/TebniA355257Divisibility.lean"
@@ -4714,9 +5090,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24409078",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24409079",
       "lean_source": {
         "revision": "a252cc46f0e145418a978217b8abd41a73fd820d",
         "url": "https://github.com/the-omega-institute/trureturing/blob/a252cc46f0e145418a978217b8abd41a73fd820d/D5/S3/Quantum/MeasurementGeometry/WStateBellMeasurementOptimum.lean"
@@ -4844,6 +5220,53 @@
       "work": "wiseman-a344611"
     },
     {
+      "abstract_text": "For Chai Wah Wu's Conjectures 1–4 in OEIS A227244, revision 54, FORMULA (10 July 2026), we extend the bounds proved by Schott (23 October 2019) and Wu (10 July 2026) to exact least-prime-factor formulas, including all excluded classes. The values are 101 on 20n+16, 47 on 220n+8, and 149 on 72n+32 outside n≡2 (mod 5) and n≡18 (mod 55), where they are 101 and 47, respectively. On 168n+43 the value is 59 except at n≡26 (mod 55), where it is 47. A periodicity lemma and finite modular tables prove these formulas. We also characterize all indices with value 11 and extend Fried's (2025) Fermat-number counterexample to an exact criterion for Cloitre's totient condition.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24410621",
+      "current_version": 3,
+      "doi": "10.5281/zenodo.24410622",
+      "lean_source": {
+        "revision": "ec1e94b3ab1ae33ea4f94d5484df26d748e2175e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ec1e94b3ab1ae33ea4f94d5484df26d748e2175e/D5/S3/Arith/Primes/WuA227244ConjectureThree.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 79328,
+        "sha256": "ae7724784f5089351084e8c0eae0df725ddc7aaf1800013c1bbea24e96bd3c46",
+        "url": "/api/v1/collected-papers/wu-a227244-progressions/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T05:38:11.493333296Z",
+      "record": "wu-a227244-progressions",
+      "repository_name": "10.5281-zenodo.24410621",
+      "source": {
+        "bytes": 14255,
+        "sha256": "bc07ea8513a6be24faf718b77f875eef02388e42b918680330c726c50bc13427",
+        "url": "/api/v1/collected-papers/wu-a227244-progressions/files/source?version=3"
+      },
+      "title": "Exact least prime factors and exceptional classes for Wu's conjectures on (2^{2^n}+1)2^{2^{2^n}}-1",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T05:38:11.493333296Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "wu-a227244-progressions"
+    },
+    {
       "abstract_text": "The question in Xu et al., Section 4.2, page 12 of arXiv:2211.05563v1, asks whether the optimized witness bound equals the convex-roof geometric measure of genuine multipartite entanglement for noisy GHZ states. A strict separation holds for every party count n >= 3 and local dimension d >= 3 at an explicit noise probability. For three qutrits at noise p=3/8, the optimized witness bound is exactly 1/9, whereas the convex roof is at least 13/108. A biseparable overlap inequality and a positive-definite matrix give a two-observable lower bound. A written corollary extends the three-qutrit strict gap throughout 27/74 < p < 9/22.",
       "authors": [
         {
@@ -4902,9 +5325,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24407831",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24407832",
       "lean_source": {
         "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
         "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S3/Analytic/YangChuZhangPsiCM/Refutation.lean"
@@ -4949,9 +5372,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24410103",
       "current_version": 4,
-      "doi": null,
+      "doi": "10.5281/zenodo.24410104",
       "lean_source": {
         "revision": "a252cc46f0e145418a978217b8abd41a73fd820d",
         "url": "https://github.com/the-omega-institute/trureturing/blob/a252cc46f0e145418a978217b8abd41a73fd820d/D5/S3/QuantumChannels/YoeliGourDestructionSuperchannelRefutation.lean"

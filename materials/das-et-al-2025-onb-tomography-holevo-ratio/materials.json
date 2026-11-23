@@ -1,6 +1,7 @@
 {
-  "doi": null,
+  "doi": "10.5281/zenodo.24408305",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/das-et-al-2025-onb-tomography-holevo-ratio/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/das-et-al-2025-onb-tomography-holevo-ratio",

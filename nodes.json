@@ -7861,6 +7861,86 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:groux-catalan-denominators:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/ArithSums/GrouxA120069Denominator.lean"
+      },
+      "lineage": "collected:groux-catalan-denominators:s1",
+      "macros": {
+        "\\den": "\\operatorname{den}",
+        "\\num": "\\operatorname{num}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "groux-catalan-denominators",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\geq1$, $a_n=\\den(q_n)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Catalan formula corrections and short proofs of Groux's and Staunton's conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "groux-catalan-denominators"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:groux-catalan-denominators:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/ArithSums/GrouxA120069Denominator.lean"
+      },
+      "lineage": "collected:groux-catalan-denominators:s2",
+      "macros": {
+        "\\den": "\\operatorname{den}",
+        "\\num": "\\operatorname{num}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "groux-catalan-denominators",
+      "scope": "in_scope",
+      "statement": "Staunton's conjecture is true: for every $n\\geq1$,\n\\[\n a_n=2^{b_n-2}.\n\\]\nMore explicitly, if $s_2(m)$ denotes the number of ones in the binary\nexpansion of $m$, then\n\\begin{equation}\n a_n=2^{\\,2n-1-s_2(n+1)},\\qquad\n b_n=2n+1-s_2(n+1).\n\\end{equation}\nThe displayed formula for $b_n$ also holds at $n=0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Catalan formula corrections and short proofs of Groux's and Staunton's conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "groux-catalan-denominators"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:h3894-composition-congruences:2:s1",
       "kind": "paper",
       "label": "Lemma",
@@ -10759,6 +10839,460 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:hardin-barker-cyclic-repetitions:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Words/Patterns/BarkerCyclicRepetitionCounting.lean"
+      },
+      "lineage": "collected:hardin-barker-cyclic-repetitions:s1",
+      "macros": {
+        "\\aq": "a_q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-cyclic-repetitions",
+      "scope": "in_scope",
+      "statement": "For every integer $q\\geq2$,\n\\begin{equation}\n S_q(x)=\\frac{qx\\bigl(1-(q-3)x-(q-1)x^2\\bigr)}\n {(1-(q-1)x)(1-(q-2)x-qx^2)}.\n\\end{equation}\nThe initial values are $\\aq(0)=1$, $\\aq(1)=q$, $\\aq(2)=q^2$, and\n\\begin{equation}\n \\aq(n+3)=(2q-3)\\aq(n+2)+(-q^2+4q-2)\\aq(n+1)\n                -q(q-1)\\aq(n)\\qquad(n\\geq0).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Barker and Hardin's cyclic-repetition formulas and an extension of Fried's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-cyclic-repetitions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hardin-barker-cyclic-repetitions:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Words/Patterns/BarkerCyclicRepetitionCounting.lean"
+      },
+      "lineage": "collected:hardin-barker-cyclic-repetitions:s2",
+      "macros": {
+        "\\aq": "a_q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-cyclic-repetitions",
+      "scope": "in_scope",
+      "statement": "For $n\\geq1$, the count $a_8(n)$ in A268943 has generating function\n\\[\n S_8(x)=\\frac{8x(1-5x-7x^2)}{(1-7x)(1-6x-8x^2)}\n\\]\nand satisfies\n\\begin{equation}\n a_8(n)=\\frac{-272\\,7^n+(153-37\\sqrt{17})(3-\\sqrt{17})^n\n                    +(153+37\\sqrt{17})(3+\\sqrt{17})^n}{34}.\n\\end{equation}\nIn particular, $a_8(n+3)=13a_8(n+2)-34a_8(n+1)-56a_8(n)$ for $n\\geq0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Barker and Hardin's cyclic-repetition formulas and an extension of Fried's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-cyclic-repetitions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hardin-barker-cyclic-repetitions:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Words/Patterns/BarkerCyclicRepetitionCounting.lean"
+      },
+      "lineage": "collected:hardin-barker-cyclic-repetitions:s3",
+      "macros": {
+        "\\aq": "a_q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-cyclic-repetitions",
+      "scope": "in_scope",
+      "statement": "For the binary column $q=2$,\n\\[\n S_2(x)=\\frac{4x+6x^2}{1-2x^2}-\\frac{2x}{1-x}.\n\\]\nConsequently, $a_2(2m)=3\\cdot2^m-2$ and\n$a_2(2m+1)=2^{m+2}-2$ for $m\\geq0$. For $n\\geq0$,\n\\begin{align*}\n a_2(n)&=\\sum_{j=0}^n 2^{\\min(j,n-j)},\\\\\n a_2(n+2)&=2a_2(n)+2,\\qquad\n a_2(n)-a_2(n-1)=2^{\\lfloor n/2\\rfloor}\\quad(n\\geq1).\n\\end{align*}\nThese are the corresponding formulas of A027383~\\cite{binary}.\nThe binary words counted here are precisely those for which every substring\nhas the difference between its numbers of ones and zeros between $-2$ and $2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Barker and Hardin's cyclic-repetition formulas and an extension of Fried's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-cyclic-repetitions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hardin-barker-cyclic-repetitions:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Words/Patterns/BarkerCyclicRepetitionCounting.lean"
+      },
+      "lineage": "collected:hardin-barker-cyclic-repetitions:s4",
+      "macros": {
+        "\\aq": "a_q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-cyclic-repetitions",
+      "scope": "in_scope",
+      "statement": "For every such relation,\n\\begin{equation}\n S_R(x)=\\frac{qx\\bigl(1-(q-3)x-(q+d-2)x^2\\bigr)}\n {(1-(q-1)x)(1-(q-2)x-(q+d-1)x^2)}.\n\\end{equation}\nIn particular, no other features of $R$ affect these counts. At $d=q-1$\nthis reproves Fried's Theorem~4~\\cite{fried}: if $F_q(x)$ denotes its\ndisplayed rational function, then\n\\[\n 1+S_R(x)=F_q(x)=\n \\frac{1-(q-3)x-2(q-2)x^2-(q-2)x^3}\n {1-(2q-3)x+(q-1)(q-4)x^2+2(q-1)^2x^3}.\n\\]\nHere the constant term includes the empty word. The positive-index counts\nagree with Fried's enumeration. Writing $b_q(n)=a_R(n)$ in this case gives\n\\begin{equation}\n b_q(n+3)=(2q-3)b_q(n+2)+(-q^2+5q-4)b_q(n+1)\n             -2(q-1)^2b_q(n)\\quad(n\\geq1),\n\\end{equation}\nwith $b_q(1)=q$, $b_q(2)=q^2$, $b_q(3)=q^3-q$.\nThis proves the seven empirical column recurrences of A269467~\\cite{unequal}.\nFor $q=k+1$, its rows $n=1,2,3$ are the same as those of A268944;\nthe next four are\n\\begin{align*}\n b_{k+1}(4)&=k^4+4k^3+4k^2+k,\\\\\n b_{k+1}(5)&=k^5+5k^4+7k^3+2k^2-k,\\\\\n b_{k+1}(6)&=k^6+6k^5+11k^4+4k^3-k^2+k,\\\\\n b_{k+1}(7)&=k^7+7k^6+16k^5+8k^4-k^3-k.\n\\end{align*}\nThus all seven displayed row formulas in A269467 follow as well.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Barker and Hardin's cyclic-repetition formulas and an extension of Fried's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-cyclic-repetitions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hardin-barker-cyclic-repetitions:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Words/Patterns/BarkerCyclicRepetitionCounting.lean"
+      },
+      "lineage": "collected:hardin-barker-cyclic-repetitions:s5",
+      "macros": {
+        "\\aq": "a_q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-cyclic-repetitions",
+      "scope": "in_scope",
+      "statement": "Let $c_R(n,r)$ count these words of length $n$ with exactly $r$ equality\nevents. For $r\\geq1$,\n\\begin{equation}\n \\sum_{n\\geq1}c_R(n,r)x^n=\n \\frac{q\\,d^{r-1}x^{2r}}\n {(1+x)^{r-1}(1-(q-1)x)^{r+1}},\n\\end{equation}\nwhere $d^0=1$, including when $d=0$. In particular there are no words\nwith $n<2r$, and $c_R(2r,r)=q\\,d^{r-1}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Barker and Hardin's cyclic-repetition formulas and an extension of Fried's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-cyclic-repetitions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:hardin185765:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+      },
+      "lineage": "collected:hardin185765:s1",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin185765",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\geq13$,\n\\begin{align}\n a_n={}&a_{n-1}+30a_{n-2}+24a_{n-3}-95a_{n-4}-15a_{n-5}\\notag\\\\\n       &+64a_{n-6}-116a_{n-7}+16a_{n-8}+16a_{n-9}.\n\\end{align}\nThe difference between the left and right sides at $n=12$ is $-4160$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin185765"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hardin185765:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+      },
+      "lineage": "collected:hardin185765:s2",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin185765",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq1$, $a_n=\\mathbf1^{\\mathsf T}T^{n-1}\\mathbf1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin185765"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hardin185765:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+      },
+      "lineage": "collected:hardin185765:s3",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin185765",
+      "scope": "in_scope",
+      "statement": "Let $F_6(z)=\\sum_{n\\geq1}a_nz^n$ and\n$D_6(z)=1-z-30z^2-24z^3+95z^4+15z^5-64z^6+116z^7-16z^8-16z^9$.\nThen\n\\begin{equation}\n F_6(z)=\\frac{8zN_6(z)}{D_6(z)},\n\\end{equation}\nwhere\n\\begin{align*}\nN_6(z)={}&85+347z-483z^2-2718z^3-1375z^4+2104z^5\\\\\n &+6276z^6+4796z^7-7734z^8-2893z^9+3400z^{10}-520z^{11}.\n\\end{align*}\nNo homogeneous constant-coefficient recurrence over $\\mathbb Q$ of\norder less than nine holds for all sufficiently large $n$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin185765"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hardin185765:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+      },
+      "lineage": "collected:hardin185765:s4",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin185765",
+      "scope": "in_scope",
+      "statement": "For each row of Table~\\ref{tab:siblings},\n\\[\n a^{(m)}_n=\\sum_{j=1}^{d_m}c_j a^{(m)}_{n-j}\\quad(n\\geq s_m),\n \\qquad\n \\sum_{n\\geq1}a^{(m)}_nz^n=\\frac{8zN_m(z)}{1-\\sum_{j=1}^{d_m}c_jz^j}.\n\\]\nThe numerators are\n\\begin{align*}\n N_2&=2+3z, &N_3&=5+10z+z^2,\\\\\n N_4&=13+33z-16z^3+7z^4-z^5,\\\\\n N_5&=33+108z-43z^2-249z^3-69z^4+5z^5+43z^6+81z^7+18z^8.\n\\end{align*}\nThese are Barker's formulas in A185761--A185764~\\cite{hardin761,hardin762,hardin763,hardin764}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin185765"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hardin185765:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+      },
+      "lineage": "collected:hardin185765:s5",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin185765",
+      "scope": "in_scope",
+      "statement": "For $n\\geq1$, with $r_\\pm=(1\\pm\\sqrt{17})/2$,\n\\[\n a^{(2)}_n=\n \\frac{(-13+3\\sqrt{17})r_-^n+(13+3\\sqrt{17})r_+^n}{\\sqrt{17}}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin185765"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hardin185765:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+      },
+      "lineage": "collected:hardin185765:s6",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin185765",
+      "scope": "in_scope",
+      "statement": "For all $n,k\\geq1$, $b_{n,k}=b_{k,n}$. In particular,\n$b_{n,5}=b_{5,n}=a_n$, so both the fifth column and fifth row of\nA185769 satisfy~\\eqref{eq:rec}, with the varying index at least $13$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin185765"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:hardin185765:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+      },
+      "lineage": "collected:hardin185765:s7",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin185765",
+      "scope": "in_scope",
+      "statement": "For all $n,k\\geq1$, $8\\mid b_{n,k}$. For each fixed $k\\geq1$,\nthe generating function of $b_{n,k}$ in $n$ is rational:\n\\[\n \\sum_{n\\geq1}b_{n,k}z^n\n =z\\mathbf1^{\\mathsf T}(I-zT_{k+1})^{-1}\\mathbf1.\n\\]\nConsequently every fixed column, and by transposition every fixed row,\nsatisfies some eventual homogeneous constant-coefficient recurrence.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin185765"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:hardin240513-ladder-formulas:3:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -12429,6 +12963,264 @@
       "toolchain": null,
       "version": 5,
       "work": "jen2610-permuted-rotor-loops"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:jp2025-hadamard-closure:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S0/FiniteGeometry/Polytopes/JohnsonPaparellaHadamardPolyhedraRefutation.lean"
+      },
+      "lineage": "collected:jp2025-hadamard-closure:s1",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\cone": "\\operatorname{cone}",
+        "\\conv": "\\operatorname{conv}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "jp2025-hadamard-closure",
+      "scope": "in_scope",
+      "statement": "For every integer $m\\geq1$, the following hold.\n\\begin{enumerate}\n\\item $P_m$ is a rational two-dimensional polytope with $m+4$ edges.\nThe pointed cone $K_m$ is full-dimensional in $\\R^3$ and has $m+4$ facets.\nBoth sets are polyhedra in the real-half-space convention on $\\C^3$.\n\\item Both sets contain $e=(1,1,1)$ and are closed under the Hadamard product.\n\\item There is a real invertible matrix $S_0$ with\n$P_m\\subset\\mathcal P(S_0)$ and $K_m\\subset\\mathcal C(S_0)$; the\nrealizing matrices can all be chosen symmetric.\n\\item For every $S\\in\\operatorname{GL}_3(\\C)$,\n$P_m\\ne\\mathcal P(S)$ and $K_m\\ne\\mathcal C(S)$.\n\\end{enumerate}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A five-vertex negative answer to Johnson and Paparella's Question 9.1 on Hadamard-closed spectral polyhedra",
+      "toolchain": null,
+      "version": 2,
+      "work": "jp2025-hadamard-closure"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:jp2025-hadamard-closure:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S0/FiniteGeometry/Polytopes/JohnsonPaparellaHadamardPolyhedraRefutation.lean"
+      },
+      "lineage": "collected:jp2025-hadamard-closure:s2",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\cone": "\\operatorname{cone}",
+        "\\conv": "\\operatorname{conv}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "jp2025-hadamard-closure",
+      "scope": "in_scope",
+      "statement": "A full-dimensional polyhedron in a real affine space, defined there by\n$q$ affine inequalities, has at most $q$ facets.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A five-vertex negative answer to Johnson and Paparella's Question 9.1 on Hadamard-closed spectral polyhedra",
+      "toolchain": null,
+      "version": 2,
+      "work": "jp2025-hadamard-closure"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:jp2025-hadamard-closure:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S0/FiniteGeometry/Polytopes/JohnsonPaparellaHadamardPolyhedraRefutation.lean"
+      },
+      "lineage": "collected:jp2025-hadamard-closure:s3",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\cone": "\\operatorname{cone}",
+        "\\conv": "\\operatorname{conv}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "jp2025-hadamard-closure",
+      "scope": "in_scope",
+      "statement": "Let $T$ be a full-dimensional polytope in a real affine space $H\\subset\\C^n$\ncontaining $e$. Suppose that, on $H$, it is defined by the real inequalities\n$L_{ij}(x)\\geq0$, where $L_{ij}(x)=(S\\diag(x)S^{-1})_{ij}$ for\nsome $S\\in\\operatorname{GL}_n(\\C)$.\nAt most $n$ facets of $T$ omit $e$. If there are exactly $n$, their\nsupporting affine forms, each normalized to have value $1$ at $e$,\nsum to $\\sum_kx_k$ on $H$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A five-vertex negative answer to Johnson and Paparella's Question 9.1 on Hadamard-closed spectral polyhedra",
+      "toolchain": null,
+      "version": 2,
+      "work": "jp2025-hadamard-closure"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:jp2025-hadamard-closure:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S0/FiniteGeometry/Polytopes/JohnsonPaparellaHadamardPolyhedraRefutation.lean"
+      },
+      "lineage": "collected:jp2025-hadamard-closure:s4",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\cone": "\\operatorname{cone}",
+        "\\conv": "\\operatorname{conv}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "jp2025-hadamard-closure",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq3$ and $m\\geq1$, define\n\\[\n P_{m,n}=\\{(1,u,v,z_1,\\ldots,z_{n-3}):(u,v)\\in Q_m,\n                        \\ 0\\leq z_i\\leq1\\},\\qquad\n K_{m,n}=\\cone(P_{m,n}).\n\\]\nThese rational unital Hadamard-closed polyhedra have dimensions $n-1$\nand $n$, respectively, and each has $m+2n-2$ relative facets.\nEvery point has a nonnegative realization in a common eigenbasis;\nthe realizations for $P_{m,n}$ are stochastic. Nevertheless\n$P_{m,n}\\ne\\mathcal P(S)$ and $K_{m,n}\\ne\\mathcal C(S)$ for every\n$S\\in\\operatorname{GL}_n(\\C)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A five-vertex negative answer to Johnson and Paparella's Question 9.1 on Hadamard-closed spectral polyhedra",
+      "toolchain": null,
+      "version": 2,
+      "work": "jp2025-hadamard-closure"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:jp2025-hadamard-closure:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S0/FiniteGeometry/Polytopes/JohnsonPaparellaHadamardPolyhedraRefutation.lean"
+      },
+      "lineage": "collected:jp2025-hadamard-closure:s5",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\cone": "\\operatorname{cone}",
+        "\\conv": "\\operatorname{conv}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "jp2025-hadamard-closure",
+      "scope": "in_scope",
+      "statement": "Let $V_m$ be the $(m+4)\\times3$ matrix whose rows are the vertices of\n$P_m$. Then $V_m$ has rank three and is row Hadamard conic in the sense\nof \\cite[Definition~2.3]{JP17}: each product of two rows lies in its\nrow cone. Its row cone is nevertheless not $\\mathcal C(S)$ for any\n$S\\in\\operatorname{GL}_3(\\C)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A five-vertex negative answer to Johnson and Paparella's Question 9.1 on Hadamard-closed spectral polyhedra",
+      "toolchain": null,
+      "version": 2,
+      "work": "jp2025-hadamard-closure"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:jp2025-hadamard-closure:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S0/FiniteGeometry/Polytopes/JohnsonPaparellaHadamardPolyhedraRefutation.lean"
+      },
+      "lineage": "collected:jp2025-hadamard-closure:s6",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\cone": "\\operatorname{cone}",
+        "\\conv": "\\operatorname{conv}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "jp2025-hadamard-closure",
+      "scope": "in_scope",
+      "statement": "Use the source's notation $\\mathrm{SL}_1^n$ for ordered spectra of\nstochastic $n\\times n$ matrices with first coordinate $1$, and $E_n$ for\nits radially extremal points: $x\\in E_n$ means\n$(1,\\alpha x_1,\\ldots,\\alpha x_{n-1})\\notin\\mathrm{SL}_1^n$ for all\n$\\alpha>1$.\nWith boundary taken in the complex affine space\n$H_n^{\\C}=\\{x\\in\\C^n:x_0=1\\}$, or in $\\C^n$ itself,\n\\[\n (1,0,\\ldots,0)\\in\\partial\\mathrm{SL}_1^n\\setminus E_n\n \\qquad(n\\geq2).\n\\]\nIn particular, Conjecture~9.2, p.~27, fails under this ambient-boundary\nconvention for every $n>3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A five-vertex negative answer to Johnson and Paparella's Question 9.1 on Hadamard-closed spectral polyhedra",
+      "toolchain": null,
+      "version": 2,
+      "work": "jp2025-hadamard-closure"
     },
     {
       "attribution": null,
@@ -15897,6 +16689,206 @@
       "toolchain": null,
       "version": 2,
       "work": "kurk396563"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:kurkov-a340991-convolution-row-recursion:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/Algebraic/KurkovConvolutionRowRecursion.lean"
+      },
+      "lineage": "collected:kurkov-a340991-convolution-row-recursion:s1",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-a340991-convolution-row-recursion",
+      "scope": "in_scope",
+      "statement": "For every sequence over every unital semiring and every $n,k\\geq1$,\n\\begin{equation}\n R(n,k)=\\sum_{r=0}^{n-1}x^r[z^{n-1}]A(z)^rB_k(z),\n \\qquad B_k(z)=\\sum_{j\\geq0}a_{k+j}z^j.\n\\end{equation}\nConsequently, for every $n\\geq1$,\n\\begin{equation}\n P_n(x)=xR(n,1).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's convolution-row conjectures over arbitrary semirings",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-a340991-convolution-row-recursion"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:kurkov-a340991-convolution-row-recursion:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/Algebraic/KurkovConvolutionRowRecursion.lean"
+      },
+      "lineage": "collected:kurkov-a340991-convolution-row-recursion:s2",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-a340991-convolution-row-recursion",
+      "scope": "in_scope",
+      "statement": "For $n\\geq0$,\n\\begin{align}\n P_n(1)&=[z^n]\\frac{1}{1-A(z)},&\n P_n(-1)&=[z^n]\\frac{1}{1+A(z)},\\\\\n \\sum_{r=0}^n rT(n,r)&=[z^n]\\frac{A(z)}{(1-A(z))^2}.\n &&\n\\end{align}\nFor a sequence over any unital semiring, $T(n,n)=a_1^n$ and\n\\begin{equation}\n P_n(x)=x\\sum_{j=1}^n P_{n-j}(x)a_j\n       =x\\sum_{j=1}^n a_jP_{n-j}(x)\\quad(n\\geq1).\n\\end{equation}\nIf $a_j=0$ for $j>d$, both sums stop at $\\min(n,d)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's convolution-row conjectures over arbitrary semirings",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-a340991-convolution-row-recursion"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:kurkov-a340991-convolution-row-recursion:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/Algebraic/KurkovConvolutionRowRecursion.lean"
+      },
+      "lineage": "collected:kurkov-a340991-convolution-row-recursion:s3",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-a340991-convolution-row-recursion",
+      "scope": "in_scope",
+      "statement": "Let $b_j=\\operatorname{Bell}(j)$ for $j\\geq0$ and\n$B(z)=\\sum_{j\\geq1}b_jz^j$. Kurkov's recursion with $R(1,k)=b_k$\ngives every positive row of A357583. Its row sums $u_n$ satisfy\n\\[\n u_0=1,\\qquad u_n=\\sum_{j=1}^n b_j u_{n-j},\\qquad\n \\sum_{n\\geq0}u_nz^n=\\frac1{1-B(z)}.\n\\]\nIts central terms are $[z^{2n}]B(z)^n$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's convolution-row conjectures over arbitrary semirings",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-a340991-convolution-row-recursion"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:kurkov-a340991-convolution-row-recursion:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/Algebraic/KurkovConvolutionRowRecursion.lean"
+      },
+      "lineage": "collected:kurkov-a340991-convolution-row-recursion:s4",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-a340991-convolution-row-recursion",
+      "scope": "in_scope",
+      "statement": "Set $a_j=j!$ for $j\\geq1$ and $F(z)=\\sum_{j\\geq0}j!z^j$. The\nrow polynomials of A090238 have the bivariate generating function\n\\begin{equation}\n G(z,x):=\\sum_{n\\geq0}P_n(x)z^n=\\frac1{1+x-xF(z)}.\n\\end{equation}\nWriting $H(z)=\\cfrac{z}{1-\\cfrac{2z}{1-\\cfrac{2z}{1-\\cfrac{3z}{1-\\cfrac{3z}{\\ddots}}}}}$,\nthe same series is\n\\begin{equation}\n G(z,x)=1-x+\\frac{x}{1-\\dfrac{z}{1-xz-H(z)}}.\n\\end{equation}\nThese are the generating function and continued fraction proposed by\nPeter Bala in the FORMULA section of A090238 on 27 May 2017\n\\cite{factorial}; his variables $x,t$ are $z,x$ here.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's convolution-row conjectures over arbitrary semirings",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-a340991-convolution-row-recursion"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:kurkov-a340991-convolution-row-recursion:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/Algebraic/KurkovConvolutionRowRecursion.lean"
+      },
+      "lineage": "collected:kurkov-a340991-convolution-row-recursion:s5",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-a340991-convolution-row-recursion",
+      "scope": "in_scope",
+      "statement": "For $D(z)=z(1+A(z))$, put $T_D(n,r)=[z^n]D(z)^r$.\nOver any unital semiring,\n\\begin{equation}\n T_D(n+m,m)=\\sum_{r=0}^{n}\\binom mr T(n,r)\\quad(n,m\\geq0).\n\\end{equation}\nIn particular, this proves the A090238--A084938 binomial identity.\nFor integer factorial input $a_j=j!$ and $n,r\\geq1$,\n\\begin{equation}\n rT(n,r)=rT(n-1,r-1)+(n+r-1)T(n-1,r).\n\\end{equation}\nFor the Catalan input $a_j=C_j$ and $n,r\\geq1$,\n\\begin{equation}\n T(n,r)=T(n-1,r-1)+2T(n-1,r)+T(n-1,r+1).\n\\end{equation}\nThe last two formulas recover the recurrences recorded in A090238 and\nA128899, respectively \\cite{factorial,variants}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's convolution-row conjectures over arbitrary semirings",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-a340991-convolution-row-recursion"
     },
     {
       "attribution": null,
@@ -22797,6 +23789,252 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:oeis-a392976-inverse-recurrence:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S1/Recurrence/Algebraic/A392976InverseRecurrence.lean"
+      },
+      "lineage": "collected:oeis-a392976-inverse-recurrence:s1",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a392976-inverse-recurrence",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\geq5$,\n\\begin{equation}\n \\sum_{k=0}^{5}c_k(n)a_{n-k}=0.\n\\end{equation}\nThe series $A$ is D-finite: it satisfies a homogeneous linear differential\nequation with polynomial coefficients, not all zero, of order five.\nTogether with $a_0,\\ldots,a_4=1,1,4,15,67$, equation~\\eqref{eq:rec}\nuniquely determines the sequence.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's inverse-quintic recurrence conjecture and extensions of Barry's cubic formulas",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a392976-inverse-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:oeis-a392976-inverse-recurrence:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S1/Recurrence/Algebraic/A392976InverseRecurrence.lean"
+      },
+      "lineage": "collected:oeis-a392976-inverse-recurrence:s2",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a392976-inverse-recurrence",
+      "scope": "in_scope",
+      "statement": "The series $A$ also satisfies a nonzero homogeneous linear differential\nequation over $\\Q[x]$ of order at most four.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's inverse-quintic recurrence conjecture and extensions of Barry's cubic formulas",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a392976-inverse-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:oeis-a392976-inverse-recurrence:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S1/Recurrence/Algebraic/A392976InverseRecurrence.lean"
+      },
+      "lineage": "collected:oeis-a392976-inverse-recurrence:s3",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a392976-inverse-recurrence",
+      "scope": "in_scope",
+      "statement": "Let $r$ be any integer, let $U_r$ be the zero-constant inverse of\n$f_r(t)=t((1-t^2)^r-t)$, and write $U_r(x)/x=\\sum_{n\\geq0}a_n^{(r)}x^n$.\nFor integers $n\\geq0$ and $s\\geq1$,\n\\begin{equation}\n [x^n](U_r(x)/x)^s=\\frac{s}{n+s}\n \\sum_{k=0}^{\\lfloor n/2\\rfloor}\n \\binom{2n+s-2k-1}{n-2k}\n (-1)^k\\binom{-r(2n+s-2k)}{k}.\n\\end{equation}\nHere $\\binom{b}{k}=b(b-1)\\cdots(b-k+1)/k!$ for any integer $b$,\nand $\\binom{b}{0}=1$. In particular, for $r\\geq1$,\n\\begin{equation}\n a_n^{(r)}=\\frac{1}{n+1}\\sum_{k=0}^{\\lfloor n/2\\rfloor}\n \\binom{2n-2k}{n}\\binom{r(2n-2k+1)+k-1}{k}.\n\\end{equation}\nAll $a_n^{(r)}$ are integers, and they are strictly positive when $r\\geq0$.\nEvery $U_r/x$ is algebraic and D-finite. The cases $r=1,2,3,-1$ give,\nrespectively, A001002, A392976, A392977 and A370839.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's inverse-quintic recurrence conjecture and extensions of Barry's cubic formulas",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a392976-inverse-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:oeis-a392976-inverse-recurrence:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S1/Recurrence/Algebraic/A392976InverseRecurrence.lean"
+      },
+      "lineage": "collected:oeis-a392976-inverse-recurrence:s4",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a392976-inverse-recurrence",
+      "scope": "in_scope",
+      "statement": "For A370839 the coefficient formula is\n\\[\n a_n^{(-1)}=\\frac{1}{n+1}\n \\sum_{k=0}^{\\lfloor n/2\\rfloor}(-1)^k\n \\binom{2n-2k}{n-2k}\\binom{2n-2k+1}{k}.\n\\]\nThe generating functions of A392977 and A370839 satisfy\n$A_r=1/((1-(xA_r)^2)^r-xA_r)$ with $r=3,-1$, respectively.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's inverse-quintic recurrence conjecture and extensions of Barry's cubic formulas",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a392976-inverse-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:oeis-a392976-inverse-recurrence:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S1/Recurrence/Algebraic/A392976InverseRecurrence.lean"
+      },
+      "lineage": "collected:oeis-a392976-inverse-recurrence:s5",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a392976-inverse-recurrence",
+      "scope": "in_scope",
+      "statement": "Let $B=U_1/x=\\sum_{n\\geq0}b_nx^n$, the generating function of A001002.\nThen\n\\begin{align}\n B&=1+xB^2+x^2B^3,\\\\\n b_n&=\\frac1{n+1}\\sum_{j=\\lceil n/2\\rceil}^n\n       \\binom{n+j}{j}\\binom{j}{n-j},\\\\\n 5n(n+1)b_n&=11n(2n-1)b_{n-1}\n       +3(3n-2)(3n-4)b_{n-2}\\quad(n\\geq2).\n\\end{align}\nFor $g(x)=x^2+x^3$ and $D=d/dx$ its two derivative representations are\n\\begin{align}\n B&=1+\\frac1x\\sum_{m\\geq1}\\frac{D^{m-1}g(x)^m}{m!},\\\\\n B&=\\exp\\left(\\sum_{m\\geq1}\\frac{D^{m-1}(g(x)^m/x)}{m!}\\right).\n\\end{align}\nThese are identities in $\\Q[[x]]$; each coefficient receives finitely many terms.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's inverse-quintic recurrence conjecture and extensions of Barry's cubic formulas",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a392976-inverse-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:oeis-a392976-inverse-recurrence:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S1/Recurrence/Algebraic/A392976InverseRecurrence.lean"
+      },
+      "lineage": "collected:oeis-a392976-inverse-recurrence:s6",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a392976-inverse-recurrence",
+      "scope": "in_scope",
+      "statement": "Put $C=1/B=\\sum_{n\\geq0}d_nx^n$ and\n$\\ell_n=[x^n]xB'/B$ for $n\\geq1$. Then\n\\begin{align}\n b_n&=-\\sum_{i=1}^n d_i b_{n-i} &&(n\\geq1),\\\\\n b_n&=-\\sum_{i=1}^{n+2}d_i d_{n+2-i} &&(n\\geq0),\\\\\n \\ell_n&=[t^n](1-t-t^2)^{-n} &&(n\\geq1),\\\\\n b_n&=\\frac1{n+1}\\binom{2n}{n}\n {}_2F_1\\!\\left(-\\frac n2,\\frac{1-n}2;-2n;-4\\right) &&(n\\geq1).\n\\end{align}\nThe hypergeometric expression means the finite sum through\n$k=\\lfloor n/2\\rfloor$ with summand\n$(-n/2)_k((1-n)/2)_k(-4)^k/((-2n)_k k!)$;\n$(a)_k=a(a+1)\\cdots(a+k-1)$ and $(a)_0=1$.\nThe coefficients $d_n$ form A217596, and the $\\ell_n$ form A213684.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's inverse-quintic recurrence conjecture and extensions of Barry's cubic formulas",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a392976-inverse-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:oeis-a394697-toroidal-king-peak-entropy:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -23689,6 +24927,246 @@
       "toolchain": null,
       "version": 2,
       "work": "okada-2020-premerged-determinant-nonpalindromic"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:oudra-a248186-cubic-floor:2:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5/D5/S3/ArithSums/OudraA248186CubicFloor.lean"
+      },
+      "lineage": "collected:oudra-a248186-cubic-floor:s1",
+      "macros": {
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\floor": "\\left\\lfloor #1\\right\\rfloor"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oudra-a248186-cubic-floor",
+      "scope": "in_scope",
+      "statement": "Let $Q(x)=3(x^3-x)$. For each integer $M\\geq1$, put\n\\[\n t=(M/3)^{1/3},\\qquad H(M)=\\floor{t+\\frac1{3t}}.\n\\]\nThen $H(M)$ is the largest positive integer $m$ with $Q(m)\\leq M$;\nequivalently,\n\\begin{equation}\n Q(H(M))\\leq M<Q(H(M)+1).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Oudra's cubic and quadratic floor conjectures and an alternative proof of Wu's tetrahedral formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "oudra-a248186-cubic-floor"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:oudra-a248186-cubic-floor:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5/D5/S3/ArithSums/OudraA248186CubicFloor.lean"
+      },
+      "lineage": "collected:oudra-a248186-cubic-floor:s2",
+      "macros": {
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\floor": "\\left\\lfloor #1\\right\\rfloor"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oudra-a248186-cubic-floor",
+      "scope": "in_scope",
+      "statement": "The minimum defining $a(n)$ exists for every positive integer $n$.\nWe have $a(1)=a(2)=1$ and, with $r=3^{-1/3}$,\n\\begin{equation}\n a(n)=\\floor{rn+\\frac{r^2}{n}-1}\\qquad(n\\geq3).\n\\end{equation}\nMore generally, at a reciprocal integer target $1/M$, the least\npositive $k$ with $R(k)<1/M$ is $\\max\\{1,H(M)-1\\}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Oudra's cubic and quadratic floor conjectures and an alternative proof of Wu's tetrahedral formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "oudra-a248186-cubic-floor"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:oudra-a248186-cubic-floor:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5/D5/S3/ArithSums/OudraA248186CubicFloor.lean"
+      },
+      "lineage": "collected:oudra-a248186-cubic-floor:s3",
+      "macros": {
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\floor": "\\left\\lfloor #1\\right\\rfloor"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oudra-a248186-cubic-floor",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq1$, $a(n+1)-a(n)\\in\\{0,1\\}$. The plateau positions\n$\\{n:a(n+1)=a(n)\\}$ and jump positions $\\{n:a(n+1)=a(n)+1\\}$\npartition the positive integers and have natural densities $1-r$\nand $r$, respectively. The $j$th jump position is\n\\begin{equation}\n c_j=\\ceil{\\sqrt[3]{3(j+1)(j+2)(j+3)}}-1\n     =\\floor{\\sqrt[3]{3(j+1)(j+2)(j+3)-1}},\\qquad j\\geq1.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Oudra's cubic and quadratic floor conjectures and an alternative proof of Wu's tetrahedral formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "oudra-a248186-cubic-floor"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:oudra-a248186-cubic-floor:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5/D5/S3/ArithSums/OudraA248186CubicFloor.lean"
+      },
+      "lineage": "collected:oudra-a248186-cubic-floor:s4",
+      "macros": {
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\floor": "\\left\\lfloor #1\\right\\rfloor"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oudra-a248186-cubic-floor",
+      "scope": "in_scope",
+      "statement": "Let $x=j+2$, $u_j=\\floor{3^{1/3}x}$ and $L=3(x^3-x)$.\nFor every $j\\geq1$,\n\\begin{equation}\n c_j=u_j-\\boldsymbol{1}_{\\{u_j^3\\geq L\\}},\n\\end{equation}\nwhere $\\boldsymbol{1}$ denotes the indicator of the stated condition.\nThus the discrepancy is always zero or one, with an exact integer test.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Oudra's cubic and quadratic floor conjectures and an alternative proof of Wu's tetrahedral formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "oudra-a248186-cubic-floor"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:oudra-a248186-cubic-floor:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5/D5/S3/ArithSums/OudraA248186CubicFloor.lean"
+      },
+      "lineage": "collected:oudra-a248186-cubic-floor:s5",
+      "macros": {
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\floor": "\\left\\lfloor #1\\right\\rfloor"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oudra-a248186-cubic-floor",
+      "scope": "in_scope",
+      "statement": "The minimum exists, $d(1)=1$, and\n\\begin{equation}\n d(n)=\\floor{\\sqrt{n^2/2+1}-\\frac12}\\qquad(n\\geq2).\n\\end{equation}\nThe plateau and jump positions, A248184 and A248185, partition the\npositive integers with respective densities $1-1/\\sqrt2$ and\n$1/\\sqrt2$. The $j$th jump position is\n\\begin{equation}\n e_j=\\ceil{\\sqrt{2(j+1)(j+2)}}-1\n     =\\floor{\\sqrt{2(j+1)(j+2)-1}},\\qquad j\\geq1.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Oudra's cubic and quadratic floor conjectures and an alternative proof of Wu's tetrahedral formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "oudra-a248186-cubic-floor"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:oudra-a248186-cubic-floor:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5/D5/S3/ArithSums/OudraA248186CubicFloor.lean"
+      },
+      "lineage": "collected:oudra-a248186-cubic-floor:s6",
+      "macros": {
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\floor": "\\left\\lfloor #1\\right\\rfloor"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oudra-a248186-cubic-floor",
+      "scope": "in_scope",
+      "statement": "For $N\\geq1$, with $s=(6N)^{1/3}$ and $z=\\floor{(6N+6)^{1/3}}$,\n\\[\n T(N)=\\floor{s+\\frac1{3s}-1}\n =\\begin{cases}\n z,&N\\geq\\binom{z+2}{3},\\\\\n z-1,&N<\\binom{z+2}{3}.\n \\end{cases}\n\\]\nAlso $T(0)=0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Oudra's cubic and quadratic floor conjectures and an alternative proof of Wu's tetrahedral formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "oudra-a248186-cubic-floor"
     },
     {
       "attribution": null,
@@ -27275,6 +28753,350 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:sun-a006077-hankel-determinants:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+      },
+      "lineage": "collected:sun-a006077-hankel-determinants:s1",
+      "macros": {
+        "\\FF": "\\mathbb F_2",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\ep": "\\varepsilon",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun-a006077-hankel-determinants",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq0$,\n\\[\n W_n=0\\quad\\Longleftrightarrow\\quad n\\equiv1\\pmod3.\n\\]\nIf $n\\not\\equiv1\\pmod3$, then\n\\[\n \\frac{(-1)^{\\lfloor(n+1)/3\\rfloor}W_n}{6^n}\n \\quad\\hbox{is a positive odd integer.}\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun-a006077-hankel-determinants"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:sun-a006077-hankel-determinants:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+      },
+      "lineage": "collected:sun-a006077-hankel-determinants:s2",
+      "macros": {
+        "\\FF": "\\mathbb F_2",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\ep": "\\varepsilon",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun-a006077-hankel-determinants",
+      "scope": "in_scope",
+      "statement": "For $m\\geq0$,\n\\begin{align}\n W_{3m}&=(-1)^mD_{m+1}E_m^2,\\\\\n W_{3m+1}&=0,\\\\\n W_{3m+2}&=(-1)^{m+1}D_{m+1}E_{m+1}^2.\n\\end{align}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun-a006077-hankel-determinants"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:sun-a006077-hankel-determinants:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+      },
+      "lineage": "collected:sun-a006077-hankel-determinants:s3",
+      "macros": {
+        "\\FF": "\\mathbb F_2",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\ep": "\\varepsilon",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun-a006077-hankel-determinants",
+      "scope": "in_scope",
+      "statement": "Both $d_m$ and $e_m$ are odd for every $m\\geq0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun-a006077-hankel-determinants"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:sun-a006077-hankel-determinants:2:s4",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+      },
+      "lineage": "collected:sun-a006077-hankel-determinants:s4",
+      "macros": {
+        "\\FF": "\\mathbb F_2",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\ep": "\\varepsilon",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun-a006077-hankel-determinants",
+      "scope": "in_scope",
+      "statement": "For all $k\\geq0$, $D_k>0$ and $E_k>0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun-a006077-hankel-determinants"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:sun-a006077-hankel-determinants:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+      },
+      "lineage": "collected:sun-a006077-hankel-determinants:s5",
+      "macros": {
+        "\\FF": "\\mathbb F_2",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\ep": "\\varepsilon",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun-a006077-hankel-determinants",
+      "scope": "in_scope",
+      "statement": "For $n\\not\\equiv1\\pmod3$, $\\nu_2(W_n)=n$.\nThe positive normalized determinants at $n=3m$ and $n=3m+2$ represent the\nsame square class in $\\mathbb Q_{>0}^{\\times}/(\\mathbb Q_{>0}^{\\times})^2$,\nnamely the class of $d_m$.\nMoreover, replacing $3^{n-3r}$ in the definition of $w_n$ by\n$a^{n-3r}$ for any $a\\in\\RR$ leaves every $W_n$ unchanged.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun-a006077-hankel-determinants"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:sun-a006077-hankel-determinants:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+      },
+      "lineage": "collected:sun-a006077-hankel-determinants:s6",
+      "macros": {
+        "\\FF": "\\mathbb F_2",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\ep": "\\varepsilon",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun-a006077-hankel-determinants",
+      "scope": "in_scope",
+      "statement": "For real $a,t$ define\n\\[\n w_j(a,t)=\\sum_{r=0}^{\\lfloor j/3\\rfloor}\n  \\binom j{3r}a^{j-3r}t^r c_r,\\qquad\n H_n(a,t)=(w_{i+j}(a,t))_{0\\leq i,j\\leq n}.\n\\]\nFor $t\\ne0$, the inertia of $H_n(a,t)$, listed as the numbers of positive,\nnegative and zero eigenvalues, is\n\\[\n\\begin{array}{c|c}\nn&\\operatorname{inertia} H_n(a,t)\\\\\\hline\n3m&(2m+1,m,0)\\\\\n3m+1&(2m+1,m,1)\\\\\n3m+2&(2m+2,m+1,0).\n\\end{array}\n\\]\nIn particular, every zero in the original determinant family has nullity\nexactly one. For $n\\not\\equiv1\\pmod3$,\n\\[\n \\det H_n(a,t)=t^{n(n+1)/3}W_n.\n\\]\nFor $t=0$, the inertia is $(1,0,n)$ and the determinant is $1$ at $n=0$\nand $0$ otherwise. For nonzero integers $t$ and $n\\not\\equiv1\\pmod3$,\n\\[\n \\nu_2(\\det H_n(a,t))=n+\\frac{n(n+1)}3\\nu_2(t)\n \\quad\\text{when }a\\in\\ZZ.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun-a006077-hankel-determinants"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:sun-a006077-hankel-determinants:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+      },
+      "lineage": "collected:sun-a006077-hankel-determinants:s7",
+      "macros": {
+        "\\FF": "\\mathbb F_2",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\ep": "\\varepsilon",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun-a006077-hankel-determinants",
+      "scope": "in_scope",
+      "statement": "For every real $\\alpha>0$ and integer $n\\geq1$, with\n$h_j=\\sum_{k=1}^j k^{-\\alpha}$ and $h_0=0$,\n\\[\n (-1)^n\\det(h_{i+j})_{0\\leq i,j\\leq n}>0.\n\\]\nThus Sun's v5 Conjecture 3.9(i), p.~15, holds for every positive integer\norder, and also for every positive real order. For order one, a prior\nexact evaluation follows from Petrov's answer of February 16, 2017,\nCigler's completion of February 17, and Amdeberhan's independent identity\nproof of February 18; see also Cigler, Theorem 4.1, equation (4.2)\\cite{harmonic}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun-a006077-hankel-determinants"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:sun-a006077-hankel-determinants:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+      },
+      "lineage": "collected:sun-a006077-hankel-determinants:s8",
+      "macros": {
+        "\\FF": "\\mathbb F_2",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\ep": "\\varepsilon",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun-a006077-hankel-determinants",
+      "scope": "in_scope",
+      "statement": "Let $B_j$ and $E_j$ denote the Bernoulli and Euler numbers in the\nconventions\n\\[\n \\frac{z}{e^z-1}=\\sum_{j\\geq0}B_j\\frac{z^j}{j!},\\qquad\n \\frac1{\\cosh z}=\\sum_{j\\geq0}E_j\\frac{z^j}{j!}.\n\\]\nFor every integer $n\\geq1$,\n\\[\n \\det(B_{i+j}^2)_{0\\leq i,j\\leq n}<0,\n \\qquad \\det(E_{i+j}^2)_{0\\leq i,j\\leq n}>0.\n\\]\nThese are the two assertions of Sun's v5 Conjecture 3.17, p.~18.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun-a006077-hankel-determinants"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:ta-2025-problem-11-6-three-invariant-refutation:3:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -29705,6 +31527,206 @@
       "toolchain": null,
       "version": 2,
       "work": "wiseman-a344611"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:wu-a227244-progressions:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "ec1e94b3ab1ae33ea4f94d5484df26d748e2175e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ec1e94b3ab1ae33ea4f94d5484df26d748e2175e/D5/S3/Arith/Primes/WuA227244ConjectureThree.lean"
+      },
+      "lineage": "collected:wu-a227244-progressions:s1",
+      "macros": {
+        "\\N": "\\mathbb{N}_0",
+        "\\lpf": "\\operatorname{lpf}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "wu-a227244-progressions",
+      "scope": "in_scope",
+      "statement": "For every $n\\in\\N$,\n\\begin{align}\n a(20n+16)&=101,\\\\\n a(220n+8)&=47,\\\\\n a(72n+32)&=\n \\begin{cases}\n 101,&n\\equiv2\\pmod5,\\\\\n 47,&n\\equiv18\\pmod{55},\\\\\n 149,&n\\not\\equiv2\\pmod5\\text{ and }n\\not\\equiv18\\pmod{55},\n \\end{cases}\\\\\n a(168n+43)&=\n \\begin{cases}\n 47,&n\\equiv26\\pmod{55},\\\\\n 59,&n\\not\\equiv26\\pmod{55}.\n \\end{cases}\n\\end{align}\nThe two exceptional cases in~\\eqref{eq:c3} are disjoint.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact least prime factors and exceptional classes for Wu's conjectures on (2^{2^n}+1)2^{2^{2^n}}-1",
+      "toolchain": null,
+      "version": 3,
+      "work": "wu-a227244-progressions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:wu-a227244-progressions:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "ec1e94b3ab1ae33ea4f94d5484df26d748e2175e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ec1e94b3ab1ae33ea4f94d5484df26d748e2175e/D5/S3/Arith/Primes/WuA227244ConjectureThree.lean"
+      },
+      "lineage": "collected:wu-a227244-progressions:s2",
+      "macros": {
+        "\\N": "\\mathbb{N}_0",
+        "\\lpf": "\\operatorname{lpf}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "wu-a227244-progressions",
+      "scope": "in_scope",
+      "statement": "Let $q$ be an odd prime and $d=q-1$. Let $s,t,p,L$ be positive integers\nsatisfying\n\\begin{align}\n 2^d&\\equiv1\\pmod q,&\n 2^{2p}&\\equiv2^p\\pmod d,\\\\\n 2^{sL+t}&\\equiv2^t\\pmod d,&\n 2^{sL+t}&\\equiv2^t\\pmod p,&p&\\leq2^t.\n\\end{align}\nFor $0\\leq r<L$, define\n\\begin{equation}\n R_{q,s,t}(r)=\n \\left(2^{\\,2^{sr+t}\\bmod d}+1\\right)\n 2^{\\,2^{\\,p+(2^{sr+t}\\bmod p)}\\bmod d}-1\\pmod q.\n\\end{equation}\nThen $G_{sn+t}\\equiv R_{q,s,t}(n\\bmod L)\\pmod q$ for all $n\\in\\N$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact least prime factors and exceptional classes for Wu's conjectures on (2^{2^n}+1)2^{2^{2^n}}-1",
+      "toolchain": null,
+      "version": 3,
+      "work": "wu-a227244-progressions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:wu-a227244-progressions:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ec1e94b3ab1ae33ea4f94d5484df26d748e2175e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ec1e94b3ab1ae33ea4f94d5484df26d748e2175e/D5/S3/Arith/Primes/WuA227244ConjectureThree.lean"
+      },
+      "lineage": "collected:wu-a227244-progressions:s3",
+      "macros": {
+        "\\N": "\\mathbb{N}_0",
+        "\\lpf": "\\operatorname{lpf}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "wu-a227244-progressions",
+      "scope": "in_scope",
+      "statement": "For every $m\\in\\N$, $a(m)\\geq11$, and\n\\begin{equation}\n a(m)=11\\quad\\Longleftrightarrow\\quad\n m=0\\ \\text{or}\\ (m\\geq5\\text{ and }m\\equiv1\\pmod4).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact least prime factors and exceptional classes for Wu's conjectures on (2^{2^n}+1)2^{2^{2^n}}-1",
+      "toolchain": null,
+      "version": 3,
+      "work": "wu-a227244-progressions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:wu-a227244-progressions:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ec1e94b3ab1ae33ea4f94d5484df26d748e2175e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ec1e94b3ab1ae33ea4f94d5484df26d748e2175e/D5/S3/Arith/Primes/WuA227244ConjectureThree.lean"
+      },
+      "lineage": "collected:wu-a227244-progressions:s4",
+      "macros": {
+        "\\N": "\\mathbb{N}_0",
+        "\\lpf": "\\operatorname{lpf}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "wu-a227244-progressions",
+      "scope": "in_scope",
+      "statement": "For $0\\leq j<m$, $G_m\\equiv1\\pmod{F_j}$, whereas\n$G_m\\equiv-1\\pmod{F_m}$. In particular,\n$\\gcd(G_m,\\prod_{j=0}^mF_j)=1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact least prime factors and exceptional classes for Wu's conjectures on (2^{2^n}+1)2^{2^{2^n}}-1",
+      "toolchain": null,
+      "version": 3,
+      "work": "wu-a227244-progressions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:wu-a227244-progressions:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ec1e94b3ab1ae33ea4f94d5484df26d748e2175e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ec1e94b3ab1ae33ea4f94d5484df26d748e2175e/D5/S3/Arith/Primes/WuA227244ConjectureThree.lean"
+      },
+      "lineage": "collected:wu-a227244-progressions:s5",
+      "macros": {
+        "\\N": "\\mathbb{N}_0",
+        "\\lpf": "\\operatorname{lpf}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "wu-a227244-progressions",
+      "scope": "in_scope",
+      "statement": "For $j\\in\\N$, $T(F_j)=F_{j+1}$. For $j\\geq2$,\n$(F_j-1)^4-1$ divides $2^{F_j-1}-1$. Moreover,\n\\begin{equation}\n \\varphi(F_j-2)=(F_j-1)/2\\quad\\Longleftrightarrow\\quad 0\\leq j\\leq5.\n\\end{equation}\nIn general this totient equality holds exactly when all $F_i$ with $i<j$\nare prime. The implication from primality to this equality for every $j$\nis therefore equivalent to the assertion that no Fermat prime has index\n$j\\geq6$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact least prime factors and exceptional classes for Wu's conjectures on (2^{2^n}+1)2^{2^{2^n}}-1",
+      "toolchain": null,
+      "version": 3,
+      "work": "wu-a227244-progressions"
     },
     {
       "attribution": null,

@@ -1,6 +1,7 @@
 {
-  "doi": null,
+  "doi": "10.5281/zenodo.24409050",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/barker-tea-coordination-sequence/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/barker-tea-coordination-sequence",

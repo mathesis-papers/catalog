@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/kurkov-a340991-convolution-row-recursion/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/kurkov-a340991-convolution-row-recursion",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/kurkov-a340991-convolution-row-recursion/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "kurkov-a340991-convolution-row-recursion"
+}

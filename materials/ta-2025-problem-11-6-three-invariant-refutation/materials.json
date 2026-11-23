@@ -1,6 +1,7 @@
 {
-  "doi": null,
+  "doi": "10.5281/zenodo.24409476",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/ta-2025-problem-11-6-three-invariant-refutation/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/ta-2025-problem-11-6-three-invariant-refutation",

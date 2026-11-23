@@ -113,8 +113,8 @@
       "work": "abbott-2019-sequential-weak-pointer-bound"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24407265",
+      "doi": "10.5281/zenodo.24407266",
       "files": {
         "pdf": {
           "bytes": 90899,
@@ -151,7 +151,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -226,8 +225,8 @@
       "work": "aks2610-twin-free-theta-separation"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24409461",
+      "doi": "10.5281/zenodo.24409462",
       "files": {
         "pdf": {
           "bytes": 85473,
@@ -264,7 +263,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -283,8 +281,8 @@
       "work": "alekseyev-halving-partitions-nonregularity"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24407815",
+      "doi": "10.5281/zenodo.24407816",
       "files": {
         "pdf": {
           "bytes": 86310,
@@ -321,7 +319,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -396,8 +393,8 @@
       "work": "alikhani-griswold-2026-connected-minus-four-family"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24410080",
+      "doi": "10.5281/zenodo.24410081",
       "files": {
         "pdf": {
           "bytes": 72735,
@@ -434,7 +431,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -453,8 +449,8 @@
       "work": "alm2024-factorial-product-uniqueness"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24410084",
+      "doi": "10.5281/zenodo.24410085",
       "files": {
         "pdf": {
           "bytes": 90219,
@@ -491,7 +487,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -734,8 +729,8 @@
       "work": "bala295462"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24409049",
+      "doi": "10.5281/zenodo.24409050",
       "files": {
         "pdf": {
           "bytes": 91872,
@@ -772,7 +767,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1076,8 +1070,8 @@
       "work": "chen-chen-step-m-eulerian-parity-positivity"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24405778",
+      "doi": "10.5281/zenodo.24405779",
       "files": {
         "pdf": {
           "bytes": 80179,
@@ -1114,7 +1108,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1301,8 +1294,8 @@
       "work": "copeland-a131758"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24406583",
+      "doi": "10.5281/zenodo.24406584",
       "files": {
         "pdf": {
           "bytes": 82502,
@@ -1339,7 +1332,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1358,8 +1350,8 @@
       "work": "crim-question-one-four-parts"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24408304",
+      "doi": "10.5281/zenodo.24408305",
       "files": {
         "pdf": {
           "bytes": 94365,
@@ -1396,7 +1388,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1527,8 +1518,8 @@
       "work": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24406591",
+      "doi": "10.5281/zenodo.24406592",
       "files": {
         "pdf": {
           "bytes": 121044,
@@ -1565,7 +1556,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1696,8 +1686,64 @@
       "work": "ggps2025"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24411278",
+      "doi": "10.5281/zenodo.24411279",
+      "files": {
+        "pdf": {
+          "bytes": 71578,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "c16d55a44a7e8df70c678e43e8fae9dc718431ef1e8e542908407404fba70bc0",
+          "sha256": "c16d55a44a7e8df70c678e43e8fae9dc718431ef1e8e542908407404fba70bc0"
+        },
+        "source": {
+          "bytes": 10014,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "3c4882fbd5ad230a86fb833921af66cd8b102afb4e9b9f84b3fac736101648fb",
+          "sha256": "3c4882fbd5ad230a86fb833921af66cd8b102afb4e9b9f84b3fac736101648fb"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 2,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/ArithSums/GrouxA120069Denominator.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.24411278",
+      "site_url": "https://papers.trureturing.org/10.5281-zenodo.24411278/",
+      "title": "Catalan formula corrections and short proofs of Groux's and Staunton's conjectures",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "groux-catalan-denominators"
+    },
+    {
+      "concept_doi": "10.5281/zenodo.24409051",
+      "doi": "10.5281/zenodo.24409052",
       "files": {
         "pdf": {
           "bytes": 98951,
@@ -1734,7 +1780,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1977,8 +2022,8 @@
       "work": "hanna-a381355"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24409464",
+      "doi": "10.5281/zenodo.24409465",
       "files": {
         "pdf": {
           "bytes": 84064,
@@ -2015,7 +2060,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2034,8 +2078,8 @@
       "work": "hanna-a389472-congruences"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24409468",
+      "doi": "10.5281/zenodo.24409469",
       "files": {
         "pdf": {
           "bytes": 99516,
@@ -2072,7 +2116,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2091,8 +2134,8 @@
       "work": "hanna-a389475-integral-lifting-congruences"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24408312",
+      "doi": "10.5281/zenodo.24408313",
       "files": {
         "pdf": {
           "bytes": 94307,
@@ -2129,7 +2172,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2204,8 +2246,120 @@
       "work": "hardin-barker-a209723-edge-differences"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24410604",
+      "doi": "10.5281/zenodo.24410605",
+      "files": {
+        "pdf": {
+          "bytes": 81979,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "8c217e515fb22c439dcd5dd943cfa5d3954c67718d9d9025fd087285c9aa28fa",
+          "sha256": "8c217e515fb22c439dcd5dd943cfa5d3954c67718d9d9025fd087285c9aa28fa"
+        },
+        "source": {
+          "bytes": 20993,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "75f286e2423ed80f627ff5bcb4c7b1b26a1b9192c24af5c30b2a4a328d3039d5",
+          "sha256": "75f286e2423ed80f627ff5bcb4c7b1b26a1b9192c24af5c30b2a4a328d3039d5"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Words/Patterns/BarkerCyclicRepetitionCounting.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.24410604",
+      "site_url": "https://papers.trureturing.org/10.5281-zenodo.24410604/",
+      "title": "Barker and Hardin's cyclic-repetition formulas and an extension of Fried's enumeration",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "hardin-barker-cyclic-repetitions"
+    },
+    {
+      "concept_doi": "10.5281/zenodo.24410608",
+      "doi": "10.5281/zenodo.24410609",
+      "files": {
+        "pdf": {
+          "bytes": 86370,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "cef7b1921a2b570b7baf24a182cfa1f707ff23b8dfa769371fe31d74918f9977",
+          "sha256": "cef7b1921a2b570b7baf24a182cfa1f707ff23b8dfa769371fe31d74918f9977"
+        },
+        "source": {
+          "bytes": 16406,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "e0f80426ca879dcf9f20348b26d33700d9e69db94c2896a4ff4abe362a7a3589",
+          "sha256": "e0f80426ca879dcf9f20348b26d33700d9e69db94c2896a4ff4abe362a7a3589"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "66c49bfe9a1295ceea872b6e6a1d8146fb351237",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/66c49bfe9a1295ceea872b6e6a1d8146fb351237/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185765Recurrence.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.24410608",
+      "site_url": "https://papers.trureturing.org/10.5281-zenodo.24410608/",
+      "title": "Hardin's six-column trace recurrence and Barker's generating functions",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "hardin185765"
+    },
+    {
+      "concept_doi": "10.5281/zenodo.24409471",
+      "doi": "10.5281/zenodo.24409472",
       "files": {
         "pdf": {
           "bytes": 101263,
@@ -2242,7 +2396,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2261,8 +2414,8 @@
       "work": "hardin240513-ladder-formulas"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24409055",
+      "doi": "10.5281/zenodo.24409056",
       "files": {
         "pdf": {
           "bytes": 76398,
@@ -2299,7 +2452,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2603,6 +2755,63 @@
       "doi": null,
       "files": {
         "pdf": {
+          "bytes": 92073,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "34fc1c0470c9f4cbd9b7c7c02ea3163795d6b169176635c2ecdfaf8b66453ed4",
+          "sha256": "34fc1c0470c9f4cbd9b7c7c02ea3163795d6b169176635c2ecdfaf8b66453ed4"
+        },
+        "source": {
+          "bytes": 16571,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "3367e9c3728cb5f506b87fdbb4122ae86d0350caf367a7b69e2320b6207ed582",
+          "sha256": "3367e9c3728cb5f506b87fdbb4122ae86d0350caf367a7b69e2320b6207ed582"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S0/FiniteGeometry/Polytopes/JohnsonPaparellaHadamardPolyhedraRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/jp2025-hadamard-closure",
+      "site_url": "https://papers.trureturing.org/jp2025-hadamard-closure/",
+      "title": "A five-vertex negative answer to Johnson and Paparella's Question 9.1 on Hadamard-closed spectral polyhedra",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "jp2025-hadamard-closure"
+    },
+    {
+      "concept_doi": "10.5281/zenodo.24409057",
+      "doi": "10.5281/zenodo.24409058",
+      "files": {
+        "pdf": {
           "bytes": 103517,
           "matches_public": true,
           "path": "paper.pdf",
@@ -2637,7 +2846,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3050,8 +3258,8 @@
       "work": "koljancic-oblak-2026-question-5-11-even-loop-path"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24406606",
+      "doi": "10.5281/zenodo.24406607",
       "files": {
         "pdf": {
           "bytes": 98653,
@@ -3088,7 +3296,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3168,6 +3375,63 @@
       "doi": null,
       "files": {
         "pdf": {
+          "bytes": 82257,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "fa75f1671182ae4e81b07bb3e0236862e54f0f23dc74c8862ffe9cc281691650",
+          "sha256": "fa75f1671182ae4e81b07bb3e0236862e54f0f23dc74c8862ffe9cc281691650"
+        },
+        "source": {
+          "bytes": 21870,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "fc4200a3573dc9bdb31717509a0668db16cea8f5592deb9ce031e18cb7d3e693",
+          "sha256": "fc4200a3573dc9bdb31717509a0668db16cea8f5592deb9ce031e18cb7d3e693"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/Algebraic/KurkovConvolutionRowRecursion.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/kurkov-a340991-convolution-row-recursion",
+      "site_url": "https://papers.trureturing.org/kurkov-a340991-convolution-row-recursion/",
+      "title": "Kurkov's convolution-row conjectures over arbitrary semirings",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "kurkov-a340991-convolution-row-recursion"
+    },
+    {
+      "concept_doi": "10.5281/zenodo.24407819",
+      "doi": "10.5281/zenodo.24407820",
+      "files": {
+        "pdf": {
           "bytes": 90400,
           "matches_public": true,
           "path": "paper.pdf",
@@ -3202,7 +3466,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3277,8 +3540,8 @@
       "work": "malkoun-2026-mo512579-jordan-elementary"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24408320",
+      "doi": "10.5281/zenodo.24408321",
       "files": {
         "pdf": {
           "bytes": 99407,
@@ -3315,7 +3578,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3446,8 +3708,8 @@
       "work": "mathar-a174193-order-four-recurrence"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24407267",
+      "doi": "10.5281/zenodo.24407268",
       "files": {
         "pdf": {
           "bytes": 101115,
@@ -3484,7 +3746,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3671,8 +3932,8 @@
       "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24409064",
+      "doi": "10.5281/zenodo.24409065",
       "files": {
         "pdf": {
           "bytes": 77174,
@@ -3709,7 +3970,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3784,8 +4044,8 @@
       "work": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24407821",
+      "doi": "10.5281/zenodo.24407822",
       "files": {
         "pdf": {
           "bytes": 99977,
@@ -3822,7 +4082,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3953,8 +4212,8 @@
       "work": "nath2021-commuting-cn-conjecture2"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24405794",
+      "doi": "10.5281/zenodo.24405795",
       "files": {
         "pdf": {
           "bytes": 90862,
@@ -3991,7 +4250,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4010,8 +4268,8 @@
       "work": "noe-2013-a222759-prime-cube-growth"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24407270",
+      "doi": "10.5281/zenodo.24407271",
       "files": {
         "pdf": {
           "bytes": 98488,
@@ -4048,7 +4306,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4237,8 +4494,8 @@
       "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24407274",
+      "doi": "10.5281/zenodo.24407275",
       "files": {
         "pdf": {
           "bytes": 104241,
@@ -4275,7 +4532,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4468,8 +4724,64 @@
       "work": "oeis-a391810-alternating-jacobsthal"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24411295",
+      "doi": "10.5281/zenodo.24411296",
+      "files": {
+        "pdf": {
+          "bytes": 110190,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "f526e6a779f00e15324b4c0a60978a9ec235aa8f6c995b1f75c4dae7b60609fa",
+          "sha256": "f526e6a779f00e15324b4c0a60978a9ec235aa8f6c995b1f75c4dae7b60609fa"
+        },
+        "source": {
+          "bytes": 17381,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "d073bb3147f50e67917b7a4f0d55bad4a14d1184a924f62cd43af25f2b301288",
+          "sha256": "d073bb3147f50e67917b7a4f0d55bad4a14d1184a924f62cd43af25f2b301288"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S1/Recurrence/Algebraic/A392976InverseRecurrence.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.24411295",
+      "site_url": "https://papers.trureturing.org/10.5281-zenodo.24411295/",
+      "title": "Mathar's inverse-quintic recurrence conjecture and extensions of Barry's cubic formulas",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "oeis-a392976-inverse-recurrence"
+    },
+    {
+      "concept_doi": "10.5281/zenodo.24407279",
+      "doi": "10.5281/zenodo.24407280",
       "files": {
         "pdf": {
           "bytes": 116025,
@@ -4506,7 +4818,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4583,8 +4894,8 @@
       "work": "oeis-a396659-edge-collision-ratio"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24409070",
+      "doi": "10.5281/zenodo.24409071",
       "files": {
         "pdf": {
           "bytes": 91616,
@@ -4621,7 +4932,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4696,6 +5006,62 @@
       },
       "version": 2,
       "work": "okada-2020-premerged-determinant-nonpalindromic"
+    },
+    {
+      "concept_doi": "10.5281/zenodo.24410612",
+      "doi": "10.5281/zenodo.24410613",
+      "files": {
+        "pdf": {
+          "bytes": 86773,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "1fc2246399defe0fda29bde94c38d6b6b8b0538a4d2a8230f1f175a53a3aab1e",
+          "sha256": "1fc2246399defe0fda29bde94c38d6b6b8b0538a4d2a8230f1f175a53a3aab1e"
+        },
+        "source": {
+          "bytes": 12228,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "a9e54a5d0c7f8bde019dc3d87e06858421ed3415b9c63af8265b2e1ab6e0899b",
+          "sha256": "a9e54a5d0c7f8bde019dc3d87e06858421ed3415b9c63af8265b2e1ab6e0899b"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f1c20718fca66e9ef0a4cb5f4f6a9a55badd1ab5/D5/S3/ArithSums/OudraA248186CubicFloor.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.24410612",
+      "site_url": "https://papers.trureturing.org/10.5281-zenodo.24410612/",
+      "title": "Oudra's cubic and quadratic floor conjectures and an alternative proof of Wu's tetrahedral formula",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "oudra-a248186-cubic-floor"
     },
     {
       "concept_doi": "10.5281/zenodo.23920609",
@@ -5040,8 +5406,8 @@
       "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24408322",
+      "doi": "10.5281/zenodo.24408323",
       "files": {
         "pdf": {
           "bytes": 116123,
@@ -5078,7 +5444,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -5211,8 +5576,8 @@
       "work": "spin-one-rotation-boxes"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24410096",
+      "doi": "10.5281/zenodo.24410097",
       "files": {
         "pdf": {
           "bytes": 92878,
@@ -5249,7 +5614,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -5326,8 +5690,64 @@
       "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24410616",
+      "doi": "10.5281/zenodo.24410617",
+      "files": {
+        "pdf": {
+          "bytes": 115285,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "522641cb92bf93685d7d975b98fda917a206dde038d563adad8e0ebc009e65f1",
+          "sha256": "522641cb92bf93685d7d975b98fda917a206dde038d563adad8e0ebc009e65f1"
+        },
+        "source": {
+          "bytes": 24689,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "ff74770aac39599ad7edeac3e757f7b7438f81dc1f24e533d80a7442b9454f80",
+          "sha256": "ff74770aac39599ad7edeac3e757f7b7438f81dc1f24e533d80a7442b9454f80"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Combinatorics/Hankel/SunA006077Result.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.24410616",
+      "site_url": "https://papers.trureturing.org/10.5281-zenodo.24410616/",
+      "title": "Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "sun-a006077-hankel-determinants"
+    },
+    {
+      "concept_doi": "10.5281/zenodo.24409475",
+      "doi": "10.5281/zenodo.24409476",
       "files": {
         "pdf": {
           "bytes": 103819,
@@ -5364,7 +5784,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -5497,8 +5916,8 @@
       "work": "tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24406608",
+      "doi": "10.5281/zenodo.24406609",
       "files": {
         "pdf": {
           "bytes": 92587,
@@ -5535,7 +5954,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -5668,8 +6086,8 @@
       "work": "velez-cadavid-numerical-semigroup-realizability"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24409078",
+      "doi": "10.5281/zenodo.24409079",
       "files": {
         "pdf": {
           "bytes": 99031,
@@ -5706,7 +6124,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -5839,6 +6256,62 @@
       "work": "wiseman-a344611"
     },
     {
+      "concept_doi": "10.5281/zenodo.24410621",
+      "doi": "10.5281/zenodo.24410622",
+      "files": {
+        "pdf": {
+          "bytes": 79328,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "ae7724784f5089351084e8c0eae0df725ddc7aaf1800013c1bbea24e96bd3c46",
+          "sha256": "ae7724784f5089351084e8c0eae0df725ddc7aaf1800013c1bbea24e96bd3c46"
+        },
+        "source": {
+          "bytes": 14255,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "bc07ea8513a6be24faf718b77f875eef02388e42b918680330c726c50bc13427",
+          "sha256": "bc07ea8513a6be24faf718b77f875eef02388e42b918680330c726c50bc13427"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "ec1e94b3ab1ae33ea4f94d5484df26d748e2175e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ec1e94b3ab1ae33ea4f94d5484df26d748e2175e/D5/S3/Arith/Primes/WuA227244ConjectureThree.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.24410621",
+      "site_url": "https://papers.trureturing.org/10.5281-zenodo.24410621/",
+      "title": "Exact least prime factors and exceptional classes for Wu's conjectures on (2^{2^n}+1)2^{2^{2^n}}-1",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "wu-a227244-progressions"
+    },
+    {
       "concept_doi": "10.5281/zenodo.23919078",
       "doi": "10.5281/zenodo.23919079",
       "files": {
@@ -5897,8 +6370,8 @@
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24407831",
+      "doi": "10.5281/zenodo.24407832",
       "files": {
         "pdf": {
           "bytes": 71199,
@@ -5935,7 +6408,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -5954,8 +6426,8 @@
       "work": "ycz2015-psicm"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24410103",
+      "doi": "10.5281/zenodo.24410104",
       "files": {
         "pdf": {
           "bytes": 92753,
@@ -5992,7 +6464,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -6067,8 +6538,8 @@
       "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
     }
   ],
-  "papers": 107,
+  "papers": 116,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-23T03:57:44.894109941Z"
+  "snapshot_time": "2026-11-23T06:00:59.484069182Z"
 }

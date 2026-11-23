@@ -181,6 +181,12 @@
       "version": 1
     },
     {
+      "doi": "10.5281/zenodo.24411279",
+      "id": "groux-catalan-denominators",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24409052",
       "id": "h3894-composition-congruences",
       "kind": "collected",
@@ -235,6 +241,18 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24410605",
+      "id": "hardin-barker-cyclic-repetitions",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24410609",
+      "id": "hardin185765",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24409472",
       "id": "hardin240513-ladder-formulas",
       "kind": "collected",
@@ -269,6 +287,12 @@
       "id": "jen2610-permuted-rotor-loops",
       "kind": "collected",
       "version": 5
+    },
+    {
+      "doi": "10.5281/zenodo.24410091",
+      "id": "jp2025-hadamard-closure",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.24409058",
@@ -321,6 +345,12 @@
     {
       "doi": "10.5281/zenodo.24406607",
       "id": "korzekwa-et-al-2019-three-distinguishability-product-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24410093",
+      "id": "kurkov-a340991-convolution-row-recursion",
       "kind": "collected",
       "version": 2
     },
@@ -463,6 +493,12 @@
       "version": 4
     },
     {
+      "doi": "10.5281/zenodo.24411296",
+      "id": "oeis-a392976-inverse-recurrence",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24407280",
       "id": "oeis-a394697-toroidal-king-peak-entropy",
       "kind": "collected",
@@ -483,6 +519,12 @@
     {
       "doi": "10.5281/zenodo.23927424",
       "id": "okada-2020-premerged-determinant-nonpalindromic",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24410613",
+      "id": "oudra-a248186-cubic-floor",
       "kind": "collected",
       "version": 2
     },
@@ -553,6 +595,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24410617",
+      "id": "sun-a006077-hankel-determinants",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24409476",
       "id": "ta-2025-problem-11-6-three-invariant-refutation",
       "kind": "collected",
@@ -607,6 +655,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24410622",
+      "id": "wu-a227244-progressions",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.23919079",
       "id": "xu-et-al-2023-noisy-ghz-witness-bound-gap",
       "kind": "collected",
@@ -631,6 +685,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-23T03:57:44.894109941Z",
+  "generated_at": "2026-11-23T06:00:59.484069182Z",
   "schema": "mathesis.archive-index.v1"
 }

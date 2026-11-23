@@ -1,6 +1,7 @@
 {
-  "doi": null,
+  "doi": "10.5281/zenodo.24409058",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/kagey343881-powerproducts/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/kagey343881-powerproducts",
