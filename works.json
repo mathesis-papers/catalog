@@ -48,6 +48,53 @@
       "work": "a320043-square-values-refutation"
     },
     {
+      "abstract_text": "We prove Shannon's three conjectured circle-vertex formulas in OEIS A374338, FORMULA (revision 4, 5 July 2024; retained in revision 21), by identifying circle intersections with two-neighbor growth on the triangular lattice. The vertex count after n >= 1 steps is (3*n^2 + 5*n + c_r)/3, where r = n mod 3 and (c_0,c_1,c_2) = (0,4,2). A strip-clipped hexagon describes every collinear seed length, and becomes an unclipped hexagon at the sharp threshold n >= max(2,m-3) for m seeds and n >= 2. Its counts prove the three- and four-seed formulas recorded by Markey and the conjectured five-seed difference relation observed by Pfoertner and recorded by Markey. Corollaries give the periodic second differences and the precise series identities linking Barker's circle-addition and petal generating functions.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Geometry/ShannonFixedRadiusCircleVertices.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 97712,
+        "sha256": "6d1bfd3646ad9fea95953f9c3cac7c720a04f54388dd790a2170011540d98553",
+        "url": "/api/v1/collected-papers/a374338-circle-vertices/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T21:31:57.600210599Z",
+      "record": "a374338-circle-vertices",
+      "repository_name": "a374338-circle-vertices",
+      "source": {
+        "bytes": 113442,
+        "sha256": "9cd2d987d03b9bd24c6af2f34039cd43488c9903e54509c82dc4574a053b69bb",
+        "url": "/api/v1/collected-papers/a374338-circle-vertices/files/source?version=2"
+      },
+      "title": "Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T21:31:57.600210599Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "a374338-circle-vertices"
+    },
+    {
       "abstract_text": "Extending the spectral bounds of Sun, Luo and Ye [Mathematics of Operations Research 45, 233–271 (2020)], we refute the arbitrary-rank interpretation of the pointer-product conjecture of Abbott, Silva, Wechs, Brunner and Branciard [Quantum 3, 194 (2019), Section 4, p. 5, after equation (26); arXiv:1805.09364v3]. Three orthogonal projections on C^3 give the normalized weak-limit pointer product -1/6 < -1/8. For n measurements in unrestricted finite dimension, the exact minimum is -c_n, where c_1=0 and c_(n+1)=(1+c_n)^2/[8(1-c_n)]. Codimension-one projections attain every finite-length minimum, and c_n increases to 1/3. Thus pointer products have infimum -1/3, separated by 2/3 from the limiting ordered weak value -1. The same bounds hold as envelopes at every finite coupling strength for independent centered Gaussian pointers.",
       "authors": [
         {
@@ -999,9 +1046,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24482894",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24482895",
       "lean_source": {
         "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
         "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S3/StatisticalMechanics/TsiCoordinationSequence.lean"
@@ -1140,9 +1187,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24482904",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24482905",
       "lean_source": {
         "revision": "d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d4a6bd75fd78850fed8cf60aebb6ce7fceffa2e1/D5/S1/Words/Forbidden/BonaMagaRicheyExtremalFrequency.lean"
@@ -3902,6 +3949,53 @@
       "work": "larotonda-principal-log-distance"
     },
     {
+      "abstract_text": "Extending Li–Poon–Sze's equal-dimensional answer (2011, Theorem 2.4), we answer yes to their open problem (P2), arXiv:1103.2499v2, p. 4, for every 2 <= m < n and 2 <= l <= m^2, by combining a covariance bound with explicit positive block states. The maximal degree-l elementary symmetric function of realignment singular values over separable states is strictly smaller than its maximum over states satisfying the realignment criterion. The original question is Lupo–Aniello–Scardicchio (2008), Section 6, p. 15, item (ii). One matrix works simultaneously at every nontrivial degree, and small white-noise mixtures give full-rank examples strictly inside the realignment constraint.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "d13f56f01c2e4710683d27a74c67cba9ec344e19",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d13f56f01c2e4710683d27a74c67cba9ec344e19/D5/S3/Quantum/Entanglement/Witness/LiPoonSzeP2.lean#L806"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 101292,
+        "sha256": "de580ae84bb4768c5f16ed6375b057e05a3d7c47c188dc587f18d9fc9062e09d",
+        "url": "/api/v1/collected-papers/li-poon-sze-2011-p2-realignment-gap/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T22:16:59.929144535Z",
+      "record": "li-poon-sze-2011-p2-realignment-gap",
+      "repository_name": "li-poon-sze-2011-p2-realignment-gap",
+      "source": {
+        "bytes": 116970,
+        "sha256": "497b92e2579b2c3a7b8ad2df6725b552d681c7cc69c2a16f2b780205f00ed5cd",
+        "url": "/api/v1/collected-papers/li-poon-sze-2011-p2-realignment-gap/files/source?version=3"
+      },
+      "title": "Extending Li–Poon–Sze's elementary-symmetric realignment comparison to unequal dimensions",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T22:16:59.929144535Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "li-poon-sze-2011-p2-realignment-gap"
+    },
+    {
       "abstract_text": "Extending Araújo, Feix, Costa and Brukner's global-phase argument (2014), we answer negatively the question in Liu, Wesołowski, Thompson, Gu and Pira, Optimal query complexity for fractional quantum evolution, arXiv:2610.01940v1 (1 October 2026), Section V, page 7, unnumbered Uncontrolled access paragraph, with its prescribed branch and uniform channel criterion. For 0<t<1, 0<delta<pi and every dimension d>=2, ordinary queries have an unhalved diamond-error floor sin(pi*t), independent of their number. Retaining a pure full output strengthens the bound to 2*sin(pi*min(t,1-t)/2). The same argument gives the endpoint order of the best attainable error and classifies continuously differentiable phase functions on this branch: arbitrarily accurate ordinary-access implementation is possible exactly for integer powers, up to a constant phase.",
       "authors": [
         {
@@ -4088,6 +4182,53 @@
         }
       ],
       "work": "malkoun-2026-mo512579-jordan-elementary"
+    },
+    {
+      "abstract_text": "We prove Markey's conjecture in OEIS A400701, FORMULA, revision 30 (October 20, 2026), that the five-site growth count exceeds Shannon's circle-vertex count at the same iteration n > 1 by 4n+7, using residue-class points in expanding hexagons. Counting incidences on the same shapes also proves Shannon's conjectured region formulas and gives the curved-edge counts. The argument proves the recorded formulas for three and four initial sites and the generating functions recorded by Irvine.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/StatisticalMechanics/Percolation/MarkeyFiveSiteGrowthDifference.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 88725,
+        "sha256": "ef33d46a955792650fe0546f11cefbb84cc979ea755b374d2afd901aed7f136f",
+        "url": "/api/v1/collected-papers/markey-five-site-growth-identity/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T21:46:25.441176489Z",
+      "record": "markey-five-site-growth-identity",
+      "repository_name": "markey-five-site-growth-identity",
+      "source": {
+        "bytes": 15872,
+        "sha256": "365afc3e7f8e9cfab53e3a2a3c20e3f2957ca41eeba33228acf1f75287d62261",
+        "url": "/api/v1/collected-papers/markey-five-site-growth-identity/files/source?version=3"
+      },
+      "title": "Proof of Markey's five-site growth identity and Shannon's region formulas",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T21:46:25.441176489Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "markey-five-site-growth-identity"
     },
     {
       "abstract_text": "Extending Jovovic's generating-function formulas of 25 September 2003 and Barry's array-sum identity (2009, Section 13.2, pp. 283–284), we prove Mathar's recurrence conjectures in the Formula fields of OEIS A081124, revision 8 (24 November 2012), and A084261, revision 9 (30 November 2012), retained in revisions 20 and 29, respectively. A common finite-sum argument proves both recurrences for every n ≥ 3. For the fixed-point polynomials of Fang, Hamaker and Troyka, we also give a parameter-dependent recurrence and self-contained proofs of the continued fractions and Hankel determinants recorded by Hanna and Barry. Further consequences include partial sums and linked factorial-ratio identities.",
@@ -6299,6 +6440,53 @@
         }
       ],
       "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
+    },
+    {
+      "abstract_text": "Extending Vladimir Kruchinin's coefficient-transfer formula (2011, Theorem 8.1), we give a Lagrange-inversion proof of Werner Schulte's power-coefficient conjecture (OEIS A262082, revision 23, FORMULA, line 44, beginning 'B(m,n,k) = m/(n*k+m)', posed 10 September 2015) for all positive integers n,m and every k>=0. The alternating-sum conversion is the quadrinomial identity proved by Roberto Blanco Gómez (12 October 2026, Section 2). The coefficient formula extends to all integer parameters, with an explicit value when nk+m=0. An ordered-forest bijection proves Schulte's two nonnegative-path conjectures. The same argument gives the trinomial analogues, logarithms and substitutions, and Hanna's binomial-square exponential identities in the cross-referenced entries. The general positive-power transfer precedes the conjecture; the trinomial excursion family also has a later proof by Yan, who identifies the same family in Yang–Zhang–Yang's earlier work.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Combinatorics/PowerSeries/SchulteImplicitQuadrinomialPowers.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 100885,
+        "sha256": "7999ae965122c4ec50ea780413c1b8571760eec0062dca4f69774c9d8d81a686",
+        "url": "/api/v1/collected-papers/schulte-implicit-power-coefficients/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T21:59:42.596811603Z",
+      "record": "schulte-implicit-power-coefficients",
+      "repository_name": "schulte-implicit-power-coefficients",
+      "source": {
+        "bytes": 19161,
+        "sha256": "fe756bf1771b360e3447e6a647dd95af043c6d5fbb1bf018720d6d240d1efcc7",
+        "url": "/api/v1/collected-papers/schulte-implicit-power-coefficients/files/source?version=3"
+      },
+      "title": "Proving Werner Schulte's coefficient and lattice-path conjectures by integer-parameter extensions of Kruchinin's formula",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T21:59:42.596811603Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "schulte-implicit-power-coefficients"
     },
     {
       "abstract_text": "For the conjectures in OEIS A322844, COMMENTS, first posed on 28 December 2018 and 6 January 2019, we extend the arithmetic-row rank argument of Vinay (2019) and Wicklin (2021) to an explicit spectral formula. For the n by n row-serpentine matrix, the characteristic polynomial is x^(n-2)(x^2-T_n*x-A_n), with T_n=n(n^2+(n mod 2))/2 and A_n=n^2[3(1+n^2)-2(2+n^2)(n mod 2)]/12. Thus the signed second exterior trace is -A_n and all higher exterior traces vanish. Written corollaries give spectra, arbitrary row directions, linked sum and permanent formulas, generating functions, reciprocal sums, the A246696 permutation property and corrected even-row odd count, and first off-diagonal parity and terminal-digit statements. General rank antecedents and the earlier even-order sum proofs of De Los Reyes et al. (2007) are credited. The relation of the unavailable 2012 Miranda construction articles to the explicit spectral coefficient remains unresolved; no priority claim is made.",

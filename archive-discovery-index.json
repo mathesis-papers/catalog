@@ -7,6 +7,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24483571",
+      "id": "a374338-circle-vertices",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24212412",
       "id": "abbott-2019-sequential-weak-pointer-bound",
       "kind": "collected",
@@ -487,6 +493,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24484270",
+      "id": "li-poon-sze-2011-p2-realignment-gap",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24414717",
       "id": "liu-wesolowski-2026-ordinary-fractional-evolution",
       "kind": "collected",
@@ -509,6 +521,12 @@
       "id": "malkoun-2026-mo512579-jordan-elementary",
       "kind": "collected",
       "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.24483900",
+      "id": "markey-five-site-growth-identity",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.24412942",
@@ -793,6 +811,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24484082",
+      "id": "schulte-implicit-power-coefficients",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24408323",
       "id": "sp322844-serpentine",
       "kind": "collected",
@@ -925,6 +949,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-23T21:30:05.460687389Z",
+  "generated_at": "2026-11-23T22:30:40.264982525Z",
   "schema": "mathesis.archive-index.v1"
 }

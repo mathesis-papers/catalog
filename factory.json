@@ -57,6 +57,63 @@
       "work": "a320043-square-values-refutation"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 97712,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "6d1bfd3646ad9fea95953f9c3cac7c720a04f54388dd790a2170011540d98553",
+          "sha256": "6d1bfd3646ad9fea95953f9c3cac7c720a04f54388dd790a2170011540d98553"
+        },
+        "source": {
+          "bytes": 113442,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "9cd2d987d03b9bd24c6af2f34039cd43488c9903e54509c82dc4574a053b69bb",
+          "sha256": "9cd2d987d03b9bd24c6af2f34039cd43488c9903e54509c82dc4574a053b69bb"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Geometry/ShannonFixedRadiusCircleVertices.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/a374338-circle-vertices",
+      "site_url": "https://papers.trureturing.org/a374338-circle-vertices/",
+      "title": "Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "a374338-circle-vertices"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24212411",
       "doi": "10.5281/zenodo.24212412",
       "files": {
@@ -1177,8 +1234,8 @@
       "work": "banica-ozteke-pittau-2018-truncation-isolation"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24482894",
+      "doi": "10.5281/zenodo.24482895",
       "files": {
         "pdf": {
           "bytes": 93659,
@@ -1215,7 +1272,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1348,8 +1404,8 @@
       "work": "bernath-a400645-consecutive-ratio"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24482904",
+      "doi": "10.5281/zenodo.24482905",
       "files": {
         "pdf": {
           "bytes": 78930,
@@ -1386,7 +1442,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4660,6 +4715,63 @@
       "work": "larotonda-principal-log-distance"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 101292,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "de580ae84bb4768c5f16ed6375b057e05a3d7c47c188dc587f18d9fc9062e09d",
+          "sha256": "de580ae84bb4768c5f16ed6375b057e05a3d7c47c188dc587f18d9fc9062e09d"
+        },
+        "source": {
+          "bytes": 116970,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "497b92e2579b2c3a7b8ad2df6725b552d681c7cc69c2a16f2b780205f00ed5cd",
+          "sha256": "497b92e2579b2c3a7b8ad2df6725b552d681c7cc69c2a16f2b780205f00ed5cd"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "d13f56f01c2e4710683d27a74c67cba9ec344e19",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d13f56f01c2e4710683d27a74c67cba9ec344e19/D5/S3/Quantum/Entanglement/Witness/LiPoonSzeP2.lean#L806"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/li-poon-sze-2011-p2-realignment-gap",
+      "site_url": "https://papers.trureturing.org/li-poon-sze-2011-p2-realignment-gap/",
+      "title": "Extending Li–Poon–Sze's elementary-symmetric realignment comparison to unequal dimensions",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "li-poon-sze-2011-p2-realignment-gap"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24414716",
       "doi": "10.5281/zenodo.24414717",
       "files": {
@@ -4882,6 +4994,63 @@
       },
       "version": 1,
       "work": "malkoun-2026-mo512579-jordan-elementary"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 88725,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "ef33d46a955792650fe0546f11cefbb84cc979ea755b374d2afd901aed7f136f",
+          "sha256": "ef33d46a955792650fe0546f11cefbb84cc979ea755b374d2afd901aed7f136f"
+        },
+        "source": {
+          "bytes": 15872,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "365afc3e7f8e9cfab53e3a2a3c20e3f2957ca41eeba33228acf1f75287d62261",
+          "sha256": "365afc3e7f8e9cfab53e3a2a3c20e3f2957ca41eeba33228acf1f75287d62261"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/StatisticalMechanics/Percolation/MarkeyFiveSiteGrowthDifference.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/markey-five-site-growth-identity",
+      "site_url": "https://papers.trureturing.org/markey-five-site-growth-identity/",
+      "title": "Proof of Markey's five-site growth identity and Shannon's region formulas",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "markey-five-site-growth-identity"
     },
     {
       "concept_doi": "10.5281/zenodo.24412941",
@@ -7534,6 +7703,63 @@
       "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 100885,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "7999ae965122c4ec50ea780413c1b8571760eec0062dca4f69774c9d8d81a686",
+          "sha256": "7999ae965122c4ec50ea780413c1b8571760eec0062dca4f69774c9d8d81a686"
+        },
+        "source": {
+          "bytes": 19161,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "fe756bf1771b360e3447e6a647dd95af043c6d5fbb1bf018720d6d240d1efcc7",
+          "sha256": "fe756bf1771b360e3447e6a647dd95af043c6d5fbb1bf018720d6d240d1efcc7"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Combinatorics/PowerSeries/SchulteImplicitQuadrinomialPowers.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/schulte-implicit-power-coefficients",
+      "site_url": "https://papers.trureturing.org/schulte-implicit-power-coefficients/",
+      "title": "Proving Werner Schulte's coefficient and lattice-path conjectures by integer-parameter extensions of Kruchinin's formula",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "schulte-implicit-power-coefficients"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24408322",
       "doi": "10.5281/zenodo.24408323",
       "files": {
@@ -8778,8 +9004,8 @@
       "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 156,
+  "papers": 160,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-23T21:30:05.460687389Z"
+  "snapshot_time": "2026-11-23T22:30:40.264982525Z"
 }

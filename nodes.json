@@ -287,6 +287,334 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:a374338-circle-vertices:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Geometry/ShannonFixedRadiusCircleVertices.lean"
+      },
+      "lineage": "collected:a374338-circle-vertices:s1",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\card": "\\lvert #1\\rvert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "a374338-circle-vertices",
+      "scope": "in_scope",
+      "statement": "For every pair of distinct starting points, $a(n)=s_2(n)$ for all $n\\geq0$.\nFor $n\\geq1$,\n\\begin{equation}\n a(n)=\\frac{3n^2+5n+c_{n\\bmod3}}{3},\\qquad(c_0,c_1,c_2)=(0,4,2).\n\\end{equation}\nFor $n\\geq0$ the three- and four-seed counts are\n\\begin{align}\n s_3(n)&=n^2+3n+\n \\begin{cases}1,&n>0\\text{ and }3\\mid n,\\\\3,&\\text{otherwise},\\end{cases}\\\\\n s_4(n)&=\\frac{3n^2+13n+12+2(n\\bmod3)}{3}.\n\\end{align}\nThe five-seed count has $s_5(0)=5$, $s_5(1)=13$, and, for $n\\geq2$,\n\\begin{equation}\n s_5(n)=\\frac{3n^2+17n+25-2((n-1)\\bmod3)}{3}\n       =a(n)+4n+7.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "a374338-circle-vertices"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:a374338-circle-vertices:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Geometry/ShannonFixedRadiusCircleVertices.lean"
+      },
+      "lineage": "collected:a374338-circle-vertices:s2",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\card": "\\lvert #1\\rvert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "a374338-circle-vertices",
+      "scope": "in_scope",
+      "statement": "If distinct $u,v\\in\\Lambda$ have intersecting unit circles, all their\nintersection points belong to $\\Lambda$ and are unit neighbors of both\ncenters. Consequently $V_n$ is the image of $S_2(n)$ under the initial\nsimilarity for every $n$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "a374338-circle-vertices"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:a374338-circle-vertices:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Geometry/ShannonFixedRadiusCircleVertices.lean"
+      },
+      "lineage": "collected:a374338-circle-vertices:s3",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\card": "\\lvert #1\\rvert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "a374338-circle-vertices",
+      "scope": "in_scope",
+      "statement": "Suppose $A\\geq3$ and $L\\geq A+2$. For $p=(u,v)\\in\\Z^2$,\n\\[\n p+(1,1)\\in H_{A+1,L+2}\n \\quad\\Longleftrightarrow\\quad\n p\\in H_{A,L}\\ \\text{or}\\ p+d,p+e\\in H_{A,L}\n \\text{ for distinct }d,e\\in M.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "a374338-circle-vertices"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:a374338-circle-vertices:2:s4",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Geometry/ShannonFixedRadiusCircleVertices.lean"
+      },
+      "lineage": "collected:a374338-circle-vertices:s4",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\card": "\\lvert #1\\rvert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "a374338-circle-vertices",
+      "scope": "in_scope",
+      "statement": "For every $m\\geq2$ and $n\\geq2$, put $L=m-1+2n$. Then\n\\begin{equation}\n T(S_m(n))+(n,n)=\n H_{n+1,L}\\cap\\Gamma\\cap\\{(u,v):|v-u|\\leq3n\\}.\n\\end{equation}\nFor $n\\geq2$ the strip can be omitted exactly when $n\\geq m-3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "a374338-circle-vertices"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:a374338-circle-vertices:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Geometry/ShannonFixedRadiusCircleVertices.lean"
+      },
+      "lineage": "collected:a374338-circle-vertices:s5",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\card": "\\lvert #1\\rvert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "a374338-circle-vertices",
+      "scope": "in_scope",
+      "statement": "For $m\\geq2$ and $n\\geq\\max(2,m)$,\n\\[\n s_{m+3}(n)-s_m(n)=4n+2m+3.\n\\]\nFor fixed $m$, the eventual count is a quadratic quasi-polynomial of period\ndividing three, with leading coefficient one. The unclipped hexagon formula\nfor every seed length already at step two is not asserted in the posing\nsources; it fails for six seeds: the hexagon contains $30$ sites but growth\nhas $28$, omitting axial sites $(1,3)$ and $(4,-3)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "a374338-circle-vertices"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:a374338-circle-vertices:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Geometry/ShannonFixedRadiusCircleVertices.lean"
+      },
+      "lineage": "collected:a374338-circle-vertices:s6",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\card": "\\lvert #1\\rvert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "a374338-circle-vertices",
+      "scope": "in_scope",
+      "statement": "Markey's second-difference pattern in the A400701 history (revision 4,\n4 October 2026, COMMENTS) holds for every $n\\geq4$:\n\\[\n s_5(n)-2s_5(n-1)+s_5(n-2)=\n \\begin{cases}2,&n\\equiv0\\pmod3,\\\\4,&n\\equiv1\\pmod3,\\\\0,&n\\equiv2\\pmod3.\n \\end{cases}\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "a374338-circle-vertices"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:a374338-circle-vertices:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Geometry/ShannonFixedRadiusCircleVertices.lean"
+      },
+      "lineage": "collected:a374338-circle-vertices:s7",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\card": "\\lvert #1\\rvert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "a374338-circle-vertices",
+      "scope": "in_scope",
+      "statement": "For $2\\leq m\\leq5$, put $F_m(z)=\\sum_{n\\geq0}s_m(n)z^n$ and\n$P(z)=(1-z)^2(1-z^3)$. Then $F_m(z)=N_m(z)/P(z)$, where\n\\[\n\\begin{array}{c|l}\nm&N_m(z)\\\\\\hline\n2&2+2z^2+4z^4-2z^5\\\\\n3&3+z+2z^2-3z^3+5z^4-2z^5\\\\\n4&4+2z+2z^2-4z^3+2z^4\\\\\n5&5+3z+2z^2-5z^3+z^4-2z^5+2z^6.\n\\end{array}\n\\]\nIn particular $s_m(n)=2s_m(n-1)-s_m(n-2)+s_m(n-3)\n-2s_m(n-4)+s_m(n-5)$ for $n\\geq7$ and $2\\leq m\\leq5$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "a374338-circle-vertices"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:a374338-circle-vertices:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Geometry/ShannonFixedRadiusCircleVertices.lean"
+      },
+      "lineage": "collected:a374338-circle-vertices:s8",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\card": "\\lvert #1\\rvert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "a374338-circle-vertices",
+      "scope": "in_scope",
+      "statement": "Let $c(j)$ be the coefficients of Barker's recorded petal series\n\\cite[FORMULA, 13 December 2015]{petals}, namely\n\\[\n C(z)=\\sum_{j\\geq0}c(j)z^j\n =\\frac{z(1+5z+6z^2+11z^3-5z^4)}{(1-z)^2(1-z^3)}.\n\\]\nThen $c(n+3)=3s_5(n)-2$ for every $n\\geq2$.\nAlso $c(j)-2c(j-1)+c(j-2)$ equals $6,12,0$ for\n$j\\equiv0,1,2\\pmod3$, respectively, for all $j\\geq3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "a374338-circle-vertices"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:abbott-2019-sequential-weak-pointer-bound:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -22501,6 +22829,342 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:li-poon-sze-2011-p2-realignment-gap:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d13f56f01c2e4710683d27a74c67cba9ec344e19",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d13f56f01c2e4710683d27a74c67cba9ec344e19/D5/S3/Quantum/Entanglement/Witness/LiPoonSzeP2.lean#L806"
+      },
+      "lineage": "collected:li-poon-sze-2011-p2-realignment-gap:s1",
+      "macros": {
+        "\\F": "F_{k,\\ell}",
+        "\\R": "\\mathcal R",
+        "\\e": "e",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "li-poon-sze-2011-p2-realignment-gap",
+      "scope": "in_scope",
+      "statement": "Let $2\\le m<n$, $k=m^2$, and $2\\le\\ell\\le k$. Define\n\\begin{equation}\n a=\\begin{cases}\n 1/\\sqrt{mn},&n<m^3-m,\\\\\n 1/(m\\sqrt{m^2-1}),&m^3-m\\le n<m^3,\\\\\n 1/m^2,&n\\ge m^3.\n \\end{cases}\n\\end{equation}\nThere is a density matrix $\\rho$ with realignment singular values\n$(a,b_a,\\ldots,b_a)$ and trace norm one. Moreover,\n\\begin{equation}\n B_\\ell(m,n)\\le\\F(\\delta)<\\F(a)\n =\\e_\\ell(s(\\R(\\rho)))\\le\\widetilde B_\\ell(m,n).\n\\end{equation}\nThe same $\\rho$ works for every $\\ell=2,\\ldots,m^2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Li–Poon–Sze's elementary-symmetric realignment comparison to unequal dimensions",
+      "toolchain": null,
+      "version": 3,
+      "work": "li-poon-sze-2011-p2-realignment-gap"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:li-poon-sze-2011-p2-realignment-gap:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "d13f56f01c2e4710683d27a74c67cba9ec344e19",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d13f56f01c2e4710683d27a74c67cba9ec344e19/D5/S3/Quantum/Entanglement/Witness/LiPoonSzeP2.lean#L806"
+      },
+      "lineage": "collected:li-poon-sze-2011-p2-realignment-gap:s2",
+      "macros": {
+        "\\F": "F_{k,\\ell}",
+        "\\R": "\\mathcal R",
+        "\\e": "e",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "li-poon-sze-2011-p2-realignment-gap",
+      "scope": "in_scope",
+      "statement": "For a separable state $\\sigma$, its realignment singular values satisfy\n\\[\n \\sum_{j=1}^k s_j\\le1,\\qquad\n \\sum_{j=2}^k s_j\\le\\sqrt{(1-1/m)(1-1/n)}=1-\\delta.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Li–Poon–Sze's elementary-symmetric realignment comparison to unequal dimensions",
+      "toolchain": null,
+      "version": 3,
+      "work": "li-poon-sze-2011-p2-realignment-gap"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:li-poon-sze-2011-p2-realignment-gap:3:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "d13f56f01c2e4710683d27a74c67cba9ec344e19",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d13f56f01c2e4710683d27a74c67cba9ec344e19/D5/S3/Quantum/Entanglement/Witness/LiPoonSzeP2.lean#L806"
+      },
+      "lineage": "collected:li-poon-sze-2011-p2-realignment-gap:s3",
+      "macros": {
+        "\\F": "F_{k,\\ell}",
+        "\\R": "\\mathcal R",
+        "\\e": "e",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "li-poon-sze-2011-p2-realignment-gap",
+      "scope": "in_scope",
+      "statement": "If $s_1\\ge\\cdots\\ge s_k\\ge0$, $\\sum_j s_j\\le1$, and\n$\\sum_{j\\ge2}s_j\\le1-\\delta$, where $1/k<\\delta<1$, then\n$\\e_\\ell(s)\\le\\F(\\delta)$ for $2\\le\\ell\\le k$.\nThe function $\\F$ is strictly decreasing on $[1/k,1)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Li–Poon–Sze's elementary-symmetric realignment comparison to unequal dimensions",
+      "toolchain": null,
+      "version": 3,
+      "work": "li-poon-sze-2011-p2-realignment-gap"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:li-poon-sze-2011-p2-realignment-gap:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d13f56f01c2e4710683d27a74c67cba9ec344e19",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d13f56f01c2e4710683d27a74c67cba9ec344e19/D5/S3/Quantum/Entanglement/Witness/LiPoonSzeP2.lean#L806"
+      },
+      "lineage": "collected:li-poon-sze-2011-p2-realignment-gap:s4",
+      "macros": {
+        "\\F": "F_{k,\\ell}",
+        "\\R": "\\mathcal R",
+        "\\e": "e",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "li-poon-sze-2011-p2-realignment-gap",
+      "scope": "in_scope",
+      "statement": "For each $2\\le m<n$ there is an entangled state satisfying CCNR whose\ndegree-$\\ell$ realignment elementary symmetric function exceeds the\nseparable maximum simultaneously for all $\\ell=2,\\ldots,m^2$.\nFor degree one, $B_1(m,n)=\\widetilde B_1(m,n)=1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Li–Poon–Sze's elementary-symmetric realignment comparison to unequal dimensions",
+      "toolchain": null,
+      "version": 3,
+      "work": "li-poon-sze-2011-p2-realignment-gap"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:li-poon-sze-2011-p2-realignment-gap:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d13f56f01c2e4710683d27a74c67cba9ec344e19",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d13f56f01c2e4710683d27a74c67cba9ec344e19/D5/S3/Quantum/Entanglement/Witness/LiPoonSzeP2.lean#L806"
+      },
+      "lineage": "collected:li-poon-sze-2011-p2-realignment-gap:s5",
+      "macros": {
+        "\\F": "F_{k,\\ell}",
+        "\\R": "\\mathcal R",
+        "\\e": "e",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "li-poon-sze-2011-p2-realignment-gap",
+      "scope": "in_scope",
+      "statement": "For $m,n\\ge2$ and $2\\le\\ell\\le\\min(m,n)^2$, the answer to (P2) is\nyes exactly when $m\\ne n$. If $m=n$, then\n\\[\n B_\\ell(m,m)=\\widetilde B_\\ell(m,m)\n =\\F(1/m),\\qquad k=m^2.\n\\]\nIn particular, the exact values at $m=n=2$ and degrees $1,2,3,4$ are\n$1,1/3,5/108,1/432$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Li–Poon–Sze's elementary-symmetric realignment comparison to unequal dimensions",
+      "toolchain": null,
+      "version": 3,
+      "work": "li-poon-sze-2011-p2-realignment-gap"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:li-poon-sze-2011-p2-realignment-gap:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d13f56f01c2e4710683d27a74c67cba9ec344e19",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d13f56f01c2e4710683d27a74c67cba9ec344e19/D5/S3/Quantum/Entanglement/Witness/LiPoonSzeP2.lean#L806"
+      },
+      "lineage": "collected:li-poon-sze-2011-p2-realignment-gap:s6",
+      "macros": {
+        "\\F": "F_{k,\\ell}",
+        "\\R": "\\mathcal R",
+        "\\e": "e",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "li-poon-sze-2011-p2-realignment-gap",
+      "scope": "in_scope",
+      "statement": "Let $2\\le m\\le n$ and $2\\le\\ell\\le k=m^2$. The naive CCNR upper\nbound $\\binom{k}{\\ell}k^{-\\ell}$ is attained if and only if $n\\ge m^3$.\nFor $n<m^3$, writing $\\alpha=1/\\sqrt{mn}$ gives\n\\[\n \\widetilde B_\\ell(m,n)\\le\\F(\\alpha)\n <\\binom{k}{\\ell}k^{-\\ell}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Li–Poon–Sze's elementary-symmetric realignment comparison to unequal dimensions",
+      "toolchain": null,
+      "version": 3,
+      "work": "li-poon-sze-2011-p2-realignment-gap"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:li-poon-sze-2011-p2-realignment-gap:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d13f56f01c2e4710683d27a74c67cba9ec344e19",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d13f56f01c2e4710683d27a74c67cba9ec344e19/D5/S3/Quantum/Entanglement/Witness/LiPoonSzeP2.lean#L806"
+      },
+      "lineage": "collected:li-poon-sze-2011-p2-realignment-gap:s7",
+      "macros": {
+        "\\F": "F_{k,\\ell}",
+        "\\R": "\\mathcal R",
+        "\\e": "e",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "li-poon-sze-2011-p2-realignment-gap",
+      "scope": "in_scope",
+      "statement": "In every unequal dimension pair there are positive definite density matrices\nwith $\\|\\R(\\rho)\\|_1<1$ and\n$\\e_\\ell(s(\\R(\\rho)))>B_\\ell(m,n)$ simultaneously for all\n$2\\le\\ell\\le\\min(m,n)^2$.\nMore precisely, for $m<n$, take the witness of Theorem~\\ref{main} and put\n\\[\n \\varepsilon_0=\\frac12\\min_{2\\le\\ell\\le k}\n \\frac{1- F_{k,\\ell}(\\delta)/F_{k,\\ell}(a)}{\\ell}>0.\n\\]\nEvery $\\rho_\\varepsilon=(1-\\varepsilon)\\rho+\n\\varepsilon I_{mn}/(mn)$ with $0<\\varepsilon\\le\\varepsilon_0$\nhas these properties.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Li–Poon–Sze's elementary-symmetric realignment comparison to unequal dimensions",
+      "toolchain": null,
+      "version": 3,
+      "work": "li-poon-sze-2011-p2-realignment-gap"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:li-poon-sze-2011-p2-realignment-gap:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d13f56f01c2e4710683d27a74c67cba9ec344e19",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d13f56f01c2e4710683d27a74c67cba9ec344e19/D5/S3/Quantum/Entanglement/Witness/LiPoonSzeP2.lean#L806"
+      },
+      "lineage": "collected:li-poon-sze-2011-p2-realignment-gap:s8",
+      "macros": {
+        "\\F": "F_{k,\\ell}",
+        "\\R": "\\mathcal R",
+        "\\e": "e",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "li-poon-sze-2011-p2-realignment-gap",
+      "scope": "in_scope",
+      "statement": "For every $2\\le m<n$ there is a channel $\\Phi:M_m(\\mathbb C)\\to\nM_n(\\mathbb C)$ which is not entanglement breaking, although its\nHilbert--Schmidt matrix has singular-value sum at most $m$.\nAt every degree $2\\le\\ell\\le m^2$, its elementary symmetric value\nexceeds the upper bound $m^\\ell F_{m^2,\\ell}(\\delta)$ valid for\nentanglement-breaking channels. The sum can be made strictly smaller\nthan $m$, with a positive definite normalized Choi matrix.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Li–Poon–Sze's elementary-symmetric realignment comparison to unequal dimensions",
+      "toolchain": null,
+      "version": 3,
+      "work": "li-poon-sze-2011-p2-realignment-gap"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:liu-wesolowski-2026-ordinary-fractional-evolution:3:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -23542,6 +24206,286 @@
       "toolchain": null,
       "version": 1,
       "work": "malkoun-2026-mo512579-jordan-elementary"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:markey-five-site-growth-identity:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/StatisticalMechanics/Percolation/MarkeyFiveSiteGrowthDifference.lean"
+      },
+      "lineage": "collected:markey-five-site-growth-identity:s1",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "markey-five-site-growth-identity",
+      "scope": "in_scope",
+      "statement": "For $n\\geq2$, put $L=m-1+2n$. The map\n\\[\n (x,y)\\longmapsto(u,v)=(x-y+n,x+2y+n)\n\\]\nis a bijection from $S_m(n)$ to\n\\begin{equation}\n P(L,n)=\\{(u,v)\\in\\Z^2:0\\leq u,v\\leq L,\\quad\n n<u+v<2L-n,\\quad u\\equiv v\\pmod3\\}.\n\\end{equation}\nMoreover $v(n)=a_2(n)$ for all $n\\geq0$. Consequently\n\\begin{equation}\n a_5(n)=v(n)+4n+7\\qquad(n\\geq2).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Markey's five-site growth identity and Shannon's region formulas",
+      "toolchain": null,
+      "version": 3,
+      "work": "markey-five-site-growth-identity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:markey-five-site-growth-identity:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/StatisticalMechanics/Percolation/MarkeyFiveSiteGrowthDifference.lean"
+      },
+      "lineage": "collected:markey-five-site-growth-identity:s2",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "markey-five-site-growth-identity",
+      "scope": "in_scope",
+      "statement": "Suppose $A\\geq3$ and $L\\geq A+2$. A point $p$ is in\n$H(A,L)$ or has at least two distinct $E$-neighbors there if and only if\n$p+(1,1)\\in H(A+1,L+2)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Markey's five-site growth identity and Shannon's region formulas",
+      "toolchain": null,
+      "version": 3,
+      "work": "markey-five-site-growth-identity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:markey-five-site-growth-identity:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/StatisticalMechanics/Percolation/MarkeyFiveSiteGrowthDifference.lean"
+      },
+      "lineage": "collected:markey-five-site-growth-identity:s3",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "markey-five-site-growth-identity",
+      "scope": "in_scope",
+      "statement": "For $n\\geq1$,\n\\[\nv(n)=\\begin{cases}\n(3n^2+5n)/3&n\\equiv0\\pmod3,\\\\\n(3n^2+5n+4)/3&n\\equiv1\\pmod3,\\\\\n(3n^2+5n+2)/3&n\\equiv2\\pmod3.\n\\end{cases}\n\\]\nFor $n\\geq2$,\n\\[\na_5(n)=\\frac{3n^2+17n+25-2((n-1)\\bmod3)}3,\n\\]\nwith $a_5(0)=5$, $a_5(1)=13$. For $n\\geq0$ the sibling formulas are\n\\[\na_3(n)=\\begin{cases}n^2+3n+1&n>0,\\ n\\equiv0\\pmod3,\\\\\nn^2+3n+3&\\text{otherwise},\\end{cases}\n\\qquad\na_4(n)=\\frac{3n^2+13n+12+2(n\\bmod3)}3.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Markey's five-site growth identity and Shannon's region formulas",
+      "toolchain": null,
+      "version": 3,
+      "work": "markey-five-site-growth-identity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:markey-five-site-growth-identity:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/StatisticalMechanics/Percolation/MarkeyFiveSiteGrowthDifference.lean"
+      },
+      "lineage": "collected:markey-five-site-growth-identity:s4",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "markey-five-site-growth-identity",
+      "scope": "in_scope",
+      "statement": "The historical period-three patterns in A400699, A400700 and A400701\nare given exactly by\n\\[\n \\Delta^2a_3(n)=\\begin{cases}6&n\\equiv2\\pmod3,\\\\0&\\text{otherwise},\\end{cases}\n \\quad(n\\geq1),\\qquad\n \\Delta^2a_4(n)=\\begin{cases}2&n\\equiv0\\pmod3,\\\\0&n\\equiv1\\pmod3,\\\\4&n\\equiv2\\pmod3,\\end{cases}\n \\quad(n\\geq0),\n\\]\nand $\\Delta^2a_5(n)=2(n\\bmod3)$ for $n\\geq2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Markey's five-site growth identity and Shannon's region formulas",
+      "toolchain": null,
+      "version": 3,
+      "work": "markey-five-site-growth-identity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:markey-five-site-growth-identity:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/StatisticalMechanics/Percolation/MarkeyFiveSiteGrowthDifference.lean"
+      },
+      "lineage": "collected:markey-five-site-growth-identity:s5",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "markey-five-site-growth-identity",
+      "scope": "in_scope",
+      "statement": "We have $e(1)=6$, $r(1)=3$. For $n\\geq2$,\n\\[\ne(n)=\\begin{cases}6n^2-4n+2&n\\equiv2\\pmod3,\\\\\n6n^2-4n-2&n\\equiv0,1\\pmod3,\\end{cases}\n\\]\nand\n\\[\nr(n)=\\begin{cases}\n(15n^2-17n-3)/3&n\\equiv0\\pmod3,\\\\\n(15n^2-17n-7)/3&n\\equiv1\\pmod3,\\\\\n(15n^2-17n+7)/3&n\\equiv2\\pmod3.\n\\end{cases}\n\\]\nThese prove Shannon's three conjectured region formulas, whose\nabsolute value in the class $n\\equiv1\\pmod3$ supplies $r(1)=3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Markey's five-site growth identity and Shannon's region formulas",
+      "toolchain": null,
+      "version": 3,
+      "work": "markey-five-site-growth-identity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:markey-five-site-growth-identity:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/StatisticalMechanics/Percolation/MarkeyFiveSiteGrowthDifference.lean"
+      },
+      "lineage": "collected:markey-five-site-growth-identity:s6",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "markey-five-site-growth-identity",
+      "scope": "in_scope",
+      "statement": "Let $c(n)$ count the circles first drawn at stage $n$ of Shannon's\nconstruction, with the two initial circles at $n=0$. Then\n\\[\n c(0)=2,\\qquad c(n)=v(n)-v(n-1)\\quad(n\\geq1),\n\\]\nwhere $v(0)=2$, and\n\\[\n \\sum_{n\\geq0}c(n)z^n=\n \\frac{2+2z^2+4z^4-2z^5}{(1-z)^2(1+z+z^2)}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Markey's five-site growth identity and Shannon's region formulas",
+      "toolchain": null,
+      "version": 3,
+      "work": "markey-five-site-growth-identity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:markey-five-site-growth-identity:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/StatisticalMechanics/Percolation/MarkeyFiveSiteGrowthDifference.lean"
+      },
+      "lineage": "collected:markey-five-site-growth-identity:s7",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "markey-five-site-growth-identity",
+      "scope": "in_scope",
+      "statement": "For these coefficients,\n$p(n)=3v(n)-6n-5$ for $n\\geq1$, and\n$p(n+3)=3a_5(n)-2$ for $n\\geq2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Markey's five-site growth identity and Shannon's region formulas",
+      "toolchain": null,
+      "version": 3,
+      "work": "markey-five-site-growth-identity"
     },
     {
       "attribution": null,
@@ -37125,6 +38069,201 @@
       "toolchain": null,
       "version": 2,
       "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:schulte-implicit-power-coefficients:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Combinatorics/PowerSeries/SchulteImplicitQuadrinomialPowers.lean"
+      },
+      "lineage": "collected:schulte-implicit-power-coefficients:s1",
+      "macros": {
+        "\\coef": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "schulte-implicit-power-coefficients",
+      "scope": "in_scope",
+      "statement": "For every $d\\geq1$ and $n\\in\\mathbb Z$ there is a unique\n$P_{d,n}\\in1+x\\mathbb Z[[x]]$ such that\n\\begin{equation}\n P_{d,n}(x)=Q_d\\bigl(xP_{d,n}(x)^n\\bigr).\n\\end{equation}\nFor $m\\in\\mathbb Z$, the constant coefficient of $P_{d,n}^m$ is $1$.\nFor $k\\geq1$, writing $N=nk+m$, one has\n\\begin{equation}\n \\coef{x}{k}P_{d,n}^m\n   =\\frac{m}{k}\\coef{t}{k-1}Q_d'(t)Q_d(t)^{N-1}.\n\\end{equation}\nEquivalently,\n\\begin{equation}\n \\coef{x}{k}P_{d,n}^m=\n \\begin{cases}\n \\displaystyle\\frac{m}{N}\\coef{t}{k}Q_d(t)^N,&N\\ne0,\\\\[6pt]\n \\displaystyle\\frac{m}{k}\\bigl(1-(d+1)\\mathbf1_{d+1\\mid k}\\bigr),&N=0.\n \\end{cases}\n\\end{equation}\nFor $d=2,3$ and $N\\ne0$ the first line is\n\\begin{equation}\n \\coef{x}{k}P_{d,n}^m\n =\\frac{m}{N}\\sum_{j=0}^{k}\n (-(d-1))^j\\binom Nj\\binom{dN-2j}{k-j}.\n\\end{equation}\nFor $n\\geq0,m\\geq1$, equation \\eqref{alternating} also holds at $k=0$;\nthe sum may then stop at $\\min(k,N)$ and all its remaining upper indices\nare nonnegative.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Werner Schulte's coefficient and lattice-path conjectures by integer-parameter extensions of Kruchinin's formula",
+      "toolchain": null,
+      "version": 3,
+      "work": "schulte-implicit-power-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:schulte-implicit-power-coefficients:3:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Combinatorics/PowerSeries/SchulteImplicitQuadrinomialPowers.lean"
+      },
+      "lineage": "collected:schulte-implicit-power-coefficients:s2",
+      "macros": {
+        "\\coef": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "schulte-implicit-power-coefficients",
+      "scope": "in_scope",
+      "statement": "Let $d,n,m$ be positive integers. The coefficient $\\coef{x}{k}P_{d,n}^m$ counts paths\nof length $nk+m-1$, from height $m-1$ to height $0$, with steps\n$(1,in-1)$ for $0\\leq i\\leq d$, all of whose heights are nonnegative.\nFor $m=1$ these are excursions of length $nk$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Werner Schulte's coefficient and lattice-path conjectures by integer-parameter extensions of Kruchinin's formula",
+      "toolchain": null,
+      "version": 3,
+      "work": "schulte-implicit-power-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:schulte-implicit-power-coefficients:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Combinatorics/PowerSeries/SchulteImplicitQuadrinomialPowers.lean"
+      },
+      "lineage": "collected:schulte-implicit-power-coefficients:s3",
+      "macros": {
+        "\\coef": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "schulte-implicit-power-coefficients",
+      "scope": "in_scope",
+      "statement": "For $d\\geq1$, $n\\ne0$ and $k\\geq1$,\n\\begin{equation}\n \\coef{x}{k}\\log P_{d,n}=\\frac1{nk}\\coef{t}{k}Q_d(t)^{nk}.\n\\end{equation}\nFor $n=0$ this coefficient is\n$\\bigl(1-(d+1)\\mathbf1_{d+1\\mid k}\\bigr)/k$.\nFor every pair of integers $n,a$,\n\\begin{equation}\n P_{d,n}(x)=P_{d,a}\\bigl(xP_{d,n}(x)^{n-a}\\bigr),\\qquad\n P_{d,n}\\left(\\frac{x}{Q_d(x)^n}\\right)=Q_d(x).\n\\end{equation}\nFor $d=2$ and every integer $n$, one also has\n\\begin{equation}\n P_{2,n}=\\frac{(1+xP_{2,n}^n)^2}{1+xP_{2,n}^{n-1}}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Werner Schulte's coefficient and lattice-path conjectures by integer-parameter extensions of Kruchinin's formula",
+      "toolchain": null,
+      "version": 3,
+      "work": "schulte-implicit-power-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:schulte-implicit-power-coefficients:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Combinatorics/PowerSeries/SchulteImplicitQuadrinomialPowers.lean"
+      },
+      "lineage": "collected:schulte-implicit-power-coefficients:s4",
+      "macros": {
+        "\\coef": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "schulte-implicit-power-coefficients",
+      "scope": "in_scope",
+      "statement": "For $N\\geq0$ put $C_{N,k}=\\coef{t}{k}Q_3(t)^N$, with\n$C_{N,k}=0$ for $k<0$. Then\n\\begin{align}\n C_{N,k}&=\\sum_{b=0}^{\\lfloor k/2\\rfloor}\\binom Nb\\binom N{k-2b},\\\\\n C_{N,k}&=\\sum_{i=0}^{\\lfloor k/4\\rfloor}(-1)^i\\binom Ni\n                 \\binom{N+k-4i-1}{k-4i}\\quad(N\\geq1).\n\\end{align}\nTheir support is $0\\leq k\\leq3N$, with positive values throughout;\n$C_{N,0}=C_{N,3N}=1$ and $C_{N,k}=C_{N,3N-k}$ on that support.\nThey satisfy\n\\[\n C_{N+1,k}=\\sum_{i=0}^3 C_{N,k-i},\\qquad\n \\sum_k C_{N,k}=4^N,\\qquad \\sum_k(-1)^k C_{N,k}=0\\quad(N>0).\n\\]\nFor $n\\geq0,m\\geq1,N=nk+m$, the power coefficient is\n$mC_{N,k}/N$, so \\eqref{positive} gives Bala's formulas at $n=1,2,3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Werner Schulte's coefficient and lattice-path conjectures by integer-parameter extensions of Kruchinin's formula",
+      "toolchain": null,
+      "version": 3,
+      "work": "schulte-implicit-power-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:schulte-implicit-power-coefficients:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Combinatorics/PowerSeries/SchulteImplicitQuadrinomialPowers.lean"
+      },
+      "lineage": "collected:schulte-implicit-power-coefficients:s5",
+      "macros": {
+        "\\coef": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "schulte-implicit-power-coefficients",
+      "scope": "in_scope",
+      "statement": "For every integer $n$, with $P=P_{3,n}$,\n\\begin{equation}\n \\log P=\\sum_{r\\geq1}\\frac{(xP^{n-1})^r}{r}S_r(xP^n).\n\\end{equation}\nFor $P=P_{3,1}$ one also has\n\\begin{equation}\n \\log\\bigl((1-x)P\\bigr)\n =\\sum_{r\\geq1}\\frac1r\\left(\\frac{x^2P}{(1-x)^2}\\right)^rR_r(x).\n\\end{equation}\nThe infinite-binomial-sum versions follow from\n\\begin{equation}\n \\sum_{j\\geq0}\\binom{a+j}j\\binom{b+j}jv^j\n =\\frac{\\sum_j\\binom aj\\binom bjv^j}{(1-v)^{a+b+1}}\n \\qquad(a,b\\geq0).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proving Werner Schulte's coefficient and lattice-path conjectures by integer-parameter extensions of Kruchinin's formula",
+      "toolchain": null,
+      "version": 3,
+      "work": "schulte-implicit-power-coefficients"
     },
     {
       "attribution": null,
