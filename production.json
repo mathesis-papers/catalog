@@ -60,7 +60,7 @@
   },
   "saved_build_recovery": {
     "096f242a0f3b1985efa83b5adebb9622ab0a9380dd5f7f42bb28290a0d80afd4": {
-      "id": "2026-11-23-full-browser-media-inspection",
+      "id": "2026-11-23-pdf-inspection-tools",
       "source_archive_sha256": "a1c14f212cb80e41f6f9a68b5f047252a087aa462d01d9231ad0f5ed46868763",
       "toolchain_image": "ghcr.io/the-omega-institute/trureturing-books-toolchain@sha256:bfd5d789f3d489aa8192ee6edc3128f2da0c674d0619a7d54f20a577564a716c"
     },

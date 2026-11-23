@@ -147,6 +147,7 @@ jobs:
             "$material_image" bash -euo pipefail -c '
               git config --global --add safe.directory "$MATERIAL_REPOSITORY"
               python /opt/tbook/container/prepare.py
+              bash "$MATERIAL_CONTROLS/scripts/prepare_material_qa.sh"
               python "$MATERIAL_CONTROLS/scripts/hosted_materials.py" build \
                 --workspace "$(dirname "$MATERIAL_RUN")" --run "$MATERIAL_RUN"
             '

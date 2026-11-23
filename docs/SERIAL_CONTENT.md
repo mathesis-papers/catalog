@@ -183,3 +183,11 @@ running `python3 -m unittest discover -s tests`.
 Rendering and media inspection continue to call the pinned Python/Node tools.
 Changing the implementation language does not replace their checks or change
 source identities, publication permission, DOI rules or proof credit.
+
+Hosted rendering first runs `scripts/prepare_material_qa.sh` in its disposable
+container. It supplies the downstream PDF inspector's Poppler commands when the
+published renderer lacks them, checks Python imaging/PDF imports and the media
+executables, and logs the installed PDF tool version before rendering films.
+The existing runner Chrome supplies H.264/AAC playback through a read-only mount.
+No inspection executable or package is installed on the host or in a paper's
+source tree. A saved exact-source repair reuses the original authoring output.
