@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/mathar-a386829-recurrence-dfinite/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/mathar-a386829-recurrence-dfinite",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/mathar-a386829-recurrence-dfinite/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "mathar-a386829-recurrence-dfinite"
+}

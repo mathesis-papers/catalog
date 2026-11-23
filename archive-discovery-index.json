@@ -13,10 +13,22 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24407266",
+      "id": "abed-nikolaeva-novikov-2026-af-density-bound",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24212419",
       "id": "aks2610-twin-free-theta-separation",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24407816",
+      "id": "aliabadi-2605-16478v2-problem-7-6",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.23919066",
@@ -103,6 +115,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24406584",
+      "id": "crim-question-one-four-parts",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24391331",
       "id": "delgado-suer-yesil-2026-symmetrization-surjectivity",
       "kind": "collected",
@@ -113,6 +131,12 @@
       "id": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance",
       "kind": "collected",
       "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.24406592",
+      "id": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.24408308",
@@ -147,6 +171,12 @@
     {
       "doi": "10.5281/zenodo.24406600",
       "id": "hanna-a381355",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24408313",
+      "id": "hanna-composition-congruences",
       "kind": "collected",
       "version": 2
     },
@@ -223,10 +253,28 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24406607",
+      "id": "korzekwa-et-al-2019-three-distinguishability-product-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24407820",
+      "id": "luschny-a323206",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23920583",
       "id": "malkoun-2026-mo512579-jordan-elementary",
       "kind": "collected",
       "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.24408321",
+      "id": "mathar-2012-a084261-recurrence",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.23884890",
@@ -239,6 +287,12 @@
       "id": "mathar-a174193-order-four-recurrence",
       "kind": "collected",
       "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24407268",
+      "id": "mathar-a386829-recurrence-dfinite",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.23931738",
@@ -265,6 +319,12 @@
       "version": 3
     },
     {
+      "doi": "10.5281/zenodo.24407822",
+      "id": "multiplicity-dominance",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24209470",
       "id": "narasimhachar-gour-2015-cooling-map-thermal-operation-refutation",
       "kind": "collected",
@@ -279,6 +339,12 @@
     {
       "doi": "10.5281/zenodo.24405795",
       "id": "noe-2013-a222759-prime-cube-growth",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24407271",
+      "id": "oeis-a086205-bala-complex-shift-determinant-refutation",
       "kind": "collected",
       "version": 2
     },
@@ -301,6 +367,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24407275",
+      "id": "oeis-a322026-sequence-machine-dirichlet-inverse-identity",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23903309",
       "id": "oeis-a378495-difference-conjectures",
       "kind": "collected",
@@ -317,6 +389,12 @@
       "id": "oeis-a391810-alternating-jacobsthal",
       "kind": "collected",
       "version": 4
+    },
+    {
+      "doi": "10.5281/zenodo.24407280",
+      "id": "oeis-a394697-toroidal-king-peak-entropy",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.23885975",
@@ -367,6 +445,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24408323",
+      "id": "sp322844-serpentine",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24404952",
       "id": "sp322844-serpentine-higher",
       "kind": "collected",
@@ -395,6 +479,12 @@
       "id": "tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound",
       "kind": "collected",
       "version": 1
+    },
+    {
+      "doi": "10.5281/zenodo.24406609",
+      "id": "tebni355257-logcoef",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.23885984",
@@ -427,12 +517,18 @@
       "version": 1
     },
     {
+      "doi": "10.5281/zenodo.24407832",
+      "id": "ycz2015-psicm",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24405810",
       "id": "zhan-gupta-hillery-detector-sensor-flat-averaging",
       "kind": "collected",
       "version": 3
     }
   ],
-  "generated_at": "2026-11-22T21:18:16.236735879Z",
+  "generated_at": "2026-11-23T00:32:45.649540846Z",
   "schema": "mathesis.archive-index.v1"
 }

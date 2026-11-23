@@ -113,6 +113,63 @@
       "work": "abbott-2019-sequential-weak-pointer-bound"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 90899,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "b23b76b72bb634f6da0fcf2e6e85fd0b714e61f0d83d3d35db0b422ecea7f564",
+          "sha256": "b23b76b72bb634f6da0fcf2e6e85fd0b714e61f0d83d3d35db0b422ecea7f564"
+        },
+        "source": {
+          "bytes": 16680,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "d1631530d492423af7f4f2f6073b8a7e8336830f4013c83e7b8fc1638ddbf95f",
+          "sha256": "d1631530d492423af7f4f2f6073b8a7e8336830f4013c83e7b8fc1638ddbf95f"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/AbedNikolaevaNovikovAFDensityBound.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/abed-nikolaeva-novikov-2026-af-density-bound",
+      "site_url": "https://papers.trureturing.org/abed-nikolaeva-novikov-2026-af-density-bound/",
+      "title": "Sharp accretive modulus bounds from Hayashi's (2001) pinching inequality: extending Abed–Nikolaeva–Novikov (2026), arXiv:2610.34388v1, Section 11.2(5) and Remark 5.45",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "abed-nikolaeva-novikov-2026-af-density-bound"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24212418",
       "doi": "10.5281/zenodo.24212419",
       "files": {
@@ -167,6 +224,63 @@
       },
       "version": 2,
       "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 86310,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "e4a2ed2062ed96d08c94b6b2f9f076a58da98962414367e2f510d6988f5d46f8",
+          "sha256": "e4a2ed2062ed96d08c94b6b2f9f076a58da98962414367e2f510d6988f5d46f8"
+        },
+        "source": {
+          "bytes": 18352,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "86377d9f95e48ca1784d1d1a972f28a4621952f172229199497f425bc471af2a",
+          "sha256": "86377d9f95e48ca1784d1d1a972f28a4621952f172229199497f425bc471af2a"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "1154841a3345ca579e0d56fc4ceebee38814557c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1154841a3345ca579e0d56fc4ceebee38814557c/D5/S3/FiniteGroups/AliabadiQuotientObstruction.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/aliabadi-2605-16478v2-problem-7-6",
+      "site_url": "https://papers.trureturing.org/aliabadi-2605-16478v2-problem-7-6/",
+      "title": "Aliabadi's Problems 7.4 and 7.6: Two-letter and subgroup extensions of Korea Superintelligence Labs (2026) (arXiv:2605.16478v2, Section 7, page 17)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "aliabadi-2605-16478v2-problem-7-6"
     },
     {
       "concept_doi": "10.5281/zenodo.23919065",
@@ -959,6 +1073,63 @@
       "work": "copeland-a131758"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 82502,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "7f3f62b9c090e3d67169b13534deaaa144b31b4b2558b6f46a32d2cced8fba04",
+          "sha256": "7f3f62b9c090e3d67169b13534deaaa144b31b4b2558b6f46a32d2cced8fba04"
+        },
+        "source": {
+          "bytes": 17387,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "06cc60849121ffd775cc6dd9587963844bf4daf1d9f39317a14c9391f270be73",
+          "sha256": "06cc60849121ffd775cc6dd9587963844bf4daf1d9f39317a14c9391f270be73"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "e0da8fcc80226febc4e7ea0836927bc71d158292",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e0da8fcc80226febc4e7ea0836927bc71d158292/D5/S3/Combinatorics/Games/CrimFourPartClassification.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/crim-question-one-four-parts",
+      "site_url": "https://papers.trureturing.org/crim-question-one-four-parts/",
+      "title": "Bašić–Gottlieb–Krnc (2026), Section 5, Question 1 (p. 17): an alternative four-part proof after Mehat (2026), with explicit strategies and small-row stacking",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "crim-question-one-four-parts"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24391330",
       "doi": "10.5281/zenodo.24391331",
       "files": {
@@ -1069,6 +1240,63 @@
       },
       "version": 4,
       "work": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 121044,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "ec308b3832f17b66f325e76830f68c4ebab92644d24fb4e8c59a718d794f432f",
+          "sha256": "ec308b3832f17b66f325e76830f68c4ebab92644d24fb4e8c59a718d794f432f"
+        },
+        "source": {
+          "bytes": 25280,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "7c9e8171ea43b9a513db3933b4fc81a65340327a5a4033dfae4aefa84c3af6c2",
+          "sha256": "7c9e8171ea43b9a513db3933b4fc81a65340327a5a4033dfae4aefa84c3af6c2"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Contextuality/SteeringEllipsoidFThreeThreshold.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold",
+      "site_url": "https://papers.trureturing.org/ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold/",
+      "title": "The F3 threshold is 2/3: the QSE conjecture of Ducuara, Susa and Skrzypczyk (arXiv:2406.03945v1, Section II, p. 3) and extensions of Milne et al. (2014), Mukherjee, Patro and Ganguly (2021), and Morelli et al. (2023)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
     },
     {
       "concept_doi": "10.5281/zenodo.24408307",
@@ -1405,6 +1633,63 @@
       },
       "version": 2,
       "work": "hanna-a381355"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 94307,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "b1cc64e85940df9b3b841b06898808a16001cb972f4a73cbc66eaedd2cf6f252",
+          "sha256": "b1cc64e85940df9b3b841b06898808a16001cb972f4a73cbc66eaedd2cf6f252"
+        },
+        "source": {
+          "bytes": 22670,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "f98fd13966810119bbaf1e8468dedd452cc8552ce5494ca12dbb782eb8d9a766",
+          "sha256": "f98fd13966810119bbaf1e8468dedd452cc8552ce5494ca12dbb782eb8d9a766"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 10,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S1/Recurrence/Invariants/HannaCompositionSquareModNine.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/hanna-composition-congruences",
+      "site_url": "https://papers.trureturing.org/hanna-composition-congruences/",
+      "title": "Proof of Hanna's OEIS A389474 formula (4) and extensions of Salerno–Silverman's (2017) integrality argument",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "hanna-composition-congruences"
     },
     {
       "concept_doi": "10.5281/zenodo.23903300",
@@ -2142,6 +2427,63 @@
       "doi": null,
       "files": {
         "pdf": {
+          "bytes": 98653,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "34a997de962790a1f161602dc90193b779db71ff165fb77b3513885ed5b70564",
+          "sha256": "34a997de962790a1f161602dc90193b779db71ff165fb77b3513885ed5b70564"
+        },
+        "source": {
+          "bytes": 17835,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "0de89384dbce1a11bdb8b0635f957ecd97d9b581887b477105a6896a992e9464",
+          "sha256": "0de89384dbce1a11bdb8b0635f957ecd97d9b581887b477105a6896a992e9464"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 9,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "73ec20a01fc35e0f53bc258c605821728f3c33b6",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/73ec20a01fc35e0f53bc258c605821728f3c33b6/D5/S3/Quantum/Measurements/ThreeDistinguishabilityProductRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/korzekwa-et-al-2019-three-distinguishability-product-refutation",
+      "site_url": "https://papers.trureturing.org/korzekwa-et-al-2019-three-distinguishability-product-refutation/",
+      "title": "Counterexamples to Korzekwa et al. (2019), Section III.B, p. 6, Eq. (30): extending constructions of Bengtsson et al. (2005) and Korzekwa et al. (2019)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "korzekwa-et-al-2019-three-distinguishability-product-refutation"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
           "bytes": 113213,
           "matches_public": true,
           "path": "paper.pdf",
@@ -2193,6 +2535,63 @@
       },
       "version": 2,
       "work": "kurk396563"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 90400,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "e149600feb33b41bf041cd30dcf682e1667bc9835ad6f12bcf1c76cf9d0fa823",
+          "sha256": "e149600feb33b41bf041cd30dcf682e1667bc9835ad6f12bcf1c76cf9d0fa823"
+        },
+        "source": {
+          "bytes": 13595,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "d73398854be391bdded368bc38a88623e0f94d3388bb1528c39e71ab4674a778",
+          "sha256": "d73398854be391bdded368bc38a88623e0f94d3388bb1528c39e71ab4674a778"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 9,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Invariants/LuschnyA323206Parity.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/luschny-a323206",
+      "site_url": "https://papers.trureturing.org/luschny-a323206/",
+      "title": "OEIS A323206, COMMENTS (revision 52): Proof of Luschny's parity conjecture and binary consequences",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "luschny-a323206"
     },
     {
       "concept_doi": "10.5281/zenodo.23920582",
@@ -2249,6 +2648,63 @@
       },
       "version": 1,
       "work": "malkoun-2026-mo512579-jordan-elementary"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 99407,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "c96afd0e6190035c9018e590bd26315f10615763b43ac8b99d168a25a711f5b6",
+          "sha256": "c96afd0e6190035c9018e590bd26315f10615763b43ac8b99d168a25a711f5b6"
+        },
+        "source": {
+          "bytes": 112032,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "2696efc02adf42461a84ddc26a75b4720efb6c025457e582c9eef71455135cb6",
+          "sha256": "2696efc02adf42461a84ddc26a75b4720efb6c025457e582c9eef71455135cb6"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/MatharA084261.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/mathar-2012-a084261-recurrence",
+      "site_url": "https://papers.trureturing.org/mathar-2012-a084261-recurrence/",
+      "title": "Weighted extensions of Jovovic's 2003 formula: resolving Mathar's conjecture (OEIS A084261, FORMULA, 30 November 2012)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "mathar-2012-a084261-recurrence"
     },
     {
       "concept_doi": "10.5281/zenodo.23884889",
@@ -2361,6 +2817,63 @@
       },
       "version": 3,
       "work": "mathar-a174193-order-four-recurrence"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 101115,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "b6477ca54ff08edd9b37932d560859af208b1423fbfcd0c32f94f289125dee11",
+          "sha256": "b6477ca54ff08edd9b37932d560859af208b1423fbfcd0c32f94f289125dee11"
+        },
+        "source": {
+          "bytes": 15475,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "5d654c5b86d3dede1af12a5ec72165c99d33670f6a2ea83791c9002528dea0d3",
+          "sha256": "5d654c5b86d3dede1af12a5ec72165c99d33670f6a2ea83791c9002528dea0d3"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 4,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S3/ArithSums/MatharA386829.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/mathar-a386829-recurrence-dfinite",
+      "site_url": "https://papers.trureturing.org/mathar-a386829-recurrence-dfinite/",
+      "title": "OEIS A386829, FORMULA 5, revisions 11–12 (2 November 2026): Mathar's recurrence and an algebraic family",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "mathar-a386829-recurrence-dfinite"
     },
     {
       "concept_doi": "10.5281/zenodo.23931737",
@@ -2587,6 +3100,63 @@
       "work": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 99977,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "ee0168c20d135bd9f53b67daa10fce338815bd5188bf68e041dc08020b9bcac4",
+          "sha256": "ee0168c20d135bd9f53b67daa10fce338815bd5188bf68e041dc08020b9bcac4"
+        },
+        "source": {
+          "bytes": 116353,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "5fb7ed3d9144bfaf555d5332094869f22600aa1f5493fd7aabf78a87ba59e8e2",
+          "sha256": "5fb7ed3d9144bfaf555d5332094869f22600aa1f5493fd7aabf78a87ba59e8e2"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 10,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S3/Combinatorics/YoungFibonacci/PetrovScottMultiplicityDominance.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/multiplicity-dominance",
+      "site_url": "https://papers.trureturing.org/multiplicity-dominance/",
+      "title": "Exact support for Petrov–Scott, §8.5, Conjecture 8.22 and Problem 8.23: an application and alternative proof of Flajolet (1980)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "multiplicity-dominance"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24209469",
       "doi": "10.5281/zenodo.24209470",
       "files": {
@@ -2754,6 +3324,63 @@
       },
       "version": 2,
       "work": "noe-2013-a222759-prime-cube-growth"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 98488,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "750586eba66a3f1fe1248d64d69b3af37e82614096ff5180d645f4f517188c63",
+          "sha256": "750586eba66a3f1fe1248d64d69b3af37e82614096ff5180d645f4f517188c63"
+        },
+        "source": {
+          "bytes": 15022,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "3cb729a94a7bcfa6b70fec6f1e3effbf261c44e866e0d8ff82034df3d7cd27ae",
+          "sha256": "3cb729a94a7bcfa6b70fec6f1e3effbf261c44e866e0d8ff82034df3d7cd27ae"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "d73267bacb7cde6604fdaee3818fa517d9ced843",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d73267bacb7cde6604fdaee3818fa517d9ced843/D5/S0/Certificates/BalaComplexShiftDeterminantRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/oeis-a086205-bala-complex-shift-determinant-refutation",
+      "site_url": "https://papers.trureturing.org/oeis-a086205-bala-complex-shift-determinant-refutation/",
+      "title": "Complex-shift correction at OEIS A086205 (revision 35), Bala's formula block of 19 February 2023: an extension of Krattenthaler (1999)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "oeis-a086205-bala-complex-shift-determinant-refutation"
     },
     {
       "concept_doi": "10.5281/zenodo.24405798",
@@ -2924,6 +3551,63 @@
       },
       "version": 2,
       "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 104241,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "9e5df4c12d0cbcbef2354bdaf32068549dedb14d34a5836461b919a7f66a7ef4",
+          "sha256": "9e5df4c12d0cbcbef2354bdaf32068549dedb14d34a5836461b919a7f66a7ef4"
+        },
+        "source": {
+          "bytes": 20131,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "f5f445e4cc522cf59f1c75a144d3921bc4e4f2fc9212dd063cfac4fe56f371a8",
+          "sha256": "f5f445e4cc522cf59f1c75a144d3921bc4e4f2fc9212dd063cfac4fe56f371a8"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "e0da8fcc80226febc4e7ea0836927bc71d158292",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e0da8fcc80226febc4e7ea0836927bc71d158292/D5/S3/Arith/DirichletInverse/OeisA322026DirichletInverseIdentity.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/oeis-a322026-sequence-machine-dirichlet-inverse-identity",
+      "site_url": "https://papers.trureturing.org/oeis-a322026-sequence-machine-dirichlet-inverse-identity/",
+      "title": "Multiplier classifications resolving Sequence Machine's conjecture in OEIS A322026, revision 41, final Formula (8 September 2024): extensions of halasz_resonator's inverse calculation (2026)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "oeis-a322026-sequence-machine-dirichlet-inverse-identity"
     },
     {
       "concept_doi": "10.5281/zenodo.23903308",
@@ -3098,6 +3782,63 @@
       },
       "version": 4,
       "work": "oeis-a391810-alternating-jacobsthal"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 116025,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "de5f192b8b296b253f8df518762050a1592300a0149b89ac5e9e5c0b784fcc48",
+          "sha256": "de5f192b8b296b253f8df518762050a1592300a0149b89ac5e9e5c0b784fcc48"
+        },
+        "source": {
+          "bytes": 19334,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "be95c03b061b6f7a275e595cd4b43cd3caf58c135b422f030c9995f8158107b7",
+          "sha256": "be95c03b061b6f7a275e595cd4b43cd3caf58c135b422f030c9995f8158107b7"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S3/Combinatorics/Graph/Pressure/ToroidalKingsPeakEntropy.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/oeis-a394697-toroidal-king-peak-entropy",
+      "site_url": "https://papers.trureturing.org/oeis-a394697-toroidal-king-peak-entropy/",
+      "title": "Weighted toroidal extensions of Liang (2025): OEIS A394697, history revision 21, 6 May 2026 conjecture",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "oeis-a394697-toroidal-king-peak-entropy"
     },
     {
       "concept_doi": "10.5281/zenodo.23885974",
@@ -3558,6 +4299,63 @@
       "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 116123,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "597ad8597fe0befe98d7433456b9bffa50c324922d5de12400279118ea63a5c2",
+          "sha256": "597ad8597fe0befe98d7433456b9bffa50c324922d5de12400279118ea63a5c2"
+        },
+        "source": {
+          "bytes": 24675,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "da6fa7c0d498e54cb3bda05d76bb4a384bc62320f7a667a321a179fc13424084",
+          "sha256": "da6fa7c0d498e54cb3bda05d76bb4a384bc62320f7a667a321a179fc13424084"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 11,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Quantum/Matrix/SpeziaSerpentineSecondExteriorTrace.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/sp322844-serpentine",
+      "site_url": "https://papers.trureturing.org/sp322844-serpentine/",
+      "title": "Spectral extensions of Vinay (2019) and Wicklin (2021): resolving Spezia's conjectures in OEIS A322844, COMMENTS, 28 December 2018 and 6 January 2019",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "sp322844-serpentine"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24404951",
       "doi": "10.5281/zenodo.24404952",
       "files": {
@@ -3842,6 +4640,63 @@
       },
       "version": 1,
       "work": "tarabunga-frau-haug-tirrito-piroli-2025-shannon-branch-bound"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 92587,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "f90a499310d8e3d058305d673c9c9e43830b40faaefa8e5c33ac45548362e904",
+          "sha256": "f90a499310d8e3d058305d673c9c9e43830b40faaefa8e5c33ac45548362e904"
+        },
+        "source": {
+          "bytes": 16470,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "9e5fb9f4f588068fa590b5dc13f30761783e7cfd6954272e9c01e28264400bc4",
+          "sha256": "9e5fb9f4f588068fa590b5dc13f30761783e7cfd6954272e9c01e28264400bc4"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 9,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "3978330935ee256403f739686c6ae335ea620e68",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3978330935ee256403f739686c6ae335ea620e68/D5/S3/Arith/Congruence/TebniA355257Divisibility.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/tebni355257-logcoef",
+      "site_url": "https://papers.trureturing.org/tebni355257-logcoef/",
+      "title": "Sharp quotients and column polynomials: alternative proofs for OEIS A355257, revision 37, Comments, after Benyattou-Mihoubi (2017) and Fried (2025)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "tebni355257-logcoef"
     },
     {
       "concept_doi": "10.5281/zenodo.23885983",
@@ -4130,6 +4985,63 @@
       "work": "xu-et-al-2023-noisy-ghz-witness-bound-gap"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 71199,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "9eff2a949a4e46d5ec37fa2666a161a22adc581b1f2af7dc11b030aa99404edd",
+          "sha256": "9eff2a949a4e46d5ec37fa2666a161a22adc581b1f2af7dc11b030aa99404edd"
+        },
+        "source": {
+          "bytes": 11962,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "b4a26eed852b161c686322adc30581d0be4b8b6a848a86eab95a8a404fb89f09",
+          "sha256": "b4a26eed852b161c686322adc30581d0be4b8b6a848a86eab95a8a404fb89f09"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 3,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "074df09ddbbef1843ddb383577bfaa827f753e36",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/074df09ddbbef1843ddb383577bfaa827f753e36/D5/S3/Analytic/YangChuZhangPsiCM/Refutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/ycz2015-psicm",
+      "site_url": "https://papers.trureturing.org/ycz2015-psicm/",
+      "title": "An alternative proof extending Kang's refutation of Yang–Chu–Zhang (2015), Conjecture 1(ii), p. 15",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "ycz2015-psicm"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24405809",
       "doi": "10.5281/zenodo.24405810",
       "files": {
@@ -4186,8 +5098,8 @@
       "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
     }
   ],
-  "papers": 74,
+  "papers": 90,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-22T21:18:16.236735879Z"
+  "snapshot_time": "2026-11-23T00:32:45.649540846Z"
 }

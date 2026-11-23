@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/sp322844-serpentine/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/sp322844-serpentine",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/sp322844-serpentine/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "sp322844-serpentine"
+}
