@@ -60,7 +60,8 @@ class GitHubReadTests(unittest.TestCase):
         response = mock.MagicMock()
         response.__enter__.return_value.read.return_value = b'{"id":42}'
         for failure in (publisher.urllib.error.HTTPError('https://api.github.com', 502, '', {}, None),
-                        publisher.urllib.error.URLError('connection reset'), TimeoutError()):
+                        publisher.urllib.error.URLError('connection reset'), TimeoutError(),
+                        publisher.http.client.RemoteDisconnected('Remote end closed connection without response')):
             with self.subTest(failure=type(failure).__name__):
                 api.opener = mock.Mock()
                 api.opener.open.side_effect = [failure, response]
@@ -69,6 +70,28 @@ class GitHubReadTests(unittest.TestCase):
                 first, second = api.opener.open.call_args_list
                 self.assertEqual(first.args[0].full_url, second.args[0].full_url)
                 sleep.assert_called_once_with(1)
+
+    def test_disconnect_during_write_is_not_replayed_and_does_not_expose_credentials(self):
+        for method in ('POST', 'PUT', 'PATCH', 'DELETE'):
+            with self.subTest(method=method):
+                api = publisher.API('private-test-token')
+                api.opener = mock.Mock()
+                api.opener.open.side_effect = publisher.http.client.RemoteDisconnected('private-test-token')
+                with mock.patch.object(publisher.time, 'sleep') as sleep:
+                    with self.assertRaisesRegex(RuntimeError, '^GitHub '+method+' /resource: transport RemoteDisconnected$'):
+                        api.call(method, '/resource', {})
+                self.assertEqual(api.opener.open.call_count, 1)
+                sleep.assert_not_called()
+
+    def test_persistent_read_disconnect_stops_after_the_existing_retry_budget(self):
+        api = publisher.API('private-test-token')
+        api.opener = mock.Mock()
+        api.opener.open.side_effect = publisher.http.client.RemoteDisconnected('private-test-token')
+        with mock.patch.object(publisher.time, 'sleep') as sleep:
+            with self.assertRaisesRegex(RuntimeError, '^GitHub GET /resource: transport RemoteDisconnected$'):
+                api.call('GET', '/resource')
+        self.assertEqual(api.opener.open.call_count, 3)
+        self.assertEqual(sleep.call_args_list, [mock.call(1), mock.call(2)])
 
     def test_writes_and_permanent_reads_are_never_replayed(self):
         for method, code in [('POST', 502), ('PATCH', 503), ('GET', 401), ('GET', 403), ('GET', 404)]:

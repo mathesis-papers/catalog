@@ -8,6 +8,7 @@ import argparse
 import base64
 from datetime import datetime
 import hashlib
+import http.client
 import json
 import os
 from pathlib import Path
@@ -176,7 +177,7 @@ class API:
                     continue
                 # Do not echo request headers or token, even on API failures.
                 raise RuntimeError(f"GitHub {method} {path}: HTTP {code}") from None
-            except (urllib.error.URLError, TimeoutError) as exc:
+            except (urllib.error.URLError, TimeoutError, http.client.RemoteDisconnected) as exc:
                 if method == "GET" and attempt < 2:
                     time.sleep(attempt + 1)
                     continue
