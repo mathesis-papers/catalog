@@ -213,6 +213,24 @@ class HostedTests(unittest.TestCase):
 
 
 class RecoveryTests(unittest.TestCase):
+    def test_timeout_and_browser_failure_remain_in_the_private_job(self):
+        with tempfile.TemporaryDirectory() as folder:
+            run=Path(folder)
+            serial.write(run/'checkpoint.json',{'state':'rebuilding_products',
+                         'active_check':{'name':'Inspect rendered pages','started_at':'2026-11-23T00:00:00Z'}})
+            serial.write(run/'qa/browser.json',{'failure':{'name':'en/index.html fonts','message':'timed out'}})
+            error=subprocess.TimeoutExpired(['node','paper_site_qa.cjs'],900)
+            hosted.record_failed_check(run,'host_qa',error)
+            ledger=Ledger();state={'key':'a'*64}
+            hosted.record_build_failure(ledger,state,run)
+            self.assertEqual(state['last_failure']['timeout_seconds'],900)
+            self.assertIn('qa/browser.json',state['latest_checks']['sha256'])
+            checkpoint=serial.read(run/'checkpoint.json');checkpoint.pop('last_failure')
+            serial.write(run/'checkpoint.json',checkpoint)
+            hosted.record_build_failure(ledger,state,run)
+            self.assertEqual(state['last_failure']['type'],'InterruptedCheck')
+            self.assertEqual(state['last_failure']['stage'],'Inspect rendered pages')
+
     def test_build_failure_names_the_exact_command_and_keeps_bounded_output(self):
         with tempfile.TemporaryDirectory() as folder:
             run = Path(folder)

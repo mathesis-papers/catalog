@@ -446,6 +446,8 @@ def record_failed_check(run, stage, error):
     failure = {'stage': stage, 'type': type(error).__name__, 'observed_at': serial.now()}
     if isinstance(error, subprocess.CalledProcessError):
         failure.update(command=error.cmd, exit_code=error.returncode)
+    elif isinstance(error, subprocess.TimeoutExpired):
+        failure.update(command=error.cmd, timeout_seconds=error.timeout)
     elif isinstance(error, (ValueError, RuntimeError, OSError)):
         failure['reason'] = str(error)[:1000]
     log = run/'operator-checks.log'
@@ -478,7 +480,7 @@ def build(run):
 
 def record_build_failure(ledger, state, run):
     logs = {name: tail_bytes(run/name, 2*1024*1024)
-            for name in ('operator-checks.log', 'checkpoint.json') if (run/name).is_file()}
+            for name in ('operator-checks.log', 'checkpoint.json', 'qa/browser.json') if (run/name).is_file()}
     # Sources and previous checks stay immutable. A retry can produce different
     # diagnostics, so address each bundle by its bytes instead of replacing it.
     inventory = {name: hashlib.sha256(data).hexdigest() for name, data in logs.items()}
@@ -488,6 +490,10 @@ def record_build_failure(ledger, state, run):
     checkpoint = json.loads(logs.get('checkpoint.json', b'{}'))
     if checkpoint.get('last_failure'):
         state['last_failure'] = checkpoint['last_failure']
+    elif checkpoint.get('active_check'):
+        state['last_failure'] = {'stage': checkpoint['active_check']['name'],
+                                 'type': 'InterruptedCheck',
+                                 'started_at': checkpoint['active_check']['started_at']}
     ledger.put(state, {prefix+name: data for name, data in logs.items()})
 
 
