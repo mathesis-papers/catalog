@@ -505,8 +505,8 @@
       "work": "alm2024-normal-extension-monotonicity"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24413779",
+      "doi": "10.5281/zenodo.24413780",
       "files": {
         "pdf": {
           "bytes": 85384,
@@ -543,7 +543,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -786,6 +785,63 @@
       "work": "bala295462"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 102903,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "df3e29de79f7fb7d26cddb091492178c689b3f18a7dde2d276f5943d5953bfb3",
+          "sha256": "df3e29de79f7fb7d26cddb091492178c689b3f18a7dde2d276f5943d5953bfb3"
+        },
+        "source": {
+          "bytes": 17518,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "b2a4f4e8e1f3c1014ca29b2ee59552eda79016e197063f1d097bfb67c6f86c97",
+          "sha256": "b2a4f4e8e1f3c1014ca29b2ee59552eda79016e197063f1d097bfb67c6f86c97"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/Combinatorics/PowerSeries/BalaA337389Diagonal.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/bala337389",
+      "site_url": "https://papers.trureturing.org/bala337389/",
+      "title": "A short proof of Bala's all-column conjecture using Wildon's binomial identity",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "bala337389"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24411943",
       "doi": "10.5281/zenodo.24411944",
       "files": {
@@ -898,8 +954,8 @@
       "work": "balaper-a281183-phi2period"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24411959",
+      "doi": "10.5281/zenodo.24411960",
       "files": {
         "pdf": {
           "bytes": 87055,
@@ -936,7 +992,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1011,8 +1066,8 @@
       "work": "balaper-a281440-phi2period"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24412931",
+      "doi": "10.5281/zenodo.24412932",
       "files": {
         "pdf": {
           "bytes": 126116,
@@ -1049,7 +1104,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1575,6 +1629,63 @@
       },
       "version": 2,
       "work": "chiral-event-parity-minimality"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 88215,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "19e80358116b1d29a4dc07d592054e720cacbb5c8a27bd21599feee8574208bd",
+          "sha256": "19e80358116b1d29a4dc07d592054e720cacbb5c8a27bd21599feee8574208bd"
+        },
+        "source": {
+          "bytes": 15051,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "89ff11eaf980f446901f8815de043f17de8fe90a9bdd0fb03822124dc81195b3",
+          "sha256": "89ff11eaf980f446901f8815de043f17de8fe90a9bdd0fb03822124dc81195b3"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 10,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/clarisse-wocjan-2005-permutation-criteria-classification",
+      "site_url": "https://papers.trureturing.org/clarisse-wocjan-2005-permutation-criteria-classification/",
+      "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "clarisse-wocjan-2005-permutation-criteria-classification"
     },
     {
       "concept_doi": "10.5281/zenodo.23904463",
@@ -2809,6 +2920,63 @@
       "work": "hardin185765"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 88159,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "9d1fe5aba4ba8956ca3e67983702dc136e71c9854ea1e9ce15bd218ab38fcc38",
+          "sha256": "9d1fe5aba4ba8956ca3e67983702dc136e71c9854ea1e9ce15bd218ab38fcc38"
+        },
+        "source": {
+          "bytes": 16535,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "3af80d63162e214c5e20e2e59271682e0fa49e5c8885f7cb697503f083e20183",
+          "sha256": "3af80d63162e214c5e20e2e59271682e0fa49e5c8885f7cb697503f083e20183"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "0a197c5f83db6039a3c1177b20d31df4bfe95cd9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0a197c5f83db6039a3c1177b20d31df4bfe95cd9/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233163KingStrip.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/hardin233163-king-arrays",
+      "site_url": "https://papers.trureturing.org/hardin233163-king-arrays/",
+      "title": "Extending Orrick's rectangle count to Barker's king-strip conjectures",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "hardin233163-king-arrays"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24409471",
       "doi": "10.5281/zenodo.24409472",
       "files": {
@@ -3032,6 +3200,63 @@
       },
       "version": 2,
       "work": "hexagon-perp-line-counterexamples"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 118388,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "1cfb55e3c0db2b4105e0fcf67fe6214bbbaa0cee8131f6317f7fec2841d7b9c2",
+          "sha256": "1cfb55e3c0db2b4105e0fcf67fe6214bbbaa0cee8131f6317f7fec2841d7b9c2"
+        },
+        "source": {
+          "bytes": 21940,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "6c58efc85d339fe6951a94d471e7e28950e701bd4a5685c6a041e8c46f39ae1d",
+          "sha256": "6c58efc85d339fe6951a94d471e7e28950e701bd4a5685c6a041e8c46f39ae1d"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 9,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "439c57ca26fd0c0d2de1f48bc492717bc6f7597c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/439c57ca26fd0c0d2de1f48bc492717bc6f7597c/D5/S3/Combinatorics/Partitions/HemmerStraubWestremWeightedAverage.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/hsw17",
+      "site_url": "https://papers.trureturing.org/hsw17/",
+      "title": "Weighted and rank-two extensions of Patel's proof: Hemmer–Straub–Westrem's Ev character-average conjecture",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "hsw17"
     },
     {
       "concept_doi": "10.5281/zenodo.23885960",
@@ -3426,8 +3651,8 @@
       "work": "kang-jager-2026-universal-permutative-lift-refutation"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24413787",
+      "doi": "10.5281/zenodo.24413788",
       "files": {
         "pdf": {
           "bytes": 82113,
@@ -3464,7 +3689,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3539,8 +3763,8 @@
       "work": "khesin-li-2024-bipartite-encoder-equivalence"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24413789",
+      "doi": "10.5281/zenodo.24413790",
       "files": {
         "pdf": {
           "bytes": 78918,
@@ -3577,7 +3801,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3935,8 +4158,8 @@
       "work": "kurk396563"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24412936",
+      "doi": "10.5281/zenodo.24412937",
       "files": {
         "pdf": {
           "bytes": 98032,
@@ -3973,7 +4196,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4046,6 +4268,120 @@
       },
       "version": 2,
       "work": "kurkov-a340991-convolution-row-recursion"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 76190,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "9cb660db6c01e4c879c51e7d6ad10fc6a7ecaeae577cb392cb30bc95946ca534",
+          "sha256": "9cb660db6c01e4c879c51e7d6ad10fc6a7ecaeae577cb392cb30bc95946ca534"
+        },
+        "source": {
+          "bytes": 12226,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "ce40c1aa6359d28c5395d4b4f8d636663bca9032a10be0771f33bbfd29a3ad91",
+          "sha256": "ce40c1aa6359d28c5395d4b4f8d636663bca9032a10be0771f33bbfd29a3ad91"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 3,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/QuadraticForms/LarotondaPrincipalLogDistanceRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/larotonda-principal-log-distance",
+      "site_url": "https://papers.trureturing.org/larotonda-principal-log-distance/",
+      "title": "Trace-coupled counterexamples to Larotonda's principal-log distance conjecture: beyond the Antezana-Larotonda-Varela theorem",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "larotonda-principal-log-distance"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 84653,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "b73efb9322e7de640e078e7a1900861a5be3a9bf1906fc54245a008e80c864c4",
+          "sha256": "b73efb9322e7de640e078e7a1900861a5be3a9bf1906fc54245a008e80c864c4"
+        },
+        "source": {
+          "bytes": 18303,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "a638cb269a33dd53551fbb07032f43474af1bf3e4a3a6983688be6851b6fa733",
+          "sha256": "a638cb269a33dd53551fbb07032f43474af1bf3e4a3a6983688be6851b6fa733"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Quantum/QuantumChannels/FractionalEvolutionPhaseObstruction.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/liu-wesolowski-2026-ordinary-fractional-evolution",
+      "site_url": "https://papers.trureturing.org/liu-wesolowski-2026-ordinary-fractional-evolution/",
+      "title": "Quantitative extensions of Araújo et al.'s phase obstruction for Liu, Wesołowski, Thompson, Gu and Pira's uncontrolled fractional-evolution question",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "liu-wesolowski-2026-ordinary-fractional-evolution"
     },
     {
       "concept_doi": "10.5281/zenodo.24407819",
@@ -4160,8 +4496,8 @@
       "work": "malkoun-2026-mo512579-jordan-elementary"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24412941",
+      "doi": "10.5281/zenodo.24412942",
       "files": {
         "pdf": {
           "bytes": 102955,
@@ -4198,7 +4534,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4273,8 +4608,8 @@
       "work": "mathar-2012-a084261-recurrence"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24413793",
+      "doi": "10.5281/zenodo.24413794",
       "files": {
         "pdf": {
           "bytes": 102717,
@@ -4311,7 +4646,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4496,6 +4830,63 @@
       },
       "version": 2,
       "work": "mathar-a386829-recurrence-dfinite"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 111631,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "09e66a889a9ac2438c90fac35756373a5c8d16179ad7155a666791a060614d83",
+          "sha256": "09e66a889a9ac2438c90fac35756373a5c8d16179ad7155a666791a060614d83"
+        },
+        "source": {
+          "bytes": 21173,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "9f054b292f61a0a9ab5704757ad2f60744d9ac15dbd309e77125233777ed236b",
+          "sha256": "9f054b292f61a0a9ab5704757ad2f60744d9ac15dbd309e77125233777ed236b"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S1/Recurrence/Algebraic/MatharA128057ThreeTermRecurrence.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/mathar-square-root-quotient-recurrence",
+      "site_url": "https://papers.trureturing.org/mathar-square-root-quotient-recurrence/",
+      "title": "Explicit proofs of Mathar's recurrence and Barker's Hankel formulas from Mathar's and Cigler's theorems",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "mathar-square-root-quotient-recurrence"
     },
     {
       "concept_doi": "10.5281/zenodo.23931737",
@@ -5396,6 +5787,63 @@
       "work": "oeis-a322026-sequence-machine-dirichlet-inverse-identity"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 83931,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "4592e160ac2f9e0718fc30f09b89731c58b99f771212f90a9adac632da4b4434",
+          "sha256": "4592e160ac2f9e0718fc30f09b89731c58b99f771212f90a9adac632da4b4434"
+        },
+        "source": {
+          "bytes": 16520,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "0e0fd1b177741cb10d1d872afed14f28a0c5c43ba3f5a72de9296686b0cc5ea0",
+          "sha256": "0e0fd1b177741cb10d1d872afed14f28a0c5c43ba3f5a72de9296686b0cc5ea0"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S1/Recurrence/BalaTrinomialCoefficientIdentity.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/oeis-a351858-bala-coefficient-identity",
+      "site_url": "https://papers.trureturing.org/oeis-a351858-bala-coefficient-identity/",
+      "title": "Positive expansions for Bala's trinomial coefficient conjecture and alternative proofs of the Bajaj–Burns obstructions",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "oeis-a351858-bala-coefficient-identity"
+    },
+    {
       "concept_doi": "10.5281/zenodo.23903308",
       "doi": "10.5281/zenodo.23903309",
       "files": {
@@ -5854,6 +6302,63 @@
       "work": "okada-2020-premerged-determinant-nonpalindromic"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 81129,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "be046af7c9fcee71b06b0eea4dbb18c219fabf7c4a1aed5b9c256d362f99a17b",
+          "sha256": "be046af7c9fcee71b06b0eea4dbb18c219fabf7c4a1aed5b9c256d362f99a17b"
+        },
+        "source": {
+          "bytes": 11587,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "9a7a4910253b83791676d994f24d83805bca2698dac4e98dcc38233b65cd41f0",
+          "sha256": "9a7a4910253b83791676d994f24d83805bca2698dac4e98dcc38233b65cd41f0"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Arith/Primes/OeisA369378FermatCovering.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/ordowski",
+      "site_url": "https://papers.trureturing.org/ordowski/",
+      "title": "Exact Fermat-divisor formulas for Ordowski's prime-offset conjecture, extending Crocker's covering method",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "ordowski"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24410612",
       "doi": "10.5281/zenodo.24410613",
       "files": {
@@ -5910,8 +6415,8 @@
       "work": "oudra-a248186-cubic-floor"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24412947",
+      "doi": "10.5281/zenodo.24412948",
       "files": {
         "pdf": {
           "bytes": 96823,
@@ -5948,7 +6453,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -5965,6 +6469,63 @@
       },
       "version": 2,
       "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 84754,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "9c4157d94e5f28932fe5e8058d63aa20f9a0f99e3bbf65cd5ccf92a5250dc187",
+          "sha256": "9c4157d94e5f28932fe5e8058d63aa20f9a0f99e3bbf65cd5ccf92a5250dc187"
+        },
+        "source": {
+          "bytes": 15858,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "5d68d8dc6d5b35e42667459f676c25cc69de3a3c47feae461a9ffef4a114f6a3",
+          "sha256": "5d68d8dc6d5b35e42667459f676c25cc69de3a3c47feae461a9ffef4a114f6a3"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "aec68a61276de81e1e122880cd5921bac6e8f070",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/aec68a61276de81e1e122880cd5921bac6e8f070/D5/S1/Depth/ContinuedFractions/FreemanPalindromicDensityRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/palindromic-density",
+      "site_url": "https://papers.trureturing.org/palindromic-density/",
+      "title": "Sharp upper-limsup density in Freeman's conjecture and an extension of the de Luca–Fischler Fibonacci formula",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "palindromic-density"
     },
     {
       "concept_doi": "10.5281/zenodo.23920609",
@@ -6139,8 +6700,8 @@
       "work": "projective-toric-design-subgroup-counterexample"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24413801",
+      "doi": "10.5281/zenodo.24413802",
       "files": {
         "pdf": {
           "bytes": 109317,
@@ -6177,7 +6738,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -7610,8 +8170,8 @@
       "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
     }
   ],
-  "papers": 135,
+  "papers": 145,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-23T16:30:51.706260296Z"
+  "snapshot_time": "2026-11-23T17:30:16.516433662Z"
 }

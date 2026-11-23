@@ -435,9 +435,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24413779",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24413780",
       "lean_source": {
         "revision": "a5ab754b3968a7da271b36fb2b1d878697d70892",
         "url": "https://github.com/the-omega-institute/trureturing/blob/a5ab754b3968a7da271b36fb2b1d878697d70892/D5/S3/FiniteGroups/Heisenberg/CommutingGraphQ4.lean"
@@ -659,6 +659,53 @@
       "work": "bala295462"
     },
     {
+      "abstract_text": "We give a proof of Peter Bala's all-column conjecture in the final FORMULA of OEIS A337389, revision 40 (May 5, 2022), by specializing the binomial identity proved by Mark Wildon on November 27, 2013, and identified there by Ira Gessel as terminating Kummer summation. The identity holds with an indeterminate column parameter and includes the individual column identities previously proved by Bala and Blanco Gómez. We also prove a squared-coefficient identity and Gauss congruences for every integer parameter. We relate the stronger recorded congruences to their prior proofs, and derive the companion recurrence and asymptotic formulas, including growth along the main diagonal.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/Combinatorics/PowerSeries/BalaA337389Diagonal.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 102903,
+        "sha256": "df3e29de79f7fb7d26cddb091492178c689b3f18a7dde2d276f5943d5953bfb3",
+        "url": "/api/v1/collected-papers/bala337389/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T16:37:21.369100053Z",
+      "record": "bala337389",
+      "repository_name": "bala337389",
+      "source": {
+        "bytes": 17518,
+        "sha256": "b2a4f4e8e1f3c1014ca29b2ee59552eda79016e197063f1d097bfb67c6f86c97",
+        "url": "/api/v1/collected-papers/bala337389/files/source?version=2"
+      },
+      "title": "A short proof of Bala's all-column conjecture using Wildon's binomial identity",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T16:37:21.369100053Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "bala337389"
+    },
+    {
       "abstract_text": "Using finite jets, we give an alternative proof of the totient-square period conjecture in Peter Bala's comment of 16 February 2026 on OEIS A281181, revision 103, previously proved by Lien-Hung Su (2026, Theorem 3.2 and Corollary 3.3), and extend the argument to every positive integer flow exponent. For C'=C^q S, S'=C^(q+1), C(0)=1 and S(0)=0, the numbers A(q,e,n)=(2n)![t^(2n)]C(t)^e are integers for every positive integer q and nonnegative e, and A(q,e,n+phi(k)^2) is congruent to A(q,e,n) modulo k for every k>=1 and n>=k^2. The proof uses characteristic-p finite jets, commuting matrices, a separate two-adic operator and the Chinese remainder theorem. Five posed conjectures, nine further column specializations and one full-index interlacing are covered.",
       "authors": [
         {
@@ -764,9 +811,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24411959",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24411960",
       "lean_source": {
         "revision": "92de86888730265f84e24d28bdb67546c543a966",
         "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean"
@@ -858,9 +905,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24412931",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24412932",
       "lean_source": {
         "revision": "92de86888730265f84e24d28bdb67546c543a966",
         "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
@@ -1315,6 +1362,53 @@
         }
       ],
       "work": "chiral-event-parity-minimality"
+    },
+    {
+      "abstract_text": "Extending Clarisse and Wocjan's orbit bound and answering their norm-dependence question (arXiv:quant-ph/0504160v2, 14 June 2005, Theorem 3, p. 3, equation (2); Section V, p. 6; Definition 1, p. 2), we prove for every r >= 1 and d >= 2 that mixed single-party and Bell-pair states distinguish tensor-index permutations exactly up to the four row-set symmetries. Consequently the prior orbit bound is exact for norm equality. The same classification holds for rank and every Schatten functional with 0 < p <= infinity, p != 2, including quasi-norms below one; all permutations preserve the Hilbert-Schmidt norm. We also give an adaptive identifying family of at most 2r - 1 states and a Bell-state proof of the known partial-transpose incomparability.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 88215,
+        "sha256": "19e80358116b1d29a4dc07d592054e720cacbb5c8a27bd21599feee8574208bd",
+        "url": "/api/v1/collected-papers/clarisse-wocjan-2005-permutation-criteria-classification/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T16:52:09.274630504Z",
+      "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+      "repository_name": "clarisse-wocjan-2005-permutation-criteria-classification",
+      "source": {
+        "bytes": 15051,
+        "sha256": "89ff11eaf980f446901f8815de043f17de8fe90a9bdd0fb03822124dc81195b3",
+        "url": "/api/v1/collected-papers/clarisse-wocjan-2005-permutation-criteria-classification/files/source?version=2"
+      },
+      "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T16:52:09.274630504Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "clarisse-wocjan-2005-permutation-criteria-classification"
     },
     {
       "abstract_text": "We refute the closest-fully-separable-state shape conjecture of Consiglio, Apollaro and Wieśniak, arXiv:2209.01430v2, Appendix A, Eq. (A11), already for three qubits on the low branch at gamma = 11/112. Every fully separable state of the proposed shape has squared Hilbert–Schmidt distance at least 109/23520, whereas an explicit mixture of ten pure product states has distance 417965512477/90316800000000. The counterexample and exact restricted minimum have self-contained written proofs, as do related counterexamples to the full-separability and concurrence comparisons in the posing source. An elementary bound also establishes its large-qubit limit without the conjectured shape.",
@@ -2351,6 +2445,53 @@
       "work": "hardin185765"
     },
     {
+      "abstract_text": "Extending Orrick's rectangle count (2017, answer 2088242, revision 5), we prove Colin Barker's conjectures in OEIS A233163, revision 8, FORMULA lines 8–10 of October 9, 2018, by counting complementary colour pairs and their normalized eight-colour realizations. For every n,k >= 2 the rectangle count is 2^(nk-4)(2^(n-2)+2^(k-2)-1). Orrick's four-colour classification and Britnell–Wildon's path enumeration (2015, Proposition 8.1) give all seven empirical column recurrences in A233168, as well as Barker's closed-form and generating-function conjectures in A233162 and A233164–A233167.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "0a197c5f83db6039a3c1177b20d31df4bfe95cd9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0a197c5f83db6039a3c1177b20d31df4bfe95cd9/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233163KingStrip.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 88159,
+        "sha256": "9d1fe5aba4ba8956ca3e67983702dc136e71c9854ea1e9ce15bd218ab38fcc38",
+        "url": "/api/v1/collected-papers/hardin233163-king-arrays/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T17:08:24.816736747Z",
+      "record": "hardin233163-king-arrays",
+      "repository_name": "hardin233163-king-arrays",
+      "source": {
+        "bytes": 16535,
+        "sha256": "3af80d63162e214c5e20e2e59271682e0fa49e5c8885f7cb697503f083e20183",
+        "url": "/api/v1/collected-papers/hardin233163-king-arrays/files/source?version=2"
+      },
+      "title": "Extending Orrick's rectangle count to Barker's king-strip conjectures",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T17:08:24.816736747Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hardin233163-king-arrays"
+    },
+    {
       "abstract_text": "We prove the three empirical formulas in OEIS A240513, revision 11, FORMULA entries 1–3, and extend Bala’s (2014) Chebyshev treatment of the related norm sequence by making the ladder connection explicit. These formulas are Hardin’s order-five recurrence, Barker’s generating function, and Mathar’s relation to A105309. The objects are binary two-column arrays in which no cell has exactly two equal-valued orthogonal neighbors, with the first cell fixed to zero. A transfer on sixteen ordered pairs of rows gives the recurrence and generating function. A norm identity proves the relation to A105309. The same construction proves the empirical width-three and width-four recurrences in A240514–A240515 and A240519; their minimal orders are 20 and 48. At every fixed width the generating function is rational. We also give correctly indexed Chebyshev identities and correct the sign and shift in A105309’s Chebyshev-transform formula.",
       "authors": [
         {
@@ -2537,6 +2678,53 @@
         }
       ],
       "work": "hexagon-perp-line-counterexamples"
+    },
+    {
+      "abstract_text": "Extending Patel's pointwise proof (2026, Solution 1), we give an alternative coefficient proof of Conjecture 17, equation (6.1), page 15, of Hemmer, Straub and Westrem's New identities in the character table of symmetric groups involving Riordan numbers (2026), recovering the two-binary-quadratic Hilbert series of Benanti et al. (2012, Example 3.3, p.160). Both weighted character sums vanish in odd degree and equal binomial(n/2+2,2) in even degree. Patel's three-variable Schur specialization first identifies the sums for each partition, retaining all multiplicities in Ev. The cycle-index generating function then reduces their weighted average to a constant term equal to (1-t^2)^(-3). We give explicit arbitrary-weight and common-divisor consequences, including the N=1 case of Amdeberhan's q-series conjecture, and rederive the Riordan tableau formula already implicit in Meilhan–Suzuki (2015). A companion adjoint-representation argument proves the N=2 instances of the source's two character identities and its q-series conjecture.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "439c57ca26fd0c0d2de1f48bc492717bc6f7597c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/439c57ca26fd0c0d2de1f48bc492717bc6f7597c/D5/S3/Combinatorics/Partitions/HemmerStraubWestremWeightedAverage.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 118388,
+        "sha256": "1cfb55e3c0db2b4105e0fcf67fe6214bbbaa0cee8131f6317f7fec2841d7b9c2",
+        "url": "/api/v1/collected-papers/hsw17/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T17:22:13.974370538Z",
+      "record": "hsw17",
+      "repository_name": "hsw17",
+      "source": {
+        "bytes": 21940,
+        "sha256": "6c58efc85d339fe6951a94d471e7e28950e701bd4a5685c6a041e8c46f39ae1d",
+        "url": "/api/v1/collected-papers/hsw17/files/source?version=2"
+      },
+      "title": "Weighted and rank-two extensions of Patel's proof: Hemmer–Straub–Westrem's Ev character-average conjecture",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T17:22:13.974370538Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hsw17"
     },
     {
       "abstract_text": "Combined with the upper bound of Huang, Kosugi, Nishi and Matsushita [J. Phys. Soc. Jpn. 93, 054002 (2024); arXiv:2310.06676v2], this resolves their Section 6 conjecture that 2^(2n-1)+2n-2 CNOTs are optimal in the worst case for exact ancilla-free CNOT/R_z synthesis of reflection-symmetric diagonal unitaries on 2n qubits. The explicit hard instance has phase pi/2 at the all-zero and all-one strings. Multiplicative characters force every nonzero even parity; birth-span dimension and return conservation give the linear term. The same substitution gives the unrestricted 2dn-wire count, but not depth optimality or radial-potential optimality.",
@@ -2879,9 +3067,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24413787",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24413788",
       "lean_source": {
         "revision": "b8d708b1b89112061f30f218f031c1bf3672ebd8",
         "url": "https://github.com/the-omega-institute/trureturing/blob/b8d708b1b89112061f30f218f031c1bf3672ebd8/D5/S3/Analytic/GaussZeroBalanced/FractionalLegendreTuran.lean"
@@ -2973,9 +3161,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24413789",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24413790",
       "lean_source": {
         "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
         "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S3/FiniteGroups/KlandermanConjecture42Refutation.lean"
@@ -3302,9 +3490,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24412936",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24412937",
       "lean_source": {
         "revision": "6a3b29c88128eeed17f731783f03e7f9ff92ae62",
         "url": "https://github.com/the-omega-institute/trureturing/blob/6a3b29c88128eeed17f731783f03e7f9ff92ae62/D5/S3/Combinatorics/PowerSeries/KurkovA263634LogPolynomials.lean"
@@ -3383,6 +3571,100 @@
         }
       ],
       "work": "kurkov-a340991-convolution-row-recursion"
+    },
+    {
+      "abstract_text": "Beyond the unitarily invariant theorem of Antezana, Larotonda and Varela (2011/2014; Theorem 4.3 of arXiv:1107.2439v1), Larotonda's conjecture after Proposition 4.3 in Section 4.1, p. 7 of Short curves in homogeneous spaces of the unitary group for unitarily invariant norms (arXiv:2610.31535v1) fails for a normalized, symmetric Ad-invariant quadratic norm on u(2): shifting one eigenangle by 2 pi preserves the endpoint and gives a shorter exponential curve. For the full positive-definite family obtained by adding c times the squared trace to the Hilbert-Schmidt norm squared, we show in every dimension at least two that principal-log minimality holds for all principal angles if and only if the trace coefficient is zero. Scalar examples give a strict failure whenever their eigenangle exceeds pi(1+c)/(1+nc), for c>0. Thus the proposed pi/2 input already fails in dimension three, and no positive dimension-independent spectral radius suffices.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/QuadraticForms/LarotondaPrincipalLogDistanceRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 76190,
+        "sha256": "9cb660db6c01e4c879c51e7d6ad10fc6a7ecaeae577cb392cb30bc95946ca534",
+        "url": "/api/v1/collected-papers/larotonda-principal-log-distance/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T17:07:20.643355476Z",
+      "record": "larotonda-principal-log-distance",
+      "repository_name": "larotonda-principal-log-distance",
+      "source": {
+        "bytes": 12226,
+        "sha256": "ce40c1aa6359d28c5395d4b4f8d636663bca9032a10be0771f33bbfd29a3ad91",
+        "url": "/api/v1/collected-papers/larotonda-principal-log-distance/files/source?version=2"
+      },
+      "title": "Trace-coupled counterexamples to Larotonda's principal-log distance conjecture: beyond the Antezana-Larotonda-Varela theorem",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T17:07:20.643355476Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "larotonda-principal-log-distance"
+    },
+    {
+      "abstract_text": "Extending Araújo, Feix, Costa and Brukner's global-phase argument (2014), we answer negatively the question in Liu, Wesołowski, Thompson, Gu and Pira, Optimal query complexity for fractional quantum evolution, arXiv:2610.01940v1 (1 October 2026), Section V, page 7, unnumbered Uncontrolled access paragraph, with its prescribed branch and uniform channel criterion. For 0<t<1, 0<delta<pi and every dimension d>=2, ordinary queries have an unhalved diamond-error floor sin(pi*t), independent of their number. Retaining a pure full output strengthens the bound to 2*sin(pi*min(t,1-t)/2). The same argument gives the endpoint order of the best attainable error and classifies continuously differentiable phase functions on this branch: arbitrarily accurate ordinary-access implementation is possible exactly for integer powers, up to a constant phase.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Quantum/QuantumChannels/FractionalEvolutionPhaseObstruction.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 84653,
+        "sha256": "b73efb9322e7de640e078e7a1900861a5be3a9bf1906fc54245a008e80c864c4",
+        "url": "/api/v1/collected-papers/liu-wesolowski-2026-ordinary-fractional-evolution/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T16:38:19.843660674Z",
+      "record": "liu-wesolowski-2026-ordinary-fractional-evolution",
+      "repository_name": "liu-wesolowski-2026-ordinary-fractional-evolution",
+      "source": {
+        "bytes": 18303,
+        "sha256": "a638cb269a33dd53551fbb07032f43474af1bf3e4a3a6983688be6851b6fa733",
+        "url": "/api/v1/collected-papers/liu-wesolowski-2026-ordinary-fractional-evolution/files/source?version=3"
+      },
+      "title": "Quantitative extensions of Araújo et al.'s phase obstruction for Liu, Wesołowski, Thompson, Gu and Pira's uncontrolled fractional-evolution question",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T16:38:19.843660674Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "liu-wesolowski-2026-ordinary-fractional-evolution"
     },
     {
       "abstract_text": "We prove Peter Luschny's conjecture in OEIS A323206, COMMENTS, revision 52 (first posed in revision 17, February 21, 2019): for all nonnegative n,k, the terminating hypergeometric value A(n,k) is odd precisely when n is even or k+2 is a positive power of two. Its coefficients are integer ballot numbers, and their sum is C_(k+1). Thus evaluation modulo two reduces to the constant coefficient or a Catalan number. A binary product describes the complete coefficient support; its consequences include the linked rows, columns, three adjacent diagonals, antidiagonal sums and generalized ballot triangle.",
@@ -3490,9 +3772,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24412941",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24412942",
       "lean_source": {
         "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
         "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S1/Recurrence/MatharA081124.lean"
@@ -3584,9 +3866,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24413793",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24413794",
       "lean_source": {
         "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
         "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S1/Recurrence/Invariants/MatharA000159Recurrence.lean#L656"
@@ -3761,6 +4043,53 @@
         }
       ],
       "work": "mathar-a386829-recurrence-dfinite"
+    },
+    {
+      "abstract_text": "Using Mathar's inverse-root theorem (2021, Theorem 2 and Example 4) and Cigler's determinant theorem (2002 volume, Theorem 2), we give explicit proofs of Mathar's three-term conjecture in OEIS A128057, revision 11, FORMULA (2 December 2014), by coefficient pairing, and Barker's empirical Hankel generating function in OEIS A128056, revision 5, FORMULA (27 June 2013), by a block determinant, respectively. The A128057 recurrence holds for every n >= 2. A polynomial identity gives the corresponding three-term recurrence for (u+v*x)/sqrt(1+c*x^2) with arbitrary rational parameters. The same determinant argument proves Barker's quotient generating function, gives the unsigned and shifted Hankel transforms, and corrects related sign, parity and indexing statements.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S1/Recurrence/Algebraic/MatharA128057ThreeTermRecurrence.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 111631,
+        "sha256": "09e66a889a9ac2438c90fac35756373a5c8d16179ad7155a666791a060614d83",
+        "url": "/api/v1/collected-papers/mathar-square-root-quotient-recurrence/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T16:53:07.950740600Z",
+      "record": "mathar-square-root-quotient-recurrence",
+      "repository_name": "mathar-square-root-quotient-recurrence",
+      "source": {
+        "bytes": 21173,
+        "sha256": "9f054b292f61a0a9ab5704757ad2f60744d9ac15dbd309e77125233777ed236b",
+        "url": "/api/v1/collected-papers/mathar-square-root-quotient-recurrence/files/source?version=2"
+      },
+      "title": "Explicit proofs of Mathar's recurrence and Barker's Hankel formulas from Mathar's and Cigler's theorems",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T16:53:07.950740600Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "mathar-square-root-quotient-recurrence"
     },
     {
       "abstract_text": "We prove the displayed inequality in MathOverflow question 469781, which compares weighted squared two-by-two minors of an orthonormal pair with squared three-by-three minors, weighted by the largest edge weight of each triple. We prove the inequality by contraction in exterior algebra and a finite threshold decomposition. The proof gives both minimum and maximum bounds, permits signed weights and complex vectors, and extends to arbitrary exterior degrees and several orthogonal lifts. The orthonormal comparison follows from Lyons (2003); Miller and Bistroń (2025) give a direct two-sided proof and settle the linked distance-triangle conjecture.",
@@ -4515,6 +4844,53 @@
       "work": "oeis-a322026-sequence-machine-dirichlet-inverse-identity"
     },
     {
+      "abstract_text": "A finite binomial expansion proves Peter Bala's finite-sum conjecture (OEIS A351858, FORMULA, revision 2, 27 February 2022; retained in revision 31, 28 October 2025), extends to his rational-function family, and gives alternative proofs of the family obstructions of Ravi Bajaj and Alexander Burns (12 August 2026, Sections 2–3). We obtain a two-parameter coefficient identity and a positive finite formula for every member of the family, including A351859. We also derive the two entries' alternating sums, reversion formulas, algebraicity and ordinary Gauss congruences. The two infinite counterexample families have exact valuation two, distinguishing these ordinary congruences from the proposed cubic ones.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S1/Recurrence/BalaTrinomialCoefficientIdentity.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 83931,
+        "sha256": "4592e160ac2f9e0718fc30f09b89731c58b99f771212f90a9adac632da4b4434",
+        "url": "/api/v1/collected-papers/oeis-a351858-bala-coefficient-identity/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T16:36:25.656240967Z",
+      "record": "oeis-a351858-bala-coefficient-identity",
+      "repository_name": "oeis-a351858-bala-coefficient-identity",
+      "source": {
+        "bytes": 16520,
+        "sha256": "0e0fd1b177741cb10d1d872afed14f28a0c5c43ba3f5a72de9296686b0cc5ea0",
+        "url": "/api/v1/collected-papers/oeis-a351858-bala-coefficient-identity/files/source?version=2"
+      },
+      "title": "Positive expansions for Bala's trinomial coefficient conjecture and alternative proofs of the Bajaj–Burns obstructions",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T16:36:25.656240967Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "oeis-a351858-bala-coefficient-identity"
+    },
+    {
       "abstract_text": "We refute the adjacent-column Conjecture and prove the terminal-column Conjecture in the FORMULA section of Peter Kagey's OEIS entry A378495, revision #70 of October 17, 2026. For n>=5 the corrected adjacent difference is n!/[2(n-2)]=abs(A238474(n-3)); at n=4 it is 3. The literal conjecture fails at n=5, where its sides are 20 and 6. The earliest proof found of the row gcd, both differences and the index correction is Lien-Hung Su, DOI 10.5281/zenodo.23445724 v1 (October 18, 2026), Theorem 7.3, Proposition 7.4 and Remark 7.5; Ahaan Kallat gives a later independent proof in arXiv:2610.40342v1 (October 29, 2026), Theorem 4.1. This note gives a self-contained treatment of the differences and their boundary.",
       "authors": [
         {
@@ -4891,6 +5267,53 @@
       "work": "okada-2020-premerged-determinant-nonpalindromic"
     },
     {
+      "abstract_text": "Extending Crocker's Fermat-number covering argument (1971, Lemma I, p. 104), we prove the conjecture posed by Thomas Ordowski in the first COMMENTS line of OEIS A369378, revision 40 (13 February 2024): 2^(2^n+1)-1+2^k is not prime when n>0 and 0<=k<2^n. The divisor is the Fermat number indexed by the exponent of 2 in k>0; the case k=0 is a power of 2. An exact greatest-common-divisor identity extends the obstruction to every positive k not divisible by 2^n and gives the corresponding restriction for absolute differences from 2^(2^n-1)-1. The latter recovers a special case of Crocker's 1971 Lemma I and isolates the residue class not covered in Ordowski's related absolute-difference conjecture. The arguments do not require Fermat numbers to be prime.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Arith/Primes/OeisA369378FermatCovering.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 81129,
+        "sha256": "be046af7c9fcee71b06b0eea4dbb18c219fabf7c4a1aed5b9c256d362f99a17b",
+        "url": "/api/v1/collected-papers/ordowski/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T17:23:20.534086569Z",
+      "record": "ordowski",
+      "repository_name": "ordowski",
+      "source": {
+        "bytes": 11587,
+        "sha256": "9a7a4910253b83791676d994f24d83805bca2698dac4e98dcc38233b65cd41f0",
+        "url": "/api/v1/collected-papers/ordowski/files/source?version=2"
+      },
+      "title": "Exact Fermat-divisor formulas for Ordowski's prime-offset conjecture, extending Crocker's covering method",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T17:23:20.534086569Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "ordowski"
+    },
+    {
       "abstract_text": "We prove Ridouane Oudra's cubic floor conjecture, posed on October 6, 2023 in the FORMULA field of OEIS A248186, revision 18, and give an alternative proof of the tetrahedral counting formula contributed by Chai Wah Wu to A056556 on November 4, 2024 and treated in his 2025 article, Section 4, p.22. The least positive index k for which 1/18-sum_{h=1}^k 1/[h(h+1)(h+2)(h+3)]<n^(-3) is floor(r*n+r^2/n-1) for n>2, where r=3^(-1/3). An integer-target cubic inversion also recovers Oudra's earlier tetrahedral formula. A congruence argument proves his quadratic conjecture in A248183. For both threshold sequences we obtain exact jump positions and complementary densities, and for the cubic jumps we characterize their deviations from the associated Beatty sequence.",
       "authors": [
         {
@@ -4949,9 +5372,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24412947",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24412948",
       "lean_source": {
         "revision": "256870690452e5629b1260ae620f2d647417e857",
         "url": "https://github.com/the-omega-institute/trureturing/blob/256870690452e5629b1260ae620f2d647417e857/D5/S1/Recurrence/Invariants/SomosFirstDualIntegrality.lean"
@@ -4983,6 +5406,53 @@
         }
       ],
       "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
+      "abstract_text": "For Freeman's Conjecture 7.1 (arXiv:1604.06755v2, 25 January 2017, p. 10; density in section 6, p. 8), we prove the sharp upper-limsup replacement bound 1 and extend the Fibonacci-prefix formula of de Luca, as recalled by Fischler (2006, section 1), to establish the separate Fibonacci equality for all positive integers m,r,s with r distinct from s. The density-one examples have bounded partial quotients and are not eventually periodic: increasing powers of whole prefixes force local length ratios to approach one. A block-code identity gives all qualifying Fibonacci prefixes, including the cases with a terminal digit 1 and with m=1. The upper-limsup density differs from the classical lower-liminf density.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "aec68a61276de81e1e122880cd5921bac6e8f070",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/aec68a61276de81e1e122880cd5921bac6e8f070/D5/S1/Depth/ContinuedFractions/FreemanPalindromicDensityRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 84754,
+        "sha256": "9c4157d94e5f28932fe5e8058d63aa20f9a0f99e3bbf65cd5ccf92a5250dc187",
+        "url": "/api/v1/collected-papers/palindromic-density/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T16:50:44.045633597Z",
+      "record": "palindromic-density",
+      "repository_name": "palindromic-density",
+      "source": {
+        "bytes": 15858,
+        "sha256": "5d68d8dc6d5b35e42667459f676c25cc69de3a3c47feae461a9ffef4a114f6a3",
+        "url": "/api/v1/collected-papers/palindromic-density/files/source?version=3"
+      },
+      "title": "Sharp upper-limsup density in Freeman's conjecture and an extension of the de Luca–Fischler Fibonacci formula",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T16:50:44.045633597Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "palindromic-density"
     },
     {
       "abstract_text": "We refute the conjectures in Section IV immediately after Theorems 1 and 3, Eqs. (10) and (12), of Peled, Te'eni, Carmi and Cohen, Scientific Reports 11, 2849 (2021), that filter normal form can be removed from their correlation-minor bounds. Explicit separable states give robust violations in dimensions 2 by 4 and 2 by D for 5<=D<=8, including positive-definite examples. For every D>=4 and every Schatten parameter, the sharp fourth-order separable bound without filter normal form is 1/(192 sqrt(3)), attained by tetrahedral qubit projectors paired with four orthogonal flags. No common-size pair of regular coherent degree-1 pure designs exists in dimensions 2 and D>=5. We also correct the missing square root in arXiv:2005.12079v2, Appendix D.5, Eq. (D31), using the known separable covariance inequality. The original filter-normal-form theorems retain their scope.",
@@ -5137,9 +5607,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24413801",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24413802",
       "lean_source": {
         "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
         "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"

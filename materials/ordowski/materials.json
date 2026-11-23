@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/ordowski/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/ordowski",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/ordowski/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "ordowski"
+}

@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/oeis-a351858-bala-coefficient-identity/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/oeis-a351858-bala-coefficient-identity",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/oeis-a351858-bala-coefficient-identity/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "oeis-a351858-bala-coefficient-identity"
+}

@@ -85,6 +85,12 @@
       "version": 4
     },
     {
+      "doi": "10.5281/zenodo.24413782",
+      "id": "bala337389",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24411944",
       "id": "balaper-a281181-phi2period",
       "kind": "collected",
@@ -165,6 +171,12 @@
     {
       "doi": "10.5281/zenodo.23935000",
       "id": "chiral-event-parity-minimality",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24414702",
+      "id": "clarisse-wocjan-2005-permutation-criteria-classification",
       "kind": "collected",
       "version": 2
     },
@@ -301,6 +313,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24414706",
+      "id": "hardin233163-king-arrays",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24409472",
       "id": "hardin240513-ladder-formulas",
       "kind": "collected",
@@ -315,6 +333,12 @@
     {
       "doi": "10.5281/zenodo.23904468",
       "id": "hexagon-perp-line-counterexamples",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24415599",
+      "id": "hsw17",
       "kind": "collected",
       "version": 2
     },
@@ -421,6 +445,18 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24414711",
+      "id": "larotonda-principal-log-distance",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24414717",
+      "id": "liu-wesolowski-2026-ordinary-fractional-evolution",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24407820",
       "id": "luschny-a323206",
       "kind": "collected",
@@ -465,6 +501,12 @@
     {
       "doi": "10.5281/zenodo.24407268",
       "id": "mathar-a386829-recurrence-dfinite",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24414721",
+      "id": "mathar-square-root-quotient-recurrence",
       "kind": "collected",
       "version": 2
     },
@@ -565,6 +607,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24413798",
+      "id": "oeis-a351858-bala-coefficient-identity",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23903309",
       "id": "oeis-a378495-difference-conjectures",
       "kind": "collected",
@@ -613,6 +661,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24415608",
+      "id": "ordowski",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24410613",
       "id": "oudra-a248186-cubic-floor",
       "kind": "collected",
@@ -623,6 +677,12 @@
       "id": "ovsienko-tabachnikov-first-dual-somos-integrality",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24414723",
+      "id": "palindromic-density",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.23920610",
@@ -799,6 +859,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-23T16:30:51.706260296Z",
+  "generated_at": "2026-11-23T17:30:16.516433662Z",
   "schema": "mathesis.archive-index.v1"
 }

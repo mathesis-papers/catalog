@@ -3724,6 +3724,302 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:bala337389:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/Combinatorics/PowerSeries/BalaA337389Diagonal.lean"
+      },
+      "lineage": "collected:bala337389:s1",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala337389",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\geq0$, the following is an identity in $\\mathbb Q[k]$:\n\\begin{equation}\n T(n,k)=[u^n]\\Phi_k(u)^n\n =\\sum_{j=0}^n\\binom{2n}{2j}\\binom{2j}{j}k^{n-j}.\n\\end{equation}\nIn particular it holds for every element $k$ of a characteristic-zero\nfield, including every nonnegative integer column of the source array.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A short proof of Bala's all-column conjecture using Wildon's binomial identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala337389"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:bala337389:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/Combinatorics/PowerSeries/BalaA337389Diagonal.lean"
+      },
+      "lineage": "collected:bala337389:s2",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala337389",
+      "scope": "in_scope",
+      "statement": "For $n\\geq0$,\n\\[\n T(n,0)=\\binom{2n}n,\\qquad T(n,4)=\\binom{4n}{2n}.\n\\]\nFor nonnegative integer $k$, $T(n,k)$ is a nonnegative integer.\nThe array in OEIS A337419 equals $T(n,-k)$; hence its column $k$\nalso has the diagonal description $[u^n]\\Phi_{-k}(u)^n$.\nThe main diagonal in A337388 is $T(n,n)=[u^n]\\Phi_n(u)^n$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A short proof of Bala's all-column conjecture using Wildon's binomial identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala337389"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:bala337389:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/Combinatorics/PowerSeries/BalaA337389Diagonal.lean"
+      },
+      "lineage": "collected:bala337389:s3",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala337389",
+      "scope": "in_scope",
+      "statement": "The array in OEIS A337369 satisfies\n\\begin{equation}\n \\sum_{n\\geq0}U(n,k)t^n\n =\\sqrt{\\frac{2}{\\Delta_k(t)(1+(k-4)t+d_k(t))}}.\n\\end{equation}\nIt also has the polynomial integral description\n$U(n,k)=(2n+1)\\int_0^1T(n,kr^2)\\,dr$,\nwhere the integral acts term by term on a polynomial in $r$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A short proof of Bala's all-column conjecture using Wildon's binomial identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala337389"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:bala337389:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/Combinatorics/PowerSeries/BalaA337389Diagonal.lean"
+      },
+      "lineage": "collected:bala337389:s4",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala337389",
+      "scope": "in_scope",
+      "statement": "For every integer $k$, prime $p$, and integers $m,r\\geq1$,\n\\[\n T(mp^r,k)\\equiv T(mp^{r-1},k)\\pmod {p^r}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A short proof of Bala's all-column conjecture using Wildon's binomial identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala337389"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:bala337389:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/Combinatorics/PowerSeries/BalaA337389Diagonal.lean"
+      },
+      "lineage": "collected:bala337389:s5",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala337389",
+      "scope": "in_scope",
+      "statement": "For $m,r\\geq1$,\n\\[\n T(mp^r,k)\\equiv T(mp^{r-1},k)\\pmod {p^{2r}}\n\\]\nholds for $k=2$ and every odd prime $p$, and for $k=1,3$ and\nevery prime $p\\geq5$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A short proof of Bala's all-column conjecture using Wildon's binomial identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala337389"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:bala337389:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/Combinatorics/PowerSeries/BalaA337389Diagonal.lean"
+      },
+      "lineage": "collected:bala337389:s6",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala337389",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq0$, as an identity in $\\mathbb Z[k]$,\n\\begin{equation}\n T(n,k)^2=\\sum_{j=0}^{2n}(k-4)^{2n-j}\n             \\binom{2j}{j}^{\\!2}\\binom{2n+j}{2j}.\n\\end{equation}\nIn particular this proves the squared-coefficient conjecture in\nBala's May 2, 2022 block of A337390. It also yields the recorded\nsquare identities of A245926 and A243946 at $k=3,5$\n\\cite{columnthree,columnfive}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A short proof of Bala's all-column conjecture using Wildon's binomial identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala337389"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:bala337389:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/Combinatorics/PowerSeries/BalaA337389Diagonal.lean"
+      },
+      "lineage": "collected:bala337389:s7",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala337389",
+      "scope": "in_scope",
+      "statement": "For $n\\geq2$, the odd companion has $U(0,k)=1$, $U(1,k)=k+6$, and\n\\begin{align*}\n n(2n+1)(4n-3)U(n,k)\n ={}&(4n-1)\\bigl(4(k+4)n^2-2(k+4)n-k-2\\bigr)U(n-1,k)\\\\\n &{}-(k-4)^2(n-1)(2n-1)(4n+1)U(n-2,k).\n\\end{align*}\nThis is Manyama's August 29, 2020 recurrence in A337369.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A short proof of Bala's all-column conjecture using Wildon's binomial identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala337389"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:bala337389:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3378450a2176909e857354ab064dde6ec7679b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/Combinatorics/PowerSeries/BalaA337389Diagonal.lean"
+      },
+      "lineage": "collected:bala337389:s8",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala337389",
+      "scope": "in_scope",
+      "statement": "For each fixed real $k>0$,\n\\[\n U(n,k)\\sim\\frac{(2+\\sqrt k)^{2n+3/2}}{\\sqrt{8k\\pi n}}.\n\\]\nFor any real sequence $b_n\\geq2$ with $b_n=o(n)$,\n\\[\n T(n,b_n^2)\\sim\\frac{(b_n+2)^{2n+1/2}}{\\sqrt{8\\pi n}}.\n\\]\nIn particular the two displayed equivalents for the main diagonal\nin A337388 follow:\n\\begin{equation}\n T(n,n)\\sim\\frac{(2+\\sqrt n)^{2n+1/2}}{\\sqrt{8\\pi n}}\n \\sim\\frac{e^{4\\sqrt n-4}n^{n-1/4}}{\\sqrt{8\\pi}}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A short proof of Bala's all-column conjecture using Wildon's binomial identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala337389"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:balaper-a281181-phi2period:3:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -7666,6 +7962,446 @@
       "toolchain": null,
       "version": 2,
       "work": "chiral-event-parity-minimality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+      },
+      "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s1",
+      "macros": {
+        "\\R": "\\mathcal R",
+        "\\bits": "\\{0,1\\}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\norm": "\\lVert #1\\rVert",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+      "scope": "in_scope",
+      "statement": "For $r\\geq1$ and $d\\geq2$, permutations $\\sigma,\\mu\\in S_{2r}$ are\nnorm dependent if and only if\n\\begin{equation}\n S_\\mu\\in\\{S_\\sigma,C(S_\\sigma),J(S_\\sigma),CJ(S_\\sigma)\\}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+      },
+      "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s10",
+      "macros": {
+        "\\R": "\\mathcal R",
+        "\\bits": "\\{0,1\\}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\norm": "\\lVert #1\\rVert",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+      "scope": "in_scope",
+      "statement": "For $r\\geq1$ and $d\\geq2$ there are $2^{r-1}-1$ nontrivial\npartial-transpose criteria, up to global transpose. Their\nentanglement-detection sets are pairwise incomparable.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+      },
+      "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s2",
+      "macros": {
+        "\\R": "\\mathcal R",
+        "\\bits": "\\{0,1\\}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\norm": "\\lVert #1\\rVert",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+      "scope": "in_scope",
+      "statement": "The nonzero singular values of their rearrangements are as follows:\n\\begin{center}\n\\begin{tabular}{lll}\n\\toprule\nState & Label condition & Nonzero singular values\\\\\n\\midrule\n$M_k$ & $a_k=b_k$ & $1/\\sqrt2$\\\\\n$M_k$ & $a_k\\ne b_k$ & $1/2,\\ 1/2$\\\\\n$B_{kl}$ & $D(x_k,x_l)=0$ & $1$\\\\\n$B_{kl}$ & $D(x_k,x_l)=1$ & $1/\\sqrt2,\\ 1/\\sqrt2$\\\\\n$B_{kl}$ & $D(x_k,x_l)=2$ & $1/2,\\ 1/2,\\ 1/2,\\ 1/2$\\\\\n\\bottomrule\n\\end{tabular}\n\\end{center}\nIn particular, the mixed-state trace norms distinguish equal-side from\nopposite-side labels, and the Bell-state trace norm is $2^{D(x_k,x_l)/2}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+      },
+      "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s3",
+      "macros": {
+        "\\R": "\\mathcal R",
+        "\\bits": "\\{0,1\\}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\norm": "\\lVert #1\\rVert",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+      "scope": "in_scope",
+      "statement": "Two families $x_k,y_k\\in\\bits^2$ with the same equal-side parties and\nthe same distances $D(x_k,x_l)=D(y_k,y_l)$ for all $k,l$ differ by one\nglobal coordinate exchange and one global simultaneous bit complement.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+      },
+      "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s4",
+      "macros": {
+        "\\R": "\\mathcal R",
+        "\\bits": "\\{0,1\\}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\norm": "\\lVert #1\\rVert",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+      "scope": "in_scope",
+      "statement": "For fixed $r\\geq1$, $d\\geq2$, equality of two permutation norm functions\non the $r+\\binom r2$ states $M_k,B_{kl}$ is equivalent to equality on\nevery density matrix. The same four symmetries also characterize\nequality of the full singular-value lists on every density matrix.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+      },
+      "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s5",
+      "macros": {
+        "\\R": "\\mathcal R",
+        "\\bits": "\\{0,1\\}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\norm": "\\lVert #1\\rVert",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+      "scope": "in_scope",
+      "statement": "For two given permutations it suffices to compare $r$ mixed-state\nvalues and at most $r-1$ Bell-state values. If both equal-side sectors\nare nonempty, at most $2r-2$ values in total suffice.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+      },
+      "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s6",
+      "macros": {
+        "\\R": "\\mathcal R",
+        "\\bits": "\\{0,1\\}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\norm": "\\lVert #1\\rVert",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+      "scope": "in_scope",
+      "statement": "The exact number of norm-dependence classes, including the identity\ncriterion, is\n\\begin{equation}\n N_r=\\frac14\\left(\\binom{2r}{r}+2^r+\n       \\mathbf1_{2\\mid r}\\binom r{r/2}\\right),\\qquad r\\geq1.\n\\end{equation}\nThere are $N_r-1$ nontrivial classes. For $r=1,2,3,4$ these numbers\nare respectively $0,2,6,22$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+      },
+      "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s7",
+      "macros": {
+        "\\R": "\\mathcal R",
+        "\\bits": "\\{0,1\\}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\norm": "\\lVert #1\\rVert",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+      "scope": "in_scope",
+      "statement": "Theorem~\\ref{thm:main} and Corollary~\\ref{cor:finite} hold with the\ntrace norm replaced by any Schatten functional, $0<p\\leq\\infty$,\n$p\\ne2$. Corollary~\\ref{cor:adaptive} holds in the same range.\nFor $p=2$ all tensor-index permutations have the same norm\non every operator.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+      },
+      "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s8",
+      "macros": {
+        "\\R": "\\mathcal R",
+        "\\bits": "\\{0,1\\}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\norm": "\\lVert #1\\rVert",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+      "scope": "in_scope",
+      "statement": "Two permutations have equal ranks on every density matrix if and only\nif \\eqref{eq:orbit} holds. For every fixed $0<p\\leq\\infty$, $p\\ne2$,\nequality of Schatten functionals on positive-definite density matrices\nalready implies equality on all density matrices.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
+      },
+      "lineage": "collected:clarisse-wocjan-2005-permutation-criteria-classification:s9",
+      "macros": {
+        "\\R": "\\mathcal R",
+        "\\bits": "\\{0,1\\}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\norm": "\\lVert #1\\rVert",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "clarisse-wocjan-2005-permutation-criteria-classification",
+      "scope": "in_scope",
+      "statement": "If an additional party in density matrix $\\tau$ is left unchanged,\nthen for every $0<p\\leq\\infty$,\n\\[\n \\norm{(\\Lambda_\\sigma\\rho)\\otimes\\tau}_p\n   =\\norm{\\Lambda_\\sigma\\rho}_p\\norm{\\tau}_p.\n\\]\nThus the trace norm is unchanged for every density matrix $\\tau$;\nevery Schatten functional is unchanged when $\\tau$ is pure.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Schatten and rank extensions of Clarisse and Wocjan's permutation classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "clarisse-wocjan-2005-permutation-criteria-classification"
     },
     {
       "attribution": null,
@@ -13369,6 +14105,240 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:hardin233163-king-arrays:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "0a197c5f83db6039a3c1177b20d31df4bfe95cd9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0a197c5f83db6039a3c1177b20d31df4bfe95cd9/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233163KingStrip.lean"
+      },
+      "lineage": "collected:hardin233163-king-arrays:s1",
+      "macros": {
+        "\\N": "\\mathbb{N}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin233163-king-arrays",
+      "scope": "in_scope",
+      "statement": "For all integers $n,k\\geq2$,\n\\begin{equation}\n T(n,k)=2^{nk-4}\\bigl(2^{n-2}+2^{k-2}-1\\bigr).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Orrick's rectangle count to Barker's king-strip conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin233163-king-arrays"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hardin233163-king-arrays:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0a197c5f83db6039a3c1177b20d31df4bfe95cd9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0a197c5f83db6039a3c1177b20d31df4bfe95cd9/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233163KingStrip.lean"
+      },
+      "lineage": "collected:hardin233163-king-arrays:s2",
+      "macros": {
+        "\\N": "\\mathbb{N}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin233163-king-arrays",
+      "scope": "in_scope",
+      "statement": "For $n,k\\geq2$, the number of proper colourings of the king rectangle\nwith four named colours is $24(2^{n-2}+2^{k-2}-1)$.\nMoreover $T(n,k)=T(k,n)$, and\n$T(m,m)=2^{m^2-4}(2^{m-1}-1)$ for $m\\geq2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Orrick's rectangle count to Barker's king-strip conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin233163-king-arrays"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hardin233163-king-arrays:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0a197c5f83db6039a3c1177b20d31df4bfe95cd9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0a197c5f83db6039a3c1177b20d31df4bfe95cd9/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233163KingStrip.lean"
+      },
+      "lineage": "collected:hardin233163-king-arrays:s3",
+      "macros": {
+        "\\N": "\\mathbb{N}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin233163-king-arrays",
+      "scope": "in_scope",
+      "statement": "The three-column counts satisfy\n\\begin{align}\n a(1)&=3, & a(n)&=8^{n-2}(2^n+4)\\quad(n\\geq2),\\\\\n a(n)&=24a(n-1)-128a(n-2)\\quad(n\\geq4),\\\\\n \\sum_{n\\geq0}a(n)x^n\n &=\\frac{x(3-64x+288x^2)}{(1-8x)(1-16x)}\n \\quad\\hbox{in }\\mathbb{Q}[[x]].\n\\end{align}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Orrick's rectangle count to Barker's king-strip conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin233163-king-arrays"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hardin233163-king-arrays:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0a197c5f83db6039a3c1177b20d31df4bfe95cd9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0a197c5f83db6039a3c1177b20d31df4bfe95cd9/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233163KingStrip.lean"
+      },
+      "lineage": "collected:hardin233163-king-arrays:s4",
+      "macros": {
+        "\\N": "\\mathbb{N}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin233163-king-arrays",
+      "scope": "in_scope",
+      "statement": "For $k\\geq3$ and $n\\geq4$,\n\\begin{equation}\n T(n,k)=3\\cdot2^kT(n-1,k)-2^{2k+1}T(n-2,k).\n\\end{equation}\nFor $n\\geq2$, $T(n,2)=8^{n-2}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Orrick's rectangle count to Barker's king-strip conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin233163-king-arrays"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hardin233163-king-arrays:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0a197c5f83db6039a3c1177b20d31df4bfe95cd9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0a197c5f83db6039a3c1177b20d31df4bfe95cd9/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233163KingStrip.lean"
+      },
+      "lineage": "collected:hardin233163-king-arrays:s5",
+      "macros": {
+        "\\N": "\\mathbb{N}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin233163-king-arrays",
+      "scope": "in_scope",
+      "statement": "For every $m\\geq1$ (Britnell--Wildon's path count),\n\\begin{equation}\n L(m)=\\sum_{j=1}^{\\min(4,m)}2^{m-j}S(m-1,j-1).\n\\end{equation}\nFor $m\\geq5$, $L(m)=12L(m-1)-44L(m-2)+48L(m-3)$.\nFor $m\\geq2$ and as a formal power series, respectively,\n\\begin{align}\nL(m)&=\\frac{2^{m-6}}{9}(90+9\\cdot2^m+2\\cdot3^m),\\\\\n\\sum_{m\\geq1}L(m)x^m\n &=\\frac{x(1-11x+35x^2-29x^3)}{(1-2x)(1-4x)(1-6x)}.\n\\end{align}\nThus Barker's two conjectures in A233162 are consequences of the path\nenumeration \\cite{path-source,britnell-wildon}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Orrick's rectangle count to Barker's king-strip conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin233163-king-arrays"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hardin233163-king-arrays:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0a197c5f83db6039a3c1177b20d31df4bfe95cd9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0a197c5f83db6039a3c1177b20d31df4bfe95cd9/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233163KingStrip.lean"
+      },
+      "lineage": "collected:hardin233163-king-arrays:s6",
+      "macros": {
+        "\\N": "\\mathbb{N}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin233163-king-arrays",
+      "scope": "in_scope",
+      "statement": "For $k\\geq2$, put $C_k=2^{k-2}-1$. In $\\mathbb Q[[x]]$,\n\\begin{equation}\n \\sum_{n\\geq1}T(n,k)x^n\n =L(k)x+2^{2k-4}x^2\\left(\n \\frac{1}{1-2^{k+1}x}+\\frac{C_k}{1-2^kx}\\right).\n\\end{equation}\nThis proves all the generating-function and closed-form conjectures\nin A233163--A233167 \\cite{barker-source,siblings}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Orrick's rectangle count to Barker's king-strip conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin233163-king-arrays"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:hardin240513-ladder-formulas:3:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -14319,6 +15289,375 @@
       "toolchain": null,
       "version": 2,
       "work": "hexagon-perp-line-counterexamples"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:hsw17:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "439c57ca26fd0c0d2de1f48bc492717bc6f7597c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/439c57ca26fd0c0d2de1f48bc492717bc6f7597c/D5/S3/Combinatorics/Partitions/HemmerStraubWestremWeightedAverage.lean"
+      },
+      "lineage": "collected:hsw17:s1",
+      "macros": {
+        "\\CT": "\\operatorname{CT}",
+        "\\Ev": "\\operatorname{Ev}",
+        "\\R": "\\mathcal R"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hsw17",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\geq1$,\n\\[\n L_n=B_n=\n \\begin{cases}\\displaystyle\\binom{n/2+2}{2},&n\\text{ even},\\\\\n 0,&n\\text{ odd}.\n \\end{cases}\n\\]\nWith the empty-partition convention $L_0=B_0=1$, the generating function is\n\\begin{equation}\n \\sum_{n\\geq0}L_nt^n=\\sum_{n\\geq0}B_nt^n=(1-t^2)^{-3}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Weighted and rank-two extensions of Patel's proof: Hemmer–Straub–Westrem's Ev character-average conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "hsw17"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hsw17:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "439c57ca26fd0c0d2de1f48bc492717bc6f7597c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/439c57ca26fd0c0d2de1f48bc492717bc6f7597c/D5/S3/Combinatorics/Partitions/HemmerStraubWestremWeightedAverage.lean"
+      },
+      "lineage": "collected:hsw17:s2",
+      "macros": {
+        "\\CT": "\\operatorname{CT}",
+        "\\Ev": "\\operatorname{Ev}",
+        "\\R": "\\mathcal R"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hsw17",
+      "scope": "in_scope",
+      "statement": "For every symmetric homogeneous $F\\in\\mathbb Q[x,y,z]$ of degree $m\\geq0$,\n\\begin{equation}\n E_m(F)=([u^m]-[u^{m+1}])F(u^2,u,1).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Weighted and rank-two extensions of Patel's proof: Hemmer–Straub–Westrem's Ev character-average conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "hsw17"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hsw17:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "439c57ca26fd0c0d2de1f48bc492717bc6f7597c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/439c57ca26fd0c0d2de1f48bc492717bc6f7597c/D5/S3/Combinatorics/Partitions/HemmerStraubWestremWeightedAverage.lean"
+      },
+      "lineage": "collected:hsw17:s3",
+      "macros": {
+        "\\CT": "\\operatorname{CT}",
+        "\\Ev": "\\operatorname{Ev}",
+        "\\R": "\\mathcal R"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hsw17",
+      "scope": "in_scope",
+      "statement": "For every $\\lambda=(a_1,\\ldots,a_r)\\vdash n$ with $n\\geq1$, put\n$Q_\\lambda(u)=\\prod_{i=1}^r(u^{-a_i}+1+u^{a_i})$. Then\n\\begin{equation}\n L_\\lambda=B_\\lambda=2^r\\CT_u\\bigl((1-u^{-1})Q_\\lambda(u)\\bigr).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Weighted and rank-two extensions of Patel's proof: Hemmer–Straub–Westrem's Ev character-average conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "hsw17"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hsw17:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "439c57ca26fd0c0d2de1f48bc492717bc6f7597c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/439c57ca26fd0c0d2de1f48bc492717bc6f7597c/D5/S3/Combinatorics/Partitions/HemmerStraubWestremWeightedAverage.lean"
+      },
+      "lineage": "collected:hsw17:s4",
+      "macros": {
+        "\\CT": "\\operatorname{CT}",
+        "\\Ev": "\\operatorname{Ev}",
+        "\\R": "\\mathcal R"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hsw17",
+      "scope": "in_scope",
+      "statement": "For $m\\geq0$ and positive integers $k,r$,\n\\[\n \\sum_{\\mu\\in\\mathcal S_3(m)} f^\\mu=R_m,\\qquad\n L_{(k^r)}=B_{(k^r)}=\n \\begin{cases}2^rR_r,&k=1,\\\\2^rT_r,&k>1.\\end{cases}\n\\]\nThe first formula follows already from Meilhan--Suzuki\n\\cite[Lemma 3.7]{MS} and Okada~\\cite[Corollary 5.5(3)]{O}.\nFor the second, the rectangular $k=1$ case is recorded in Wallach's OEIS\ncomment dated 20 August 2014~\\cite{OEIS}; both $\\Ev$ sums and the $k>1$\ncase are proved in~\\cite[Sections 4--5]{HSW}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Weighted and rank-two extensions of Patel's proof: Hemmer–Straub–Westrem's Ev character-average conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "hsw17"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hsw17:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "439c57ca26fd0c0d2de1f48bc492717bc6f7597c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/439c57ca26fd0c0d2de1f48bc492717bc6f7597c/D5/S3/Combinatorics/Partitions/HemmerStraubWestremWeightedAverage.lean"
+      },
+      "lineage": "collected:hsw17:s5",
+      "macros": {
+        "\\CT": "\\operatorname{CT}",
+        "\\Ev": "\\operatorname{Ev}",
+        "\\R": "\\mathcal R"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hsw17",
+      "scope": "in_scope",
+      "statement": "If $\\gcd(a_1,\\ldots,a_r)>1$, then\n\\[\n L_\\lambda=B_\\lambda\n =2^r\\#\\{(\\epsilon_1,\\ldots,\\epsilon_r)\\in\\{-1,0,1\\}^r:\n                   \\textstyle\\sum_i\\epsilon_i a_i=0\\}\\geq0.\n\\]\nThis extends the central-trinomial case to mixed part sizes.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Weighted and rank-two extensions of Patel's proof: Hemmer–Straub–Westrem's Ev character-average conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "hsw17"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hsw17:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "439c57ca26fd0c0d2de1f48bc492717bc6f7597c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/439c57ca26fd0c0d2de1f48bc492717bc6f7597c/D5/S3/Combinatorics/Partitions/HemmerStraubWestremWeightedAverage.lean"
+      },
+      "lineage": "collected:hsw17:s6",
+      "macros": {
+        "\\CT": "\\operatorname{CT}",
+        "\\Ev": "\\operatorname{Ev}",
+        "\\R": "\\mathcal R"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hsw17",
+      "scope": "in_scope",
+      "statement": "For $\\lambda\\vdash n$ and $\\mu\\vdash2n$ with $\\mu_1>n$,\n\\[\n \\sum_{\\tau\\in\\Ev(\\lambda)}(-1)^{\\ell(\\tau)}\\chi^\\mu_\\tau=0.\n\\]\nThis is the row-wise vanishing consequence of Westrem's\nfactorization~\\cite[Corollary 3.4]{W}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Weighted and rank-two extensions of Patel's proof: Hemmer–Straub–Westrem's Ev character-average conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "hsw17"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:hsw17:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "439c57ca26fd0c0d2de1f48bc492717bc6f7597c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/439c57ca26fd0c0d2de1f48bc492717bc6f7597c/D5/S3/Combinatorics/Partitions/HemmerStraubWestremWeightedAverage.lean"
+      },
+      "lineage": "collected:hsw17:s7",
+      "macros": {
+        "\\CT": "\\operatorname{CT}",
+        "\\Ev": "\\operatorname{Ev}",
+        "\\R": "\\mathcal R"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hsw17",
+      "scope": "in_scope",
+      "statement": "With $g_\\lambda(q)=\\prod_i q^{a_i}/(1+q^{a_i})$,\n\\begin{equation}\n \\sum_{n\\geq0}\\sum_{\\lambda\\vdash n}\n       \\frac{g_\\lambda(q)}{z_\\lambda}L_\\lambda\n =\\sum_{n\\geq0}\\sum_{\\lambda\\vdash n}\n       \\frac{g_\\lambda(q)}{z_\\lambda}B_\\lambda.\n\\end{equation}\nHere $L_\\varnothing=B_\\varnothing=1$.\nThis is the $N=1$ case of Amdeberhan's Conjecture 18,\nequation (6.2), page 16 of~\\cite{HSW} (arXiv Conjecture 6.2).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Weighted and rank-two extensions of Patel's proof: Hemmer–Straub–Westrem's Ev character-average conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "hsw17"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:hsw17:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "439c57ca26fd0c0d2de1f48bc492717bc6f7597c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/439c57ca26fd0c0d2de1f48bc492717bc6f7597c/D5/S3/Combinatorics/Partitions/HemmerStraubWestremWeightedAverage.lean"
+      },
+      "lineage": "collected:hsw17:s8",
+      "macros": {
+        "\\CT": "\\operatorname{CT}",
+        "\\Ev": "\\operatorname{Ev}",
+        "\\R": "\\mathcal R"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hsw17",
+      "scope": "in_scope",
+      "statement": "Let $w_k$ be elements of a commutative $\\mathbb Q$-algebra, with $t$ a\nformal variable. The two series\n$\\sum_{n\\geq0}t^n\\sum_{\\lambda\\vdash n}z_\\lambda^{-1}\n (\\prod_iw_{a_i})L_\\lambda$ and the corresponding series with $B_\\lambda$\nare equal, and their common value is\n\\[\n \\CT_u(1-u^{-1})\\exp\\!\\left(\n 2\\sum_{k\\geq1}\\frac{w_k t^k(u^k+1+u^{-k})}{k}\\right).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Weighted and rank-two extensions of Patel's proof: Hemmer–Straub–Westrem's Ev character-average conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "hsw17"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:hsw17:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "439c57ca26fd0c0d2de1f48bc492717bc6f7597c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/439c57ca26fd0c0d2de1f48bc492717bc6f7597c/D5/S3/Combinatorics/Partitions/HemmerStraubWestremWeightedAverage.lean"
+      },
+      "lineage": "collected:hsw17:s9",
+      "macros": {
+        "\\CT": "\\operatorname{CT}",
+        "\\Ev": "\\operatorname{Ev}",
+        "\\R": "\\mathcal R"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hsw17",
+      "scope": "in_scope",
+      "statement": "For every $\\lambda\\vdash n$, $n\\geq1$,\n\\[\n \\sum_{\\tau\\in\\Ev(\\lambda)}(-1)^{\\ell(\\tau)}\n        \\sum_{\\mu\\in\\mathcal R_5(2n)}\\chi^\\mu_\\tau\n =\\sum_{\\tau\\in\\Ev(\\lambda)}\n        \\sum_{\\mu\\in\\mathcal R_4^c(2n)}\\chi^\\mu_\\tau.\n\\]\nThus Questions 4 and 5 have affirmative answers also for $N=2$, and\nConjecture 18 holds for $N=2$ as an equality of formal $q$-series.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Weighted and rank-two extensions of Patel's proof: Hemmer–Straub–Westrem's Ev character-average conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "hsw17"
     },
     {
       "attribution": null,
@@ -19541,6 +20880,360 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:larotonda-principal-log-distance:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/QuadraticForms/LarotondaPrincipalLogDistanceRefutation.lean"
+      },
+      "lineage": "collected:larotonda-principal-log-distance:s1",
+      "macros": {
+        "\\HS": "\\mathrm{HS}",
+        "\\U": "\\mathrm U",
+        "\\diag": "\\operatorname{diag}",
+        "\\op": "\\mathrm{op}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "larotonda-principal-log-distance",
+      "scope": "in_scope",
+      "statement": "Let $n\\geq2$ and $-1/n<c\\ne0$. Define\n\\begin{gather*}\n \\varepsilon=\\frac{|c|}{4(1+c)},\\quad\n a=\\pi(1-\\varepsilon),\\quad b=\\frac{\\pi}{2}\\operatorname{sgn}(c),\\\\\n H=\\diag(a,b,0,\\ldots,0),\\quad\n H'=\\diag(a-2\\pi,b,0,\\ldots,0).\n\\end{gather*}\nThen $\\|iH\\|_{\\op}<\\pi$, $e^{iH'}=e^{iH}$, and\n\\begin{equation}\n d_{F_c}(I,e^{iH})\\leq F_c(iH')<F_c(iH).\n\\end{equation}\nConsequently, within the family \\eqref{eq:norm},\n\\eqref{eq:conjecture} holds for every admissible $z$ if and only if $c=0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Trace-coupled counterexamples to Larotonda's principal-log distance conjecture: beyond the Antezana-Larotonda-Varela theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "larotonda-principal-log-distance"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:larotonda-principal-log-distance:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/QuadraticForms/LarotondaPrincipalLogDistanceRefutation.lean"
+      },
+      "lineage": "collected:larotonda-principal-log-distance:s2",
+      "macros": {
+        "\\HS": "\\mathrm{HS}",
+        "\\U": "\\mathrm U",
+        "\\diag": "\\operatorname{diag}",
+        "\\op": "\\mathrm{op}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "larotonda-principal-log-distance",
+      "scope": "in_scope",
+      "statement": "Let $n\\geq2$, $c>0$, and let $P=\\diag(1,0,\\ldots,0)$.\nFor\n\\[\n \\frac{\\pi(1+c)}{1+nc}<\\theta<\\pi,\\qquad\n H_\\theta=\\theta I,\\qquad H_\\theta'=H_\\theta-2\\pi P,\n\\]\none has $e^{iH_\\theta'}=e^{iH_\\theta}$ and\n$d_{F_c}(I,e^{iH_\\theta})<F_c(iH_\\theta)$.\nFor every fixed $n\\geq2$ and every $r>\\pi/n$, there are $c>0$\nand such a counterexample with $\\|iH_\\theta\\|_{\\op}<r$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Trace-coupled counterexamples to Larotonda's principal-log distance conjecture: beyond the Antezana-Larotonda-Varela theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "larotonda-principal-log-distance"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:larotonda-principal-log-distance:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/QuadraticForms/LarotondaPrincipalLogDistanceRefutation.lean"
+      },
+      "lineage": "collected:larotonda-principal-log-distance:s3",
+      "macros": {
+        "\\HS": "\\mathrm{HS}",
+        "\\U": "\\mathrm U",
+        "\\diag": "\\operatorname{diag}",
+        "\\op": "\\mathrm{op}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "larotonda-principal-log-distance",
+      "scope": "in_scope",
+      "statement": "Principal-log minimality for the full normalized Ad-invariant class\nfails even when $\\|z\\|_{\\op}<\\pi/2$. In dimension three take $c=4$ and\n\\[\n H=\\pi\\diag(2/5,2/5,2/5),\\qquad H'=\\pi\\diag(-8/5,2/5,2/5).\n\\]\nThen\n\\[\n \\|iH\\|_{\\op}=2\\pi/5<\\pi/2,\\qquad\n F_4(iH)^2=156\\pi^2/25,\\quad\n F_4(iH')^2=136\\pi^2/25,\n\\]\nand $d_{F_4}(I,e^{iH})<F_4(iH)$.\nMoreover, no positive spectral radius independent of dimension makes\nprincipal-log minimality valid for all the norms $F_4$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Trace-coupled counterexamples to Larotonda's principal-log distance conjecture: beyond the Antezana-Larotonda-Varela theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "larotonda-principal-log-distance"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:liu-wesolowski-2026-ordinary-fractional-evolution:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Quantum/QuantumChannels/FractionalEvolutionPhaseObstruction.lean"
+      },
+      "lineage": "collected:liu-wesolowski-2026-ordinary-fractional-evolution:s1",
+      "macros": {
+        "\\A": "\\mathcal A",
+        "\\E": "\\mathcal E",
+        "\\bra": "\\langle #1\\rvert",
+        "\\id": "\\mathrm{id}",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\spec": "\\operatorname{spec}",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "liu-wesolowski-2026-ordinary-fractional-evolution",
+      "scope": "in_scope",
+      "statement": "Fix $0<t<1$, $0<\\delta<\\pi$ and $d\\geq2$.\nEvery circuit~\\eqref{eq:circuit} satisfies\n\\[\n e(\\A;t,\\delta)\\geq\\sin(\\pi t).\n\\]\nThe same lower bound holds for a deterministic algorithm built from ordinary\noracle channels, oracle-independent quantum operations and classical\nconditioning, when its system output is compared to $\\E_{e^{itH}}$.\nNo oracle-dependent auxiliary input is supplied in either model.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Quantitative extensions of Araújo et al.'s phase obstruction for Liu, Wesołowski, Thompson, Gu and Pira's uncontrolled fractional-evolution question",
+      "toolchain": null,
+      "version": 3,
+      "work": "liu-wesolowski-2026-ordinary-fractional-evolution"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:liu-wesolowski-2026-ordinary-fractional-evolution:3:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Quantum/QuantumChannels/FractionalEvolutionPhaseObstruction.lean"
+      },
+      "lineage": "collected:liu-wesolowski-2026-ordinary-fractional-evolution:s2",
+      "macros": {
+        "\\A": "\\mathcal A",
+        "\\E": "\\mathcal E",
+        "\\bra": "\\langle #1\\rvert",
+        "\\id": "\\mathrm{id}",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\spec": "\\operatorname{spec}",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "liu-wesolowski-2026-ordinary-fractional-evolution",
+      "scope": "in_scope",
+      "statement": "In the full-output unitary-circuit model~\\eqref{eq:circuit}, put\n$s=\\min\\{t,1-t\\}$. Under Theorem~\\ref{thm:floor}'s hypotheses,\n\\[\n e(\\A;t,\\delta)\\geq \\sqrt{2-2|\\cos(\\pi t)|}\n =2\\sin(\\pi s/2).\n\\]\nIn particular the square-root error is at least $\\sqrt2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Quantitative extensions of Araújo et al.'s phase obstruction for Liu, Wesołowski, Thompson, Gu and Pira's uncontrolled fractional-evolution question",
+      "toolchain": null,
+      "version": 3,
+      "work": "liu-wesolowski-2026-ordinary-fractional-evolution"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:liu-wesolowski-2026-ordinary-fractional-evolution:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Quantum/QuantumChannels/FractionalEvolutionPhaseObstruction.lean"
+      },
+      "lineage": "collected:liu-wesolowski-2026-ordinary-fractional-evolution:s3",
+      "macros": {
+        "\\A": "\\mathcal A",
+        "\\E": "\\mathcal E",
+        "\\bra": "\\langle #1\\rvert",
+        "\\id": "\\mathrm{id}",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\spec": "\\operatorname{spec}",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "liu-wesolowski-2026-ordinary-fractional-evolution",
+      "scope": "in_scope",
+      "statement": "The ordinary-access question in Section V of~\\cite{liu} has answer no:\nthere is no arbitrarily accurate uniform implementation, and hence no\nmatching uniform query upper bound. At $d=2$, $t=\\delta=1/2$ and\n$\\varepsilon=1/4$, no finite ordinary-query circuit succeeds.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Quantitative extensions of Araújo et al.'s phase obstruction for Liu, Wesołowski, Thompson, Gu and Pira's uncontrolled fractional-evolution question",
+      "toolchain": null,
+      "version": 3,
+      "work": "liu-wesolowski-2026-ordinary-fractional-evolution"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:liu-wesolowski-2026-ordinary-fractional-evolution:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Quantum/QuantumChannels/FractionalEvolutionPhaseObstruction.lean"
+      },
+      "lineage": "collected:liu-wesolowski-2026-ordinary-fractional-evolution:s4",
+      "macros": {
+        "\\A": "\\mathcal A",
+        "\\E": "\\mathcal E",
+        "\\bra": "\\langle #1\\rvert",
+        "\\id": "\\mathrm{id}",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\spec": "\\operatorname{spec}",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "liu-wesolowski-2026-ordinary-fractional-evolution",
+      "scope": "in_scope",
+      "statement": "Let $E_*(t,\\delta,d)$ be the infimum of~\\eqref{eq:error} over all finite\ncircuits, all finite workspaces and all query counts. If\n$d\\geq2$, $0<\\delta<\\pi$ and $0<t<1$, then\n\\[\n 2\\sin(\\pi s/2)\\leq E_*(t,\\delta,d)\n \\leq\\min\\{2,(2\\pi-\\delta)s\\},\\qquad s=\\min\\{t,1-t\\}.\n\\]\nThus $E_*=\\Theta(s)$ with absolute constants. At $t=0$ and $t=1$ the\nerror is zero, using respectively zero queries and one ordinary query.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Quantitative extensions of Araújo et al.'s phase obstruction for Liu, Wesołowski, Thompson, Gu and Pira's uncontrolled fractional-evolution question",
+      "toolchain": null,
+      "version": 3,
+      "work": "liu-wesolowski-2026-ordinary-fractional-evolution"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:liu-wesolowski-2026-ordinary-fractional-evolution:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Quantum/QuantumChannels/FractionalEvolutionPhaseObstruction.lean"
+      },
+      "lineage": "collected:liu-wesolowski-2026-ordinary-fractional-evolution:s5",
+      "macros": {
+        "\\A": "\\mathcal A",
+        "\\E": "\\mathcal E",
+        "\\bra": "\\langle #1\\rvert",
+        "\\id": "\\mathrm{id}",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\spec": "\\operatorname{spec}",
+        "\\tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "liu-wesolowski-2026-ordinary-fractional-evolution",
+      "scope": "in_scope",
+      "statement": "Fix $d\\geq2$ and $0<\\delta<\\pi$. Let\n$f:[\\delta,2\\pi)\\to\\mathbb R$ be continuously differentiable, with the\none-sided interpretation at $\\delta$. The target channel\n$\\E_{e^{if(H)}}$ admits arbitrarily accurate uniform approximation from\nordinary queries, without an oracle-dependent auxiliary input, if and only if\n\\[\n f(\\theta)=m\\theta+b\\quad(\\delta\\leq\\theta<2\\pi)\n \\quad\\text{for some }m\\in\\mathbb Z,\\ b\\in\\mathbb R.\n\\]\nFor these functions, $|m|$ signed queries implement the target exactly.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Quantitative extensions of Araújo et al.'s phase obstruction for Liu, Wesołowski, Thompson, Gu and Pira's uncontrolled fractional-evolution question",
+      "toolchain": null,
+      "version": 3,
+      "work": "liu-wesolowski-2026-ordinary-fractional-evolution"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:luschny-a323206:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -21599,6 +23292,286 @@
       "toolchain": null,
       "version": 2,
       "work": "mathar-a386829-recurrence-dfinite"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:mathar-square-root-quotient-recurrence:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S1/Recurrence/Algebraic/MatharA128057ThreeTermRecurrence.lean"
+      },
+      "lineage": "collected:mathar-square-root-quotient-recurrence:s1",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[x^{#1}]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-square-root-quotient-recurrence",
+      "scope": "in_scope",
+      "statement": "Let $u,v,c\\in\\Q$, let $S\\in\\Q[[x]]$ be the unique series satisfying\n$S(0)=1$ and $S^2=1+cx^2$, and put\n\\[\n A(x)=(u+vx)S^{-1}=\\sum_{n\\geq0}a_nx^n,\n \\qquad H=cu^2+v^2.\n\\]\nThen, for $m\\geq0$,\n\\begin{equation}\n a_{2m}=u b_m,\\qquad a_{2m+1}=v b_m,\n \\qquad b_m=\\left(-\\frac c4\\right)^m\\binom{2m}{m}.\n\\end{equation}\nFor every integer $n\\geq2$,\n\\begin{equation}\n n\\bigl(Hn-2cu^2-v^2\\bigr)a_n\n +cuv\\,a_{n-1}\n +c(n-2)(Hn-cu^2)a_{n-2}=0.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Explicit proofs of Mathar's recurrence and Barker's Hankel formulas from Mathar's and Cigler's theorems",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-square-root-quotient-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:mathar-square-root-quotient-recurrence:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S1/Recurrence/Algebraic/MatharA128057ThreeTermRecurrence.lean"
+      },
+      "lineage": "collected:mathar-square-root-quotient-recurrence:s2",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[x^{#1}]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-square-root-quotient-recurrence",
+      "scope": "in_scope",
+      "statement": "The unique normalized square root of $1+4x^2$ has a two-sided inverse\nwith constant coefficient one. If\n$(1+x)/\\sqrt{1+4x^2}=\\sum_{n\\geq0}a_nx^n$, then\n\\begin{equation}\n n(5n-9)a_n+4a_{n-1}+4(5n-4)(n-2)a_{n-2}=0\\quad(n\\geq2),\n\\end{equation}\nand $a_{2m}=a_{2m+1}=(-1)^m\\binom{2m}{m}$.\nTogether with $a_0=a_1=1$, this recurrence determines the sequence uniquely.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Explicit proofs of Mathar's recurrence and Barker's Hankel formulas from Mathar's and Cigler's theorems",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-square-root-quotient-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:mathar-square-root-quotient-recurrence:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S1/Recurrence/Algebraic/MatharA128057ThreeTermRecurrence.lean"
+      },
+      "lineage": "collected:mathar-square-root-quotient-recurrence:s3",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[x^{#1}]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-square-root-quotient-recurrence",
+      "scope": "in_scope",
+      "statement": "For $n\\geq1$,\n\\[\n U_n=2^n\\prod_{k=0}^{n-1}\\left(\\frac{k+1}{2n}\\right)^{(-1)^k},\n \\qquad\n \\sum_{n\\geq0}U_{n+1}\\frac{x^n}{n!}=I_0(2x)+2I_1(2x),\n\\]\nwhere $I_0(2x)=\\sum_{m\\geq0}x^{2m}/(m!)^2$ and\n$I_1(2x)=\\sum_{m\\geq0}x^{2m+1}/(m!(m+1)!)$.\nThe integral formula in A128014 is valid as\n\\[\n U_n=\\frac1\\pi\\operatorname{PV}\\int_{-2}^2\n \\frac{t^{n-1}(1+t)}{\\sqrt{4-t^2}}\\,dt \\qquad(n\\geq0).\n\\]\nOnly $n=0$ requires the Cauchy principal value at zero.\nThe number of binary abelian squares of length $n$ is $U_n$ for even $n$\nand zero for odd $n$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Explicit proofs of Mathar's recurrence and Barker's Hankel formulas from Mathar's and Cigler's theorems",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-square-root-quotient-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:mathar-square-root-quotient-recurrence:2:s4",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S1/Recurrence/Algebraic/MatharA128057ThreeTermRecurrence.lean"
+      },
+      "lineage": "collected:mathar-square-root-quotient-recurrence:s4",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[x^{#1}]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-square-root-quotient-recurrence",
+      "scope": "in_scope",
+      "statement": "For $b_j=(-1)^j\\binom{2j}j$, put\n$D_m=\\det(b_{i+j})_{0\\leq i,j<m}$ and\n$E_m=\\det(b_{i+j+1}-b_{i+j})_{0\\leq i,j<m}$, with empty determinants one.\nFor $m\\geq1$,\n\\[\n D_m=2^{m-1},\\qquad E_m=(-1)^m2^{m-1}L_{2m}.\n\\]\nFor $b_j=\\binom{2j}j$ instead, $D_m=2^{m-1}$ and\n$E_m=2^m\\cos(\\pi m/3)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Explicit proofs of Mathar's recurrence and Barker's Hankel formulas from Mathar's and Cigler's theorems",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-square-root-quotient-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:mathar-square-root-quotient-recurrence:2:s5",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S1/Recurrence/Algebraic/MatharA128057ThreeTermRecurrence.lean"
+      },
+      "lineage": "collected:mathar-square-root-quotient-recurrence:s5",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[x^{#1}]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-square-root-quotient-recurrence",
+      "scope": "in_scope",
+      "statement": "We have $h_0=g_0=1$, and for $m\\geq1$,\n\\begin{align}\n h_{2m-1}&=(-1)^m2^{2m-2}L_{2m},& h_{2m}&=2h_{2m-1},\\\\\n g_{2m-1}&=2^{2m-1}\\cos(\\pi m/3),& g_{2m}&=2g_{2m-1}.\n\\end{align}\nThe Hankel transform of $B$ equals $h$. In particular Barker's\nempirical generating function in A128056 is valid:\n\\begin{equation}\n \\sum_{n\\geq0}h_nx^n=\n -\\frac{(2x-1)(4x^2-x+1)}{16x^4+12x^2+1}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Explicit proofs of Mathar's recurrence and Barker's Hankel formulas from Mathar's and Cigler's theorems",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-square-root-quotient-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:mathar-square-root-quotient-recurrence:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S1/Recurrence/Algebraic/MatharA128057ThreeTermRecurrence.lean"
+      },
+      "lineage": "collected:mathar-square-root-quotient-recurrence:s6",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[x^{#1}]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-square-root-quotient-recurrence",
+      "scope": "in_scope",
+      "statement": "Let $p_n=|g_n|$ and $q_n=h_n/p_n$. These are A128055 and A128053,\nrespectively. Put $\\delta_m=2$ if $3\\mid m$ and $\\delta_m=1$ otherwise.\nThen $q_0=p_0=1$, and for $m\\geq1$,\n\\[\n p_{2m-1}=2^{2m-2}\\delta_m,\\quad p_{2m}=2^{2m-1}\\delta_m,\n \\qquad q_{2m-1}=q_{2m}=\\frac{(-1)^mL_{2m}}{\\delta_m}.\n\\]\nIn particular Barker's empirical formula in A128053 is valid:\n\\[\n \\sum_{n\\geq0}q_nx^n=\n -\\frac{(x-1)(x^{10}-2x^9-5x^8+2x^7+9x^6+9x^4+2x^3-5x^2-2x+1)}\n {(x^4+3x^2+1)(x^8-3x^6+8x^4-3x^2+1)}.\n\\]\nThe trigonometric formula in that entry needs its factor\n$(-1)^{\\binom{n+1}2}$ to multiply both parity summands, not just the\neven one. With this correction it is valid for every $n\\geq0$,\nusing $F_{-1}=1$, $F_0=0$, $F_1=1$ for Fibonacci numbers.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Explicit proofs of Mathar's recurrence and Barker's Hankel formulas from Mathar's and Cigler's theorems",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-square-root-quotient-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:mathar-square-root-quotient-recurrence:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S1/Recurrence/Algebraic/MatharA128057ThreeTermRecurrence.lean"
+      },
+      "lineage": "collected:mathar-square-root-quotient-recurrence:s7",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[x^{#1}]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-square-root-quotient-recurrence",
+      "scope": "in_scope",
+      "statement": "In the named construction of A249095, interleave row $n$ of Pascal's\ntriangle with row $n-1$. Thus\n\\[\n T(n,2k)=\\binom nk\\ (0\\leq k\\leq n),\\qquad\n T(n,2k+1)=\\binom{n-1}k\\ (0\\leq k<n).\n\\]\nThen $T(n,n)=U_n$, and scaling column $k$ by $2^k$, as in A249307,\ngives diagonal $2^nU_n$, namely A249308~\\cite{interleaved}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Explicit proofs of Mathar's recurrence and Barker's Hankel formulas from Mathar's and Cigler's theorems",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-square-root-quotient-recurrence"
     },
     {
       "attribution": null,
@@ -26978,6 +28951,318 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:oeis-a351858-bala-coefficient-identity:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S1/Recurrence/BalaTrinomialCoefficientIdentity.lean"
+      },
+      "lineage": "collected:oeis-a351858-bala-coefficient-identity:s1",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a351858-bala-coefficient-identity",
+      "scope": "in_scope",
+      "statement": "For all nonnegative integers $m,n$,\n\\begin{equation}\n [x^n](1+x+x^2)^m(1+x)^{n-m}\n =\\sum_{j=0}^{\\lfloor n/2\\rfloor}\\binom mj\\binom{n-j}{j}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Positive expansions for Bala's trinomial coefficient conjecture and alternative proofs of the Bajaj–Burns obstructions",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a351858-bala-coefficient-identity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:oeis-a351858-bala-coefficient-identity:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S1/Recurrence/BalaTrinomialCoefficientIdentity.lean"
+      },
+      "lineage": "collected:oeis-a351858-bala-coefficient-identity:s2",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a351858-bala-coefficient-identity",
+      "scope": "in_scope",
+      "statement": "Bala's finite-sum conjecture holds for every $n\\geq0$:\n\\[\n a(n)=\\sum_{j=0}^{\\lfloor n/2\\rfloor}\\binom{3n}{j}\\binom{n-j}{j}.\n\\]\nIn particular, $a(n)$ is a positive integer, and its first six terms are\n$1,1,7,19,103,376$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Positive expansions for Bala's trinomial coefficient conjecture and alternative proofs of the Bajaj–Burns obstructions",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a351858-bala-coefficient-identity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:oeis-a351858-bala-coefficient-identity:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S1/Recurrence/BalaTrinomialCoefficientIdentity.lean"
+      },
+      "lineage": "collected:oeis-a351858-bala-coefficient-identity:s3",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a351858-bala-coefficient-identity",
+      "scope": "in_scope",
+      "statement": "For every $k\\geq1$ and $n\\geq0$,\n\\begin{equation}\n u_k(n)=\\sum_{j=0}^{\\lfloor n/k\\rfloor}\\binom{(k+1)n}{j}\n [x^{n-kj}]S_{k-1}(x)^{n-j}.\n\\end{equation}\nEvery $u_k(n)$ is a positive integer. In particular,\n$u_1(n)=\\binom{2n}{n}$ and\n\\[\n u_3(n)=\\sum_{j=0}^{\\lfloor n/3\\rfloor}\\binom{4n}{j}\n [x^{n-3j}](1+x+x^2)^{n-j}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Positive expansions for Bala's trinomial coefficient conjecture and alternative proofs of the Bajaj–Burns obstructions",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a351858-bala-coefficient-identity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:oeis-a351858-bala-coefficient-identity:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S1/Recurrence/BalaTrinomialCoefficientIdentity.lean"
+      },
+      "lineage": "collected:oeis-a351858-bala-coefficient-identity:s4",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a351858-bala-coefficient-identity",
+      "scope": "in_scope",
+      "statement": "For $n\\geq1$, the alternating sums in the two entries are\n\\begin{align}\n u_2(n)&=\\sum_{h=0}^{n}\\sum_{j=0}^{n-h}\n (-1)^{n-h-j}\\binom nh\\binom{3n}{j}\n \\binom{4n-2j-h-1}{n-h-j},\\\\\n u_3(n)&=\\sum_{i=0}^{n}\\sum_{j=0}^{n}\\sum_{h=0}^{j}\n (-1)^j\\binom{4n}{n-2i-j-h}\\binom{4n}{i}\n \\binom{3n+j-1}{j}\\binom jh.\n\\end{align}\nAt $n=0$, both sequences have value one.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Positive expansions for Bala's trinomial coefficient conjecture and alternative proofs of the Bajaj–Burns obstructions",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a351858-bala-coefficient-identity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:oeis-a351858-bala-coefficient-identity:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S1/Recurrence/BalaTrinomialCoefficientIdentity.lean"
+      },
+      "lineage": "collected:oeis-a351858-bala-coefficient-identity:s5",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a351858-bala-coefficient-identity",
+      "scope": "in_scope",
+      "statement": "Let $T_k(x)$ be the compositional inverse of $x/G_k(x)$, let\n$F_k(x)=T_k(x)/x$, and set $A_k(x)=\\sum_{n\\geq0}u_k(n)x^n$.\nThen\n\\begin{equation}\n A_k=1+x\\frac{F_k'}{F_k},\\qquad\n F_k S_{k-1}(xF_k)^k=S_k(xF_k)^{k+1}.\n\\end{equation}\nThus $A_k$ is algebraic over $\\mathbb Q(x)$, and\n\\[\n A_k(z)=\\operatorname{Diag}\\frac{1}{1-tG_k(x)}\n :=\\sum_{n\\geq0}[x^nt^n]\\frac{z^n}{1-tG_k(x)}.\n\\]\nThese statements include the reversion and diagonal formulas in both entries.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Positive expansions for Bala's trinomial coefficient conjecture and alternative proofs of the Bajaj–Burns obstructions",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a351858-bala-coefficient-identity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:oeis-a351858-bala-coefficient-identity:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S1/Recurrence/BalaTrinomialCoefficientIdentity.lean"
+      },
+      "lineage": "collected:oeis-a351858-bala-coefficient-identity:s6",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a351858-bala-coefficient-identity",
+      "scope": "in_scope",
+      "statement": "Let $H\\in1+x\\mathbb Z[[x]]$, let $c\\geq1$ be an integer and put\n$v(n)=[x^{cn}]H(x)^n$. For every prime $p$ and integers $n,r\\geq1$,\n\\[\n v(np^r)\\equiv v(np^{r-1})\\pmod{p^r}.\n\\]\nIn particular this holds for\n$v(n)=[x^{cn}]G_k(x)^{sn}$ for all $k,c\\geq1$ and $s\\in\\mathbb Z$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Positive expansions for Bala's trinomial coefficient conjecture and alternative proofs of the Bajaj–Burns obstructions",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a351858-bala-coefficient-identity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:oeis-a351858-bala-coefficient-identity:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S1/Recurrence/BalaTrinomialCoefficientIdentity.lean"
+      },
+      "lineage": "collected:oeis-a351858-bala-coefficient-identity:s7",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a351858-bala-coefficient-identity",
+      "scope": "in_scope",
+      "statement": "For any integer sequence $(g(n))_{n\\geq1}$, there is a unique\n$\\phi\\in1+x\\mathbb Q[[x]]$ such that $g(n)=[x^n]\\phi(x)^n$.\nThis $\\phi$ has integer coefficients if and only if $g$ satisfies the\nordinary Gauss congruences for every prime and all positive indices.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Positive expansions for Bala's trinomial coefficient conjecture and alternative proofs of the Bajaj–Burns obstructions",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a351858-bala-coefficient-identity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:oeis-a351858-bala-coefficient-identity:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S1/Recurrence/BalaTrinomialCoefficientIdentity.lean"
+      },
+      "lineage": "collected:oeis-a351858-bala-coefficient-identity:s8",
+      "macros": {
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a351858-bala-coefficient-identity",
+      "scope": "in_scope",
+      "statement": "For every prime $p\\geq5$,\n\\[\n u_{p-1}(p)=\\binom{2p-1}{p}+p^2(p-2),\\qquad\n u_p(p)=\\binom{2p-1}{p}+p^2.\n\\]\nSince $u_{p-1}(1)=u_p(1)=1$, both differences from the index-one value\nhave $p$-adic valuation exactly two. Thus \\eqref{eq:cubic} fails for\nthese parameter choices.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Positive expansions for Bala's trinomial coefficient conjecture and alternative proofs of the Bajaj–Burns obstructions",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a351858-bala-coefficient-identity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:oeis-a378495-difference-conjectures:3:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -28737,6 +31022,246 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:ordowski:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Arith/Primes/OeisA369378FermatCovering.lean"
+      },
+      "lineage": "collected:ordowski:s1",
+      "macros": {
+        "\\NN": "\\mathbb{N}",
+        "\\vTwo": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ordowski",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq1$ and $k,m\\geq0$,\n\\begin{align}\n \\gcd(A_n+2^k,M_n)&=G_n(k),\\\\\n \\gcd(\\lvert B_n-2^m\\rvert,M_n)&=G_n(m+1).\n\\end{align}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact Fermat-divisor formulas for Ordowski's prime-offset conjecture, extending Crocker's covering method",
+      "toolchain": null,
+      "version": 2,
+      "work": "ordowski"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:ordowski:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Arith/Primes/OeisA369378FermatCovering.lean"
+      },
+      "lineage": "collected:ordowski:s2",
+      "macros": {
+        "\\NN": "\\mathbb{N}",
+        "\\vTwo": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ordowski",
+      "scope": "in_scope",
+      "statement": "If $n\\geq1$ and $k>0$ is not divisible by $2^n$, then $A_n+2^k$\nis composite, with proper divisor $F_{\\vTwo(k)}$.\nThe number $A_n+1$ is also composite.\nIn particular, Ordowski's conjecture holds, and every existing value\n$a(n)$ for $n\\geq1$ is a positive multiple of $2^n$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact Fermat-divisor formulas for Ordowski's prime-offset conjecture, extending Crocker's covering method",
+      "toolchain": null,
+      "version": 2,
+      "work": "ordowski"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:ordowski:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Arith/Primes/OeisA369378FermatCovering.lean"
+      },
+      "lineage": "collected:ordowski:s3",
+      "macros": {
+        "\\NN": "\\mathbb{N}",
+        "\\vTwo": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ordowski",
+      "scope": "in_scope",
+      "statement": "Let $n\\geq3$ and $m>0$. If $2^n\\nmid m+1$, then\n$\\lvert B_n-2^m\\rvert$ is composite, with proper divisor\n$F_{\\vTwo(m+1)}$. In particular,\n\\[\n B_n-2^m>0\\quad\\Longrightarrow\\quad B_n-2^m\n \\text{ is composite}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact Fermat-divisor formulas for Ordowski's prime-offset conjecture, extending Crocker's covering method",
+      "toolchain": null,
+      "version": 2,
+      "work": "ordowski"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:ordowski:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Arith/Primes/OeisA369378FermatCovering.lean"
+      },
+      "lineage": "collected:ordowski:s4",
+      "macros": {
+        "\\NN": "\\mathbb{N}",
+        "\\vTwo": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ordowski",
+      "scope": "in_scope",
+      "statement": "Define $b(n)$ as in the fourth COMMENTS line of A369378: the least $k$\nsuch that $2^k-B_n$ is prime. If $n\\geq3$ and $b(n)$ exists, then\n\\[\n b(n)\\equiv-1\\pmod {2^n},\\qquad b(n)\\geq2^{n+1}-1.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact Fermat-divisor formulas for Ordowski's prime-offset conjecture, extending Crocker's covering method",
+      "toolchain": null,
+      "version": 2,
+      "work": "ordowski"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:ordowski:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Arith/Primes/OeisA369378FermatCovering.lean"
+      },
+      "lineage": "collected:ordowski:s5",
+      "macros": {
+        "\\NN": "\\mathbb{N}",
+        "\\vTwo": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ordowski",
+      "scope": "in_scope",
+      "statement": "For $j\\geq3$, put $d=2^j-2$. Then $2^{d+1}-2^k-1$ is composite\nfor every $0\\leq k<d$. Thus Chai Wah Wu's conjecture in the third\nCOMMENTS line of A138290 is true. Also $2^j-1$ belongs to A369375\nand $\\mathrm{A208083}(2^j-1)=0$ \\cite{wu,negative,count}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact Fermat-divisor formulas for Ordowski's prime-offset conjecture, extending Crocker's covering method",
+      "toolchain": null,
+      "version": 2,
+      "work": "ordowski"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:ordowski:2:s6",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Arith/Primes/OeisA369378FermatCovering.lean"
+      },
+      "lineage": "collected:ordowski:s6",
+      "macros": {
+        "\\NN": "\\mathbb{N}",
+        "\\vTwo": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ordowski",
+      "scope": "in_scope",
+      "statement": "For every positive integer $C$, each of the families\n$C2^k+1$ and $C+2^k$, $k\\geq1$, has infinitely many composite terms.\nConsequently the sets labelled $S3$ and $S4$ in A076336 are empty.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Exact Fermat-divisor formulas for Ordowski's prime-offset conjecture, extending Crocker's covering method",
+      "toolchain": null,
+      "version": 2,
+      "work": "ordowski"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:oudra-a248186-cubic-floor:2:s1",
       "kind": "paper",
       "label": "Lemma",
@@ -29340,6 +31865,318 @@
       "toolchain": null,
       "version": 2,
       "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:palindromic-density:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "aec68a61276de81e1e122880cd5921bac6e8f070",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/aec68a61276de81e1e122880cd5921bac6e8f070/D5/S1/Depth/ContinuedFractions/FreemanPalindromicDensityRefutation.lean"
+      },
+      "lineage": "collected:palindromic-density:s1",
+      "macros": {
+        "\\limsupop": "\\operatorname*{lim\\,sup}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "palindromic-density",
+      "scope": "in_scope",
+      "statement": "For all integers $m,r,s\\geq1$ with $r\\ne s$, there is a positive,\nnon-eventually-periodic $m$-palindromic sequence $A^{(m;r,s)}$ with digits in\n$\\{mr,r,ms,s\\}$ such that\n\\[\n d_m([A^{(m;r,s)}])=1.\n\\]\nConsequently, the maximum upper-limsup density among such sequences is\nexactly $1$, for every $m\\geq1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp upper-limsup density in Freeman's conjecture and an extension of the de Luca–Fischler Fibonacci formula",
+      "toolchain": null,
+      "version": 3,
+      "work": "palindromic-density"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:palindromic-density:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "aec68a61276de81e1e122880cd5921bac6e8f070",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/aec68a61276de81e1e122880cd5921bac6e8f070/D5/S1/Depth/ContinuedFractions/FreemanPalindromicDensityRefutation.lean"
+      },
+      "lineage": "collected:palindromic-density:s2",
+      "macros": {
+        "\\limsupop": "\\operatorname*{lim\\,sup}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "palindromic-density",
+      "scope": "in_scope",
+      "statement": "If $w$ is a nonempty positive word and\n\\[\n M(w)=\\prod_{a\\text{ in }w}\\begin{pmatrix}a&1\\\\1&0\\end{pmatrix}\n     =\\begin{pmatrix}p&b\\\\c&d\\end{pmatrix},\n\\]\nwhere the factors are in the order of the digits, then\n$[w]=p/c$, $[\\widetilde w]=p/b$, and $w$ is $m$-palindromic if and only if\n$b=mc$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp upper-limsup density in Freeman's conjecture and an extension of the de Luca–Fischler Fibonacci formula",
+      "toolchain": null,
+      "version": 3,
+      "work": "palindromic-density"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:palindromic-density:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "aec68a61276de81e1e122880cd5921bac6e8f070",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/aec68a61276de81e1e122880cd5921bac6e8f070/D5/S1/Depth/ContinuedFractions/FreemanPalindromicDensityRefutation.lean"
+      },
+      "lineage": "collected:palindromic-density:s3",
+      "macros": {
+        "\\limsupop": "\\operatorname*{lim\\,sup}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "palindromic-density",
+      "scope": "in_scope",
+      "statement": "For all parameters in Theorem~\\ref{thm:main}, the continued fraction $[A]$ is transcendental\nand has bounded partial quotients.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp upper-limsup density in Freeman's conjecture and an extension of the de Luca–Fischler Fibonacci formula",
+      "toolchain": null,
+      "version": 3,
+      "work": "palindromic-density"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:palindromic-density:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "aec68a61276de81e1e122880cd5921bac6e8f070",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/aec68a61276de81e1e122880cd5921bac6e8f070/D5/S1/Depth/ContinuedFractions/FreemanPalindromicDensityRefutation.lean"
+      },
+      "lineage": "collected:palindromic-density:s4",
+      "macros": {
+        "\\limsupop": "\\operatorname*{lim\\,sup}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "palindromic-density",
+      "scope": "in_scope",
+      "statement": "For every real $w>1$ and $w'>0$, the sequence $A$ satisfies Freeman's Conditions\n$(*)_w$, $(*)_{\\widehat w}$ and $(**)_{w,w'}$\n\\cite[Definitions~6.1--6.3, p.~7]{Freeman}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp upper-limsup density in Freeman's conjecture and an extension of the de Luca–Fischler Fibonacci formula",
+      "toolchain": null,
+      "version": 3,
+      "work": "palindromic-density"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:palindromic-density:3:s5",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "aec68a61276de81e1e122880cd5921bac6e8f070",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/aec68a61276de81e1e122880cd5921bac6e8f070/D5/S1/Depth/ContinuedFractions/FreemanPalindromicDensityRefutation.lean"
+      },
+      "lineage": "collected:palindromic-density:s5",
+      "macros": {
+        "\\limsupop": "\\operatorname*{lim\\,sup}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "palindromic-density",
+      "scope": "in_scope",
+      "statement": "An even-length prefix of $E_m(t)$ is $m$-palindromic precisely when its\nunderlying letter prefix is a palindrome. If $m\\geq2$, no odd-length prefix\nqualifies. If $m=1$, an odd-length prefix qualifies precisely when all its\ndigits are equal.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp upper-limsup density in Freeman's conjecture and an extension of the de Luca–Fischler Fibonacci formula",
+      "toolchain": null,
+      "version": 3,
+      "work": "palindromic-density"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:palindromic-density:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "aec68a61276de81e1e122880cd5921bac6e8f070",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/aec68a61276de81e1e122880cd5921bac6e8f070/D5/S1/Depth/ContinuedFractions/FreemanPalindromicDensityRefutation.lean"
+      },
+      "lineage": "collected:palindromic-density:s6",
+      "macros": {
+        "\\limsupop": "\\operatorname*{lim\\,sup}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "palindromic-density",
+      "scope": "in_scope",
+      "statement": "Let $t$ be a nonconstant infinite word of positive integers with infinitely\nmany palindromic prefixes, of positive lengths $p_0<p_1<\\cdots$.\nFor every $m\\geq1$,\n\\[\n d_m([E_m(t)])=\\limsup_i\\frac{p_i}{p_{i+1}}.\n\\]\nThe analogous identity holds for the lower liminf.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp upper-limsup density in Freeman's conjecture and an extension of the de Luca–Fischler Fibonacci formula",
+      "toolchain": null,
+      "version": 3,
+      "work": "palindromic-density"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:palindromic-density:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "aec68a61276de81e1e122880cd5921bac6e8f070",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/aec68a61276de81e1e122880cd5921bac6e8f070/D5/S1/Depth/ContinuedFractions/FreemanPalindromicDensityRefutation.lean"
+      },
+      "lineage": "collected:palindromic-density:s7",
+      "macros": {
+        "\\limsupop": "\\operatorname*{lim\\,sup}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "palindromic-density",
+      "scope": "in_scope",
+      "statement": "For all positive integers $m,r,s$ with $r\\ne s$,\n\\[\n d_m([F(m,r,s)])=\\varphi^{-1}.\n\\]\nIn fact all consecutive qualifying-prefix ratios tend to $\\varphi^{-1}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp upper-limsup density in Freeman's conjecture and an extension of the de Luca–Fischler Fibonacci formula",
+      "toolchain": null,
+      "version": 3,
+      "work": "palindromic-density"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:palindromic-density:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "aec68a61276de81e1e122880cd5921bac6e8f070",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/aec68a61276de81e1e122880cd5921bac6e8f070/D5/S1/Depth/ContinuedFractions/FreemanPalindromicDensityRefutation.lean"
+      },
+      "lineage": "collected:palindromic-density:s8",
+      "macros": {
+        "\\limsupop": "\\operatorname*{lim\\,sup}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "palindromic-density",
+      "scope": "in_scope",
+      "statement": "The right-hand upper bound in Abdullah--Hamoud\n\\cite[Lemma~4.3, equation~(7), pp.~7--8]{AH} is false for their displayed\nupper-limsup convention, even for non-eventually-periodic words on two\npositive integer letters. Its sharp universal replacement is $1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp upper-limsup density in Freeman's conjecture and an extension of the de Luca–Fischler Fibonacci formula",
+      "toolchain": null,
+      "version": 3,
+      "work": "palindromic-density"
     },
     {
       "attribution": null,

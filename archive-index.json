@@ -55,6 +55,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24413780",
+      "id": "arvind-commuting-graph-prime-sixth-order",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23884883",
       "id": "b164660-chebfloor",
       "kind": "collected",
@@ -91,8 +97,20 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24411960",
+      "id": "balaper-a281184-phi2period",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24411962",
       "id": "balaper-a281440-phi2period",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24412932",
+      "id": "balaper-phi2period",
       "kind": "collected",
       "version": 2
     },
@@ -343,8 +361,20 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24413788",
+      "id": "karp-sf21-legendre-turan",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24404944",
       "id": "khesin-li-2024-bipartite-encoder-equivalence",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24413790",
+      "id": "klanderman-conjecture-4-2",
       "kind": "collected",
       "version": 2
     },
@@ -379,6 +409,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24412937",
+      "id": "kurkov-a263634-log-polynomials",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24410093",
       "id": "kurkov-a340991-convolution-row-recursion",
       "kind": "collected",
@@ -397,8 +433,20 @@
       "version": 1
     },
     {
+      "doi": "10.5281/zenodo.24412942",
+      "id": "mathar-2012-a081124-recurrence",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24408321",
       "id": "mathar-2012-a084261-recurrence",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24413794",
+      "id": "mathar-a000159-recurrence",
       "kind": "collected",
       "version": 2
     },
@@ -571,6 +619,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24412948",
+      "id": "ovsienko-tabachnikov-first-dual-somos-integrality",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23920610",
       "id": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf",
       "kind": "collected",
@@ -587,6 +641,12 @@
       "id": "projective-toric-design-subgroup-counterexample",
       "kind": "collected",
       "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24413802",
+      "id": "quaternionic-deutsch-equality",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.23919071",
@@ -739,6 +799,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-23T16:30:51.706260296Z",
+  "generated_at": "2026-11-23T17:30:16.516433662Z",
   "schema": "mathesis.archive-index.v1"
 }
