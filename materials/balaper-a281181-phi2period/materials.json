@@ -1,6 +1,7 @@
 {
   "doi": null,
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/balaper-a281181-phi2period/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/balaper-a281181-phi2period",

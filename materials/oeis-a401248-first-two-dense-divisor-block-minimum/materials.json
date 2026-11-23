@@ -1,6 +1,7 @@
 {
   "doi": "10.5281/zenodo.24409071",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/oeis-a401248-first-two-dense-divisor-block-minimum/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/oeis-a401248-first-two-dense-divisor-block-minimum",
