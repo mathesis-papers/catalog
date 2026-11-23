@@ -169,3 +169,17 @@ publisher control change so a scheduled collection refresh cannot overwrite
 authored content. This command does not edit controls, commit the new branch,
 push, trigger Pages, reserve/deposit a DOI or grant proof credit. Revalidate the
 migrated checkout and preserved version URLs before publication.
+
+## Rust queue policy
+
+The publisher's pinned `mathesis-catalog` owns authoring admission, one-shot
+saved-build recovery and template-adaptation transitions. Python only transports
+the JSON request and persists an accepted state with the existing ledger fence;
+there is no fallback implementation. The build step exports
+`MATHESIS_CATALOG_BINARY` for subsequent publisher and test steps. For local
+validation, build that source pin and export the absolute binary path before
+running `python3 -m unittest discover -s tests`.
+
+Rendering and media inspection continue to call the pinned Python/Node tools.
+Changing the implementation language does not replace their checks or change
+source identities, publication permission, DOI rules or proof credit.
