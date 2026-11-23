@@ -79,6 +79,18 @@
       "version": 4
     },
     {
+      "doi": "10.5281/zenodo.24411944",
+      "id": "balaper-a281181-phi2period",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24411953",
+      "id": "balaper-a281183-phi2period",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24409050",
       "id": "barker-tea-coordination-sequence",
       "kind": "collected",
@@ -457,10 +469,22 @@
       "version": 3
     },
     {
+      "doi": "10.5281/zenodo.24411286",
+      "id": "oeis-a130095-ratio-limit",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23957584",
       "id": "oeis-a189733-curtz-denominator-conjecture",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24411294",
+      "id": "oeis-a195417-absolute-coefficient-root-limit",
+      "kind": "collected",
+      "version": 4
     },
     {
       "doi": "10.5281/zenodo.24211281",
@@ -559,6 +583,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24411302",
+      "id": "salinas-omega-chain-extension",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24211823",
       "id": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation",
       "kind": "collected",
@@ -581,6 +611,12 @@
       "id": "spin-one-rotation-boxes",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24411306",
+      "id": "ss2205-bottomheavy",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.24410097",
@@ -685,6 +721,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-23T08:04:36.680344501Z",
+  "generated_at": "2026-11-23T08:53:17.259412652Z",
   "schema": "mathesis.archive-index.v1"
 }

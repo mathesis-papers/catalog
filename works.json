@@ -623,9 +623,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24411943",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24411944",
       "lean_source": {
         "revision": "92de86888730265f84e24d28bdb67546c543a966",
         "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281181TotientSquarePeriod.lean"
@@ -670,9 +670,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24411952",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24411953",
       "lean_source": {
         "revision": "92de86888730265f84e24d28bdb67546c543a966",
         "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean"
@@ -3774,9 +3774,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24411285",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24411286",
       "lean_source": {
         "revision": "d51b6958b717911d2705676a6e9bf473b3b6f324",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d51b6958b717911d2705676a6e9bf473b3b6f324/D5/S3/Arith/Divisors/OeisA130095RatioLimit.lean"
@@ -3868,9 +3868,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24411293",
       "current_version": 4,
-      "doi": null,
+      "doi": "10.5281/zenodo.24411294",
       "lean_source": {
         "revision": "6bdbb68454659fcccffc7607b5fc292b2ff2fcdf",
         "url": "https://github.com/the-omega-institute/trureturing/blob/6bdbb68454659fcccffc7607b5fc292b2ff2fcdf/D5/S3/Analytic/Polynomial/A195417RootLimit.lean"
@@ -4667,9 +4667,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24411301",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24411302",
       "lean_source": {
         "revision": "2b5b552e72596710282b713f6587c7020544535d",
         "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S3/ConceptDynamics/DagCompletion/SalinasSchmeisOmegaChainExtensionRefutation.lean"
@@ -4902,9 +4902,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24411305",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24411306",
       "lean_source": {
         "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
         "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/Combinatorics/QStirling/SaganSwansonBottomHeavy.lean"

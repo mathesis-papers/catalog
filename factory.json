@@ -729,8 +729,8 @@
       "work": "bala295462"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24411943",
+      "doi": "10.5281/zenodo.24411944",
       "files": {
         "pdf": {
           "bytes": 90698,
@@ -767,7 +767,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -786,8 +785,8 @@
       "work": "balaper-a281181-phi2period"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24411952",
+      "doi": "10.5281/zenodo.24411953",
       "files": {
         "pdf": {
           "bytes": 95497,
@@ -824,7 +823,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4492,8 +4490,8 @@
       "work": "oeis-a112399-morken-first-divisor-sum"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24411285",
+      "doi": "10.5281/zenodo.24411286",
       "files": {
         "pdf": {
           "bytes": 83732,
@@ -4530,7 +4528,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4607,8 +4604,8 @@
       "work": "oeis-a189733-curtz-denominator-conjecture"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24411293",
+      "doi": "10.5281/zenodo.24411294",
       "files": {
         "pdf": {
           "bytes": 88273,
@@ -4645,7 +4642,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -5576,8 +5572,8 @@
       "work": "rowland-sistos-barron-2025-rank-sequences"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24411301",
+      "doi": "10.5281/zenodo.24411302",
       "files": {
         "pdf": {
           "bytes": 80611,
@@ -5614,7 +5610,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -5859,8 +5854,8 @@
       "work": "spin-one-rotation-boxes"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24411305",
+      "doi": "10.5281/zenodo.24411306",
       "files": {
         "pdf": {
           "bytes": 88786,
@@ -5897,7 +5892,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -6881,5 +6875,5 @@
   "papers": 122,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-23T08:04:36.680344501Z"
+  "snapshot_time": "2026-11-23T08:53:17.259412652Z"
 }
