@@ -42,6 +42,8 @@ class BrowserQA(unittest.TestCase):
         self.assertEqual(len(report['results']),8)
         self.assertEqual(report['failures'],[])
         self.assertNotIn('failure',report)
+        self.assertTrue(report['browser']['executable'])
+        self.assertTrue(report['browser']['version'])
 
     def test_unresolved_font_readiness_fails_with_the_precise_page(self):
         page=self.root/'_site/example/en/index.html'
@@ -61,3 +63,7 @@ class BrowserQA(unittest.TestCase):
         self.assertEqual(report['failure']['name'],'film 1 1440 play')
         self.assertIn('timed out',report['failure']['message'])
         self.assertEqual(len(report['results']),8)
+        observation=report['media'][0]
+        self.assertEqual(observation['label'],'film 1 1440')
+        self.assertEqual(observation['after']['readyState'],0)
+        self.assertIn('video/mp4; codecs="avc1.64001F"',observation['before']['formats'])

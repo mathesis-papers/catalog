@@ -9,12 +9,15 @@ async function run(rootArg, outputArg, { timeoutMs = 20000 } = {}) {
   if (output === root || output.startsWith(root + path.sep)) throw new Error('QA evidence must be outside the paper tree');
   const mapping = JSON.parse(fs.readFileSync(path.join(root, '.mathesis/book.json')));
   const { chromium } = createRequire(path.join(root, 'package.json'))('playwright-chromium');
-  const chrome = process.env.PW_CHROMIUM_PATH || ['/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'].find(p => fs.existsSync(p));
+  // Use the full browser supplied by the toolchain, including its media stack.
+  // Playwright's default headless launch may select a separate headless shell.
+  const chrome = process.env.PW_CHROMIUM_PATH || ['/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'].find(p => fs.existsSync(p)) || chromium.executablePath();
   fs.mkdirSync(output, { recursive: true });
-  const results = [], operations = [];
-  let browser, active, failure;
+  const results = [], operations = [], media = [];
+  let browser, active, failure, browserVersion;
   const save = () => fs.writeFileSync(path.join(output, 'browser.json'), JSON.stringify({
-    schema: 'mathesis.paper-browser-check.v1', results, operations, active,
+    schema: 'mathesis.paper-browser-check.v1', results, operations, active, media,
+    browser: { executable: chrome, version: browserVersion },
     failure, failures: results.filter(r => !r.main || r.katexErrors || r.rawDollars || r.pageErrors.length || r.bodyWidth > r.viewport + 1),
   }, null, 2) + '\n');
   async function check(name, action, limit = timeoutMs) {
@@ -43,7 +46,8 @@ async function run(rootArg, outputArg, { timeoutMs = 20000 } = {}) {
     finally { clearTimeout(timer); }
   }
   try {
-    browser = await check('Launch Chromium', () => chromium.launch({ headless: true, timeout: timeoutMs, ...(chrome ? { executablePath: chrome } : {}) }));
+    browser = await check('Launch Chromium', () => chromium.launch({ headless: true, timeout: timeoutMs, executablePath: chrome }));
+    browserVersion = browser.version();
     for (const lang of ['en', 'zh']) {
       const chapters = fs.readdirSync(path.join(root, 'books', mapping.book, lang))
         .filter(name => name.endsWith('.md') && name !== 'SUMMARY.md')
@@ -93,12 +97,36 @@ async function run(rootArg, outputArg, { timeoutMs = 20000 } = {}) {
         const context = await check('Film context', () => browser.newContext({ viewport: { width, height: 1000 } }));
         try {
           context.setDefaultTimeout(timeoutMs);
-          const page = await check('Film page', () => context.newPage()), pageErrors = [];
+          const page = await check('Film page', () => context.newPage()), pageErrors = [], requestFailures = [];
           page.on('pageerror', error => pageErrors.push(error.message));
+          page.on('requestfailed', request => requestFailures.push({ url: request.url(), error: request.failure()?.errorText }));
           const label = `film ${number + 1} ${width}`;
           await check(label + ' navigation', () => page.goto(localUrl.href, { waitUntil: 'load', timeout: timeoutMs }));
           const video = page.locator('video').first();
-          await check(label + ' play', () => video.evaluate(async element => { element.muted = true; await element.play(); }));
+          const inspectMedia = () => video.evaluate(element => ({
+            currentSrc: element.currentSrc, readyState: element.readyState, networkState: element.networkState,
+            paused: element.paused, currentTime: element.currentTime,
+            error: element.error ? { code: element.error.code, message: element.error.message } : null,
+            formats: Object.fromEntries(['video/mp4', 'video/mp4; codecs="avc1.64001F"', 'audio/mp4; codecs="mp4a.40.2"']
+              .map(type => [type, element.canPlayType(type)])),
+            sources: [...element.querySelectorAll('source')].map(source => ({ src: source.src, type: source.type })),
+          }));
+          const observation = { label, before: await check(label + ' media state', inspectMedia), requestFailures };
+          media.push(observation);
+          save();
+          try {
+            await check(label + ' play', () => video.evaluate(async element => { element.muted = true; await element.play(); }));
+          } catch (error) {
+            let timer;
+            try {
+              observation.after = await Promise.race([inspectMedia(), new Promise(resolve => {
+                timer = setTimeout(() => resolve({ unavailable: 'browser media diagnostics timed out' }), 1000);
+              })]);
+            } catch (diagnosticError) { observation.after = { unavailable: diagnosticError.message }; }
+            finally { clearTimeout(timer); }
+            save();
+            throw error;
+          }
           await check(label + ' frames', () => page.waitForFunction(() => {
             const video = document.querySelector('video');
             return video && video.readyState >= 2 && video.currentTime > 0.1 && !video.paused;

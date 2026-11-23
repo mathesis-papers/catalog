@@ -87,10 +87,14 @@ Material output follows the fields documented in the pinned SDK and layer.
 ## Local validation
 
 ```sh
-python3 -m unittest discover -s tests
+MATHESIS_CATALOG_BINARY=/absolute/path/to/pinned/mathesis-catalog \
+  python3 -m unittest discover -s tests
 ruby scripts/validate-workflow.rb
 bash -n scripts/build-catalog.sh
 ```
+
+Build the pinned Mathesis SDK first (`scripts/build-catalog.sh <sdk/catalog>`).
+The material-queue tests use that real binary; there is no Python policy fallback.
 
 If available, also run `actionlint .github/workflows/publish.yml`. The Ruby
 fallback parses YAML, checks the triggers/permissions/action pins, and runs

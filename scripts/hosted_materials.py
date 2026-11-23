@@ -20,6 +20,7 @@ import urllib.parse
 import urllib.request
 
 import cma_content
+import material_policy
 import promote_content
 import publish
 import serial_content as serial
@@ -265,16 +266,7 @@ def recover_publication(ledger,state):
 
 
 def plan_template_adaptation(state, template):
-    previous=state.get('last_published_template',state['identity']['template_commit'])
-    if state['phase'] != 'published' or previous == template:
-        return False
-    require(state.get('source_archive_sha256') and state.get('published_commit'),'template adaptation requires saved checked output')
-    state.setdefault('publication_history',[]).append({k:copy.deepcopy(state[k]) for k in ('published_commit','expected_manifest','publication_intent','build_receipt') if k in state})
-    state['publication_base']=state['published_commit']
-    state['template_adaptation']={'template_commit':template,'reused_source_archive_sha256':state['source_archive_sha256']}
-    state.pop('publication_intent',None)
-    state['phase']='sources_saved'
-    return True
+    return material_policy.transition('adapt_template', state, template_commit=template)
 
 
 def wait_for(state, stage, error, ledger):
@@ -287,25 +279,15 @@ def wait_for(state, stage, error, ledger):
 
 def resume_saved_build(state, config, ledger):
     recovery = config.get('saved_build_recovery', {}).get(state['key'])
-    if not recovery or state['phase'] != 'needs_attention':
-        return
-    if recovery['id'] in [r['id'] for r in state.get('build_recovery_history', [])]:
-        return
-    require(state.get('blocked_stage') == 'host_build_or_publication'
-            and state.get('source_archive_sha256') == recovery['source_archive_sha256']
-            and recovery['toolchain_image'] == config['toolchain_image'],
-            'saved build recovery does not match the exact source and toolchain')
-    state.setdefault('build_recovery_history', []).append({
-        **recovery, 'resumed_at': serial.now(), 'previous_stage': state['blocked_stage']})
-    state.update(phase='sources_saved')
-    state.pop('blocked_stage', None)
-    ledger.put(state)
+    if material_policy.transition('resume_build', state, recovery=recovery,
+                                  toolchain_image=config.get('toolchain_image', ''), observed_at=serial.now()):
+        ledger.put(state)
 
 
 def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
     jobs = ledger.jobs()
     capacity = config.get('authoring_concurrency', 1)
-    require(type(capacity) is int and capacity >= 1, 'authoring concurrency must be a positive integer')
+    material_policy.admission(jobs, capacity)  # Validate before any provider side effect.
     ready = None
     def outcome(result):
         attention = [s['key'] for s in jobs if s['phase'] == 'needs_attention']
@@ -379,17 +361,16 @@ def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
                 continue
             serial.write(workspace/'ready.json', {'key':state['key'], 'run':str(run), 'repository':str(repo)})
             ready = {'state':'ready_for_host_qa', 'run':str(run), 'repository':str(repo)}
-    in_flight = sum(s['phase'] in ('intent','provisioning','authoring','sources_ready') for s in jobs)
-    buffered = sum(s['phase'] == 'sources_saved' for s in jobs)
     # Keep remote Codex tasks busy while one finished paper renders, without
     # allowing an unbounded pile of source packages to await the host.
-    if in_flight >= capacity or buffered >= capacity:
+    slots = material_policy.admission(jobs, capacity)['slots']
+    if not slots:
         return outcome(ready or {'state':'waiting_for_original_job'})
     known = {(s['identity']['paper']['id'], s['identity']['paper']['version'])
              for s in jobs if s.get('identity')}
     admitted = []
     for work in candidate_works(root):
-        if in_flight >= capacity:
+        if len(admitted) >= slots:
             break
         if (work['work'], work['current_version']) in known:
             continue
@@ -411,7 +392,6 @@ def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
         except (OSError, ValueError, RuntimeError) as error:
             wait_for(state, 'provider', error, ledger)
         admitted.append(work['work'])
-        in_flight += 1
     return outcome(ready or {'state':'authoring_started' if admitted else 'waiting_or_up_to_date','admitted':admitted})
 
 
