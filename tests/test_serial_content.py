@@ -26,6 +26,19 @@ class SerialContent(unittest.TestCase):
                        "outputs": ["story.md"], "checks": [], "requests": [],
                        "doi_observation": "Existing version DOI retained", "remaining": ["Video not rendered"]}
 
+    def test_stalled_inspector_is_terminated_and_reported_as_a_timeout(self):
+        args=[sys.executable, '-c', 'import time; print("inspection started",flush=True); time.sleep(60)']
+        with (self.root/'inspection.log').open('w+') as log:
+            with self.assertRaises(subprocess.TimeoutExpired) as error:
+                runner.inspect_products(args, self.root, dict(os.environ), log, timeout=0.2)
+            self.assertEqual(error.exception.cmd, args)
+            self.assertEqual(error.exception.timeout, 0.2)
+            log.seek(0)
+            self.assertIn('inspection started', log.read())
+        with self.assertRaises(subprocess.CalledProcessError) as error:
+            runner.inspect_products([sys.executable,'-c','raise SystemExit(7)'],self.root,dict(os.environ),subprocess.DEVNULL)
+        self.assertEqual(error.exception.returncode,7)
+
     def test_live_stage_retains_completed_work_and_identifies_the_unfinished_check(self):
         runner.write(self.root/'checkpoint.json', {'state':'rebuilding_products'})
         private_command=['python','/private/worktree/opaque-operation/renderer.py']

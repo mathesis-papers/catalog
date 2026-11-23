@@ -18,6 +18,7 @@ import math
 import os
 from pathlib import Path
 import re
+import signal
 import shutil
 import subprocess
 import sys
@@ -379,6 +380,24 @@ def check_stage(args):
     return Path(args[1]).name + ' ' + ' '.join(args[2:])
 
 
+def inspect_products(args, repo, env, log, timeout=900):
+    """Bound browser/renderer inspection, including its child processes."""
+    process = subprocess.Popen(args, cwd=repo, env=env, stdout=log,
+                               stderr=subprocess.STDOUT, start_new_session=True)
+    try:
+        code = process.wait(timeout=timeout)
+    except subprocess.TimeoutExpired:
+        os.killpg(process.pid, signal.SIGTERM)
+        try:
+            process.wait(timeout=5)
+        except subprocess.TimeoutExpired:
+            os.killpg(process.pid, signal.SIGKILL)
+            process.wait()
+        raise subprocess.TimeoutExpired(args, timeout) from None
+    if code:
+        raise subprocess.CalledProcessError(code, args)
+
+
 def validate_run(repo, run, build=False):
     result = read(run / "result.json")
     check_result(result, repo)
@@ -442,12 +461,10 @@ def validate_run(repo, run, build=False):
             validate_epubs(repo, mapping["book"], env, log)
         if build:
             with host_stage(run, 'Inspect rendered pages'):
-                subprocess.run(["node", str(ROOT / "scripts/paper_site_qa.cjs"), str(repo), str(run / "qa")],
-                               cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
+                inspect_products(["node", str(ROOT / "scripts/paper_site_qa.cjs"), str(repo), str(run / "qa")], repo, env, log)
             python = repo / ".venv/bin/python"
             with host_stage(run, 'Inspect PDFs, slides and video'):
-                subprocess.run([str(python) if python.exists() else sys.executable, str(ROOT / "scripts/paper_products.py"), str(repo), str(run / "qa")],
-                               cwd=repo, stdout=log, stderr=subprocess.STDOUT, check=True, env=env)
+                inspect_products([str(python) if python.exists() else sys.executable, str(ROOT / "scripts/paper_products.py"), str(repo), str(run / "qa")], repo, env, log)
     plan = plan_content.plan(repo, repo / "_site")
     write(run / "content-plan.json", plan)
     states = {u["unit"]: u["state"] for u in plan["units"]}

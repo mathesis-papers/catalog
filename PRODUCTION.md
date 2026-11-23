@@ -172,3 +172,12 @@ Point Mathesis's existing `WISHPOOL_ARCHIVE_INDEX_URL` at
 `https://raw.githubusercontent.com/mathesis-papers/catalog/main/archive-discovery-index.json`.
 Mathesis independently checks the registry and both source hashes before
 attaching each citation. No additional model run or operator token is needed.
+
+Browser readiness checks have finite deadlines for navigation, font loading,
+video playback, screenshots and cleanup. The existing private browser receipt
+is written before each operation and on failure, so a stalled renderer retains
+its precise page/action and completed checks. A 15-minute process-group bound
+covers a browser that stops responding entirely; it terminates inspection children
+and records the timeout without losing authored sources. Workflow-level interruption
+still records the active check even if the worker could not write an exception.
+These are inspection failures, not failures of the mathematical manuscript.
