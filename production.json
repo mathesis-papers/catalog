@@ -93,6 +93,11 @@
       "id": "2026-11-24-runner-file-ownership",
       "source_archive_sha256": "aaed4513576beb3a6cf970d616293bf401f6737f7d94b2da8797790d412ac172",
       "toolchain_image": "ghcr.io/the-omega-institute/trureturing-books-toolchain@sha256:bfd5d789f3d489aa8192ee6edc3128f2da0c674d0619a7d54f20a577564a716c"
+    },
+    "31f85361e66641aeab526305fa4ba7f7f12a931111dfcb8bda05e0c9883345a6": {
+      "id": "2026-11-24-runner-file-ownership",
+      "source_archive_sha256": "3a7fca9c2adfd5e369c4f304c789d79171d97bd5d0b83372a4f2637799b57c9c",
+      "toolchain_image": "ghcr.io/the-omega-institute/trureturing-books-toolchain@sha256:bfd5d789f3d489aa8192ee6edc3128f2da0c674d0619a7d54f20a577564a716c"
     }
   },
   "schema": "mathesis.hosted-materials.v1",
