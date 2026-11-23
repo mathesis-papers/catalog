@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-23T14:31:59.208265936Z`.
+Snapshot: `2026-11-23T15:30:16.621266994Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -21,6 +21,8 @@ Snapshot: `2026-11-23T14:31:59.208265936Z`.
 | [Parity and product extensions of Bala's divisibilities (2026): OEIS A295462, References (record #19; contribution dated 23 August 2026)](https://github.com/mathesis-papers/10.5281-zenodo.23971278) | 4 | [DOI](https://doi.org/10.5281/zenodo.23971279) | en, zh | 2 / 1 / 0 | 6 no target yet |
 | [A jet-space proof and extension of Su's theorem on Bala's totient-square period conjectures](https://github.com/mathesis-papers/balaper-a281181-phi2period) | 3 | [DOI](https://doi.org/10.5281/zenodo.24411944) | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
 | [Explicit onsets and residue certificates for Bala's totient-square period problem after Su](https://github.com/mathesis-papers/balaper-a281183-phi2period) | 2 | [DOI](https://doi.org/10.5281/zenodo.24411953) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
+| [An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions](https://github.com/mathesis-papers/balaper-a281440-phi2period) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
+| [Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture](https://github.com/mathesis-papers/banica-ozteke-pittau-2018-truncation-isolation) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Proof of Barker's tea-tiling conjectures: OEIS A299285–A299286, FORMULA (February 11, 2018)](https://github.com/mathesis-papers/barker-tea-coordination-sequence) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409050) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Bounded-error asymptotics for Bernáth's conjecture: OEIS A400645, revision 21, COMMENTS, and its rounded-norm siblings](https://github.com/mathesis-papers/bernath-a400645-consecutive-ratio) | 2 | [DOI](https://doi.org/10.5281/zenodo.24369110) | en, zh | 0 / 0 / 0 | 9 no target yet |
 | [Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)](https://github.com/mathesis-papers/bouafia-diversity-negative-type) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212421) | en, zh | 2 / 1 / 0 | 8 no target yet |
@@ -49,6 +51,7 @@ Snapshot: `2026-11-23T14:31:59.208265936Z`.
 | [Proof of Hanna's OEIS A389474 formula (4) and extensions of Salerno–Silverman's (2017) integrality argument](https://github.com/mathesis-papers/hanna-composition-congruences) | 2 | [DOI](https://doi.org/10.5281/zenodo.24408313) | Awaiting reading | 0 / 0 / 0 | 10 no target yet |
 | [OEIS A209723: Barker's conjectures on distinct clockwise edge differences](https://github.com/mathesis-papers/10.5281-zenodo.23903300) | 2 | [DOI](https://doi.org/10.5281/zenodo.23903301) | en, zh | 2 / 1 / 0 | 4 no target yet |
 | [Barker and Hardin's cyclic-repetition formulas and an extension of Fried's enumeration](https://github.com/mathesis-papers/10.5281-zenodo.24410604) | 2 | [DOI](https://doi.org/10.5281/zenodo.24410605) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
+| [Hardin's trace-avoiding array recurrences and Barker's formulas: alternative proofs extending Riedel's and Howroyd's enumerations](https://github.com/mathesis-papers/hardin1857-traceavoid) | 3 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Hardin's six-column trace recurrence and Barker's generating functions](https://github.com/mathesis-papers/10.5281-zenodo.24410608) | 2 | [DOI](https://doi.org/10.5281/zenodo.24410609) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [OEIS A240513, revision 11, FORMULA 1–3: ladder proofs and extensions of Bala (2014)](https://github.com/mathesis-papers/hardin240513-ladder-formulas) | 3 | [DOI](https://doi.org/10.5281/zenodo.24409472) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Residual order four in GP(7,2): an alternative proof for Hausmann's Question 5.4 (arXiv:2611.05178v1, Section 5), after AFTD (2026)](https://github.com/mathesis-papers/hausmann-2026-question-5-4-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409056) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |

@@ -3920,6 +3920,559 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:balaper-a281440-phi2period:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281440-phi2period:s1",
+      "macros": {
+        "\\End": "\\operatorname{End}",
+        "\\FF": "\\mathbb F",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281440-phi2period",
+      "scope": "in_scope",
+      "statement": "Let $a=2d\\ge2$, $k\\ge0$, and $m\\ge3$. For each odd prime $p$, put\n\\[\n \\alpha_{a,p}=(-1)^h\\binom{d+h-1}{h}\\pmod p,\\qquad h=(p-1)/2.\n\\]\nFor $p^r\\Vert m$, define\n\\[\n N_a(p^r)=\n \\begin{cases}\n r,&p=2\\text{ or }(p\\text{ odd and }\\alpha_{a,p}\\ne0),\\\\\n \\left\\lceil r\\bigl(1+(p-1)p^{r-1}\\bigr)/2\\right\\rceil,\n      &p\\text{ odd and }\\alpha_{a,p}=0,\n \\end{cases}\n\\]\nPut $N_a(m)=\\max_{p^r\\Vert m}N_a(p^r)$. Then for every $n\\ge N_a(m)$,\n\\begin{equation}\n b_{a,k}\\bigl(n+\\varphi(m)^2/2\\bigr)\\equiv b_{a,k}(n)\\pmod m.\n\\end{equation}\nFor $m=1,2$ an eventual period of one is valid.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281440-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:balaper-a281440-phi2period:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281440-phi2period:s2",
+      "macros": {
+        "\\End": "\\operatorname{End}",
+        "\\FF": "\\mathbb F",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281440-phi2period",
+      "scope": "in_scope",
+      "statement": "Let $M$ be a finite free module over $\\ZZ/p^r\\ZZ$, let $A\\in\\End(M)$, and\nsuppose $A^{T+1}\\equiv A\\pmod p$, with $T\\ge1$. Then\n\\[\n (A^{Tp^{r-1}}-I)A^r=0.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281440-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:balaper-a281440-phi2period:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281440-phi2period:s3",
+      "macros": {
+        "\\End": "\\operatorname{End}",
+        "\\FF": "\\mathbb F",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281440-phi2period",
+      "scope": "in_scope",
+      "statement": "Theorem~\\ref{thm:period} holds for every integer $a\\ge2$, using\n\\[\n \\alpha_{a,p}=(-1)^h\\prod_{j=0}^{h-1}\\frac{a+2j}{2(j+1)}\\in\\FF_p,\n \\qquad h=(p-1)/2.\n\\]\nFor odd $a\\ge3$, this scalar vanishes at every prime $p\\ge a$.\nFor the odd source flows $a=5,7,9$, the only nonvanishing odd primes\nare respectively $\\{3\\}$, $\\{3,5\\}$ and $\\{5,7\\}$.\nConsequently all their columns eventually vanish modulo every positive\ninteger coprime to $6$, $30$ and $70$, respectively.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281440-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:balaper-a281440-phi2period:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281440-phi2period:s4",
+      "macros": {
+        "\\End": "\\operatorname{End}",
+        "\\FF": "\\mathbb F",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281440-phi2period",
+      "scope": "in_scope",
+      "statement": "The five totient-square conjectures in the first five rows are proved by\nTheorem~\\ref{thm:period}, as in Su's Corollary 3.3.\nEvery row has eventual period $\\varphi(m)^2/2$ for $m\\ge3$, and period one\nfor $m=1,2$. For A281180, A281427, A281439 and A281443 add one to the column\nthreshold; all other rows use $N_a(m)$ directly.\nThe odd-exponent half-square statements are consequences of\nCorollary~\\ref{cor:odd}, not conjectures asserted by those entries.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281440-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:balaper-a281440-phi2period:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281440-phi2period:s5",
+      "macros": {
+        "\\End": "\\operatorname{End}",
+        "\\FF": "\\mathbb F",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281440-phi2period",
+      "scope": "in_scope",
+      "statement": "For any $a\\ge2$, let $\\theta(0)=0$, $\\theta'=\\sec^{a-2}\\theta$.\nThen\n\\begin{equation}\n (2n)![x^{2n}]C_a(x)\n   =\\left.\\left(\\sec^{a-2}\\theta\\,\\frac d{d\\theta}\\right)^{2n}\n       \\sec\\theta\\right|_{\\theta=0}.\n\\end{equation}\nThe formula marked with a question mark in A281436\n(Bala, FORMULA, 23 December 2025), with $a=7$, as well as the displayed\nformulas in A281432, A281440 and A281444 are therefore valid.\nThe tentative A281183 formula is valid as well.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281440-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:balaper-a281440-phi2period:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281440-phi2period:s6",
+      "macros": {
+        "\\End": "\\operatorname{End}",
+        "\\FF": "\\mathbb F",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281440-phi2period",
+      "scope": "in_scope",
+      "statement": "For $a=2d+1\\ge3$ set $T=S_a/C_a$. Then\n\\begin{equation}\n x=\\sum_{j=0}^{d-1}\\frac{(-1)^j\\binom{d-1}{j}}{2j+1}T^{2j+1},\n \\qquad C_a=(1-T^2)^{-1/2},\\quad S_a=TC_a.\n\\end{equation}\nIn particular, the algebraic equations for $S_5,C_5,T$ in A281427\n(Bala, FORMULA, 14 December 2025) and $C_7$ in A281436\n(FORMULA, 23 December 2025) hold. In A281181 the displayed term\n\\texttt{13*x\\^{}5/6!} in $T=S_4/C_4$ (FORMULA, 14 December 2025)\nmust instead be $13x^5/5!$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281440-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:balaper-a281440-phi2period:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281440-phi2period:s7",
+      "macros": {
+        "\\End": "\\operatorname{End}",
+        "\\FF": "\\mathbb F",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281440-phi2period",
+      "scope": "in_scope",
+      "statement": "Let $m\\ge2$, $r_* =\\max_{p\\mid m}v_p(m)$, and, for $p^r\\Vert m$, set\n\\[\n h_{p^r}=(p-1)p^{r-1}/2\\ (p\\text{ odd}),\\qquad\n h_2=1,\\quad h_{2^r}=2^{r-2}\\ (r\\ge2).\n\\]\nPut $H=\\operatorname{lcm}_{p^r\\Vert m}h_{p^r}$.\nChoose a unit $C_m$ whose reduction modulo each odd $p$ is\n$\\alpha_{4,p}^{H/h_{p^r}}$, and whose reduction modulo two is one.\nFor every $k\\ge0$, $n\\ge r_*$, and $j\\ge0$, the rows\n$u_j=b_{4,k}(n+jH)$ satisfy\n\\[\n \\sum_{t=0}^{r_*}(-1)^{r_*-t}\\binom{r_*}{t}C_m^{r_*-t}u_{j+t}\n \\equiv0\\pmod m.\n\\]\nFor squarefree $m$, this is the geometric row law $u_{j+1}=C_mu_j$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281440-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:banica-ozteke-pittau-2018-truncation-isolation:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "43ced8a8460ce89a7c5cae3deeac10e5fc08d565",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/43ced8a8460ce89a7c5cae3deeac10e5fc08d565/D5/S3/Quantum/Tomography/Hadamard/BanicaTruncationRefutation.lean"
+      },
+      "lineage": "collected:banica-ozteke-pittau-2018-truncation-isolation:s1",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\bop": "Banica--\\\"Ozteke--Pittau"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "banica-ozteke-pittau-2018-truncation-isolation",
+      "scope": "in_scope",
+      "statement": "If $p$ is prime and $\\varnothing\\ne S\\subsetneq\\Z/p\\Z$, then a neighborhood\nof $F_{S,p}$ in a fixed dephased slice of partial Hadamard matrices is a\nreal-analytic manifold of dimension\n\\begin{equation}\nD(m,p)=(m-1)(p-m-1).\n\\end{equation}\nConsequently, $F_{S,p}$ is non-isolated if $2\\leq m\\leq p-2$, and is\nisolated if $m=1$ or $m=p-1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "banica-ozteke-pittau-2018-truncation-isolation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:banica-ozteke-pittau-2018-truncation-isolation:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "43ced8a8460ce89a7c5cae3deeac10e5fc08d565",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/43ced8a8460ce89a7c5cae3deeac10e5fc08d565/D5/S3/Quantum/Tomography/Hadamard/BanicaTruncationRefutation.lean"
+      },
+      "lineage": "collected:banica-ozteke-pittau-2018-truncation-isolation:s2",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\bop": "Banica--\\\"Ozteke--Pittau"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "banica-ozteke-pittau-2018-truncation-isolation",
+      "scope": "in_scope",
+      "statement": "For every prime $p\\geq5$, deleting any two rows of $F_p$ gives a\nnon-isolated partial Hadamard matrix, with local dephased dimension $p-3$.\nThere is no $\\varepsilon>0$ as in Conjecture 1.14.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "banica-ozteke-pittau-2018-truncation-isolation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:banica-ozteke-pittau-2018-truncation-isolation:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "43ced8a8460ce89a7c5cae3deeac10e5fc08d565",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/43ced8a8460ce89a7c5cae3deeac10e5fc08d565/D5/S3/Quantum/Tomography/Hadamard/BanicaTruncationRefutation.lean"
+      },
+      "lineage": "collected:banica-ozteke-pittau-2018-truncation-isolation:s3",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\bop": "Banica--\\\"Ozteke--Pittau"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "banica-ozteke-pittau-2018-truncation-isolation",
+      "scope": "in_scope",
+      "statement": "For a proper row set $S$, the real-linear map $J$ is surjective.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "banica-ozteke-pittau-2018-truncation-isolation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:banica-ozteke-pittau-2018-truncation-isolation:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "43ced8a8460ce89a7c5cae3deeac10e5fc08d565",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/43ced8a8460ce89a7c5cae3deeac10e5fc08d565/D5/S3/Quantum/Tomography/Hadamard/BanicaTruncationRefutation.lean"
+      },
+      "lineage": "collected:banica-ozteke-pittau-2018-truncation-isolation:s4",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\bop": "Banica--\\\"Ozteke--Pittau"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "banica-ozteke-pittau-2018-truncation-isolation",
+      "scope": "in_scope",
+      "statement": "A nonempty $m$-row truncation of $F_p$ is isolated exactly for\n$m\\in\\{1,p-1,p\\}$, and exactly when its undephased defect is $m+p-1$.\nFor $m<p$, its undephased defect is $m(p-m+1)$; for $m=p$, it is $2p-1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "banica-ozteke-pittau-2018-truncation-isolation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:banica-ozteke-pittau-2018-truncation-isolation:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "43ced8a8460ce89a7c5cae3deeac10e5fc08d565",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/43ced8a8460ce89a7c5cae3deeac10e5fc08d565/D5/S3/Quantum/Tomography/Hadamard/BanicaTruncationRefutation.lean"
+      },
+      "lineage": "collected:banica-ozteke-pittau-2018-truncation-isolation:s5",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\bop": "Banica--\\\"Ozteke--Pittau"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "banica-ozteke-pittau-2018-truncation-isolation",
+      "scope": "in_scope",
+      "statement": "For a proper prime Fourier row set, every $A\\in\\ker J$ is the phase\nvelocity at zero of a real-analytic curve of partial Hadamard matrices.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "banica-ozteke-pittau-2018-truncation-isolation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:banica-ozteke-pittau-2018-truncation-isolation:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "43ced8a8460ce89a7c5cae3deeac10e5fc08d565",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/43ced8a8460ce89a7c5cae3deeac10e5fc08d565/D5/S3/Quantum/Tomography/Hadamard/BanicaTruncationRefutation.lean"
+      },
+      "lineage": "collected:banica-ozteke-pittau-2018-truncation-isolation:s6",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\bop": "Banica--\\\"Ozteke--Pittau"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "banica-ozteke-pittau-2018-truncation-isolation",
+      "scope": "in_scope",
+      "statement": "Every such truncation satisfies\n\\begin{equation}\nd(F_{S,G})=m(N-m+1)+C(S).\n\\end{equation}\nIts orthogonality differential is surjective if and only if $C(S)=0$.\nIn that case its local dephased space is an analytic manifold of\ndimension $(m-1)(N-m-1)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "banica-ozteke-pittau-2018-truncation-isolation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:barker-tea-coordination-sequence:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -11379,6 +11932,286 @@
       "toolchain": null,
       "version": 2,
       "work": "hardin-barker-cyclic-repetitions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:hardin1857-traceavoid:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185761Recurrence.lean"
+      },
+      "lineage": "collected:hardin1857-traceavoid:s1",
+      "macros": {
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin1857-traceavoid",
+      "scope": "in_scope",
+      "statement": "For $2\\le w\\le6$, let $c_w=(c_{w,1},\\ldots,c_{w,d_w})$ and $N_w$ be\nas follows:\n\\begin{center}\n\\begin{tabular}{crrrl}\n\\toprule\n$w$&OEIS&$d_w$&$N_w$&$c_w$\\\\\n\\midrule\n2&A185761&2&3&$(1,4)$\\\\\n3&A185762&3&4&$(1,6,1)$\\\\\n4&A185763&5&7&$(1,10,3,-5,1)$\\\\\n5&A185764&7&10&$(1,17,9,-22,-1,1,-6)$\\\\\n6&A185765&9&13&$(1,30,24,-95,-15,64,-116,16,16)$\\\\\n\\bottomrule\n\\end{tabular}\n\\end{center}\nThen\n\\begin{equation}\n a_w(n)=\\sum_{j=1}^{d_w}c_{w,j}a_w(n-j)\\qquad(n\\ge N_w).\n\\end{equation}\nIf $D_w(z)=1-\\sum_{j=1}^{d_w}c_{w,j}z^j$, then\n\\begin{equation}\n F_w(z)=\\frac{8zP_w(z)}{D_w(z)},\n\\end{equation}\nwhere\n\\begin{align*}\nP_2(z)={}&2+3z,\\\\\nP_3(z)={}&5+10z+z^2,\\\\\nP_4(z)={}&13+33z-16z^3+7z^4-z^5,\\\\\nP_5(z)={}&33+108z-43z^2-249z^3-69z^4+5z^5\\\\\n &\\hspace{12mm}+43z^6+81z^7+18z^8,\\\\\nP_6(z)={}&85+347z-483z^2-2718z^3-1375z^4+2104z^5\\\\\n &\\hspace{12mm}+6276z^6+4796z^7-7734z^8-2893z^9\\\\\n &\\hspace{12mm}+3400z^{10}-520z^{11}.\n\\end{align*}\nThe four functions $F_2,\\ldots,F_5$ are Barker's formulas; the recurrence for\n$w=6$ is Hardin's empirical formula in A185765~\\cite{oeis6}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin's trace-avoiding array recurrences and Barker's formulas: alternative proofs extending Riedel's and Howroyd's enumerations",
+      "toolchain": null,
+      "version": 3,
+      "work": "hardin1857-traceavoid"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hardin1857-traceavoid:3:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185761Recurrence.lean"
+      },
+      "lineage": "collected:hardin1857-traceavoid:s2",
+      "macros": {
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin1857-traceavoid",
+      "scope": "in_scope",
+      "statement": "Hardin's remaining three empirical recurrences in this family,\nA185766--A185768~\\cite{oeis7,oeis8,oeis9}, also hold. In the notation\nof~\\eqref{eq:rec}, their coefficients and thresholds are\n\\begin{align}\nc_7={}&(1,54,60,-400,-155,924,-1220,-76,1725,\\notag\\\\\n &\\qquad -642,-412,-88,100,40), &N_7&=19,\\notag\\\\\nc_8={}&(1,98,145,-1606,-1043,9813,-11042,-14222,67346,\\notag\\\\\n &\\qquad -40216,-64047,36082,29210,8981,-23650,-12520,\\notag\\\\\n &\\qquad 7365,448,-196), &N_8&=25,\\\\\nc_9={}&(1,179,341,-6316,-6138,92272,-87872,-479803,\\notag\\\\\n &\\qquad 1815915,-852208,-6873004,8175787,6036792,\\notag\\\\\n &\\qquad -5492010,-12389568,3504328,38808492,-4735254,\\notag\\\\\n &\\qquad -36745560,-36433267,12744011,28480781,9986028,\\notag\\\\\n &\\qquad -2174189,-3904760,-845298,-118044,-60864,-3296,-32),\n &N_9&=37.\\notag\n\\end{align}\nHere $d_7=14$, $d_8=19$ and $d_9=30$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin's trace-avoiding array recurrences and Barker's formulas: alternative proofs extending Riedel's and Howroyd's enumerations",
+      "toolchain": null,
+      "version": 3,
+      "work": "hardin1857-traceavoid"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hardin1857-traceavoid:3:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185761Recurrence.lean"
+      },
+      "lineage": "collected:hardin1857-traceavoid:s3",
+      "macros": {
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin1857-traceavoid",
+      "scope": "in_scope",
+      "statement": "For $n\\ge1$,\n\\begin{equation}\n a_w(n)=\\one^{\\mathsf T}T_w^{n-1}\\one.\n\\end{equation}\nIf, for nonnegative $b$ and coefficients $c_1,\\ldots,c_d$,\n\\begin{equation}\n q_{b+d}=\\sum_{j=1}^d c_jq_{b+d-j},\n\\end{equation}\nthen $a_w(n)=\\sum_{j=1}^dc_ja_w(n-j)$ for every $n\\ge b+d+1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin's trace-avoiding array recurrences and Barker's formulas: alternative proofs extending Riedel's and Howroyd's enumerations",
+      "toolchain": null,
+      "version": 3,
+      "work": "hardin1857-traceavoid"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hardin1857-traceavoid:3:s4",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185761Recurrence.lean"
+      },
+      "lineage": "collected:hardin1857-traceavoid:s4",
+      "macros": {
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin1857-traceavoid",
+      "scope": "in_scope",
+      "statement": "For the coefficients of Theorem~\\ref{thm:main} and\nCorollary~\\ref{cor:siblings}, identity~\\eqref{eq:identity}\nholds with the following shifts. In addition, the scalar recurrence holds\nat each of the indicated boundary indices.\n\\begin{center}\n\\begin{tabular}{rrrl}\n\\toprule\n$w$&$b$&$b+d_w$&boundary indices\\\\\n\\midrule\n2&1&3&3\\\\\n3&2&5&4,5\\\\\n4&3&8&7,8\\\\\n5&3&10&10\\\\\n6&5&14&13,14\\\\\n7&6&20&19,20\\\\\n8&7&26&25,26\\\\\n9&8&38&37,38\\\\\n\\bottomrule\n\\end{tabular}\n\\end{center}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin's trace-avoiding array recurrences and Barker's formulas: alternative proofs extending Riedel's and Howroyd's enumerations",
+      "toolchain": null,
+      "version": 3,
+      "work": "hardin1857-traceavoid"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hardin1857-traceavoid:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185761Recurrence.lean"
+      },
+      "lineage": "collected:hardin1857-traceavoid:s5",
+      "macros": {
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin1857-traceavoid",
+      "scope": "in_scope",
+      "statement": "Put $s=\\sqrt{17}$ and $r_\\pm=(1\\pm s)/2$. For every $n\\ge1$,\n\\begin{equation}\n a_2(n)=\\frac{(13+3s)r_+^n+(-13+3s)r_-^n}{s}.\n\\end{equation}\nThis is Barker's closed form in A185761.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin's trace-avoiding array recurrences and Barker's formulas: alternative proofs extending Riedel's and Howroyd's enumerations",
+      "toolchain": null,
+      "version": 3,
+      "work": "hardin1857-traceavoid"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hardin1857-traceavoid:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185761Recurrence.lean"
+      },
+      "lineage": "collected:hardin1857-traceavoid:s6",
+      "macros": {
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin1857-traceavoid",
+      "scope": "in_scope",
+      "statement": "For the table $T(n,k)$ of A185769~\\cite{oeistable},\n\\[\n T(n,k)=T(k,n)\\quad(n,k\\ge1),\\qquad T(n,w-1)=a_w(n).\n\\]\nThus Theorem~\\ref{thm:main} and Corollary~\\ref{cor:siblings} determine\nthe first eight columns and, by transposition, the first eight rows.\nFor every fixed width $w\\ge2$, $F_w$\nis rational.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin's trace-avoiding array recurrences and Barker's formulas: alternative proofs extending Riedel's and Howroyd's enumerations",
+      "toolchain": null,
+      "version": 3,
+      "work": "hardin1857-traceavoid"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:hardin1857-traceavoid:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185761Recurrence.lean"
+      },
+      "lineage": "collected:hardin1857-traceavoid:s7",
+      "macros": {
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin1857-traceavoid",
+      "scope": "in_scope",
+      "statement": "Every $a_w(n)$, for $n\\ge1$ and $w\\ge2$, is divisible by eight.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin's trace-avoiding array recurrences and Barker's formulas: alternative proofs extending Riedel's and Howroyd's enumerations",
+      "toolchain": null,
+      "version": 3,
+      "work": "hardin1857-traceavoid"
     },
     {
       "attribution": null,

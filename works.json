@@ -706,6 +706,100 @@
       "work": "balaper-a281183-phi2period"
     },
     {
+      "abstract_text": "We give an alternative proof of Lien-Hung Su's theorem (31 October 2026, Theorem 3.2 and Corollary 3.3) resolving Peter Bala's totient-square period conjecture in OEIS A281440 (COMMENT, 19 February 2026; revision 17, 6 November 2026). For the integral coefficients a(n)=(2n)![x^(2n)]C(x), with C(x)=cosh(integral_0^x C(t)^7 dt), every modulus m>=3 admits the eventual period phi(m)^2/2; moduli 1 and 2 admit period one. The proof replaces idempotent lifting by an elementary binomial identity for endomorphisms and includes the vanishing branch at the prime five. The same argument covers the four companion conjectures in A281180, A281181, A281183 and A281184, and extends the half-square bound to every integer exponent a>=2 in the associated quadratic derivation. We prove the resulting odd-exponent corollaries, source derivative and algebraic identities, and finite-dimensional certificates for the exact period 72 modulo 13 and the two displayed A281428 examples.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 113157,
+        "sha256": "dc5fb0a7b67d45021c3949d969e5aa6288b5a521b4be8bcc6c96be4b53f63920",
+        "url": "/api/v1/collected-papers/balaper-a281440-phi2period/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T15:22:06.237687730Z",
+      "record": "balaper-a281440-phi2period",
+      "repository_name": "balaper-a281440-phi2period",
+      "source": {
+        "bytes": 29206,
+        "sha256": "be940df2bc7526adf2edc375ea1038b5cb43c8aec6b1e816d5a964d534d88718",
+        "url": "/api/v1/collected-papers/balaper-a281440-phi2period/files/source?version=2"
+      },
+      "title": "An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T15:22:06.237687730Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "balaper-a281440-phi2period"
+    },
+    {
+      "abstract_text": "Extending Banica–Özteke–Pittau's Fourier defect theory, we refute their Conjecture 1.14 (Isolated partial Hadamard matrices, and related topics, arXiv:1706.00986v2, p. 9): Fourier incidence equations and the analytic implicit-function theorem give non-isolation after any two row deletions at every prime order p ≥ 5. For any nonempty proper row set of size m, the local dephased solution space is a real-analytic manifold of dimension (m−1)(p−m−1). Thus among the nonempty prime Fourier truncations, precisely those with m = 1, p−1, p are isolated, and no fixed positive density margin ensures isolation. We also give an explicit defect formula for every row truncation of a finite abelian Fourier matrix; its zero-cycle case has the same analytic dimension formula with p replaced by the group order.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "43ced8a8460ce89a7c5cae3deeac10e5fc08d565",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/43ced8a8460ce89a7c5cae3deeac10e5fc08d565/D5/S3/Quantum/Tomography/Hadamard/BanicaTruncationRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 84501,
+        "sha256": "643edc858583afecd252500700ea70bc97009484a8c2a94db97f86cfe166b8b6",
+        "url": "/api/v1/collected-papers/banica-ozteke-pittau-2018-truncation-isolation/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T15:23:07.046045649Z",
+      "record": "banica-ozteke-pittau-2018-truncation-isolation",
+      "repository_name": "banica-ozteke-pittau-2018-truncation-isolation",
+      "source": {
+        "bytes": 15473,
+        "sha256": "2bebafdecb407d08b4d070681173db44ab691a8d9526623279f19939ed622394",
+        "url": "/api/v1/collected-papers/banica-ozteke-pittau-2018-truncation-isolation/files/source?version=2"
+      },
+      "title": "Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T15:23:07.046045649Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "banica-ozteke-pittau-2018-truncation-isolation"
+    },
+    {
       "abstract_text": "We prove Colin Barker's generating-function and recurrence conjectures of February 11, 2018 in the FORMULA fields of OEIS A299285 and A299286 for the tea uniform tiling. An exact distance formula reduces its graph spheres to integer hexagons in triangular layers. Their counts give a quadratic quasipolynomial of least period four, establish Stefano Spezia's conditional formula of June 8, 2024, and give the corresponding cubic ball count. We also prove that the proposed recurrences have the least possible eventual orders, six and seven. The same layer count proves the companion tcd formulas in A299287 and A299288. For arbitrary orientations of the tetrahedron–octahedron slabs, the tcd and tea counts are sharp lower and upper bounds, with sphere-count gap floor(n^2/8).",
       "authors": [
         {
@@ -2020,6 +2114,53 @@
         }
       ],
       "work": "hardin-barker-cyclic-repetitions"
+    },
+    {
+      "abstract_text": "We give alternative proofs and extensions for R. H. Hardin's empirical recurrences in the formula fields of OEIS A185761 (revision 8), A185762–A185763 (revision 9), A185764 (revision 10), and A185765–A185768 (revision 9), together with Colin Barker's formulas added on 22 February and 16 April 2018; the width-two case follows from Marko Riedel's 2016 word enumeration and Andrew Howroyd's 2025 array argument. These sequences count labeled binary arrays whose neighboring contiguous 2 by 2 blocks have different ordinary traces. A row-pair transfer construction reduces the assertions at widths two through nine to explicit finite integer identities; multiplying those identities by further transfer powers proves the recurrences at every length. It also gives rational generating functions at every fixed width and explains the transposition symmetry of the parent table A185769.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185761Recurrence.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 84507,
+        "sha256": "a1f5105599ca4509a04d54d5e58283114a35c2bdd3f1bbba5ab9ab9df6574267",
+        "url": "/api/v1/collected-papers/hardin1857-traceavoid/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T15:24:10.099702789Z",
+      "record": "hardin1857-traceavoid",
+      "repository_name": "hardin1857-traceavoid",
+      "source": {
+        "bytes": 296500,
+        "sha256": "1722796b8a8cdd1b0bff69f2980596dfed217a59b5809ae074212b663df7e852",
+        "url": "/api/v1/collected-papers/hardin1857-traceavoid/files/source?version=3"
+      },
+      "title": "Hardin's trace-avoiding array recurrences and Barker's formulas: alternative proofs extending Riedel's and Howroyd's enumerations",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T15:24:10.099702789Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "hardin1857-traceavoid"
     },
     {
       "abstract_text": "We prove the empirical recurrence in R. H. Hardin's OEIS entry A185765, revision 9, sole FORMULA field (October 3, 2025; submitted February 3, 2011). It counts labeled (n+1)-by-6 binary arrays whose contiguous 2-by-2 blocks have unequal traces at horizontal and vertical neighbors. A row-pair transfer operator reduces the all-length assertion to three exact finite identities. The recurrence holds for every n >= 13 and fails at n = 12, where its residual is -4160. Its reduced rational generating function proves that nine is the least possible eventual recurrence order over Q. The same method proves the smaller-width recurrences and Colin Barker's conjectural generating functions in A185761-A185764, including his two-column closed form. Transposition, divisibility by eight, and rationality at every fixed width give further consequences for Hardin's bivariate table A185769.",
