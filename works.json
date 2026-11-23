@@ -612,6 +612,100 @@
       "work": "bala295462"
     },
     {
+      "abstract_text": "Using finite jets, we give an alternative proof of the totient-square period conjecture in Peter Bala's comment of 16 February 2026 on OEIS A281181, revision 103, previously proved by Lien-Hung Su (2026, Theorem 3.2 and Corollary 3.3), and extend the argument to every positive integer flow exponent. For C'=C^q S, S'=C^(q+1), C(0)=1 and S(0)=0, the numbers A(q,e,n)=(2n)![t^(2n)]C(t)^e are integers for every positive integer q and nonnegative e, and A(q,e,n+phi(k)^2) is congruent to A(q,e,n) modulo k for every k>=1 and n>=k^2. The proof uses characteristic-p finite jets, commuting matrices, a separate two-adic operator and the Chinese remainder theorem. Five posed conjectures, nine further column specializations and one full-index interlacing are covered.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281181TotientSquarePeriod.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 90698,
+        "sha256": "9b199b7468a3660582032b2ab9f884212679e5ffc0098cb3746ce65f1b2acba1",
+        "url": "/api/v1/collected-papers/balaper-a281181-phi2period/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T07:26:51.822570133Z",
+      "record": "balaper-a281181-phi2period",
+      "repository_name": "balaper-a281181-phi2period",
+      "source": {
+        "bytes": 25404,
+        "sha256": "47259fb164d8bc19790db869365264226baa7882b91a5ef5216dbd0cef25fdfc",
+        "url": "/api/v1/collected-papers/balaper-a281181-phi2period/files/source?version=3"
+      },
+      "title": "A jet-space proof and extension of Su's theorem on Bala's totient-square period conjectures",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T07:26:51.822570133Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "balaper-a281181-phi2period"
+    },
+    {
+      "abstract_text": "For Peter Bala's conjecture in the comment of 16 February 2026 in OEIS A281183, revision 60 of 6 November 2026, we give explicit onsets and an alternative lifting proof of Lien-Hung Su's period theorem of 31 October 2026, Theorem 3.2 and Corollary 3.3 of Quadratic Derivations and Uniform Modular Periods for Six Inverse-Function Sequences, DOI 10.5281/zenodo.23835577. If a_n=(2n)![x^(2n)]C(x)^2, where C=cosh(integral_0^x C(t)^3 dt), then a_n is integral and has an eventual period dividing phi(m)^2 for every positive modulus m. For m>=3, phi(m)^2/2 is a period after N(m)=max(v_2(m), max_{odd p|m} ceil(v_p(m)/2)). A binomial operator lift proves this for every integral formal-series observable of S'=(1+S^2)^2. The note proves companion and interleaving consequences and gives dimension-bounded certificates for seven residue periods and the mod-12 identity, crediting Su's prior proofs. Written proofs, finite coefficient comparisons and formal declaration coverage are distinguished.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 95497,
+        "sha256": "9d4aa8402c27c48a609235b4efe37f2d2f24236c5dec99b984896cd710181591",
+        "url": "/api/v1/collected-papers/balaper-a281183-phi2period/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T07:27:52.612684224Z",
+      "record": "balaper-a281183-phi2period",
+      "repository_name": "balaper-a281183-phi2period",
+      "source": {
+        "bytes": 111468,
+        "sha256": "5b9addd7a41bc20056b26ea920b3bed688fa7d1248eabd895a10ea20d6bef9be",
+        "url": "/api/v1/collected-papers/balaper-a281183-phi2period/files/source?version=2"
+      },
+      "title": "Explicit onsets and residue certificates for Bala's totient-square period problem after Su",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T07:27:52.612684224Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "balaper-a281183-phi2period"
+    },
+    {
       "abstract_text": "We prove Colin Barker's generating-function and recurrence conjectures of February 11, 2018 in the FORMULA fields of OEIS A299285 and A299286 for the tea uniform tiling. An exact distance formula reduces its graph spheres to integer hexagons in triangular layers. Their counts give a quadratic quasipolynomial of least period four, establish Stefano Spezia's conditional formula of June 8, 2024, and give the corresponding cubic ball count. We also prove that the proposed recurrences have the least possible eventual orders, six and seven. The same layer count proves the companion tcd formulas in A299287 and A299288. For arbitrary orientations of the tetrahedron–octahedron slabs, the tcd and tea counts are sharp lower and upper bounds, with sphere-count gap floor(n^2/8).",
       "authors": [
         {
@@ -3763,6 +3857,53 @@
       "work": "oeis-a189733-curtz-denominator-conjecture"
     },
     {
+      "abstract_text": "As an elementary consequence of Baishanski's coefficient-norm limit (1999, §28.1, p. 523) and Neuwirth's trinomial maximum (2007, Remark 6.4), we answer Paul D. Hanna's question in OEIS A195417, first comment (history revision 2, September 17, 2011), for the cubic polynomial 1+x-x^3. If a_n is the sum of the absolute values of the coefficients of (1+x-x^3)^n, then its nth-root limit is sqrt((97+26 sqrt(13))/27). A unit-circle coefficient estimate gives explicit two-sided bounds for every n, and a polynomial identity gives the maximum exactly. The same estimate gives a self-contained proof of the A084611 root limit sqrt(5), announced by Kotěšovec in 2013, and gives the unposed root limits 9/sqrt(8) and sqrt(52/3) for A084613 and A084615.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 4,
+      "doi": null,
+      "lean_source": {
+        "revision": "6bdbb68454659fcccffc7607b5fc292b2ff2fcdf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bdbb68454659fcccffc7607b5fc292b2ff2fcdf/D5/S3/Analytic/Polynomial/A195417RootLimit.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 88273,
+        "sha256": "d0a022ba1471828796e41976b4ac783a21b426abacd7664afdebc4b00ed1d4f4",
+        "url": "/api/v1/collected-papers/oeis-a195417-absolute-coefficient-root-limit/files/pdf?version=4"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T07:02:41.061901460Z",
+      "record": "oeis-a195417-absolute-coefficient-root-limit",
+      "repository_name": "oeis-a195417-absolute-coefficient-root-limit",
+      "source": {
+        "bytes": 21599,
+        "sha256": "af4114f2fad1aa840b12e5d6037c0e94c0f40a2b02b9564a9c9d638eeb296655",
+        "url": "/api/v1/collected-papers/oeis-a195417-absolute-coefficient-root-limit/files/source?version=4"
+      },
+      "title": "An elementary consequence of Baishanski and Neuwirth answering Hanna's coefficient root-limit question",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T07:02:41.061901460Z",
+          "revision": "4",
+          "version": 4
+        }
+      ],
+      "work": "oeis-a195417-absolute-coefficient-root-limit"
+    },
+    {
       "abstract_text": "We give an alternative parity decomposition of Knuth's coefficient families (1993, pp. 285-286), proving Knud Werner's conjecture in OEIS A208509, Formula, revision 28: [x^k]v_n=binomial(n-1,2k+1)+binomial(n,2k+1) for n>=1 and k>=0. We identify the Pascal and Morgan-Voyce antecedents, prove the companion formula and all column generating functions, correct the A003948 and A054334 cross-references and two A090131 details, reprove established column interpretations and Blanco Gomez's 2026 solution of Chu's square-covering conjecture, and give an arbitrary-coupling initial-value formula over every commutative ring.",
       "authors": [
         {
@@ -4748,6 +4889,53 @@
         }
       ],
       "work": "spin-one-rotation-boxes"
+    },
+    {
+      "abstract_text": "We give an alternative proof, after Shi-Mei Ma (2026) and Principia Math in Progress (2026, Theorem 1), of Sagan and Swanson's Conjecture 7.6 (arXiv:2205.14078v1, Section 7.5, p. 40, posed May 27, 2022), using concentric interval layers for all four unshifted families. All four unshifted q-Stirling families are bottom heavy: each coefficient below the middle is at least its reflected coefficient. Concentric interval layers give an elementary proof for every nonnegative linear combination of products of q-integers. The layers give coefficient injections, an exact formula for the reflection defect, and a classification of symmetric entries. We deduce complex-reflection-group consequences and a closed alternating-sum formula clarifying the symmetry in the source's Conjecture 7.9.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/Combinatorics/QStirling/SaganSwansonBottomHeavy.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 88786,
+        "sha256": "c34d0b595ca02837b57814e035c449c93731d259fb6fe2a890427f66273cfe21",
+        "url": "/api/v1/collected-papers/ss2205-bottomheavy/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T07:03:43.388177253Z",
+      "record": "ss2205-bottomheavy",
+      "repository_name": "ss2205-bottomheavy",
+      "source": {
+        "bytes": 16403,
+        "sha256": "1c0cb65df3ddc3dd89d549666aab7ac1b51aee61f5931bb2e0d7e3b3f1d1cbbc",
+        "url": "/api/v1/collected-papers/ss2205-bottomheavy/files/source?version=3"
+      },
+      "title": "Coefficient injections and equality for Sagan–Swanson bottom heaviness: an alternative proof after Ma and Principia Math",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T07:03:43.388177253Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "ss2205-bottomheavy"
     },
     {
       "abstract_text": "For the unnumbered operational conjecture after Theorem 2, Section III A, p. 5 of Stasiuk–Lütkenhaus–Tan (arXiv:2212.06975v3), we give sharp public-flag erasure bounds and an elementary proof of the unflagged nondisturbance consequence of Koashi–Imoto (2002). A Bell-violating three-qubit witness prevents every joint channel from equating the error states while fixing both correct states. For a real qubit family, the minimum residual error-state trace distance under exact preservation is sqrt(1-s^2) abs(cos(2 theta)); an explicit random-unitary channel attains it. At the rational witness this minimum is 399760004/500100005, whereas allowing disturbance gives the tradeoff lower bound 38004/50005 for total disturbance plus residual distance. We also construct a Chernoff-preserving measurement for this family and state the orthogonal-record sufficient condition with its earlier QKD antecedents. These are statements about operations on a fixed realization, not replacement attacks with the same observed correlations.",

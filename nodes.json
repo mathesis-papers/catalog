@@ -3560,6 +3560,366 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:balaper-a281181-phi2period:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281181TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281181-phi2period:s1",
+      "macros": {
+        "\\FF": "\\mathbb F",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\ev": "\\operatorname{ev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281181-phi2period",
+      "scope": "in_scope",
+      "statement": "For every positive integer $q$ and integer $e\\geq0$, the numbers\n\\[\n A_{q,e}(n)=(2n)![t^{2n}]C_q(t)^e\\qquad(n\\geq0)\n\\]\nare integers. For all $k\\geq1$ and $n\\geq k^2$,\n\\begin{equation}\n A_{q,e}\\bigl(n+\\varphi(k)^2\\bigr)\\equiv A_{q,e}(n)\\pmod{k}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A jet-space proof and extension of Su's theorem on Bala's totient-square period conjectures",
+      "toolchain": null,
+      "version": 3,
+      "work": "balaper-a281181-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:balaper-a281181-phi2period:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281181TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281181-phi2period:s2",
+      "macros": {
+        "\\FF": "\\mathbb F",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\ev": "\\operatorname{ev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281181-phi2period",
+      "scope": "in_scope",
+      "statement": "Let $B$ be an integer $L\\times L$ matrix whose reduction modulo $p$ is\nthe operator $P(x)\\,d/dx$ on $\\FF_p[x]/(x^L)$, where $P(0)=1$.\nPut $U=p^{2r-1}$ and $T=p^{2r-2}(p-1)^2$. Then\n\\begin{equation}\n B^U(B^T-I)\\equiv0\\pmod{p^r}.\n\\end{equation}\nConsequently $B^{j+T}\\equiv B^j\\pmod{p^r}$ for every $j\\geq U$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A jet-space proof and extension of Su's theorem on Bala's totient-square period conjectures",
+      "toolchain": null,
+      "version": 3,
+      "work": "balaper-a281181-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:balaper-a281181-phi2period:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281181TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281181-phi2period:s3",
+      "macros": {
+        "\\FF": "\\mathbb F",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\ev": "\\operatorname{ev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281181-phi2period",
+      "scope": "in_scope",
+      "statement": "The even-exponent companions in the following table satisfy the\nsquare-totient congruence of Theorem \\ref{main}, with sufficient\nsource-index bound $k^2$ for an even column and $k^2+1$ for an odd column.\nThe same holds for A281431. The full-index sequence A281182 satisfies\n$a(j+2\\varphi(k)^2)\\equiv a(j)\\pmod{k}$ for $j\\geq2k^2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A jet-space proof and extension of Su's theorem on Bala's totient-square period conjectures",
+      "toolchain": null,
+      "version": 3,
+      "work": "balaper-a281181-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:balaper-a281183-phi2period:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281183-phi2period:s1",
+      "macros": {
+        "\\ev": "\\operatorname{ev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281183-phi2period",
+      "scope": "in_scope",
+      "statement": "For every $f\\in\\mathbb Z[s]$, every $m\\ge1$, and every $n\\ge N(m)$,\n\\[\n b_f(n+L(m))\\equiv b_f(n)\\pmod m.\n\\]\nMoreover $2^n\\mid b_f(n)$ for every $n\\ge0$.\nConsequently Bala's prescribed shift $\\varphi(m)^2$ is an eventual\nperiod for $a_n$ at every positive modulus.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Explicit onsets and residue certificates for Bala's totient-square period problem after Su",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281183-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:balaper-a281183-phi2period:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281183-phi2period:s2",
+      "macros": {
+        "\\ev": "\\operatorname{ev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281183-phi2period",
+      "scope": "in_scope",
+      "statement": "Let $A$ be an endomorphism of a finite free\n$\\mathbb Z/p^r\\mathbb Z$-module, where $p$ is prime and $r\\ge1$.\nIf $A(A^T-I)$ is divisible by $p$ for a positive integer $T$, then\n\\[\n A^r\\bigl(A^{Tp^{r-1}}-I\\bigr)=0.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Explicit onsets and residue certificates for Bala's totient-square period problem after Su",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281183-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:balaper-a281183-phi2period:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281183-phi2period:s3",
+      "macros": {
+        "\\ev": "\\operatorname{ev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281183-phi2period",
+      "scope": "in_scope",
+      "statement": "Theorem~\\ref{main} holds for every $f\\in\\mathbb Z[[s]]$.\nIn particular it holds for the factorial-scaled even coefficients\nof $C^{2k}$ for every integer $k$, including negative $k$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Explicit onsets and residue certificates for Bala's totient-square period problem after Su",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281183-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:balaper-a281183-phi2period:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281183-phi2period:s4",
+      "macros": {
+        "\\ev": "\\operatorname{ev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281183-phi2period",
+      "scope": "in_scope",
+      "statement": "The A281183 formulas attributed to Bala on 22 December 2025 and\n9 January 2026 also hold at every index: if\n$f_0=1$, $f_{j+1}=(\\sec^2(z)f_j)'$, and\n$h_0=(1-z^2)^{-1/2}$,\n$h_{j+1}=((1-z^2)^{-1/2}h_j)'$, then\n$f_{2n}(0)=h_{2n}(0)=a_n$ for all $n\\ge0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Explicit onsets and residue certificates for Bala's totient-square period problem after Su",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281183-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:balaper-a281183-phi2period:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281183-phi2period:s5",
+      "macros": {
+        "\\ev": "\\operatorname{ev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281183-phi2period",
+      "scope": "in_scope",
+      "statement": "For A281180, whose offset is $1$, write its terms as $s_n$.\nSince $S'=C^4=u(S)^2$, one has\n$s_n=b_{u^2}(n-1)$ for $n\\ge1$.\nTheorem~\\ref{main} proves the same periods for $s_n$ with onset\n$N(m)+1$. Su's Corollary 3.3 already includes this conclusion.\n\nLet $t_j=j![x^j](C+S)$, the sequence A281182, and let\n$R(m)=\\max_{p\\mid m}v_p(m)$ for $m>1$, with $R(1)=0$.\nFor $m\\ge3$, $t_{j+\\varphi(m)^2}\\equiv t_j\\pmod m$\nfor $j\\ge2R(m)$. Modulo $2$, its least eventual period is $2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Explicit onsets and residue certificates for Bala's totient-square period problem after Su",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281183-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:balaper-a281183-phi2period:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281183TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281183-phi2period:s6",
+      "macros": {
+        "\\ev": "\\operatorname{ev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281183-phi2period",
+      "scope": "in_scope",
+      "statement": "The following are the least eventual periods; the stated periods\nalready hold from the indicated OEIS index $n_0$.\n\\begin{center}\n\\begin{tabular}{lrrrr}\n\\toprule\nSequence & Modulus $m$ & Period $P$ & $n_0$ & Dimension $h$\\\\\n\\midrule\nA281180 & 7 & 18 & 1 & 4\\\\\nA281181 & 10 & 8 & 0 & 5\\\\\nA281181 & 9 & 3 & 1 & 5\\\\\nA281181 & 13 & 72 & 0 & 7\\\\\nA281183 & 11 & 25 & 1 & 6\\\\\nA281184 & 11 & 25 & 1 & 6\\\\\nA281440 & 13 & 72 & 0 & 7\\\\\n\\bottomrule\n\\end{tabular}\n\\end{center}\nMoreover A281181$(n)\\equiv1\\pmod{12}$ for every $n\\ge0$.\nThese results, including Curtz's mod-$9$, mod-$10$ and mod-$12$\nobservations in A281181, are reproved here with the finite certificates\nbelow; Su previously proved all of them \\cite[Proposition 3.6]{su}.\nThe mod-$10$ cycle is $(1,1,3,3,9,9,7,7)$; modulo $9$, the\nprefix $a(0)=1$ is followed by the cycle $(1,4,7)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Explicit onsets and residue certificates for Bala's totient-square period problem after Su",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281183-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:barker-tea-coordination-sequence:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -22738,6 +23098,228 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:oeis-a195417-absolute-coefficient-root-limit:4:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "6bdbb68454659fcccffc7607b5fc292b2ff2fcdf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bdbb68454659fcccffc7607b5fc292b2ff2fcdf/D5/S3/Analytic/Polynomial/A195417RootLimit.lean"
+      },
+      "lineage": "collected:oeis-a195417-absolute-coefficient-root-limit:s1",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a195417-absolute-coefficient-root-limit",
+      "scope": "in_scope",
+      "statement": "Put $R=\\sqrt{(97+26\\sqrt{13})/27}$. For every integer $n\\geq0$,\n\\begin{equation}\n R^n\\leq a_n\\leq\\sqrt{3n+1}\\,R^n.\n\\end{equation}\nConsequently, $\\lim_{n\\to\\infty}a_n^{1/n}=R$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An elementary consequence of Baishanski and Neuwirth answering Hanna's coefficient root-limit question",
+      "toolchain": null,
+      "version": 4,
+      "work": "oeis-a195417-absolute-coefficient-root-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:oeis-a195417-absolute-coefficient-root-limit:4:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "6bdbb68454659fcccffc7607b5fc292b2ff2fcdf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bdbb68454659fcccffc7607b5fc292b2ff2fcdf/D5/S3/Analytic/Polynomial/A195417RootLimit.lean"
+      },
+      "lineage": "collected:oeis-a195417-absolute-coefficient-root-limit:s2",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a195417-absolute-coefficient-root-limit",
+      "scope": "in_scope",
+      "statement": "Let $Q\\in\\mathbb C[x]$ be nonzero of degree $d$, and define\n\\[\n M=\\max_{|z|=1}|Q(z)|,\\qquad\n L_n=\\sum_{k=0}^{dn}|[x^k]Q(x)^n|.\n\\]\nThen $M>0$, and for every integer $n\\geq0$,\n\\begin{equation}\n M^n\\leq L_n\\leq\\sqrt{dn+1}\\,M^n.\n\\end{equation}\nIn particular $\\lim_{n\\to\\infty}L_n^{1/n}=M$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An elementary consequence of Baishanski and Neuwirth answering Hanna's coefficient root-limit question",
+      "toolchain": null,
+      "version": 4,
+      "work": "oeis-a195417-absolute-coefficient-root-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:oeis-a195417-absolute-coefficient-root-limit:4:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6bdbb68454659fcccffc7607b5fc292b2ff2fcdf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bdbb68454659fcccffc7607b5fc292b2ff2fcdf/D5/S3/Analytic/Polynomial/A195417RootLimit.lean"
+      },
+      "lineage": "collected:oeis-a195417-absolute-coefficient-root-limit:s3",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a195417-absolute-coefficient-root-limit",
+      "scope": "in_scope",
+      "statement": "For a real $m\\geq1$, put\n\\[\n B_n(m)=\\sum_{k=0}^{2n}|[x^k](1+x-mx^2)^n|,\\qquad\n M_m=(m+1)\\sqrt{1+\\frac1{4m}}.\n\\]\nThen, for every integer $n\\geq0$,\n\\[\n M_m^n\\leq B_n(m)\\leq\\sqrt{2n+1}\\,M_m^n,\n \\qquad\\lim_{n\\to\\infty}B_n(m)^{1/n}=M_m.\n\\]\nIn particular the limits for A084611, A084613 and A084615 are, respectively,\n$\\sqrt5$, $9/\\sqrt8$ and $\\sqrt{52/3}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An elementary consequence of Baishanski and Neuwirth answering Hanna's coefficient root-limit question",
+      "toolchain": null,
+      "version": 4,
+      "work": "oeis-a195417-absolute-coefficient-root-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:oeis-a195417-absolute-coefficient-root-limit:4:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6bdbb68454659fcccffc7607b5fc292b2ff2fcdf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bdbb68454659fcccffc7607b5fc292b2ff2fcdf/D5/S3/Analytic/Polynomial/A195417RootLimit.lean"
+      },
+      "lineage": "collected:oeis-a195417-absolute-coefficient-root-limit:s4",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a195417-absolute-coefficient-root-limit",
+      "scope": "in_scope",
+      "statement": "For $T_{b,c}(n,k)=[x^k](1+bx+cx^2)^n$,\n\\begin{align*}\n T_{b,c}(n,k)&=\\sum_{\\substack{j\\geq0\\\\0\\leq k-2j\\leq n-j}}\n   \\binom nj\\binom{n-j}{k-2j}b^{k-2j}c^j,\\\\\n \\sum_k T_{b,c}(n,k)&=(1+b+c)^n,\\qquad\n \\sum_k(-1)^k T_{b,c}(n,k)=(1-b+c)^n,\\\\\n T_{b,c}(n,2n)&=c^n,\\qquad\n T_{b,c}(n,2n-1)=nbc^{n-1}\\quad(n\\geq1).\n\\end{align*}\nFor $b=1$, $c=-m$, the ordinary and alternating row sums are\n$(2-m)^n$ and $(-m)^n$. For $b,c\\geq0$ the absolute row sum is exactly\n$(1+b+c)^n$. Powers with exponent zero have value one, including $0^0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An elementary consequence of Baishanski and Neuwirth answering Hanna's coefficient root-limit question",
+      "toolchain": null,
+      "version": 4,
+      "work": "oeis-a195417-absolute-coefficient-root-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:oeis-a195417-absolute-coefficient-root-limit:4:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6bdbb68454659fcccffc7607b5fc292b2ff2fcdf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bdbb68454659fcccffc7607b5fc292b2ff2fcdf/D5/S3/Analytic/Polynomial/A195417RootLimit.lean"
+      },
+      "lineage": "collected:oeis-a195417-absolute-coefficient-root-limit:s5",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a195417-absolute-coefficient-root-limit",
+      "scope": "in_scope",
+      "statement": "For $T(n,k)=[x^k](1+x-x^2)^n$,\n\\[\n \\sum_{k=0}^nT(n-k,k)=\\left\\lfloor\\frac{n+2}{2}\\right\\rfloor.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An elementary consequence of Baishanski and Neuwirth answering Hanna's coefficient root-limit question",
+      "toolchain": null,
+      "version": 4,
+      "work": "oeis-a195417-absolute-coefficient-root-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:oeis-a195417-absolute-coefficient-root-limit:4:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6bdbb68454659fcccffc7607b5fc292b2ff2fcdf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bdbb68454659fcccffc7607b5fc292b2ff2fcdf/D5/S3/Analytic/Polynomial/A195417RootLimit.lean"
+      },
+      "lineage": "collected:oeis-a195417-absolute-coefficient-root-limit:s6",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a195417-absolute-coefficient-root-limit",
+      "scope": "in_scope",
+      "statement": "If the successive ratios of $a_n$, or of any $B_n(m)$ above, converge\nto a positive number, that number equals the corresponding root limit.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An elementary consequence of Baishanski and Neuwirth answering Hanna's coefficient root-limit question",
+      "toolchain": null,
+      "version": 4,
+      "work": "oeis-a195417-absolute-coefficient-root-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:oeis-a208509-affine-polynomial-pair-binomial-coefficients:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -28661,6 +29243,406 @@
       "toolchain": null,
       "version": 2,
       "work": "spin-one-rotation-boxes"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:ss2205-bottomheavy:3:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/Combinatorics/QStirling/SaganSwansonBottomHeavy.lean"
+      },
+      "lineage": "collected:ss2205-bottomheavy:s1",
+      "macros": {
+        "\\coef": "[q^{#1}]#2",
+        "\\qi": "[#1]_q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ss2205-bottomheavy",
+      "scope": "in_scope",
+      "statement": "Every finite product of $\\qi{m}$ with $m\\ge1$ is symmetric and\nunimodal, with nonnegative coefficients and constant coefficient one.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Coefficient injections and equality for Sagan–Swanson bottom heaviness: an alternative proof after Ma and Principia Math",
+      "toolchain": null,
+      "version": 3,
+      "work": "ss2205-bottomheavy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:ss2205-bottomheavy:3:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/Combinatorics/QStirling/SaganSwansonBottomHeavy.lean"
+      },
+      "lineage": "collected:ss2205-bottomheavy:s10",
+      "macros": {
+        "\\coef": "[q^{#1}]#2",
+        "\\qi": "[#1]_q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ss2205-bottomheavy",
+      "scope": "in_scope",
+      "statement": "The alternating sum in Sagan--Swanson Conjecture 7.9 satisfies, for $n\\ge0$,\n\\begin{equation}\n \\sum_{k=0}^n(-1)^{n-k}q^{2(n-k)}\\qi{k}!S[n,k]-1\n   =(1-q)(1+q)^n-1+q^{n+1}.\n\\end{equation}\nFor $n\\ge1$ its coefficient at $q^j$, $1\\le j\\le n$, is\n$\\binom nj-\\binom n{j-1}$; coefficients at zero and $n+1$ vanish.\nThe nonzero coefficients are positive below $(n+1)/2$, negative above\nit, and paired with their negatives by $j\\mapsto n+1-j$.\nFor $n\\ge2$, factoring out the initial $q$ makes the absolute-coefficient\npolynomial palindromic in the ordinary degree convention.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Coefficient injections and equality for Sagan–Swanson bottom heaviness: an alternative proof after Ma and Principia Math",
+      "toolchain": null,
+      "version": 3,
+      "work": "ss2205-bottomheavy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:ss2205-bottomheavy:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/Combinatorics/QStirling/SaganSwansonBottomHeavy.lean"
+      },
+      "lineage": "collected:ss2205-bottomheavy:s2",
+      "macros": {
+        "\\coef": "[q^{#1}]#2",
+        "\\qi": "[#1]_q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ss2205-bottomheavy",
+      "scope": "in_scope",
+      "statement": "Let $f$ have nonnegative, symmetric unimodal coefficients and degree\n$d\\le D$. Then $\\coef{D-r}{f}\\le\\coef r f$ for every $0\\le r$ with\n$2r<D$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Coefficient injections and equality for Sagan–Swanson bottom heaviness: an alternative proof after Ma and Principia Math",
+      "toolchain": null,
+      "version": 3,
+      "work": "ss2205-bottomheavy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:ss2205-bottomheavy:3:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/Combinatorics/QStirling/SaganSwansonBottomHeavy.lean"
+      },
+      "lineage": "collected:ss2205-bottomheavy:s3",
+      "macros": {
+        "\\coef": "[q^{#1}]#2",
+        "\\qi": "[#1]_q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ss2205-bottomheavy",
+      "scope": "in_scope",
+      "statement": "Every polynomial in\n\\[\n \\mathcal C=\\left\\{\\sum_{\\nu=1}^{N}\\lambda_\\nu\n       \\prod_{j=1}^{s_\\nu}\\qi{m_{\\nu j}}:\n       N,s_\\nu\\ge0,\\ \\lambda_\\nu\\in\\mathbb R_{\\ge0},\\ m_{\\nu j}\\ge1\\right\\}\n\\]\nis bottom heavy. If its actual degree is $D$, its coefficients also\nsatisfy $a_i\\ge a_{i+1}$ for $\\lceil D/2\\rceil\\le i<D$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Coefficient injections and equality for Sagan–Swanson bottom heaviness: an alternative proof after Ma and Principia Math",
+      "toolchain": null,
+      "version": 3,
+      "work": "ss2205-bottomheavy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:ss2205-bottomheavy:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/Combinatorics/QStirling/SaganSwansonBottomHeavy.lean"
+      },
+      "lineage": "collected:ss2205-bottomheavy:s4",
+      "macros": {
+        "\\coef": "[q^{#1}]#2",
+        "\\qi": "[#1]_q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ss2205-bottomheavy",
+      "scope": "in_scope",
+      "statement": "All four unshifted families in \\eqref{eq:rec} satisfy \\eqref{eq:bh}\nfor every $n\\ge0$ and $k\\in\\mathbb Z$.\nThe ordered second-kind families\n$S^o[n,k]=\\qi{k}!S[n,k]$ and\n$S_B^o[n,k]=\\qi{2k}!!S_B[n,k]$ have the same property for $k\\ge0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Coefficient injections and equality for Sagan–Swanson bottom heaviness: an alternative proof after Ma and Principia Math",
+      "toolchain": null,
+      "version": 3,
+      "work": "ss2205-bottomheavy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:ss2205-bottomheavy:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/Combinatorics/QStirling/SaganSwansonBottomHeavy.lean"
+      },
+      "lineage": "collected:ss2205-bottomheavy:s5",
+      "macros": {
+        "\\coef": "[q^{#1}]#2",
+        "\\qi": "[#1]_q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ss2205-bottomheavy",
+      "scope": "in_scope",
+      "statement": "Every nonzero member of $\\mathcal C$ has strictly positive coefficients\nat all exponents from zero to its actual degree. In particular the\npositivity clauses of \\cite[Conjectures 7.4 and 7.5]{SS} hold for\nnonzero entries.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Coefficient injections and equality for Sagan–Swanson bottom heaviness: an alternative proof after Ma and Principia Math",
+      "toolchain": null,
+      "version": 3,
+      "work": "ss2205-bottomheavy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:ss2205-bottomheavy:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/Combinatorics/QStirling/SaganSwansonBottomHeavy.lean"
+      },
+      "lineage": "collected:ss2205-bottomheavy:s6",
+      "macros": {
+        "\\coef": "[q^{#1}]#2",
+        "\\qi": "[#1]_q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ss2205-bottomheavy",
+      "scope": "in_scope",
+      "statement": "For a mixture in $\\mathcal C$ with integer weights, the product-of-chains\nencoding admits an explicit injection from the objects of rank $D-r$\nto those of rank $r$ whenever $2r<D$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Coefficient injections and equality for Sagan–Swanson bottom heaviness: an alternative proof after Ma and Principia Math",
+      "toolchain": null,
+      "version": 3,
+      "work": "ss2205-bottomheavy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:ss2205-bottomheavy:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/Combinatorics/QStirling/SaganSwansonBottomHeavy.lean"
+      },
+      "lineage": "collected:ss2205-bottomheavy:s7",
+      "macros": {
+        "\\coef": "[q^{#1}]#2",
+        "\\qi": "[#1]_q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ss2205-bottomheavy",
+      "scope": "in_scope",
+      "statement": "Write $P=\\sum_\\nu\\lambda_\\nu f_\\nu$, where the $f_\\nu$ are nonzero\nnonnegative symmetric unimodal polynomials, $\\lambda_\\nu>0$, and\n$d_\\nu=\\deg f_\\nu\\le D=\\deg P$.\nPut $b_{\\nu,j}=[q^j]f_\\nu$, $b_{\\nu,-1}=0$, and\n$\\delta_{\\nu,j}=b_{\\nu,j}-b_{\\nu,j-1}$ for\n$0\\le j\\le\\lfloor d_\\nu/2\\rfloor$.\nFor every integer $0\\le r<D/2$,\n\\begin{equation}\n [q^r]P-[q^{D-r}]P=\n \\sum_\\nu\\lambda_\\nu\n \\sum_{\\substack{0\\le j\\le\\lfloor d_\\nu/2\\rfloor\\\\\n                  j\\le r\\le d_\\nu-j\\\\ d_\\nu-j<D-r}}\n       \\delta_{\\nu,j}.\n\\end{equation}\nThus equality holds precisely when all the displayed $\\delta_{\\nu,j}$\nvanish. Each positive displayed term gives a lower bound for the defect.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Coefficient injections and equality for Sagan–Swanson bottom heaviness: an alternative proof after Ma and Principia Math",
+      "toolchain": null,
+      "version": 3,
+      "work": "ss2205-bottomheavy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:ss2205-bottomheavy:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/Combinatorics/QStirling/SaganSwansonBottomHeavy.lean"
+      },
+      "lineage": "collected:ss2205-bottomheavy:s8",
+      "macros": {
+        "\\coef": "[q^{#1}]#2",
+        "\\qi": "[#1]_q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ss2205-bottomheavy",
+      "scope": "in_scope",
+      "statement": "For $n\\ge1$, among nonzero entries the symmetric cases are exactly\n\\[\n\\begin{array}{c|c}\n S[n,k]\\text{ and }c[n,k]& k=1\\text{ or }k=n\\\\\n S_B[n,k]\\text{ and }c_B[n,k]& k=0\\text{ or }k=n.\n\\end{array}\n\\]\nIn every other nonzero case the constant coefficient is strictly larger\nthan the leading coefficient. The initial row and all zero entries are symmetric.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Coefficient injections and equality for Sagan–Swanson bottom heaviness: an alternative proof after Ma and Principia Math",
+      "toolchain": null,
+      "version": 3,
+      "work": "ss2205-bottomheavy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:ss2205-bottomheavy:3:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S3/Combinatorics/QStirling/SaganSwansonBottomHeavy.lean"
+      },
+      "lineage": "collected:ss2205-bottomheavy:s9",
+      "macros": {
+        "\\coef": "[q^{#1}]#2",
+        "\\qi": "[#1]_q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ss2205-bottomheavy",
+      "scope": "in_scope",
+      "statement": "For $0\\le k\\le n$, the following polynomials are bottom heavy,\npositive throughout their nonempty supports, and nonincreasing on\nthe upper half of their degree ranges:\n\\begin{align*}\n S[m,n,k]&=h_{n-k}(\\qi1,\\qi{m+1},\\ldots,\\qi{km+1}),\\\\\n (-1)^{n-k}s[m,n,k]&=e_{n-k}(\\qi1,\\qi{m+1},\\ldots,\\qi{(n-1)m+1}),\\\\\n \\widetilde S[m,n,k]&=h_{n-k}(\\qi{m-1},\\qi{2m-1},\\ldots,\\qi{(k+1)m-1}),\n\\end{align*}\nas well as their products with $[km]!_m$.\nThe Chan--Rhoades polynomial $S^o_{CR}[m,n,k]$ has these properties;\nthe Hilbert polynomial whose coefficient reversal it equals is top heavy.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Coefficient injections and equality for Sagan–Swanson bottom heaviness: an alternative proof after Ma and Principia Math",
+      "toolchain": null,
+      "version": 3,
+      "work": "ss2205-bottomheavy"
     },
     {
       "attribution": null,

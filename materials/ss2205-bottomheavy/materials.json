@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/ss2205-bottomheavy/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/ss2205-bottomheavy",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/ss2205-bottomheavy/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "ss2205-bottomheavy"
+}

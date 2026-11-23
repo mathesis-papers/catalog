@@ -79,6 +79,18 @@
       "version": 4
     },
     {
+      "doi": "10.5281/zenodo.24411944",
+      "id": "balaper-a281181-phi2period",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24411953",
+      "id": "balaper-a281183-phi2period",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24409050",
       "id": "barker-tea-coordination-sequence",
       "kind": "collected",
@@ -469,6 +481,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24411294",
+      "id": "oeis-a195417-absolute-coefficient-root-limit",
+      "kind": "collected",
+      "version": 4
+    },
+    {
       "doi": "10.5281/zenodo.24211281",
       "id": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
       "kind": "collected",
@@ -595,6 +613,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24411306",
+      "id": "ss2205-bottomheavy",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24410097",
       "id": "stasiuk-lutkenhaus-tan-error-state-erasure",
       "kind": "collected",
@@ -697,6 +721,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-23T06:49:57.698254125Z",
+  "generated_at": "2026-11-23T07:33:01.793211511Z",
   "schema": "mathesis.archive-index.v1"
 }
