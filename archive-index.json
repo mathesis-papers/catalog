@@ -91,6 +91,18 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24411962",
+      "id": "balaper-a281440-phi2period",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24411966",
+      "id": "banica-ozteke-pittau-2018-truncation-isolation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24409050",
       "id": "barker-tea-coordination-sequence",
       "kind": "collected",
@@ -257,6 +269,12 @@
       "id": "hardin-barker-cyclic-repetitions",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24411970",
+      "id": "hardin1857-traceavoid",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.24410609",
@@ -721,6 +739,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-23T15:30:16.621266994Z",
+  "generated_at": "2026-11-23T16:30:51.706260296Z",
   "schema": "mathesis.archive-index.v1"
 }

@@ -2303,6 +2303,170 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:arvind-commuting-graph-prime-sixth-order:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "a5ab754b3968a7da271b36fb2b1d878697d70892",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a5ab754b3968a7da271b36fb2b1d878697d70892/D5/S3/FiniteGroups/Heisenberg/CommutingGraphQ4.lean"
+      },
+      "lineage": "collected:arvind-commuting-graph-prime-sixth-order:s1",
+      "macros": {
+        "\\Fp": "\\mathbb F_p",
+        "\\HH": "\\mathcal H",
+        "\\ZZ": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "arvind-commuting-graph-prime-sixth-order",
+      "scope": "in_scope",
+      "statement": "For every $p$ and $f$ as above, the groups $G=\\HH(R)$ and $H=\\HH(S)$ have order\n$q^6=p^{6f}$, nilpotency class two and isomorphic full commuting graphs, but are\nnot isoclinic. Their centres and derived subgroups coincide, with\n\\[\n G'=Z(G)\\cong (C_{p^2})^f,\\qquad H'=Z(H)\\cong (C_p)^{2f},\n\\]\nwhere $C_m$ denotes the cyclic group of order $m$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Residue-field extensions of O'Brien's examples for Arvind–Cameron–Ma–Maslova's commuting-graph question",
+      "toolchain": null,
+      "version": 2,
+      "work": "arvind-commuting-graph-prime-sixth-order"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:arvind-commuting-graph-prime-sixth-order:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "a5ab754b3968a7da271b36fb2b1d878697d70892",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a5ab754b3968a7da271b36fb2b1d878697d70892/D5/S3/FiniteGroups/Heisenberg/CommutingGraphQ4.lean"
+      },
+      "lineage": "collected:arvind-commuting-graph-prime-sixth-order:s2",
+      "macros": {
+        "\\Fp": "\\mathbb F_p",
+        "\\HH": "\\mathcal H",
+        "\\ZZ": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "arvind-commuting-graph-prime-sixth-order",
+      "scope": "in_scope",
+      "statement": "There is a bijection $\\phi:R^2\\to S^2$, with $\\phi(0,0)=(0,0)$, such that\n\\[\n xy'-x'y=0\\quad\\Longleftrightarrow\\quad\n \\phi(x,y)_1\\phi(x',y')_2-\\phi(x',y')_1\\phi(x,y)_2=0.\n\\]\nHere subscripts denote the two coordinates in $S^2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Residue-field extensions of O'Brien's examples for Arvind–Cameron–Ma–Maslova's commuting-graph question",
+      "toolchain": null,
+      "version": 2,
+      "work": "arvind-commuting-graph-prime-sixth-order"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:arvind-commuting-graph-prime-sixth-order:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a5ab754b3968a7da271b36fb2b1d878697d70892",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a5ab754b3968a7da271b36fb2b1d878697d70892/D5/S3/FiniteGroups/Heisenberg/CommutingGraphQ4.lean"
+      },
+      "lineage": "collected:arvind-commuting-graph-prime-sixth-order:s3",
+      "macros": {
+        "\\Fp": "\\mathbb F_p",
+        "\\HH": "\\mathcal H",
+        "\\ZZ": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "arvind-commuting-graph-prime-sixth-order",
+      "scope": "in_scope",
+      "statement": "For every prime $p$ and integer $n\\geq6$, there are non-isoclinic\ngroups of order $p^n$ with isomorphic full commuting graphs. The two\ngroups in Theorem~\\ref{thm:main}, and their products with any common finite\nabelian group, also have isomorphic commuting graphs on their noncentral elements.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Residue-field extensions of O'Brien's examples for Arvind–Cameron–Ma–Maslova's commuting-graph question",
+      "toolchain": null,
+      "version": 2,
+      "work": "arvind-commuting-graph-prime-sixth-order"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:arvind-commuting-graph-prime-sixth-order:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a5ab754b3968a7da271b36fb2b1d878697d70892",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a5ab754b3968a7da271b36fb2b1d878697d70892/D5/S3/FiniteGroups/Heisenberg/CommutingGraphQ4.lean"
+      },
+      "lineage": "collected:arvind-commuting-graph-prime-sixth-order:s4",
+      "macros": {
+        "\\Fp": "\\mathbb F_p",
+        "\\HH": "\\mathcal H",
+        "\\ZZ": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "arvind-commuting-graph-prime-sixth-order",
+      "scope": "in_scope",
+      "statement": "The common full graph of Theorem~\\ref{thm:main} is chordal and perfect,\nbut neither a cograph, a split graph nor a threshold graph.\nIts degree distribution is\n\\[\n\\begin{array}{c|ccc}\n\\text{degree} &q^6-1&q^5-1&q^4-1\\\\\n\\text{multiplicity}&q^2&q^4-q^2&q^6-q^4.\n\\end{array}\n\\]\nIts clique and chromatic numbers are both $q^4$. The commuting\nprobability is $q^{-2}+q^{-3}-q^{-5}$ and the number of conjugacy classes\nis $q^4+q^3-q$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Residue-field extensions of O'Brien's examples for Arvind–Cameron–Ma–Maslova's commuting-graph question",
+      "toolchain": null,
+      "version": 2,
+      "work": "arvind-commuting-graph-prime-sixth-order"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:b164660-chebfloor:1:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -3920,6 +4084,252 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:balaper-a281184-phi2period:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281184-phi2period:s1",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281184-phi2period",
+      "scope": "in_scope",
+      "statement": "The sequence $u(n)$ has least eventual period $18$ modulo $27$,\nwith exact origin $n=2$. Moreover\n\\[\n u(n)\\equiv0\\pmod{385}\\quad(n\\geq6),\\qquad u(5)\\equiv105\\pmod{385}.\n\\]\nIts exact zero-tail origins modulo $5,7,11$ are $3,4,6$, respectively.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281184-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:balaper-a281184-phi2period:2:s2",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281184-phi2period:s2",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281184-phi2period",
+      "scope": "in_scope",
+      "statement": "For $P\\geq1$, $r\\in\\Z/m\\Z$, and $t\\geq0$, if\n$\\ell M^j(M^P-rI)f_0=0$ for $t\\leq j<t+h$, then\n$A_b(j+P,e)=rA_b(j,e)$ modulo $m$ for every $j\\geq t$.\nLikewise $h$ consecutive zero values beginning at $t$ imply a zero tail.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281184-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:balaper-a281184-phi2period:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281184-phi2period:s3",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281184-phi2period",
+      "scope": "in_scope",
+      "statement": "The table gives least periods $P$ and exact origins $n_0$ in source\nindices. In each row $h$ scalar period differences from $n_0$ are zero.\n\\[\n\\begin{array}{@{}lrrrr@{}}\\toprule\n \\text{sequence}&m&P&n_0&h\\\\\\midrule\n \\mathrm{A281180}&7&18&1&4\\\\\n \\mathrm{A281181}&10&8&0&5\\\\\n \\mathrm{A281181}&9&3&1&5\\\\\n \\mathrm{A281181}&13&72&0&7\\\\\n \\mathrm{A281183}&11&25&1&6\\\\\n \\mathrm{A281184}&11&25&1&6\\\\\n \\mathrm{A281440}&13&72&0&7\\\\\\bottomrule\n\\end{array}\n\\]\nAlso $\\mathrm{A281181}(n)\\equiv1\\pmod{12}$ for every $n\\geq0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281184-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:balaper-a281184-phi2period:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281184-phi2period:s4",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281184-phi2period",
+      "scope": "in_scope",
+      "statement": "The following identities hold for all $n\\geq n_0$:\n$a(n+r)\\equiv\\lambda a(n)\\pmod m$.\n\\[\n\\begin{array}{@{}lrrrr@{}}\\toprule\n \\text{sequence}&m&r&\\lambda&n_0\\\\\\midrule\n \\mathrm{A281180}&7&6&2&1\\\\\n \\mathrm{A281181}&13&6&7&0\\\\\n \\mathrm{A281183}&11&5&5&1\\\\\n \\mathrm{A281184}&11&5&5&1\\\\\n \\mathrm{A281440}&13&6&6&0\\\\\\bottomrule\n\\end{array}\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281184-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:balaper-a281184-phi2period:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281184-phi2period:s5",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281184-phi2period",
+      "scope": "in_scope",
+      "statement": "For A281182 set $t(j)=j![x^j](C_4+S_4)$. Then\n$t(2n)=A_4(n,1)$ and $t(2n+1)=A_4(n,4)$.\nConsequently $\\varphi(m)^2$ is a full-index tail period for $m\\geq3$\nfrom index $2N_4(m)$, and $2\\varphi(m)^2$ is a tail period for all $m\\geq1$.\nThe full-index shift $1$ fails modulo $2$; it is not asserted in this source.\n\nFor A281183, let $v(y)=1+y^2$ and\n$T(f)=v\\,d(vf)/dy$. Then $(T^{2n}1)(0)=A_4(n,2)$.\nFor A281181, $(S_4/C_4)'=C_4$, and the $x^5$ coefficient of $S_4/C_4$\nis $13/5!$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281184-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:balaper-a281184-phi2period:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-a281184-phi2period:s6",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-a281184-phi2period",
+      "scope": "in_scope",
+      "statement": "In A281428's January 22, 2026 formula, let\n$f_k(0,\\theta)=\\sec^{k-3}\\theta$ and\n$f_k(j,\\theta)=\\partial_\\theta(\\sec^3\\theta f_k(j-1,\\theta))$.\nFor integer $k\\geq0$ and $j\\geq0$, the correctly normalized identity is\n$f_k(j,0)=j![x^j]C_5(x)^k$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-a281184-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:balaper-a281440-phi2period:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -4206,6 +4616,479 @@
       "toolchain": null,
       "version": 2,
       "work": "balaper-a281440-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:balaper-phi2period:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-phi2period:s1",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ev": "\\operatorname{ev}_0",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-phi2period",
+      "scope": "in_scope",
+      "statement": "The integers $a(n)$ in \\eqref{eq:source} satisfy, for every $m\\ge3$,\n\\[\n a\\bigl(n+\\ph(m)^2/2\\bigr)\\equiv a(n)\\pmod m\n \\qquad(n\\ge N(m)).\n\\]\nModulo $2$ they are zero for $n\\ge2$; modulo $1$ the assertion is\nimmediate. Consequently the shift $\\ph(m)^2$ is valid eventually\nfor every positive integer $m$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:balaper-phi2period:2:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-phi2period:s10",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ev": "\\operatorname{ev}_0",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-phi2period",
+      "scope": "in_scope",
+      "statement": "For $u=1+s^2$ and $D=u^2\\partial_s$, write\n\\[\n D^{2n-1}s=u^{2n}Q_n(s^2)\\qquad(n\\ge1).\n\\]\nThen $Q_n(z)=\\sum_k T(n,k)z^k$ is the triangle A394012.\nIts first column is A281180 and its second column is A391180, with\n\\[\n T(n,1)=\\tfrac12 a(n+1)-2n a(n).\n\\]\nConsequently, for $m\\ge2$, A391180 has the eventual period\n$\\operatorname{lcm}(m,\\ph(2m)^2/2)$, with sufficient onset $N(2m)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s11",
+      "contributor": null,
+      "identity": "collected:balaper-phi2period:2:s11",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-phi2period:s11",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ev": "\\operatorname{ev}_0",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-phi2period",
+      "scope": "in_scope",
+      "statement": "The source examples have the following exact least periods.\n\\begin{center}\n\\begin{tabular}{@{}lrrrr@{}}\\toprule\nEntry & $m$ & least period & first index & $h$\\\\\\midrule\nA281180 & 7 & 18 & 1 & 4\\\\\nA281181 & 10 & 8 & 0 & 5\\\\\nA281181 & 9 & 3 & 1 & 5\\\\\nA281181 & 13 & 72 & 0 & 7\\\\\nA281183 & 11 & 25 & 1 & 6\\\\\nA281184 & 11 & 25 & 1 & 6\\\\\nA281440 & 13 & 72 & 0 & 7\\\\\\bottomrule\n\\end{tabular}\n\\end{center}\nAlso A281181$(n)=1\\pmod{12}$ for all $n\\ge0$, and\nA281184$(n)=3\\pmod9$ for all $n\\ge1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:balaper-phi2period:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-phi2period:s2",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ev": "\\operatorname{ev}_0",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-phi2period",
+      "scope": "in_scope",
+      "statement": "For every prime $p$, $r\\ge1$ and $j\\ge p^{2r-1}$,\n\\begin{equation}\n u_{j+\\ph(p^r)^2}\\equiv u_j\\pmod{p^r}.\n\\end{equation}\nThe same conclusion modulo $m>1$ holds for $j\\ge M(m)$\nwith shift $\\ph(m)^2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:balaper-phi2period:2:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-phi2period:s3",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ev": "\\operatorname{ev}_0",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-phi2period",
+      "scope": "in_scope",
+      "statement": "For every integer $a\\ge1$, $F\\in R$ and $m\\ge3$,\n\\[\n \\beta_{a,F}\\bigl(n+\\ph(m)^2/2\\bigr)\n \\equiv\\beta_{a,F}(n)\\pmod m\\qquad(n\\ge J(m)).\n\\]\nModulo $2$, a period of one holds for $n\\ge1$.\nThe even-exponent specialization for $F=c^k$ is Su's\nTheorem 3.2; the argument here also includes every odd exponent\nand every integral polynomial observable.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:balaper-phi2period:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-phi2period:s4",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ev": "\\operatorname{ev}_0",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-phi2period",
+      "scope": "in_scope",
+      "statement": "All five conjectured totient-square periods hold, and for $m\\ge3$\nthe half-square shift holds for the following exact source sequences:\n\\[\n\\begin{array}{c|ccccc}\n \\text{entry}&\\mathrm{A281180}&\\mathrm{A281181}&\\mathrm{A281183}&\\mathrm{A281184}&\\mathrm{A281440}\\\\\n \\text{value}&\\beta_{4,4}(n-1)&\\beta_{4,1}(n)&\\beta_{4,2}(n)&\\beta_{4,3}(n)&\\beta_{8,1}(n).\n\\end{array}\n\\]\nAn onset $J(m)+1$ suffices for the first sequence, and $J(m)$\nfor the other four. For A281180, Theorem~\\ref{thm:main} supplies the\nadditional bound $N(m)$. Modulo $1$ or $2$ a period of one is eventual.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:balaper-phi2period:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-phi2period:s5",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ev": "\\operatorname{ev}_0",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-phi2period",
+      "scope": "in_scope",
+      "statement": "The sequence A281182 has an eventual period dividing $\\ph(m)^2$\nfor $m\\ge3$, with onset $2J(m)$, and dividing $2$ modulo $2$.\nThe sequences A281427, A281428, A281432, A281435, A281436,\nA281439, A281443 and A281444 have an eventual half-square shift\nfor $m\\ge3$. Their corresponding exponents $a$ are, respectively,\n$5,5,6,7,7,8,9,9$. These period statements for the additional\nentries are consequences, not conjectures posed there;\nthe stronger A281428 assertions are stated below.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:balaper-phi2period:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-phi2period:s6",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ev": "\\operatorname{ev}_0",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-phi2period",
+      "scope": "in_scope",
+      "statement": "Bala's tentative derivative formula in A281183, Formula, revision 60,\nsigned 22 December 2025, holds: for $g_0=1$ and\n$g_{j+1}=(1+z^2)\\,d((1+z^2)g_j)/dz$,\n$g_{2n}(0)=\\mathrm{A281183}(n)$ for every $n\\ge0$.\nThis is Su's Proposition 3.5.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:balaper-phi2period:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-phi2period:s7",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ev": "\\operatorname{ev}_0",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-phi2period",
+      "scope": "in_scope",
+      "statement": "Fix $m\\ge2$ and write $r_* = \\max_{p^r\\parallel m}r$.\nFor each odd $p^r\\parallel m$ put\n\\[\n h_{p^r}=\\frac{(p-1)p^{r-1}}2,\\qquad\n \\alpha_{a,p}=[s^{p-1}](1+s^2)^{-a/2}\\pmod p.\n\\]\nSet $h_2=h_4=1$ and $h_{2^r}=2^{r-2}$ for $r\\ge3$.\nLet $H=\\operatorname{lcm}_{p^r\\parallel m}h_{p^r}$, and choose\n$\\Gamma\\in\\Z/m\\Z$ reducing to\n$\\widetilde\\alpha_{a,p}^{\\,H/h_{p^r}}$ modulo each odd $p^r$,\nwhere $\\widetilde\\alpha_{a,p}$ is any integral lift of $\\alpha_{a,p}$,\nand to one modulo the $2$-primary factor.\nFor every $F\\in R$ and $n\\ge r_*$,\n\\[\n \\sum_{t=0}^{r_*}(-1)^{r_*-t}\\binom{r_*}{t}\n \\Gamma^{r_*-t}\\beta_{a,F}(n+tH)\\equiv0\\pmod m.\n\\]\nIn particular, for squarefree $m$ the rows satisfy\n$\\beta_{a,F}(n+H)=\\Gamma\\beta_{a,F}(n)\\pmod m$ for $n\\ge1$.\nThe scalar $\\Gamma$ may be zero at some primes.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:balaper-phi2period:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-phi2period:s8",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ev": "\\operatorname{ev}_0",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-phi2period",
+      "scope": "in_scope",
+      "statement": "The question in A281436, Formula, revision 10, signed\n23 December 2025, has answer yes: if\n$f_0(\\theta)=\\sec\\theta$ and\n$f_{j+1}=\\sec^5\\theta\\,f_j'$, then\n$f_{2n}(0)=\\mathrm{A281436}(n)$.\nIn A281428, Formula, revision 54, signed 22 January 2026,\nthe formula for ordinary coefficients requires the normalization\n\\[\n f_k(j,0)=j![x^j]C_5(x)^k,\n\\]\nwhere $f_k(0,\\theta)=\\sec^{k-3}\\theta$ and\n$f_k(j+1,\\theta)=\\partial_\\theta(\\sec^3\\theta f_k(j,\\theta))$.\nSu's Section 4, Source-formula normalization, already gives this correction.\nFor A281427 and A281435, Formula, signed 22 December 2025,\nthe displayed nested-derivative rule with $f_0=1$ instead has\n$a(n)=f_{2n-2}(0)$, not $f_{2n}(0)$, with the source offset $n\\ge1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-phi2period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:balaper-phi2period:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+      },
+      "lineage": "collected:balaper-phi2period:s9",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ev": "\\operatorname{ev}_0",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "balaper-phi2period",
+      "scope": "in_scope",
+      "statement": "For the same quadratic flow, put $T_a=S_a/C_a$ and\n$\\theta_a=\\arctan S_a$. The common inverse-function formulas in\nthe source entries follow from\n\\[\n \\begin{aligned}\n x&=\\int_0^{S_a}(1+t^2)^{-a/2}\\,dt\n   =\\int_0^{\\theta_a}\\cos^{a-2}t\\,dt,\\\\\n x&=\\int_0^{H_a}\\operatorname{sech}^{a-1}t\\,dt\n   =\\int_0^{T_a}(1-t^2)^{(a-3)/2}\\,dt.\n \\end{aligned}\n\\]\nIn particular $T_a'=C_a^{a-3}$ and $T_a^2+C_a^{-2}=1$.\nFor $a=5$, $T_5^3-3T_5+3x=0$ and\n$(4-9x^2)C_5^6-3C_5^2-1=0$.\nFor $a=7$, $3T_7^5-10T_7^3+15T_7-15x=0$ and\n$(225x^2-64)C_7^{10}+40C_7^4+15C_7^2+9=0$.\nThese are the algebraic identities recorded in A281427, A281428,\nA281435 and A281436. Their $S_a$ identities follow by\n$C_a^2=1+S_a^2$.\nFor $a=4$, the coefficient expansion is\n$T_4=x+x^3/3!+13x^5/5!+493x^7/7!+\\cdots$;\nthe denominator $6!$ on the $x^5$ term in A281181, Formula,\n14 December 2025, must be $5!$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "balaper-phi2period"
     },
     {
       "attribution": null,
@@ -15356,6 +16239,279 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:karp-sf21-legendre-turan:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "b8d708b1b89112061f30f218f031c1bf3672ebd8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b8d708b1b89112061f30f218f031c1bf3672ebd8/D5/S3/Analytic/GaussZeroBalanced/FractionalLegendreTuran.lean"
+      },
+      "lineage": "collected:karp-sf21-legendre-turan:s1",
+      "macros": {
+        "\\F": "F"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "karp-sf21-legendre-turan",
+      "scope": "in_scope",
+      "statement": "Let $y_*=4095/4096$. Then\n\\begin{align*}\n -\\frac{23}{10}&\\leq \\F_{33/64}(y_*)\\leq-\\frac{227}{100},\\\\\n \\frac{181}{100}&\\leq \\F_{3/2}(y_*)\\leq\\frac{184}{100},\\\\\n -\\frac{153}{100}&\\leq \\F_{159/64}(y_*)\\leq-\\frac{150}{100}.\n\\end{align*}\nConsequently,\n\\begin{equation}\n T_{3/2,\\,63/64}(y_*)\\leq\n \\left(\\frac{184}{100}\\right)^2-\n \\frac{227}{100}\\frac{150}{100}\n =-\\frac{97}{5000}<0.\n\\end{equation}\nThus both the strict and non-strict forms of the conjectured comparison\nfail, even with $\\mu-\\delta>0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A rational counterexample to Karp's fractional-degree Legendre Turán conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "karp-sf21-legendre-turan"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:karp-sf21-legendre-turan:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "b8d708b1b89112061f30f218f031c1bf3672ebd8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b8d708b1b89112061f30f218f031c1bf3672ebd8/D5/S3/Analytic/GaussZeroBalanced/FractionalLegendreTuran.lean"
+      },
+      "lineage": "collected:karp-sf21-legendre-turan:s2",
+      "macros": {
+        "\\F": "F"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "karp-sf21-legendre-turan",
+      "scope": "in_scope",
+      "statement": "If $N\\geq\\nu\\geq0$, $0<y<1$, and $S_N=\\sum_{n=0}^N u_n$, then\n\\[\n |\\F_\\nu(y)-S_N|\\leq |u_N|\\frac{y}{1-y}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A rational counterexample to Karp's fractional-degree Legendre Turán conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "karp-sf21-legendre-turan"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:karp-sf21-legendre-turan:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b8d708b1b89112061f30f218f031c1bf3672ebd8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b8d708b1b89112061f30f218f031c1bf3672ebd8/D5/S3/Analytic/GaussZeroBalanced/FractionalLegendreTuran.lean"
+      },
+      "lineage": "collected:karp-sf21-legendre-turan:s3",
+      "macros": {
+        "\\F": "F"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "karp-sf21-legendre-turan",
+      "scope": "in_scope",
+      "statement": "There is an open neighborhood of $(3/2,63/64,4095/4096)$ on which\n$\\mu>\\delta>0$, $\\delta<1$, $0<y<1$, and $T_{\\mu,\\delta}(y)<0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A rational counterexample to Karp's fractional-degree Legendre Turán conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "karp-sf21-legendre-turan"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:karp-sf21-legendre-turan:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b8d708b1b89112061f30f218f031c1bf3672ebd8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b8d708b1b89112061f30f218f031c1bf3672ebd8/D5/S3/Analytic/GaussZeroBalanced/FractionalLegendreTuran.lean"
+      },
+      "lineage": "collected:karp-sf21-legendre-turan:s4",
+      "macros": {
+        "\\F": "F"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "karp-sf21-legendre-turan",
+      "scope": "in_scope",
+      "statement": "For every fixed $\\mu>0$ and $0<\\delta<1$, there is\n$\\varepsilon=\\varepsilon(\\mu,\\delta)>0$ such that\n$T_{\\mu,\\delta}(y)>0$ for $0<y<\\varepsilon$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A rational counterexample to Karp's fractional-degree Legendre Turán conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "karp-sf21-legendre-turan"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:karp-sf21-legendre-turan:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b8d708b1b89112061f30f218f031c1bf3672ebd8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b8d708b1b89112061f30f218f031c1bf3672ebd8/D5/S3/Analytic/GaussZeroBalanced/FractionalLegendreTuran.lean"
+      },
+      "lineage": "collected:karp-sf21-legendre-turan:s5",
+      "macros": {
+        "\\F": "F"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "karp-sf21-legendre-turan",
+      "scope": "in_scope",
+      "statement": "For every fixed $\\mu>0$ and $0<\\delta<1$,\n\\begin{equation}\n T_{\\mu,\\delta}(y)=\\frac{\\sin^2(\\pi\\delta)}{\\pi^2}\n                 \\log^2(1-y)+O(|\\log(1-y)|),\\qquad y\\uparrow1.\n\\end{equation}\nIn particular, $T_{\\mu,\\delta}$ is positive sufficiently near $y=1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A rational counterexample to Karp's fractional-degree Legendre Turán conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "karp-sf21-legendre-turan"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:karp-sf21-legendre-turan:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b8d708b1b89112061f30f218f031c1bf3672ebd8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b8d708b1b89112061f30f218f031c1bf3672ebd8/D5/S3/Analytic/GaussZeroBalanced/FractionalLegendreTuran.lean"
+      },
+      "lineage": "collected:karp-sf21-legendre-turan:s6",
+      "macros": {
+        "\\F": "F"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "karp-sf21-legendre-turan",
+      "scope": "in_scope",
+      "statement": "For each positive noninteger $\\mu$, there exist $y_\\mu\\in(0,1)$\nand $\\eta_\\mu\\in(0,1)$ such that\n$T_{\\mu,\\delta}(y_\\mu)<0$ for every $1-\\eta_\\mu<\\delta<1$.\nIf $\\mu>1$, all three degrees are positive.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A rational counterexample to Karp's fractional-degree Legendre Turán conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "karp-sf21-legendre-turan"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:karp-sf21-legendre-turan:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b8d708b1b89112061f30f218f031c1bf3672ebd8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b8d708b1b89112061f30f218f031c1bf3672ebd8/D5/S3/Analytic/GaussZeroBalanced/FractionalLegendreTuran.lean"
+      },
+      "lineage": "collected:karp-sf21-legendre-turan:s7",
+      "macros": {
+        "\\F": "F"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "karp-sf21-legendre-turan",
+      "scope": "in_scope",
+      "statement": "The function $T_{3/2,63/64}$ has at least two distinct zeros in $(0,1)$,\none on each side of $4095/4096$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A rational counterexample to Karp's fractional-degree Legendre Turán conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "karp-sf21-legendre-turan"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -15719,6 +16875,174 @@
       "toolchain": null,
       "version": 2,
       "work": "khesin-li-2024-bipartite-encoder-equivalence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:klanderman-conjecture-4-2:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S3/FiniteGroups/KlandermanConjecture42Refutation.lean"
+      },
+      "lineage": "collected:klanderman-conjecture-4-2:s1",
+      "macros": {
+        "\\Hull": "\\operatorname{Hull}",
+        "\\Sub": "\\operatorname{Sub}",
+        "\\gen": "\\operatorname{gen}",
+        "\\id": "\\operatorname{id}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "klanderman-conjecture-4-2",
+      "scope": "in_scope",
+      "statement": "Suppose $T$ satisfies the component hypotheses of Conjecture 4.2.\nThen $P\\subseteq T\\subseteq V$, and the following statements hold.\n\\begin{enumerate}\n\\item $\\gen(T\\cup\\{e\\to G\\})=T\\cup\\{(e,G)\\}$.\n\\item $\\Hull(T)=V$. For a transfer system $U$, $(T,U)$ is compatible\nif and only if $V\\subseteq U$.\n\\item The ordinary generated extension in (1) is compatible with $T$\nif and only if $T=V$, equivalently if and only if $T$ is saturated.\nThe least compatible extension containing $e\\to G$ is $W$.\n\\item $T$ is LSP if and only if $|G|$ is prime.\n\\end{enumerate}\nConversely, every transfer system between $P$ and $V$ satisfies the\ncomponent hypotheses.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Correcting Klanderman et al.'s isolated-top transfer-system conjecture via DeMark et al.'s tulip theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "klanderman-conjecture-4-2"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:klanderman-conjecture-4-2:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S3/FiniteGroups/KlandermanConjecture42Refutation.lean"
+      },
+      "lineage": "collected:klanderman-conjecture-4-2:s2",
+      "macros": {
+        "\\Hull": "\\operatorname{Hull}",
+        "\\Sub": "\\operatorname{Sub}",
+        "\\gen": "\\operatorname{gen}",
+        "\\id": "\\operatorname{id}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "klanderman-conjecture-4-2",
+      "scope": "in_scope",
+      "statement": "Under the hypotheses of Theorem~\\ref{thm:classification}, the compatible\ngreater systems are exactly\n\\[\n U_I=V\\cup\\{(K,G):K\\in I\\},\n\\]\nwhere $I$ runs through the conjugation-invariant order ideals of the\nposet of proper subgroups of $G$.\nHere an order ideal is a set closed under passage to smaller subgroups;\nthe empty set is allowed.\nThis correspondence is an isomorphism of lattices, with intersection and\nunion as meet and join. Its only saturated members are $V$ and $\\mathcal C$.\nFor $G=C_{p^n}$, $n\\geq1$, there are exactly $n+1$ compatible greater systems.\nThis cyclic special case also follows from \\cite[Proposition 3.2]{HML}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Correcting Klanderman et al.'s isolated-top transfer-system conjecture via DeMark et al.'s tulip theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "klanderman-conjecture-4-2"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:klanderman-conjecture-4-2:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S3/FiniteGroups/KlandermanConjecture42Refutation.lean"
+      },
+      "lineage": "collected:klanderman-conjecture-4-2:s3",
+      "macros": {
+        "\\Hull": "\\operatorname{Hull}",
+        "\\Sub": "\\operatorname{Sub}",
+        "\\gen": "\\operatorname{gen}",
+        "\\id": "\\operatorname{id}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "klanderman-conjecture-4-2",
+      "scope": "in_scope",
+      "statement": "For any transfer system on a nontrivial finite group with isolated $G$,\nirrespective of its number of components, LSP holds if and only if $|G|$\nis prime. Among transfer systems with isolated $G$, the identity system\nis the unique cosaturated system, and it is bisaturated.\nAt the other extreme, every connected transfer system is LSP, as in\n\\cite[Corollary 2.15 and Theorem 3.11]{M}.\nThe isolated-top assertion also follows by applying\n\\cite[Proposition 3.17]{D} to $W$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Correcting Klanderman et al.'s isolated-top transfer-system conjecture via DeMark et al.'s tulip theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "klanderman-conjecture-4-2"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:klanderman-conjecture-4-2:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S3/FiniteGroups/KlandermanConjecture42Refutation.lean"
+      },
+      "lineage": "collected:klanderman-conjecture-4-2:s4",
+      "macros": {
+        "\\Hull": "\\operatorname{Hull}",
+        "\\Sub": "\\operatorname{Sub}",
+        "\\gen": "\\operatorname{gen}",
+        "\\id": "\\operatorname{id}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "klanderman-conjecture-4-2",
+      "scope": "in_scope",
+      "statement": "For $T=P$, the ordinary generated extension is\n$U=\\id\\cup\\{(e,H):H\\leq G\\}$.\nIt is incompatible with $P$ exactly when there are subgroups\n$e<C<A<G$.\nOrdinary generation is compatible for every $T$ satisfying the component\nhypotheses if and only if there is no such chain.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Correcting Klanderman et al.'s isolated-top transfer-system conjecture via DeMark et al.'s tulip theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "klanderman-conjecture-4-2"
     },
     {
       "attribution": null,
@@ -17897,6 +19221,126 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:kurkov-a263634-log-polynomials:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "6a3b29c88128eeed17f731783f03e7f9ff92ae62",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6a3b29c88128eeed17f731783f03e7f9ff92ae62/D5/S3/Combinatorics/PowerSeries/KurkovA263634LogPolynomials.lean"
+      },
+      "lineage": "collected:kurkov-a263634-log-polynomials:s1",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\xt": "\\mathbf x"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-a263634-log-polynomials",
+      "scope": "in_scope",
+      "statement": "For every $n,k\\geq1$,\n\\begin{equation}\n R(n,k)=(n-1)![t^{n-1}]\\frac{F^{(k)}(t)}{F(t)}.\n\\end{equation}\nIn particular $R(n,1)=L_n$. The identity remains valid after\nsubstitution of the $x_i$ by arbitrary elements of any commutative\n$\\Q$-algebra.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An alternative proof of Kurkov's logarithmic-polynomial recursion and its Leonov–Shiryaev interpretation",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-a263634-log-polynomials"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:kurkov-a263634-log-polynomials:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6a3b29c88128eeed17f731783f03e7f9ff92ae62",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6a3b29c88128eeed17f731783f03e7f9ff92ae62/D5/S3/Combinatorics/PowerSeries/KurkovA263634LogPolynomials.lean"
+      },
+      "lineage": "collected:kurkov-a263634-log-polynomials:s2",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\xt": "\\mathbf x"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-a263634-log-polynomials",
+      "scope": "in_scope",
+      "statement": "If $a_1,\\ldots,a_n\\geq0$, $\\sum_{i=1}^n ia_i=n$, and\n$m=\\sum_{i=1}^na_i$, then\n\\begin{equation}\n [x_1^{a_1}\\cdots x_n^{a_n}]L_n\n =\\frac{(-1)^{m-1}(m-1)!\\,n!}{\\prod_{i=1}^n a_i!(i!)^{a_i}}.\n\\end{equation}\nEvery partition of $n$ contributes exactly one nonzero monomial.\nConsequently $L_n$ has $p(n)$ terms, and $L_n(1,\\ldots,1)=0$\nfor $n>1$, with $L_1(1)=1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An alternative proof of Kurkov's logarithmic-polynomial recursion and its Leonov–Shiryaev interpretation",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-a263634-log-polynomials"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:kurkov-a263634-log-polynomials:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6a3b29c88128eeed17f731783f03e7f9ff92ae62",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6a3b29c88128eeed17f731783f03e7f9ff92ae62/D5/S3/Combinatorics/PowerSeries/KurkovA263634LogPolynomials.lean"
+      },
+      "lineage": "collected:kurkov-a263634-log-polynomials:s3",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\xt": "\\mathbf x"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-a263634-log-polynomials",
+      "scope": "in_scope",
+      "statement": "Set $x_0=1$ and define $P_n(z)$ by\n$F(t)e^{zt}=\\sum_{n\\geq0}P_n(z)t^n/n!$. Then\n\\begin{align}\n x_{n+1}&=\\sum_{j=0}^n\\binom nj L_{j+1}x_{n-j},\\\\\n P_{n+1}(z)&=zP_n(z)+\\sum_{j=0}^n\\binom nj L_{j+1}P_{n-j}(z).\n \n\\end{align}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An alternative proof of Kurkov's logarithmic-polynomial recursion and its Leonov–Shiryaev interpretation",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-a263634-log-polynomials"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:kurkov-a340991-convolution-row-recursion:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -18676,6 +20120,279 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:mathar-2012-a081124-recurrence:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S1/Recurrence/MatharA081124.lean"
+      },
+      "lineage": "collected:mathar-2012-a081124-recurrence:s1",
+      "macros": {
+        "\\erf": "\\operatorname{erf}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-2012-a081124-recurrence",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\geq3$,\n\\begin{align}\n 2a_n-4a_{n-1}+(2-n)a_{n-2}+(n-1)a_{n-3}&=0,\n \\\\\n 2c_n-4c_{n-1}+(2-n)c_{n-2}+(n-2)c_{n-3}&=0.\n \n\\end{align}\nThe initial values are $(a_0,a_1,a_2)=(1,2,4)$ and\n$(c_0,c_1,c_2)=(1,1,2)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's half-factorial recurrence conjectures: extensions of Jovovic's formulas and Barry's array sums",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-2012-a081124-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:mathar-2012-a081124-recurrence:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S1/Recurrence/MatharA081124.lean"
+      },
+      "lineage": "collected:mathar-2012-a081124-recurrence:s2",
+      "macros": {
+        "\\erf": "\\operatorname{erf}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-2012-a081124-recurrence",
+      "scope": "in_scope",
+      "statement": "Let $q\\in\\mathbb Q$ and $u_0,u_1,\\ldots\\in\\mathbb Q$ satisfy\n\\begin{equation}\n 2u_{k+3}+2u_{k+2}-(k+3)u_{k+1}-(k+q)u_k=0\n \\qquad(k\\geq0).\n\\end{equation}\nThen $v_n=\\sum_{k=0}^{n}\\binom nk u_k$ satisfies\n\\begin{equation}\n 2v_{n+3}-4v_{n+2}-(n+1)v_{n+1}+(n+3-q)v_n=0\n \\qquad(n\\geq0).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's half-factorial recurrence conjectures: extensions of Jovovic's formulas and Barry's array sums",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-2012-a081124-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:mathar-2012-a081124-recurrence:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S1/Recurrence/MatharA081124.lean"
+      },
+      "lineage": "collected:mathar-2012-a081124-recurrence:s3",
+      "macros": {
+        "\\erf": "\\operatorname{erf}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-2012-a081124-recurrence",
+      "scope": "in_scope",
+      "statement": "Let $H(x)=\\sqrt\\pi\\,e^{x^2/4}\\erf(x/2)$, where\n$\\erf(z)=\\frac{2}{\\sqrt\\pi}\\int_0^z e^{-t^2}\\,dt$.\nThe exponential generating functions are\n\\begin{align}\n A(x):=\\sum_{n\\geq0}a_n\\frac{x^n}{n!}\n &=e^x\\bigl(1+(1+x/2)H(x)\\bigr),\\\\\n C(x):=\\sum_{n\\geq0}c_n\\frac{x^n}{n!}\n &=e^x\\bigl(1+(x/2)H(x)\\bigr).\n\\end{align}\nThey are the formulas recorded by Jovovic on 25 September 2003\nin A081124 and A084261. Moreover, for every $n\\geq0$,\n\\begin{equation}\n c_{n+1}=a_{n+1}-a_n,\\qquad a_n=\\sum_{j=0}^{n}c_j.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's half-factorial recurrence conjectures: extensions of Jovovic's formulas and Barry's array sums",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-2012-a081124-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:mathar-2012-a081124-recurrence:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S1/Recurrence/MatharA081124.lean"
+      },
+      "lineage": "collected:mathar-2012-a081124-recurrence:s4",
+      "macros": {
+        "\\erf": "\\operatorname{erf}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-2012-a081124-recurrence",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq2$,\n\\begin{equation}\n c_n=1+\\frac n2a_{n-2},\\qquad\n a_n=1+a_{n-1}+\\frac n2a_{n-2}.\n\\end{equation}\nLet $B(i,j)=\\sum_{k\\geq0}\\binom ik\\binom jk k!$ for integers $i,j\\geq0$,\nwhere out-of-range binomial coefficients vanish. Then\n\\begin{equation}\n a_n=\\sum_{i+j=n}B(i,j)\\qquad(n\\geq0).\n\\end{equation}\nThis is Somos's symmetric array A088699 \\cite{somos}; its antidiagonal\nsum identity was also established by Barry\n\\cite[Section~13.2, pp.~283--284]{barry-thesis}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's half-factorial recurrence conjectures: extensions of Jovovic's formulas and Barry's array sums",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-2012-a081124-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:mathar-2012-a081124-recurrence:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S1/Recurrence/MatharA081124.lean"
+      },
+      "lineage": "collected:mathar-2012-a081124-recurrence:s5",
+      "macros": {
+        "\\erf": "\\operatorname{erf}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-2012-a081124-recurrence",
+      "scope": "in_scope",
+      "statement": "For $n\\geq3$,\n\\begin{equation}\n 2c_n(t)-4t c_{n-1}(t)+(2t^2-n)c_{n-2}(t)\n       +(n-2)t c_{n-3}(t)=0,\n\\end{equation}\nwith $c_0(t)=1$, $c_1(t)=t$, $c_2(t)=t^2+1$. Also, for $n\\geq0$,\n\\begin{equation}\n a_n(t)=c_n(t)+\\sum_{j=0}^{n-1}t^{n-1-j}c_j(t),\n\\end{equation}\nwhere an empty sum is zero.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's half-factorial recurrence conjectures: extensions of Jovovic's formulas and Barry's array sums",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-2012-a081124-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:mathar-2012-a081124-recurrence:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S1/Recurrence/MatharA081124.lean"
+      },
+      "lineage": "collected:mathar-2012-a081124-recurrence:s6",
+      "macros": {
+        "\\erf": "\\operatorname{erf}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-2012-a081124-recurrence",
+      "scope": "in_scope",
+      "statement": "Set $\\lambda_j=\\lfloor(j+1)/2\\rfloor$ for $j\\geq1$. Then\n\\begin{equation}\n \\sum_{n\\geq0}c_n(t)z^n\n =\\cfrac{1}{1-tz-\\cfrac{\\lambda_1z^2}{1-tz-\n       \\cfrac{\\lambda_2z^2}{1-tz-\\cfrac{\\lambda_3z^2}{\\ddots}}}},\n\\end{equation}\nwhere $(\\lambda_1,\\lambda_2,\\lambda_3,\\ldots)=(1,1,2,2,3,3,\\ldots)$.\nFor $n\\geq0$ the Hankel determinants are independent of $t$ and equal\n\\begin{equation}\n \\det(c_{i+j}(t))_{0\\leq i,j\\leq n}\n =\\prod_{k=0}^{n}\\left\\lfloor\\frac{k+2}{2}\\right\\rfloor^{n-k}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's half-factorial recurrence conjectures: extensions of Jovovic's formulas and Barry's array sums",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-2012-a081124-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:mathar-2012-a081124-recurrence:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S1/Recurrence/MatharA081124.lean"
+      },
+      "lineage": "collected:mathar-2012-a081124-recurrence:s7",
+      "macros": {
+        "\\erf": "\\operatorname{erf}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-2012-a081124-recurrence",
+      "scope": "in_scope",
+      "statement": "Let $r_n=n!/\\lfloor n/2\\rfloor!$ (A081125). Its exponential generating\nfunction is $(1+x)e^{x^2}$, as recorded by Jovovic on 24 September 2003.\nMathar's recorded recurrence of 26 November 2012 is valid for $n\\geq3$:\n\\begin{equation}\n r_n+2r_{n-1}-2nr_{n-2}+4(2-n)r_{n-3}=0.\n\\end{equation}\nFor $n\\geq1$, $r_n$ is the product of the larger parts in the two-part\npartitions of $n+1$. Write\n$\\Gamma(z)=\\int_0^\\infty v^{z-1}e^{-v}\\,dv$ for real $z>0$.\nIts factorial, product, gamma and swinging-factorial forms are\n\\begin{align}\n r_n&=\\prod_{i=\\lfloor n/2\\rfloor+1}^{n}i\n =\\frac{2^n\\Gamma((n+1+(n\\bmod2))/2)}{\\sqrt\\pi},\\\\\n r_n&=b_n s_n=\\sqrt{n!s_n},\\qquad\n s_n:=\\frac{n!}{(\\lfloor n/2\\rfloor!)^2}.\n\\end{align}\nHere $s_n$ is the swinging factorial A056040.\nEldar's two reciprocal sums of 10 March 2022 are\n\\begin{equation}\n \\sum_{n\\geq0}\\frac1{r_n}=1+\\frac32 H(1),\\qquad\n \\sum_{n\\geq0}\\frac{(-1)^n}{r_n}=1-\\frac12 H(1).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's half-factorial recurrence conjectures: extensions of Jovovic's formulas and Barry's array sums",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-2012-a081124-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:mathar-2012-a084261-recurrence:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -18895,6 +20612,357 @@
       "toolchain": null,
       "version": 2,
       "work": "mathar-2012-a084261-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:mathar-a000159-recurrence:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S1/Recurrence/Invariants/MatharA000159Recurrence.lean#L656"
+      },
+      "lineage": "collected:mathar-a000159-recurrence:s1",
+      "macros": {
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a000159-recurrence",
+      "scope": "in_scope",
+      "statement": "For every prime $p$, every integer $1\\leq h<p$, and every $n\\geq0$,\n\\[\n u_h(n)+2u_h(n+p)+u_h(n+2p)\\equiv0\\pmod p.\n\\]\nThe same congruence holds for $h=0$ and $n\\geq1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-shift extensions of Kaplansky–Riordan's ménage identities: Mathar's recurrence and van Hoeij's congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-a000159-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:mathar-a000159-recurrence:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S1/Recurrence/Invariants/MatharA000159Recurrence.lean#L656"
+      },
+      "lineage": "collected:mathar-a000159-recurrence:s2",
+      "macros": {
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a000159-recurrence",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq9$,\n\\begin{equation}\n \\sum_{j=0}^{6}c_j(n)a(n-j)=0.\n\\end{equation}\nWith the zero extension above, the same identity holds for $n=6,7,8$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-shift extensions of Kaplansky–Riordan's ménage identities: Mathar's recurrence and van Hoeij's congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-a000159-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:mathar-a000159-recurrence:2:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S1/Recurrence/Invariants/MatharA000159Recurrence.lean#L656"
+      },
+      "lineage": "collected:mathar-a000159-recurrence:s3",
+      "macros": {
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a000159-recurrence",
+      "scope": "in_scope",
+      "statement": "For every prime $p\\ne3$ and every $n\\geq0$,\n\\begin{equation}\n a(n)+2a(n+p)+a(n+2p)\\equiv0\\pmod p.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-shift extensions of Kaplansky–Riordan's ménage identities: Mathar's recurrence and van Hoeij's congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-a000159-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:mathar-a000159-recurrence:2:s4",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S1/Recurrence/Invariants/MatharA000159Recurrence.lean#L656"
+      },
+      "lineage": "collected:mathar-a000159-recurrence:s4",
+      "macros": {
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a000159-recurrence",
+      "scope": "in_scope",
+      "statement": "The series $A$ satisfies\n\\begin{equation}\n d(x)A(x)=r(x)B(x)+s(x).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-shift extensions of Kaplansky–Riordan's ménage identities: Mathar's recurrence and van Hoeij's congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-a000159-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:mathar-a000159-recurrence:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S1/Recurrence/Invariants/MatharA000159Recurrence.lean#L656"
+      },
+      "lineage": "collected:mathar-a000159-recurrence:s5",
+      "macros": {
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a000159-recurrence",
+      "scope": "in_scope",
+      "statement": "Every odd-hit coefficient $u_{2j+1}(n)$ is even.\nTheorem~\\ref{thm:cong} holds, as does the two-hit congruence for every prime.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-shift extensions of Kaplansky–Riordan's ménage identities: Mathar's recurrence and van Hoeij's congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-a000159-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:mathar-a000159-recurrence:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S1/Recurrence/Invariants/MatharA000159Recurrence.lean#L656"
+      },
+      "lineage": "collected:mathar-a000159-recurrence:s6",
+      "macros": {
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a000159-recurrence",
+      "scope": "in_scope",
+      "statement": "For every odd prime $p$ and $n\\geq0$,\n$a(n+p^2)\\equiv-a(n)\\pmod p$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-shift extensions of Kaplansky–Riordan's ménage identities: Mathar's recurrence and van Hoeij's congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-a000159-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:mathar-a000159-recurrence:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S1/Recurrence/Invariants/MatharA000159Recurrence.lean#L656"
+      },
+      "lineage": "collected:mathar-a000159-recurrence:s7",
+      "macros": {
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a000159-recurrence",
+      "scope": "in_scope",
+      "statement": "The prime-shift conjectures in A000033 and A000181 hold on their full\nstated domains. So does the corresponding assertion in A000185.\nFor A000179 and every prime $p$,\n\\[\n u_0(n+4p)-2u_0(n+2p)+u_0(n)\\equiv0\\pmod p\\qquad(n\\geq1).\n\\]\nThe same uniform prime-shift result holds for A058089 at $p>6$ and for\nA058090 at $p>7$, on their source domains.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-shift extensions of Kaplansky–Riordan's ménage identities: Mathar's recurrence and van Hoeij's congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-a000159-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:mathar-a000159-recurrence:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S1/Recurrence/Invariants/MatharA000159Recurrence.lean#L656"
+      },
+      "lineage": "collected:mathar-a000159-recurrence:s8",
+      "macros": {
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a000159-recurrence",
+      "scope": "in_scope",
+      "statement": "Let $q(n)=u_2(n)/n$ for $n\\geq1$ and $q(0)=0$.\nThese are integers, equal to A000426, and for every prime $p$ and $n\\geq1$,\n\\[\n q(n)+2q(n+p)+q(n+2p)\\equiv0\\pmod p.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-shift extensions of Kaplansky–Riordan's ménage identities: Mathar's recurrence and van Hoeij's congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-a000159-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:mathar-a000159-recurrence:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S1/Recurrence/Invariants/MatharA000159Recurrence.lean#L656"
+      },
+      "lineage": "collected:mathar-a000159-recurrence:s9",
+      "macros": {
+        "\\coeff": "[#1^{#2}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar-a000159-recurrence",
+      "scope": "in_scope",
+      "statement": "For $n\\geq1$, $u_1(n)=2n v(n-1)$.\nFor $n\\geq3$,\n\\[\n 3\\{n a(n+1)-(n+1)a(n)\\}=2(n^2-1)u_2(n).\n\\]\nThese identities are consequences of Kaplansky--Riordan (1946).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-shift extensions of Kaplansky–Riordan's ménage identities: Mathar's recurrence and van Hoeij's congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathar-a000159-recurrence"
     },
     {
       "attribution": null,
@@ -26909,6 +28977,384 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "256870690452e5629b1260ae620f2d647417e857",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/256870690452e5629b1260ae620f2d647417e857/D5/S1/Recurrence/Invariants/SomosFirstDualIntegrality.lean"
+      },
+      "lineage": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:s1",
+      "macros": {
+        "\\QQ": "\\mathbb Q",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\eps": "\\varepsilon"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ovsienko-tabachnikov-first-dual-somos-integrality",
+      "scope": "in_scope",
+      "statement": "The recurrence~\\eqref{eq:rec} has a unique orbit in $D(\\QQ)$ and a unique\norbit in $D(\\RR)$; the latter is its coefficientwise image. For every\nchoice of the parameters above, all $a_n$ are positive integers and\neach four consecutive $a_n$ are pairwise coprime. For each fixed $c$,\n\\begin{equation}\n \\bigl(b_n\\in\\ZZ\\text{ for every }n\\ge0\\bigr)\n \\quad\\Longleftrightarrow\\quad\n (q-2)u=(2p-2)v.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ovsienko–Tabachnikov's dual Somos integrality conjectures: a two-weight extension of Hone's divisibility proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "256870690452e5629b1260ae620f2d647417e857",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/256870690452e5629b1260ae620f2d647417e857/D5/S1/Recurrence/Invariants/SomosFirstDualIntegrality.lean"
+      },
+      "lineage": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:s2",
+      "macros": {
+        "\\QQ": "\\mathbb Q",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\eps": "\\varepsilon"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ovsienko-tabachnikov-first-dual-somos-integrality",
+      "scope": "in_scope",
+      "statement": "Let $A,B,C,D,E,F,G,H\\in R$ satisfy\n\\begin{align*}\n EA&=U(BD)^p+VC^q,& FB&=U(CE)^p+VD^q,\\\\\n GC&=U(DF)^p+VE^q,& HD&=U(EG)^p+VF^q.\n\\end{align*}\nSuppose the real part $e$ of $E$ is nonzero and coprime to the real\nparts of $B,C,D$. Then\n\\begin{equation}\n E\\mid U(FH)^p+VG^q\\quad\\Longleftrightarrow\\quad e\\mid\\kappa.\n\\end{equation}\nDivisibility on the left is in $R$ and on the right in $\\ZZ$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ovsienko–Tabachnikov's dual Somos integrality conjectures: a two-weight extension of Hone's divisibility proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "256870690452e5629b1260ae620f2d647417e857",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/256870690452e5629b1260ae620f2d647417e857/D5/S1/Recurrence/Invariants/SomosFirstDualIntegrality.lean"
+      },
+      "lineage": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:s3",
+      "macros": {
+        "\\QQ": "\\mathbb Q",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\eps": "\\varepsilon"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ovsienko-tabachnikov-first-dual-somos-integrality",
+      "scope": "in_scope",
+      "statement": "The rational real-part recurrence\n\\begin{equation}\n a_{n+4}a_n=(a_{n+1}a_{n+3})^p+a_{n+2}^q,\\qquad\n a_0=a_1=a_2=a_3=1\n\\end{equation}\nis everywhere positive and satisfies $a_{n+1}>a_n$ for $n\\ge3$.\nWhenever a prefix is integral, each four consecutive terms in that\nprefix are pairwise coprime.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ovsienko–Tabachnikov's dual Somos integrality conjectures: a two-weight extension of Hone's divisibility proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "256870690452e5629b1260ae620f2d647417e857",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/256870690452e5629b1260ae620f2d647417e857/D5/S1/Recurrence/Invariants/SomosFirstDualIntegrality.lean"
+      },
+      "lineage": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:s4",
+      "macros": {
+        "\\QQ": "\\mathbb Q",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\eps": "\\varepsilon"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ovsienko-tabachnikov-first-dual-somos-integrality",
+      "scope": "in_scope",
+      "statement": "Suppose $\\kappa\\ne0$, and let\n\\[\n m=\\min\\{n\\ge4:a_n\\nmid\\kappa\\}.\n\\]\nThe first noninteger shadow is $b_{m+4}$. Its denominator in lowest\nterms is\n\\[\n \\frac{a_m}{\\gcd(a_m,\\kappa)}.\n\\]\nBoth the index and the denominator are independent of $c$. In particular,\nthe failure index is at most $|\\kappa|+7$. If $\\kappa$ is odd, it is $8$,\nand the denominator is $2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ovsienko–Tabachnikov's dual Somos integrality conjectures: a two-weight extension of Hone's divisibility proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "256870690452e5629b1260ae620f2d647417e857",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/256870690452e5629b1260ae620f2d647417e857/D5/S1/Recurrence/Invariants/SomosFirstDualIntegrality.lean"
+      },
+      "lineage": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:s5",
+      "macros": {
+        "\\QQ": "\\mathbb Q",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\eps": "\\varepsilon"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ovsienko-tabachnikov-first-dual-somos-integrality",
+      "scope": "in_scope",
+      "statement": "Homogeneous shadows ($u=v=0$) are integral for all positive $p,q$.\nFor $p=1,q=2$, every integer pair $(u,v)$ is admissible. Otherwise put\n$g=\\gcd(2p-2,|q-2|)>0$. The admissible pairs are exactly\n\\[\n (u,v)=t\\left(\\frac{2p-2}{g},\\frac{q-2}{g}\\right),\\qquad t\\in\\ZZ.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ovsienko–Tabachnikov's dual Somos integrality conjectures: a two-weight extension of Hone's divisibility proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "256870690452e5629b1260ae620f2d647417e857",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/256870690452e5629b1260ae620f2d647417e857/D5/S1/Recurrence/Invariants/SomosFirstDualIntegrality.lean"
+      },
+      "lineage": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:s6",
+      "macros": {
+        "\\QQ": "\\mathbb Q",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\eps": "\\varepsilon"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ovsienko-tabachnikov-first-dual-somos-integrality",
+      "scope": "in_scope",
+      "statement": "For all positive $p,q$,\n\\[\n b^{u,v,c}_n=u b^{1,0,0}_n+v b^{0,1,0}_n\n              +\\sum_{j=0}^3 c_jh^{(j)}_n.\n\\]\nIn the classical case $p=1,q=2$,\n$\\sum_{j=0}^3 h^{(j)}_n=a_n$ and\n$\\sum_{j=0}^3 jh^{(j)}_n=na_n$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ovsienko–Tabachnikov's dual Somos integrality conjectures: a two-weight extension of Hone's divisibility proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "256870690452e5629b1260ae620f2d647417e857",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/256870690452e5629b1260ae620f2d647417e857/D5/S1/Recurrence/Invariants/SomosFirstDualIntegrality.lean"
+      },
+      "lineage": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:s7",
+      "macros": {
+        "\\QQ": "\\mathbb Q",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\eps": "\\varepsilon"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ovsienko-tabachnikov-first-dual-somos-integrality",
+      "scope": "in_scope",
+      "statement": "For $u=0,v=1$ and every fixed $c\\in\\ZZ^4$, all shadows are integers\nif and only if $p=1$. If $p\\ge2$, the first noninteger shadow is\n$b_9$, for every positive $q$ and every $c$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ovsienko–Tabachnikov's dual Somos integrality conjectures: a two-weight extension of Hone's divisibility proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "256870690452e5629b1260ae620f2d647417e857",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/256870690452e5629b1260ae620f2d647417e857/D5/S1/Recurrence/Invariants/SomosFirstDualIntegrality.lean"
+      },
+      "lineage": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:s8",
+      "macros": {
+        "\\QQ": "\\mathbb Q",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\eps": "\\varepsilon"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ovsienko-tabachnikov-first-dual-somos-integrality",
+      "scope": "in_scope",
+      "statement": "For the second deformation\n\\[\n A_{n+4}A_n=(1+\\eps)(A_{n+1}A_{n+3})^p+A_{n+2}^q,\n\\]\nand each fixed $c\\in\\ZZ^4$, all shadows are integers if and only if\n$q=2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ovsienko–Tabachnikov's dual Somos integrality conjectures: a two-weight extension of Hone's divisibility proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "256870690452e5629b1260ae620f2d647417e857",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/256870690452e5629b1260ae620f2d647417e857/D5/S1/Recurrence/Invariants/SomosFirstDualIntegrality.lean"
+      },
+      "lineage": "collected:ovsienko-tabachnikov-first-dual-somos-integrality:s9",
+      "macros": {
+        "\\QQ": "\\mathbb Q",
+        "\\RR": "\\mathbb R",
+        "\\ZZ": "\\mathbb Z",
+        "\\eps": "\\varepsilon"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ovsienko-tabachnikov-first-dual-somos-integrality",
+      "scope": "in_scope",
+      "statement": "For $p=1,q=0,u=1,v=0$, the first noninteger shadow is $b_9$ for\nevery $c\\in\\ZZ^4$, and its reduced denominator is $3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ovsienko–Tabachnikov's dual Somos integrality conjectures: a two-weight extension of Hone's divisibility proof",
+      "toolchain": null,
+      "version": 2,
+      "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -27919,6 +30365,522 @@
       "toolchain": null,
       "version": 3,
       "work": "projective-toric-design-subgroup-counterexample"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:quaternionic-deutsch-equality:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+      },
+      "lineage": "collected:quaternionic-deutsch-equality:s1",
+      "macros": {
+        "\\HH": "\\mathbb H",
+        "\\abs": "\\lvert #1\\rvert",
+        "\\almosteverywhere": "\\text{a.e.}",
+        "\\ip": "\\langle #1,#2\\rangle",
+        "\\norm": "\\lVert #1\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "quaternionic-deutsch-equality",
+      "scope": "in_scope",
+      "statement": "For the frames and state above, the following are equivalent:\n\\begin{enumerate}\n\\item $S_\\tau(x)+S_\\omega(x)=D(c)$;\n\\item $\\dim_\\HH\\mathcal Q=1$, $\\norm{\\tau_\\alpha}=1$ for $\\mu$-almost\nevery $\\alpha$, and $\\norm{\\omega_\\beta}=1$ for $\\nu$-almost every $\\beta$.\n\\end{enumerate}\nUnder either condition, $m=n=c=1$ and $S_\\tau(x)=S_\\omega(x)=0$.\nConsequently every link in \\eqref{eq:chain} is an equality.\nFor a fixed frame pair, such a state exists if and only if condition 2\nholds and every $\\tau_\\alpha$ and every $\\omega_\\beta$ is nonzero,\nincluding at null indices.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+      "toolchain": null,
+      "version": 2,
+      "work": "quaternionic-deutsch-equality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:quaternionic-deutsch-equality:2:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+      },
+      "lineage": "collected:quaternionic-deutsch-equality:s10",
+      "macros": {
+        "\\HH": "\\mathbb H",
+        "\\abs": "\\lvert #1\\rvert",
+        "\\almosteverywhere": "\\text{a.e.}",
+        "\\ip": "\\langle #1,#2\\rangle",
+        "\\norm": "\\lVert #1\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "quaternionic-deutsch-equality",
+      "scope": "in_scope",
+      "statement": "The frame pairs in Theorem~\\ref{thm:main} attain equality in\n\\cite[Conjecture 2.14]{K26}. Over $\\mathbb R$ or $\\mathbb C$, the\nsame pairs attain equality in \\cite[Conjecture 2.5]{K23}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+      "toolchain": null,
+      "version": 2,
+      "work": "quaternionic-deutsch-equality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s11",
+      "contributor": null,
+      "identity": "collected:quaternionic-deutsch-equality:2:s11",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+      },
+      "lineage": "collected:quaternionic-deutsch-equality:s11",
+      "macros": {
+        "\\HH": "\\mathbb H",
+        "\\abs": "\\lvert #1\\rvert",
+        "\\almosteverywhere": "\\text{a.e.}",
+        "\\ip": "\\langle #1,#2\\rangle",
+        "\\norm": "\\lVert #1\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "quaternionic-deutsch-equality",
+      "scope": "in_scope",
+      "statement": "For finite counting frames in a nonzero real or complex Banach space,\nthe mass and central lower entropy equalities in\n\\cite[Questions 1--2, Theorems 4--5, (5) and (7)]{K24}\noccur exactly in dimension one, with all first-family functional\nnorms $m^{-1/r}$ and all second-family norms $n^{-1/r}$.\nHere $m,n$ denote the respective numbers of frame elements.\nThe strict positivity of the lower endpoint printed in those\ntheorems must be replaced by nonnegativity.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+      "toolchain": null,
+      "version": 2,
+      "work": "quaternionic-deutsch-equality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s12",
+      "contributor": null,
+      "identity": "collected:quaternionic-deutsch-equality:2:s12",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+      },
+      "lineage": "collected:quaternionic-deutsch-equality:s12",
+      "macros": {
+        "\\HH": "\\mathbb H",
+        "\\abs": "\\lvert #1\\rvert",
+        "\\almosteverywhere": "\\text{a.e.}",
+        "\\ip": "\\langle #1,#2\\rangle",
+        "\\norm": "\\lVert #1\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "quaternionic-deutsch-equality",
+      "scope": "in_scope",
+      "statement": "For $N\\ge1$, let $R_N:\\HH^N\\to\\HH^N$ be the right shift\n$R_N(z_1,\\ldots,z_N)=(0,z_1,\\ldots,z_{N-1})$.\nWith $w_\\HH(R_N)=\\sup_{\\norm{z}=1}\\abs{\\ip{z}{R_Nz}}$, one has\n\\[\n w_\\HH(R_N)=\\cos\\frac{\\pi}{N+1}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+      "toolchain": null,
+      "version": 2,
+      "work": "quaternionic-deutsch-equality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:quaternionic-deutsch-equality:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+      },
+      "lineage": "collected:quaternionic-deutsch-equality:s2",
+      "macros": {
+        "\\HH": "\\mathbb H",
+        "\\abs": "\\lvert #1\\rvert",
+        "\\almosteverywhere": "\\text{a.e.}",
+        "\\ip": "\\langle #1,#2\\rangle",
+        "\\norm": "\\lVert #1\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "quaternionic-deutsch-equality",
+      "scope": "in_scope",
+      "statement": "Suppose $p:\\Omega\\to(0,1]$ and $q:\\Delta\\to(0,1]$ are measurable,\nhave integral one, and satisfy $p(\\alpha)q(\\beta)\\le M$ at every pair\nof indices, where $0<M\\le1$. Then\n\\[\n \\int-p\\log p\\,d\\mu+\\int-q\\log q\\,d\\nu\\ge-\\log M.\n\\]\nEquality holds precisely when there are $A,B\\in(0,1]$ with $AB=M$\nsuch that $p=A$ $\\mu$-almost everywhere and $q=B$ $\\nu$-almost everywhere.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+      "toolchain": null,
+      "version": 2,
+      "work": "quaternionic-deutsch-equality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:quaternionic-deutsch-equality:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+      },
+      "lineage": "collected:quaternionic-deutsch-equality:s3",
+      "macros": {
+        "\\HH": "\\mathbb H",
+        "\\abs": "\\lvert #1\\rvert",
+        "\\almosteverywhere": "\\text{a.e.}",
+        "\\ip": "\\langle #1,#2\\rangle",
+        "\\norm": "\\lVert #1\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "quaternionic-deutsch-equality",
+      "scope": "in_scope",
+      "statement": "Suppose the two frame families have pointwise norm bounds\n$0<a\\le1$ and $0<b\\le1$, respectively. On the common coefficient\ndomain,\n\\[\n S_\\tau(x)+S_\\omega(x)\\ge-2\\log\\frac{ab+c}{2}.\n\\]\nEquality holds exactly when $\\dim_\\HH\\mathcal Q=1$,\n$\\norm{\\tau_\\alpha}=a$ almost everywhere, and\n$\\norm{\\omega_\\beta}=b$ almost everywhere.\nThen $m=a^{-2}$, $n=b^{-2}$ and $c=ab$.\nFor $ab<1$ this strengthens the source's central lower bound strictly.\nThe same statement holds over $\\mathbb R$ and $\\mathbb C$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+      "toolchain": null,
+      "version": 2,
+      "work": "quaternionic-deutsch-equality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:quaternionic-deutsch-equality:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+      },
+      "lineage": "collected:quaternionic-deutsch-equality:s4",
+      "macros": {
+        "\\HH": "\\mathbb H",
+        "\\abs": "\\lvert #1\\rvert",
+        "\\almosteverywhere": "\\text{a.e.}",
+        "\\ip": "\\langle #1,#2\\rangle",
+        "\\norm": "\\lVert #1\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "quaternionic-deutsch-equality",
+      "scope": "in_scope",
+      "statement": "If $m,n<\\infty$, upper equality\n$S_\\tau(x)+S_\\omega(x)=\\log(mn)$ holds if and only if\n\\[\n p=1/m\\quad\\mu\\text{-}\\almosteverywhere,\\qquad\n q=1/n\\quad\\nu\\text{-}\\almosteverywhere.\n\\]\nEquality in the last link $D(c)\\ge0$ holds if and only if $c=1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+      "toolchain": null,
+      "version": 2,
+      "work": "quaternionic-deutsch-equality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:quaternionic-deutsch-equality:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+      },
+      "lineage": "collected:quaternionic-deutsch-equality:s5",
+      "macros": {
+        "\\HH": "\\mathbb H",
+        "\\abs": "\\lvert #1\\rvert",
+        "\\almosteverywhere": "\\text{a.e.}",
+        "\\ip": "\\langle #1,#2\\rangle",
+        "\\norm": "\\lVert #1\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "quaternionic-deutsch-equality",
+      "scope": "in_scope",
+      "statement": "For finite Parseval frames with counting measure, central lower equality\non the common nonzero-coefficient domain occurs exactly when both frames\nconsist of a single unit vector in a one-dimensional space.\nFor two orthonormal bases in dimension greater than one, that lower\ninequality is strict on the common domain.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+      "toolchain": null,
+      "version": 2,
+      "work": "quaternionic-deutsch-equality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:quaternionic-deutsch-equality:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+      },
+      "lineage": "collected:quaternionic-deutsch-equality:s6",
+      "macros": {
+        "\\HH": "\\mathbb H",
+        "\\abs": "\\lvert #1\\rvert",
+        "\\almosteverywhere": "\\text{a.e.}",
+        "\\ip": "\\langle #1,#2\\rangle",
+        "\\norm": "\\lVert #1\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "quaternionic-deutsch-equality",
+      "scope": "in_scope",
+      "statement": "Replace the quaternionic space and its scalar field by a real or complex\nHilbert space, with the same frame, measure and pointwise-domain hypotheses.\nTheorem~\\ref{thm:main} and Corollaries~\\ref{cor:upper}--\\ref{cor:counting}\nremain true, with dimension over the corresponding scalar field.\nThis gives the central lower and simultaneous equality cases in\n\\cite[Question 2.4, (3)]{K23}, as well as the finite-mass upper cases.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+      "toolchain": null,
+      "version": 2,
+      "work": "quaternionic-deutsch-equality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:quaternionic-deutsch-equality:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+      },
+      "lineage": "collected:quaternionic-deutsch-equality:s7",
+      "macros": {
+        "\\HH": "\\mathbb H",
+        "\\abs": "\\lvert #1\\rvert",
+        "\\almosteverywhere": "\\text{a.e.}",
+        "\\ip": "\\langle #1,#2\\rangle",
+        "\\norm": "\\lVert #1\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "quaternionic-deutsch-equality",
+      "scope": "in_scope",
+      "statement": "Let $1\\le r<\\infty$ and let $\\{f_\\alpha\\}$, $\\{g_\\beta\\}$ be 1-bounded\ncontinuous Parseval $r$-frames of linear functionals on a real or complex\nBanach space $X$. Thus their norms are at most one, their coefficient\nmaps are measurable, and $\\int\\abs{f_\\alpha(y)}^r\\,d\\mu=\\norm{y}^r$,\nwith the analogous identity for $g$.\nFor a unit vector $u$ with all these coefficients nonzero, define\n\\[\n P(\\alpha)=\\abs{f_\\alpha(u)}^r,\\qquad\n Q(\\beta)=\\abs{g_\\beta(u)}^r,\\qquad\n C=\\sup_{\\norm{y}=1,\\,\\alpha,\\beta}\\abs{f_\\alpha(y)g_\\beta(y)}.\n\\]\nEquality in the lower entropy bound\n$\\int-P\\log P+\\int-Q\\log Q\\ge-r\\log C$\nholds exactly when $P=A$ almost everywhere, $Q=B$ almost everywhere,\nand $AB=C^r$ for constants $A,B>0$.\nIn particular both total masses are finite at equality.\nThe same criterion holds for the dual-space frames of\n\\cite[Theorem 2.12]{K23}, with coefficients\n$f_\\alpha(h)=h(\\tau_\\alpha)$ and $g_\\beta(h)=h(\\omega_\\beta)$ on $X^*$.\nFor finite $m,n$, upper entropy equality with $\\log(mn)$ holds\nexactly when $P=1/m$ and $Q=1/n$ almost everywhere.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+      "toolchain": null,
+      "version": 2,
+      "work": "quaternionic-deutsch-equality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:quaternionic-deutsch-equality:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+      },
+      "lineage": "collected:quaternionic-deutsch-equality:s8",
+      "macros": {
+        "\\HH": "\\mathbb H",
+        "\\abs": "\\lvert #1\\rvert",
+        "\\almosteverywhere": "\\text{a.e.}",
+        "\\ip": "\\langle #1,#2\\rangle",
+        "\\norm": "\\lVert #1\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "quaternionic-deutsch-equality",
+      "scope": "in_scope",
+      "statement": "In the functional setting of Corollary~\\ref{cor:functional}, assume\n$X\\ne\\{0\\}$ and $m,n<\\infty$. Equality in the other inequality of\n\\cite[Theorems 2.8 and 2.12, (4)--(5)]{K23}, namely\n\\[\n (mn)^{-1/r}\\le C,\n\\]\nholds if and only if $\\dim X=1$ and\n\\[\n \\norm{f_\\alpha}\\le m^{-1/r},\\quad\n \\norm{g_\\beta}\\le n^{-1/r}\\quad\\hbox{at every index},\n\\]\nwith equality in each norm bound almost everywhere.\nFor the dual formulation, replace $X$ by $X^*$ and the functionals\nby the corresponding evaluation maps. Every admissible state\nthen attains the functional lower entropy bound as well.\nFor arbitrary total masses and an admissible state, lower entropy\nequality holds if and only if $m,n$ are finite and the same\ndimension and norm conditions hold. For a fixed pair an admissible\nequality state exists precisely when these conditions hold and\nevery functional is nonzero, including at null indices.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+      "toolchain": null,
+      "version": 2,
+      "work": "quaternionic-deutsch-equality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:quaternionic-deutsch-equality:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+      },
+      "lineage": "collected:quaternionic-deutsch-equality:s9",
+      "macros": {
+        "\\HH": "\\mathbb H",
+        "\\abs": "\\lvert #1\\rvert",
+        "\\almosteverywhere": "\\text{a.e.}",
+        "\\ip": "\\langle #1,#2\\rangle",
+        "\\norm": "\\lVert #1\\rVert"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "quaternionic-deutsch-equality",
+      "scope": "in_scope",
+      "statement": "Continuous Parseval frames on arbitrary measure spaces need not be\n1-bounded.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+      "toolchain": null,
+      "version": 2,
+      "work": "quaternionic-deutsch-equality"
     },
     {
       "attribution": null,

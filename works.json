@@ -424,6 +424,53 @@
       "work": "alm2024-normal-extension-monotonicity"
     },
     {
+      "abstract_text": "For Arvind–Cameron–Ma–Maslova's Question 4, second sentence, in Section 9, p. 40 of arXiv:2305.07301v5 (27 July 2025), we extend the examples attributed there to Eamonn O'Brien to non-isoclinic groups of order q^6 with isomorphic full commuting graphs for every prime power q = p^f, including characteristic two, using residue-field coordinate charts for Heisenberg groups over two rings of order q^2. Their derived groups are (C_(p^2))^f and (C_p)^(2f). The common graph is chordal and perfect but neither a cograph, a split graph nor a threshold graph; its clique structure and degree distribution are explicit. The case f = 1 answers the posed all-prime question, and abelian factors give examples of every order p^n with n >= 6.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "a5ab754b3968a7da271b36fb2b1d878697d70892",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a5ab754b3968a7da271b36fb2b1d878697d70892/D5/S3/FiniteGroups/Heisenberg/CommutingGraphQ4.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 85384,
+        "sha256": "d0006225adbf1cef7f50194d8be6d8139990f72facb5dcda8a1e4f08b2058a96",
+        "url": "/api/v1/collected-papers/arvind-commuting-graph-prime-sixth-order/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T16:24:25.417280218Z",
+      "record": "arvind-commuting-graph-prime-sixth-order",
+      "repository_name": "arvind-commuting-graph-prime-sixth-order",
+      "source": {
+        "bytes": 18864,
+        "sha256": "d9ca2711ee5d2435d618782aa60f9c44df6a2de64a696f3357fb029e82e01d0f",
+        "url": "/api/v1/collected-papers/arvind-commuting-graph-prime-sixth-order/files/source?version=2"
+      },
+      "title": "Residue-field extensions of O'Brien's examples for Arvind–Cameron–Ma–Maslova's commuting-graph question",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T16:24:25.417280218Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "arvind-commuting-graph-prime-sixth-order"
+    },
+    {
       "abstract_text": "We prove Anthony Browne's conjecture in OEIS A164660, final FORMULA (29 May 2016): for every positive integer n, the reduced numerator of the integral from 0 to 1 of T_(n+1)(x) equals the stated floor product and (-1)^(n/rad(n)). Both sides are +1 exactly when 4 divides n. The same calculation proves the preceding rational-integral conjecture and gives its denominator sequence A164661. More generally, replacing the exponent n in the product by any integer r >= 2, and translating its interval by any integer, leaves the product unchanged. We give the exact root count for every r >= 1 and correct two coefficient-table discrepancies in the linked sources.",
       "authors": [
         {
@@ -706,7 +753,7 @@
       "work": "balaper-a281183-phi2period"
     },
     {
-      "abstract_text": "We give an alternative proof of Lien-Hung Su's theorem (31 October 2026, Theorem 3.2 and Corollary 3.3) resolving Peter Bala's totient-square period conjecture in OEIS A281440 (COMMENT, 19 February 2026; revision 17, 6 November 2026). For the integral coefficients a(n)=(2n)![x^(2n)]C(x), with C(x)=cosh(integral_0^x C(t)^7 dt), every modulus m>=3 admits the eventual period phi(m)^2/2; moduli 1 and 2 admit period one. The proof replaces idempotent lifting by an elementary binomial identity for endomorphisms and includes the vanishing branch at the prime five. The same argument covers the four companion conjectures in A281180, A281181, A281183 and A281184, and extends the half-square bound to every integer exponent a>=2 in the associated quadratic derivation. We prove the resulting odd-exponent corollaries, source derivative and algebraic identities, and finite-dimensional certificates for the exact period 72 modulo 13 and the two displayed A281428 examples.",
+      "abstract_text": "For Peter Bala's totient-square conjecture in OEIS A281184, comment of February 16, 2026, revision 41, we specialize Lien-Hung Su's Theorem 3.2 and Corollary 3.3 (October 31, 2026) to obtain the asserted eventual period by identifying the coefficients with integer derivation iterates. For Bala's related examples in A281428, March 3, 2026, revision 54, finite-dimensional certificates prove the least modulo-27 tail period 18 from the exact index 2 and divisibility by 385 from the exact index 6. The former improves Su's sufficient index 3. Seven companion least periods, five row-multiplier identities, full-index and derivative consequences, and two corrected coefficient normalizations are included, with precise written, finite-check and Lean-declaration coverage. No priority claim is made.",
       "authors": [
         {
           "affiliation": "ChronoAI Pte Ltd, Singapore",
@@ -720,6 +767,53 @@
       "concept_doi": null,
       "current_version": 2,
       "doi": null,
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281184TotientSquarePeriod.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 87055,
+        "sha256": "4d31fd7c07b262b0a56af0e3a882ae4b0cacbcb47f8e6932a31c779cc7ac5306",
+        "url": "/api/v1/collected-papers/balaper-a281184-phi2period/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T15:36:56.769920593Z",
+      "record": "balaper-a281184-phi2period",
+      "repository_name": "balaper-a281184-phi2period",
+      "source": {
+        "bytes": 20695,
+        "sha256": "b07a9ef3fcd8b557257aed569c043c1906076eea4ba00bcb1251f27de07a65e7",
+        "url": "/api/v1/collected-papers/balaper-a281184-phi2period/files/source?version=2"
+      },
+      "title": "Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T15:36:56.769920593Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "balaper-a281184-phi2period"
+    },
+    {
+      "abstract_text": "We give an alternative proof of Lien-Hung Su's theorem (31 October 2026, Theorem 3.2 and Corollary 3.3) resolving Peter Bala's totient-square period conjecture in OEIS A281440 (COMMENT, 19 February 2026; revision 17, 6 November 2026). For the integral coefficients a(n)=(2n)![x^(2n)]C(x), with C(x)=cosh(integral_0^x C(t)^7 dt), every modulus m>=3 admits the eventual period phi(m)^2/2; moduli 1 and 2 admit period one. The proof replaces idempotent lifting by an elementary binomial identity for endomorphisms and includes the vanishing branch at the prime five. The same argument covers the four companion conjectures in A281180, A281181, A281183 and A281184, and extends the half-square bound to every integer exponent a>=2 in the associated quadratic derivation. We prove the resulting odd-exponent corollaries, source derivative and algebraic identities, and finite-dimensional certificates for the exact period 72 modulo 13 and the two displayed A281428 examples.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24411961",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.24411962",
       "lean_source": {
         "revision": "92de86888730265f84e24d28bdb67546c543a966",
         "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281440TotientSquarePeriod.lean"
@@ -753,7 +847,7 @@
       "work": "balaper-a281440-phi2period"
     },
     {
-      "abstract_text": "Extending Banica–Özteke–Pittau's Fourier defect theory, we refute their Conjecture 1.14 (Isolated partial Hadamard matrices, and related topics, arXiv:1706.00986v2, p. 9): Fourier incidence equations and the analytic implicit-function theorem give non-isolation after any two row deletions at every prime order p ≥ 5. For any nonempty proper row set of size m, the local dephased solution space is a real-analytic manifold of dimension (m−1)(p−m−1). Thus among the nonempty prime Fourier truncations, precisely those with m = 1, p−1, p are isolated, and no fixed positive density margin ensures isolation. We also give an explicit defect formula for every row truncation of a finite abelian Fourier matrix; its zero-cycle case has the same analytic dimension formula with p replaced by the group order.",
+      "abstract_text": "We give an alternative proof and an extension of Lien-Hung Su's theorem (31 October 2026, Theorem 3.2 and Corollary 3.3, doi:10.5281/zenodo.23835577) resolving Peter Bala's conjecture in OEIS A281180, Comments, revision 86, signed 18 February 2026, and its four companion conjectures. The proof begins with a uniform operator identity for every integral polynomial vector field P(z)d/dz with P(0)=1. For the quadratic flows S'=C^a, C'=S C^(a-1), we extend the eventual period phi(m)^2/2 to every integer a>=1, every integral polynomial observable at even derivative indices, and every m>=3. We give explicit starting indices, prove residue-row and derivative identities from the neighboring entries, and supply exact finite-matrix certificates for the source examples.",
       "authors": [
         {
           "affiliation": "ChronoAI Pte Ltd, Singapore",
@@ -767,6 +861,53 @@
       "concept_doi": null,
       "current_version": 2,
       "doi": null,
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S1/Recurrence/Periodic/BalaA281180TotientSquarePeriod.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 126116,
+        "sha256": "c9e292eef9fc3dd889bcdfa2d9d1098d692fbfde6b231fe606c785a6e4f6d80f",
+        "url": "/api/v1/collected-papers/balaper-phi2period/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T15:37:53.377516811Z",
+      "record": "balaper-phi2period",
+      "repository_name": "balaper-phi2period",
+      "source": {
+        "bytes": 29708,
+        "sha256": "99d2be4066404f3c97833b22786ba968308c81106223918eb0984021a8fc9889",
+        "url": "/api/v1/collected-papers/balaper-phi2period/files/source?version=2"
+      },
+      "title": "Polynomial-flow extensions of Su's theorem on Bala's period conjectures",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T15:37:53.377516811Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "balaper-phi2period"
+    },
+    {
+      "abstract_text": "Extending Banica–Özteke–Pittau's Fourier defect theory, we refute their Conjecture 1.14 (Isolated partial Hadamard matrices, and related topics, arXiv:1706.00986v2, p. 9): Fourier incidence equations and the analytic implicit-function theorem give non-isolation after any two row deletions at every prime order p ≥ 5. For any nonempty proper row set of size m, the local dephased solution space is a real-analytic manifold of dimension (m−1)(p−m−1). Thus among the nonempty prime Fourier truncations, precisely those with m = 1, p−1, p are isolated, and no fixed positive density margin ensures isolation. We also give an explicit defect formula for every row truncation of a finite abelian Fourier matrix; its zero-cycle case has the same analytic dimension formula with p replaced by the group order.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24411965",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.24411966",
       "lean_source": {
         "revision": "43ced8a8460ce89a7c5cae3deeac10e5fc08d565",
         "url": "https://github.com/the-omega-institute/trureturing/blob/43ced8a8460ce89a7c5cae3deeac10e5fc08d565/D5/S3/Quantum/Tomography/Hadamard/BanicaTruncationRefutation.lean"
@@ -2127,9 +2268,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24411969",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24411970",
       "lean_source": {
         "revision": "1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4",
         "url": "https://github.com/the-omega-institute/trureturing/blob/1a461fb83236b7d5f88b0ffd1bde5f7d1e3ff8b4/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA185761Recurrence.lean"
@@ -2727,6 +2868,53 @@
       "work": "kang-jager-2026-universal-permutative-lift-refutation"
     },
     {
+      "abstract_text": "Karp's Conjecture 4 in his 2011 SF21 presentation (physical PDF page 52, repeated on pages 53–54, https://math.nist.gov/~DLozier/SF21/SF21slides/Karp.pdf) fails at mu=3/2, delta=63/64, y=4095/4096: exact rational series bounds give a Legendre Turánian at most -97/5000, with all three degrees positive. The standard zero-balanced hypergeometric expansion also gives counterexamples at every positive noninteger central degree, for shifts sufficiently close to one. For each fixed admissible degree and shift, the Turánian is positive near both ends of 0<y<1; hence the explicit counterexample lies between at least two interior zeros.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "b8d708b1b89112061f30f218f031c1bf3672ebd8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b8d708b1b89112061f30f218f031c1bf3672ebd8/D5/S3/Analytic/GaussZeroBalanced/FractionalLegendreTuran.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 82113,
+        "sha256": "3c3e12942409f187aea3baa25ffa4ea241991ba2779c56ce4018a28825b14fcb",
+        "url": "/api/v1/collected-papers/karp-sf21-legendre-turan/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T16:07:23.281232830Z",
+      "record": "karp-sf21-legendre-turan",
+      "repository_name": "karp-sf21-legendre-turan",
+      "source": {
+        "bytes": 12978,
+        "sha256": "cc03f82775554a83db08a82908d615120829a767312d41739f0cf1d6aa9b2e72",
+        "url": "/api/v1/collected-papers/karp-sf21-legendre-turan/files/source?version=2"
+      },
+      "title": "A rational counterexample to Karp's fractional-degree Legendre Turán conjecture",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T16:07:23.281232830Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "karp-sf21-legendre-turan"
+    },
+    {
       "abstract_text": "We extend Khesin–Li (2024), Section 8, by proving the operation-generated, decoration-free graph formulation of Conjecture 8.3 (page 23) and correcting the shared-output bound in Proposition 8.2 (page 23). For bipartite encoder graphs in one class, local complementations and input-edge deletions can be eliminated: output permutations and binary input-row additions suffice. The output cut-rank function is invariant under the original operations, up to output relabelling. At a bipartite endpoint this function determines the binary kernel, hence the row space, of the input–output matrix. For two inputs, the number of zero columns and the unordered multiplicities of the three nonzero column types classify the graphs. Their smallest achievable number of shared outputs is the least of these multiplicities, at most floor((n-z)/3) for z zero columns. The [3,2] matrix with all three nonzero column types has minimum one, whereas the published bound gives zero.",
       "authors": [
         {
@@ -2772,6 +2960,53 @@
         }
       ],
       "work": "khesin-li-2024-bipartite-encoder-equivalence"
+    },
+    {
+      "abstract_text": "Conjecture 4.2 of Klanderman, Lewis, Monson, Shibata and Van Niel, in Characterizing Transfer Systems for Non-Abelian Groups, arXiv:2511.13439v2, Section 4, printed page 15, receives an explicit correction by an elementary derivation from DeMark et al.’s tulip theorem (arXiv:2604.00335v1, 1 April 2026, Proposition 3.17) and the hull theorem of Mazur et al. (2024, Proposition 2.14). Under the conjecture’s two-component hypothesis with isolated top, the transfer system is non-LSP precisely when the group order is composite, and its ordinary generated extension is compatible precisely when the original system is saturated. The non-LSP classification needs only top isolation, not two components; under the original hypotheses, all compatible partners form the lattice of conjugation-invariant order ideals of proper subgroups. On Q8, the system consisting of identities and e to H for every proper subgroup H violates compatibility: the generated extension omits {±1} to <i>. The classification also identifies the least compatible extension containing e to G and separates ordinary transfer generation from compatibility closure.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S3/FiniteGroups/KlandermanConjecture42Refutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 78918,
+        "sha256": "d55e5b2c9c3082eb8fdc70247bfc2139384bac938de3c70b74abfe2e752c6017",
+        "url": "/api/v1/collected-papers/klanderman-conjecture-4-2/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T15:53:12.877044244Z",
+      "record": "klanderman-conjecture-4-2",
+      "repository_name": "klanderman-conjecture-4-2",
+      "source": {
+        "bytes": 16141,
+        "sha256": "caa40c07497b74b524c2e1cf1123cef48cec29d2fb81fac54f8490ee63fd51d4",
+        "url": "/api/v1/collected-papers/klanderman-conjecture-4-2/files/source?version=2"
+      },
+      "title": "Correcting Klanderman et al.'s isolated-top transfer-system conjecture via DeMark et al.'s tulip theorem",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T15:53:12.877044244Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "klanderman-conjecture-4-2"
     },
     {
       "abstract_text": "Question 31 (section 2.2.5, page 24, arXiv:2610.22248v1) of Kaygorodov–Martín González–Viruel has a negative answer in its algebraic-group and group-scheme formulations: no finite-dimensional complex evolution algebra has full automorphism group SL_n for n=3 or n>=5. We prove Conjecture 5 and answer the semisimple clause of Question 36: the possible semisimple derivation algebras are exactly finite sums of so_m, m>=3. For zero-annihilator algebras, the same restriction holds for the semisimple quotient of the derivation algebra, settling the simple-ideal issue in the comment following Conjecture 5. We distinguish simple ideals from special-linear subalgebras. The abstract-group clause of Question 31 remains outside these conclusions.",
@@ -3056,6 +3291,53 @@
       "work": "kurk396563"
     },
     {
+      "abstract_text": "We give an alternative proof of Mikhail Kurkov's conjecture in OEIS A263634, FORMULA of 30 March 2025 (entry revision #166, 5 November 2025), identifying its all-column array as a specialization of the Leonov–Shiryaev product-cumulant theorem (1959). The quotient method appears in xpaul (2019), and IV_ (2020) connects its first column to logarithmic polynomials. For Kurkov's quadratic recursive array we establish R(n,k)=(n-1)![t^(n-1)]F^(k)(t)/F(t), where F(t)=1+sum_(i>=1)x_i t^i/i!. Differentiating these quotients gives the recurrence directly. We also rederive classical coefficient and Appell identities, correct a factorial normalization in the source's Appell comments, and recover the exponential-polynomial exception of Craven and Csordas (1994).",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "6a3b29c88128eeed17f731783f03e7f9ff92ae62",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6a3b29c88128eeed17f731783f03e7f9ff92ae62/D5/S3/Combinatorics/PowerSeries/KurkovA263634LogPolynomials.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 98032,
+        "sha256": "0f33209f73120e56f29fde57ba084c81b72251daab83932100276532f8e95666",
+        "url": "/api/v1/collected-papers/kurkov-a263634-log-polynomials/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T15:52:14.958148189Z",
+      "record": "kurkov-a263634-log-polynomials",
+      "repository_name": "kurkov-a263634-log-polynomials",
+      "source": {
+        "bytes": 17287,
+        "sha256": "6e9af6eea9f7424e9293a59d7bce6d86285806c7fd2fb415e6877506ded4d0f7",
+        "url": "/api/v1/collected-papers/kurkov-a263634-log-polynomials/files/source?version=2"
+      },
+      "title": "An alternative proof of Kurkov's logarithmic-polynomial recursion and its Leonov–Shiryaev interpretation",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T15:52:14.958148189Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "kurkov-a263634-log-polynomials"
+    },
+    {
       "abstract_text": "Mikhail Kurkov's FORMULA conjectures of 5 April 2025 in OEIS A340991, revision 24, and A357583, revision 10 (both dated 6 April 2025), propose the same shifted-array recursion for the prime and Bell convolution triangles and for arbitrary coefficient sequences. We prove the recursion over every unital semiring, including noncommutative ones, with the stated order of multiplication. A shifted-tail coefficient formula determines every array column. It also gives the Bell specialization, finite-support recurrences, and the factorial generating function conjectured by Bala; the latter and its continued fraction are deductions of classical INVERT and Euler identities.",
       "authors": [
         {
@@ -3197,6 +3479,53 @@
       "work": "malkoun-2026-mo512579-jordan-elementary"
     },
     {
+      "abstract_text": "Extending Jovovic's generating-function formulas of 25 September 2003 and Barry's array-sum identity (2009, Section 13.2, pp. 283–284), we prove Mathar's recurrence conjectures in the Formula fields of OEIS A081124, revision 8 (24 November 2012), and A084261, revision 9 (30 November 2012), retained in revisions 20 and 29, respectively. A common finite-sum argument proves both recurrences for every n ≥ 3. For the fixed-point polynomials of Fang, Hamaker and Troyka, we also give a parameter-dependent recurrence and self-contained proofs of the continued fractions and Hankel determinants recorded by Hanna and Barry. Further consequences include partial sums and linked factorial-ratio identities.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "13f4288c2940bd2aa4020cec789956b9265769f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/13f4288c2940bd2aa4020cec789956b9265769f5/D5/S1/Recurrence/MatharA081124.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 102955,
+        "sha256": "d326e790fdb3cc001df2342767c5ac15cb571e8a7a6d1c1102b032c0bc753fb6",
+        "url": "/api/v1/collected-papers/mathar-2012-a081124-recurrence/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T15:51:11.701461864Z",
+      "record": "mathar-2012-a081124-recurrence",
+      "repository_name": "mathar-2012-a081124-recurrence",
+      "source": {
+        "bytes": 23242,
+        "sha256": "527e26d5580875fbd8924fa6c9dd43b5994c23c25970c55514e1c4ad49858ef2",
+        "url": "/api/v1/collected-papers/mathar-2012-a081124-recurrence/files/source?version=2"
+      },
+      "title": "Mathar's half-factorial recurrence conjectures: extensions of Jovovic's formulas and Barry's array sums",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T15:51:11.701461864Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "mathar-2012-a081124-recurrence"
+    },
+    {
       "abstract_text": "We give an alternative proof of Jovovic's 2003 exponential generating function and resolve Mathar's Conjecture in OEIS A084261, FORMULA, 30 November 2012, for every integer n >= 3. For a(n,t)=sum binomial(n,2k) k! t^(n-2k), the fixed-point-weighted generating function of Fang, Hamaker and Troyka (2020; journal version 2022) yields an explicit polynomial recurrence. A common moment representation also proves the recorded row sums, continued fraction, Hankel product and asymptotic equivalent, the last extending to every fixed real t > 0.",
       "authors": [
         {
@@ -3242,6 +3571,53 @@
         }
       ],
       "work": "mathar-2012-a084261-recurrence"
+    },
+    {
+      "abstract_text": "Extending Kaplansky and Riordan's ménage identities (1946, pp. 121–122, equations (25) and (33)), we use Jovović's factorial-series generating function to prove the conjectures of Mathar (recurrence) and van Hoeij (prime-shift congruence) in OEIS A000159, revision 54, first and third FORMULA lines, dated 2 November 2015 and 10 June 2019. For the hit numbers u_h(n)=[t^h]U_n(t), the stronger uniform result is u_h(n)+2u_h(n+p)+u_h(n+2p) ≡ 0 (mod p) for every prime p, 1 <= h < p and n >= 0; the zero-hit case holds for n >= 1. It settles the neighboring two-, four- and five-hit congruences. We also prove prime-square antiperiodicity for three hits, give exact recurrence certificates for the neighboring diagonals, and correct the one-hit indexing formula by identifying it with a classical identity.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "8acba483bc80695fef00c6b8c491e2ae16d5145f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acba483bc80695fef00c6b8c491e2ae16d5145f/D5/S1/Recurrence/Invariants/MatharA000159Recurrence.lean#L656"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 102717,
+        "sha256": "fb8203bb7b1619933918dc66d6b0e5e4ef7182a3560010fbb16e37d484fa3d22",
+        "url": "/api/v1/collected-papers/mathar-a000159-recurrence/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T16:06:16.480051649Z",
+      "record": "mathar-a000159-recurrence",
+      "repository_name": "mathar-a000159-recurrence",
+      "source": {
+        "bytes": 18667,
+        "sha256": "f01f1b3ee01fb598189261c8c95a3d68b34873de184e04a43a8daa9488c54db9",
+        "url": "/api/v1/collected-papers/mathar-a000159-recurrence/files/source?version=2"
+      },
+      "title": "Prime-shift extensions of Kaplansky–Riordan's ménage identities: Mathar's recurrence and van Hoeij's congruences",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T16:06:16.480051649Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "mathar-a000159-recurrence"
     },
     {
       "abstract_text": "We prove the recurrence for A027182 stated as a conjecture by R. J. Mathar (OEIS A027182, FORMULA section, 6 May 2026) for all n >= 6, by evaluating the middle coefficient of the square of each A027170 row polynomial. Row symmetry reduces the convolution to five binomial sums, and a shifted second-order recurrence gives the six-term recurrence. The same central-binomial identity proves Mathar's conjectured recurrences for A027171, A027174 and A027175; a parity decomposition also proves his seven-term recurrence for the half-row sums A027179.",
@@ -4562,6 +4938,53 @@
       "work": "oudra-a248186-cubic-floor"
     },
     {
+      "abstract_text": "Extending Hone's divisibility proof (2007, Proposition 1) and Ovsienko and Tabachnikov's sufficient conditions, we settle the conjecture immediately after Corollary 5.2 in Section 5.4, printed pages 10–11 of arXiv:1705.01623v1 (2017), by classifying integer shadows of both dual Somos deformations. For positive integers p,q, integer weights u,v, and each fixed integer initial shadow tuple, the recurrence A_(n+4) A_n = (1+uε)(A_(n+1) A_(n+3))^p + (1+vε) A_(n+2)^q has integer shadows at every index exactly when (q−2)u = (2p−2)v. In the first conjectured family, u=0,v=1, this is equivalent to p=1; if p≥2, the first noninteger shadow is always at index 9. In the second family, u=1,v=0, the criterion is q=2. More generally, the first failure and its reduced denominator depend only on the real orbit and the integer obstruction, not on the initial shadows. We also give the arbitrary-initial-shadow version of the source's q=0 example and an exact certificate for its reported sign change in the fourth homogeneous shadow.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "256870690452e5629b1260ae620f2d647417e857",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/256870690452e5629b1260ae620f2d647417e857/D5/S1/Recurrence/Invariants/SomosFirstDualIntegrality.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 96823,
+        "sha256": "1f57093f0f55501916e4e4f3f0eeace67d63699eeb9ddbc345402b95541b2eb7",
+        "url": "/api/v1/collected-papers/ovsienko-tabachnikov-first-dual-somos-integrality/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T15:50:13.640707003Z",
+      "record": "ovsienko-tabachnikov-first-dual-somos-integrality",
+      "repository_name": "ovsienko-tabachnikov-first-dual-somos-integrality",
+      "source": {
+        "bytes": 17382,
+        "sha256": "363837c4c94b1c66fa9d5586a349cf4ac431e41eaa26c3c11eaa867dcee3f66b",
+        "url": "/api/v1/collected-papers/ovsienko-tabachnikov-first-dual-somos-integrality/files/source?version=2"
+      },
+      "title": "Ovsienko–Tabachnikov's dual Somos integrality conjectures: a two-weight extension of Hone's divisibility proof",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T15:50:13.640707003Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
       "abstract_text": "We refute the conjectures in Section IV immediately after Theorems 1 and 3, Eqs. (10) and (12), of Peled, Te'eni, Carmi and Cohen, Scientific Reports 11, 2849 (2021), that filter normal form can be removed from their correlation-minor bounds. Explicit separable states give robust violations in dimensions 2 by 4 and 2 by D for 5<=D<=8, including positive-definite examples. For every D>=4 and every Schatten parameter, the sharp fourth-order separable bound without filter normal form is 1/(192 sqrt(3)), attained by tetrahedral qubit projectors paired with four orthogonal flags. No common-size pair of regular coherent degree-1 pure designs exists in dimensions 2 and D>=5. We also correct the missing square root in arXiv:2005.12079v2, Appendix D.5, Eq. (D31), using the known separable covariance inequality. The original filter-normal-form theorems retain their scope.",
       "authors": [
         {
@@ -4701,6 +5124,53 @@
         }
       ],
       "work": "projective-toric-design-subgroup-counterexample"
+    },
+    {
+      "abstract_text": "We answer the central lower-equality part of K. Mahesh Krishna's Question 2.12, arXiv:2610.35881v1, p. 12, concerning Theorem 2.9, (11), by entropy saturation and Parseval rigidity, and give an alternative proof of the shift-radius consequence of Carvalho, Diogo and Mendes (2019, Theorem 3.7; 2021, Corollary 3.3). On the pointwise nonzero-coefficient domain, lower equality holds exactly in quaternionic dimension one with both frames unit norm almost everywhere; every link is then an equality. A norm-sensitive strengthening has the same rigidity after rescaling. We give the finite-mass upper criterion, the real and complex counterpart for Krishna's Question 2.4, arXiv:2310.01450v1, p. 4, and geometric lower-equality and mass-endpoint criteria for its functional Questions 2.10 and 2.13 under their preceding 1-bounded hypotheses.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "ce81a81165df77896f51d50d0fe44bf07d190c92",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce81a81165df77896f51d50d0fe44bf07d190c92/D5/S3/QuantumBounds/QuaternionicDeutschEquality.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 109317,
+        "sha256": "6833253105cb85d9ae544cd981b38205de745a658bcbe40dcc448a98a848ac28",
+        "url": "/api/v1/collected-papers/quaternionic-deutsch-equality/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T16:23:26.640460455Z",
+      "record": "quaternionic-deutsch-equality",
+      "repository_name": "quaternionic-deutsch-equality",
+      "source": {
+        "bytes": 18386,
+        "sha256": "59688341f9c09ab9914f92a396ff29c30f2e966508d9b6b12c40c4c88b5fc858",
+        "url": "/api/v1/collected-papers/quaternionic-deutsch-equality/files/source?version=2"
+      },
+      "title": "Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T16:23:26.640460455Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "quaternionic-deutsch-equality"
     },
     {
       "abstract_text": "We prove the affirmative answer to MathOverflow question 516405, revision 1: the second ordinary adjacency eigenvalue of deterministic inner-face Apollonian networks divided by 2^(m/2) tends to sqrt(2). For every fixed rank r, the largest and smallest adjacency eigenvalues divided by 2^(m/2) converge to plus and minus sqrt(d_r), where the decreasing weight sequence consists of 3, three copies of 2, and 3^j copies of 3*2^(-j) for each j >= 1. An exact cutoff Gram identity gives a finite-stage bound and an O_r(2^(-m/4)) rate. The original second-eigenvalue limit is the scope of the pinned Lean declaration; the fixed-rank and quantitative extensions have written proofs.",
