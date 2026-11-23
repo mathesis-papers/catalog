@@ -785,8 +785,8 @@
       "work": "bala295462"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24413781",
+      "doi": "10.5281/zenodo.24413782",
       "files": {
         "pdf": {
           "bytes": 102903,
@@ -823,7 +823,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1348,6 +1347,63 @@
       "work": "bouafia-diversity-negative-type"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 76832,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "8b36f6dbab083efde142613d96bee54c63fcf16d1b5162c942241db719c4966b",
+          "sha256": "8b36f6dbab083efde142613d96bee54c63fcf16d1b5162c942241db719c4966b"
+        },
+        "source": {
+          "bytes": 14775,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "0c52badcb3542d61f02154a71f6ba20bfb61b10d9118ac2da7cd2641d6e2ec2a",
+          "sha256": "0c52badcb3542d61f02154a71f6ba20bfb61b10d9118ac2da7cd2641d6e2ec2a"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 4,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e/D5/S3/StatisticalMechanics/HardCore/IrrationalIndependenceRoot.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/brown-cameron-2020-irrational-imaginary-independence-root",
+      "site_url": "https://papers.trureturing.org/brown-cameron-2020-irrational-imaginary-independence-root/",
+      "title": "Extending Brown and Cameron's classification of purely imaginary independence roots",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "brown-cameron-2020-irrational-imaginary-independence-root"
+    },
+    {
       "concept_doi": "10.5281/zenodo.23885950",
       "doi": "10.5281/zenodo.23885951",
       "files": {
@@ -1631,8 +1687,8 @@
       "work": "chiral-event-parity-minimality"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24414701",
+      "doi": "10.5281/zenodo.24414702",
       "files": {
         "pdf": {
           "bytes": 88215,
@@ -1669,7 +1725,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1742,6 +1797,63 @@
       },
       "version": 2,
       "work": "consiglio-apollaro-wiesniak-2022-xmems-css-shape"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 91635,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "e1f4b01db3d3052898cafe40ce702ffac351f5d7f605f2fc6d364ac448c660d1",
+          "sha256": "e1f4b01db3d3052898cafe40ce702ffac351f5d7f605f2fc6d364ac448c660d1"
+        },
+        "source": {
+          "bytes": 15412,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "af34168280081e4efe20097915d86fe4d0d0d2a0c380f9d0354e439f46b761a8",
+          "sha256": "af34168280081e4efe20097915d86fe4d0d0d2a0c380f9d0354e439f46b761a8"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/coons-strict-adjacent-multiplicity-growth",
+      "site_url": "https://papers.trureturing.org/coons-strict-adjacent-multiplicity-growth/",
+      "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "coons-strict-adjacent-multiplicity-growth"
     },
     {
       "concept_doi": "10.5281/zenodo.24445682",
@@ -2924,6 +3036,63 @@
       "doi": null,
       "files": {
         "pdf": {
+          "bytes": 103788,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "9e01487d0ed801408d8346e154d0965c7a852c20c68d7d94d1c093e04e6907a3",
+          "sha256": "9e01487d0ed801408d8346e154d0965c7a852c20c68d7d94d1c093e04e6907a3"
+        },
+        "source": {
+          "bytes": 188616,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "1609426f6c34c7e6d3bc036505713b06a848876bca0904e72591f9542eada4ae",
+          "sha256": "1609426f6c34c7e6d3bc036505713b06a848876bca0904e72591f9542eada4ae"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "e135d8e2afafffb707a541357df302c35e90baff",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e135d8e2afafffb707a541357df302c35e90baff/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233156Row.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/hardin233156",
+      "site_url": "https://papers.trureturing.org/hardin233156/",
+      "title": "Boundary formulas for Hardin's array recurrences and Barker's generating functions via Biggs–Meredith enumeration",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "hardin233156"
+    },
+    {
+      "concept_doi": "10.5281/zenodo.24414705",
+      "doi": "10.5281/zenodo.24414706",
+      "files": {
+        "pdf": {
           "bytes": 88159,
           "matches_public": true,
           "path": "paper.pdf",
@@ -2958,7 +3127,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3202,8 +3370,8 @@
       "work": "hexagon-perp-line-counterexamples"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24415598",
+      "doi": "10.5281/zenodo.24415599",
       "files": {
         "pdf": {
           "bytes": 118388,
@@ -3240,7 +3408,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4274,6 +4441,63 @@
       "doi": null,
       "files": {
         "pdf": {
+          "bytes": 113639,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "ad9e6e927139b9fff960085ff878bed58d0661a78347e3ccccbb4e3d48ab820a",
+          "sha256": "ad9e6e927139b9fff960085ff878bed58d0661a78347e3ccccbb4e3d48ab820a"
+        },
+        "source": {
+          "bytes": 19003,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "cb557ba345c87328c9b5a20a188e6fb9dedca0cb77734f9f10821e6e6e98ee92",
+          "sha256": "cb557ba345c87328c9b5a20a188e6fb9dedca0cb77734f9f10821e6e6e98ee92"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 12,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb/D5/S1/Recurrence/Parity/DyadicExtendedStirlingEdge.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/kurkov-binary-stirling-row-edge",
+      "site_url": "https://papers.trureturing.org/kurkov-binary-stirling-row-edge/",
+      "title": "Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "kurkov-binary-stirling-row-edge"
+    },
+    {
+      "concept_doi": "10.5281/zenodo.24414710",
+      "doi": "10.5281/zenodo.24414711",
+      "files": {
+        "pdf": {
           "bytes": 76190,
           "matches_public": true,
           "path": "paper.pdf",
@@ -4308,7 +4532,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4327,8 +4550,8 @@
       "work": "larotonda-principal-log-distance"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24414716",
+      "doi": "10.5281/zenodo.24414717",
       "files": {
         "pdf": {
           "bytes": 84653,
@@ -4365,7 +4588,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4438,6 +4660,63 @@
       },
       "version": 2,
       "work": "luschny-a323206"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 80987,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "aad82d4016c00b3d9cfad074ec18ed43669151e808317bdb784740fbbd94b47c",
+          "sha256": "aad82d4016c00b3d9cfad074ec18ed43669151e808317bdb784740fbbd94b47c"
+        },
+        "source": {
+          "bytes": 14784,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "1a594f60fd3e821d54cd0589e2c14fdd8080c8dc6e60f8fceaf13cc82402330f",
+          "sha256": "1a594f60fd3e821d54cd0589e2c14fdd8080c8dc6e60f8fceaf13cc82402330f"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S0/Certificates/MouradAbbasC51Refutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/ma2013-dsspectral-equal-blocks",
+      "site_url": "https://papers.trureturing.org/ma2013-dsspectral-equal-blocks/",
+      "title": "Equal-block extensions of Colbrook's refutation of the Mourad–Abbas spectral conjecture",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "ma2013-dsspectral-equal-blocks"
     },
     {
       "concept_doi": "10.5281/zenodo.23920582",
@@ -4832,8 +5111,8 @@
       "work": "mathar-a386829-recurrence-dfinite"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24414720",
+      "doi": "10.5281/zenodo.24414721",
       "files": {
         "pdf": {
           "bytes": 111631,
@@ -4870,7 +5149,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4887,6 +5165,63 @@
       },
       "version": 2,
       "work": "mathar-square-root-quotient-recurrence"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 91403,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "f1cd52b832c5cb65b6cf53efafadabee3ada3320258e15e860c74b95f7e38968",
+          "sha256": "f1cd52b832c5cb65b6cf53efafadabee3ada3320258e15e860c74b95f7e38968"
+        },
+        "source": {
+          "bytes": 13965,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "fd8e3673795e323b9c4ad07b08c49b820b376d3e6869dc189f270badc9a95a69",
+          "sha256": "fd8e3673795e323b9c4ad07b08c49b820b376d3e6869dc189f270badc9a95a69"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "1ad50310295853e27713693f182e8eac94296739",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ad50310295853e27713693f182e8eac94296739/D5/S3/Fourier/MO511715Source.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/mathex-2026-mo511715-cutoff-bound",
+      "site_url": "https://papers.trureturing.org/mathex-2026-mo511715-cutoff-bound/",
+      "title": "A negative answer to mathex's cutoff-series question beyond Ghafari's masks",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "mathex-2026-mo511715-cutoff-bound"
     },
     {
       "concept_doi": "10.5281/zenodo.23931737",
@@ -5167,6 +5502,63 @@
       },
       "version": 3,
       "work": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 74733,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "d7c9a7a787e695bb119531e65ab718472b5e0549af6f4062ab1f0fe07614ae3b",
+          "sha256": "d7c9a7a787e695bb119531e65ab718472b5e0549af6f4062ab1f0fe07614ae3b"
+        },
+        "source": {
+          "bytes": 16531,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "b9b4d3e71fb8b15f6018092a678047a647f2fa2fdeb466c2b3048a7f492d5e2b",
+          "sha256": "b9b4d3e71fb8b15f6018092a678047a647f2fa2fdeb466c2b3048a7f492d5e2b"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "a165df4cad5a5538260a4e40d6b865a3db48795d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a165df4cad5a5538260a4e40d6b865a3db48795d/D5/S3/Combinatorics/Graph/ZeroForcing/ConnectedForcingCrossingRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/mukherjee-ray-ordered-connected-forcing-crossing",
+      "site_url": "https://papers.trureturing.org/mukherjee-ray-ordered-connected-forcing-crossing/",
+      "title": "Three-leaf counterexamples to Mukherjee and Ray's connected-forcing crossing question",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "mukherjee-ray-ordered-connected-forcing-crossing"
     },
     {
       "concept_doi": "10.5281/zenodo.24407821",
@@ -5561,6 +5953,63 @@
       "work": "oeis-a130095-ratio-limit"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 88251,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "ae5f9fe72ba19b4faa135b995d70601c70a5bcd2dbf999c89a92e707e2bba534",
+          "sha256": "ae5f9fe72ba19b4faa135b995d70601c70a5bcd2dbf999c89a92e707e2bba534"
+        },
+        "source": {
+          "bytes": 13541,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "7afb65fa96b2dc9ee82258506c895a298d891e564ca23c55c3e23edbaabb56c1",
+          "sha256": "7afb65fa96b2dc9ee82258506c895a298d891e564ca23c55c3e23edbaabb56c1"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 4,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "c6d80ec1ad5920a0470d7ff831c17f6303e6e578",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/c6d80ec1ad5920a0470d7ff831c17f6303e6e578/D5/S3/Combinatorics/CatalanPowerHankel/BarryA188475.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/oeis-a188475-original-shifted-hankel",
+      "site_url": "https://papers.trureturing.org/oeis-a188475-original-shifted-hankel/",
+      "title": "Barry's shifted Hankel conjecture and an extension of Cigler's formula",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 4,
+      "work": "oeis-a188475-original-shifted-hankel"
+    },
+    {
       "concept_doi": "10.5281/zenodo.23957583",
       "doi": "10.5281/zenodo.23957584",
       "files": {
@@ -5787,8 +6236,8 @@
       "work": "oeis-a322026-sequence-machine-dirichlet-inverse-identity"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24413797",
+      "doi": "10.5281/zenodo.24413798",
       "files": {
         "pdf": {
           "bytes": 83931,
@@ -5825,7 +6274,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -6302,8 +6750,8 @@
       "work": "okada-2020-premerged-determinant-nonpalindromic"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24415607",
+      "doi": "10.5281/zenodo.24415608",
       "files": {
         "pdf": {
           "bytes": 81129,
@@ -6340,7 +6788,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -6471,8 +6918,8 @@
       "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24414722",
+      "doi": "10.5281/zenodo.24414723",
       "files": {
         "pdf": {
           "bytes": 84754,
@@ -6509,7 +6956,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -8168,10 +8614,67 @@
       },
       "version": 3,
       "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 77249,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "38bae138ba3f35b114b1f536b737a49d3b3e5f1520c9aa58c3fe964583c68920",
+          "sha256": "38bae138ba3f35b114b1f536b737a49d3b3e5f1520c9aa58c3fe964583c68920"
+        },
+        "source": {
+          "bytes": 16040,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "5bc586e67249ed8cbf9483f7f3debd4229bb28c70386cd5c065f3d9e3c9bbe40",
+          "sha256": "5bc586e67249ed8cbf9483f7f3debd4229bb28c70386cd5c065f3d9e3c9bbe40"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "ad59550e53d607f9e9dbd8110a79414c46e97f7e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ad59550e53d607f9e9dbd8110a79414c46e97f7e/D5/S3/Analytic/Probability/StrongDominanceRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/zoroa-strong-dominance-counterexample",
+      "site_url": "https://papers.trureturing.org/zoroa-strong-dominance-counterexample/",
+      "title": "Counterexamples to Zoroa et al.'s strong-dominance conjecture for every number of draws above four",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 145,
+  "papers": 154,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-23T17:30:16.516433662Z"
+  "snapshot_time": "2026-11-23T20:30:34.61324549Z"
 }

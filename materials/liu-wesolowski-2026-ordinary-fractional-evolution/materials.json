@@ -1,6 +1,7 @@
 {
-  "doi": null,
+  "doi": "10.5281/zenodo.24414717",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/liu-wesolowski-2026-ordinary-fractional-evolution/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/liu-wesolowski-2026-ordinary-fractional-evolution",

@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/mathex-2026-mo511715-cutoff-bound/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/mathex-2026-mo511715-cutoff-bound",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/mathex-2026-mo511715-cutoff-bound/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "mathex-2026-mo511715-cutoff-bound"
+}

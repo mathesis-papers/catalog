@@ -1,6 +1,7 @@
 {
-  "doi": null,
+  "doi": "10.5281/zenodo.24413798",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/oeis-a351858-bala-coefficient-identity/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/oeis-a351858-bala-coefficient-identity",

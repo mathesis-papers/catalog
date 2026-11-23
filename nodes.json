@@ -6549,6 +6549,162 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:brown-cameron-2020-irrational-imaginary-independence-root:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e/D5/S3/StatisticalMechanics/HardCore/IrrationalIndependenceRoot.lean"
+      },
+      "lineage": "collected:brown-cameron-2020-irrational-imaginary-independence-root:s1",
+      "macros": {
+        "\\ii": "\\mathrm{i}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "brown-cameron-2020-irrational-imaginary-independence-root",
+      "scope": "in_scope",
+      "statement": "Let $b\\neq0$ be real and suppose $b^2\\in\\mathbb Q$. Some finite graph\nhas independence root $\\ii b$ if and only if $b^2=1/n$ for a positive\ninteger $n$. For every such $n$, the connected graph $G_n$ has\n$108n^2$ vertices, independence number four, and\n\\begin{equation}\n I(G_n,x)=(1+nx^2)(1+108n^2x+81n^3x^2).\n\\end{equation}\nThe number $1/\\sqrt n$ is irrational exactly when $n$ is not a perfect square.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Brown and Cameron's classification of purely imaginary independence roots",
+      "toolchain": null,
+      "version": 2,
+      "work": "brown-cameron-2020-irrational-imaginary-independence-root"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:brown-cameron-2020-irrational-imaginary-independence-root:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e/D5/S3/StatisticalMechanics/HardCore/IrrationalIndependenceRoot.lean"
+      },
+      "lineage": "collected:brown-cameron-2020-irrational-imaginary-independence-root:s2",
+      "macros": {
+        "\\ii": "\\mathrm{i}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "brown-cameron-2020-irrational-imaginary-independence-root",
+      "scope": "in_scope",
+      "statement": "The graph $J_n$ has $108n^2$ vertices, independence number four, and\n\\begin{equation}\n I(J_n,x)=1+(1+nx^2)(108n^2x+81n^3x^2).\n\\end{equation}\nConsequently, if $I(Q,z)=0$ and $z=\\pm\\ii/\\sqrt n$, then $Q+J_n$\nis connected and has independence root $z$ and independence number\n$\\max\\{\\alpha(Q),4\\}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Brown and Cameron's classification of purely imaginary independence roots",
+      "toolchain": null,
+      "version": 2,
+      "work": "brown-cameron-2020-irrational-imaginary-independence-root"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:brown-cameron-2020-irrational-imaginary-independence-root:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e/D5/S3/StatisticalMechanics/HardCore/IrrationalIndependenceRoot.lean"
+      },
+      "lineage": "collected:brown-cameron-2020-irrational-imaginary-independence-root:s3",
+      "macros": {
+        "\\ii": "\\mathrm{i}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "brown-cameron-2020-irrational-imaginary-independence-root",
+      "scope": "in_scope",
+      "statement": "Fix $n\\geq1$.\nFor every integer $a\\geq4$ there is a connected graph of independence\nnumber $a$ with roots $\\pm\\ii/\\sqrt n$.\nEvery finite graph $H$ is an induced subgraph of a connected graph\nwith these same roots.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Brown and Cameron's classification of purely imaginary independence roots",
+      "toolchain": null,
+      "version": 2,
+      "work": "brown-cameron-2020-irrational-imaginary-independence-root"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:brown-cameron-2020-irrational-imaginary-independence-root:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e/D5/S3/StatisticalMechanics/HardCore/IrrationalIndependenceRoot.lean"
+      },
+      "lineage": "collected:brown-cameron-2020-irrational-imaginary-independence-root:s4",
+      "macros": {
+        "\\ii": "\\mathrm{i}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "brown-cameron-2020-irrational-imaginary-independence-root",
+      "scope": "in_scope",
+      "statement": "For each positive integer $n$ there are infinitely many pairwise\nnonisomorphic finite trees with independence roots $\\pm\\ii/\\sqrt n$.\nNone of these trees has a universal vertex.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Brown and Cameron's classification of purely imaginary independence roots",
+      "toolchain": null,
+      "version": 2,
+      "work": "brown-cameron-2020-irrational-imaginary-independence-root"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:bu-gu-jaffe-2025-mixed-state-inverse-sumset:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -8546,6 +8702,279 @@
       "toolchain": null,
       "version": 2,
       "work": "consiglio-apollaro-wiesniak-2022-xmems-css-shape"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:coons-strict-adjacent-multiplicity-growth:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+      },
+      "lineage": "collected:coons-strict-adjacent-multiplicity-growth:s1",
+      "macros": {
+        "\\N": "\\mathbb N"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "coons-strict-adjacent-multiplicity-growth",
+      "scope": "in_scope",
+      "statement": "Let $\\ell\\ge2$, $r\\ge2$, and put\n\\[\n Q=\\ell^{r-1},\\qquad H=Q^2-Q/\\ell,\n \\qquad \\delta_{r,\\ell}=\\tfrac12\\log_\\ell H<r-1.\n\\]\nFor $0\\le k\\le\\ell^r-2$ and $0\\le n<\\ell^{m+1}$,\n\\begin{equation}\n b_{k,\\ell}(n)\\le Q^{m\\bmod2}H^{\\lfloor m/2\\rfloor}.\n\\end{equation}\nConsequently $b_{k,\\ell}(n)=O(n^{\\delta_{r,\\ell}})$ as $n\\to\\infty$.\nAt $k=\\ell^r-1$ the count is $\\Theta(n^{r-1})$.\nThus $\\ell^r-1$ is the least digit bound whose upper logarithmic exponent\nis at least $r-1$.\nIn particular, $\\ell^2-1$ is the first bound with linear maximum growth,\nand below it\n\\[\n b_{k,\\ell}(n)=O\\bigl(n^{\\frac12\\log_\\ell(\\ell^2-1)}\\bigr)=o(n).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+      "toolchain": null,
+      "version": 3,
+      "work": "coons-strict-adjacent-multiplicity-growth"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:coons-strict-adjacent-multiplicity-growth:3:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+      },
+      "lineage": "collected:coons-strict-adjacent-multiplicity-growth:s2",
+      "macros": {
+        "\\N": "\\mathbb N"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "coons-strict-adjacent-multiplicity-growth",
+      "scope": "in_scope",
+      "statement": "The first linear-minimum threshold is also $\\ell^2-1$.\nThis is a direct proof of Coons's Theorem~1 (CW3): the uniform\n$o(n)$ bound excludes every smaller bound, and~\\eqref{eq:critical}\ngives a linear lower bound at the threshold.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+      "toolchain": null,
+      "version": 3,
+      "work": "coons-strict-adjacent-multiplicity-growth"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:coons-strict-adjacent-multiplicity-growth:3:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+      },
+      "lineage": "collected:coons-strict-adjacent-multiplicity-growth:s3",
+      "macros": {
+        "\\N": "\\mathbb N"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "coons-strict-adjacent-multiplicity-growth",
+      "scope": "in_scope",
+      "statement": "If $q\\ge1$, $k\\le q\\ell-1$, and $n<\\ell^{m+1}$, then\n$b_{k,\\ell}(n)\\le q^m$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+      "toolchain": null,
+      "version": 3,
+      "work": "coons-strict-adjacent-multiplicity-growth"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:coons-strict-adjacent-multiplicity-growth:3:s4",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+      },
+      "lineage": "collected:coons-strict-adjacent-multiplicity-growth:s4",
+      "macros": {
+        "\\N": "\\mathbb N"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "coons-strict-adjacent-multiplicity-growth",
+      "scope": "in_scope",
+      "statement": "Let $2\\le q\\le\\ell$ and $(q-1)(\\ell+1)\\le k\\le q\\ell-1$.\nFor $R_m=1+\\ell+\\cdots+\\ell^m$ and every $m\\ge0$,\n\\begin{equation}\n b_{k,\\ell}((q-1)R_m)=q^m,\n \\qquad A(k,\\ell)=\\log_\\ell q.\n\\end{equation}\nIn particular, if $2\\le q\\le\\ell-1$ and\n$(q-1)(\\ell+1)\\le k\\le q\\ell-2$, then\n$A(k,\\ell)=A(k+1,\\ell)$.\nFor $\\ell\\ge3$, taking $q=2$ answers Coons's question negatively.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+      "toolchain": null,
+      "version": 3,
+      "work": "coons-strict-adjacent-multiplicity-growth"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:coons-strict-adjacent-multiplicity-growth:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+      },
+      "lineage": "collected:coons-strict-adjacent-multiplicity-growth:s5",
+      "macros": {
+        "\\N": "\\mathbb N"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "coons-strict-adjacent-multiplicity-growth",
+      "scope": "in_scope",
+      "statement": "For fixed $\\ell$, both $A(k,\\ell)$ and $L(k,\\ell)$ are finite\nand nondecreasing for $k\\ge\\ell-1$.\nThus non-strict adjacency always holds, although strict adjacency does not.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+      "toolchain": null,
+      "version": 3,
+      "work": "coons-strict-adjacent-multiplicity-growth"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:coons-strict-adjacent-multiplicity-growth:3:s6",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+      },
+      "lineage": "collected:coons-strict-adjacent-multiplicity-growth:s6",
+      "macros": {
+        "\\N": "\\mathbb N"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "coons-strict-adjacent-multiplicity-growth",
+      "scope": "in_scope",
+      "statement": "For $\\ell-1\\le k\\le2\\ell-2$, one has\n$b_{k,\\ell}(\\ell^s-1)=1$ for every $s\\ge1$, and $L(k,\\ell)=0$.\nFor every integer $a\\ge1$,\n\\begin{equation}\n b_{a\\ell-1,\\ell}(n)=\\sum_{t=0}^{\\lfloor n/\\ell\\rfloor}b_{a-1,\\ell}(t),\n \\qquad A(a\\ell-1,\\ell)=L(a\\ell-1,\\ell)=\\log_\\ell a.\n\\end{equation}\nThe ratio defining these two exponents therefore has a limit.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+      "toolchain": null,
+      "version": 3,
+      "work": "coons-strict-adjacent-multiplicity-growth"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:coons-strict-adjacent-multiplicity-growth:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+      },
+      "lineage": "collected:coons-strict-adjacent-multiplicity-growth:s7",
+      "macros": {
+        "\\N": "\\mathbb N"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "coons-strict-adjacent-multiplicity-growth",
+      "scope": "in_scope",
+      "statement": "For $\\ell\\ge3$ and $\\ell+1\\le k\\le2\\ell-2$,\n\\[\n A(k,\\ell)=A(k+1,\\ell)=\\log_\\ell2.\n\\]\nFor $\\ell-1\\le k\\le2\\ell-3$ one has\n$L(k,\\ell)=L(k+1,\\ell)=0$.\nIn particular $A(5,4)=A(6,4)=1/2$ and $L(5,4)=L(6,4)=0$.\nThe sequence $b_{a\\ell-1,\\ell}(n)$ is nondecreasing in $n$ and,\nfor $a\\ge2$, is nonconstant. Consequently, for $\\ell\\ge3$ the\nbound $2\\ell-1<\\ell^2-1$ already has nonconstant monotone growth,\ngiving a negative answer to CW4, as in Coons's Theorem~3.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+      "toolchain": null,
+      "version": 3,
+      "work": "coons-strict-adjacent-multiplicity-growth"
     },
     {
       "attribution": null,
@@ -14090,6 +14519,246 @@
       "toolchain": null,
       "version": 2,
       "work": "hardin185765"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:hardin233156:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "e135d8e2afafffb707a541357df302c35e90baff",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e135d8e2afafffb707a541357df302c35e90baff/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233156Row.lean"
+      },
+      "lineage": "collected:hardin233156:s1",
+      "macros": {
+        "\\counts": "C",
+        "\\ones": "\\boldsymbol{1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin233156",
+      "scope": "in_scope",
+      "statement": "The initial values are\n\\[\n a_1=27,\\qquad a_2=96,\\qquad a_3=432,\\qquad a_4=1944.\n\\]\nFor every \\(n\\ge5\\),\n\\begin{equation}\n a_n=5a_{n-1}-2a_{n-2}.\n\\end{equation}\nConsequently the ordinary generating function, starting at \\(n=1\\), is\n\\begin{equation}\n \\sum_{n\\ge1}a_nz^n\n =\\frac{3z(9-13z+2z^2-8z^3)}{1-5z+2z^2}.\n\\end{equation}\nEquation~\\eqref{eq:recurrence} fails at \\(n=4\\), and no constant-coefficient\norder-one homogeneous recurrence holds eventually.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Boundary formulas for Hardin's array recurrences and Barker's generating functions via Biggs–Meredith enumeration",
+      "toolchain": null,
+      "version": 3,
+      "work": "hardin233156"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hardin233156:3:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "e135d8e2afafffb707a541357df302c35e90baff",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e135d8e2afafffb707a541357df302c35e90baff/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233156Row.lean"
+      },
+      "lineage": "collected:hardin233156:s2",
+      "macros": {
+        "\\counts": "C",
+        "\\ones": "\\boldsymbol{1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin233156",
+      "scope": "in_scope",
+      "statement": "For every \\(n\\ge3\\),\n\\begin{equation}\n P(G_n,q)=(q-1)^2(q^2-3q+3)^2\n P(P_3\\mathbin{\\square}P_{n-2},q).\n\\end{equation}\nIn particular, \\(a_n=36b_{n-2}\\).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Boundary formulas for Hardin's array recurrences and Barker's generating functions via Biggs–Meredith enumeration",
+      "toolchain": null,
+      "version": 3,
+      "work": "hardin233156"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hardin233156:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "e135d8e2afafffb707a541357df302c35e90baff",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e135d8e2afafffb707a541357df302c35e90baff/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233156Row.lean"
+      },
+      "lineage": "collected:hardin233156:s3",
+      "macros": {
+        "\\counts": "C",
+        "\\ones": "\\boldsymbol{1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin233156",
+      "scope": "in_scope",
+      "statement": "With the offsets in OEIS A020698 and A052913, for every \\(n\\ge3\\),\n\\[\n a_n=216\\,\\mathrm{A020698}(n-3)\n     =108\\,\\mathrm{A052913}(n-2).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Boundary formulas for Hardin's array recurrences and Barker's generating functions via Biggs–Meredith enumeration",
+      "toolchain": null,
+      "version": 3,
+      "work": "hardin233156"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hardin233156:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "e135d8e2afafffb707a541357df302c35e90baff",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e135d8e2afafffb707a541357df302c35e90baff/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233156Row.lean"
+      },
+      "lineage": "collected:hardin233156:s4",
+      "macros": {
+        "\\counts": "C",
+        "\\ones": "\\boldsymbol{1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin233156",
+      "scope": "in_scope",
+      "statement": "Let \\(\\lambda_\\pm=(5\\pm\\sqrt{17})/2\\). For \\(n\\ge3\\),\n\\[\n a_n=216\\left[\\left(1+\\frac4{\\sqrt{17}}\\right)\\lambda_+^{n-3}\n             +\\left(1-\\frac4{\\sqrt{17}}\\right)\\lambda_-^{n-3}\\right].\n\\]\nIn particular, \\(a_{n+1}/a_n\\to\\lambda_+\\).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Boundary formulas for Hardin's array recurrences and Barker's generating functions via Biggs–Meredith enumeration",
+      "toolchain": null,
+      "version": 3,
+      "work": "hardin233156"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hardin233156:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "e135d8e2afafffb707a541357df302c35e90baff",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e135d8e2afafffb707a541357df302c35e90baff/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233156Row.lean"
+      },
+      "lineage": "collected:hardin233156:s5",
+      "macros": {
+        "\\counts": "C",
+        "\\ones": "\\boldsymbol{1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin233156",
+      "scope": "in_scope",
+      "statement": "The parent table A233155 satisfies\n\\begin{align*}\n \\counts_1(n)&=3\\cdot2^{n-1} &&(n\\ge1),\\\\\n \\counts_2(1)&=9,\\qquad\n \\counts_2(n)=24\\cdot3^{n-2} &&(n\\ge2),\\\\\n \\counts_h(1)&=3^h,\\quad\n \\counts_h(2)=6\\cdot4^{h-1} &&(h\\ge1),\\\\\n \\counts_h(3)&=12\\cdot6^{h-1},\\quad\n \\counts_h(4)=24\\cdot9^{h-1} &&(h\\ge1).\n\\end{align*}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Boundary formulas for Hardin's array recurrences and Barker's generating functions via Biggs–Meredith enumeration",
+      "toolchain": null,
+      "version": 3,
+      "work": "hardin233156"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hardin233156:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "e135d8e2afafffb707a541357df302c35e90baff",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e135d8e2afafffb707a541357df302c35e90baff/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233156Row.lean"
+      },
+      "lineage": "collected:hardin233156:s6",
+      "macros": {
+        "\\counts": "C",
+        "\\ones": "\\boldsymbol{1}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin233156",
+      "scope": "in_scope",
+      "statement": "For the coefficient list \\(c=(c_1,\\ldots,c_d)\\) in\nTable~\\ref{tab:rows}, the row sequence \\(b_n=\\counts_h(n)\\) satisfies\n\\(b_n=\\sum_{j=1}^d c_jb_{n-j}\\) for every \\(n\\ge N\\) in that table.\nFor \\(k=5,6,7\\), the column sequence \\(b_h=\\counts_h(k)\\) satisfies,\nrespectively,\n\\begin{align*}\n b_h&=15b_{h-1}-18b_{h-2} &&(h\\ge3),\\\\\n b_h&=25b_{h-1}-90b_{h-2}+81b_{h-3} &&(h\\ge4),\\\\\n b_h&=42b_{h-1}-351b_{h-2}+972b_{h-3}-810b_{h-4} &&(h\\ge5).\n\\end{align*}\nFor four rows the ordinary generating function is\n\\[\n \\sum_{n\\ge1}\\counts_4(n)z^n=\n \\frac{3z(27-115z+117z^2-186z^3+96z^4-360z^5+216z^6)}\n {1-9z+15z^2-6z^3}.\n\\]\nIts recurrence begins sharply at \\(n=8\\).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Boundary formulas for Hardin's array recurrences and Barker's generating functions via Biggs–Meredith enumeration",
+      "toolchain": null,
+      "version": 3,
+      "work": "hardin233156"
     },
     {
       "attribution": null,
@@ -20880,6 +21549,474 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:kurkov-binary-stirling-row-edge:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb/D5/S1/Recurrence/Parity/DyadicExtendedStirlingEdge.lean"
+      },
+      "lineage": "collected:kurkov-binary-stirling-row-edge:s1",
+      "macros": {
+        "\\wt": "\\operatorname{wt}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-binary-stirling-row-edge",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq0$, all $T(n,k)$ are nonnegative integers and\n\\[\n T(n,k)>0\\ \\Longleftrightarrow\\ 1\\leq k\\leq\\wt(n)+2.\n \\qquad\n T(n,\\wt(n)+2)=e(n).\n\\]\nIn particular, $e(n)$ is a positive integer, including $e(0)=1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-binary-stirling-row-edge"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:kurkov-binary-stirling-row-edge:2:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb/D5/S1/Recurrence/Parity/DyadicExtendedStirlingEdge.lean"
+      },
+      "lineage": "collected:kurkov-binary-stirling-row-edge:s10",
+      "macros": {
+        "\\wt": "\\operatorname{wt}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-binary-stirling-row-edge",
+      "scope": "in_scope",
+      "statement": "The second conjectured formula in A373183, revision 28, and\nConjecture 6 in A329369, revision 236 (June 5, 2024), hold with the range\n\\begin{equation}\n n,m\\geq0,\\qquad 0\\leq q<2^m:\n \\qquad b(2^mn+q)=\\sum_{i=1}^{\\wt(n)+1}\n P(n,i)b(2^m(2^{i-1}-1)+q).\n\\end{equation}\nTheir printed range $q\\geq0$, with no upper bound, fails at\n$(n,m,q)=(2,0,1)$: the left side is $1$ and the right side is $7$.\nFor the June 19, 2024 generalized $d$ sum in A373183, a valid range is\n$n>0$, $k>0$, $m\\geq0$, $0\\leq q<2^m$, and the identity is\n\\begin{equation}\n k!\\,\\mathrm{A357990}(2^mn+q,k)\n =\\sum_{i=1}^{\\wt(n)+k}d(n,k,\\wt(n)-i+k+1)\n       b(2^m(2^{i-1}-1)+q).\n\\end{equation}\nThe printed generalized range also fails at $(n,k,m,q)=(0,2,1,0)$:\nthe two sides are $2$ and $4$ respectively.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-binary-stirling-row-edge"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s11",
+      "contributor": null,
+      "identity": "collected:kurkov-binary-stirling-row-edge:2:s11",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb/D5/S1/Recurrence/Parity/DyadicExtendedStirlingEdge.lean"
+      },
+      "lineage": "collected:kurkov-binary-stirling-row-edge:s11",
+      "macros": {
+        "\\wt": "\\operatorname{wt}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-binary-stirling-row-edge",
+      "scope": "in_scope",
+      "statement": "For all $n\\geq0$,\n\\[\n b(n)\\geq2e(n)-1.\n\\]\nFor $n>0$, equality holds exactly when deleting the leading one-bit\nleaves only trailing ones (zero is allowed). Equality also holds at zero.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-binary-stirling-row-edge"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s12",
+      "contributor": null,
+      "identity": "collected:kurkov-binary-stirling-row-edge:2:s12",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb/D5/S1/Recurrence/Parity/DyadicExtendedStirlingEdge.lean"
+      },
+      "lineage": "collected:kurkov-binary-stirling-row-edge:s12",
+      "macros": {
+        "\\wt": "\\operatorname{wt}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-binary-stirling-row-edge",
+      "scope": "in_scope",
+      "statement": "For $L,k\\geq0$,\n\\[\n \\sum_{\\substack{0\\leq n<2^L\\\\\\wt(n)=k}}b(n)\n =\\genfrac{\\langle}{\\rangle}{0pt}{}{L+1}{k},\n \\qquad \\sum_{0\\leq n<2^L}b(n)=(L+1)!,\n\\]\nwhere the Eulerian number in brackets counts permutations of $L+1$\nelements with exactly $k$ excedances.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-binary-stirling-row-edge"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:kurkov-binary-stirling-row-edge:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb/D5/S1/Recurrence/Parity/DyadicExtendedStirlingEdge.lean"
+      },
+      "lineage": "collected:kurkov-binary-stirling-row-edge:s2",
+      "macros": {
+        "\\wt": "\\operatorname{wt}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-binary-stirling-row-edge",
+      "scope": "in_scope",
+      "statement": "For $r,h\\geq0$ and $k\\geq2$,\n\\begin{equation}\n T(2^r(2h+1),k)=(k-1)^rT(h,k-1)+k^{r+1}T(h,k).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-binary-stirling-row-edge"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:kurkov-binary-stirling-row-edge:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb/D5/S1/Recurrence/Parity/DyadicExtendedStirlingEdge.lean"
+      },
+      "lineage": "collected:kurkov-binary-stirling-row-edge:s3",
+      "macros": {
+        "\\wt": "\\operatorname{wt}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-binary-stirling-row-edge",
+      "scope": "in_scope",
+      "statement": "If $n=\\sum_{j=1}^{w}2^{b_j}>0$ with $0\\leq b_1<\\cdots<b_w$, put\n$d_1=b_1$ and $d_j=b_j-b_{j-1}-1$ for $j>1$. Then\n\\begin{equation}\n e(n)=\\prod_{j=1}^{w}(w-j+2)^{d_j}.\n\\end{equation}\nThe empty product gives $e(0)=1$. Furthermore, for $m,n\\geq0$,\n\\begin{align}\n e(2n+1)&=e(n),&e(2n)&=(1+\\wt(n))e(n),\\\\\n e(2^m(2n+1))&=\\sum_{j=0}^{m}\\binom mj e(2^j n),\\\\\n a(2^m(2n+1))&=\\sum_{j=0}^{m+1}\\binom{m+1}j a(2^j n).\n\\end{align}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-binary-stirling-row-edge"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:kurkov-binary-stirling-row-edge:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb/D5/S1/Recurrence/Parity/DyadicExtendedStirlingEdge.lean"
+      },
+      "lineage": "collected:kurkov-binary-stirling-row-edge:s4",
+      "macros": {
+        "\\wt": "\\operatorname{wt}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-binary-stirling-row-edge",
+      "scope": "in_scope",
+      "statement": "Let $n=2^L+h>1$, $0\\leq h<2^L$, and write $\\epsilon_j$ for bit $j$\nof $h$. Then\n\\begin{align}\n a(n)&=2a(h)+\\sum_{j=0}^{L-1}a\\bigl(h+2^j(1-\\epsilon_j)\\bigr),\\\\\n e(n)&=e(h)+\\sum_{\\substack{0\\leq j<L\\\\\\epsilon_j=0}}e(h+2^j).\n \n\\end{align}\nThese are Kurkov's November 10, 2019 conjecture in A284005 and the\nApril 24, 2023 formula in A341392, respectively. The former also answers\nthe proof request in MathOverflow question 445013~\\cite{lowerquestion}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-binary-stirling-row-edge"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:kurkov-binary-stirling-row-edge:2:s5",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb/D5/S1/Recurrence/Parity/DyadicExtendedStirlingEdge.lean"
+      },
+      "lineage": "collected:kurkov-binary-stirling-row-edge:s5",
+      "macros": {
+        "\\wt": "\\operatorname{wt}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-binary-stirling-row-edge",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq0$, putting $w=\\wt(n)$, we have\n\\begin{equation}\n xR_n(x)=\\sum_{i=1}^{w+2}(-1)^{w+2-i}T(n,i)x^{\\overline i}.\n\\end{equation}\nIn particular, for $r,h\\geq0$,\n\\begin{equation}\n R_{2^r(2h+1)}(x)=\\sum_{i=1}^{\\wt(h)+2}\n (-1)^{\\wt(h)+2-i}T(h,i)i^r x^{\\overline i}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-binary-stirling-row-edge"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:kurkov-binary-stirling-row-edge:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb/D5/S1/Recurrence/Parity/DyadicExtendedStirlingEdge.lean"
+      },
+      "lineage": "collected:kurkov-binary-stirling-row-edge:s6",
+      "macros": {
+        "\\wt": "\\operatorname{wt}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-binary-stirling-row-edge",
+      "scope": "in_scope",
+      "statement": "For all $n\\geq0$ and $q>0$,\n\\begin{equation}\n P(n,q)=(-1)^{\\wt(n)-q+1}\n       \\sum_{i=q+1}^{\\wt(n)+2}s(i,q+1)T(n,i).\n\\end{equation}\nFor $r,h\\geq0$ and $q>0$,\n\\begin{equation}\n P(2^r(2h+1),q)=(-1)^{\\wt(h)-q}\n       \\sum_{i=q}^{\\wt(h)+2}s(i,q)T(h,i)i^r.\n\\end{equation}\nThese prove, respectively, the final June 19, 2024 formula and the\nJanuary 17, 2025 conjecture in A373183, revision 28, FORMULA.\nMoreover,\n\\begin{equation}\n \\frac1x\\sum_{i=1}^{\\wt(n)+2}T(n,i)(x)_i\n =(-1)^{\\wt(n)+1}R_n(-x).\n\\end{equation}\nThus the conjectured identity in MathOverflow question 483753,\nDecember 7, 2024~\\cite{mo}, holds as a polynomial identity.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-binary-stirling-row-edge"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:kurkov-binary-stirling-row-edge:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb/D5/S1/Recurrence/Parity/DyadicExtendedStirlingEdge.lean"
+      },
+      "lineage": "collected:kurkov-binary-stirling-row-edge:s7",
+      "macros": {
+        "\\wt": "\\operatorname{wt}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-binary-stirling-row-edge",
+      "scope": "in_scope",
+      "statement": "For $r,h\\geq0$,\n\\begin{equation}\n b(2^r(2h+1))=\\sum_{i=1}^{\\wt(h)+2}\n (-1)^{\\wt(h)+2-i}i!i^rT(h,i).\n\\end{equation}\nThis proves the second conjectured formula in A358612, revision 52,\nFORMULA. For $h=2^j-1$, it specializes to Ehrenborg and\nSteingr\\'imsson's formula for two-block words~\\cite[Proposition 6.5]{excedance}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-binary-stirling-row-edge"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:kurkov-binary-stirling-row-edge:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb/D5/S1/Recurrence/Parity/DyadicExtendedStirlingEdge.lean"
+      },
+      "lineage": "collected:kurkov-binary-stirling-row-edge:s8",
+      "macros": {
+        "\\wt": "\\operatorname{wt}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-binary-stirling-row-edge",
+      "scope": "in_scope",
+      "statement": "For $n\\geq0$,\n\\begin{equation}\n a(n)=\\sum_{k\\subseteq_2 n}b(k),\\qquad\n b(n)=\\sum_{k\\subseteq_2 n}(-1)^{\\wt(n)-\\wt(k)}a(k).\n\\end{equation}\nThe first identity is Kurkov's March 10, 2023 conjecture in A284005;\nthe second is the inverse-transform conjecture in A329369.\nThey are consequences of Ehrenborg and Steingr\\'imsson's\nLemma 6.2 and Theorem 6.3 (2000); the following proof gives their\noperator form in the present notation.\nJetfiRex's later answer~\\cite{jetfirex} discusses the same transform\nthrough constrained permutations and Boolean inversion.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-binary-stirling-row-edge"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:kurkov-binary-stirling-row-edge:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb/D5/S1/Recurrence/Parity/DyadicExtendedStirlingEdge.lean"
+      },
+      "lineage": "collected:kurkov-binary-stirling-row-edge:s9",
+      "macros": {
+        "\\wt": "\\operatorname{wt}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kurkov-binary-stirling-row-edge",
+      "scope": "in_scope",
+      "statement": "Let $\\mathcal L_n$ be the operator word that constructs $R_n$ from $x$,\nreading the shortest binary expansion of $n$, with $\\mathcal L_0=I$.\nFor an integer $k>0$ set $U_{n,k}=\\mathcal L_n x^{\\overline k}$.\nThen A357990$(n,k)=U_{n,k}(1)/k!$, and in particular\nA357990$(n,1)=b(n)$, its conjectured first column~\\cite{square}.\nIf\n\\[\n d(n,k,j)=[x^{\\wt(n)+k-j+1}]U_{n,k}(x),\n\\]\nwhere coefficients outside the polynomial are zero, these are precisely\nKurkov's $d$ coefficients in the June 19, 2024 formulas of A373183.\nThus those formulas for $P(n,q)$, for the generalized initial polynomial,\nand for $d(n,1,1)=e(n)$ hold.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher",
+      "toolchain": null,
+      "version": 2,
+      "work": "kurkov-binary-stirling-row-edge"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:larotonda-principal-log-distance:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -21588,6 +22725,258 @@
       "toolchain": null,
       "version": 2,
       "work": "luschny-a323206"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:ma2013-dsspectral-equal-blocks:3:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S0/Certificates/MouradAbbasC51Refutation.lean"
+      },
+      "lineage": "collected:ma2013-dsspectral-equal-blocks:s1",
+      "macros": {
+        "\\DS": "\\mathrm{DS}",
+        "\\Del": "\\Delta",
+        "\\diag": "\\operatorname{diag}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ma2013-dsspectral-equal-blocks",
+      "scope": "in_scope",
+      "statement": "Every doubly stochastic idempotent $E$ is permutation-similar to a direct sum $J_{m_1}\\oplus\\cdots\\oplus J_{m_q}$, where the positive integers $m_j$ sum to its order. In particular it is symmetric and has trace $q$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Equal-block extensions of Colbrook's refutation of the Mourad–Abbas spectral conjecture",
+      "toolchain": null,
+      "version": 3,
+      "work": "ma2013-dsspectral-equal-blocks"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:ma2013-dsspectral-equal-blocks:3:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S0/Certificates/MouradAbbasC51Refutation.lean"
+      },
+      "lineage": "collected:ma2013-dsspectral-equal-blocks:s2",
+      "macros": {
+        "\\DS": "\\mathrm{DS}",
+        "\\Del": "\\Delta",
+        "\\diag": "\\operatorname{diag}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ma2013-dsspectral-equal-blocks",
+      "scope": "in_scope",
+      "statement": "Fix integers $n\\geq2$ and $1\\leq r<n$, and $-1\\leq\\lambda<1$.\nThe diagonalizable real doubly stochastic matrices with spectrum consisting of $r$ copies of $1$ and $n-r$ copies of $\\lambda$ are, up to permutation similarity, precisely\n\\begin{equation}\n D_{m_1}(\\lambda)\\oplus\\cdots\\oplus D_{m_r}(\\lambda),\\qquad\n 1\\leq m_1\\leq\\cdots\\leq m_r,\\quad\n \\sum_jm_j=n,\\quad 1+(m_j-1)\\lambda\\geq0.\n\\end{equation}\nIn particular all these matrices are symmetric. Within this class, the spectrum characterizes a unique matrix up to permutation if and only if exactly one partition in~\\eqref{eq:partitions} exists.\nFor $\\lambda<0$, the allowed part sizes satisfy $m_j\\leq\\lfloor1-1/\\lambda\\rfloor$; for $\\lambda\\geq0$ there is no size bound.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Equal-block extensions of Colbrook's refutation of the Mourad–Abbas spectral conjecture",
+      "toolchain": null,
+      "version": 3,
+      "work": "ma2013-dsspectral-equal-blocks"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:ma2013-dsspectral-equal-blocks:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S0/Certificates/MouradAbbasC51Refutation.lean"
+      },
+      "lineage": "collected:ma2013-dsspectral-equal-blocks:s3",
+      "macros": {
+        "\\DS": "\\mathrm{DS}",
+        "\\Del": "\\Delta",
+        "\\diag": "\\operatorname{diag}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ma2013-dsspectral-equal-blocks",
+      "scope": "in_scope",
+      "statement": "For a symmetric doubly stochastic matrix with two distinct eigenvalues, being $\\DS$ in $\\Del_n^s$ is equivalent to being $\\DS$ in $\\Del_n$.\nFor $0\\leq\\lambda<1$, the spectrum $\\{1^{(r)},\\lambda^{(n-r)}\\}$ is $\\DS$ precisely when $r=1$ or $r=n-1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Equal-block extensions of Colbrook's refutation of the Mourad–Abbas spectral conjecture",
+      "toolchain": null,
+      "version": 3,
+      "work": "ma2013-dsspectral-equal-blocks"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:ma2013-dsspectral-equal-blocks:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S0/Certificates/MouradAbbasC51Refutation.lean"
+      },
+      "lineage": "collected:ma2013-dsspectral-equal-blocks:s4",
+      "macros": {
+        "\\DS": "\\mathrm{DS}",
+        "\\Del": "\\Delta",
+        "\\diag": "\\operatorname{diag}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ma2013-dsspectral-equal-blocks",
+      "scope": "in_scope",
+      "statement": "The symmetric doubly stochastic matrices of trace zero having exactly two distinct eigenvalues are precisely, up to permutation similarity,\n$\\bigoplus_{j=1}^r C_k$ with $k\\geq2$ and $r\\geq1$.\nAll are $\\DS$ in $\\Del_n$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Equal-block extensions of Colbrook's refutation of the Mourad–Abbas spectral conjecture",
+      "toolchain": null,
+      "version": 3,
+      "work": "ma2013-dsspectral-equal-blocks"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:ma2013-dsspectral-equal-blocks:3:s5",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S0/Certificates/MouradAbbasC51Refutation.lean"
+      },
+      "lineage": "collected:ma2013-dsspectral-equal-blocks:s5",
+      "macros": {
+        "\\DS": "\\mathrm{DS}",
+        "\\Del": "\\Delta",
+        "\\diag": "\\operatorname{diag}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ma2013-dsspectral-equal-blocks",
+      "scope": "in_scope",
+      "statement": "Let $k,r\\geq2$ be integers, $n=rk$, and $0\\leq t\\leq1$. Define\n\\begin{equation}\n A_{k,r}(t)=\\bigoplus_{j=1}^r\\bigl(tI_k+(1-t)C_k\\bigr),\n \\qquad \\lambda=\\frac{kt-1}{k-1}.\n\\end{equation}\nThen $A_{k,r}(t)$ is $\\DS$ in $\\Del_n$ if and only if\n\\begin{equation}\n 0\\leq t<1/k^2\\quad\\hbox{or}\\quad t=1.\n\\end{equation}\nThe same equivalence holds with $\\Del_n^s$ in place of $\\Del_n$.\nFor $t<1$ its eigenvalues are $1$, with multiplicity $r$, and $\\lambda$, with multiplicity $r(k-1)$, and its trace is $rkt$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Equal-block extensions of Colbrook's refutation of the Mourad–Abbas spectral conjecture",
+      "toolchain": null,
+      "version": 3,
+      "work": "ma2013-dsspectral-equal-blocks"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:ma2013-dsspectral-equal-blocks:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S0/Certificates/MouradAbbasC51Refutation.lean"
+      },
+      "lineage": "collected:ma2013-dsspectral-equal-blocks:s6",
+      "macros": {
+        "\\DS": "\\mathrm{DS}",
+        "\\Del": "\\Delta",
+        "\\diag": "\\operatorname{diag}",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ma2013-dsspectral-equal-blocks",
+      "scope": "in_scope",
+      "statement": "For every $k\\geq4$, $r\\geq2$ and $0<t<1/k^2$, the matrix $A_{k,r}(t)$ is a positive-trace $\\DS$ element of $\\Del_{rk}^s$ outside~\\eqref{eq:locus}. These give counterexamples in infinitely many orders. For $k=4$, $r=2$ and $t=1/40$, the matrix has diagonal $1/40$, off-diagonal entries $13/40$ inside each block, zero entries between blocks, trace $1/5$, and characteristic polynomial $(x-1)^2(x+3/10)^6$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Equal-block extensions of Colbrook's refutation of the Mourad–Abbas spectral conjecture",
+      "toolchain": null,
+      "version": 3,
+      "work": "ma2013-dsspectral-equal-blocks"
     },
     {
       "attribution": null,
@@ -23587,6 +24976,264 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:mathex-2026-mo511715-cutoff-bound:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "1ad50310295853e27713693f182e8eac94296739",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ad50310295853e27713693f182e8eac94296739/D5/S3/Fourier/MO511715Source.lean"
+      },
+      "lineage": "collected:mathex-2026-mo511715-cutoff-bound:s1",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\ind": "\\mathbf 1",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/1ad50310295853e27713693f182e8eac94296739/D5/S3/Fourier/MO511715Source.lean}{\\texttt{MO511715Source.lean}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathex-2026-mo511715-cutoff-bound",
+      "scope": "in_scope",
+      "statement": "For every compactly supported $\\zeta:\\R^5\\to F$ continuous at zero\nwith $\\zeta(0)=1$, there is $\\rho\\in(0,1]$ with the following property.\nFix any $q>0$ and $v\\in\\Z^5\\setminus\\{0\\}$, and choose a nonnegative\ninteger $j_0$ such that\n\\[\n 2^{j_0}\\ge\\max\\{1,|v|\\},\\qquad \\eta\\,2^{-4j_0}\\le q/2.\n\\]\nFor the mask $\\psi_v$ and every $0<\\epsilon\\le\\rho/(5\\cdot2^{j_0})$,\n\\begin{equation}\n \\Delta_\\epsilon(q,v)\\ge\n c\\left(1+\\left\\lfloor\\log_2\\frac{\\rho}{5\\epsilon}\\right\\rfloor-j_0\\right).\n\\end{equation}\nIn particular $\\Delta_\\epsilon(q,v)\\to+\\infty$ as $\\epsilon\\downarrow0$.\nFor $q=1$ and $v=e=(1,0,0,0,0)$ one may take $j_0=0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A negative answer to mathex's cutoff-series question beyond Ghafari's masks",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathex-2026-mo511715-cutoff-bound"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:mathex-2026-mo511715-cutoff-bound:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "1ad50310295853e27713693f182e8eac94296739",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ad50310295853e27713693f182e8eac94296739/D5/S3/Fourier/MO511715Source.lean"
+      },
+      "lineage": "collected:mathex-2026-mo511715-cutoff-bound:s2",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\ind": "\\mathbf 1",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/1ad50310295853e27713693f182e8eac94296739/D5/S3/Fourier/MO511715Source.lean}{\\texttt{MO511715Source.lean}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathex-2026-mo511715-cutoff-bound",
+      "scope": "in_scope",
+      "statement": "If $q>0$, $0<h\\le q/2$, and $(L+3A+3B)h\\le1$, then\n$I(q;L,A,B)\\ge e^{-1}h^3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A negative answer to mathex's cutoff-series question beyond Ghafari's masks",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathex-2026-mo511715-cutoff-bound"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:mathex-2026-mo511715-cutoff-bound:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1ad50310295853e27713693f182e8eac94296739",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ad50310295853e27713693f182e8eac94296739/D5/S3/Fourier/MO511715Source.lean"
+      },
+      "lineage": "collected:mathex-2026-mo511715-cutoff-bound:s3",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\ind": "\\mathbf 1",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/1ad50310295853e27713693f182e8eac94296739/D5/S3/Fourier/MO511715Source.lean}{\\texttt{MO511715Source.lean}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathex-2026-mo511715-cutoff-bound",
+      "scope": "in_scope",
+      "statement": "For a cutoff as in Theorem~\\ref{thm:main}, fix $q>0$, $v\\ne0$,\nand $E>0$. No finite real pair $C,\\delta$\nsatisfies~\\eqref{eq:asked} for all distinct\n$\\epsilon_1,\\epsilon_2\\in(0,E]$, even for the single symmetric mask $\\psi_v$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A negative answer to mathex's cutoff-series question beyond Ghafari's masks",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathex-2026-mo511715-cutoff-bound"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:mathex-2026-mo511715-cutoff-bound:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1ad50310295853e27713693f182e8eac94296739",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ad50310295853e27713693f182e8eac94296739/D5/S3/Fourier/MO511715Source.lean"
+      },
+      "lineage": "collected:mathex-2026-mo511715-cutoff-bound:s4",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\ind": "\\mathbf 1",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/1ad50310295853e27713693f182e8eac94296739/D5/S3/Fourier/MO511715Source.lean}{\\texttt{MO511715Source.lean}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathex-2026-mo511715-cutoff-bound",
+      "scope": "in_scope",
+      "statement": "Fix $v\\ne0$. No interpolation $\\Psi:\\R^5\\times\\Z^5\\to\\R$\nof $\\psi_v$, continuously differentiable in its first argument,\nhas a finite constant $A$ such that\n\\[\n |\\nabla_p\\Psi(-s+\\theta v,s)|\\le \\frac{A}{1+|s|}\n \\quad\\text{for all }|s|>2|v|,\\ 0\\le\\theta\\le1.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A negative answer to mathex's cutoff-series question beyond Ghafari's masks",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathex-2026-mo511715-cutoff-bound"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:mathex-2026-mo511715-cutoff-bound:2:s5",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "1ad50310295853e27713693f182e8eac94296739",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ad50310295853e27713693f182e8eac94296739/D5/S3/Fourier/MO511715Source.lean"
+      },
+      "lineage": "collected:mathex-2026-mo511715-cutoff-bound:s5",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\ind": "\\mathbf 1",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/1ad50310295853e27713693f182e8eac94296739/D5/S3/Fourier/MO511715Source.lean}{\\texttt{MO511715Source.lean}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathex-2026-mo511715-cutoff-bound",
+      "scope": "in_scope",
+      "statement": "Let $\\zeta\\in C_c^\\infty(\\R^5;F)$, $\\sigma>0$, and $0\\le T<\\infty$.\nThere exists $L_{\\zeta,\\sigma,T}<\\infty$ such that, for every mask\nsatisfying~\\eqref{eq:mask}, every $u\\in\\Z^5$, $0\\le r\\le T$,\nand $\\epsilon_1,\\epsilon_2\\ge\\sigma$,\n\\[\n |\\Delta_{\\epsilon_2}(r,u)-\\Delta_{\\epsilon_1}(r,u)|\n \\le L_{\\zeta,\\sigma,T}|\\epsilon_2-\\epsilon_1|.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A negative answer to mathex's cutoff-series question beyond Ghafari's masks",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathex-2026-mo511715-cutoff-bound"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:mathex-2026-mo511715-cutoff-bound:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1ad50310295853e27713693f182e8eac94296739",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ad50310295853e27713693f182e8eac94296739/D5/S3/Fourier/MO511715Source.lean"
+      },
+      "lineage": "collected:mathex-2026-mo511715-cutoff-bound:s6",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\ind": "\\mathbf 1",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/1ad50310295853e27713693f182e8eac94296739/D5/S3/Fourier/MO511715Source.lean}{\\texttt{MO511715Source.lean}}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathex-2026-mo511715-cutoff-bound",
+      "scope": "in_scope",
+      "statement": "For each cutoff in Theorem~\\ref{thm:main}, there are two fixed positive\nscales $\\epsilon_a<\\epsilon_b$ and $d>0$ such that, with\n$\\psi_e$ and $e=(1,0,0,0,0)$,\n\\[\n |\\Delta_{\\epsilon_b}(q,e)-\\Delta_{\\epsilon_a}(q,e)|\\ge dq\n \\qquad(q\\ge2).\n\\]\nThus a positive lower bound on the scales alone does not give a\ntime-uniform replacement for~\\eqref{eq:asked}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A negative answer to mathex's cutoff-series question beyond Ghafari's masks",
+      "toolchain": null,
+      "version": 2,
+      "work": "mathex-2026-mo511715-cutoff-bound"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:mathoverflow-469781-weighted-orthogonal-minors:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -25177,6 +26824,240 @@
       "toolchain": null,
       "version": 3,
       "work": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:mukherjee-ray-ordered-connected-forcing-crossing:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "a165df4cad5a5538260a4e40d6b865a3db48795d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a165df4cad5a5538260a4e40d6b865a3db48795d/D5/S3/Combinatorics/Graph/ZeroForcing/ConnectedForcingCrossingRefutation.lean"
+      },
+      "lineage": "collected:mukherjee-ray-ordered-connected-forcing-crossing:s1",
+      "macros": {
+        "\\ZC": "Z_C"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mukherjee-ray-ordered-connected-forcing-crossing",
+      "scope": "in_scope",
+      "statement": "Let $a,b\\geq4$ be integers, $n=a+b+2$, and\n\\[\nA=S_{1,a,b},\\qquad B=S_{2,2,a+b-3}.\n\\]\nBoth trees have $n$ vertices and three leaves. If\n$d_i=\\ZC(A,i)-\\ZC(B,i)$, then\n\\[\nd_4=-2,\\qquad d_6=1,\\qquad d_{n-2}=-1.\n\\]\nNeither $(A,B)$ nor $(B,A)$ has a cutoff satisfying\n\\eqref{eq:low}--\\eqref{eq:high}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Three-leaf counterexamples to Mukherjee and Ray's connected-forcing crossing question",
+      "toolchain": null,
+      "version": 2,
+      "work": "mukherjee-ray-ordered-connected-forcing-crossing"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:mukherjee-ray-ordered-connected-forcing-crossing:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "a165df4cad5a5538260a4e40d6b865a3db48795d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a165df4cad5a5538260a4e40d6b865a3db48795d/D5/S3/Combinatorics/Graph/ZeroForcing/ConnectedForcingCrossingRefutation.lean"
+      },
+      "lineage": "collected:mukherjee-ray-ordered-connected-forcing-crossing:s2",
+      "macros": {
+        "\\ZC": "Z_C"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mukherjee-ray-ordered-connected-forcing-crossing",
+      "scope": "in_scope",
+      "statement": "For $k\\geq3$ and positive arm lengths $h_1,\\ldots,h_k$,\n\\[\n\\ZC^{S_{h_1,\\ldots,h_k}}(x)\n=x^k\\left(x\\prod_{j=1}^k F_{h_j}(x)\n+\\sum_{j=1}^k\\prod_{t\\ne j}F_{h_t}(x)\\right).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Three-leaf counterexamples to Mukherjee and Ray's connected-forcing crossing question",
+      "toolchain": null,
+      "version": 2,
+      "work": "mukherjee-ray-ordered-connected-forcing-crossing"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:mukherjee-ray-ordered-connected-forcing-crossing:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a165df4cad5a5538260a4e40d6b865a3db48795d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a165df4cad5a5538260a4e40d6b865a3db48795d/D5/S3/Combinatorics/Graph/ZeroForcing/ConnectedForcingCrossingRefutation.lean"
+      },
+      "lineage": "collected:mukherjee-ray-ordered-connected-forcing-crossing:s3",
+      "macros": {
+        "\\ZC": "Z_C"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mukherjee-ray-ordered-connected-forcing-crossing",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq10$, two $n$-vertex trees with three leaves fail the\ncrossing condition in both orders. At $n=10$ one may take\n$A=S_{1,4,4}$ and $B=S_{2,2,5}$, with\n\\begin{align*}\n\\ZC^A(x)&=3x^3+5x^4+7x^5+9x^6+7x^7+5x^8+3x^9+x^{10},\\\\\n\\ZC^B(x)&=3x^3+7x^4+8x^5+8x^6+8x^7+6x^8+3x^9+x^{10}.\n\\end{align*}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Three-leaf counterexamples to Mukherjee and Ray's connected-forcing crossing question",
+      "toolchain": null,
+      "version": 2,
+      "work": "mukherjee-ray-ordered-connected-forcing-crossing"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:mukherjee-ray-ordered-connected-forcing-crossing:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a165df4cad5a5538260a4e40d6b865a3db48795d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a165df4cad5a5538260a4e40d6b865a3db48795d/D5/S3/Combinatorics/Graph/ZeroForcing/ConnectedForcingCrossingRefutation.lean"
+      },
+      "lineage": "collected:mukherjee-ray-ordered-connected-forcing-crossing:s4",
+      "macros": {
+        "\\ZC": "Z_C"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mukherjee-ray-ordered-connected-forcing-crossing",
+      "scope": "in_scope",
+      "statement": "For the path $P_n$ ($n\\geq2$), star $K_{1,n-1}$ ($n\\geq4$), and\ncycle $C_n$ ($n\\geq3$), respectively,\n\\begin{align}\n\\ZC^{P_n}(x)&=2x+\\sum_{i=2}^n(n-i+1)x^i,\\\\\n\\ZC^{K_{1,n-1}}(x)&=(n-1)x^{n-1}+x^n,\\\\\n\\ZC^{C_n}(x)&=n\\sum_{i=2}^{n-1}x^i+x^n.\n\\end{align}\nFor $p\\geq3$, $n\\geq p+1$, the starlike tree with $p-1$ unit arms\nand one arm of length $n-p$ has polynomial\n\\begin{equation}\n\\ZC^{S_{1,\\ldots,1,n-p}}(x)=p\\sum_{i=p}^{n-1}x^i+x^n.\n\\end{equation}\nMore generally, $S_{h_1,\\ldots,h_k}$, $k\\geq3$, has connected forcing\nnumber $k$ and exactly $k$ minimum connected forcing sets.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Three-leaf counterexamples to Mukherjee and Ray's connected-forcing crossing question",
+      "toolchain": null,
+      "version": 2,
+      "work": "mukherjee-ray-ordered-connected-forcing-crossing"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:mukherjee-ray-ordered-connected-forcing-crossing:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a165df4cad5a5538260a4e40d6b865a3db48795d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a165df4cad5a5538260a4e40d6b865a3db48795d/D5/S3/Combinatorics/Graph/ZeroForcing/ConnectedForcingCrossingRefutation.lean"
+      },
+      "lineage": "collected:mukherjee-ray-ordered-connected-forcing-crossing:s5",
+      "macros": {
+        "\\ZC": "Z_C"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mukherjee-ray-ordered-connected-forcing-crossing",
+      "scope": "in_scope",
+      "statement": "The smallest order of a counterexample to the literal ordered question\nis four. For every $n\\geq4$, $(P_n,K_{1,n-1})$ has no cutoff, whereas\nthe reversed pair has the unique cutoff $n-2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Three-leaf counterexamples to Mukherjee and Ray's connected-forcing crossing question",
+      "toolchain": null,
+      "version": 2,
+      "work": "mukherjee-ray-ordered-connected-forcing-crossing"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:mukherjee-ray-ordered-connected-forcing-crossing:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a165df4cad5a5538260a4e40d6b865a3db48795d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a165df4cad5a5538260a4e40d6b865a3db48795d/D5/S3/Combinatorics/Graph/ZeroForcing/ConnectedForcingCrossingRefutation.lean"
+      },
+      "lineage": "collected:mukherjee-ray-ordered-connected-forcing-crossing:s6",
+      "macros": {
+        "\\ZC": "Z_C"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mukherjee-ray-ordered-connected-forcing-crossing",
+      "scope": "in_scope",
+      "statement": "Among connected simple unicyclic graphs with five vertices and two leaves,\nthere is neither a coefficientwise least nor a coefficientwise greatest\nconnected zero forcing polynomial.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Three-leaf counterexamples to Mukherjee and Ray's connected-forcing crossing question",
+      "toolchain": null,
+      "version": 2,
+      "work": "mukherjee-ray-ordered-connected-forcing-crossing"
     },
     {
       "attribution": null,
@@ -27550,6 +29431,166 @@
       "toolchain": null,
       "version": 2,
       "work": "oeis-a130095-ratio-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:oeis-a188475-original-shifted-hankel:4:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "c6d80ec1ad5920a0470d7ff831c17f6303e6e578",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/c6d80ec1ad5920a0470d7ff831c17f6303e6e578/D5/S3/Combinatorics/CatalanPowerHankel/BarryA188475.lean"
+      },
+      "lineage": "collected:oeis-a188475-original-shifted-hankel:s1",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Q": "\\mathbb Q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a188475-original-shifted-hankel",
+      "scope": "in_scope",
+      "statement": "For every integer $N\\geq0$, with the determinant of an empty matrix\nequal to one,\n\\begin{equation}\n\\det[q(i+j+2)]_{0\\leq i,j<N}\n =1+2\\sum_{k=0}^{N-1}k^2.\n\\end{equation}\nIn particular, for every $n\\in\\N$,\n\\begin{equation}\n\\det[q(i+j+2)]_{0\\leq i,j\\leq n}\n =1+2\\sum_{k=0}^{n}k^2\n =\\frac{2n^3+3n^2+n+3}{3}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Barry's shifted Hankel conjecture and an extension of Cigler's formula",
+      "toolchain": null,
+      "version": 4,
+      "work": "oeis-a188475-original-shifted-hankel"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:oeis-a188475-original-shifted-hankel:4:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "c6d80ec1ad5920a0470d7ff831c17f6303e6e578",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/c6d80ec1ad5920a0470d7ff831c17f6303e6e578/D5/S3/Combinatorics/CatalanPowerHankel/BarryA188475.lean"
+      },
+      "lineage": "collected:oeis-a188475-original-shifted-hankel:s2",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Q": "\\mathbb Q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a188475-original-shifted-hankel",
+      "scope": "in_scope",
+      "statement": "For every $N\\geq1$,\n\\begin{align}\n\\det[q(i+j+1)]_{0\\leq i,j<N}&=1-N,\\\\\n\\det[q(i+j)]_{0\\leq i,j<N}&=-\\sum_{k=0}^{N-2}k^2,\n\\end{align}\nwhere the last sum is empty for $N=1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Barry's shifted Hankel conjecture and an extension of Cigler's formula",
+      "toolchain": null,
+      "version": 4,
+      "work": "oeis-a188475-original-shifted-hankel"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:oeis-a188475-original-shifted-hankel:4:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "c6d80ec1ad5920a0470d7ff831c17f6303e6e578",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/c6d80ec1ad5920a0470d7ff831c17f6303e6e578/D5/S3/Combinatorics/CatalanPowerHankel/BarryA188475.lean"
+      },
+      "lineage": "collected:oeis-a188475-original-shifted-hankel:s3",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Q": "\\mathbb Q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a188475-original-shifted-hankel",
+      "scope": "in_scope",
+      "statement": "For $\\lambda\\in\\mathbb C$, define $q_\\lambda(r)$ by\n\\[\n\\sum_{r\\geq0}q_\\lambda(r)z^r\n =\\frac{z^2C(z)^2}{1-\\lambda z^2C(z)^2}.\n\\]\nFor every $N\\geq1$,\n\\begin{align*}\n\\det[q_\\lambda(i+j+2)]_{i,j<N}\n &=1+\\lambda\\sum_{k=0}^{N-1}k^2,\\\\\n\\det[q_\\lambda(i+j+1)]_{i,j<N}&=1-N,\\\\\n\\det[q_\\lambda(i+j)]_{i,j<N}&=-\\sum_{k=0}^{N-2}k^2.\n\\end{align*}\nIn particular, $q_2=q$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Barry's shifted Hankel conjecture and an extension of Cigler's formula",
+      "toolchain": null,
+      "version": 4,
+      "work": "oeis-a188475-original-shifted-hankel"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:oeis-a188475-original-shifted-hankel:4:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "c6d80ec1ad5920a0470d7ff831c17f6303e6e578",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/c6d80ec1ad5920a0470d7ff831c17f6303e6e578/D5/S3/Combinatorics/CatalanPowerHankel/BarryA188475.lean"
+      },
+      "lineage": "collected:oeis-a188475-original-shifted-hankel:s4",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Q": "\\mathbb Q"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a188475-original-shifted-hankel",
+      "scope": "in_scope",
+      "statement": "For $n\\geq1$, $q(n)$ counts both the nonexchangeable pairs of\nsubsequences in the name of A137398 and the $2n$-step Grand Dyck paths\nin Callan's November 25, 2021 comment: balanced up/down paths starting\nwith an upstep, with no peak at height $1$ and no valley at height $-1$.\nHere, as in the source's examples, an admissible exchange must preserve\nthe order inherited from the ground sequence.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Barry's shifted Hankel conjecture and an extension of Cigler's formula",
+      "toolchain": null,
+      "version": 4,
+      "work": "oeis-a188475-original-shifted-hankel"
     },
     {
       "attribution": null,
@@ -40879,6 +42920,201 @@
       "toolchain": null,
       "version": 3,
       "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:zoroa-strong-dominance-counterexample:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "ad59550e53d607f9e9dbd8110a79414c46e97f7e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ad59550e53d607f9e9dbd8110a79414c46e97f7e/D5/S3/Analytic/Probability/StrongDominanceRefutation.lean"
+      },
+      "lineage": "collected:zoroa-strong-dominance-counterexample:s1",
+      "macros": {
+        "\\Prob": "\\mathbb P"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zoroa-strong-dominance-counterexample",
+      "scope": "in_scope",
+      "statement": "For $N=4$, $n=5$ and\n\\[\n p=\\frac1{100}(48,48,2,2),\\qquad\n q=\\frac1{100}(50,46,3,1),\n\\]\nall coordinates are positive and $p\\prec q$, but\n\\eqref{eq:crossing} fails for every $c\\in\\mathbb R$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Zoroa et al.'s strong-dominance conjecture for every number of draws above four",
+      "toolchain": null,
+      "version": 3,
+      "work": "zoroa-strong-dominance-counterexample"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:zoroa-strong-dominance-counterexample:3:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ad59550e53d607f9e9dbd8110a79414c46e97f7e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ad59550e53d607f9e9dbd8110a79414c46e97f7e/D5/S3/Analytic/Probability/StrongDominanceRefutation.lean"
+      },
+      "lineage": "collected:zoroa-strong-dominance-counterexample:s2",
+      "macros": {
+        "\\Prob": "\\mathbb P"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zoroa-strong-dominance-counterexample",
+      "scope": "in_scope",
+      "statement": "For every real $0<t\\leq1/100$, the positive probability vectors\n\\[\n p_t=(1/2-2t,1/2-2t,2t,2t),\\qquad\n q_t=(1/2,1/2-4t,3t,t)\n\\]\nsatisfy $p_t\\prec q_t$ and fail \\eqref{eq:crossing} after five draws.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Zoroa et al.'s strong-dominance conjecture for every number of draws above four",
+      "toolchain": null,
+      "version": 3,
+      "work": "zoroa-strong-dominance-counterexample"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:zoroa-strong-dominance-counterexample:3:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "ad59550e53d607f9e9dbd8110a79414c46e97f7e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ad59550e53d607f9e9dbd8110a79414c46e97f7e/D5/S3/Analytic/Probability/StrongDominanceRefutation.lean"
+      },
+      "lineage": "collected:zoroa-strong-dominance-counterexample:s3",
+      "macros": {
+        "\\Prob": "\\mathbb P"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zoroa-strong-dominance-counterexample",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\geq5$ and every real\n$0<t\\leq (100n2^n)^{-1}$, the strictly positive four-coordinate vectors\n$p_t,q_t$ of Corollary~\\ref{cor:family} satisfy $p_t\\prec q_t$ and\n\\[\n a_{p_t}(2)-a_{q_t}(2)>0,\\qquad\n a_{p_t}(3)-a_{q_t}(3)<0.\n\\]\nIn particular they fail the single-crossing condition after $n$ draws.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Zoroa et al.'s strong-dominance conjecture for every number of draws above four",
+      "toolchain": null,
+      "version": 3,
+      "work": "zoroa-strong-dominance-counterexample"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:zoroa-strong-dominance-counterexample:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ad59550e53d607f9e9dbd8110a79414c46e97f7e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ad59550e53d607f9e9dbd8110a79414c46e97f7e/D5/S3/Analytic/Probability/StrongDominanceRefutation.lean"
+      },
+      "lineage": "collected:zoroa-strong-dominance-counterexample:s4",
+      "macros": {
+        "\\Prob": "\\mathbb P"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zoroa-strong-dominance-counterexample",
+      "scope": "in_scope",
+      "statement": "For every pair of integers $N\\geq4$ and $n\\geq5$, there are strictly\npositive rational probability vectors $p\\prec q$ on $N$ labels for which\nthe single-crossing condition fails after $n$ draws.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Zoroa et al.'s strong-dominance conjecture for every number of draws above four",
+      "toolchain": null,
+      "version": 3,
+      "work": "zoroa-strong-dominance-counterexample"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:zoroa-strong-dominance-counterexample:3:s5",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "ad59550e53d607f9e9dbd8110a79414c46e97f7e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ad59550e53d607f9e9dbd8110a79414c46e97f7e/D5/S3/Analytic/Probability/StrongDominanceRefutation.lean"
+      },
+      "lineage": "collected:zoroa-strong-dominance-counterexample:s5",
+      "macros": {
+        "\\Prob": "\\mathbb P"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zoroa-strong-dominance-counterexample",
+      "scope": "in_scope",
+      "statement": "For distributions supported on $\\{1,2,3\\}$, ordinary stochastic\ndominance implies the single-crossing condition \\eqref{eq:crossing}.\nConsequently, for coupon collection, the conjectured conclusion holds\nwhenever $\\min(N,n)\\leq3$ and $p\\prec q$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Zoroa et al.'s strong-dominance conjecture for every number of draws above four",
+      "toolchain": null,
+      "version": 3,
+      "work": "zoroa-strong-dominance-counterexample"
     }
   ]
 }

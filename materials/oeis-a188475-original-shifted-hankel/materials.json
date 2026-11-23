@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/oeis-a188475-original-shifted-hankel/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/oeis-a188475-original-shifted-hankel",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/oeis-a188475-original-shifted-hankel/",
+  "slides": [],
+  "version": 4,
+  "videos": [],
+  "visualizations": [],
+  "work": "oeis-a188475-original-shifted-hankel"
+}

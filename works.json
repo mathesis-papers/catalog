@@ -670,9 +670,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24413781",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24413782",
       "lean_source": {
         "revision": "3378450a2176909e857354ab064dde6ec7679b71",
         "url": "https://github.com/the-omega-institute/trureturing/blob/3378450a2176909e857354ab064dde6ec7679b71/D5/S3/Combinatorics/PowerSeries/BalaA337389Diagonal.lean"
@@ -1129,6 +1129,53 @@
       "work": "bouafia-diversity-negative-type"
     },
     {
+      "abstract_text": "Extending Brown and Cameron's rational classification (2020, arXiv:2001.08881v2, Proposition 2.9, p. 8), we answer their Question 2 (p. 11) affirmatively and classify all purely imaginary independence roots whose imaginary part has rational square: they are exactly ±i/√n for positive integers n. An explicit connected graph of independence number four realizes each pair. A second graph whose independence polynomial takes the value one at these roots gives connected examples of every independence number at least four and connected induced supergraphs of arbitrary finite graphs. Bencs's tree-transfer theorem gives infinitely many trees for each pair. A smaller 128-vertex example realizes ±i/√2.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1f6fb1ff47df504e8dce0cd5cda2403a7aaa622e/D5/S3/StatisticalMechanics/HardCore/IrrationalIndependenceRoot.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 76832,
+        "sha256": "8b36f6dbab083efde142613d96bee54c63fcf16d1b5162c942241db719c4966b",
+        "url": "/api/v1/collected-papers/brown-cameron-2020-irrational-imaginary-independence-root/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T17:34:15.910931188Z",
+      "record": "brown-cameron-2020-irrational-imaginary-independence-root",
+      "repository_name": "brown-cameron-2020-irrational-imaginary-independence-root",
+      "source": {
+        "bytes": 14775,
+        "sha256": "0c52badcb3542d61f02154a71f6ba20bfb61b10d9118ac2da7cd2641d6e2ec2a",
+        "url": "/api/v1/collected-papers/brown-cameron-2020-irrational-imaginary-independence-root/files/source?version=2"
+      },
+      "title": "Extending Brown and Cameron's classification of purely imaginary independence roots",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T17:34:15.910931188Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "brown-cameron-2020-irrational-imaginary-independence-root"
+    },
+    {
       "abstract_text": "We refute the mixed-state inverse sumset estimate expected in Remark 45, equation (58), of Bu, Gu and Jaffe, Quantum Ruzsa Divergence to Quantify Magic (arXiv:2401.14385v3). A computationally diagonal equal mixture of two basis states in dimension seven has quantum-doubling constant sqrt(2) and relative entropy log(7/2) from its mean state, while the proposed bound is at most (1/2)log(7). The contradiction uses exact inequalities and persists for every tensor power. For the same family, we verify that the weaker estimate (59) has a positive denominator and holds strictly, and give the equality case of the companion entropy-growth statement for computationally diagonal states.",
       "authors": [
         {
@@ -1375,9 +1422,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24414701",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24414702",
       "lean_source": {
         "revision": "3464bc4487b2236dab97aaf7bbed237f0db28b71",
         "url": "https://github.com/the-omega-institute/trureturing/blob/3464bc4487b2236dab97aaf7bbed237f0db28b71/D5/S3/Quantum/Entanglement/PermutationCriteria/ClarisseWocjanClassification.lean"
@@ -1456,6 +1503,53 @@
         }
       ],
       "work": "consiglio-apollaro-wiesniak-2022-xmems-css-shape"
+    },
+    {
+      "abstract_text": "We give elementary proofs of consequences of Dumont, Sidorov and Thomas (1999, Propositions 6.8-6.9) answering the questions collected by Coons in The Calkin-Wilf problems on ell-ary partition functions (arXiv:2611.08109v1, Section 1, CW2, and Section 3, final display and following sentence): the first-linear-maximum answer is affirmative and the strict-adjacency answer is negative. A two-digit branching bound gives uniformly sublinear growth below digit bound ell^2-1 and all integer-power maximum-growth thresholds. For 2<=q<=ell, the upper logarithmic exponent is log_ell(q) throughout (q-1)(ell+1)<=k<=q*ell-1. The zero lower exponents, endpoint summatory identity, and attaining digit constructions are compared with prior results. We also give a corrected replacement for the exponent printed in Coons's Theorem 4.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "87004d7eb03533d5078ed293778a5b22c8d99aa2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/87004d7eb03533d5078ed293778a5b22c8d99aa2/D5/S1/Digit/CoonsAdjacentGrowthRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 91635,
+        "sha256": "e1f4b01db3d3052898cafe40ce702ffac351f5d7f605f2fc6d364ac448c660d1",
+        "url": "/api/v1/collected-papers/coons-strict-adjacent-multiplicity-growth/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T18:05:09.432058707Z",
+      "record": "coons-strict-adjacent-multiplicity-growth",
+      "repository_name": "coons-strict-adjacent-multiplicity-growth",
+      "source": {
+        "bytes": 15412,
+        "sha256": "af34168280081e4efe20097915d86fe4d0d0d2a0c380f9d0354e439f46b761a8",
+        "url": "/api/v1/collected-papers/coons-strict-adjacent-multiplicity-growth/files/source?version=3"
+      },
+      "title": "Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T18:05:09.432058707Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "coons-strict-adjacent-multiplicity-growth"
     },
     {
       "abstract_text": "For Copeland's polynomial-content conjecture (OEIS A131758, revision 48, COMMENTS block signed September 9, 2008), we determine every row content using Carlitz's polynomial congruence (1953/54, Theorem 3, equation (4.8)). The content is 1 at indices 0, 1 and all even indices, and 2 at every odd index at least 3. This replaces the proposed divisor-count formula; every index 6s+8, s>=0, also excludes its one-place shift. The proof identifies content with a fixed divisor of an integer Laguerre polynomial. Direct proofs of associated transform identities and normalization corrections are included.",
@@ -2445,7 +2539,7 @@
       "work": "hardin185765"
     },
     {
-      "abstract_text": "Extending Orrick's rectangle count (2017, answer 2088242, revision 5), we prove Colin Barker's conjectures in OEIS A233163, revision 8, FORMULA lines 8–10 of October 9, 2018, by counting complementary colour pairs and their normalized eight-colour realizations. For every n,k >= 2 the rectangle count is 2^(nk-4)(2^(n-2)+2^(k-2)-1). Orrick's four-colour classification and Britnell–Wildon's path enumeration (2015, Proposition 8.1) give all seven empirical column recurrences in A233168, as well as Barker's closed-form and generating-function conjectures in A233162 and A233164–A233167.",
+      "abstract_text": "We give an alternative proof of Hardin's empirical recurrence and Barker's generating function in OEIS A233156, revision 8 (9 October 2018), FORMULA lines 1 and 2, by reducing them to Biggs and Meredith's double-strip enumeration (1976, Section 3, pp. 10–11). For n >= 3 the labeled three-row array count is exactly 36 times the proper three-coloring count of a 3 by (n-2) rectangular grid. This gives the recurrence for n >= 5 and the complete generating function, including its exceptional initial terms. A direct five-state proof establishes sharp onset and minimal eventual order two. Every displayed row and column recurrence of A233155 and Barker's four-row generating function in A233157 are also proved, with explicit finite integer identities for the larger strips.",
       "authors": [
         {
           "affiliation": "ChronoAI Pte Ltd, Singapore",
@@ -2457,8 +2551,55 @@
         }
       ],
       "concept_doi": null,
-      "current_version": 2,
+      "current_version": 3,
       "doi": null,
+      "lean_source": {
+        "revision": "e135d8e2afafffb707a541357df302c35e90baff",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e135d8e2afafffb707a541357df302c35e90baff/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233156Row.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 103788,
+        "sha256": "9e01487d0ed801408d8346e154d0965c7a852c20c68d7d94d1c093e04e6907a3",
+        "url": "/api/v1/collected-papers/hardin233156/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T17:48:18.416138600Z",
+      "record": "hardin233156",
+      "repository_name": "hardin233156",
+      "source": {
+        "bytes": 188616,
+        "sha256": "1609426f6c34c7e6d3bc036505713b06a848876bca0904e72591f9542eada4ae",
+        "url": "/api/v1/collected-papers/hardin233156/files/source?version=3"
+      },
+      "title": "Boundary formulas for Hardin's array recurrences and Barker's generating functions via Biggs–Meredith enumeration",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T17:48:18.416138600Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "hardin233156"
+    },
+    {
+      "abstract_text": "Extending Orrick's rectangle count (2017, answer 2088242, revision 5), we prove Colin Barker's conjectures in OEIS A233163, revision 8, FORMULA lines 8–10 of October 9, 2018, by counting complementary colour pairs and their normalized eight-colour realizations. For every n,k >= 2 the rectangle count is 2^(nk-4)(2^(n-2)+2^(k-2)-1). Orrick's four-colour classification and Britnell–Wildon's path enumeration (2015, Proposition 8.1) give all seven empirical column recurrences in A233168, as well as Barker's closed-form and generating-function conjectures in A233162 and A233164–A233167.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24414705",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.24414706",
       "lean_source": {
         "revision": "0a197c5f83db6039a3c1177b20d31df4bfe95cd9",
         "url": "https://github.com/the-omega-institute/trureturing/blob/0a197c5f83db6039a3c1177b20d31df4bfe95cd9/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233163KingStrip.lean"
@@ -2691,9 +2832,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24415598",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24415599",
       "lean_source": {
         "revision": "439c57ca26fd0c0d2de1f48bc492717bc6f7597c",
         "url": "https://github.com/the-omega-institute/trureturing/blob/439c57ca26fd0c0d2de1f48bc492717bc6f7597c/D5/S3/Combinatorics/Partitions/HemmerStraubWestremWeightedAverage.lean"
@@ -3573,7 +3714,7 @@
       "work": "kurkov-a340991-convolution-row-recursion"
     },
     {
-      "abstract_text": "Beyond the unitarily invariant theorem of Antezana, Larotonda and Varela (2011/2014; Theorem 4.3 of arXiv:1107.2439v1), Larotonda's conjecture after Proposition 4.3 in Section 4.1, p. 7 of Short curves in homogeneous spaces of the unitary group for unitarily invariant norms (arXiv:2610.31535v1) fails for a normalized, symmetric Ad-invariant quadratic norm on u(2): shifting one eigenangle by 2 pi preserves the endpoint and gives a shorter exponential curve. For the full positive-definite family obtained by adding c times the squared trace to the Hilbert-Schmidt norm squared, we show in every dimension at least two that principal-log minimality holds for all principal angles if and only if the trace coefficient is zero. Scalar examples give a strict failure whenever their eigenangle exceeds pi(1+c)/(1+nc), for c>0. Thus the proposed pi/2 input already fails in dimension three, and no positive dimension-independent spectral radius suffices.",
+      "abstract_text": "We prove Kurkov's row-edge conjecture in OEIS A358612, revision 52, FORMULA, first conjectured formula, for every nonnegative row index, and give a polynomial refinement of Ehrenborg and Steingrímsson's excedance formulas (2000, Lemma 6.2, Theorem 6.3 and Proposition 6.5) extending the binary-product consequences in Erlbacher's note (July 2026, Section 2 and Theorem 3.1). The last entry is A284005(n)/(1+wt(n))!, where wt is binary weight. A dyadic block formula gives integral positive support and identifies the complete row with a rising-factorial expansion of the polynomials in A373183. This proves the signed factorial companion in A358612, two Stirling-basis identities in A373183, and the conjectured identity in MathOverflow question 483753. We also prove the lower-bit and binomial identities in A284005 and A341392, rederive the known Boolean transform of excedance counts, and characterize equality in a sharp lower bound. The printed unrestricted suffix identities fail; corrected statements hold for 0<=q<2^m, with a nonzero prefix in the generalized initial-factorial version.",
       "authors": [
         {
           "affiliation": "ChronoAI Pte Ltd, Singapore",
@@ -3587,6 +3728,53 @@
       "concept_doi": null,
       "current_version": 2,
       "doi": null,
+      "lean_source": {
+        "revision": "47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/47f05ad67b37a0f7cbc4673c33bb17fb7c1e78fb/D5/S1/Recurrence/Parity/DyadicExtendedStirlingEdge.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 113639,
+        "sha256": "ad9e6e927139b9fff960085ff878bed58d0661a78347e3ccccbb4e3d48ab820a",
+        "url": "/api/v1/collected-papers/kurkov-binary-stirling-row-edge/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T17:33:13.086154303Z",
+      "record": "kurkov-binary-stirling-row-edge",
+      "repository_name": "kurkov-binary-stirling-row-edge",
+      "source": {
+        "bytes": 19003,
+        "sha256": "cb557ba345c87328c9b5a20a188e6fb9dedca0cb77734f9f10821e6e6e98ee92",
+        "url": "/api/v1/collected-papers/kurkov-binary-stirling-row-edge/files/source?version=2"
+      },
+      "title": "Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T17:33:13.086154303Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "kurkov-binary-stirling-row-edge"
+    },
+    {
+      "abstract_text": "Beyond the unitarily invariant theorem of Antezana, Larotonda and Varela (2011/2014; Theorem 4.3 of arXiv:1107.2439v1), Larotonda's conjecture after Proposition 4.3 in Section 4.1, p. 7 of Short curves in homogeneous spaces of the unitary group for unitarily invariant norms (arXiv:2610.31535v1) fails for a normalized, symmetric Ad-invariant quadratic norm on u(2): shifting one eigenangle by 2 pi preserves the endpoint and gives a shorter exponential curve. For the full positive-definite family obtained by adding c times the squared trace to the Hilbert-Schmidt norm squared, we show in every dimension at least two that principal-log minimality holds for all principal angles if and only if the trace coefficient is zero. Scalar examples give a strict failure whenever their eigenangle exceeds pi(1+c)/(1+nc), for c>0. Thus the proposed pi/2 input already fails in dimension three, and no positive dimension-independent spectral radius suffices.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24414710",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.24414711",
       "lean_source": {
         "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
         "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/QuadraticForms/LarotondaPrincipalLogDistanceRefutation.lean"
@@ -3631,9 +3819,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24414716",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24414717",
       "lean_source": {
         "revision": "42aeb4e95344fb1ea9d2042d02ff1a5589faaacb",
         "url": "https://github.com/the-omega-institute/trureturing/blob/42aeb4e95344fb1ea9d2042d02ff1a5589faaacb/D5/S3/Quantum/QuantumChannels/FractionalEvolutionPhaseObstruction.lean"
@@ -3712,6 +3900,53 @@
         }
       ],
       "work": "luschny-a323206"
+    },
+    {
+      "abstract_text": "Extending Colbrook's counterexample of September 11, 2026 (Theorem IS-02, Sections 1–2), we refute Mourad and Abbas's Conjecture 5.1 (arXiv:1310.1273v1, p. 10) by a continuous equal-block family, using a component-size constraint for stochastic idempotents and a four-cycle perturbation. For integers k,r >= 2, put A_{k,r}(t) equal to the direct sum of r copies of t I_k + (1-t) C_k, where C_k has zero diagonal and off-diagonal entries 1/(k-1). We prove the exact classification: for 0 <= t <= 1, this matrix is determined, up to permutation similarity, among all similar doubly stochastic matrices if and only if t < 1/k^2 or t = 1. Using the classical integer-partition structure of diagonalizable doubly stochastic matrices with two distinct real eigenvalues, we obtain the two-eigenvalue part of the source's zero-trace question. When k >= 4 and 0 < t < 1/k^2, it has positive trace but lies on none of the segments in the conjecture. Explicit unequal-block matrices explain the sharp endpoint.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "d9880e9f2c329bb3db982f33791419d5d90126b9",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9880e9f2c329bb3db982f33791419d5d90126b9/D5/S0/Certificates/MouradAbbasC51Refutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 80987,
+        "sha256": "aad82d4016c00b3d9cfad074ec18ed43669151e808317bdb784740fbbd94b47c",
+        "url": "/api/v1/collected-papers/ma2013-dsspectral-equal-blocks/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T17:46:15.208871801Z",
+      "record": "ma2013-dsspectral-equal-blocks",
+      "repository_name": "ma2013-dsspectral-equal-blocks",
+      "source": {
+        "bytes": 14784,
+        "sha256": "1a594f60fd3e821d54cd0589e2c14fdd8080c8dc6e60f8fceaf13cc82402330f",
+        "url": "/api/v1/collected-papers/ma2013-dsspectral-equal-blocks/files/source?version=3"
+      },
+      "title": "Equal-block extensions of Colbrook's refutation of the Mourad–Abbas spectral conjecture",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T17:46:15.208871801Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "ma2013-dsspectral-equal-blocks"
     },
     {
       "abstract_text": "We answer the first question in Malkoun's MathOverflow 512579, revision 1: for positive semidefinite Hermitian X,Y, every elementary symmetric function of the eigenvalues of XY+YX is at most its counterpart for X^2+Y^2. The written proof establishes the stronger absolute-value inequality for arbitrary Hermitian X,Y and for H=A*B+B*A, R=A*A+B*B with arbitrary rectangular complex A,B. Cauchy-Binet and Cauchy-Schwarz bound each principal determinant, including singular cases. The pinned Lean declaration proves the original positive-semidefinite assertion; the extensions have written proofs and accompanying exact finite checks.",
@@ -4056,9 +4291,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24414720",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24414721",
       "lean_source": {
         "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
         "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S1/Recurrence/Algebraic/MatharA128057ThreeTermRecurrence.lean"
@@ -4090,6 +4325,53 @@
         }
       ],
       "work": "mathar-square-root-quotient-recurrence"
+    },
+    {
+      "abstract_text": "For mathex's question Bound of series, MathOverflow 511715, revision 2 (26 May 2026), final displayed inequality, we give a negative answer to the requested uniform cutoff estimate in the Euclidean interpretation, complementing Ghafari's bound for a related Littlewood-Paley-mask series (2026, Appendix H, Lemma H.0.1): one admissible mask isolates a nonzero output, and disjoint lattice blocks force logarithmic divergence as the cutoff scale tends to zero. For each nonzero output, the same symmetric mask works at every positive time and for every fixed real or complex compactly supported cutoff continuous at zero and equal to one there. No finite constant and fixed real exponent can satisfy the proposed estimate even on any bounded interval of positive scales reaching zero. For smooth cutoffs, a corrected Lipschitz estimate holds uniformly in the mask and output when time is bounded and the cutoff scales stay away from zero; zero modes show that the time restriction cannot simply be dropped.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "1ad50310295853e27713693f182e8eac94296739",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ad50310295853e27713693f182e8eac94296739/D5/S3/Fourier/MO511715Source.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 91403,
+        "sha256": "f1cd52b832c5cb65b6cf53efafadabee3ada3320258e15e860c74b95f7e38968",
+        "url": "/api/v1/collected-papers/mathex-2026-mo511715-cutoff-bound/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T17:47:18.565366551Z",
+      "record": "mathex-2026-mo511715-cutoff-bound",
+      "repository_name": "mathex-2026-mo511715-cutoff-bound",
+      "source": {
+        "bytes": 13965,
+        "sha256": "fd8e3673795e323b9c4ad07b08c49b820b376d3e6869dc189f270badc9a95a69",
+        "url": "/api/v1/collected-papers/mathex-2026-mo511715-cutoff-bound/files/source?version=2"
+      },
+      "title": "A negative answer to mathex's cutoff-series question beyond Ghafari's masks",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T17:47:18.565366551Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "mathex-2026-mo511715-cutoff-bound"
     },
     {
       "abstract_text": "We prove the displayed inequality in MathOverflow question 469781, which compares weighted squared two-by-two minors of an orthonormal pair with squared three-by-three minors, weighted by the largest edge weight of each triple. We prove the inequality by contraction in exterior algebra and a finite threshold decomposition. The proof gives both minimum and maximum bounds, permits signed weights and complex vectors, and extends to arbitrary exterior degrees and several orthogonal lifts. The orthonormal comparison follows from Lyons (2003); Miller and Bistroń (2025) give a direct two-sided proof and settle the linked distance-triangle conjecture.",
@@ -4325,6 +4607,53 @@
         }
       ],
       "work": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy"
+    },
+    {
+      "abstract_text": "Using Brimkov's earlier starlike enumeration (May 2017, Proposition 7.11), we answer Mukherjee and Ray's Problem 5.3 in On the connected zero forcing polynomial of finite trees, arXiv:2611.10985v1 (2026), Section 5, p. 21, negatively even for two three-leaf trees and even when their order may be exchanged. For every n at least 10 we construct such a pair: its coefficient differences at sizes 4, 6, n-2 are -2, 1, -1, so neither order admits the requested single crossing. The construction follows from an explicit enumeration of connected forcing sets in a three-armed tree. We also explain the smaller, ordered path-star obstruction from the posers' own examples. For the neighboring unicyclic problem, a complete five-vertex classification shows that a fixed-leaf class can have neither a least nor a greatest polynomial.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "a165df4cad5a5538260a4e40d6b865a3db48795d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a165df4cad5a5538260a4e40d6b865a3db48795d/D5/S3/Combinatorics/Graph/ZeroForcing/ConnectedForcingCrossingRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 74733,
+        "sha256": "d7c9a7a787e695bb119531e65ab718472b5e0549af6f4062ab1f0fe07614ae3b",
+        "url": "/api/v1/collected-papers/mukherjee-ray-ordered-connected-forcing-crossing/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T18:34:40.166400392Z",
+      "record": "mukherjee-ray-ordered-connected-forcing-crossing",
+      "repository_name": "mukherjee-ray-ordered-connected-forcing-crossing",
+      "source": {
+        "bytes": 16531,
+        "sha256": "b9b4d3e71fb8b15f6018092a678047a647f2fa2fdeb466c2b3048a7f492d5e2b",
+        "url": "/api/v1/collected-papers/mukherjee-ray-ordered-connected-forcing-crossing/files/source?version=2"
+      },
+      "title": "Three-leaf counterexamples to Mukherjee and Ray's connected-forcing crossing question",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T18:34:40.166400392Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "mukherjee-ray-ordered-connected-forcing-crossing"
     },
     {
       "abstract_text": "For Petrov and Scott, Random Fibonacci words via clone Schur functions, arXiv:2412.21126v2, Section 8.5, Conjecture 8.22 and Problem 8.23, we apply and give an alternative proof of Flajolet's (1980, Proposition 3B) coefficient formula to obtain exact multiplicities, support and dominance. The formula is N(kappa) = product_i binomial(kappa_i+kappa_{i+1}-1, kappa_{i+1}). The printed odd-length splitting omits its final odd part; a weight-preserving correction gives exact support, explicit inverse compositions, prefix dominance, equal hike and upper triangularity. The smaller literal fixed-weight matrix satisfies the same dominance conclusion. Further proved corollaries give explicit moment coefficients, canonical lifts, both one-alphabet specialization counts, positive diagonal entries, invertibility, and binomial support counts by hike. The unasserted converse fails at (221,212).",
@@ -4656,6 +4985,53 @@
       "work": "oeis-a130095-ratio-limit"
     },
     {
+      "abstract_text": "We prove Paul Barry's shifted Hankel conjecture in OEIS A188475, revision 2 (April 1, 2011): for every n>=0, det[q(i+j+2)]_(0<=i,j<=n)=(2n^3+3n^2+n+3)/3, by a moment-matrix cofactor argument extending Cigler's unit-descent formula (2011, Theorem A*). The same calculation gives both adjacent shifts and a parameter formula det[q_lambda(i+j+2)]_(i,j<N)=1+lambda*sum(k^2,k=0..N-1) for every complex lambda, with q_lambda defined by its Catalan generating function. A direct bijection relates the source's nonexchangeable subsequences to Callan's restricted Grand Dyck paths.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 4,
+      "doi": null,
+      "lean_source": {
+        "revision": "c6d80ec1ad5920a0470d7ff831c17f6303e6e578",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/c6d80ec1ad5920a0470d7ff831c17f6303e6e578/D5/S3/Combinatorics/CatalanPowerHankel/BarryA188475.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 88251,
+        "sha256": "ae5f9fe72ba19b4faa135b995d70601c70a5bcd2dbf999c89a92e707e2bba534",
+        "url": "/api/v1/collected-papers/oeis-a188475-original-shifted-hankel/files/pdf?version=4"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T17:31:57.326471601Z",
+      "record": "oeis-a188475-original-shifted-hankel",
+      "repository_name": "oeis-a188475-original-shifted-hankel",
+      "source": {
+        "bytes": 13541,
+        "sha256": "7afb65fa96b2dc9ee82258506c895a298d891e564ca23c55c3e23edbaabb56c1",
+        "url": "/api/v1/collected-papers/oeis-a188475-original-shifted-hankel/files/source?version=4"
+      },
+      "title": "Barry's shifted Hankel conjecture and an extension of Cigler's formula",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T17:31:57.326471601Z",
+          "revision": "4",
+          "version": 4
+        }
+      ],
+      "work": "oeis-a188475-original-shifted-hankel"
+    },
+    {
       "abstract_text": "We prove Paul Curtz's six-residue denominator conjecture in OEIS A189733, revision 12, COMMENTS (May 23, 2011), now in revision 36, FORMULA, with its convention that zero has denominator one. Following Gao's earlier generating-function proof, we derive exact values of the first row of the defining rational array. These values also prove the six-periodic numerator assertion, the denominator recurrence, and Barker's empirical generating function in the same entry. The same formulas settle Barker's recurrence and generating-function conjectures in A267068 and give the numerator identities in A278718. We also prove the full-array reflection and binomial-transform identity. The corresponding second-kind array yields A194767's denominator formulas and reciprocal sum, and corrects an index in its fourth-diagonal numerator identity. For the unsigned-seed array in A189731 and A242926, the same argument gives a Lucas-number formula and refutes the asserted prime-only integer ranks at the composite 705. An integer triangular transformation determines antidiagonal denominator lcms for arbitrary rational seeds.",
       "authors": [
         {
@@ -4855,9 +5231,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24413797",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24413798",
       "lean_source": {
         "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
         "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S1/Recurrence/BalaTrinomialCoefficientIdentity.lean"
@@ -5278,9 +5654,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24415607",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24415608",
       "lean_source": {
         "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
         "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Arith/Primes/OeisA369378FermatCovering.lean"
@@ -5419,9 +5795,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24414722",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24414723",
       "lean_source": {
         "revision": "aec68a61276de81e1e122880cd5921bac6e8f070",
         "url": "https://github.com/the-omega-institute/trureturing/blob/aec68a61276de81e1e122880cd5921bac6e8f070/D5/S1/Depth/ContinuedFractions/FreemanPalindromicDensityRefutation.lean"
@@ -6816,6 +7192,53 @@
         }
       ],
       "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
+    },
+    {
+      "abstract_text": "We refute the strong-dominance conjecture of Zoroa, Lesigne, Fernández-Sáez, Zoroa and Casas (arXiv:1608.00155v1, Section 8, Conjecture, page 30) for every number of labels N≥4 and every number of independent draws n≥5, with strictly positive rational coupon probabilities. For n=5 and p=(48,48,2,2)/100 and q=(50,46,3,1)/100, one has p≺q, but the probability mass under p is larger at two distinct labels and smaller at three distinct labels. These two inequalities exclude every real single-crossing threshold. The obstruction persists along a rational one-parameter family on a full real interval. A Taylor estimate extends it to every number of draws n≥5, and adding sufficiently rare labels gives strictly positive counterexamples in every dimension N≥4. The cumulative distributions retain the usual stochastic order. On supports of at most three distinct counts, that order implies the conjectured conclusion.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "ad59550e53d607f9e9dbd8110a79414c46e97f7e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ad59550e53d607f9e9dbd8110a79414c46e97f7e/D5/S3/Analytic/Probability/StrongDominanceRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 77249,
+        "sha256": "38bae138ba3f35b114b1f536b737a49d3b3e5f1520c9aa58c3fe964583c68920",
+        "url": "/api/v1/collected-papers/zoroa-strong-dominance-counterexample/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T18:48:40.945299139Z",
+      "record": "zoroa-strong-dominance-counterexample",
+      "repository_name": "zoroa-strong-dominance-counterexample",
+      "source": {
+        "bytes": 16040,
+        "sha256": "5bc586e67249ed8cbf9483f7f3debd4229bb28c70386cd5c065f3d9e3c9bbe40",
+        "url": "/api/v1/collected-papers/zoroa-strong-dominance-counterexample/files/source?version=3"
+      },
+      "title": "Counterexamples to Zoroa et al.'s strong-dominance conjecture for every number of draws above four",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T18:48:40.945299139Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "zoroa-strong-dominance-counterexample"
     }
   ]
 }
