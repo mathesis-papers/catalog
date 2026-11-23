@@ -2315,9 +2315,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24410090",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24410091",
       "lean_source": {
         "revision": "e277c80d045570daf43bd03b4e313f7ce457b4e2",
         "url": "https://github.com/the-omega-institute/trureturing/blob/e277c80d045570daf43bd03b4e313f7ce457b4e2/D5/S0/FiniteGeometry/Polytopes/JohnsonPaparellaHadamardPolyhedraRefutation.lean"
@@ -2832,9 +2832,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24410092",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24410093",
       "lean_source": {
         "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
         "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/Algebraic/KurkovConvolutionRowRecursion.lean"
@@ -3669,6 +3669,53 @@
       "work": "oeis-a112399-morken-first-divisor-sum"
     },
     {
+      "abstract_text": "Extending Wolfdieter Lang's odd-Fibonacci ratio formula (OEIS A001519, COMMENTS, March 30, 2020), we prove Gary W. Adamson's conjecture, 'a(n)/a(n-1) tends to phi^2' (OEIS A130095, COMMENTS, original revision #1, May 11, 2007; retained in revision #11, December 11, 2019), where a(n)=sum_{d|n} F_(2d-1) and phi=(1+sqrt(5))/2. We obtain the sharper limits phi^(2m)*(a(2m)/a(2m-1)-phi^2) -> phi^2 and phi^(2m+1)*(a(2m+1)/a(2m)-phi^2) -> -phi^3. The proof separates the largest proper divisor from an exponentially smaller remainder. We also prove Bala's generating functions and prime congruences, and give an explicit proof of Kotešovec's previously recorded Fibonacci-transform asymptotic.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "d51b6958b717911d2705676a6e9bf473b3b6f324",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d51b6958b717911d2705676a6e9bf473b3b6f324/D5/S3/Arith/Divisors/OeisA130095RatioLimit.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 83732,
+        "sha256": "af94c0eb38773e91bd0e0596afaeb4cc4b7b0e399ef4352eec89a4e605a3dbe9",
+        "url": "/api/v1/collected-papers/oeis-a130095-ratio-limit/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T06:40:38.297679672Z",
+      "record": "oeis-a130095-ratio-limit",
+      "repository_name": "oeis-a130095-ratio-limit",
+      "source": {
+        "bytes": 13363,
+        "sha256": "0d53ceeab19956e3bc00e65626689c90cd14ad9960f881584f770aa7fe63da2f",
+        "url": "/api/v1/collected-papers/oeis-a130095-ratio-limit/files/source?version=2"
+      },
+      "title": "Adamson's Fibonacci divisor-transform conjecture: sharp ratio errors extending Lang's formula",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T06:40:38.297679672Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "oeis-a130095-ratio-limit"
+    },
+    {
       "abstract_text": "We prove Paul Curtz's six-residue denominator conjecture in OEIS A189733, revision 12, COMMENTS (May 23, 2011), now in revision 36, FORMULA, with its convention that zero has denominator one. Following Gao's earlier generating-function proof, we derive exact values of the first row of the defining rational array. These values also prove the six-periodic numerator assertion, the denominator recurrence, and Barker's empirical generating function in the same entry. The same formulas settle Barker's recurrence and generating-function conjectures in A267068 and give the numerator identities in A278718. We also prove the full-array reflection and binomial-transform identity. The corresponding second-kind array yields A194767's denominator formulas and reciprocal sum, and corrects an index in its fourth-diagonal numerator identity. For the unsigned-seed array in A189731 and A242926, the same argument gives a Lucas-number formula and refutes the asserted prime-only integer ranks at the composite 705. An integer triangular transformation determines antidiagonal denominator lcms for arbitrary rational seeds.",
       "authors": [
         {
@@ -4466,6 +4513,53 @@
         }
       ],
       "work": "rowland-sistos-barron-2025-rank-sequences"
+    },
+    {
+      "abstract_text": "Question 2.32 on page 14 of Remi Salinas Schmeis's General Criterion for a Poset to Admit a Partition Into ω-Chains (arXiv:2610.29056v1, 2026) asks whether every poset has an ω-chain-partitionable extension that order-embeds into every such extension. We answer negatively: even a two-element antichain has no such extension. Two countable extensions force incompatible behavior for upper bounds of incomparable elements. The same argument gives the connected three-element fork as a counterexample and, by order duality, the corresponding negative answer for ω*-chains. More generally, a nonempty countable poset of bounded finite height has such a least extension if and only if it has a greatest element. Every poset has a partitionable extension, even with ω replaced by any nonzero ordinal.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S3/ConceptDynamics/DagCompletion/SalinasSchmeisOmegaChainExtensionRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 80611,
+        "sha256": "2199ecb8b9d5153c4f2d26c5bb415994c6c83d3ee9bb98467308d3353cccae65",
+        "url": "/api/v1/collected-papers/salinas-omega-chain-extension/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T06:41:38.045178367Z",
+      "record": "salinas-omega-chain-extension",
+      "repository_name": "salinas-omega-chain-extension",
+      "source": {
+        "bytes": 12519,
+        "sha256": "2040dc038ef1a9a6676a60ad9003378e7d5d64344b506b865d9a00222bbc2810",
+        "url": "/api/v1/collected-papers/salinas-omega-chain-extension/files/source?version=2"
+      },
+      "title": "Bounded-height classification for Salinas Schmeis's ω-chain extension question",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T06:41:38.045178367Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "salinas-omega-chain-extension"
     },
     {
       "abstract_text": "For the non-Ohmic expectation M_S <= 2 M_B - 1 of Schnell, Ketzmerick and Eckardt (2018, arXiv:1802.04088v2, Sec. V, p. 11, Eq. (55) and the surrounding paragraph), we give a cubic counterexample and extend their Ohmic bound to odd monomial spectra. Two baths with J(x) = x^3 have five Bose-selected modes. The normalized coupling weights are (5,4,4,4,4)/21 and (6,6,3,3,3)/21 at energies (1,2,3,4,5), and the selected occupation fractions are (14,56,21,8,1)/100. Positive signed Pfaffian minors show that this selection is unique and persists on an open set of parameters, including spectral exponents near three. Five selected modes persist after adding any finite number of sufficiently weakly coupled higher levels. For odd q, we prove M_S <= (q+1) M_B - 1 when J(x) = x^q and the selected principal matrix has a one-dimensional kernel; q=1 recovers the source's Ohmic bound, while q=3 gives seven as an upper bound for two baths under this hypothesis.",

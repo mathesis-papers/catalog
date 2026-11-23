@@ -22019,6 +22019,318 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:oeis-a130095-ratio-limit:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d51b6958b717911d2705676a6e9bf473b3b6f324",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d51b6958b717911d2705676a6e9bf473b3b6f324/D5/S3/Arith/Divisors/OeisA130095RatioLimit.lean"
+      },
+      "lineage": "collected:oeis-a130095-ratio-limit:s1",
+      "macros": {
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a130095-ratio-limit",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq1$,\n\\begin{equation}\n 0\\leq a(n)-F_{2n-1}\\leq F_{2\\lfloor n/2\\rfloor}\\leq F_n,\n \\qquad\n 0\\leq \\frac{a(n)}{F_{2n-1}}-1\\leq\\frac1{F_n}.\n\\end{equation}\nConsequently\n\\begin{equation}\n a(n)\\sim\\frac{\\ph^{2n-1}}{\\sqrt5},\\qquad\n \\lim_{n\\to\\infty}\\frac{a(n)}{a(n-1)}=\\ph^2.\n\\end{equation}\nThe ratio is defined for every $n\\geq2$. Equivalently, for every\n$\\epsilon>0$ there is an integer $N\\geq2$ such that\n$|a(n)/a(n-1)-\\ph^2|<\\epsilon$ for every integer $n\\geq N$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Adamson's Fibonacci divisor-transform conjecture: sharp ratio errors extending Lang's formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a130095-ratio-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:oeis-a130095-ratio-limit:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d51b6958b717911d2705676a6e9bf473b3b6f324",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d51b6958b717911d2705676a6e9bf473b3b6f324/D5/S3/Arith/Divisors/OeisA130095RatioLimit.lean"
+      },
+      "lineage": "collected:oeis-a130095-ratio-limit:s2",
+      "macros": {
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a130095-ratio-limit",
+      "scope": "in_scope",
+      "statement": "For $n\\geq2$,\n\\[\n0\\leq R(n)-\\eta_n F_{n-1}\\leq F_{2\\lfloor n/3\\rfloor}.\n\\]\nConsequently\n\\[\n\\frac{a(n)}{F_{2n-1}}-1\n=\\eta_n\\ph^{-n}+O(\\ph^{-4n/3}),\n\\]\nand\n\\begin{align*}\n\\lim_{m\\to\\infty}\\ph^{2m}\n \\left(\\frac{a(2m)}{a(2m-1)}-\\ph^2\\right)&=\\ph^2,\\\\\n\\lim_{m\\to\\infty}\\ph^{2m+1}\n \\left(\\frac{a(2m+1)}{a(2m)}-\\ph^2\\right)&=-\\ph^3.\n\\end{align*}\nBoth $O(\\ph^{-n})$ error orders are therefore sharp. The successive\nratios eventually lie above $\\ph^2$ at even indices and below it at\nodd indices.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Adamson's Fibonacci divisor-transform conjecture: sharp ratio errors extending Lang's formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a130095-ratio-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:oeis-a130095-ratio-limit:2:s3",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "d51b6958b717911d2705676a6e9bf473b3b6f324",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d51b6958b717911d2705676a6e9bf473b3b6f324/D5/S3/Arith/Divisors/OeisA130095RatioLimit.lean"
+      },
+      "lineage": "collected:oeis-a130095-ratio-limit:s3",
+      "macros": {
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a130095-ratio-limit",
+      "scope": "in_scope",
+      "statement": "Suppose $b_n\\geq0$ for $n\\geq1$ and $b_n\\sim C\\lambda^n$, where\n$C>0$ and $\\lambda>1$. For $A(n)=\\sum_{d\\mid n}b_d$,\n\\[\n A(n)=b_n\\bigl(1+O(\\lambda^{-n/2})\\bigr),\\qquad\n A(n)\\sim C\\lambda^n,\\qquad\n \\frac{A(n)}{A(n-1)}\\longrightarrow\\lambda.\n\\]\nThe quotient is defined for all sufficiently large $n$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Adamson's Fibonacci divisor-transform conjecture: sharp ratio errors extending Lang's formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a130095-ratio-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:oeis-a130095-ratio-limit:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d51b6958b717911d2705676a6e9bf473b3b6f324",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d51b6958b717911d2705676a6e9bf473b3b6f324/D5/S3/Arith/Divisors/OeisA130095RatioLimit.lean"
+      },
+      "lineage": "collected:oeis-a130095-ratio-limit:s4",
+      "macros": {
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a130095-ratio-limit",
+      "scope": "in_scope",
+      "statement": "For $c(n)=\\sum_{d\\mid n}F_d$, the sequence A007435,\n\\[\n c(n)\\sim \\frac{\\ph^n}{\\sqrt5},\\qquad\n \\frac{c(n)}{c(n-1)}\\longrightarrow\\ph.\n\\]\nMore generally, for fixed integers $k\\geq1$ and $s$ with $k+s\\geq1$,\nthe sequence $\\sum_{d\\mid n}F_{kd+s}$ is asymptotic to\n$\\ph^{kn+s}/\\sqrt5$ and has successive-term ratio tending to $\\ph^k$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Adamson's Fibonacci divisor-transform conjecture: sharp ratio errors extending Lang's formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a130095-ratio-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:oeis-a130095-ratio-limit:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d51b6958b717911d2705676a6e9bf473b3b6f324",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d51b6958b717911d2705676a6e9bf473b3b6f324/D5/S3/Arith/Divisors/OeisA130095RatioLimit.lean"
+      },
+      "lineage": "collected:oeis-a130095-ratio-limit:s5",
+      "macros": {
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a130095-ratio-limit",
+      "scope": "in_scope",
+      "statement": "Let $M=\\left(\\begin{smallmatrix}1&1\\\\1&2\\end{smallmatrix}\\right)$\nand let $I$ be the $2\\times2$ identity matrix. Then\n$M^2=3M-I$, and, for $n\\geq1$,\n\\[\n(M^n)_{11}=F_{2n-1}\n=\\frac{\\ph^{2n-1}+\\ph^{1-2n}}{\\sqrt5}.\n\\]\nConsequently $(M^n)_{11}/(M^{n-1})_{11}\\to\\ph^2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Adamson's Fibonacci divisor-transform conjecture: sharp ratio errors extending Lang's formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a130095-ratio-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:oeis-a130095-ratio-limit:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d51b6958b717911d2705676a6e9bf473b3b6f324",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d51b6958b717911d2705676a6e9bf473b3b6f324/D5/S3/Arith/Divisors/OeisA130095RatioLimit.lean"
+      },
+      "lineage": "collected:oeis-a130095-ratio-limit:s6",
+      "macros": {
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a130095-ratio-limit",
+      "scope": "in_scope",
+      "statement": "With $B(x)=\\sum_{n\\geq1}F_{2n-1}x^n$, one has\n$B(x)=x(1-x)/(1-3x+x^2)$ and both identities below.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Adamson's Fibonacci divisor-transform conjecture: sharp ratio errors extending Lang's formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a130095-ratio-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:oeis-a130095-ratio-limit:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d51b6958b717911d2705676a6e9bf473b3b6f324",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d51b6958b717911d2705676a6e9bf473b3b6f324/D5/S3/Arith/Divisors/OeisA130095RatioLimit.lean"
+      },
+      "lineage": "collected:oeis-a130095-ratio-limit:s7",
+      "macros": {
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a130095-ratio-limit",
+      "scope": "in_scope",
+      "statement": "For $c(n)=\\sum_{d\\mid n}F_d$, Jovovic's ordinary generating function\nand Gutkovskiy's logarithmic identity in A007435 are\n\\[\n \\sum_{n\\geq1}c(n)x^n\n =\\sum_{j\\geq1}\\frac{x^j}{1-x^j-x^{2j}},\\qquad\n \\sum_{n\\geq1}\\frac{c(n)x^n}{n}\n =-\\sum_{j\\geq1}\\frac{F_j}{j}\\log(1-x^j).\n\\]\nFor $b_n=F_n$ or $b_n=F_{2n-1}$, and $A(n)=\\sum_{d\\mid n}b_d$,\nthe inverse formula is\n\\[\n b_n=\\sum_{d\\mid n}\\mu(d)A(n/d).\n\\]\nHere $\\mu(d)=0$ if $d$ has a squared prime factor, and otherwise is\n$(-1)^r$ if $d$ is a product of $r$ distinct primes.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Adamson's Fibonacci divisor-transform conjecture: sharp ratio errors extending Lang's formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a130095-ratio-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:oeis-a130095-ratio-limit:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d51b6958b717911d2705676a6e9bf473b3b6f324",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d51b6958b717911d2705676a6e9bf473b3b6f324/D5/S3/Arith/Divisors/OeisA130095RatioLimit.lean"
+      },
+      "lineage": "collected:oeis-a130095-ratio-limit:s8",
+      "macros": {
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a130095-ratio-limit",
+      "scope": "in_scope",
+      "statement": "For a prime $p$, Bala's A130095 formula is\n\\[\na(p)\\equiv\n\\begin{cases}\n3& p\\equiv2,3\\pmod5,\\\\\n2& p\\equiv1,4\\pmod5,\\\\\n0& p=5\n\\end{cases}\\pmod p.\n\\]\nFor $c(p)$, Somos's A007435 formula has respectively the residues\n$0,2,1$ in these three cases.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Adamson's Fibonacci divisor-transform conjecture: sharp ratio errors extending Lang's formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a130095-ratio-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:oeis-a189733-curtz-denominator-conjecture:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -26686,6 +26998,318 @@
       "toolchain": null,
       "version": 2,
       "work": "rowland-sistos-barron-2025-rank-sequences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:salinas-omega-chain-extension:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S3/ConceptDynamics/DagCompletion/SalinasSchmeisOmegaChainExtensionRefutation.lean"
+      },
+      "lineage": "collected:salinas-omega-chain-extension:s1",
+      "macros": {
+        "\\N": "\\mathbb N"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "salinas-omega-chain-extension",
+      "scope": "in_scope",
+      "statement": "No poset containing an incomparable pair and having no maximal element\norder-embeds into both $R$ and $T$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-height classification for Salinas Schmeis's ω-chain extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "salinas-omega-chain-extension"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:salinas-omega-chain-extension:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S3/ConceptDynamics/DagCompletion/SalinasSchmeisOmegaChainExtensionRefutation.lean"
+      },
+      "lineage": "collected:salinas-omega-chain-extension:s2",
+      "macros": {
+        "\\N": "\\mathbb N"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "salinas-omega-chain-extension",
+      "scope": "in_scope",
+      "statement": "Neither the two-element antichain nor the connected fork $F$ has an admissible\nextension satisfying \\eqref{universal}. In particular, Question 2.32 is answered\nnegatively.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-height classification for Salinas Schmeis's ω-chain extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "salinas-omega-chain-extension"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:salinas-omega-chain-extension:2:s3",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S3/ConceptDynamics/DagCompletion/SalinasSchmeisOmegaChainExtensionRefutation.lean"
+      },
+      "lineage": "collected:salinas-omega-chain-extension:s3",
+      "macros": {
+        "\\N": "\\mathbb N"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "salinas-omega-chain-extension",
+      "scope": "in_scope",
+      "statement": "Every poset $P$ has an admissible extension.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-height classification for Salinas Schmeis's ω-chain extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "salinas-omega-chain-extension"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:salinas-omega-chain-extension:2:s4",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S3/ConceptDynamics/DagCompletion/SalinasSchmeisOmegaChainExtensionRefutation.lean"
+      },
+      "lineage": "collected:salinas-omega-chain-extension:s4",
+      "macros": {
+        "\\N": "\\mathbb N"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "salinas-omega-chain-extension",
+      "scope": "in_scope",
+      "statement": "A nonempty countable poset $P$ of bounded finite height has an admissible extension satisfying\n\\eqref{universal} if and only if $P$ has a greatest element.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-height classification for Salinas Schmeis's ω-chain extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "salinas-omega-chain-extension"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:salinas-omega-chain-extension:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S3/ConceptDynamics/DagCompletion/SalinasSchmeisOmegaChainExtensionRefutation.lean"
+      },
+      "lineage": "collected:salinas-omega-chain-extension:s5",
+      "macros": {
+        "\\N": "\\mathbb N"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "salinas-omega-chain-extension",
+      "scope": "in_scope",
+      "statement": "A nonempty finite poset has a least admissible extension exactly when it\nhas a greatest element. The same equivalence holds for every nonempty\ncountable antichain: the only positive case is a singleton.\nThe poset with one bottom point and any finite or countably infinite\nnumber of incomparable maximal points at least two is also a counterexample.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-height classification for Salinas Schmeis's ω-chain extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "salinas-omega-chain-extension"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:salinas-omega-chain-extension:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S3/ConceptDynamics/DagCompletion/SalinasSchmeisOmegaChainExtensionRefutation.lean"
+      },
+      "lineage": "collected:salinas-omega-chain-extension:s6",
+      "macros": {
+        "\\N": "\\mathbb N"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "salinas-omega-chain-extension",
+      "scope": "in_scope",
+      "statement": "The two-element antichain has no extension partitionable into\n$\\omega^*$-chains that embeds into every such extension. The same is true\nof the order dual of $F$. Every poset has an extension partitionable into\n$\\omega^*$-chains. A nonempty countable poset of bounded finite height has a least such extension if\nand only if it has a least element.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-height classification for Salinas Schmeis's ω-chain extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "salinas-omega-chain-extension"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:salinas-omega-chain-extension:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S3/ConceptDynamics/DagCompletion/SalinasSchmeisOmegaChainExtensionRefutation.lean"
+      },
+      "lineage": "collected:salinas-omega-chain-extension:s7",
+      "macros": {
+        "\\N": "\\mathbb N"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "salinas-omega-chain-extension",
+      "scope": "in_scope",
+      "statement": "The extension $E=P\\times\\N$ in Proposition~\\ref{existence} has the lifting\nproperty, with an explicit fiberwise injection for every Noetherian subset.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-height classification for Salinas Schmeis's ω-chain extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "salinas-omega-chain-extension"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:salinas-omega-chain-extension:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2b5b552e72596710282b713f6587c7020544535d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2b5b552e72596710282b713f6587c7020544535d/D5/S3/ConceptDynamics/DagCompletion/SalinasSchmeisOmegaChainExtensionRefutation.lean"
+      },
+      "lineage": "collected:salinas-omega-chain-extension:s8",
+      "macros": {
+        "\\N": "\\mathbb N"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "salinas-omega-chain-extension",
+      "scope": "in_scope",
+      "statement": "Every poset has an extension partitionable into $\\alpha$-chains for each\nnonzero ordinal $\\alpha$, and hence an extension with an $\\alpha$-skeleton.\nFor each integer $n\\geq2$, an $n$-skeleton need not extend to a partition\nof the original poset into $n$-chains.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Bounded-height classification for Salinas Schmeis's ω-chain extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "salinas-omega-chain-extension"
     },
     {
       "attribution": null,

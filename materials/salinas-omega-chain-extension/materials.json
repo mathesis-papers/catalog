@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/salinas-omega-chain-extension/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/salinas-omega-chain-extension",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/salinas-omega-chain-extension/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "salinas-omega-chain-extension"
+}

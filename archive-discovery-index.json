@@ -457,6 +457,12 @@
       "version": 3
     },
     {
+      "doi": "10.5281/zenodo.24411286",
+      "id": "oeis-a130095-ratio-limit",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23957584",
       "id": "oeis-a189733-curtz-denominator-conjecture",
       "kind": "collected",
@@ -555,6 +561,12 @@
     {
       "doi": "10.5281/zenodo.24381374",
       "id": "rowland-sistos-barron-2025-rank-sequences",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24411302",
+      "id": "salinas-omega-chain-extension",
       "kind": "collected",
       "version": 2
     },
@@ -685,6 +697,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-23T06:00:59.484069182Z",
+  "generated_at": "2026-11-23T06:49:57.698254125Z",
   "schema": "mathesis.archive-index.v1"
 }
