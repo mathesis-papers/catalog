@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/kimberling-rational-enumeration/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/kimberling-rational-enumeration",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/kimberling-rational-enumeration/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "kimberling-rational-enumeration"
+}

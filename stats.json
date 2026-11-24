@@ -3,19 +3,19 @@
   "by_msc": {
     "unclassified": {
       "open_targets": 0,
-      "papers": 180,
-      "registered": 1233,
+      "papers": 188,
+      "registered": 1285,
       "verified": 0
     }
   },
   "independently_verified_statements": 0,
   "open_formalization_targets": 0,
-  "papers_with_doi": 170,
-  "papers_with_lean_source": 180,
-  "public_papers": 180,
-  "registered_statements": 1233,
-  "snapshot_time": "2026-11-24T02:34:21.637496759Z",
-  "statements_awaiting_formal_target": 1233,
+  "papers_with_doi": 177,
+  "papers_with_lean_source": 188,
+  "public_papers": 188,
+  "registered_statements": 1285,
+  "snapshot_time": "2026-11-24T05:31:40.836197868Z",
+  "statements_awaiting_formal_target": 1285,
   "verified_counterexamples_disproofs": 0,
   "verified_from_existing_library_declarations": 0,
   "verified_with_new_lean": 0

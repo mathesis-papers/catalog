@@ -471,6 +471,53 @@
       "work": "alm2024-normal-extension-monotonicity"
     },
     {
+      "abstract_text": "Extending Frid's ordinary-length recurrence (2019, Theorem 4), we prove the sharp factor-two and unbounded equal-cost assertions of Ambrož, Kadlec, Masáková and Pelantová, arXiv:1812.00711v2, Section 6, p. 13, final paragraph and Tables 1–2, p. 14, by identifying the combined pal-antipal length of each zero-start Thue–Morse prefix with the minimum weight of a signed binary expansion of its length. Desubstitution proves this formula and the sharp comparison with ordinary palindromic length. We determine all first equal-cost occurrences and the exact logarithmic upper growth rate of the combined length. Frid's recurrence also yields prefixes attaining the factor-two endpoint at every positive combined cost.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "106c79bbb6571a3dc7c60f4b2146860d56e88fc5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/106c79bbb6571a3dc7c60f4b2146860d56e88fc5/D5/S1/Words/Palindromes/ThueMorseSharpPrefix.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 83595,
+        "sha256": "cbb0bcf92a1f73e49dd576b6790fa7aac001ce6bcebe37eb3a555b12774ba0a9",
+        "url": "/api/v1/collected-papers/ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T03:25:41.596483230Z",
+      "record": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs",
+      "repository_name": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs",
+      "source": {
+        "bytes": 15781,
+        "sha256": "22b635b5a533a68f55930da395f6b9e1e5a490ffd3b983c6058b5689219d4a02",
+        "url": "/api/v1/collected-papers/ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs/files/source?version=2"
+      },
+      "title": "A signed-weight extension of Frid's recurrence for the Thue–Morse prefix problems of Ambrož, Kadlec, Masáková and Pelantová",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T03:25:41.596483230Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs"
+    },
+    {
       "abstract_text": "For Arvind–Cameron–Ma–Maslova's Question 4, second sentence, in Section 9, p. 40 of arXiv:2305.07301v5 (27 July 2025), we extend the examples attributed there to Eamonn O'Brien to non-isoclinic groups of order q^6 with isomorphic full commuting graphs for every prime power q = p^f, including characteristic two, using residue-field coordinate charts for Heisenberg groups over two rings of order q^2. Their derived groups are (C_(p^2))^f and (C_p)^(2f). The common graph is chordal and perfect but neither a cograph, a split graph nor a threshold graph; its clique structure and degree distribution are explicit. The case f = 1 answers the posed all-prime question, and abelian factors give examples of every order p^n with n >= 6.",
       "authors": [
         {
@@ -623,9 +670,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24487479",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24487480",
       "lean_source": {
         "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
         "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Analytic/PowerSeries/BalaBilateralLog.lean#L368"
@@ -1552,6 +1599,53 @@
       "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
     },
     {
+      "abstract_text": "Extending Mwafise's five-cycle example (26 October 2026, v1.0.0, README §4.4), we answer Problem 6.11 of Cheon, Jung, Kitaev and Mojallal, Riordan graphs II: Spectral properties, arXiv:1801.07021v1 (2018), p. 25, negatively: G_5(1+z^3,z(1+z^3)) is C_5 with inertia (3,2,0). The construction G_n(1+z^{n-2},z(1+z^{n-2}))=C_n yields counterexamples at every order 4q+1>=5. We prove minimality among all simple graphs, extend their even-series criterion to a finite-prefix characterization of bipartiteness for proper Bell-type graphs, and show that their absolute inertia bound is sharp at every order n>=2.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 74063,
+        "sha256": "f5ca39ea52a83175404fbeea09d24d790efe0c9b452db8344f4db39a83af22e6",
+        "url": "/api/v1/collected-papers/cheon-riordan-bell-inertia-611/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T02:38:05.008486167Z",
+      "record": "cheon-riordan-bell-inertia-611",
+      "repository_name": "cheon-riordan-bell-inertia-611",
+      "source": {
+        "bytes": 13616,
+        "sha256": "afaa8ca5539f0eb34a2db472f35eee2806be746208ad2af8546fb27a75141883",
+        "url": "/api/v1/collected-papers/cheon-riordan-bell-inertia-611/files/source?version=3"
+      },
+      "title": "Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T02:38:05.008486167Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "cheon-riordan-bell-inertia-611"
+    },
+    {
       "abstract_text": "We prove the conjecture in §2.9 of Lester, Haddadin and Gripaios, Lorentz and permutation invariants of particles III (arXiv:2008.05206v6), that their three-variable sets S and S-hat are minimal for their respective four-particle event classes. Any two continuous, Lorentz- and pair-permutation-invariant, parity-odd real variables vanish together on a chiral collision event. The proof constructs a sphere consisting entirely of chiral events, on which parity acts antipodally up to the allowed symmetries, and applies the two-dimensional Borsuk-Ulam theorem. The same obstruction holds for strictly timelike, momentum-completable collisions with any number of additional interchangeable momenta, and for fully interchangeable collections of at least four momenta.",
       "authors": [
         {
@@ -1610,9 +1704,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24487233",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24487234",
       "lean_source": {
         "revision": "0ad94071772b2f32b432905d088bfce029d8d29e",
         "url": "https://github.com/the-omega-institute/trureturing/blob/0ad94071772b2f32b432905d088bfce029d8d29e/D5/S3/Combinatorics/Graph/Potts/HealingUnbounded.lean"
@@ -2022,6 +2116,53 @@
       "work": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance"
     },
     {
+      "abstract_text": "Using Munagi's residue-class criterion (2008, Theorem 3.1) and extending Flowers and Lockard's construction (2021, Lemma 4.2, p. 467), we answer Questions 5.12–5.14 of Dietz, Flowers and Lockard's A study of m-ary partitions whose conjugates are q-ary (2026, §5, p. 404) in their self-conjugate setting: among conjugate m-ary partitions, the first odd exponent admitting a self-conjugate partition for even m is m+1, the first exponent admitting a non-square self-conjugate partition for any m is m+1, and odd exponents are impossible for odd m. A row-multiplicity identity gives N ≡ H+W−1 modulo (m−1)(q−1) for conjugate (m,q)-ary partitions. For partitions of m^r it yields a positive exponent defect divisible by m−1 whenever the diagram is not rectangular. This proves the exact nonrectangular threshold and, with the credited constructions, classifies all exponents admitting a non-square self-conjugate partition.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 82404,
+        "sha256": "79f35a702bf7a1084eebe0a3e5a38335bb097f7ba73d57c01d2c176826a3ae6b",
+        "url": "/api/v1/collected-papers/dfl514-selfconj/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T02:58:36.002103243Z",
+      "record": "dfl514-selfconj",
+      "repository_name": "dfl514-selfconj",
+      "source": {
+        "bytes": 15051,
+        "sha256": "a04ff2d6e162186cecffa7a103f06be013360103a375b316f0afc460cd399bcc",
+        "url": "/api/v1/collected-papers/dfl514-selfconj/files/source?version=2"
+      },
+      "title": "Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T02:58:36.002103243Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "dfl514-selfconj"
+    },
+    {
       "abstract_text": "Extending the canonical-state bounds of Milne et al. (2014) and Morelli et al. (2023) and the filtering examples of Mukherjee, Patro and Ganguly (2021), we prove the F3 part of the QSE conjecture of Ducuara, Susa and Skrzypczyk (2024), arXiv:2406.03945v1, Section II, p. 3, by establishing F3(rho) <= max(sqrt(3(1-c_B)), 1) for every two-qubit state, where c_B is the length of Bob's steering-ellipsoid centre. Every 0 <= c_B < 2/3 occurs for a state with F3 > 1, so the exact violation threshold is 2/3, rather than the reported numerical estimate 0.66. The bound follows from a purity estimate after marginal whitening and three positive spin-flip overlaps. It makes the one-sided filtering criterion of their Result 2 unconditional at the corrected threshold. We determine the full one-sided optimum for their quasi-distillable family, certify their other two example families, and derive the sharp companion CHSH and fully entangled fraction bounds conjectured by Milne et al. (2014), Section V, Conjectures 1-2.",
       "authors": [
         {
@@ -2080,9 +2221,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24487342",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24487343",
       "lean_source": {
         "revision": "88be2a120b67a9d9e724eaae970c8263d0a0e9a4",
         "url": "https://github.com/the-omega-institute/trureturing/blob/88be2a120b67a9d9e724eaae970c8263d0a0e9a4/D5/S3/QuadraticForms/AccumulatedSparseRefutation.lean"
@@ -2821,6 +2962,53 @@
       "work": "hanna-self-substitution-integrality"
     },
     {
+      "abstract_text": "For Paul D. Hanna's conjecture in OEIS A226838, revision 14, FORMULA, we prove that every factorial-normalized coefficient of exp(sum_{m>=1} x^(m^2)/m^m) is an integer congruent to one modulo six by Carlitz's coefficient recurrence, and extend Sela Fried's Theorem 3 (2025, page 3) on Yanev's divisor-sum identity to all positive exponents. The same argument proves the modulo-three and modulo-thirty conjectures in A226839 and A226890, with all three uniform moduli optimal. A necessary and sufficient coefficient criterion gives a sharp weighted extension; the linked divisor-sum entry's elementary identities also follow.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 85103,
+        "sha256": "32052bf3d07e00c4b75a2732de6c1756b6b9f4594d0d2123c7d28a01d863ca48",
+        "url": "/api/v1/collected-papers/hanna-square-exponent-and-related-congruences/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T02:43:41.407227852Z",
+      "record": "hanna-square-exponent-and-related-congruences",
+      "repository_name": "hanna-square-exponent-and-related-congruences",
+      "source": {
+        "bytes": 15989,
+        "sha256": "0572ce73315891469306f42f29884d0acf3a8d485925616802039d312168dabd",
+        "url": "/api/v1/collected-papers/hanna-square-exponent-and-related-congruences/files/source?version=2"
+      },
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T02:43:41.407227852Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
       "abstract_text": "In the COMMENT sections of OEIS A350410 and A350411 (revision 5) and A350412 (revision 9), Paul D. Hanna conjectured that the three sequences consist entirely of integers; we prove all three conjectures. Their factorial denominators cancel by a coefficient-divisibility identity. For each series we also establish existence and uniqueness over the rationals. More generally, a degree-dependent cutoff M_n >= 1 gives the same conclusions whenever gcd(n,M_n^2) divides M_n, with any prescribed integer linear coefficient. This arithmetic condition is necessary and sufficient for the last denominator to cancel for every integer polynomial, and the solutions depend homogeneously on the prescribed linear coefficient. All defining sums are finite sums of formal power series.",
       "authors": [
         {
@@ -3020,9 +3208,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24487245",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24487246",
       "lean_source": {
         "revision": "e072713035e715a2a3a08b13040b1d6e5e552731",
         "url": "https://github.com/the-omega-institute/trureturing/blob/e072713035e715a2a3a08b13040b1d6e5e552731/D5/S3/Combinatorics/TraceArrays/HardinA185858.lean"
@@ -3996,6 +4184,53 @@
       "work": "kim-stolarsky-eventual-three-prefix-conjecture"
     },
     {
+      "abstract_text": "For Kimberling's conjecture in the second Comments line of OEIS A371279, revision 11, and A371280, revision 10, we prove that the prescribed ordered construction enumerates the rationals in (0,1] exactly once, by extending the denominator descent for the BMO–Kepler closure lemma in Saha (2025, Solution 14) and Grytczuk–Kisielewicz–Przesławski (2026, Theorem 6.2). For 1 <= p <= q, the fraction p/q belongs to the first q generations, whose minimum is 2^(1-q); a continued-fraction digit sum gives a further generation bound. We determine every position's multiplicity in the related array A371353, correcting its prime-occurrence assertion and displayed examples. We also give short proofs of the linked rational-closure results of Kimberling and Moses (2014).",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "f3466406d8191001830cf15e84db4578d4891435",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f3466406d8191001830cf15e84db4578d4891435/D5/S3/Arith/CounterSequences/KimberlingA371279.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 79902,
+        "sha256": "0a7a18763e811cf4190c298cc977fece4df49365adb433566edc07fd8aa1d32b",
+        "url": "/api/v1/collected-papers/kimberling-rational-enumeration/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T03:36:46.225133737Z",
+      "record": "kimberling-rational-enumeration",
+      "repository_name": "kimberling-rational-enumeration",
+      "source": {
+        "bytes": 13881,
+        "sha256": "1c79126620dd6405871d3ea9881d58b2082f01ee9345e736b957bb57c49ebea1",
+        "url": "/api/v1/collected-papers/kimberling-rational-enumeration/files/source?version=2"
+      },
+      "title": "Kimberling's rational-enumeration conjecture: an extension of the BMO–Kepler closure lemma",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T03:36:46.225133737Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "kimberling-rational-enumeration"
+    },
+    {
       "abstract_text": "Conjecture 4.2 of Klanderman, Lewis, Monson, Shibata and Van Niel, in Characterizing Transfer Systems for Non-Abelian Groups, arXiv:2511.13439v2, Section 4, printed page 15, receives an explicit correction by an elementary derivation from DeMark et al.’s tulip theorem (arXiv:2604.00335v1, 1 April 2026, Proposition 3.17) and the hull theorem of Mazur et al. (2024, Proposition 2.14). Under the conjecture’s two-component hypothesis with isolated top, the transfer system is non-LSP precisely when the group order is composite, and its ordinary generated extension is compatible precisely when the original system is saturated. The non-LSP classification needs only top isolation, not two components; under the original hypotheses, all compatible partners form the lattice of conjugation-invariant order ideals of proper subgroups. On Q8, the system consisting of identities and e to H for every proper subgroup H violates compatibility: the generated extension omits {±1} to <i>. The classification also identifies the least compatible extension containing e to G and separates ordinary transfer generation from compatibility closure.",
       "authors": [
         {
@@ -4607,6 +4842,53 @@
       "work": "liu-wesolowski-2026-ordinary-fractional-evolution"
     },
     {
+      "abstract_text": "We answer Question 9.3 of Luo, McCullough and Tsikalas, Beurling Criteria for Reproducing Kernels, arXiv:2607.25088v2 (2026), page 45, negatively on a three-point set: a rank-two source kernel forces constant full interpolation data, while positive retraction quotients extend every proper datum at every matrix size. The source kernel is non-vanishing, the target kernel is strictly positive definite, and their entrywise quotient has quadratic form -10/33 at (-2,1,1). Three points and source rank two are minimal. A diagonal perturbation gives a one-parameter family with the same negative answer. The family is neither complete Pick, Beurling–Lax–Halmos, complete pseudo-Leech, nor weakly Agler-decomposable.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/HilbertOperators/ReproducingKernels/CompletePseudoPickQuotientRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 96843,
+        "sha256": "2597e1a3539b31b744193ecb7bf20bf23a687fd60d55060b238094095529c25e",
+        "url": "/api/v1/collected-papers/luo-mccullough-tsikalas-pseudo-pick-quotient/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T02:44:37.162183442Z",
+      "record": "luo-mccullough-tsikalas-pseudo-pick-quotient",
+      "repository_name": "luo-mccullough-tsikalas-pseudo-pick-quotient",
+      "source": {
+        "bytes": 16645,
+        "sha256": "6ebc2f53078d8d043503576fe45b3d940b5bc3a1caa5ce7cc8721715c85838cd",
+        "url": "/api/v1/collected-papers/luo-mccullough-tsikalas-pseudo-pick-quotient/files/source?version=2"
+      },
+      "title": "A three-point negative answer to Luo–McCullough–Tsikalas's pseudo-Pick quotient question",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T02:44:37.162183442Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "luo-mccullough-tsikalas-pseudo-pick-quotient"
+    },
+    {
       "abstract_text": "We prove Peter Luschny's conjecture in OEIS A323206, COMMENTS, revision 52 (first posed in revision 17, February 21, 2019): for all nonnegative n,k, the terminating hypergeometric value A(n,k) is odd precisely when n is even or k+2 is a positive power of two. Its coefficients are integer ballot numbers, and their sum is C_(k+1). Thus evaluation modulo two reduces to the constant coefficient or a Catalan number. A binary product describes the complete coefficient support; its consequences include the linked rows, columns, three adjacent diagonals, antidiagonal sums and generalized ballot triangle.",
       "authors": [
         {
@@ -4759,9 +5041,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24487347",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24487348",
       "lean_source": {
         "revision": "1ff680e6cc902e88cfbba1b684826388e2ac8d37",
         "url": "https://github.com/the-omega-institute/trureturing/blob/1ff680e6cc902e88cfbba1b684826388e2ac8d37/D5/S3/Arith/TwistedDerivations/ManjuSharmaConjectureFiveTwo.lean"
@@ -5737,6 +6019,53 @@
       "work": "nath2021-commuting-cn-conjecture2"
     },
     {
+      "abstract_text": "Using the cycle example of Mináč, Muller, Nguyen and Tân (2022, Corollary 2.5), we give a short negative answer to Nguyen and Tân's Question 4.17 (arXiv:2508.10348v1, Section 4.3, p. 19): Γ(Z/8Z,{1,−1}) = C₈ is prime, connected and anti-connected, with adjacency nullity two. More generally, C_n has these graph properties for n ≥ 5 and is singular exactly when 4 divides n. Extending Chen's binary polynomial construction with the tensor spectrum described by Sander, we realize every Hamming graph H(d,q) over a prime-power alphabet as a subgroup-unit Cayley graph of a Frobenius group algebra. For d ≥ 2, except (d,q)=(2,2), it is prime and anti-connected; it is singular exactly when q divides d, with nullity binomial(d,d(q−1)/q)(q−1)^(d(q−1)/q). These examples also answer Question 2.20 of arXiv:2603.21239v1 negatively. Finally, a short proof of Hendrickson's duality answers the supercharacter-axiom question in Remark 2.2 of the first source affirmatively.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "2eae85555e169007ff5548c46eb63cd2408f877f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2eae85555e169007ff5548c46eb63cd2408f877f/D5/S3/ArithUnits/NguyenTanUnitaryCayleyPrimeSpectrum.lean#L669"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 101692,
+        "sha256": "1eb1c9c9e9e88fff3e65154f677afc42ca4e93ba3f8cfb46df46cd7771454bf1",
+        "url": "/api/v1/collected-papers/nguyen-tan-unitary-cayley-prime-zero-eigenvalue/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T03:13:43.315281256Z",
+      "record": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue",
+      "repository_name": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue",
+      "source": {
+        "bytes": 20896,
+        "sha256": "f5a985e4494242966e5b9cbd3e6cdba1e6a700edeed9dc281767584544fcaed6",
+        "url": "/api/v1/collected-papers/nguyen-tan-unitary-cayley-prime-zero-eigenvalue/files/source?version=2"
+      },
+      "title": "Hamming extensions and a short proof from Mináč et al.'s cycle answering Nguyen and Tân's primeness question",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T03:13:43.315281256Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue"
+    },
+    {
       "abstract_text": "Extending Glaisher's (1900) congruence to exact literal-remainder counts, we determine OEIS A222759 and prove Noe's growth assertion in its first comment (12 March 2013; revision 12, 2 November 2024). For every positive integer n, its conjectured count equals pi(floor(n^(1/3))) plus two explicit corrections supported below 27. Consequently, for every k >= 3, the count is at least k exactly when n >= p_k^3, sharpening the stated sufficient threshold p_(p_k^3). The same description determines A222760, including its exceptional relation to A222759 at n=5. We give a self-contained proof, the counts modulo p and p^2, and elementary consequences for the linked prime-counting entries.",
       "authors": [
         {
@@ -5829,6 +6158,53 @@
         }
       ],
       "work": "oeis-a086205-bala-complex-shift-determinant-refutation"
+    },
+    {
+      "abstract_text": "We give an alternative proof of both clauses of Ivan N. Ianakiev's August 20, 2019 conjecture in OEIS A094373 (revision 86, comment at export line 13) from the Zimin-word theorem of Fici, Gagie, Kärkkäinen and Kempa (2014, Section 5, Lemma 12 and its proof) and the factorial-plateau identity of Kullmann and Zhao (2015, Lemma 3.11): the shortest nontrivial palindrome starting at position i>=2 in the run-length sequence of A007843 has length 2^(nu_2(i-1)+1)+1. Equal endpoint valuations give the lower bound, and reflection about a multiple of a larger power of two attains it. Consequently, the complete first-occurrence list is 1,2,3,5,9,..., and P(A(m-1))=A(m) for every m>=2. We also characterize every palindromic factor, transfer the same minima to divisor-power quotients, and deduce Ianakiev's four related assertions on A296306, crediting the earlier answers of Hasler and Bala.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "3afaecc5507038586e39d8775afe7c0df3d4fc48",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3afaecc5507038586e39d8775afe7c0df3d4fc48/D5/S1/Words/Palindromes/IanakievShortestRulerPalindrome.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 115459,
+        "sha256": "4ab41e5bf363a06ecc4f4bb0f96f526640831a080c7a6c9d8844273262ebc6b7",
+        "url": "/api/v1/collected-papers/oeis-a094373-ianakiev-shortest-ruler-palindrome/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T03:12:45.410500073Z",
+      "record": "oeis-a094373-ianakiev-shortest-ruler-palindrome",
+      "repository_name": "oeis-a094373-ianakiev-shortest-ruler-palindrome",
+      "source": {
+        "bytes": 19135,
+        "sha256": "52247842ad275b17142e7c97deeb783225da8763d94a626ed4727e89b81be5bc",
+        "url": "/api/v1/collected-papers/oeis-a094373-ianakiev-shortest-ruler-palindrome/files/source?version=2"
+      },
+      "title": "An alternative proof of Ianakiev's shortest-palindrome conjecture via Fici and collaborators' Zimin-word theorem",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T03:12:45.410500073Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "oeis-a094373-ianakiev-shortest-ruler-palindrome"
     },
     {
       "abstract_text": "We give alternative proofs of Jamie Morken's two conjectures in OEIS A112399, revision 41, FORMULA (18 September 2026), following the finite coprimality identity of Sander and Sander (2009) and equivalent identities of Ramaré (2014–2015). Both coprime Möbius sum identities hold with an arbitrary nonnegative integer cutoff. Complete finite derivations cover the A400203 triangle, the rectangular A372700 identity, and nearby divisor and gcd transforms, with their earlier proofs and formula records distinguished. We correct the strict endpoint in A304575's name and the signed-variant convention in A112526. The product identity is reproved with credit to Bala (2026).",
@@ -5936,9 +6312,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24487648",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24487649",
       "lean_source": {
         "revision": "549945461571e5d29c740b71d3b02651c85044f5",
         "url": "https://github.com/the-omega-institute/trureturing/blob/549945461571e5d29c740b71d3b02651c85044f5/D5/S3/Combinatorics/Graph/Domination/BishopMaximalPlacementGrowth.lean"
@@ -5983,9 +6359,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24487650",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24487651",
       "lean_source": {
         "revision": "962b1e14510f845c23345d34b4fb8205b2ddc2bd",
         "url": "https://github.com/the-omega-institute/trureturing/blob/962b1e14510f845c23345d34b4fb8205b2ddc2bd/D5/S1/Recurrence/Algebraic/MatharA157100FiveTermRecurrence.lean"

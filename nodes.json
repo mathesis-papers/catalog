@@ -2631,6 +2631,334 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "106c79bbb6571a3dc7c60f4b2146860d56e88fc5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/106c79bbb6571a3dc7c60f4b2146860d56e88fc5/D5/S1/Words/Palindromes/ThueMorseSharpPrefix.lean"
+      },
+      "lineage": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:s1",
+      "macros": {
+        "\\cl": "\\operatorname{cpl}",
+        "\\pl": "\\operatorname{pl}",
+        "\\rev": "\\operatorname{rev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq0$,\n\\[\n C(n)=W(n),\\qquad C(n)\\leq P(n)\\leq2C(n).\n\\]\nBoth endpoints are attained at every positive combined cost: for every\n$k\\geq1$ there are positive prefix lengths $a,b$ with\n$P(a)=C(a)=k$ and $P(b)=2C(b)=2k$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A signed-weight extension of Frid's recurrence for the Thue–Morse prefix problems of Ambrož, Kadlec, Masáková and Pelantová",
+      "toolchain": null,
+      "version": 2,
+      "work": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "106c79bbb6571a3dc7c60f4b2146860d56e88fc5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/106c79bbb6571a3dc7c60f4b2146860d56e88fc5/D5/S1/Words/Palindromes/ThueMorseSharpPrefix.lean"
+      },
+      "lineage": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:s2",
+      "macros": {
+        "\\cl": "\\operatorname{cpl}",
+        "\\pl": "\\operatorname{pl}",
+        "\\rev": "\\operatorname{rev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs",
+      "scope": "in_scope",
+      "statement": "We have $W(0)=0$ and $W(1)=1$. For $z\\in\\mathbb Z$ and $m\\geq0$,\n\\begin{align}\n W(-z)&=W(z),\n &|W(z+1)-W(z)|&\\leq1,\\\\\n W(2m)&=W(m),\n &W(2m+1)&=1+\\min\\{W(m),W(m+1)\\}.\n\\end{align}\nConsequently,\n\\begin{align}\n W(4m)&=W(m),&W(4m+1)&=W(m)+1,\\nonumber\\\\\n W(4m+2)&=1+\\min\\{W(m),W(m+1)\\},\n &W(4m+3)&=W(m+1)+1.\n\\end{align}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A signed-weight extension of Frid's recurrence for the Thue–Morse prefix problems of Ambrož, Kadlec, Masáková and Pelantová",
+      "toolchain": null,
+      "version": 2,
+      "work": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "106c79bbb6571a3dc7c60f4b2146860d56e88fc5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/106c79bbb6571a3dc7c60f4b2146860d56e88fc5/D5/S1/Words/Palindromes/ThueMorseSharpPrefix.lean"
+      },
+      "lineage": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:s3",
+      "macros": {
+        "\\cl": "\\operatorname{cpl}",
+        "\\pl": "\\operatorname{pl}",
+        "\\rev": "\\operatorname{rev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs",
+      "scope": "in_scope",
+      "statement": "If $0\\leq i<j$ and $t[i:j)$ is allowed, then\n\\begin{equation}\n W(j)\\leq W(i)+1.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A signed-weight extension of Frid's recurrence for the Thue–Morse prefix problems of Ambrož, Kadlec, Masáková and Pelantová",
+      "toolchain": null,
+      "version": 2,
+      "work": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "106c79bbb6571a3dc7c60f4b2146860d56e88fc5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/106c79bbb6571a3dc7c60f4b2146860d56e88fc5/D5/S1/Words/Palindromes/ThueMorseSharpPrefix.lean"
+      },
+      "lineage": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:s4",
+      "macros": {
+        "\\cl": "\\operatorname{cpl}",
+        "\\pl": "\\operatorname{pl}",
+        "\\rev": "\\operatorname{rev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs",
+      "scope": "in_scope",
+      "statement": "Set $a_0=1$ and $a_{r+1}=4a_r-1$. Then for every $r\\geq0$,\n\\[\n a_r=\\frac{2\\cdot4^r+1}{3},\\qquad P(a_r)=C(a_r)=r+1.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A signed-weight extension of Frid's recurrence for the Thue–Morse prefix problems of Ambrož, Kadlec, Masáková and Pelantová",
+      "toolchain": null,
+      "version": 2,
+      "work": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "106c79bbb6571a3dc7c60f4b2146860d56e88fc5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/106c79bbb6571a3dc7c60f4b2146860d56e88fc5/D5/S1/Words/Palindromes/ThueMorseSharpPrefix.lean"
+      },
+      "lineage": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:s5",
+      "macros": {
+        "\\cl": "\\operatorname{cpl}",
+        "\\pl": "\\operatorname{pl}",
+        "\\rev": "\\operatorname{rev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs",
+      "scope": "in_scope",
+      "statement": "For $k\\geq1$, put $g_k=(2\\cdot4^{k-1}+1)/3$. Then\n\\[\n \\min\\{n\\geq1:C(n)=k\\}\n =\\min\\{n\\geq1:P(n)=C(n)=k\\}=g_k.\n\\]\nThus every first occurrence in Table~2 of \\cite{AKMP} follows from the\nsame formula, not just its finitely many displayed rows.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A signed-weight extension of Frid's recurrence for the Thue–Morse prefix problems of Ambrož, Kadlec, Masáková and Pelantová",
+      "toolchain": null,
+      "version": 2,
+      "work": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "106c79bbb6571a3dc7c60f4b2146860d56e88fc5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/106c79bbb6571a3dc7c60f4b2146860d56e88fc5/D5/S1/Words/Palindromes/ThueMorseSharpPrefix.lean"
+      },
+      "lineage": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:s6",
+      "macros": {
+        "\\cl": "\\operatorname{cpl}",
+        "\\pl": "\\operatorname{pl}",
+        "\\rev": "\\operatorname{rev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs",
+      "scope": "in_scope",
+      "statement": "For the zero-start mixed prefix cost,\n\\[\n \\limsup_{n\\to\\infty}\\frac{C(n)}{\\ln n}=\\frac1{\\ln4},\n \\qquad \\liminf_{n\\to\\infty}\\frac{C(n)}{\\ln n}=0.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A signed-weight extension of Frid's recurrence for the Thue–Morse prefix problems of Ambrož, Kadlec, Masáková and Pelantová",
+      "toolchain": null,
+      "version": 2,
+      "work": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "106c79bbb6571a3dc7c60f4b2146860d56e88fc5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/106c79bbb6571a3dc7c60f4b2146860d56e88fc5/D5/S1/Words/Palindromes/ThueMorseSharpPrefix.lean"
+      },
+      "lineage": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:s7",
+      "macros": {
+        "\\cl": "\\operatorname{cpl}",
+        "\\pl": "\\operatorname{pl}",
+        "\\rev": "\\operatorname{rev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs",
+      "scope": "in_scope",
+      "statement": "A nonempty Thue--Morse prefix is a palindrome exactly when its length\nis $4^r$, and an antipalindrome exactly when its length is $2\\cdot4^r$,\nwhere $r\\geq0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A signed-weight extension of Frid's recurrence for the Thue–Morse prefix problems of Ambrož, Kadlec, Masáková and Pelantová",
+      "toolchain": null,
+      "version": 2,
+      "work": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "106c79bbb6571a3dc7c60f4b2146860d56e88fc5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/106c79bbb6571a3dc7c60f4b2146860d56e88fc5/D5/S1/Words/Palindromes/ThueMorseSharpPrefix.lean"
+      },
+      "lineage": "collected:ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs:s8",
+      "macros": {
+        "\\cl": "\\operatorname{cpl}",
+        "\\pl": "\\operatorname{pl}",
+        "\\rev": "\\operatorname{rev}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs",
+      "scope": "in_scope",
+      "statement": "Let $F(n)=64n+10$. For every $n\\geq0$,\n\\[\n P(F(n))=P(n)+4,\\qquad C(F(n))=C(n)+2.\n\\]\nIn particular, if $v_0=0$, $z_0=2$, and\n$v_{r+1}=F(v_r)$, $z_{r+1}=F(z_r)$, then\n\\[\n (P(v_r),C(v_r))=(4r,2r),\\qquad\n (P(z_r),C(z_r))=(4r+2,2r+1).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A signed-weight extension of Frid's recurrence for the Thue–Morse prefix problems of Ambrož, Kadlec, Masáková and Pelantová",
+      "toolchain": null,
+      "version": 2,
+      "work": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:arvind-commuting-graph-prime-sixth-order:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -8710,6 +9038,258 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:cheon-riordan-bell-inertia-611:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
+      },
+      "lineage": "collected:cheon-riordan-bell-inertia-611:s1",
+      "macros": {
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\nm": "n^-",
+        "\\np": "n^+"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "cheon-riordan-bell-inertia-611",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\geq3$, put $g_n(z)=1+z^{n-2}$ and $f_n(z)=zg_n(z)$.\nThen $G_n(g_n,f_n)=C_n$ with the stated labels. Conversely, a generator\ngives this labelled cycle only if its binary coefficients through degree\n$n-2$ agree with $1+z^{n-2}$. Write $n=4q+r$,\nwhere $q=\\lfloor n/4\\rfloor$ and $0\\leq r\\leq3$. Then\nits inertia is as follows, for every row with $n\\geq3$:\n\\[\n\\begin{array}{c|ccc}\n r&\\np&\\nm&n^0\\\\\\hline\n 0&2q-1&2q-1&2\\\\\n 1&2q+1&2q&0\\\\\n 2&2q+1&2q+1&0\\\\\n 3&2q+1&2q+2&0\n\\end{array}\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question",
+      "toolchain": null,
+      "version": 3,
+      "work": "cheon-riordan-bell-inertia-611"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:cheon-riordan-bell-inertia-611:3:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
+      },
+      "lineage": "collected:cheon-riordan-bell-inertia-611:s2",
+      "macros": {
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\nm": "n^-",
+        "\\np": "n^+"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "cheon-riordan-bell-inertia-611",
+      "scope": "in_scope",
+      "statement": "Problem 6.11 has a negative answer. At every order $n=4q+1$,\n$q\\geq1$, a proper Bell-type graph has $\\np=2q+1>2q=\\nm$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question",
+      "toolchain": null,
+      "version": 3,
+      "work": "cheon-riordan-bell-inertia-611"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:cheon-riordan-bell-inertia-611:3:s3",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
+      },
+      "lineage": "collected:cheon-riordan-bell-inertia-611:s3",
+      "macros": {
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\nm": "n^-",
+        "\\np": "n^+"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "cheon-riordan-bell-inertia-611",
+      "scope": "in_scope",
+      "statement": "Every simple graph on at most four vertices satisfies $\\np\\leq\\nm$.\nThus five is the smallest possible counterexample order.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question",
+      "toolchain": null,
+      "version": 3,
+      "work": "cheon-riordan-bell-inertia-611"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:cheon-riordan-bell-inertia-611:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
+      },
+      "lineage": "collected:cheon-riordan-bell-inertia-611:s4",
+      "macros": {
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\nm": "n^-",
+        "\\np": "n^+"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "cheon-riordan-bell-inertia-611",
+      "scope": "in_scope",
+      "statement": "Every Bell-type graph satisfies\n$\\max\\{\\np,\\nm\\}\\leq\\lceil n/2\\rceil$, as proved in\n\\cite[Corollary 6.6, p.~24]{CJKM}. For every $n\\geq2$ the bound is\nattained by a proper Bell-type graph. If $n$ is even and the graph is\nnonsingular, then $\\np=\\nm=n/2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question",
+      "toolchain": null,
+      "version": 3,
+      "work": "cheon-riordan-bell-inertia-611"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:cheon-riordan-bell-inertia-611:3:s5",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
+      },
+      "lineage": "collected:cheon-riordan-bell-inertia-611:s5",
+      "macros": {
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\nm": "n^-",
+        "\\np": "n^+"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "cheon-riordan-bell-inertia-611",
+      "scope": "in_scope",
+      "statement": "For $n\\geq1$ and odd $g(0)$, $G_n(g,zg)$ is bipartite if and only if\nevery odd-degree coefficient $[z^d]g$, $1\\leq d\\leq n-2$, is even.\nThen $\\np=\\nm$. For arbitrary $g(0)$ the coefficient condition is\nstill sufficient for bipartiteness and equality of the strict indices.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question",
+      "toolchain": null,
+      "version": 3,
+      "work": "cheon-riordan-bell-inertia-611"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:cheon-riordan-bell-inertia-611:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
+      },
+      "lineage": "collected:cheon-riordan-bell-inertia-611:s6",
+      "macros": {
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z",
+        "\\nm": "n^-",
+        "\\np": "n^+"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "cheon-riordan-bell-inertia-611",
+      "scope": "in_scope",
+      "statement": "Equal strict inertia indices do not characterize bipartiteness,\neven among proper Bell-type graphs.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question",
+      "toolchain": null,
+      "version": 3,
+      "work": "cheon-riordan-bell-inertia-611"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:chiral-event-parity-minimality:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -11252,6 +11832,228 @@
       "toolchain": null,
       "version": 4,
       "work": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:dfl514-selfconj:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
+      },
+      "lineage": "collected:dfl514-selfconj:s1",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "dfl514-selfconj",
+      "scope": "in_scope",
+      "statement": "Let $m,q\\geq2$. Every nonempty conjugate $(m,q)$-ary partition of $N$,\nwith width $W$ and height $H$, satisfies\n\\begin{equation}\n N\\equiv H+W-1\\pmod{(m-1)(q-1)}.\n\\end{equation}\nFor a self-conjugate CMP this gives\n\\begin{equation}\n N\\equiv 2W-1\\pmod{(m-1)^2}.\n\\end{equation}\nIf $m$ is odd, it also gives $N\\equiv1\\pmod{2(m-1)}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction",
+      "toolchain": null,
+      "version": 2,
+      "work": "dfl514-selfconj"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:dfl514-selfconj:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
+      },
+      "lineage": "collected:dfl514-selfconj:s2",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "dfl514-selfconj",
+      "scope": "in_scope",
+      "statement": "Let a nonrectangular CMP of $m^r$, $m\\geq2$, have width $m^a$\nand height $m^b$. Then\n\\[\n 1\\leq a+b-r\\leq r-2,\\qquad m-1\\mid a+b-r.\n\\]\nIn particular $r\\geq m+1$. If it is self-conjugate, $a=b$ and\n\\begin{equation}\n 1\\leq 2a-r\\leq r-2,\\qquad m-1\\mid 2a-r.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction",
+      "toolchain": null,
+      "version": 2,
+      "work": "dfl514-selfconj"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:dfl514-selfconj:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
+      },
+      "lineage": "collected:dfl514-selfconj:s3",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "dfl514-selfconj",
+      "scope": "in_scope",
+      "statement": "A nonrectangular CMP of $m^r$, for $m\\geq2$ and $r\\geq0$, exists\nexactly when $r\\geq m+1$. If $C_m(N)$ counts the CMPs of $N$, then\n\\[\n C_m(m^r)=r+1\\quad(0\\leq r\\leq m),\\qquad\n C_m(m^r)>r+1\\quad(r\\geq m+1).\n\\]\nThe smallest non-square self-conjugate CMP of a power of $m$ has size\n$m^{m+1}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction",
+      "toolchain": null,
+      "version": 2,
+      "work": "dfl514-selfconj"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:dfl514-selfconj:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
+      },
+      "lineage": "collected:dfl514-selfconj:s4",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "dfl514-selfconj",
+      "scope": "in_scope",
+      "statement": "For every odd $m\\geq3$ and every $s\\geq0$, no self-conjugate CMP of\n$m^{2s+1}$ exists. A self-conjugate CMP of $m^r$, $r\\geq0$, exists\nif and only if $r$ is even.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction",
+      "toolchain": null,
+      "version": 2,
+      "work": "dfl514-selfconj"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:dfl514-selfconj:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
+      },
+      "lineage": "collected:dfl514-selfconj:s5",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "dfl514-selfconj",
+      "scope": "in_scope",
+      "statement": "A non-square self-conjugate CMP of $m^r$, $m\\geq2$, $r\\geq0$, exists\nexactly in these cases:\n\\[\n\\begin{array}{c|c}\n\\text{base and exponent parity}&\\text{necessary and sufficient range}\\\\\\hline\nm\\text{ odd},\\ r\\text{ even}&r\\geq m+1\\\\\nm\\text{ even},\\ r\\text{ odd}&r\\geq m+1\\\\\nm\\text{ even},\\ r\\text{ even}&r\\geq2m.\n\\end{array}\n\\]\nFor odd $m$ and odd $r$ none exists. Allowing squares, a self-conjugate\nCMP exists precisely when $r$ is even or when $m$ is even and $r\\geq m+1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction",
+      "toolchain": null,
+      "version": 2,
+      "work": "dfl514-selfconj"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:dfl514-selfconj:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
+      },
+      "lineage": "collected:dfl514-selfconj:s6",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "dfl514-selfconj",
+      "scope": "in_scope",
+      "statement": "Let $A_{m,q}(X)$ count the positive integers at most $X$ having a\nconjugate $(m,q)$-ary partition. If\n$m^{-1/2}+q^{-1/2}<1$, then $A_{m,q}(X)/X\\to0$ as $X\\to\\infty$.\nThe same conclusion holds for $(m,q)=(4,4)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction",
+      "toolchain": null,
+      "version": 2,
+      "work": "dfl514-selfconj"
     },
     {
       "attribution": null,
@@ -16418,6 +17220,318 @@
       "toolchain": null,
       "version": 3,
       "work": "hanna-self-substitution-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s1",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "Let $H(x)=\\sum_{j\\geq1}b_jx^j/j!$ with $b_j\\in\\mathbb Z$, and write\n$\\ex(H(x))=\\sum_{n\\geq0}u_nx^n/n!$.\nThen all $u_n$ are integers. For $M\\geq1$ and $b_1=t\\in\\mathbb Z$,\n\\[\n \\bigl(\\forall n\\geq0,\\ u_n\\equiv t^n\\pmod M\\bigr)\n \\quad\\Longleftrightarrow\\quad\n \\bigl(\\forall j\\geq2,\\ M\\mid b_j\\bigr),\n\\]\nwith $t^0=1$ even when $t=0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s2",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "For every integer $m\\geq2$,\n\\begin{equation}\n 6m^m\\mid(m^2)!.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s3",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "The coefficients in \\eqref{eq:square} satisfy $a_n\\in\\mathbb Z$ and\n$a_n\\equiv1\\pmod6$ for every integer $n\\geq0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s4",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq0$, $v_n\\in\\mathbb Z$ and $v_n\\equiv1\\pmod3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s5",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq0$, $z_n\\in\\mathbb Z$ and $z_n\\equiv1\\pmod{30}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s6",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "For any integers $t,w_2,w_3,\\ldots$, let\n$u_n=n![x^n]\\exp(tx+\\sum_{m\\geq2}w_m x^{m^2}/m^m)$.\nThen $u_n\\in\\mathbb Z$ and $u_n\\equiv t^n\\pmod6$ for all $n\\geq0$.\nMoreover, $u_n\\equiv t^n\\pmod{30}$ for every $n\\geq0$\nif and only if $5\\mid w_2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s7",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "For all integers $n,r\\geq1$, with\n$\\operatorname{rad}(n)=\\prod_{p\\mid n}p$ and $\\operatorname{rad}(1)=1$,\n\\[\n \\sigma_r(n)=\n \\frac{\\sigma(n^r\\operatorname{rad}(n)^{r-1})}\n      {\\sigma(\\operatorname{rad}(n)^{r-1})}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-and-related-congruences:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-and-related-congruences:s8",
+      "macros": {
+        "\\ex": "\\operatorname{exp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-and-related-congruences",
+      "scope": "in_scope",
+      "statement": "The following statements recorded in A023887 hold:\n\\begin{enumerate}\n\\item $s_n=\\prod_{p^a\\parallel n}(p^{n(a+1)}-1)/(p^n-1)$;\n$s_n$ is odd exactly when $n$ is a square or twice a square.\n\\item As formal power series,\n\\[\n \\sum_{n\\geq1}s_nx^n=\\sum_{d\\geq1}\\frac{(dx)^d}{1-(dx)^d}.\n\\]\nFor $D(x)=\\exp(\\sum_{n\\geq1}s_nx^n/n)$, we have\n\\[\n D(x)=\\prod_{d\\geq1}(1-d^dx^d)^{-1/d},\\qquad\n xD'(x)/D(x)=\\sum_{n\\geq1}s_nx^n.\n\\]\n\\item $1\\leq s_n/n^n\\leq1+n2^{-n}$, so $s_n\\sim n^n$\nand $\\sum_{n\\geq1}1/s_n$ converges.\n\\end{enumerate}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
     },
     {
       "attribution": null,
@@ -22624,6 +23738,166 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:kimberling-rational-enumeration:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "f3466406d8191001830cf15e84db4578d4891435",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f3466406d8191001830cf15e84db4578d4891435/D5/S3/Arith/CounterSequences/KimberlingA371279.lean"
+      },
+      "lineage": "collected:kimberling-rational-enumeration:s1",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\Q": "\\mathbb{Q}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kimberling-rational-enumeration",
+      "scope": "in_scope",
+      "statement": "Every entry of every $U_n$ is a rational in $(0,1]$, and $U_n$ is a\nduplicate-free prefix of $U_{n+1}$. For all integers $1\\le p\\le q$,\n\\begin{equation}\n p/q\\in U_q.\n\\end{equation}\nThe minimum of $U_n$ is $2^{1-n}$, and every generation is nonempty.\nConsequently the infinite concatenation\n$g_1\\Vert g_2\\Vert\\cdots$ is a bijective enumeration of $\\Q\\cap(0,1]$.\nIts reduced numerator and denominator lists are the constructions in\nA371279 and A371280, respectively.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kimberling's rational-enumeration conjecture: an extension of the BMO–Kepler closure lemma",
+      "toolchain": null,
+      "version": 2,
+      "work": "kimberling-rational-enumeration"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:kimberling-rational-enumeration:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f3466406d8191001830cf15e84db4578d4891435",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f3466406d8191001830cf15e84db4578d4891435/D5/S3/Arith/CounterSequences/KimberlingA371279.lean"
+      },
+      "lineage": "collected:kimberling-rational-enumeration:s2",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\Q": "\\mathbb{Q}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kimberling-rational-enumeration",
+      "scope": "in_scope",
+      "statement": "Let $h(r)$ be the first generation containing $r\\in\\Q\\cap(0,1]$.\nFor integers $1\\le p\\le q$,\n\\[\n 2^{h(p/q)-1}\\ge q/p,\\qquad h(p/q)\\le q.\n\\]\nIn particular $h(2^{-k})=k+1$ for every integer $k\\ge0$.\nIf $0<p<q$ is reduced and\n$p/q=[0;a_1,\\ldots,a_s]$ is its finite simple continued fraction,\nwith $a_i\\ge1$ and $a_s\\ge2$, then\n\\[\n h(p/q)\\le a_1+\\cdots+a_s.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kimberling's rational-enumeration conjecture: an extension of the BMO–Kepler closure lemma",
+      "toolchain": null,
+      "version": 2,
+      "work": "kimberling-rational-enumeration"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:kimberling-rational-enumeration:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f3466406d8191001830cf15e84db4578d4891435",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f3466406d8191001830cf15e84db4578d4891435/D5/S3/Arith/CounterSequences/KimberlingA371279.lean"
+      },
+      "lineage": "collected:kimberling-rational-enumeration:s3",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\Q": "\\mathbb{Q}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kimberling-rational-enumeration",
+      "scope": "in_scope",
+      "statement": "Let $t\\ge2$, and write $f_t=a/b$ in lowest terms, so $1\\le a<b$.\nThe integer $t$ occurs exactly once in $H_k$ if $b$ divides $k$, and\ndoes not occur in $H_k$ otherwise. Its column in $H_{mb}$ is $ma$.\nIt therefore occurs $\\lfloor K/b\\rfloor$ times among $H_1,\\ldots,H_K$,\nand infinitely many times in the whole array. The value $1$ occurs\nonly in the exceptional row $H_1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kimberling's rational-enumeration conjecture: an extension of the BMO–Kepler closure lemma",
+      "toolchain": null,
+      "version": 2,
+      "work": "kimberling-rational-enumeration"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:kimberling-rational-enumeration:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f3466406d8191001830cf15e84db4578d4891435",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f3466406d8191001830cf15e84db4578d4891435/D5/S3/Arith/CounterSequences/KimberlingA371279.lean"
+      },
+      "lineage": "collected:kimberling-rational-enumeration:s4",
+      "macros": {
+        "\\N": "\\mathbb{N}",
+        "\\Q": "\\mathbb{Q}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kimberling-rational-enumeration",
+      "scope": "in_scope",
+      "statement": "For every positive integer $c$, the least set containing $1$ and closed\nunder $z\\mapsto z+1$ and $z\\mapsto c/z$ is $\\Q_{>0}$.\nThe least set containing $1$ and closed under $z\\mapsto1/z$ and\n$z\\mapsto1/(1+z)$ is also $\\Q_{>0}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Kimberling's rational-enumeration conjecture: an extension of the BMO–Kepler closure lemma",
+      "toolchain": null,
+      "version": 2,
+      "work": "kimberling-rational-enumeration"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:klanderman-conjecture-4-2:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -26418,6 +27692,258 @@
       "toolchain": null,
       "version": 3,
       "work": "liu-wesolowski-2026-ordinary-fractional-evolution"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:luo-mccullough-tsikalas-pseudo-pick-quotient:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/HilbertOperators/ReproducingKernels/CompletePseudoPickQuotientRefutation.lean"
+      },
+      "lineage": "collected:luo-mccullough-tsikalas-pseudo-pick-quotient:s1",
+      "macros": {
+        "\\HH": "\\mathcal H",
+        "\\Mult": "\\operatorname{Mult}",
+        "\\diag": "\\operatorname{diag}",
+        "\\psd": "\\succeq0"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "luo-mccullough-tsikalas-pseudo-pick-quotient",
+      "scope": "in_scope",
+      "statement": "The kernels in \\eqref{eq:kernels} form a complete pseudo-Pick pair.\nTheir quotient is not positive semidefinite. No pair on a set with at\nmost two points can have these two properties when its source kernel\nis non-vanishing. Source rank two is minimal among finite-set examples.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A three-point negative answer to Luo–McCullough–Tsikalas's pseudo-Pick quotient question",
+      "toolchain": null,
+      "version": 2,
+      "work": "luo-mccullough-tsikalas-pseudo-pick-quotient"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:luo-mccullough-tsikalas-pseudo-pick-quotient:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/HilbertOperators/ReproducingKernels/CompletePseudoPickQuotientRefutation.lean"
+      },
+      "lineage": "collected:luo-mccullough-tsikalas-pseudo-pick-quotient:s2",
+      "macros": {
+        "\\HH": "\\mathcal H",
+        "\\Mult": "\\operatorname{Mult}",
+        "\\diag": "\\operatorname{diag}",
+        "\\psd": "\\succeq0"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "luo-mccullough-tsikalas-pseudo-pick-quotient",
+      "scope": "in_scope",
+      "statement": "Suppose the Pick matrix \\eqref{eq:pick} is positive for the source kernel\nin \\eqref{eq:kernels}. If real coefficients $a_1,\\ldots,a_n$ satisfy\n$\\sum_i a_i=\\sum_i a_i x_{z_i}=0$, then\n\\[\n \\sum_i a_iW_i=0,\\qquad \\sum_i a_i x_{z_i}W_i=0.\n\\]\nConsequently, repeated nodes have equal matrix values, and a datum\ncontaining all three distinct nodes has a single constant matrix value.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A three-point negative answer to Luo–McCullough–Tsikalas's pseudo-Pick quotient question",
+      "toolchain": null,
+      "version": 2,
+      "work": "luo-mccullough-tsikalas-pseudo-pick-quotient"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:luo-mccullough-tsikalas-pseudo-pick-quotient:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/HilbertOperators/ReproducingKernels/CompletePseudoPickQuotientRefutation.lean"
+      },
+      "lineage": "collected:luo-mccullough-tsikalas-pseudo-pick-quotient:s3",
+      "macros": {
+        "\\HH": "\\mathcal H",
+        "\\Mult": "\\operatorname{Mult}",
+        "\\diag": "\\operatorname{diag}",
+        "\\psd": "\\succeq0"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "luo-mccullough-tsikalas-pseudo-pick-quotient",
+      "scope": "in_scope",
+      "statement": "Every $R_a$ is positive definite.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A three-point negative answer to Luo–McCullough–Tsikalas's pseudo-Pick quotient question",
+      "toolchain": null,
+      "version": 2,
+      "work": "luo-mccullough-tsikalas-pseudo-pick-quotient"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:luo-mccullough-tsikalas-pseudo-pick-quotient:2:s4",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/HilbertOperators/ReproducingKernels/CompletePseudoPickQuotientRefutation.lean"
+      },
+      "lineage": "collected:luo-mccullough-tsikalas-pseudo-pick-quotient:s4",
+      "macros": {
+        "\\HH": "\\mathcal H",
+        "\\Mult": "\\operatorname{Mult}",
+        "\\diag": "\\operatorname{diag}",
+        "\\psd": "\\succeq0"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "luo-mccullough-tsikalas-pseudo-pick-quotient",
+      "scope": "in_scope",
+      "statement": "Let $(k,\\ell)$ be complete pseudo-Pick on a set with at most two points,\nwith $k$ non-vanishing. Then $\\ell/k$ is positive.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A three-point negative answer to Luo–McCullough–Tsikalas's pseudo-Pick quotient question",
+      "toolchain": null,
+      "version": 2,
+      "work": "luo-mccullough-tsikalas-pseudo-pick-quotient"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:luo-mccullough-tsikalas-pseudo-pick-quotient:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/HilbertOperators/ReproducingKernels/CompletePseudoPickQuotientRefutation.lean"
+      },
+      "lineage": "collected:luo-mccullough-tsikalas-pseudo-pick-quotient:s5",
+      "macros": {
+        "\\HH": "\\mathcal H",
+        "\\Mult": "\\operatorname{Mult}",
+        "\\diag": "\\operatorname{diag}",
+        "\\psd": "\\succeq0"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "luo-mccullough-tsikalas-pseudo-pick-quotient",
+      "scope": "in_scope",
+      "statement": "For $0\\leq t<5/99$, define\n\\[\n \\ell_t(i,j)=\\ell(i,j)+t\\delta_{ij}k(i,i).\n\\]\nThen $(k,\\ell_t)$ is complete pseudo-Pick, its target is positive\ndefinite, and its quotient is not positive. Each pair is not BLH,\nnot complete pseudo-Leech, and admits neither a weak nor a strong\nAgler decomposition.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A three-point negative answer to Luo–McCullough–Tsikalas's pseudo-Pick quotient question",
+      "toolchain": null,
+      "version": 2,
+      "work": "luo-mccullough-tsikalas-pseudo-pick-quotient"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:luo-mccullough-tsikalas-pseudo-pick-quotient:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/HilbertOperators/ReproducingKernels/CompletePseudoPickQuotientRefutation.lean"
+      },
+      "lineage": "collected:luo-mccullough-tsikalas-pseudo-pick-quotient:s6",
+      "macros": {
+        "\\HH": "\\mathcal H",
+        "\\Mult": "\\operatorname{Mult}",
+        "\\diag": "\\operatorname{diag}",
+        "\\psd": "\\succeq0"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "luo-mccullough-tsikalas-pseudo-pick-quotient",
+      "scope": "in_scope",
+      "statement": "Every pair $(k,\\ell_t)$ in Corollary~\\ref{cor:family} is neither a\ncomplete Pick pair nor a Beurling--Lax--Halmos pair.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A three-point negative answer to Luo–McCullough–Tsikalas's pseudo-Pick quotient question",
+      "toolchain": null,
+      "version": 2,
+      "work": "luo-mccullough-tsikalas-pseudo-pick-quotient"
     },
     {
       "attribution": null,
@@ -33591,6 +35117,206 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:nguyen-tan-unitary-cayley-prime-zero-eigenvalue:2:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "2eae85555e169007ff5548c46eb63cd2408f877f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2eae85555e169007ff5548c46eb63cd2408f877f/D5/S3/ArithUnits/NguyenTanUnitaryCayleyPrimeSpectrum.lean#L669"
+      },
+      "lineage": "collected:nguyen-tan-unitary-cayley-prime-zero-eigenvalue:s1",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\F": "\\mathbb F"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue",
+      "scope": "in_scope",
+      "statement": "A connected triangle-free graph with no distinct vertices having the\nsame open neighborhood is prime.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hamming extensions and a short proof from Mináč et al.'s cycle answering Nguyen and Tân's primeness question",
+      "toolchain": null,
+      "version": 2,
+      "work": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:nguyen-tan-unitary-cayley-prime-zero-eigenvalue:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "2eae85555e169007ff5548c46eb63cd2408f877f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2eae85555e169007ff5548c46eb63cd2408f877f/D5/S3/ArithUnits/NguyenTanUnitaryCayleyPrimeSpectrum.lean#L669"
+      },
+      "lineage": "collected:nguyen-tan-unitary-cayley-prime-zero-eigenvalue:s2",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\F": "\\mathbb F"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq5$, $R=\\mathbb Z/n\\mathbb Z$ is Frobenius and\n$U=\\{1,-1\\}$ is a subgroup of its units. The graph $\\Gamma(R,U)=C_n$\nis connected, anti-connected and prime. Its adjacency nullity is two\nwhen $4\\mid n$, and zero otherwise. In particular, every $C_{4m}$,\n$m\\geq2$, answers both primeness questions negatively.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hamming extensions and a short proof from Mináč et al.'s cycle answering Nguyen and Tân's primeness question",
+      "toolchain": null,
+      "version": 2,
+      "work": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:nguyen-tan-unitary-cayley-prime-zero-eigenvalue:2:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "2eae85555e169007ff5548c46eb63cd2408f877f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2eae85555e169007ff5548c46eb63cd2408f877f/D5/S3/ArithUnits/NguyenTanUnitaryCayleyPrimeSpectrum.lean#L669"
+      },
+      "lineage": "collected:nguyen-tan-unitary-cayley-prime-zero-eigenvalue:s3",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\F": "\\mathbb F"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue",
+      "scope": "in_scope",
+      "statement": "Let $q$ be a prime power and $G$ a finite abelian group of order $d$.\nThe ring $R=\\F_q[G]$ is Frobenius, and $\\Gamma(R,U)\\cong H(d,q)$\nhas adjacency eigenvalues\n\\[\n \\lambda_k=d(q-1)-qk,\\qquad\n \\text{multiplicity }b_k=\\binom dk(q-1)^k,\\qquad 0\\leq k\\leq d.\n\\]\nIf $d\\geq2$ and $(d,q)\\neq(2,2)$, this graph is connected,\nanti-connected and prime. It is singular exactly when $q\\mid d$,\nand then its nullity is $b_{d(q-1)/q}<q^d/2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hamming extensions and a short proof from Mináč et al.'s cycle answering Nguyen and Tân's primeness question",
+      "toolchain": null,
+      "version": 2,
+      "work": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:nguyen-tan-unitary-cayley-prime-zero-eigenvalue:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2eae85555e169007ff5548c46eb63cd2408f877f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2eae85555e169007ff5548c46eb63cd2408f877f/D5/S3/ArithUnits/NguyenTanUnitaryCayleyPrimeSpectrum.lean#L669"
+      },
+      "lineage": "collected:nguyen-tan-unitary-cayley-prime-zero-eigenvalue:s4",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\F": "\\mathbb F"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue",
+      "scope": "in_scope",
+      "statement": "For every prime power $q$, the family in Theorem~\\ref{thm:hamming}\ngives prime singular examples whenever $q\\mid d$ and $(d,q)\\neq(2,2)$.\nIn particular, the binary examples are $Q_d$ for even $d\\geq4$;\nthe ternary example $H(3,3)$ has $27$ vertices, rank $15$ and\nnullity $12$. Odd prime powers give examples in odd characteristic\nand of odd vertex order.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hamming extensions and a short proof from Mináč et al.'s cycle answering Nguyen and Tân's primeness question",
+      "toolchain": null,
+      "version": 2,
+      "work": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:nguyen-tan-unitary-cayley-prime-zero-eigenvalue:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "2eae85555e169007ff5548c46eb63cd2408f877f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2eae85555e169007ff5548c46eb63cd2408f877f/D5/S3/ArithUnits/NguyenTanUnitaryCayleyPrimeSpectrum.lean#L669"
+      },
+      "lineage": "collected:nguyen-tan-unitary-cayley-prime-zero-eigenvalue:s5",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\F": "\\mathbb F"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue",
+      "scope": "in_scope",
+      "statement": "Let $A$ be a finite abelian group, and let $\\widehat A$ be its\ncomplex character group. Suppose $\\mathcal K$ partitions $A$,\n$\\mathcal X$ partitions $\\widehat A$, $|\\mathcal K|=|\\mathcal X|$,\nand $\\sigma_X=\\sum_{\\chi\\in X}\\chi$ is constant on each\n$K\\in\\mathcal K$ for every $X\\in\\mathcal X$.\nThen, for each $K\\in\\mathcal K$, the sum $\\sum_{a\\in K}\\chi(a)$\nis independent of $\\chi\\in X$ for every fixed $X\\in\\mathcal X$.\nIn particular, Remark 2.2 is answered affirmatively, even without\nthe additional symmetry assumption on $\\mathcal K$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hamming extensions and a short proof from Mináč et al.'s cycle answering Nguyen and Tân's primeness question",
+      "toolchain": null,
+      "version": 2,
+      "work": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:noe-2013-a222759-prime-cube-growth:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -34056,6 +35782,366 @@
       "toolchain": null,
       "version": 2,
       "work": "oeis-a086205-bala-complex-shift-determinant-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "3afaecc5507038586e39d8775afe7c0df3d4fc48",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3afaecc5507038586e39d8775afe7c0df3d4fc48/D5/S1/Words/Palindromes/IanakievShortestRulerPalindrome.lean"
+      },
+      "lineage": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:s1",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\vv": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a094373-ianakiev-shortest-ruler-palindrome",
+      "scope": "in_scope",
+      "statement": "All the above minima exist. For every $i\\ge2$,\n\\begin{equation}\n P(i)=2^{\\vv(i-1)+1}+1.\n\\end{equation}\nThe sequence $A$ is strictly increasing, and for every $i\\ge1$,\n\\begin{equation}\n P(i)\\text{ first occurs at }i\n \\quad\\Longleftrightarrow\\quad i=A(m)\\text{ for some }m\\in\\NN_0.\n\\end{equation}\nMoreover,\n\\begin{equation}\n P(A(m-1))=A(m)\\qquad(m\\ge2).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An alternative proof of Ianakiev's shortest-palindrome conjecture via Fici and collaborators' Zimin-word theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a094373-ianakiev-shortest-ruler-palindrome"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "3afaecc5507038586e39d8775afe7c0df3d4fc48",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3afaecc5507038586e39d8775afe7c0df3d4fc48/D5/S1/Words/Palindromes/IanakievShortestRulerPalindrome.lean"
+      },
+      "lineage": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:s2",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\vv": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a094373-ianakiev-shortest-ruler-palindrome",
+      "scope": "in_scope",
+      "statement": "We have $F(0)=1$, $B(1)=1$, and, for every $r\\ge1$,\n\\begin{equation}\n B(r+1)=1+\\vv(r).\n\\end{equation}\nMore precisely, writing $V(h)=\\vv(h!)$ for $h\\ge1$ and $V(0)=0$,\n\\begin{equation}\n S(r+1)=V(2r)+1,\\qquad F(S(r+1))=2(r+1)\\quad(r\\ge0).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An alternative proof of Ianakiev's shortest-palindrome conjecture via Fici and collaborators' Zimin-word theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a094373-ianakiev-shortest-ruler-palindrome"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3afaecc5507038586e39d8775afe7c0df3d4fc48",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3afaecc5507038586e39d8775afe7c0df3d4fc48/D5/S1/Words/Palindromes/IanakievShortestRulerPalindrome.lean"
+      },
+      "lineage": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:s3",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\vv": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a094373-ianakiev-shortest-ruler-palindrome",
+      "scope": "in_scope",
+      "statement": "For $k\\ge0$, the complete occurrence class of $2^{k+1}+1$ is\n\\[\n \\{i\\ge2:P(i)=2^{k+1}+1\\}\n   =\\{1+2^k(2t+1):t\\in\\NN_0\\}.\n\\]\nIts number of occurrences in $2\\le i\\le N$, for $N\\ge1$, is\n\\[\n \\left\\lfloor\\frac{N-1}{2^k}\\right\\rfloor\n -\\left\\lfloor\\frac{N-1}{2^{k+1}}\\right\\rfloor,\n\\]\nand its natural density among positive positions is $2^{-k-1}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An alternative proof of Ianakiev's shortest-palindrome conjecture via Fici and collaborators' Zimin-word theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a094373-ianakiev-shortest-ruler-palindrome"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3afaecc5507038586e39d8775afe7c0df3d4fc48",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3afaecc5507038586e39d8775afe7c0df3d4fc48/D5/S1/Words/Palindromes/IanakievShortestRulerPalindrome.lean"
+      },
+      "lineage": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:s4",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\vv": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a094373-ianakiev-shortest-ruler-palindrome",
+      "scope": "in_scope",
+      "statement": "There are no even-length palindromes in $R$. For integers $c>d\\ge0$,\nthe factor $R(c-d),\\ldots,R(c+d)$ is a palindrome exactly when\n\\[\n d<2^{\\vv(c)}.\n\\]\nConsequently, a prefix of length $N\\ge1$ has exactly $s_2(N)$\npalindromic suffixes, where $s_2(N)$ counts the ones in the binary\nexpansion of $N$. If its set-bit positions are $b_1<\\cdots<b_s$,\ntheir lengths are\n\\begin{equation}\n \\left\\{1+2\\sum_{h=1}^{t}2^{b_h}:0\\le t<s\\right\\}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An alternative proof of Ianakiev's shortest-palindrome conjecture via Fici and collaborators' Zimin-word theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a094373-ianakiev-shortest-ruler-palindrome"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3afaecc5507038586e39d8775afe7c0df3d4fc48",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3afaecc5507038586e39d8775afe7c0df3d4fc48/D5/S1/Words/Palindromes/IanakievShortestRulerPalindrome.lean"
+      },
+      "lineage": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:s5",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\vv": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a094373-ianakiev-shortest-ruler-palindrome",
+      "scope": "in_scope",
+      "statement": "For $h\\ge2$, the prefix of $R$ immediately preceding its first $h$\nis a palindrome. A value $h\\ge1$ occurs precisely at\n$2^{h-1}(2t+1)$, $t\\ge0$. For $N\\ge1$,\n\\[\n \\sum_{n=1}^N R(n)=2N-s_2(N),\\qquad\n \\sum_{n\\ge1}R(n)x^n=\\sum_{t\\ge0}\\frac{x^{2^t}}{1-x^{2^t}}.\n\\]\nMoreover $R(n)$ is the least positive integer absent from\n\\[\n \\{R(i):1\\le i<n,\\ R(i)=R(n-i)\\}.\n\\]\nThe word $R$ is square-free and lexicographically least among infinite\nsquare-free words on the positive integers. Equivalently, it is the\nlexicographically least word whose every nonempty prefix has curling\nnumber one, where the curling number is the largest exponent of a\nnonempty repeated suffix block.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An alternative proof of Ianakiev's shortest-palindrome conjecture via Fici and collaborators' Zimin-word theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a094373-ianakiev-shortest-ruler-palindrome"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3afaecc5507038586e39d8775afe7c0df3d4fc48",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3afaecc5507038586e39d8775afe7c0df3d4fc48/D5/S1/Words/Palindromes/IanakievShortestRulerPalindrome.lean"
+      },
+      "lineage": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:s6",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\vv": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a094373-ianakiev-shortest-ruler-palindrome",
+      "scope": "in_scope",
+      "statement": "For $n\\ge1$ and an integer $a\\ge0$, let $O_a(n)$ and $E_a(n)$ be\nthe sums of the $a$th powers of its odd and even positive divisors,\nrespectively, and set $Q_a(n)=(O_a(n)+E_a(n))/O_a(n)$.\nWriting $t=\\vv(n)$ gives\n\\begin{equation}\n Q_a(n)=\\sum_{u=0}^t2^{au},\\qquad\n \\frac{E_a(n)}{O_a(n)}=\\sum_{u=1}^t2^{au}.\n\\end{equation}\nAll these quotients are integers. For every $a\\ge0$, $Q_a$ has\nexactly the same palindromic factors as $R$, at the same positions.\nIts shortest nontrivial palindrome starting at $j\\ge1$ therefore\nhas length $2^{\\vv(j)+1}+1$.\n\nIn particular, A296306 is $Q_2(n)=(4^{R(n)}-1)/3$.\nIts distinct values are $(4^h-1)/3$, first attained at $2^{h-1}$,\nfor $h\\ge1$; its prefix of length $2^h-1$ is palindromic; and\n\\begin{equation}\n \\sum_{n=1}^{2^h-1} Q_2(n)\n =\\frac{(2^h-1)(2^{h+1}-1)}{3}\\quad(h\\ge1).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An alternative proof of Ianakiev's shortest-palindrome conjecture via Fici and collaborators' Zimin-word theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a094373-ianakiev-shortest-ruler-palindrome"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3afaecc5507038586e39d8775afe7c0df3d4fc48",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3afaecc5507038586e39d8775afe7c0df3d4fc48/D5/S1/Words/Palindromes/IanakievShortestRulerPalindrome.lean"
+      },
+      "lineage": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:s7",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\vv": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a094373-ianakiev-shortest-ruler-palindrome",
+      "scope": "in_scope",
+      "statement": "The closed form for $A$ was recorded by Jackson before Ianakiev's\ncomment \\cite{oeisA}; it is part of the definition here, rather than\na new sequence formula. Summing its geometric part gives\n\\begin{equation}\n \\sum_{m\\ge0}A(m)x^m\n =1+\\frac{x}{1-x}+\\frac{x}{1-2x}\n =\\frac{1-x-x^2}{(1-x)(1-2x)},\\qquad\n \\sum_{m=0}^n A(m)=2^n+n\\quad(n\\ge0).\n\\end{equation}\nThe same formula gives\n\\[\n \\begin{gathered}\n A(n)=2A(n-1)-1\\quad(n\\ge2),\\\\\n A(n)=3A(n-1)-2A(n-2)\\quad(n\\ge3),\\\\\n A(2n)=2A(2n-1)-1\\quad(n\\ge1),\\\\\n \\sum_{n\\ge0}\\frac{A(n)}{n!}x^n\n  =e^x+\\tfrac12e^{2x}-\\tfrac12=e^x(1+\\sinh x).\n \\end{gathered}\n\\]\nThe sequence is complete: every nonnegative integer is a sum of distinct\nterms of $A$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An alternative proof of Ianakiev's shortest-palindrome conjecture via Fici and collaborators' Zimin-word theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a094373-ianakiev-shortest-ruler-palindrome"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3afaecc5507038586e39d8775afe7c0df3d4fc48",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3afaecc5507038586e39d8775afe7c0df3d4fc48/D5/S1/Words/Palindromes/IanakievShortestRulerPalindrome.lean"
+      },
+      "lineage": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:s8",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\vv": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a094373-ianakiev-shortest-ruler-palindrome",
+      "scope": "in_scope",
+      "statement": "The binomial transform of $A$ is $2^n+(3^n-1)/2$ for $n\\ge0$.\nIts inverse binomial transform has value $1$ at zero, $1$ at odd\nindices and $0$ at positive even indices. The row sums of the\nPascal triangle augmented by an initial column of ones, the row\nlengths in A198069, column $1$ of A152977, and row $2$ of A238016\nall give $A$, with the offsets specified in those entries.\nThe formal continued fraction $G(k)$ in A094373 satisfies\n\\[\n G(k)=\\frac{1}{1-x}+\\frac{2^k x}{1-2x},\\qquad G(0)=\\sum_{n\\ge0}A(n)x^n.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An alternative proof of Ianakiev's shortest-palindrome conjecture via Fici and collaborators' Zimin-word theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a094373-ianakiev-shortest-ruler-palindrome"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3afaecc5507038586e39d8775afe7c0df3d4fc48",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3afaecc5507038586e39d8775afe7c0df3d4fc48/D5/S1/Words/Palindromes/IanakievShortestRulerPalindrome.lean"
+      },
+      "lineage": "collected:oeis-a094373-ianakiev-shortest-ruler-palindrome:s9",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\vv": "\\nu_2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a094373-ianakiev-shortest-ruler-palindrome",
+      "scope": "in_scope",
+      "statement": "As a formal power series,\n\\[\n \\sum_{m\\ge0}F(m)x^m\n =1+\\frac{2x}{1-x}\\prod_{b\\ge1}(1+x^{2^b-1}).\n\\]\nFor $i\\ge0$ and $0\\le r\\le2^i-2$,\n$F(2^i+r)=2^i+F(r+1)$; at $r=2^i-1$ the value is $2^{i+1}$.\nFor $m>1$, $F(m+1)=F(m)+2$ exactly when\n$m=2r-s_2(r)$ for an integer $r\\ge1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An alternative proof of Ianakiev's shortest-palindrome conjecture via Fici and collaborators' Zimin-word theorem",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a094373-ianakiev-shortest-ruler-palindrome"
     },
     {
       "attribution": null,

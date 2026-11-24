@@ -561,6 +561,63 @@
       "work": "alm2024-normal-extension-monotonicity"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 83595,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "cbb0bcf92a1f73e49dd576b6790fa7aac001ce6bcebe37eb3a555b12774ba0a9",
+          "sha256": "cbb0bcf92a1f73e49dd576b6790fa7aac001ce6bcebe37eb3a555b12774ba0a9"
+        },
+        "source": {
+          "bytes": 15781,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "22b635b5a533a68f55930da395f6b9e1e5a490ffd3b983c6058b5689219d4a02",
+          "sha256": "22b635b5a533a68f55930da395f6b9e1e5a490ffd3b983c6058b5689219d4a02"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "106c79bbb6571a3dc7c60f4b2146860d56e88fc5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/106c79bbb6571a3dc7c60f4b2146860d56e88fc5/D5/S1/Words/Palindromes/ThueMorseSharpPrefix.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs",
+      "site_url": "https://papers.trureturing.org/ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs/",
+      "title": "A signed-weight extension of Frid's recurrence for the Thue–Morse prefix problems of Ambrož, Kadlec, Masáková and Pelantová",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24413779",
       "doi": "10.5281/zenodo.24413780",
       "files": {
@@ -729,8 +786,8 @@
       "work": "bajnok-beatty-original-conjecture-4-1"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24487479",
+      "doi": "10.5281/zenodo.24487480",
       "files": {
         "pdf": {
           "bytes": 82769,
@@ -767,7 +824,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1855,6 +1911,63 @@
       "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 74063,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "f5ca39ea52a83175404fbeea09d24d790efe0c9b452db8344f4db39a83af22e6",
+          "sha256": "f5ca39ea52a83175404fbeea09d24d790efe0c9b452db8344f4db39a83af22e6"
+        },
+        "source": {
+          "bytes": 13616,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "afaa8ca5539f0eb34a2db472f35eee2806be746208ad2af8546fb27a75141883",
+          "sha256": "afaa8ca5539f0eb34a2db472f35eee2806be746208ad2af8546fb27a75141883"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/cheon-riordan-bell-inertia-611",
+      "site_url": "https://papers.trureturing.org/cheon-riordan-bell-inertia-611/",
+      "title": "Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "cheon-riordan-bell-inertia-611"
+    },
+    {
       "concept_doi": "10.5281/zenodo.23934999",
       "doi": "10.5281/zenodo.23935000",
       "files": {
@@ -1911,8 +2024,8 @@
       "work": "chiral-event-parity-minimality"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24487233",
+      "doi": "10.5281/zenodo.24487234",
       "files": {
         "pdf": {
           "bytes": 77894,
@@ -1949,7 +2062,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2416,6 +2528,63 @@
       "work": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 82404,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "79f35a702bf7a1084eebe0a3e5a38335bb097f7ba73d57c01d2c176826a3ae6b",
+          "sha256": "79f35a702bf7a1084eebe0a3e5a38335bb097f7ba73d57c01d2c176826a3ae6b"
+        },
+        "source": {
+          "bytes": 15051,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "a04ff2d6e162186cecffa7a103f06be013360103a375b316f0afc460cd399bcc",
+          "sha256": "a04ff2d6e162186cecffa7a103f06be013360103a375b316f0afc460cd399bcc"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/dfl514-selfconj",
+      "site_url": "https://papers.trureturing.org/dfl514-selfconj/",
+      "title": "Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "dfl514-selfconj"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24406591",
       "doi": "10.5281/zenodo.24406592",
       "files": {
@@ -2472,8 +2641,8 @@
       "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24487342",
+      "doi": "10.5281/zenodo.24487343",
       "files": {
         "pdf": {
           "bytes": 96738,
@@ -2510,7 +2679,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3370,6 +3538,63 @@
       "work": "hanna-self-substitution-integrality"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 85103,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "32052bf3d07e00c4b75a2732de6c1756b6b9f4594d0d2123c7d28a01d863ca48",
+          "sha256": "32052bf3d07e00c4b75a2732de6c1756b6b9f4594d0d2123c7d28a01d863ca48"
+        },
+        "source": {
+          "bytes": 15989,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "0572ce73315891469306f42f29884d0acf3a8d485925616802039d312168dabd",
+          "sha256": "0572ce73315891469306f42f29884d0acf3a8d485925616802039d312168dabd"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/hanna-square-exponent-and-related-congruences",
+      "site_url": "https://papers.trureturing.org/hanna-square-exponent-and-related-congruences/",
+      "title": "Proof of Hanna's square-exponent congruence and an extension of Fried's divisor-sum formula",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "hanna-square-exponent-and-related-congruences"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24484627",
       "doi": "10.5281/zenodo.24484628",
       "files": {
@@ -3594,8 +3819,8 @@
       "work": "hardin-barker-cyclic-repetitions"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24487245",
+      "doi": "10.5281/zenodo.24487246",
       "files": {
         "pdf": {
           "bytes": 85711,
@@ -3632,7 +3857,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4772,6 +4996,63 @@
       "work": "kim-stolarsky-eventual-three-prefix-conjecture"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 79902,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "0a7a18763e811cf4190c298cc977fece4df49365adb433566edc07fd8aa1d32b",
+          "sha256": "0a7a18763e811cf4190c298cc977fece4df49365adb433566edc07fd8aa1d32b"
+        },
+        "source": {
+          "bytes": 13881,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "1c79126620dd6405871d3ea9881d58b2082f01ee9345e736b957bb57c49ebea1",
+          "sha256": "1c79126620dd6405871d3ea9881d58b2082f01ee9345e736b957bb57c49ebea1"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 4,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "f3466406d8191001830cf15e84db4578d4891435",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f3466406d8191001830cf15e84db4578d4891435/D5/S3/Arith/CounterSequences/KimberlingA371279.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/kimberling-rational-enumeration",
+      "site_url": "https://papers.trureturing.org/kimberling-rational-enumeration/",
+      "title": "Kimberling's rational-enumeration conjecture: an extension of the BMO–Kepler closure lemma",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "kimberling-rational-enumeration"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24413789",
       "doi": "10.5281/zenodo.24413790",
       "files": {
@@ -5503,6 +5784,63 @@
       "work": "liu-wesolowski-2026-ordinary-fractional-evolution"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 96843,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "2597e1a3539b31b744193ecb7bf20bf23a687fd60d55060b238094095529c25e",
+          "sha256": "2597e1a3539b31b744193ecb7bf20bf23a687fd60d55060b238094095529c25e"
+        },
+        "source": {
+          "bytes": 16645,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "6ebc2f53078d8d043503576fe45b3d940b5bc3a1caa5ce7cc8721715c85838cd",
+          "sha256": "6ebc2f53078d8d043503576fe45b3d940b5bc3a1caa5ce7cc8721715c85838cd"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/HilbertOperators/ReproducingKernels/CompletePseudoPickQuotientRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/luo-mccullough-tsikalas-pseudo-pick-quotient",
+      "site_url": "https://papers.trureturing.org/luo-mccullough-tsikalas-pseudo-pick-quotient/",
+      "title": "A three-point negative answer to Luo–McCullough–Tsikalas's pseudo-Pick quotient question",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "luo-mccullough-tsikalas-pseudo-pick-quotient"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24407819",
       "doi": "10.5281/zenodo.24407820",
       "files": {
@@ -5671,8 +6009,8 @@
       "work": "malkoun-2026-mo512579-jordan-elementary"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24487347",
+      "doi": "10.5281/zenodo.24487348",
       "files": {
         "pdf": {
           "bytes": 105926,
@@ -5709,7 +6047,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -6848,6 +7185,63 @@
       "work": "nath2021-commuting-cn-conjecture2"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 101692,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "1eb1c9c9e9e88fff3e65154f677afc42ca4e93ba3f8cfb46df46cd7771454bf1",
+          "sha256": "1eb1c9c9e9e88fff3e65154f677afc42ca4e93ba3f8cfb46df46cd7771454bf1"
+        },
+        "source": {
+          "bytes": 20896,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "f5a985e4494242966e5b9cbd3e6cdba1e6a700edeed9dc281767584544fcaed6",
+          "sha256": "f5a985e4494242966e5b9cbd3e6cdba1e6a700edeed9dc281767584544fcaed6"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "2eae85555e169007ff5548c46eb63cd2408f877f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/2eae85555e169007ff5548c46eb63cd2408f877f/D5/S3/ArithUnits/NguyenTanUnitaryCayleyPrimeSpectrum.lean#L669"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/nguyen-tan-unitary-cayley-prime-zero-eigenvalue",
+      "site_url": "https://papers.trureturing.org/nguyen-tan-unitary-cayley-prime-zero-eigenvalue/",
+      "title": "Hamming extensions and a short proof from Mináč et al.'s cycle answering Nguyen and Tân's primeness question",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24405794",
       "doi": "10.5281/zenodo.24405795",
       "files": {
@@ -6958,6 +7352,63 @@
       },
       "version": 2,
       "work": "oeis-a086205-bala-complex-shift-determinant-refutation"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 115459,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "4ab41e5bf363a06ecc4f4bb0f96f526640831a080c7a6c9d8844273262ebc6b7",
+          "sha256": "4ab41e5bf363a06ecc4f4bb0f96f526640831a080c7a6c9d8844273262ebc6b7"
+        },
+        "source": {
+          "bytes": 19135,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "52247842ad275b17142e7c97deeb783225da8763d94a626ed4727e89b81be5bc",
+          "sha256": "52247842ad275b17142e7c97deeb783225da8763d94a626ed4727e89b81be5bc"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 9,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "3afaecc5507038586e39d8775afe7c0df3d4fc48",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3afaecc5507038586e39d8775afe7c0df3d4fc48/D5/S1/Words/Palindromes/IanakievShortestRulerPalindrome.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/oeis-a094373-ianakiev-shortest-ruler-palindrome",
+      "site_url": "https://papers.trureturing.org/oeis-a094373-ianakiev-shortest-ruler-palindrome/",
+      "title": "An alternative proof of Ianakiev's shortest-palindrome conjecture via Fici and collaborators' Zimin-word theorem",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "oeis-a094373-ianakiev-shortest-ruler-palindrome"
     },
     {
       "concept_doi": "10.5281/zenodo.24405798",
@@ -7072,8 +7523,8 @@
       "work": "oeis-a130095-ratio-limit"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24487648",
+      "doi": "10.5281/zenodo.24487649",
       "files": {
         "pdf": {
           "bytes": 94495,
@@ -7110,7 +7561,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -7129,8 +7579,8 @@
       "work": "oeis-a146304-maximal-bishop-growth-refutation"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24487650",
+      "doi": "10.5281/zenodo.24487651",
       "files": {
         "pdf": {
           "bytes": 103321,
@@ -7167,7 +7617,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -10128,8 +10577,8 @@
       "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 180,
+  "papers": 188,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-24T02:34:21.637496759Z"
+  "snapshot_time": "2026-11-24T05:31:40.836197868Z"
 }

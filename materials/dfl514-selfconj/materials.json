@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/dfl514-selfconj/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/dfl514-selfconj",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/dfl514-selfconj/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "dfl514-selfconj"
+}
