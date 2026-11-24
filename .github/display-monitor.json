@@ -1,0 +1,91 @@
+{
+  "schema": "omega.display-monitor.v1",
+  "repository": "mathesis-papers/catalog",
+  "checks": [
+    {
+      "id": "home",
+      "url": "https://papers.trureturing.org/",
+      "owner": "mathesis-papers/catalog",
+      "kind": "html",
+      "contains": "Mathesis"
+    },
+    {
+      "id": "material-index",
+      "url": "https://papers.trureturing.org/materials-index.json",
+      "owner": "mathesis-papers/catalog",
+      "kind": "materials",
+      "equals": {
+        "schema": "mathesis.materials-index.v1"
+      },
+      "required": [
+        "entries",
+        "generated_at"
+      ],
+      "nonempty": "entries"
+    }
+  ],
+  "browser": [
+    {
+      "id": "reader",
+      "url": "https://papers.trureturing.org/",
+      "owner": "mathesis-papers/catalog"
+    }
+  ],
+  "targets": {
+    "mathesis-papers/catalog": {
+      "branch": "main",
+      "paths": [
+        "scripts/collection.py",
+        "scripts/paper_products.py",
+        "scripts/verify_factory.py"
+      ],
+      "verify": [
+        [
+          "python3",
+          "-m",
+          "compileall",
+          "-q",
+          "scripts"
+        ],
+        [
+          "python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-p",
+          "test_collection.py"
+        ]
+      ],
+      "auto_merge": true
+    },
+    "the-omega-institute/trureturing-outreach-engine": {
+      "branch": "main",
+      "paths": [
+        "managed/delivery.py",
+        "managed/mathesis_delivery.py",
+        "managed/public_feed.py",
+        "managed/shortnotes.py"
+      ],
+      "verify": [
+        [
+          "python3",
+          "-m",
+          "compileall",
+          "-q",
+          "managed"
+        ],
+        [
+          "python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "managed/tests"
+        ]
+      ],
+      "auto_merge": false
+    }
+  }
+}

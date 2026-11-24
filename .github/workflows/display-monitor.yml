@@ -1,0 +1,28 @@
+name: Display health and maintenance
+on:
+  schedule:
+    - cron: '47 * * * *'
+  workflow_dispatch:
+    inputs:
+      verify_model:
+        description: 'Also exercise the read-only NyxID model route when probes are healthy'
+        type: boolean
+        default: false
+  workflow_run:
+    workflows: ['Publish Mathesis papers']
+    types: [completed]
+permissions:
+  contents: write
+  pull-requests: write
+  checks: read
+  actions: read
+jobs:
+  monitor:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.head_repository.full_name == github.repository
+    uses: the-omega-institute/.github/.github/workflows/display-monitor.yml@6eb46b43f90f457f1df082b946dd9a0dade44353
+    with:
+      monitor_revision: 6eb46b43f90f457f1df082b946dd9a0dade44353
+      verify_model: ${{ inputs.verify_model || false }}
+    secrets:
+      model_key: ${{ secrets.NYXID_MONITOR_KEY }}
+      pr_token: ${{ secrets.DISPLAY_MONITOR_PR_TOKEN }}
