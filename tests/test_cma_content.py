@@ -58,6 +58,18 @@ class EndpointTests(unittest.TestCase):
         self.assertEqual(json.loads(request.data), body)
         self.assertTrue(any(isinstance(h, cma.NoRedirect) for h in provider.opener.handlers))
 
+    def test_saved_jobs_keep_the_original_broker_and_new_jobs_pin_the_cma_origin(self):
+        provider = cma.CMA('test')
+        old = {'phase':'intent','idempotency_key':'original-key','request':{'workspace_id':'original-workspace'}}
+        before = copy.deepcopy(old)
+        legacy = provider.for_job(old)
+        self.assertEqual(legacy.base, cma.LEGACY_CMA_PROXY)
+        self.assertEqual(old, before)
+        state = cma.intent(envelope(), 'b'*40, 'e'*40, 'wks_internal', 'collection')
+        self.assertEqual(state['cma_origin'], cma.CMA_ORIGIN)
+        self.assertIs(provider.for_job(state), provider)
+        self.assertEqual(state['request']['workspace_id'], 'wks_internal')
+
     def test_endpoint_selection_refuses_credential_and_origin_escapes(self):
         for origin in ['https://cma.nyxid.ai','https://cma.nyxid.ai/', 'https://api.nyxid.ai/api/v1/proxy/s/cma', 'http://127.0.0.1:8765']:
             with self.subTest(origin=origin): cma.CMA('test', origin)

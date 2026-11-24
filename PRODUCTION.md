@@ -34,7 +34,9 @@ pins. Its separate bearer credential is stored in the Actions secret
 by that API; its authorization still applies. The former NyxID proxy origin
 remains an explicit compatibility option. That proxy currently rejects adding
 an agent to an owned workspace created directly in CMA, so new internal work
-uses the official endpoint. Tokens are sent only to the allowlisted CMA/NyxID
+pins the official endpoint in its original intent. Pre-migration intents retain
+the former broker, including uncertain creates; changing a default never
+replays one of those requests through another admission system. Tokens are sent only to the allowlisted CMA/NyxID
 origins; credentials in URLs, alternate ports, queries and redirects are refused.
 No publisher credential is copied to CMA. Rotate it before the expiry recorded
 in the operator's credential receipt. Configure `CMA_COLLECTION_WORKSPACE` for
