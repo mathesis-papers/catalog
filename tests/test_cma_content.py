@@ -1,4 +1,5 @@
 import copy
+import base64
 import hashlib
 import io
 import json
@@ -7,6 +8,7 @@ import sys
 import tarfile
 import tempfile
 import unittest
+import urllib.parse
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
@@ -46,6 +48,41 @@ class FakeCMA:
 
 
 class EndpointTests(unittest.TestCase):
+    def test_source_retrieval_and_cleanup_keep_each_jobs_original_broker(self):
+        for origin in (None, cma.CMA_ORIGIN):
+            with self.subTest(origin=origin):
+                state = {'key': 'a' * 64, 'agent_id': 'original-agent', 'identity': {},
+                         'worktree_path': '/home/cma/workspace/.worktrees/wt-186'}
+                if origin:
+                    state['cma_origin'] = origin
+                visualization = {'decision': 'not_useful', 'reason': 'A written example suffices.'}
+                pack = b'Preserved source archive'
+                files = {'sources.tar.gz': pack, 'handoff.json': json.dumps({
+                    'identity': state['identity'], 'archive_sha256': hashlib.sha256(pack).hexdigest(),
+                    'result': {'visualization': visualization}}).encode()}
+                seen = []
+                def call(provider, method, path, body=None, key=None, missing=False):
+                    seen.append((provider.base, method))
+                    if '/files/content?' in path:
+                        name = urllib.parse.parse_qs(urllib.parse.urlsplit(path).query)['path'][0].rsplit('/', 1)[1]
+                        raw = files[name]
+                        return {'content_base64': base64.b64encode(raw).decode(), 'size_bytes': len(raw),
+                                'sha256': hashlib.sha256(raw).hexdigest()}
+                    return {'status': 'deleted'}
+                class Ledger:
+                    def put(self, state, files=None):
+                        if files is not None:
+                            self.files = files
+                ledger = Ledger()
+                provider = cma.CMA('synthetic-test-key')
+                with patch.object(cma.CMA, 'call', autospec=True, side_effect=call):
+                    hosted_materials.save_sources(provider, ledger, state)
+                    hosted_materials.cleanup(provider, ledger, state)
+                self.assertEqual(state['phase'], 'sources_saved')
+                self.assertTrue(state['cleanup_complete'])
+                self.assertEqual(ledger.files['sources/' + state['key'] + '/sources.tar.gz'], pack)
+                self.assertEqual(seen, [(origin or cma.LEGACY_CMA_PROXY, 'GET')] * 3)
+
     def test_public_cma_origin_is_default_and_original_commands_and_auth_are_preserved(self):
         provider = cma.CMA('test-only-credential')
         with patch.object(provider.opener, 'open', return_value=io.BytesIO(b'{"id":"original-operation"}')) as send:
