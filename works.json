@@ -3338,6 +3338,53 @@
       "work": "hardin185765"
     },
     {
+      "abstract_text": "Extending Shrock's open-ladder formula (2000, equations (5.1)-(5.6)) and Yurishchev's double-chain block (2001, equation (9)), an exact defect-counting transfer proves R. H. Hardin's empirical recurrence in OEIS A229634, Formula, revision 9 (27 April 2021; first posted 27 September 2013), for every n >= 21. Its order eighteen and its starting index are sharp. The same construction proves every displayed row and column recurrence of the companion table A229637, with minimal eventual orders and sharp starting indices. A general defect-budget argument explains the cubed denominators. The two-column formulas of Colin Barker and the three- and four-column generating functions of R. J. Mathar and Barker follow as well.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229634Strip.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 100614,
+        "sha256": "bda7653e6792060080babb5f63767506dac5c31e709176bce89d9671b7a03b27",
+        "url": "/api/v1/collected-papers/hardin229634-defective-colourings/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T11:17:42.339214278Z",
+      "record": "hardin229634-defective-colourings",
+      "repository_name": "hardin229634-defective-colourings",
+      "source": {
+        "bytes": 33786,
+        "sha256": "eda963e726cf542390ada32a2f011c99eec81171421c5b213c3dbbc3fee899a3",
+        "url": "/api/v1/collected-papers/hardin229634-defective-colourings/files/source?version=2"
+      },
+      "title": "Extensions of Shrock's and Yurishchev's formulas to Hardin's defective-colouring recurrences",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T11:17:42.339214278Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hardin229634-defective-colourings"
+    },
+    {
       "abstract_text": "We give an alternative proof of Hardin's empirical recurrence and Barker's generating function in OEIS A233156, revision 8 (9 October 2018), FORMULA lines 1 and 2, by reducing them to Biggs and Meredith's double-strip enumeration (1976, Section 3, pp. 10–11). For n >= 3 the labeled three-row array count is exactly 36 times the proper three-coloring count of a 3 by (n-2) rectangular grid. This gives the recurrence for n >= 5 and the complete generating function, including its exceptional initial terms. A direct five-state proof establishes sharp onset and minimal eventual order two. Every displayed row and column recurrence of A233155 and Barker's four-row generating function in A233157 are also proved, with explicit finite integer identities for the larger strips.",
       "authors": [
         {
@@ -5688,6 +5735,53 @@
         }
       ],
       "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
+    },
+    {
+      "abstract_text": "Extending the N=1 examples of Meddaugh and Stephens, Shadowing with small diameter sets of bounded cardinality (arXiv:2509.04312v1, September 4, 2025, Examples 3.4 and 3.6, Theorem 3.7), we answer their Questions 5.1 and 5.2 (Section 5, printed page 11) for every N>=1 by mixing binary subshifts with dense periodic points. For each m>=3, we construct a compact two-sided subshift with neighborhood (m-1)-shadowing but without neighborhood (m-2)-shadowing. A periodic phase cover supplies one fixed tracing set of at most m-1 points with arbitrarily small initial diameter. A progression with widely separated occupied sites forces the matching lower bound. Every member fails quasi-finite type and is nonsofic; in particular, m=3 gives another affirmative answer to Question 5.3. Moreover, the tracing points can all follow the pseudo-orbit at common periodic times, so even uniform syndetic tracing by each point does not characterize quasi-finite type.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "147008bff5524a3dccf0efa3ed9e76fb6b168a50",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/147008bff5524a3dccf0efa3ed9e76fb6b168a50/D5/S1/Dynamics/Shadowing/LacunaryShadowingHierarchy.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 87197,
+        "sha256": "d39e9460b71c58272f0ba71a923172bf1a37a52e05743be497e5b8dacba85734",
+        "url": "/api/v1/collected-papers/meddaugh-stephens-2025-neighborhood-shadowing-hierarchy/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T11:32:40.317355897Z",
+      "record": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy",
+      "repository_name": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy",
+      "source": {
+        "bytes": 15461,
+        "sha256": "b7e972097a7448a6af858952d247b5e04a7c66e6a376679a04e544f88a897b18",
+        "url": "/api/v1/collected-papers/meddaugh-stephens-2025-neighborhood-shadowing-hierarchy/files/source?version=2"
+      },
+      "title": "Extending Meddaugh and Stephens' examples to every finite neighborhood-shadowing separation",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T11:32:40.317355897Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy"
     },
     {
       "abstract_text": "We give a finite-boundary alternative proof of Mertens's grid–cylinder growth equality (2024, Section 5, page 19, after equation (22)), which already follows from Gangloff and Talon's grid results (2019/2020). The per-vertex counts have the same unrestricted joint limit as both side lengths tend to infinity. An injective boundary repair gives g(m,n) <= c(m,n) <= 4^n g(m,n). Block arguments yield explicit rectangle and strip bounds, and the comparison extends to every positive activity and to king graphs with periodic boundaries.",

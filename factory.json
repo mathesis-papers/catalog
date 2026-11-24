@@ -3982,6 +3982,63 @@
       "work": "hardin185765"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 100614,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "bda7653e6792060080babb5f63767506dac5c31e709176bce89d9671b7a03b27",
+          "sha256": "bda7653e6792060080babb5f63767506dac5c31e709176bce89d9671b7a03b27"
+        },
+        "source": {
+          "bytes": 33786,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "eda963e726cf542390ada32a2f011c99eec81171421c5b213c3dbbc3fee899a3",
+          "sha256": "eda963e726cf542390ada32a2f011c99eec81171421c5b213c3dbbc3fee899a3"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229634Strip.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/hardin229634-defective-colourings",
+      "site_url": "https://papers.trureturing.org/hardin229634-defective-colourings/",
+      "title": "Extensions of Shrock's and Yurishchev's formulas to Hardin's defective-colouring recurrences",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "hardin229634-defective-colourings"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24445693",
       "doi": "10.5281/zenodo.24445694",
       "files": {
@@ -6784,6 +6841,63 @@
       },
       "version": 2,
       "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 87197,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "d39e9460b71c58272f0ba71a923172bf1a37a52e05743be497e5b8dacba85734",
+          "sha256": "d39e9460b71c58272f0ba71a923172bf1a37a52e05743be497e5b8dacba85734"
+        },
+        "source": {
+          "bytes": 15461,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "b7e972097a7448a6af858952d247b5e04a7c66e6a376679a04e544f88a897b18",
+          "sha256": "b7e972097a7448a6af858952d247b5e04a7c66e6a376679a04e544f88a897b18"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "147008bff5524a3dccf0efa3ed9e76fb6b168a50",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/147008bff5524a3dccf0efa3ed9e76fb6b168a50/D5/S1/Dynamics/Shadowing/LacunaryShadowingHierarchy.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/meddaugh-stephens-2025-neighborhood-shadowing-hierarchy",
+      "site_url": "https://papers.trureturing.org/meddaugh-stephens-2025-neighborhood-shadowing-hierarchy/",
+      "title": "Extending Meddaugh and Stephens' examples to every finite neighborhood-shadowing separation",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy"
     },
     {
       "concept_doi": "10.5281/zenodo.24409064",
@@ -10568,8 +10682,8 @@
       "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 188,
+  "papers": 190,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-24T10:36:30.424755491Z"
+  "snapshot_time": "2026-11-24T12:36:56.933252932Z"
 }

@@ -19014,6 +19014,279 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:hardin229634-defective-colourings:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229634Strip.lean"
+      },
+      "lineage": "collected:hardin229634-defective-colourings:s1",
+      "macros": {
+        "\\ind": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229634-defective-colourings",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\geq21$,\n\\begin{equation}\na(n)=\\sum_{j=0}^{17}c_j a(n-18+j).\n\\end{equation}\nThis is exactly the recurrence in the Formula field of A229634.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extensions of Shrock's and Yurishchev's formulas to Hardin's defective-colouring recurrences",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin229634-defective-colourings"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hardin229634-defective-colourings:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229634Strip.lean"
+      },
+      "lineage": "collected:hardin229634-defective-colourings:s2",
+      "macros": {
+        "\\ind": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229634-defective-colourings",
+      "scope": "in_scope",
+      "statement": "The least order of an eventual rational constant-coefficient recurrence\nfor $a(n)$ is eighteen. Equation~\\eqref{eq:recurrence} fails at $n=20$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extensions of Shrock's and Yurishchev's formulas to Hardin's defective-colouring recurrences",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin229634-defective-colourings"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hardin229634-defective-colourings:2:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229634Strip.lean"
+      },
+      "lineage": "collected:hardin229634-defective-colourings:s3",
+      "macros": {
+        "\\ind": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229634-defective-colourings",
+      "scope": "in_scope",
+      "statement": "The reduced denominator of $\\sum_{\\ell\\geq1}L_d(\\ell)z^\\ell$ divides\n$D(z)^{d+1}$. If a group acting on slices preserves $h$ and $b$, the\nsame assertion holds with the orbit transition matrix replacing $T_0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extensions of Shrock's and Yurishchev's formulas to Hardin's defective-colouring recurrences",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin229634-defective-colourings"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hardin229634-defective-colourings:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229634Strip.lean"
+      },
+      "lineage": "collected:hardin229634-defective-colourings:s4",
+      "macros": {
+        "\\ind": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229634-defective-colourings",
+      "scope": "in_scope",
+      "statement": "Every displayed empirical recurrence in A229637, Formula, revision 8\n(27 April 2021), holds. In the following table $r$ is the least\neventual rational constant-coefficient order, and $N$ is the sharp\nstarting index of \\eqref{eq:allrec}. The finite vector identity below\nhas index $N_v$. The last column is the residual at $x=N-1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extensions of Shrock's and Yurishchev's formulas to Hardin's defective-colouring recurrences",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin229634-defective-colourings"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hardin229634-defective-colourings:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229634Strip.lean"
+      },
+      "lineage": "collected:hardin229634-defective-colourings:s5",
+      "macros": {
+        "\\ind": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229634-defective-colourings",
+      "scope": "in_scope",
+      "statement": "The two-column sequence is A229600, and\n\\[\n\\sum_{n\\geq1}a_2(n)z^n\n=\\frac{z^2(6-15z+13z^2-2z^3)}{(1-3z)^3},\\qquad\na_2(n)=3^{n-5}(32n^2+31n-30)\\quad(n\\geq3).\n\\]\nThese are Barker's conjectures in A229600, Formula, 16 March 2018.\nThey also follow from Shrock's earlier open-ladder partition function\n\\cite[Eqs.~(5.1)--(5.6)]{shrock} by setting $q=3$, $v=t-1$ and\ntaking the coefficient of $t^2$: precisely,\n$\\sum_{n\\geq1}a_2(n)z^n=z^2[t^2]\\Gamma(S,3,t-1,z)/6$.\nThe empirical generating functions credited to Mathar in A229632\n(29 September 2013) and Barker in A229633 (20 September 2018)\nalso hold \\cite{widthtwo,widththree,widthfour}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extensions of Shrock's and Yurishchev's formulas to Hardin's defective-colouring recurrences",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin229634-defective-colourings"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hardin229634-defective-colourings:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229634Strip.lean"
+      },
+      "lineage": "collected:hardin229634-defective-colourings:s6",
+      "macros": {
+        "\\ind": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229634-defective-colourings",
+      "scope": "in_scope",
+      "statement": "One has $T(n,1)=0$ for $n\\geq1$ and\n\\[\nT(1,k)=\\binom{k-1}{2}2^{k-4}\\quad(k\\geq4),\\qquad\n(T(1,1),T(1,2),T(1,3))=(0,0,1).\n\\]\nConsequently $T(1,k)=6T(1,k-1)-12T(1,k-2)+8T(1,k-3)$ for\n$k\\geq7$, with residual $-4$ at $k=6$ and minimal eventual order three.\nFor $k\\geq4$ this is Sloane's A052482$(k-2)$ \\cite{sloane}.\nIn this notation the reciprocal sums recorded there by Amiram Eldar\n(28 September 2025) are\n\\[\n\\sum_{k\\geq4}\\frac1{T(1,k)}=6-8\\log2,\\qquad\n\\sum_{k\\geq4}\\frac{(-1)^k}{T(1,k)}=10-24\\log(3/2).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extensions of Shrock's and Yurishchev's formulas to Hardin's defective-colouring recurrences",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin229634-defective-colourings"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:hardin229634-defective-colourings:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229634Strip.lean"
+      },
+      "lineage": "collected:hardin229634-defective-colourings:s7",
+      "macros": {
+        "\\ind": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229634-defective-colourings",
+      "scope": "in_scope",
+      "statement": "Let $U(n)$ be the number of labelled $n\\times5$ arrays in A232917:\nno horizontal or diagonal neighbours have values summing to two.\nThen\n\\[\n\\sum_{n\\geq1}U(n)z^n\n=\\frac{6z(4-7z+z^2)(2-8z-5z^2+3z^3)}\n {1-14z+45z^2-15z^3-36z^4+19z^5-2z^6}.\n\\]\nThis proves Barker's empirical generating function (6 October 2018)\nand Hardin's order-six recurrence in A232917 \\cite{zerowidthfive},\nthe latter for $n\\geq7$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extensions of Shrock's and Yurishchev's formulas to Hardin's defective-colouring recurrences",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin229634-defective-colourings"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:hardin233156:3:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -32654,6 +32927,293 @@
       "toolchain": null,
       "version": 2,
       "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:meddaugh-stephens-2025-neighborhood-shadowing-hierarchy:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "147008bff5524a3dccf0efa3ed9e76fb6b168a50",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/147008bff5524a3dccf0efa3ed9e76fb6b168a50/D5/S1/Dynamics/Shadowing/LacunaryShadowingHierarchy.lean"
+      },
+      "lineage": "collected:meddaugh-stephens-2025-neighborhood-shadowing-hierarchy:s1",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy",
+      "scope": "in_scope",
+      "statement": "For every $m\\geq3$, $(X_m,\\sigma)$ has neighborhood $(m-1)$-shadowing\nand does not have neighborhood $(m-2)$-shadowing. Consequently every\n$N\\geq1$ occurs in both Questions 5.1 and 5.2, by taking $m=N+2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Meddaugh and Stephens' examples to every finite neighborhood-shadowing separation",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:meddaugh-stephens-2025-neighborhood-shadowing-hierarchy:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "147008bff5524a3dccf0efa3ed9e76fb6b168a50",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/147008bff5524a3dccf0efa3ed9e76fb6b168a50/D5/S1/Dynamics/Shadowing/LacunaryShadowingHierarchy.lean"
+      },
+      "lineage": "collected:meddaugh-stephens-2025-neighborhood-shadowing-hierarchy:s2",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy",
+      "scope": "in_scope",
+      "statement": "The $m-1$ open sets $B_a$ cover $\\mathbb R/m\\Z$, all contain\n$(-1/4,1/4)$, and each contains at most two points of\n$\\{u,u+1,\\ldots,u+m-1\\}$ for every real $u$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Meddaugh and Stephens' examples to every finite neighborhood-shadowing separation",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:meddaugh-stephens-2025-neighborhood-shadowing-hierarchy:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "147008bff5524a3dccf0efa3ed9e76fb6b168a50",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/147008bff5524a3dccf0efa3ed9e76fb6b168a50/D5/S1/Dynamics/Shadowing/LacunaryShadowingHierarchy.lean"
+      },
+      "lineage": "collected:meddaugh-stephens-2025-neighborhood-shadowing-hierarchy:s3",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy",
+      "scope": "in_scope",
+      "statement": "For every integer $R\\geq0$ there are $K\\geq0$ and sets\n$M_0,\\ldots,M_{m-2}\\subseteq\\Z$ such that:\n\\begin{enumerate}\n\\item every $M_a$ contains $[-R,R]\\cap\\Z$;\n\\item every window $[t-R,t+R]\\cap\\Z$, $t\\geq0$, lies in some $M_a$;\n\\item $|M_a\\cap P_{s,k}|\\leq2$ for all $s\\in\\Z$ and $k\\geq K$.\n\\end{enumerate}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Meddaugh and Stephens' examples to every finite neighborhood-shadowing separation",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:meddaugh-stephens-2025-neighborhood-shadowing-hierarchy:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "147008bff5524a3dccf0efa3ed9e76fb6b168a50",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/147008bff5524a3dccf0efa3ed9e76fb6b168a50/D5/S1/Dynamics/Shadowing/LacunaryShadowingHierarchy.lean"
+      },
+      "lineage": "collected:meddaugh-stephens-2025-neighborhood-shadowing-hierarchy:s4",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy",
+      "scope": "in_scope",
+      "statement": "The subshift $X_4$ has neighborhood $3$-shadowing but not neighborhood\n$2$-shadowing. More generally the least finite neighborhood-shadowing\nbound of $X_m$ is exactly $m-1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Meddaugh and Stephens' examples to every finite neighborhood-shadowing separation",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:meddaugh-stephens-2025-neighborhood-shadowing-hierarchy:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "147008bff5524a3dccf0efa3ed9e76fb6b168a50",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/147008bff5524a3dccf0efa3ed9e76fb6b168a50/D5/S1/Dynamics/Shadowing/LacunaryShadowingHierarchy.lean"
+      },
+      "lineage": "collected:meddaugh-stephens-2025-neighborhood-shadowing-hierarchy:s5",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy",
+      "scope": "in_scope",
+      "statement": "No $X_m$ is of quasi-finite type, or of finite type. In particular,\n$X_3$ answers Question 5.3 of~\\cite{MS} affirmatively.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Meddaugh and Stephens' examples to every finite neighborhood-shadowing separation",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:meddaugh-stephens-2025-neighborhood-shadowing-hierarchy:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "147008bff5524a3dccf0efa3ed9e76fb6b168a50",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/147008bff5524a3dccf0efa3ed9e76fb6b168a50/D5/S1/Dynamics/Shadowing/LacunaryShadowingHierarchy.lean"
+      },
+      "lineage": "collected:meddaugh-stephens-2025-neighborhood-shadowing-hierarchy:s6",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy",
+      "scope": "in_scope",
+      "statement": "For every $m\\geq3$ and every $\\varepsilon>0$, there are $\\delta>0$\nand an integer $p\\geq1$ such that every $\\delta$-pseudo-orbit $(z_t)$\nin $X_m$ admits a fixed nonempty set $A$ with $|A|\\leq m-1$,\n$\\diam A<\\varepsilon$, and\n\\[\n \\min_{a\\in A}d(\\sigma^t a,z_t)<\\varepsilon\\quad(t\\geq0),\n \\qquad\n \\max_{a\\in A}d(\\sigma^{\\ell p}a,z_{\\ell p})<\\varepsilon\n \\quad(\\ell\\geq0).\n\\]\nIn particular, even neighborhood two-shadowing in which each tracer\nhas a uniformly bounded return time to the pseudo-orbit does not imply\nquasi-finite type.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Meddaugh and Stephens' examples to every finite neighborhood-shadowing separation",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:meddaugh-stephens-2025-neighborhood-shadowing-hierarchy:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "147008bff5524a3dccf0efa3ed9e76fb6b168a50",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/147008bff5524a3dccf0efa3ed9e76fb6b168a50/D5/S1/Dynamics/Shadowing/LacunaryShadowingHierarchy.lean"
+      },
+      "lineage": "collected:meddaugh-stephens-2025-neighborhood-shadowing-hierarchy:s7",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\diam": "\\operatorname{diam}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy",
+      "scope": "in_scope",
+      "statement": "For every $m\\geq3$, $X_m$ is topologically mixing and has dense periodic\npoints. It is nonsofic. Thus every separation in Theorem~\\ref{thm:main}\noccurs within mixing nonsofic subshifts with dense periodic points.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Meddaugh and Stephens' examples to every finite neighborhood-shadowing separation",
+      "toolchain": null,
+      "version": 2,
+      "work": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy"
     },
     {
       "attribution": null,

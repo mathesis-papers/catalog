@@ -1,6 +1,7 @@
 {
   "doi": "10.5281/zenodo.24486341",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/mertens-range-two-stable-matching/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/mertens-range-two-stable-matching",
