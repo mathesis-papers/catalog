@@ -44,7 +44,8 @@ setting is accepted as a fallback. `execution_mode=shared` and
 machine using GPT-6.2 Sol with high reasoning effort. Existing admitted tasks
 keep their original model and operation; model changes apply to new admissions.
 Host rendering and publishing remain serialized. Finished
-sources waiting for the renderer are also bounded by that capacity. The operator assigns two fixed sandboxes: internal collected-paper materials
+sources waiting for the renderer are also bounded by that capacity.
+The operator assigns two fixed sandboxes: internal collected-paper materials
 use `CMA_COLLECTION_WORKSPACE`; external review uses the separate
 `CMA_EXTERNAL_WORKSPACE`. Both observed allocations have 8192 MiB memory.
 Each job keeps its original context; processes inside one assigned sandbox
