@@ -45,6 +45,27 @@ class FakeCMA:
                 'worktree':{'path':'/home/cma/workspace/.worktrees/wt-186'}}
 
 
+class EndpointTests(unittest.TestCase):
+    def test_public_cma_origin_is_default_and_original_commands_and_auth_are_preserved(self):
+        provider = cma.CMA('test-only-credential')
+        with patch.object(provider.opener, 'open', return_value=io.BytesIO(b'{"id":"original-operation"}')) as send:
+            body = {'name': 'Existing task', 'workspace_id': 'wks_internal', 'initial_message': 'Exact admitted input'}
+            self.assertEqual(provider.call('POST', '/api/v1/agents', body, 'original-key'), {'id':'original-operation'})
+        request = send.call_args.args[0]
+        self.assertEqual(request.full_url, 'https://cma.nyxid.ai/api/v1/agents')
+        self.assertEqual(request.get_header('Authorization'), 'Bearer test-only-credential')
+        self.assertEqual(request.get_header('Idempotency-key'), 'original-key')
+        self.assertEqual(json.loads(request.data), body)
+        self.assertTrue(any(isinstance(h, cma.NoRedirect) for h in provider.opener.handlers))
+
+    def test_endpoint_selection_refuses_credential_and_origin_escapes(self):
+        for origin in ['https://cma.nyxid.ai','https://cma.nyxid.ai/', 'https://api.nyxid.ai/api/v1/proxy/s/cma', 'http://127.0.0.1:8765']:
+            with self.subTest(origin=origin): cma.CMA('test', origin)
+        for origin in ['http://cma.nyxid.ai','https://cma.nyxid.ai.evil.test','https://user:secret@cma.nyxid.ai','https://cma.nyxid.ai:444','https://cma.nyxid.ai/other','https://cma.nyxid.ai?token=secret','https://cma.nyxid.ai/#part','https://evil.test','http://localhost/other']:
+            with self.subTest(origin=origin):
+                with self.assertRaisesRegex(ValueError,'unexpected CMA endpoint'): cma.CMA('test', origin)
+
+
 class AdapterTests(unittest.TestCase):
     def test_long_work_id_uses_a_bounded_distinguishable_provider_name(self):
         e = envelope()

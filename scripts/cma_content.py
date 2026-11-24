@@ -73,10 +73,14 @@ def agent_name(work, key):
 
 
 class CMA:
-    def __init__(self, token, base="https://api.nyxid.ai/api/v1/proxy/s/cma"):
+    def __init__(self, token, base="https://cma.nyxid.ai"):
         url = urllib.parse.urlsplit(base)
-        require((url.scheme == "https" and url.hostname == "api.nyxid.ai" and url.path == "/api/v1/proxy/s/cma")
-                or (url.scheme == "http" and url.hostname in ("localhost", "127.0.0.1")), "unexpected CMA endpoint")
+        public = url.scheme == "https" and url.port in (None, 443) and (
+            (url.hostname == "cma.nyxid.ai" and url.path in ("", "/"))
+            or (url.hostname == "api.nyxid.ai" and url.path == "/api/v1/proxy/s/cma"))
+        local = url.scheme == "http" and url.hostname in ("localhost", "127.0.0.1") and url.path in ("", "/")
+        require((public or local) and url.username is None and url.password is None
+                and not url.query and not url.fragment, "unexpected CMA endpoint")
         require(token and not any(c in token for c in "\r\n"), "missing CMA service credential")
         self.base, self.token = base.rstrip("/"), token
         self.opener = urllib.request.build_opener(NoRedirect())
