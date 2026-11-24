@@ -162,6 +162,8 @@ def prepare(root, workspace, work, config, state=None, factory_stage=None):
 
 
 def save_sources(cma, ledger, state):
+    if isinstance(cma, cma_content.CMA):
+        cma = cma.for_job(state)
     prefix = cma_content.artifact_prefix(state)
     handoff = cma.file(state['agent_id'], prefix + 'handoff.json')
     pack = cma.file(state['agent_id'], prefix + 'sources.tar.gz')
@@ -214,6 +216,8 @@ def cleanup(cma, ledger, state):
     if not state.get('agent_id') or state.get('cleanup_complete'):
         return
     require(state.get('source_archive_sha256'), 'never delete the only copy of authored work')
+    if isinstance(cma, cma_content.CMA):
+        cma = cma.for_job(state)
     agent = cma.call('GET','/api/v1/agents/'+state['agent_id'],missing=True)
     if agent is None or agent.get('status') == 'deleted':
         state['cleanup_complete'] = True
