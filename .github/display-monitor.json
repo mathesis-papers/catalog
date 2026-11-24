@@ -64,10 +64,9 @@
     "the-omega-institute/trureturing-outreach-engine": {
       "branch": "main",
       "paths": [
-        "managed/delivery.py",
         "managed/mathesis_delivery.py",
-        "managed/public_feed.py",
-        "managed/shortnotes.py"
+        "scripts/short_notes/service.py",
+        "scripts/short_notes/workflow.py"
       ],
       "verify": [
         [
@@ -75,7 +74,8 @@
           "-m",
           "compileall",
           "-q",
-          "managed"
+          "managed",
+          "scripts/short_notes"
         ],
         [
           "python3",
@@ -84,6 +84,16 @@
           "discover",
           "-s",
           "managed/tests"
+        ],
+        [
+          "python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "scripts/short_notes",
+          "-p",
+          "test_*.py"
         ]
       ],
       "auto_merge": false,
