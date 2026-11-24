@@ -79,6 +79,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24487480",
+      "id": "bala-a292179-a292178-bilateral-logarithm",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24405774",
       "id": "bala-machine3626-exact-halting-time",
       "kind": "collected",
@@ -199,6 +205,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24487234",
+      "id": "choi-yoo-kim-kwon-won-healing-chains",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24414702",
       "id": "clarisse-wocjan-2005-permutation-criteria-classification",
       "kind": "collected",
@@ -251,6 +263,12 @@
       "id": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold",
       "kind": "collected",
       "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24487343",
+      "id": "ekene-accumulated-sparse-errors",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.24484819",
@@ -357,6 +375,12 @@
     {
       "doi": "10.5281/zenodo.24410605",
       "id": "hardin-barker-cyclic-repetitions",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24487246",
+      "id": "hardin-barker-trace-array-formulas",
       "kind": "collected",
       "version": 2
     },
@@ -565,6 +589,12 @@
       "version": 1
     },
     {
+      "doi": "10.5281/zenodo.24487348",
+      "id": "manju-sharma-outer-twisted-derivations",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24483900",
       "id": "markey-five-site-growth-identity",
       "kind": "collected",
@@ -707,6 +737,18 @@
       "id": "oeis-a130095-ratio-limit",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24487649",
+      "id": "oeis-a146304-maximal-bishop-growth-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24487651",
+      "id": "oeis-a157100-five-term-recurrence",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.24415604",
@@ -1021,6 +1063,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-24T01:31:06.874875161Z",
+  "generated_at": "2026-11-24T02:34:21.637496759Z",
   "schema": "mathesis.archive-index.v1"
 }

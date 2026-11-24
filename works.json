@@ -612,6 +612,53 @@
       "work": "bajnok-beatty-original-conjecture-4-1"
     },
     {
+      "abstract_text": "We prove the identity recorded in Paul D. Hanna's OEIS A293380 (October 7, 2017, revision 21, COMMENTS line 6) and posed as 'Conjecture' by Peter Bala in A292179 (March 2, 2025, revision 20, COMMENTS line 8): the bilateral series sum over nonzero integers n of (x-a^n)^n/n equals -Log(1-x) for |x|<1 and 0<|a|<1. The proof applies to complex parameters and the principal logarithm. A binomial expansion gives an absolutely summable triangular array whose columns cancel the negative-index terms. Both tails converge absolutely; their regular forms also give the unique continuous extension at a=0. Corollaries establish three pairs of complementary constants and the convergence of Hanna's iteration for a related zero. The same cancellation gives conditional two-tail and symmetric sums for |x|=1, x!=1, and 0<|a|<1.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Analytic/PowerSeries/BalaBilateralLog.lean#L368"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 82769,
+        "sha256": "cf366dc92ab11c6fad426ea3d07096ba7f6105388a345e570ce8e076c28011b0",
+        "url": "/api/v1/collected-papers/bala-a292179-a292178-bilateral-logarithm/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T01:58:41.541625619Z",
+      "record": "bala-a292179-a292178-bilateral-logarithm",
+      "repository_name": "bala-a292179-a292178-bilateral-logarithm",
+      "source": {
+        "bytes": 15504,
+        "sha256": "b1320d795c95a14976ce863a29fd1ad5ad70432e387434b159e1546546445851",
+        "url": "/api/v1/collected-papers/bala-a292179-a292178-bilateral-logarithm/files/source?version=3"
+      },
+      "title": "Proof of Bala's bilateral logarithm conjecture and Hanna's constant identities",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T01:58:41.541625619Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "bala-a292179-a292178-bilateral-logarithm"
+    },
+    {
       "abstract_text": "Extending the pointwise formula recorded by Sequence Machine (18 April 2026) and Wolfram's (2026) worst-case analysis, we prove Peter Bala's conjecture dated 11 September 2026 in the Comments of OEIS A393210, revision 18, also stated in A069517, Formula, revision 31. For every positive integer n, the one-sided Turing machine 3626 halts after 4*2^v2(n)-3 transitions, including its final boundary crossing. A restoring block computation gives the recurrence T_(k+1)=2*T_k+3; the signed Möbius–totient divisor sum in the conjecture has the same value. The proof also gives exact timing statistics and the formulas for the two comparison machines in the same comment. A general weighted divisor identity gives the companion formulas in A069517 and A296306, including a correction to the latter entry's stated value on powers of two. The companion ordinary generating series recover Stephan's (2003) family.",
       "authors": [
         {
@@ -2022,6 +2069,100 @@
       "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
     },
     {
+      "abstract_text": "Ekene E.'s finite-dimensional and Hilbert-space conjectures in A bound on accumulated PSD contractions, MathOverflow question 509794, revision 2, paragraphs 1–2 (2 April 2026), are false: we construct equicorrelated counterexamples and give a sharp accumulated extension of Barron's pointwise approximation bound (1993, Lemma 1). The harmonic upper bound has sharp leading constant one, and the optimal pointwise squared-error envelope is 1/(1+sqrt(d))^2. The same errors are realized by uniform measures on unit vectors, with zero tails; one 64-atom example has total strictly between 1.431 and 1.432. A countably supported measure in a separable Hilbert space has a divergent accumulated squared-error series.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "88be2a120b67a9d9e724eaae970c8263d0a0e9a4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/88be2a120b67a9d9e724eaae970c8263d0a0e9a4/D5/S3/QuadraticForms/AccumulatedSparseRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 96738,
+        "sha256": "6a9d2408706ca91cfefa42d21f25c374ba7169c13b1135f4ec0d00a23fffce36",
+        "url": "/api/v1/collected-papers/ekene-accumulated-sparse-errors/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T01:46:21.963284115Z",
+      "record": "ekene-accumulated-sparse-errors",
+      "repository_name": "ekene-accumulated-sparse-errors",
+      "source": {
+        "bytes": 110013,
+        "sha256": "110418a75086b697c68b0909a9c9971cb17393329849248bd7c31df364065f68",
+        "url": "/api/v1/collected-papers/ekene-accumulated-sparse-errors/files/source?version=2"
+      },
+      "title": "Counterexamples to Ekene E.'s accumulated sparse-error conjectures and a sharp extension of Barron's bound",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T01:46:21.963284115Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "ekene-accumulated-sparse-errors"
+    },
+    {
+      "abstract_text": "Extending the conditional example of Brandsma, van Hartskamp and van Mill (1997, Example 2.3, pp. 28–29), we answer yes in ZFC to Feldman and Wilce’s Section 5, Question 2, p. 11 of arXiv:2608.13320v1: the bounded-clique property is strictly weaker than the finite open chromatic property, as witnessed by a deleted-square construction. The space D(βℕ)=(βℕ)²∖Δ has countably compact countable power, so every symmetric irreflexive relation closed in its whole square has a finite bound on clique size. Its coordinate-swap relation nevertheless has no countable cover by open independent sets. Clopen separation proves the compactness assertion, and an infinite Ramsey argument proves the coloring obstruction. We also give an explicit higher power that is not countably compact and derive the sphere lower bound suggested by Feldman and Wilce from Holmsen–Lee’s theorem.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 103305,
+        "sha256": "da54a1bc2f2c048a16b0495042c759b6081c1526f93edf665d25fcb76fe0c2f8",
+        "url": "/api/v1/collected-papers/feldman-wilce-bounded-cliques-open-chromatic-strictness/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T02:29:53.451187235Z",
+      "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+      "repository_name": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+      "source": {
+        "bytes": 14789,
+        "sha256": "3d220a4e330fd3220bde42e962a4c5a5560c7f7d8d84f0edb2de5e2c5b59f1d3",
+        "url": "/api/v1/collected-papers/feldman-wilce-bounded-cliques-open-chromatic-strictness/files/source?version=3"
+      },
+      "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T02:29:53.451187235Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+    },
+    {
       "abstract_text": "Extending Towse and Campbell's integer rank-one constructions (2016, Section 2, Theorem 1 and Corollaries 1–2) to the zerofree setting, we refute Finch's Conjecture 4 in Small Matrices with Small Inverses: Unimodular Zerofree Cases (arXiv:2605.03691v4, June 12, 2026, Section 5, p. 7) by constructing a positive integral matrix of order six with determinant -1, no zero entry in either it or its inverse, and maximum absolute entry 3 in both. A diagonal sign matrix plus a rank-one matrix gives the construction. Every even order at least two admits such a positive matrix with any prescribed common maximum at least three; every odd order at least three admits one with common maximum three. We also give positive order-six examples with maxima (3,4) and (3,5), and identify the parts of Finch's extremal conjecture covered by his later bounds.",
       "authors": [
         {
@@ -2644,9 +2785,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24486634",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24486635",
       "lean_source": {
         "revision": "91f44a2b8e396fd6374dd8ae047c158afbbebba4",
         "url": "https://github.com/the-omega-institute/trureturing/blob/91f44a2b8e396fd6374dd8ae047c158afbbebba4/D5/S1/Recurrence/Algebraic/HannaSelfSubstitutionIntegrality.lean"
@@ -2738,9 +2879,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24486986",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24486987",
       "lean_source": {
         "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
         "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA202330.lean"
@@ -4607,6 +4748,53 @@
       "work": "malkoun-2026-mo512579-jordan-elementary"
     },
     {
+      "abstract_text": "An elementary alternative proof of the cyclotomic specialization of Noferini–Williams Smith forms (2024, Theorem 3.11; 2026, Theorems 2.2 and 2.4) corrects Manju and Sharma's printed Conjecture 5.2 in Twisted Derivations in Algebraic Number Fields, arXiv:2412.03507v2 (9 April 2026), Section 5.2, p. 30. Its Gaussian witness is a specialization of Chaudhuri's 2019 quadratic construction. For distinct twists sigma(zeta)=zeta^u and tau(zeta)=zeta^v on O=Z[zeta], the outer module is O/(zeta^v-zeta^u)O. Writing h=n/gcd(n,|v-u|), its additive group is (Z/ell Z)^(phi(n)/phi(h)) if h is a power of a prime ell, and is zero otherwise. Thus, for n=p^k and e=v_p(|v-u|), the correct adjugate denominator is p^(p^e), not p^e; the printed test is integral for every derivation. Nonzero outer classes nevertheless exist for every prime-power twist pair. The same theorem settles the related determinant and innerness conjectures, including the prime-conductor conjectures in the authors' number-rings paper, and classifies conductors for which every distinct twist pair admits nonzero outer classes.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "1ff680e6cc902e88cfbba1b684826388e2ac8d37",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ff680e6cc902e88cfbba1b684826388e2ac8d37/D5/S3/Arith/TwistedDerivations/ManjuSharmaConjectureFiveTwo.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 105926,
+        "sha256": "11a5dc1c6195cee7457f0c2272dbe7a4e2af67ae78e8cce8fdbbbe121b895074",
+        "url": "/api/v1/collected-papers/manju-sharma-outer-twisted-derivations/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T01:39:10.523325483Z",
+      "record": "manju-sharma-outer-twisted-derivations",
+      "repository_name": "manju-sharma-outer-twisted-derivations",
+      "source": {
+        "bytes": 20619,
+        "sha256": "5e720e9ae23f3aa07e4eb64d00b5b86ccaee030f1b672ec6739eca0d0024ad58",
+        "url": "/api/v1/collected-papers/manju-sharma-outer-twisted-derivations/files/source?version=2"
+      },
+      "title": "Manju–Sharma's outer-derivation conjecture: a correction from Noferini–Williams Smith forms",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T01:39:10.523325483Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "manju-sharma-outer-twisted-derivations"
+    },
+    {
       "abstract_text": "We prove Markey's conjecture in OEIS A400701, FORMULA, revision 30 (October 20, 2026), that the five-site growth count exceeds Shannon's circle-vertex count at the same iteration n > 1 by 4n+7, using residue-class points in expanding hexagons. Counting incidences on the same shapes also proves Shannon's conjectured region formulas and gives the curved-edge counts. The argument proves the recorded formulas for three and four initial sites and the generating functions recorded by Irvine.",
       "authors": [
         {
@@ -4996,9 +5184,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24486646",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24486647",
       "lean_source": {
         "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
         "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/MatharA379464/Result.lean"
@@ -5278,9 +5466,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24486340",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24486341",
       "lean_source": {
         "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
         "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/GrowthTransfer.lean"
@@ -5737,6 +5925,100 @@
       "work": "oeis-a130095-ratio-limit"
     },
     {
+      "abstract_text": "The formula at line 12 of the pinned official export of OEIS A146304, revision 35 (February 16, 2025), conjectures that the number a(n) of inclusion-maximal nonattacking bishop subsets of the fixed-coordinate n by n board is O(n^(n-1)); extending Arshon's enumeration (1936, pp. 25-29) to distinguishable maximal completions disproves this growth law. For integers n >= 3 and 1 <= t <= n-2, prescribing occupied difference diagonals and recovering the seeds from maximal extensions gives t^(2(n-1-t)) <= a(n), while a staircase-board embedding gives a(n) <= A(n) <= B(n+2)^2, where A(n) counts all nonattacking subsets and B(j) is the jth Bell number. Thus log(a(n)) and log(A(n)) equal 2n(log(n)-log(log(n))-1) + O(n log(log(n))/log(n)), and a(n)^(1/(2n)) is asymptotic to n/(e log(n)). Each color has the corresponding one-color estimate. The largest coefficients have the same root estimates, and the proportion of placements with fewer than (2-epsilon)n bishops tends to zero for every fixed epsilon > 0.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "549945461571e5d29c740b71d3b02651c85044f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/549945461571e5d29c740b71d3b02651c85044f5/D5/S3/Combinatorics/Graph/Domination/BishopMaximalPlacementGrowth.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 94495,
+        "sha256": "c13521f5512d537c6ff5f335b05af6b2e7b80f84672099516af4a27deb075f8d",
+        "url": "/api/v1/collected-papers/oeis-a146304-maximal-bishop-growth-refutation/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T02:03:23.583270736Z",
+      "record": "oeis-a146304-maximal-bishop-growth-refutation",
+      "repository_name": "oeis-a146304-maximal-bishop-growth-refutation",
+      "source": {
+        "bytes": 18684,
+        "sha256": "6014895eb829be3564ca6ae8b750e1523fe62b5bdcb6b9f3f9d83a7347fbb896",
+        "url": "/api/v1/collected-papers/oeis-a146304-maximal-bishop-growth-refutation/files/source?version=2"
+      },
+      "title": "The OEIS maximal-bishop growth conjecture: an extension of Arshon's enumeration",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T02:03:23.583270736Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "oeis-a146304-maximal-bishop-growth-refutation"
+    },
+    {
+      "abstract_text": "Using Mathar's root-generating-function theorem (2021, Theorem 5), we give an alternative coefficient proof of his conjecture in OEIS A157100, revision 14, FORMULA line 11 (5 February 2015), for every n >= 4. We correct the generating-function ratio accompanying its partial-sum description and extend the calculation to the adjacent sequence A025262: its linear recurrence implies Somos's bilinear identity by elimination of the index. The same radical identity proves Mathar's six-term conjecture for A025268 on its fully defined domain n >= 6. We also derive the related coefficient formulas, shifted generating functions, and the leading asymptotic constants.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "962b1e14510f845c23345d34b4fb8205b2ddc2bd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/962b1e14510f845c23345d34b4fb8205b2ddc2bd/D5/S1/Recurrence/Algebraic/MatharA157100FiveTermRecurrence.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 103321,
+        "sha256": "1105943b579b3170f28dc7e30ed349e47c0daa2808ea5f4fe92e3a8f79c560b0",
+        "url": "/api/v1/collected-papers/oeis-a157100-five-term-recurrence/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T02:02:36.580867444Z",
+      "record": "oeis-a157100-five-term-recurrence",
+      "repository_name": "oeis-a157100-five-term-recurrence",
+      "source": {
+        "bytes": 1025544,
+        "sha256": "c2595e622aa26156f063dc2e2f82e9d7894e10c70c2e43878b465cf7d6f684b0",
+        "url": "/api/v1/collected-papers/oeis-a157100-five-term-recurrence/files/source?version=3"
+      },
+      "title": "A ratio correction and sibling identities for Mathar's Catalan-transform recurrence",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T02:02:36.580867444Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "oeis-a157100-five-term-recurrence"
+    },
+    {
       "abstract_text": "We prove Paul Barry's shifted Hankel conjecture in OEIS A188475, revision 2 (April 1, 2011): for every n>=0, det[q(i+j+2)]_(0<=i,j<=n)=(2n^3+3n^2+n+3)/3, by a moment-matrix cofactor argument extending Cigler's unit-descent formula (2011, Theorem A*). The same calculation gives both adjacent shifts and a parameter formula det[q_lambda(i+j+2)]_(i,j<N)=1+lambda*sum(k^2,k=0..N-1) for every complex lambda, with q_lambda defined by its Catalan generating function. A direct bijection relates the source's nonexchangeable subsequences to Callan's restricted Grand Dyck paths.",
       "authors": [
         {
@@ -5936,9 +6218,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24486345",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24486346",
       "lean_source": {
         "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
         "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S1/Words/KimberlingA288476Length.lean"

@@ -331,8 +331,20 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24486635",
+      "id": "hanna-self-substitution-integrality",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24484628",
       "id": "hanna-square-exponent-integrality",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24486987",
+      "id": "hardin-barker-a202330",
       "kind": "collected",
       "version": 2
     },
@@ -601,6 +613,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24486647",
+      "id": "mathar379464-bounded-path-recurrences",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24446063",
       "id": "mathex-2026-mo511715-cutoff-bound",
       "kind": "collected",
@@ -627,6 +645,12 @@
     {
       "doi": "10.5281/zenodo.24409065",
       "id": "mertens-2024-grid-cylinder-joint-growth",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24486341",
+      "id": "mertens-range-two-stable-matching",
       "kind": "collected",
       "version": 3
     },
@@ -705,6 +729,12 @@
     {
       "doi": "10.5281/zenodo.24211281",
       "id": "oeis-a208509-affine-polynomial-pair-binomial-coefficients",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24486346",
+      "id": "oeis-a288476-replacement-iterate-length",
       "kind": "collected",
       "version": 2
     },
@@ -991,6 +1021,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-24T01:31:06.874875161Z",
+  "generated_at": "2026-11-24T02:34:21.637496759Z",
   "schema": "mathesis.archive-index.v1"
 }

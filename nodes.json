@@ -3383,6 +3383,201 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:bala-a292179-a292178-bilateral-logarithm:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Analytic/PowerSeries/BalaBilateralLog.lean#L368"
+      },
+      "lineage": "collected:bala-a292179-a292178-bilateral-logarithm:s1",
+      "macros": {
+        "\\Log": "\\operatorname{Log}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a292179-a292178-bilateral-logarithm",
+      "scope": "in_scope",
+      "statement": "For every $x,a\\in\\mathbb D$, both series in\n\\begin{equation}\n F(x,a)=\\sum_{m\\geq1}p_m(x,a)+\\sum_{m\\geq1}q_m(x,a)\n       =-\\Log(1-x)\n\\end{equation}\nconverge absolutely, locally uniformly on $\\mathbb D^2$.\nFor $a\\ne0$, every term of the bilateral series is defined, and\n\\begin{equation}\n \\sum_{n\\in\\mathbb Z\\setminus\\{0\\}}\\frac{(x-a^n)^n}{n}\n =\\lim_{N\\to\\infty}\\sum_{m=1}^N\n \\left(\\frac{(x-a^m)^m}{m}+\\frac{(x-a^{-m})^{-m}}{-m}\\right)\n =-\\Log(1-x).\n\\end{equation}\nThe integer-indexed sum is absolutely convergent, so its value is\nindependent of the order of summation.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's bilateral logarithm conjecture and Hanna's constant identities",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-a292179-a292178-bilateral-logarithm"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:bala-a292179-a292178-bilateral-logarithm:3:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Analytic/PowerSeries/BalaBilateralLog.lean#L368"
+      },
+      "lineage": "collected:bala-a292179-a292178-bilateral-logarithm:s2",
+      "macros": {
+        "\\Log": "\\operatorname{Log}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a292179-a292178-bilateral-logarithm",
+      "scope": "in_scope",
+      "statement": "For fixed $x\\in\\mathbb D$, $F(x,0)=-\\Log(1-x)$ is the unique value\nat zero making the bilateral sum continuous as a function of $a$ on\n$\\mathbb D$. For real $x,a$ with $|x|<1$ and $0<|a|<1$, the original\nreal series converges absolutely to $-\\log(1-x)$, including negative\nvalues of either parameter.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's bilateral logarithm conjecture and Hanna's constant identities",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-a292179-a292178-bilateral-logarithm"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:bala-a292179-a292178-bilateral-logarithm:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Analytic/PowerSeries/BalaBilateralLog.lean#L368"
+      },
+      "lineage": "collected:bala-a292179-a292178-bilateral-logarithm:s3",
+      "macros": {
+        "\\Log": "\\operatorname{Log}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a292179-a292178-bilateral-logarithm",
+      "scope": "in_scope",
+      "statement": "For $0<|x|<1$, the diagonal series\n$\\sum_{n\\in\\mathbb Z\\setminus\\{0\\}}(x-x^n)^n/n$ converges absolutely\nto $-\\Log(1-x)$. Moreover,\n\\[\n C_++C_-=\\log2,\\qquad\n C_-=\\sum_{m\\geq1}\\frac{-1}{m(1/2-2^m)^m},\\qquad\n C_+=\\sum_{m\\geq1}\\frac{(1/2-2^{-m})^m}{m}.\n\\]\nThe constants A293381 and A293382 are respectively\n$P(1/2,1/3)$ and $Q(1/2,1/3)$, and their sum is $\\log2$.\nThe constants A293383 and A293384 are respectively\n$P(2/3,1/2)$ and $Q(2/3,1/2)$, and their sum is $\\log3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's bilateral logarithm conjecture and Hanna's constant identities",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-a292179-a292178-bilateral-logarithm"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:bala-a292179-a292178-bilateral-logarithm:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Analytic/PowerSeries/BalaBilateralLog.lean#L368"
+      },
+      "lineage": "collected:bala-a292179-a292178-bilateral-logarithm:s4",
+      "macros": {
+        "\\Log": "\\operatorname{Log}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a292179-a292178-bilateral-logarithm",
+      "scope": "in_scope",
+      "statement": "There is exactly one $r\\in I=[1/2,3/5]$ with $P(1/2,r)=0$, and\n\\[\n 0.5471802439661624<r<0.5471802439661625,\\qquad\n Q(1/2,r)=\\sum_{m\\geq1}\\frac{-(-2)^m r^{m^2}}{m(2-r^m)^m}=\\log2.\n\\]\nThe bilateral series at $(x,a)=(1/2,r)$ also equals $\\log2$.\nStarting at $r_0=1/2$, both iterations\n\\[\n r_{k+1}=T(r_k),\\qquad r_{k+1}=\\frac{r_k+T(r_k)}2,\\qquad\n T(a)=\\frac12+\\sum_{m\\geq2}\\frac{(1/2-a^m)^m}{m}\n\\]\nconverge to $r$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's bilateral logarithm conjecture and Hanna's constant identities",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-a292179-a292178-bilateral-logarithm"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:bala-a292179-a292178-bilateral-logarithm:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Analytic/PowerSeries/BalaBilateralLog.lean#L368"
+      },
+      "lineage": "collected:bala-a292179-a292178-bilateral-logarithm:s5",
+      "macros": {
+        "\\Log": "\\operatorname{Log}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a292179-a292178-bilateral-logarithm",
+      "scope": "in_scope",
+      "statement": "Let $|x|=1$, $x\\ne1$, and $0<|a|<1$. The positive-index series\nconverges conditionally, the negative-index series converges absolutely,\nand their two-tail and symmetric sums equal $-\\Log(1-x)$.\nThe integer-indexed family is not absolutely summable. At $x=1$ the\npositive tail and symmetric sums diverge; for $|x|>1$ the positive-index\nterms do not tend to zero. Throughout these assertions $0<|a|<1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's bilateral logarithm conjecture and Hanna's constant identities",
+      "toolchain": null,
+      "version": 3,
+      "work": "bala-a292179-a292178-bilateral-logarithm"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:bala-machine3626-exact-halting-time:3:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -11409,6 +11604,723 @@
       "toolchain": null,
       "version": 3,
       "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:ekene-accumulated-sparse-errors:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "88be2a120b67a9d9e724eaae970c8263d0a0e9a4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/88be2a120b67a9d9e724eaae970c8263d0a0e9a4/D5/S3/QuadraticForms/AccumulatedSparseRefutation.lean"
+      },
+      "lineage": "collected:ekene-accumulated-sparse-errors:s1",
+      "macros": {
+        "\\E": "\\mathbb E",
+        "\\R": "\\mathbb R",
+        "\\supp": "\\operatorname{supp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ekene-accumulated-sparse-errors",
+      "scope": "in_scope",
+      "statement": "For every integer $m\\geq1$ and real $0<\\rho<1$, put\n$a=1-\\rho$, $C=a+m\\rho$, $D_d=a+d\\rho$, and set\n\\[\n K_{m,\\rho}=\\frac{aI_m+\\rho J_m}{m},\\qquad\n x_m=\\frac1{\\sqrt m}(1,\\ldots,1).\n\\]\nThese satisfy~\\eqref{eq:hyp} and $\\|K_{m,\\rho}\\|_{2\\to2}\\leq1$.\nFor every $1\\leq d\\leq m$,\n\\begin{equation}\n \\tau_d(K_{m,\\rho},x_m)^2=t_{m,d}(\\rho):=\n \\frac{aC(m-d)}{m^2D_d}.\n\\end{equation}\nThe minimum is attained on any $d$-element support by taking\n\\begin{equation}\n z_i=\\frac{C}{\\sqrt m D_d}\n \\quad\\hbox{on that support},\\qquad z_i=0\\quad\\hbox{elsewhere}.\n\\end{equation}\nIn $\\R^{m+1}$, with orthonormal coordinates $e_0,e_1,\\ldots,e_m$, set\n\\[\n a_i=\\sqrt\\rho\\,e_0+\\sqrt a\\,e_i,\\qquad\n \\mu_{m,\\rho}=\\frac1m\\sum_{i=1}^m\\delta_{a_i},\\qquad\n v_m=\\frac1m\\sum_{i=1}^m a_i.\n\\]\nThen $\\sigma_d(v_m)^2=t_{m,d}(\\rho)$ for $1\\leq d\\leq m$, and\n$\\sigma_d(v_m)^2=0$ for every $d\\geq m$.\nConsequently the two accumulated errors are equal to\n\\begin{equation}\n S_m(\\rho)=\\frac{a(m+b)}{m^2}\n \\left((m+b)\\sum_{d=1}^m\\frac1{d+b}-m\\right),\n \\qquad b=\\frac a\\rho.\n\\end{equation}\nFor fixed $\\rho$, $S_m(\\rho)=(1-\\rho)\\log m+O_\\rho(1)$.\nIn particular, neither proposed bound can be replaced by any universal\nfinite constant.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Ekene E.'s accumulated sparse-error conjectures and a sharp extension of Barron's bound",
+      "toolchain": null,
+      "version": 2,
+      "work": "ekene-accumulated-sparse-errors"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:ekene-accumulated-sparse-errors:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "88be2a120b67a9d9e724eaae970c8263d0a0e9a4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/88be2a120b67a9d9e724eaae970c8263d0a0e9a4/D5/S3/QuadraticForms/AccumulatedSparseRefutation.lean"
+      },
+      "lineage": "collected:ekene-accumulated-sparse-errors:s2",
+      "macros": {
+        "\\E": "\\mathbb E",
+        "\\R": "\\mathbb R",
+        "\\supp": "\\operatorname{supp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ekene-accumulated-sparse-errors",
+      "scope": "in_scope",
+      "statement": "Both accumulated-error conjectures fail for $m=64$, $\\rho=1/2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Ekene E.'s accumulated sparse-error conjectures and a sharp extension of Barron's bound",
+      "toolchain": null,
+      "version": 2,
+      "work": "ekene-accumulated-sparse-errors"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:ekene-accumulated-sparse-errors:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "88be2a120b67a9d9e724eaae970c8263d0a0e9a4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/88be2a120b67a9d9e724eaae970c8263d0a0e9a4/D5/S3/QuadraticForms/AccumulatedSparseRefutation.lean"
+      },
+      "lineage": "collected:ekene-accumulated-sparse-errors:s3",
+      "macros": {
+        "\\E": "\\mathbb E",
+        "\\R": "\\mathbb R",
+        "\\supp": "\\operatorname{supp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ekene-accumulated-sparse-errors",
+      "scope": "in_scope",
+      "statement": "Every finite instance satisfying~\\eqref{eq:hyp} is realized by a probability\nmeasure on a finite subset of the Hilbert unit ball, with exactly the same\nbest $d$-term squared errors for every $d\\geq1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Ekene E.'s accumulated sparse-error conjectures and a sharp extension of Barron's bound",
+      "toolchain": null,
+      "version": 2,
+      "work": "ekene-accumulated-sparse-errors"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:ekene-accumulated-sparse-errors:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "88be2a120b67a9d9e724eaae970c8263d0a0e9a4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/88be2a120b67a9d9e724eaae970c8263d0a0e9a4/D5/S3/QuadraticForms/AccumulatedSparseRefutation.lean"
+      },
+      "lineage": "collected:ekene-accumulated-sparse-errors:s4",
+      "macros": {
+        "\\E": "\\mathbb E",
+        "\\R": "\\mathbb R",
+        "\\supp": "\\operatorname{supp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ekene-accumulated-sparse-errors",
+      "scope": "in_scope",
+      "statement": "There is a Borel probability measure on the unit sphere of a separable real\nHilbert space with $\\sum_{d=1}^\\infty\\sigma_d(v)^2=+\\infty$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Ekene E.'s accumulated sparse-error conjectures and a sharp extension of Barron's bound",
+      "toolchain": null,
+      "version": 2,
+      "work": "ekene-accumulated-sparse-errors"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:ekene-accumulated-sparse-errors:2:s5",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "88be2a120b67a9d9e724eaae970c8263d0a0e9a4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/88be2a120b67a9d9e724eaae970c8263d0a0e9a4/D5/S3/QuadraticForms/AccumulatedSparseRefutation.lean"
+      },
+      "lineage": "collected:ekene-accumulated-sparse-errors:s5",
+      "macros": {
+        "\\E": "\\mathbb E",
+        "\\R": "\\mathbb R",
+        "\\supp": "\\operatorname{supp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ekene-accumulated-sparse-errors",
+      "scope": "in_scope",
+      "statement": "Under~\\eqref{eq:hyp}, for every integer $d\\geq1$,\n\\begin{equation}\n \\tau_d(K,x)^2\\leq\\frac{\\operatorname{tr}K-x^\\top Kx}{d}\\leq\\frac1d.\n\\end{equation}\nConsequently, for $m\\geq2$,\n$\\sum_{d=1}^{m-1}\\tau_d(K,x)^2\n\\leq(\\operatorname{tr}K-x^\\top Kx)H_{m-1}\\leq H_{m-1}$.\nFor a Borel probability measure on the closed unit ball of a separable real\nHilbert space,\n\\begin{equation}\n \\sigma_d(v)^2\\leq\n \\frac{\\int\\|a\\|^2\\,d\\mu(a)-\\|v\\|^2}{d}\\leq\\frac1d.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Ekene E.'s accumulated sparse-error conjectures and a sharp extension of Barron's bound",
+      "toolchain": null,
+      "version": 2,
+      "work": "ekene-accumulated-sparse-errors"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:ekene-accumulated-sparse-errors:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "88be2a120b67a9d9e724eaae970c8263d0a0e9a4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/88be2a120b67a9d9e724eaae970c8263d0a0e9a4/D5/S3/QuadraticForms/AccumulatedSparseRefutation.lean"
+      },
+      "lineage": "collected:ekene-accumulated-sparse-errors:s6",
+      "macros": {
+        "\\E": "\\mathbb E",
+        "\\R": "\\mathbb R",
+        "\\supp": "\\operatorname{supp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ekene-accumulated-sparse-errors",
+      "scope": "in_scope",
+      "statement": "For each fixed $d\\geq1$, the supremum of $\\tau_d(K,x)^2$ over all\nadmissible finite dimensions and pairs is\n$1/(1+\\sqrt d)^2$. The same supremum holds for $\\sigma_d(v)^2$ over\nBorel probabilities on separable Hilbert unit balls.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Ekene E.'s accumulated sparse-error conjectures and a sharp extension of Barron's bound",
+      "toolchain": null,
+      "version": 2,
+      "work": "ekene-accumulated-sparse-errors"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:ekene-accumulated-sparse-errors:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "88be2a120b67a9d9e724eaae970c8263d0a0e9a4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/88be2a120b67a9d9e724eaae970c8263d0a0e9a4/D5/S3/QuadraticForms/AccumulatedSparseRefutation.lean"
+      },
+      "lineage": "collected:ekene-accumulated-sparse-errors:s7",
+      "macros": {
+        "\\E": "\\mathbb E",
+        "\\R": "\\mathbb R",
+        "\\supp": "\\operatorname{supp}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ekene-accumulated-sparse-errors",
+      "scope": "in_scope",
+      "statement": "For $m\\geq2$ let $R_m$ be the supremum of\n$\\sum_{d=1}^{m-1}\\tau_d(K,x)^2$ over all admissible $m$-dimensional pairs\nin~\\eqref{eq:hyp}. Then\n\\[\n R_m\\leq H_{m-1},\\qquad \\lim_{m\\to\\infty}\\frac{R_m}{\\log m}=1.\n\\]\nThe same lower examples are finite atomic Hilbert measures. For separable\nHilbert measures every finite prefix is bounded by its variance times\n$H_N$, and the leading constant one cannot be decreased uniformly.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Ekene E.'s accumulated sparse-error conjectures and a sharp extension of Barron's bound",
+      "toolchain": null,
+      "version": 2,
+      "work": "ekene-accumulated-sparse-errors"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+      },
+      "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s1",
+      "macros": {
+        "\\DS": "D(#1)",
+        "\\N": "\\mathbb N",
+        "\\cl": "\\operatorname{cl}",
+        "\\hatset": "\\widehat{#1}",
+        "\\op": "\\mathrm{op}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+      "scope": "in_scope",
+      "statement": "In ZFC the Hausdorff space $X=\\DS{\\beta\\N}$ has countably compact\ncountable power and the bounded-clique property. The relation\n\\[\n R_\\tau=\\{(x,\\tau(x)):x\\in X\\}\\subseteq X^2\n\\]\nis a closed orthogonality with clique number exactly $2$ and\n$\\aleph_1\\le\\chi_\\op(R_\\tau)\\le 2^{\\aleph_0}$. Consequently $X$ does not have the\nfinite open chromatic property.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+      "toolchain": null,
+      "version": 3,
+      "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+      },
+      "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s10",
+      "macros": {
+        "\\DS": "D(#1)",
+        "\\N": "\\mathbb N",
+        "\\cl": "\\operatorname{cl}",
+        "\\hatset": "\\widehat{#1}",
+        "\\op": "\\mathrm{op}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+      "scope": "in_scope",
+      "statement": "The unit sphere $S^2\\subseteq\\mathbb R^3$, with literal orthogonality,\nhas $\\chi_\\op(S^2,\\perp)\\ge5$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+      "toolchain": null,
+      "version": 3,
+      "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+      },
+      "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s2",
+      "macros": {
+        "\\DS": "D(#1)",
+        "\\N": "\\mathbb N",
+        "\\cl": "\\operatorname{cl}",
+        "\\hatset": "\\widehat{#1}",
+        "\\op": "\\mathrm{op}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+      "scope": "in_scope",
+      "statement": "Let $K$ be compact Hausdorff and extremally disconnected. For any\nsequence $(p_n,q_n)$ with $p_n\\ne q_n$, there is a clopen\n$C\\subseteq K$ such that $p_n\\in C$ and $q_n\\notin C$ for infinitely\nmany indices $n$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+      "toolchain": null,
+      "version": 3,
+      "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+      },
+      "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s3",
+      "macros": {
+        "\\DS": "D(#1)",
+        "\\N": "\\mathbb N",
+        "\\cl": "\\operatorname{cl}",
+        "\\hatset": "\\widehat{#1}",
+        "\\op": "\\mathrm{op}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+      "scope": "in_scope",
+      "statement": "If $K$ is compact Hausdorff and extremally disconnected, then\n$\\DS K^{\\,\\N}$, meaning $(\\DS K)^\\N$, is countably compact.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+      "toolchain": null,
+      "version": 3,
+      "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s4",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+      },
+      "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s4",
+      "macros": {
+        "\\DS": "D(#1)",
+        "\\N": "\\mathbb N",
+        "\\cl": "\\operatorname{cl}",
+        "\\hatset": "\\widehat{#1}",
+        "\\op": "\\mathrm{op}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+      "scope": "in_scope",
+      "statement": "If $Y^\\N$ is countably compact, then $Y$ has the bounded-clique\nproperty.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+      "toolchain": null,
+      "version": 3,
+      "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s5",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+      },
+      "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s5",
+      "macros": {
+        "\\DS": "D(#1)",
+        "\\N": "\\mathbb N",
+        "\\cl": "\\operatorname{cl}",
+        "\\hatset": "\\widehat{#1}",
+        "\\op": "\\mathrm{op}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+      "scope": "in_scope",
+      "statement": "No finite family of open $R_\\tau$-independent subsets covers $X$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+      "toolchain": null,
+      "version": 3,
+      "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+      },
+      "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s6",
+      "macros": {
+        "\\DS": "D(#1)",
+        "\\N": "\\mathbb N",
+        "\\cl": "\\operatorname{cl}",
+        "\\hatset": "\\widehat{#1}",
+        "\\op": "\\mathrm{op}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+      "scope": "in_scope",
+      "statement": "For every nonempty finite or countably infinite set $I$, the\nHausdorff space $X^I$ has the bounded-clique property and fails\nthe finite open chromatic property.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+      "toolchain": null,
+      "version": 3,
+      "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+      },
+      "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s7",
+      "macros": {
+        "\\DS": "D(#1)",
+        "\\N": "\\mathbb N",
+        "\\cl": "\\operatorname{cl}",
+        "\\hatset": "\\widehat{#1}",
+        "\\op": "\\mathrm{op}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+      "scope": "in_scope",
+      "statement": "The witness $X$ is locally compact, zero-dimensional, separable,\ncountably compact and noncompact. Its square $X^2$ is not normal.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+      "toolchain": null,
+      "version": 3,
+      "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+      },
+      "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s8",
+      "macros": {
+        "\\DS": "D(#1)",
+        "\\N": "\\mathbb N",
+        "\\cl": "\\operatorname{cl}",
+        "\\hatset": "\\widehat{#1}",
+        "\\op": "\\mathrm{op}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+      "scope": "in_scope",
+      "statement": "For every infinite compact Hausdorff extremally disconnected space $K$,\n$D(K)$ has the bounded-clique property and its swap relation has no\ncountable open independent cover.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+      "toolchain": null,
+      "version": 3,
+      "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:3:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
+      },
+      "lineage": "collected:feldman-wilce-bounded-cliques-open-chromatic-strictness:s9",
+      "macros": {
+        "\\DS": "D(#1)",
+        "\\N": "\\mathbb N",
+        "\\cl": "\\operatorname{cl}",
+        "\\hatset": "\\widehat{#1}",
+        "\\op": "\\mathrm{op}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+      "scope": "in_scope",
+      "statement": "Let $I=\\beta\\N\\setminus\\N$. Then $X^\\N$ is countably compact but\n$X^I$ is not. In particular, $X$ is not $u$-compact for any free\nultrafilter $u$ on $\\N$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question",
+      "toolchain": null,
+      "version": 3,
+      "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
     },
     {
       "attribution": null,
@@ -26352,6 +27264,321 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:manju-sharma-outer-twisted-derivations:2:s1",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "1ff680e6cc902e88cfbba1b684826388e2ac8d37",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ff680e6cc902e88cfbba1b684826388e2ac8d37/D5/S3/Arith/TwistedDerivations/ManjuSharmaConjectureFiveTwo.lean"
+      },
+      "lineage": "collected:manju-sharma-outer-twisted-derivations:s1",
+      "macros": {
+        "\\Der": "\\mathcal D",
+        "\\FF": "\\mathbb F",
+        "\\Inn": "\\operatorname{Inn}",
+        "\\Out": "\\operatorname{Out}",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\adj": "\\operatorname{adj}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "manju-sharma-outer-twisted-derivations",
+      "scope": "in_scope",
+      "statement": "For $O=\\ZZ[i]$, $\\sigma=\\mathrm{id}$ and $\\tau$ complex conjugation,\nthe map $D(a+bi)=b$ has a nonzero outer class, but\n$2^{-1}\\adj(A)C\\in\\ZZ^2$. It contradicts both printed criteria.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Manju–Sharma's outer-derivation conjecture: a correction from Noferini–Williams Smith forms",
+      "toolchain": null,
+      "version": 2,
+      "work": "manju-sharma-outer-twisted-derivations"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:manju-sharma-outer-twisted-derivations:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "1ff680e6cc902e88cfbba1b684826388e2ac8d37",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ff680e6cc902e88cfbba1b684826388e2ac8d37/D5/S3/Arith/TwistedDerivations/ManjuSharmaConjectureFiveTwo.lean"
+      },
+      "lineage": "collected:manju-sharma-outer-twisted-derivations:s2",
+      "macros": {
+        "\\Der": "\\mathcal D",
+        "\\FF": "\\mathbb F",
+        "\\Inn": "\\operatorname{Inn}",
+        "\\Out": "\\operatorname{Out}",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\adj": "\\operatorname{adj}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "manju-sharma-outer-twisted-derivations",
+      "scope": "in_scope",
+      "statement": "With the notation above, put $h=n/\\gcd(n,|v-u|)>1$ and\n$d=\\varphi(n)/\\varphi(h)$. Evaluation at $\\zeta$ is an $O$-module\nisomorphism $\\Der\\simeq O$ taking $\\Inn$ onto $\\delta O$. Consequently\n\\begin{equation}\n \\Out\\simeq O/\\delta O,\\qquad\n [D]=0\\quad\\Longleftrightarrow\\quad\n \\frac{\\adj(A)C}{\\det A}\\in\\ZZ^N.\n\\end{equation}\nMoreover\n\\begin{equation}\n \\det A=\\Phi_h(1)^d,\\qquad\n \\Out\\simeq\n \\begin{cases}\n  (\\ZZ/\\ell\\ZZ)^d,&h=\\ell^s\\text{ for a prime }\\ell\\text{ and }s\\geq1,\\\\\n  0,&h\\text{ has at least two distinct prime divisors},\n \\end{cases}\n\\end{equation}\nwhere the second isomorphism is one of additive groups. In particular,\nnonzero outer classes exist exactly when $h$ is a prime power.\nEquivalently, the Smith form of $A$ is $I_{N-d}\\oplus\\ell I_d$ in\nthe prime-power-order case, and $I_N$ otherwise.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Manju–Sharma's outer-derivation conjecture: a correction from Noferini–Williams Smith forms",
+      "toolchain": null,
+      "version": 2,
+      "work": "manju-sharma-outer-twisted-derivations"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:manju-sharma-outer-twisted-derivations:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1ff680e6cc902e88cfbba1b684826388e2ac8d37",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ff680e6cc902e88cfbba1b684826388e2ac8d37/D5/S3/Arith/TwistedDerivations/ManjuSharmaConjectureFiveTwo.lean"
+      },
+      "lineage": "collected:manju-sharma-outer-twisted-derivations:s3",
+      "macros": {
+        "\\Der": "\\mathcal D",
+        "\\FF": "\\mathbb F",
+        "\\Inn": "\\operatorname{Inn}",
+        "\\Out": "\\operatorname{Out}",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\adj": "\\operatorname{adj}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "manju-sharma-outer-twisted-derivations",
+      "scope": "in_scope",
+      "statement": "For $n=p^k$, $k\\geq2$, and $e=v_p(|v-u|)$,\n\\begin{equation}\n \\det A=p^{p^e},\\qquad \\Out\\simeq(\\ZZ/p\\ZZ)^{p^e},\\qquad\n [D]\\neq0\\ \\Longleftrightarrow\\ \\frac{\\adj(A)C}{p^{p^e}}\\notin\\ZZ^N.\n\\end{equation}\nThe printed vector $p^{-e}\\adj(A)C$ is integral for every $D\\in\\Der$.\nDivisibility of all coordinates of $C$ by $p$ suffices for innerness.\nDivisibility by $p^e$ suffices if $e\\geq1$, but not if $e=0$.\nHere $p^{p^e}$ is the denominator paired with the unscaled classical\nadjugate; the least positive integer clearing all entries of $A^{-1}$\nis $p$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Manju–Sharma's outer-derivation conjecture: a correction from Noferini–Williams Smith forms",
+      "toolchain": null,
+      "version": 2,
+      "work": "manju-sharma-outer-twisted-derivations"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:manju-sharma-outer-twisted-derivations:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1ff680e6cc902e88cfbba1b684826388e2ac8d37",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ff680e6cc902e88cfbba1b684826388e2ac8d37/D5/S3/Arith/TwistedDerivations/ManjuSharmaConjectureFiveTwo.lean"
+      },
+      "lineage": "collected:manju-sharma-outer-twisted-derivations:s4",
+      "macros": {
+        "\\Der": "\\mathcal D",
+        "\\FF": "\\mathbb F",
+        "\\Inn": "\\operatorname{Inn}",
+        "\\Out": "\\operatorname{Out}",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\adj": "\\operatorname{adj}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "manju-sharma-outer-twisted-derivations",
+      "scope": "in_scope",
+      "statement": "For an odd prime conductor $n=p$, $\\det A=p$,\n$\\Out\\simeq\\ZZ/p\\ZZ$, and $D$ is inner exactly when\n$p^{-1}\\adj(A)C\\in\\ZZ^{p-1}$. If $p$ divides every coordinate,\n$D$ is inner; nonzero outer classes exist.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Manju–Sharma's outer-derivation conjecture: a correction from Noferini–Williams Smith forms",
+      "toolchain": null,
+      "version": 2,
+      "work": "manju-sharma-outer-twisted-derivations"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:manju-sharma-outer-twisted-derivations:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1ff680e6cc902e88cfbba1b684826388e2ac8d37",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ff680e6cc902e88cfbba1b684826388e2ac8d37/D5/S3/Arith/TwistedDerivations/ManjuSharmaConjectureFiveTwo.lean"
+      },
+      "lineage": "collected:manju-sharma-outer-twisted-derivations:s5",
+      "macros": {
+        "\\Der": "\\mathcal D",
+        "\\FF": "\\mathbb F",
+        "\\Inn": "\\operatorname{Inn}",
+        "\\Out": "\\operatorname{Out}",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\adj": "\\operatorname{adj}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "manju-sharma-outer-twisted-derivations",
+      "scope": "in_scope",
+      "statement": "Let $s\\neq1$ be squarefree with $s\\equiv1\\pmod4$, put\n$\\theta=(1+\\sqrt{s})/2$, and take the two distinct automorphisms of\n$R=\\ZZ[\\theta]$. For $D(\\theta)=\\alpha+\\beta\\theta$,\n\\begin{equation}\n D\\text{ is inner}\\quad\\Longleftrightarrow\\quad s\\mid 2\\alpha+\\beta.\n\\end{equation}\nThus the sufficient condition that $\\beta$ be even in\n\\cite[Theorem 4.2(ii), pp.~7--9]{C} is insufficient.\nFor example, $s=-3$, $D(\\theta)=1$ has $\\beta=0$ but is not inner.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Manju–Sharma's outer-derivation conjecture: a correction from Noferini–Williams Smith forms",
+      "toolchain": null,
+      "version": 2,
+      "work": "manju-sharma-outer-twisted-derivations"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:manju-sharma-outer-twisted-derivations:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1ff680e6cc902e88cfbba1b684826388e2ac8d37",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ff680e6cc902e88cfbba1b684826388e2ac8d37/D5/S3/Arith/TwistedDerivations/ManjuSharmaConjectureFiveTwo.lean"
+      },
+      "lineage": "collected:manju-sharma-outer-twisted-derivations:s6",
+      "macros": {
+        "\\Der": "\\mathcal D",
+        "\\FF": "\\mathbb F",
+        "\\Inn": "\\operatorname{Inn}",
+        "\\Out": "\\operatorname{Out}",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\adj": "\\operatorname{adj}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "manju-sharma-outer-twisted-derivations",
+      "scope": "in_scope",
+      "statement": "Let $n=2^r q$ with $r\\geq1$ and $q$ an odd prime. Write\n$|v-u|=2^a q^b m$ with $\\gcd(m,2q)=1$ and $m>0$; necessarily\n$a\\geq1$. Then, with $N=2^{r-1}(q-1)$,\n\\begin{equation}\n\\begin{array}{c|c|c}\n\\text{condition}&\\det A&\\Out\\text{ additively}\\\\\\hline\n1\\leq a<r,\\ b\\geq1 &2^{2^a(q-1)} &(\\ZZ/2\\ZZ)^{2^a(q-1)}\\\\\na\\geq r,\\ b=0 &q^{2^{r-1}} &(\\ZZ/q\\ZZ)^{2^{r-1}}\\\\\n\\text{other admissible pairs}&1&0\n\\end{array}\n\\end{equation}\nIn the first two rows, innerness is equivalent to\n$(\\det A)^{-1}\\adj(A)C\\in\\ZZ^N$, and outer classes are nonzero\nexactly when that vector is nonintegral. Divisibility of all coordinates\nby $2$ in the first row, or by $q$ in the second, suffices for innerness.\nEvery derivation is inner in the last row.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Manju–Sharma's outer-derivation conjecture: a correction from Noferini–Williams Smith forms",
+      "toolchain": null,
+      "version": 2,
+      "work": "manju-sharma-outer-twisted-derivations"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:manju-sharma-outer-twisted-derivations:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1ff680e6cc902e88cfbba1b684826388e2ac8d37",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1ff680e6cc902e88cfbba1b684826388e2ac8d37/D5/S3/Arith/TwistedDerivations/ManjuSharmaConjectureFiveTwo.lean"
+      },
+      "lineage": "collected:manju-sharma-outer-twisted-derivations:s7",
+      "macros": {
+        "\\Der": "\\mathcal D",
+        "\\FF": "\\mathbb F",
+        "\\Inn": "\\operatorname{Inn}",
+        "\\Out": "\\operatorname{Out}",
+        "\\QQ": "\\mathbb Q",
+        "\\ZZ": "\\mathbb Z",
+        "\\adj": "\\operatorname{adj}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "manju-sharma-outer-twisted-derivations",
+      "scope": "in_scope",
+      "statement": "For $n\\geq3$, every distinct twist pair on $\\ZZ[\\zeta_n]$ has nonzero\nouter classes if and only if $n$ is a prime power or twice an odd prime\npower.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Manju–Sharma's outer-derivation conjecture: a correction from Noferini–Williams Smith forms",
+      "toolchain": null,
+      "version": 2,
+      "work": "manju-sharma-outer-twisted-derivations"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:markey-five-site-growth-identity:3:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -33592,6 +34819,558 @@
       "toolchain": null,
       "version": 2,
       "work": "oeis-a130095-ratio-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:oeis-a146304-maximal-bishop-growth-refutation:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "549945461571e5d29c740b71d3b02651c85044f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/549945461571e5d29c740b71d3b02651c85044f5/D5/S3/Combinatorics/Graph/Domination/BishopMaximalPlacementGrowth.lean"
+      },
+      "lineage": "collected:oeis-a146304-maximal-bishop-growth-refutation:s1",
+      "macros": {
+        "\\NN": "\\mathbb{N}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a146304-maximal-bishop-growth-refutation",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\geq3$ and every integer $t$ with $1\\leq t\\leq n-2$,\n\\begin{equation}\n t^{2(n-1-t)}\\ \\leq\\ a(n)\\ \\leq\\ A(n)\\ \\leq\\\n \\min\\{(n+1)(n!)^2,B_{n+2}^{\\,2}\\}.\n\\end{equation}\nIn particular,\n\\begin{equation}\n \\begin{aligned}\n \\log a(n)&=\\log A(n)+o(n),\\\\\n \\log A(n)&=2n(\\log n-\\log\\log n-1)\n   +O\\!\\left(\\frac{n\\log\\log n}{\\log n}\\right).\n \\end{aligned}\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The OEIS maximal-bishop growth conjecture: an extension of Arshon's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a146304-maximal-bishop-growth-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:oeis-a146304-maximal-bishop-growth-refutation:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "549945461571e5d29c740b71d3b02651c85044f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/549945461571e5d29c740b71d3b02651c85044f5/D5/S3/Combinatorics/Graph/Domination/BishopMaximalPlacementGrowth.lean"
+      },
+      "lineage": "collected:oeis-a146304-maximal-bishop-growth-refutation:s2",
+      "macros": {
+        "\\NN": "\\mathbb{N}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a146304-maximal-bishop-growth-refutation",
+      "scope": "in_scope",
+      "statement": "Each color has at least $n-1$ difference diagonals, and\n$h\\leq L_h\\leq h+2$\nwhenever its $h$th diagonal is defined, with indexing starting at zero.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The OEIS maximal-bishop growth conjecture: an extension of Arshon's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a146304-maximal-bishop-growth-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:oeis-a146304-maximal-bishop-growth-refutation:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "549945461571e5d29c740b71d3b02651c85044f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/549945461571e5d29c740b71d3b02651c85044f5/D5/S3/Combinatorics/Graph/Domination/BishopMaximalPlacementGrowth.lean"
+      },
+      "lineage": "collected:oeis-a146304-maximal-bishop-growth-refutation:s3",
+      "macros": {
+        "\\NN": "\\mathbb{N}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a146304-maximal-bishop-growth-refutation",
+      "scope": "in_scope",
+      "statement": "Fix a collection of difference diagonals. For each nonattacking partial\nplacement consisting of exactly one square on each of these diagonals, choose\nany maximal extension. Distinct partial placements have distinct extensions.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The OEIS maximal-bishop growth conjecture: an extension of Arshon's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a146304-maximal-bishop-growth-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:oeis-a146304-maximal-bishop-growth-refutation:2:s4",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "549945461571e5d29c740b71d3b02651c85044f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/549945461571e5d29c740b71d3b02651c85044f5/D5/S3/Combinatorics/Graph/Domination/BishopMaximalPlacementGrowth.lean"
+      },
+      "lineage": "collected:oeis-a146304-maximal-bishop-growth-refutation:s4",
+      "macros": {
+        "\\NN": "\\mathbb{N}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a146304-maximal-bishop-growth-refutation",
+      "scope": "in_scope",
+      "statement": "The number of all nonattacking placements on either color is at most\n$B_{n+2}$. As $N\\to\\infty$,\n\\[\n \\log B_N\\leq N(\\log N-\\log\\log N-1)\n       +O\\!\\left(\\frac{N\\log\\log N}{\\log N}\\right).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The OEIS maximal-bishop growth conjecture: an extension of Arshon's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a146304-maximal-bishop-growth-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:oeis-a146304-maximal-bishop-growth-refutation:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "549945461571e5d29c740b71d3b02651c85044f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/549945461571e5d29c740b71d3b02651c85044f5/D5/S3/Combinatorics/Graph/Domination/BishopMaximalPlacementGrowth.lean"
+      },
+      "lineage": "collected:oeis-a146304-maximal-bishop-growth-refutation:s5",
+      "macros": {
+        "\\NN": "\\mathbb{N}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a146304-maximal-bishop-growth-refutation",
+      "scope": "in_scope",
+      "statement": "For every integer $m\\geq1$, $a(4m+1)\\geq m^{6m}$.\nFor every integer $m\\geq50$,\n\\begin{equation}\n \\frac{a(4m+1)}{(4m+1)^{4m}}\\geq4^m.\n\\end{equation}\nIn particular, $a(n)$ is not $O(n^{n-1})$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The OEIS maximal-bishop growth conjecture: an extension of Arshon's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a146304-maximal-bishop-growth-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:oeis-a146304-maximal-bishop-growth-refutation:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "549945461571e5d29c740b71d3b02651c85044f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/549945461571e5d29c740b71d3b02651c85044f5/D5/S3/Combinatorics/Graph/Domination/BishopMaximalPlacementGrowth.lean"
+      },
+      "lineage": "collected:oeis-a146304-maximal-bishop-growth-refutation:s6",
+      "macros": {
+        "\\NN": "\\mathbb{N}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a146304-maximal-bishop-growth-refutation",
+      "scope": "in_scope",
+      "statement": "Howroyd's identity $a(n)=b(n)w(n)$ holds. For\n$q(n)\\in\\{b(n),w(n),U_b(n),U_w(n)\\}$,\n\\[\n \\log q(n)=n(\\log n-\\log\\log n-1)\n       +O\\!\\left(\\frac{n\\log\\log n}{\\log n}\\right),\n \\qquad q(n)^{1/n}\\sim\\frac{n}{e\\log n}.\n\\]\nThe same counts enumerate minimal vertex covers, respectively all vertex\ncovers, in the corresponding bishop graphs.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The OEIS maximal-bishop growth conjecture: an extension of Arshon's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a146304-maximal-bishop-growth-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:oeis-a146304-maximal-bishop-growth-refutation:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "549945461571e5d29c740b71d3b02651c85044f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/549945461571e5d29c740b71d3b02651c85044f5/D5/S3/Combinatorics/Graph/Domination/BishopMaximalPlacementGrowth.lean"
+      },
+      "lineage": "collected:oeis-a146304-maximal-bishop-growth-refutation:s7",
+      "macros": {
+        "\\NN": "\\mathbb{N}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a146304-maximal-bishop-growth-refutation",
+      "scope": "in_scope",
+      "statement": "The row sums and the largest coefficients of each of $P_c(n,z)$ and\n$R_c(n,z)$ have $n$th root asymptotic to $n/(e\\log n)$.\nThe largest coefficients of $P(n,z)$ and $R(n,z)$ have $2n$th root\nasymptotic to $n/(e\\log n)$.\nEvery size attaining a largest full-board coefficient is $2n-o(n)$;\nthe corresponding color sizes are $n-o(n)$.\nFor every fixed $0<\\varepsilon<1$, the proportion of maximal placements\nwith fewer than $(2-\\varepsilon)n$ bishops tends to zero.\nThe same is true among all nonattacking placements.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The OEIS maximal-bishop growth conjecture: an extension of Arshon's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a146304-maximal-bishop-growth-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:oeis-a146304-maximal-bishop-growth-refutation:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "549945461571e5d29c740b71d3b02651c85044f5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/549945461571e5d29c740b71d3b02651c85044f5/D5/S3/Combinatorics/Graph/Domination/BishopMaximalPlacementGrowth.lean"
+      },
+      "lineage": "collected:oeis-a146304-maximal-bishop-growth-refutation:s8",
+      "macros": {
+        "\\NN": "\\mathbb{N}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a146304-maximal-bishop-growth-refutation",
+      "scope": "in_scope",
+      "statement": "The $n$-bishop count A122749 is $o(a(n))$, and the unrestricted\n$n$-bishop count A002465 is $o(A(n))$.\nThe number of maximum-size placements is also $o(a(n))$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The OEIS maximal-bishop growth conjecture: an extension of Arshon's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a146304-maximal-bishop-growth-refutation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:oeis-a157100-five-term-recurrence:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "962b1e14510f845c23345d34b4fb8205b2ddc2bd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/962b1e14510f845c23345d34b4fb8205b2ddc2bd/D5/S1/Recurrence/Algebraic/MatharA157100FiveTermRecurrence.lean"
+      },
+      "lineage": "collected:oeis-a157100-five-term-recurrence:s1",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[x^{#1}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a157100-five-term-recurrence",
+      "scope": "in_scope",
+      "statement": "The sequence defined by \\eqref{eq:A} starts with\n$(a_0,a_1,a_2,a_3)=(1,2,3,6)$ and satisfies, for every integer $n\\geq4$,\n\\begin{equation}\n\\begin{split}\n (n+1)a_n+(-5n+1)a_{n-1}\n &+2(2n-1)a_{n-2}+2(2n-7)a_{n-3}\\\\\n &+2(-2n+7)a_{n-4}=0.\n\\end{split}\n\\end{equation}\nThese four initial values and \\eqref{eq:rec} determine the sequence uniquely.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ratio correction and sibling identities for Mathar's Catalan-transform recurrence",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a157100-five-term-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:oeis-a157100-five-term-recurrence:3:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "962b1e14510f845c23345d34b4fb8205b2ddc2bd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/962b1e14510f845c23345d34b4fb8205b2ddc2bd/D5/S1/Recurrence/Algebraic/MatharA157100FiveTermRecurrence.lean"
+      },
+      "lineage": "collected:oeis-a157100-five-term-recurrence:s2",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[x^{#1}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a157100-five-term-recurrence",
+      "scope": "in_scope",
+      "statement": "For $n\\geq0$ and $m\\geq1$, with $\\binom{k}{j}=0$ for $j>k$,\n\\begin{align}\n a_n&=\\sum_{k=0}^n\n (-1)^{\\binom{n-k}{2}}\\binom{k}{\\lfloor(n-k)/2\\rfloor}C_k,\n       \\\\\n b_m&=\\sum_{j=0}^{\\lfloor(m-1)/2\\rfloor}\n (-1)^j\\binom{m-2j}{j}C_{m-2j-1},\\\\\n a_n&=\\sum_{m=1}^{n+1}b_m.\n\\end{align}\nThe coefficients $b_m$ are positive, and $a_n$ is positive and strictly\nincreasing. Moreover, for $m\\geq4$,\n\\begin{equation}\n m b_m=2(2m-3)b_{m-1}-2(2m-9)b_{m-3}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ratio correction and sibling identities for Mathar's Catalan-transform recurrence",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a157100-five-term-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:oeis-a157100-five-term-recurrence:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "962b1e14510f845c23345d34b4fb8205b2ddc2bd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/962b1e14510f845c23345d34b4fb8205b2ddc2bd/D5/S1/Recurrence/Algebraic/MatharA157100FiveTermRecurrence.lean"
+      },
+      "lineage": "collected:oeis-a157100-five-term-recurrence:s3",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[x^{#1}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a157100-five-term-recurrence",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq1$,\n\\begin{equation}\n\\begin{split}\n0={}&b_n(16b_{n+1}-64b_{n+3}+22b_{n+4})\n       +b_{n+1}(32b_{n+2}-14b_{n+3})\\\\\n   &+b_{n+2}(16b_{n+3}-10b_{n+4})\n       +b_{n+3}(2b_{n+3}+b_{n+4}).\n\\end{split}\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ratio correction and sibling identities for Mathar's Catalan-transform recurrence",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a157100-five-term-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:oeis-a157100-five-term-recurrence:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "962b1e14510f845c23345d34b4fb8205b2ddc2bd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/962b1e14510f845c23345d34b4fb8205b2ddc2bd/D5/S1/Recurrence/Algebraic/MatharA157100FiveTermRecurrence.lean"
+      },
+      "lineage": "collected:oeis-a157100-five-term-recurrence:s4",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[x^{#1}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a157100-five-term-recurrence",
+      "scope": "in_scope",
+      "statement": "Let $c_n=b_{n+2}$ for $n\\geq0$ and\n$L(x)=\\sum_{n\\geq0}c_nx^n$. Then\n\\begin{equation}\n L=\\frac{B-x}{x^2}=\\frac{1-2x-s}{2x^2}\n  =\\frac{2(1-x)}{1-2x+s},\\qquad\n x+L=(1+xL)^2.\n\\end{equation}\nEquivalently,\n\\begin{equation}\n\\begin{split}\n L&=\\frac{1-x}{1-2x}\n C\\left(\\frac{x^2(1-x)}{(1-2x)^2}\\right),\\\\\n c_n&=\\sum_{k=0}^{\\lfloor n/2\\rfloor}C_k\n \\sum_{i=0}^{\\min(k+1,n-2k)}\n (-1)^i\\binom{k+1}{i}\\binom{n-i}{n-2k-i}2^{n-2k-i}.\n\\end{split}\n\\end{equation}\nConsequently $c_0=c_1=1$ and\n$c_n=2c_{n-1}+\\sum_{i=0}^{n-2}c_i c_{n-2-i}$ for $n\\geq2$.\nThese are the coefficients of A056010, and \\eqref{eq:bilinear}\nholds with $b_j$ replaced by $c_j$ for every $n\\geq0$.\nThe row sums of A176703, indexed from row zero, are $b_{n+1}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ratio correction and sibling identities for Mathar's Catalan-transform recurrence",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a157100-five-term-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:oeis-a157100-five-term-recurrence:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "962b1e14510f845c23345d34b4fb8205b2ddc2bd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/962b1e14510f845c23345d34b4fb8205b2ddc2bd/D5/S1/Recurrence/Algebraic/MatharA157100FiveTermRecurrence.lean"
+      },
+      "lineage": "collected:oeis-a157100-five-term-recurrence:s5",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[x^{#1}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a157100-five-term-recurrence",
+      "scope": "in_scope",
+      "statement": "Let $d_1=d_2=d_3=d_4=1$ and\n$d_n=\\sum_{i=1}^{n-1}d_i d_{n-i}$ for $n\\geq5$, as in A025268\n\\cite{oeisd}. Its generating function is\n\\[\n U(x)=\\sum_{n\\geq1}d_nx^n\n      =\\frac{1-\\sqrt{1-4x+4x^3+8x^4}}2.\n\\]\nFor $n\\geq5$ it satisfies Kotesovec's recurrence\n\\begin{equation}\n R_n:=nd_n-(4n-6)d_{n-1}+(4n-18)d_{n-3}\n                      +8(n-6)d_{n-4}=0.\n\\end{equation}\nFor $n\\geq6$ it satisfies Mathar's conjecture, signed\n25~January 2015 in A025268,\n\\href{https://raw.githubusercontent.com/oeis/oeisdata/57bbd254e161585873f56950ff19ba6dc4aeb66c/seq/A025/A025268.seq\\#L8}\n{revision~27, FORMULA line~8}:\n\\begin{equation}\n\\begin{split}\n nd_n+(n+1)d_{n-1}+10(-2n+5)d_{n-2}\n &+2(2n-9)d_{n-3}\\\\\n {}+2(14n-79)d_{n-4}+40(n-7)d_{n-5}&=0.\n\\end{split}\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ratio correction and sibling identities for Mathar's Catalan-transform recurrence",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a157100-five-term-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:oeis-a157100-five-term-recurrence:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "962b1e14510f845c23345d34b4fb8205b2ddc2bd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/962b1e14510f845c23345d34b4fb8205b2ddc2bd/D5/S1/Recurrence/Algebraic/MatharA157100FiveTermRecurrence.lean"
+      },
+      "lineage": "collected:oeis-a157100-five-term-recurrence:s6",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[x^{#1}]"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a157100-five-term-recurrence",
+      "scope": "in_scope",
+      "statement": "Let $\\rho$ be the unique zero of $D=1-4x+4x^3$ in $(1/4,1/3)$.\nThen\n\\begin{equation}\n\\begin{aligned}\n b_n&\\sim\\frac{\\sqrt{3-8\\rho}}{4\\sqrt\\pi}\\rho^{-n}n^{-3/2},\\\\\n a_n&\\sim\\frac{\\sqrt{3-8\\rho}}{4\\sqrt\\pi\\rho(1-\\rho)}\n                         \\rho^{-n}n^{-3/2}.\n\\end{aligned}\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A ratio correction and sibling identities for Mathar's Catalan-transform recurrence",
+      "toolchain": null,
+      "version": 3,
+      "work": "oeis-a157100-five-term-recurrence"
     },
     {
       "attribution": null,
