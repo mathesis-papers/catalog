@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-24T12:36:56.933252932Z`.
+Snapshot: `2026-11-24T13:30:38.551519435Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -77,7 +77,7 @@ Snapshot: `2026-11-24T12:36:56.933252932Z`.
 | [Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration](https://github.com/mathesis-papers/hardin-barker-trace-array-formulas) | 2 | [DOI](https://doi.org/10.5281/zenodo.24487246) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Hardin's trace-avoiding array recurrences and Barker's formulas: alternative proofs extending Riedel's and Howroyd's enumerations](https://github.com/mathesis-papers/hardin1857-traceavoid) | 3 | [DOI](https://doi.org/10.5281/zenodo.24411970) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Hardin's six-column trace recurrence and Barker's generating functions](https://github.com/mathesis-papers/10.5281-zenodo.24410608) | 2 | [DOI](https://doi.org/10.5281/zenodo.24410609) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
-| [Extensions of Shrock's and Yurishchev's formulas to Hardin's defective-colouring recurrences](https://github.com/mathesis-papers/hardin229634-defective-colourings) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
+| [Extensions of Shrock's and Yurishchev's formulas to Hardin's defective-colouring recurrences](https://github.com/mathesis-papers/hardin229634-defective-colourings) | 2 | [DOI](https://doi.org/10.5281/zenodo.24497440) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Boundary formulas for Hardin's array recurrences and Barker's generating functions via Biggs–Meredith enumeration](https://github.com/mathesis-papers/hardin233156) | 3 | [DOI](https://doi.org/10.5281/zenodo.24445694) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Extending Orrick's rectangle count to Barker's king-strip conjectures](https://github.com/mathesis-papers/hardin233163-king-arrays) | 2 | [DOI](https://doi.org/10.5281/zenodo.24414706) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [OEIS A240513, revision 11, FORMULA 1–3: ladder proofs and extensions of Bala (2014)](https://github.com/mathesis-papers/hardin240513-ladder-formulas) | 3 | [DOI](https://doi.org/10.5281/zenodo.24409472) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
@@ -128,7 +128,7 @@ Snapshot: `2026-11-24T12:36:56.933252932Z`.
 | [Proof of the weighted-minor inequality in MathOverflow 469781](https://github.com/mathesis-papers/10.5281-zenodo.23931737) | 2 | [DOI](https://doi.org/10.5281/zenodo.23931738) | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [MathOverflow 513954, revision 2: singular signed downdates, fixed coordinates, and a sharp polynomial sphere bound](https://github.com/mathesis-papers/10.5281-zenodo.23920597) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920598) | en, zh | 2 / 1 / 0 | 11 no target yet |
 | [Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6](https://github.com/mathesis-papers/meddaugh-stephens-2025-mixing-small-periodic-sets) | 2 | [DOI](https://doi.org/10.5281/zenodo.24404947) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
-| [Extending Meddaugh and Stephens' examples to every finite neighborhood-shadowing separation](https://github.com/mathesis-papers/meddaugh-stephens-2025-neighborhood-shadowing-hierarchy) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
+| [Extending Meddaugh and Stephens' examples to every finite neighborhood-shadowing separation](https://github.com/mathesis-papers/meddaugh-stephens-2025-neighborhood-shadowing-hierarchy) | 2 | [DOI](https://doi.org/10.5281/zenodo.24498082) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Boundary bounds for Mertens's grid–cylinder conjecture: an alternative proof and extensions](https://github.com/mathesis-papers/mertens-2024-grid-cylinder-joint-growth) | 3 | [DOI](https://doi.org/10.5281/zenodo.24409065) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Mertens's range-two stable-matching conjecture and fully supported preference laws](https://github.com/mathesis-papers/mertens-range-two-stable-matching) | 3 | [DOI](https://doi.org/10.5281/zenodo.24486341) | Awaiting reading | 0 / 0 / 0 | 11 no target yet |
 | [Zero-mode corrections and closed bubble counts in Mukherjee et al. (2021, Sec. III, p. 7, third paragraph): extending Hoshino (2007) and Brown–Hoshino (2008)](https://github.com/mathesis-papers/mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy) | 3 | [DOI](https://doi.org/10.5281/zenodo.24210281) | en, zh | 2 / 1 / 0 | 9 no target yet |

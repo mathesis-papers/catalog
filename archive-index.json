@@ -427,6 +427,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24497440",
+      "id": "hardin229634-defective-colourings",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24445694",
       "id": "hardin233156",
       "kind": "collected",
@@ -711,6 +717,12 @@
     {
       "doi": "10.5281/zenodo.24404947",
       "id": "meddaugh-stephens-2025-mixing-small-periodic-sets",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24498082",
+      "id": "meddaugh-stephens-2025-neighborhood-shadowing-hierarchy",
       "kind": "collected",
       "version": 2
     },
@@ -1117,6 +1129,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-24T12:36:56.933252932Z",
+  "generated_at": "2026-11-24T13:30:38.551519435Z",
   "schema": "mathesis.archive-index.v1"
 }

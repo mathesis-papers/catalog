@@ -3349,9 +3349,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24497439",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24497440",
       "lean_source": {
         "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
         "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229634Strip.lean"
@@ -5748,9 +5748,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24498081",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24498082",
       "lean_source": {
         "revision": "147008bff5524a3dccf0efa3ed9e76fb6b168a50",
         "url": "https://github.com/the-omega-institute/trureturing/blob/147008bff5524a3dccf0efa3ed9e76fb6b168a50/D5/S1/Dynamics/Shadowing/LacunaryShadowingHierarchy.lean"

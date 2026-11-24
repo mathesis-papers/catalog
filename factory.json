@@ -3982,8 +3982,8 @@
       "work": "hardin185765"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24497439",
+      "doi": "10.5281/zenodo.24497440",
       "files": {
         "pdf": {
           "bytes": 100614,
@@ -4020,7 +4020,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -6843,8 +6842,8 @@
       "work": "meddaugh-stephens-2025-mixing-small-periodic-sets"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24498081",
+      "doi": "10.5281/zenodo.24498082",
       "files": {
         "pdf": {
           "bytes": 87197,
@@ -6881,7 +6880,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -10685,5 +10683,5 @@
   "papers": 190,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-24T12:36:56.933252932Z"
+  "snapshot_time": "2026-11-24T13:30:38.551519435Z"
 }
