@@ -19,12 +19,12 @@
       "rows": 0
     },
     "formalizations/preparing": {
-      "pages": 13,
-      "rows": 1299
+      "pages": 14,
+      "rows": 1304
     },
     "formalizations/unverified": {
-      "pages": 13,
-      "rows": 1299
+      "pages": 14,
+      "rows": 1304
     },
     "formalizations/verified": {
       "pages": 1,
@@ -48,12 +48,12 @@
     }
   },
   "rows": {
-    "nodes": 1299,
+    "nodes": 1304,
     "works": 190
   },
   "schema_versions": {
     "catalog": "1",
     "snapshot": "1"
   },
-  "time": "2026-11-24T16:33:51.638055933Z"
+  "time": "2026-11-24T17:31:03.14151211Z"
 }

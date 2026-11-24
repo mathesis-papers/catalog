@@ -2414,29 +2414,29 @@
       "work": "das-et-al-2025-onb-tomography-holevo-ratio"
     },
     {
-      "concept_doi": "10.5281/zenodo.24391330",
-      "doi": "10.5281/zenodo.24391331",
+      "concept_doi": null,
+      "doi": null,
       "files": {
         "pdf": {
-          "bytes": 78208,
+          "bytes": 102724,
           "matches_public": true,
           "path": "paper.pdf",
-          "public_sha256": "bba7b71a00d850b38e27377fbd06cf3e74dcb53c27a6447b14731e0691b621c3",
-          "sha256": "bba7b71a00d850b38e27377fbd06cf3e74dcb53c27a6447b14731e0691b621c3"
+          "public_sha256": "0ff418a3248bb0694927468c5bd2a925c893e84075db6924046b054333a7c5d6",
+          "sha256": "0ff418a3248bb0694927468c5bd2a925c893e84075db6924046b054333a7c5d6"
         },
         "source": {
-          "bytes": 12256,
+          "bytes": 27504,
           "matches_public": true,
           "path": "source.archive",
-          "public_sha256": "ec8be0a1c44059467a66540335e9c7f877f5feb37233eae5af88774ef0839c19",
-          "sha256": "ec8be0a1c44059467a66540335e9c7f877f5feb37233eae5af88774ef0839c19"
+          "public_sha256": "dd1092c972bd3beac69188e4b8b6bcb7d6c02cf80a7f5367c093ad6e2ba0fe44",
+          "sha256": "dd1092c972bd3beac69188e4b8b6bcb7d6c02cf80a7f5367c093ad6e2ba0fe44"
         }
       },
       "formalization": {
         "covered_by_existing_base": 0,
         "disproved": 0,
         "newly_formalized": 0,
-        "no_target_yet": 5,
+        "no_target_yet": 10,
         "open_target": 0
       },
       "kind": "collected",
@@ -2452,6 +2452,7 @@
       },
       "mode": "paper",
       "next_steps": [
+        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2460,13 +2461,13 @@
       "reading_languages": [],
       "repository_url": "https://github.com/mathesis-papers/delgado-suer-yesil-2026-symmetrization-surjectivity",
       "site_url": "https://papers.trureturing.org/delgado-suer-yesil-2026-symmetrization-surjectivity/",
-      "title": "A negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "title": "Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question",
       "trureturing_write_back": {
         "request_url": null,
         "revision": null,
         "state": null
       },
-      "version": 2,
+      "version": 4,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
@@ -10683,5 +10684,5 @@
   "papers": 190,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-24T16:33:51.638055933Z"
+  "snapshot_time": "2026-11-24T17:31:03.14151211Z"
 }

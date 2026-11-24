@@ -1,14 +1,13 @@
 {
-  "doi": "10.5281/zenodo.24391331",
+  "doi": null,
   "formalization_requests": [],
-  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/delgado-suer-yesil-2026-symmetrization-surjectivity/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/delgado-suer-yesil-2026-symmetrization-surjectivity",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/delgado-suer-yesil-2026-symmetrization-surjectivity/",
   "slides": [],
-  "version": 2,
+  "version": 4,
   "videos": [],
   "visualizations": [],
   "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"

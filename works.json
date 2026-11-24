@@ -2022,7 +2022,7 @@
       "work": "das-et-al-2025-onb-tomography-holevo-ratio"
     },
     {
-      "abstract_text": "The surjectivity question in the final paragraph of Section 5, p. 9, of Delgado, Süer and Yeşil's A Symmetrization for Almost Symmetric Numerical Semigroups (arXiv:2611.14268v1) has a negative answer: pseudo-Frobenius row deletion always leaves 1 as a gap. The symmetric numerical set {0,1} union {n >= 4} is therefore not in the image. In fact, at least half of all symmetric numerical sets with any prescribed odd Frobenius number at least 3 are excluded. Every symmetric numerical semigroup, in contrast, is fixed by the map. We identify the entire fiber over the target with sole gap 1 and obtain at most 2^(floor((F+1)/2)-1) distinct images of sources with Frobenius number F.",
+      "abstract_text": "We extend Ma and Zhang's negative answer (2026, DOI 10.5281/zenodo.24391331, Section 2) to the surjectivity question in Delgado, Süer and Yeşil, A Symmetrization for Almost Symmetric Numerical Semigroups (arXiv:2611.14268v1, Section 5, p. 9, final paragraph): the row-deletion map omits not only targets containing 1, but also some reduced symmetric targets whose diagrams have no full cell below the diagonal. The ordered output elements satisfy b_i >= 2i; equality at b_1 = 2 forces every element below the conductor to be even. The smallest excluded reduced target has Frobenius number 7; under the full-cell restriction the minimum is 9. We give infinite excluded families, retain the exact ordinary fiber and fixed-point characterization, and distinguish fixed-source image bounds from fixed-target counts.",
       "authors": [
         {
           "affiliation": "ChronoAI Pte Ltd, Singapore",
@@ -2033,9 +2033,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": "10.5281/zenodo.24391330",
-      "current_version": 2,
-      "doi": "10.5281/zenodo.24391331",
+      "concept_doi": null,
+      "current_version": 4,
+      "doi": null,
       "lean_source": {
         "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
         "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Partitions/DelgadoSuerYesilPhiRefutation.lean"
@@ -2043,27 +2043,27 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
-        "bytes": 78208,
-        "sha256": "bba7b71a00d850b38e27377fbd06cf3e74dcb53c27a6447b14731e0691b621c3",
-        "url": "/api/v1/collected-papers/delgado-suer-yesil-2026-symmetrization-surjectivity/files/pdf?version=2"
+        "bytes": 102724,
+        "sha256": "0ff418a3248bb0694927468c5bd2a925c893e84075db6924046b054333a7c5d6",
+        "url": "/api/v1/collected-papers/delgado-suer-yesil-2026-symmetrization-surjectivity/files/pdf?version=4"
       },
-      "previous_version": null,
+      "previous_version": "2",
       "publication": "public",
-      "published_on": "2026-11-20T08:02:23.315589437Z",
+      "published_on": "2026-11-24T16:36:11.142798458Z",
       "record": "delgado-suer-yesil-2026-symmetrization-surjectivity",
       "repository_name": "delgado-suer-yesil-2026-symmetrization-surjectivity",
       "source": {
-        "bytes": 12256,
-        "sha256": "ec8be0a1c44059467a66540335e9c7f877f5feb37233eae5af88774ef0839c19",
-        "url": "/api/v1/collected-papers/delgado-suer-yesil-2026-symmetrization-surjectivity/files/source?version=2"
+        "bytes": 27504,
+        "sha256": "dd1092c972bd3beac69188e4b8b6bcb7d6c02cf80a7f5367c093ad6e2ba0fe44",
+        "url": "/api/v1/collected-papers/delgado-suer-yesil-2026-symmetrization-surjectivity/files/source?version=4"
       },
-      "title": "A negative answer to Delgado, Süer and Yeşil's symmetrization question",
+      "title": "Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question",
       "versions": [
         {
-          "previous_version": null,
-          "published_on": "2026-11-20T08:02:23.315589437Z",
-          "revision": "2",
-          "version": 2
+          "previous_version": "2",
+          "published_on": "2026-11-24T16:36:11.142798458Z",
+          "revision": "4",
+          "version": 4
         }
       ],
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
