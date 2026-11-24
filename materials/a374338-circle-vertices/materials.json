@@ -1,6 +1,7 @@
 {
-  "doi": null,
+  "doi": "10.5281/zenodo.24483571",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/a374338-circle-vertices/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/a374338-circle-vertices",

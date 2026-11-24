@@ -59,9 +59,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24483570",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24483571",
       "lean_source": {
         "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
         "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Geometry/ShannonFixedRadiusCircleVertices.lean"
@@ -1975,6 +1975,53 @@
       "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
     },
     {
+      "abstract_text": "Extending Towse and Campbell's integer rank-one constructions (2016, Section 2, Theorem 1 and Corollaries 1–2) to the zerofree setting, we refute Finch's Conjecture 4 in Small Matrices with Small Inverses: Unimodular Zerofree Cases (arXiv:2605.03691v4, June 12, 2026, Section 5, p. 7) by constructing a positive integral matrix of order six with determinant -1, no zero entry in either it or its inverse, and maximum absolute entry 3 in both. A diagonal sign matrix plus a rank-one matrix gives the construction. Every even order at least two admits such a positive matrix with any prescribed common maximum at least three; every odd order at least three admits one with common maximum three. We also give positive order-six examples with maxima (3,4) and (3,5), and identify the parts of Finch's extremal conjecture covered by his later bounds.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "3ede1d0bfa6d3c063b82234699d279136b6f0c42",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3ede1d0bfa6d3c063b82234699d279136b6f0c42/D5/S3/QuadraticForms/FinchBalancedZerofreeRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 73300,
+        "sha256": "50418eb19da13dd26a2c79d5a21f51f120538ca56b68933b03cacfcd7cd3dd9b",
+        "url": "/api/v1/collected-papers/finch-unimodular-zerofree-six/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T23:20:12.539512925Z",
+      "record": "finch-unimodular-zerofree-six",
+      "repository_name": "finch-unimodular-zerofree-six",
+      "source": {
+        "bytes": 14072,
+        "sha256": "8bd66a0e051ca09a8584850f23f5bc3d222d26c6bf11b923e8099091438a8408",
+        "url": "/api/v1/collected-papers/finch-unimodular-zerofree-six/files/source?version=3"
+      },
+      "title": "Extending Towse–Campbell's rank-one constructions: a counterexample to Finch's balanced order-six conjecture",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T23:20:12.539512925Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "finch-unimodular-zerofree-six"
+    },
+    {
       "abstract_text": "Extending Finch's analysis of the zero-run question in Three Quadratic Recurrences Modulo 3, arXiv:2610.34300v1, Section 6, Remark 20, page 8, we answer universal attainment negatively: a closed ternary-state orbit proves that the maximum at lag 61 is ten gaps rather than the upper bound fifteen. The ten-gap starts are exactly 2780+8946m for m >= 0, and the least preperiod is 739; Harder's earlier period value 8946 is recovered. We also correct Finch's capture-offset Conjecture 23 (Section 7, page 9): whenever the eventual period is four, the offset is six for every lag k >= 3, and nine at k=2.",
       "authors": [
         {
@@ -2020,6 +2067,53 @@
         }
       ],
       "work": "finch-zero-runs"
+    },
+    {
+      "abstract_text": "Extending the interval obstruction of Gangloff, Guillon and Oprocha in Various questions around finitely positively expansive dynamical systems (arXiv:2310.17241v1, Theorem 3.8, 2023), we answer their Question 3.1 (Section 3, p. 7) negatively: every continuous selfmap of the circle with a uniform finite bound on its forward Bowen sets is positively expansive, because the finite bound forces local injectivity and then separation of distinct endpoints of short arcs. The proof extends their interval doubling construction using two-target accessibility and exact common-terminal images. We also deduce the classical power-map classification under the finite Bowen hypothesis, a consequence for periodic embedded circles, and the contrasting bouquet examples from the posing source.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "71b4d849a96f7050cd0e6270e1551e061c680e33",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4d849a96f7050cd0e6270e1551e061c680e33/D5/S1/Dynamics/Shadowing/CircleFinitePositiveExpansiveness.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 97869,
+        "sha256": "d489af0e8fee544a300ba7b40914ba469bde7ed769dff78059c085fe37e879e3",
+        "url": "/api/v1/collected-papers/gangloff-guillon-oprocha-circle-finite-positive-expansivity/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T00:35:12.783931677Z",
+      "record": "gangloff-guillon-oprocha-circle-finite-positive-expansivity",
+      "repository_name": "gangloff-guillon-oprocha-circle-finite-positive-expansivity",
+      "source": {
+        "bytes": 18389,
+        "sha256": "0b651961cf259eee593cfbe53057b924682d29b0a6d06e9ee4cac945fea76e80",
+        "url": "/api/v1/collected-papers/gangloff-guillon-oprocha-circle-finite-positive-expansivity/files/source?version=3"
+      },
+      "title": "Gangloff, Guillon and Oprocha's circle expansivity question: extending their interval obstruction",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T00:35:12.783931677Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "gangloff-guillon-oprocha-circle-finite-positive-expansivity"
     },
     {
       "abstract_text": "Conjecture 25 and the question in Remark 6 of Garrappa, Gerhold, Popolizio and Simon, arXiv:2410.11852v4, both have negative answers. For every 1<alpha<2, the proposed Mittag–Leffler modulus lower bound fails at beta=alpha-1, and at one fixed nonreal point it continues to fail on a closed interval [alpha-1,alpha-1+epsilon] with epsilon>0. A Hankel-contour expansion gives this family, while an exact rational certificate supplies the explicit instance (alpha,beta,z)=(3/2,1/2,-115+10i). The Kummer question has the elementary witness M(1/2,-3/2,z)=exp(z)(1-4z/3+4z^2/3).",
@@ -2490,6 +2584,53 @@
         }
       ],
       "work": "hanna-composition-congruences"
+    },
+    {
+      "abstract_text": "In the COMMENT sections of OEIS A350410 and A350411 (revision 5) and A350412 (revision 9), Paul D. Hanna conjectured that the three sequences consist entirely of integers; we prove all three conjectures. Their factorial denominators cancel by a coefficient-divisibility identity. For each series we also establish existence and uniqueness over the rationals. More generally, a degree-dependent cutoff M_n >= 1 gives the same conclusions whenever gcd(n,M_n^2) divides M_n, with any prescribed integer linear coefficient. This arithmetic condition is necessary and sufficient for the last denominator to cancel for every integer polynomial, and the solutions depend homogeneously on the prescribed linear coefficient. All defining sums are finite sums of formal power series.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f/D5/S1/Recurrence/Algebraic/HannaSquareExponentIntegrality.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 73085,
+        "sha256": "8a1985d4df565031f808640802157233e243136c17b527e1fccdf5736f12ef81",
+        "url": "/api/v1/collected-papers/hanna-square-exponent-integrality/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T22:41:56.177499006Z",
+      "record": "hanna-square-exponent-integrality",
+      "repository_name": "hanna-square-exponent-integrality",
+      "source": {
+        "bytes": 15180,
+        "sha256": "6ffe5fd73e68930334052f83c69f9de0e32acab7dc241224faeb2399e5b998a4",
+        "url": "/api/v1/collected-papers/hanna-square-exponent-integrality/files/source?version=2"
+      },
+      "title": "Proof of Hanna's square-exponent factorial integrality conjectures",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T22:41:56.177499006Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hanna-square-exponent-integrality"
     },
     {
       "abstract_text": "We prove the Conjectures of Colin Barker in the FORMULA section of OEIS A209723, dated July 12, 2018: the parity formulas and ordinary generating function for ternary arrays with distinct clockwise edge differences. We also prove Hardin's empirical recurrence. A decomposition of the row-compatibility graph into two three-vertex stars and isolated edges gives a formula for every rectangular size. Its corollaries include the companion formulas in A209721–A209726, Beck's first A209721 conjecture, Peterson's A209721 recurrence and triangle interpretation, and the column recurrences and diagonal identification in A209727.",
@@ -3385,6 +3526,53 @@
       "work": "karp-sf21-legendre-turan"
     },
     {
+      "abstract_text": "Extending Keshari, Mayassi, Prabhakar and Nasser's unfaithfulness theorem (May 13, 2026, arXiv:2605.13090v1, Theorem 4.2(b) and Question 4.3, page 17), we answer their Question 4.3 negatively on three strands with at least three virtual colors: an infinite-order commutator has identity image for every allowed parameter, including a outside {0,1,-1}. We determine the kernel on the same-position virtual subgroup by exponent sums; its intersection over all parameter choices is the derived subgroup of a free group of rank k-1. The obstruction also applies to both associated subgroups and all eight homogeneous 2-local families. A related construction strengthens Nasser–Ocampo's welded unfaithfulness result by giving an infinite-order kernel element on three strands with at least two virtual colors.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Quantum/Algebra/Knot/MultiVirtualTwinZetaEightFaithfulnessRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 80881,
+        "sha256": "6854238fb749f27c34f5c75024ea638e210995c13ee0c85d9abed371bd079de4",
+        "url": "/api/v1/collected-papers/keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T22:29:16.560526932Z",
+      "record": "keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness",
+      "repository_name": "keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness",
+      "source": {
+        "bytes": 13196,
+        "sha256": "678fa15b5c158f46529a958158c1430a527d0c99861ada8e91500574785d0be1",
+        "url": "/api/v1/collected-papers/keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness/files/source?version=2"
+      },
+      "title": "Extending Keshari–Mayassi–Prabhakar–Nasser's unfaithfulness theorem: a negative answer to their zeta8 faithfulness question",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T22:29:16.560526932Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness"
+    },
+    {
       "abstract_text": "We extend Khesin–Li (2024), Section 8, by proving the operation-generated, decoration-free graph formulation of Conjecture 8.3 (page 23) and correcting the shared-output bound in Proposition 8.2 (page 23). For bipartite encoder graphs in one class, local complementations and input-edge deletions can be eliminated: output permutations and binary input-row additions suffice. The output cut-rank function is invariant under the original operations, up to output relabelling. At a bipartite endpoint this function determines the binary kernel, hence the row space, of the input–output matrix. For two inputs, the number of zero columns and the unordered multiplicities of the three nonzero column types classify the graphs. Their smallest achievable number of shared outputs is the least of these multiplicities, at most floor((n-z)/3) for z zero columns. The [3,2] matrix with all three nonzero column types has minimum one, whereas the published bound gives zero.",
       "authors": [
         {
@@ -3430,6 +3618,53 @@
         }
       ],
       "work": "khesin-li-2024-bipartite-encoder-equivalence"
+    },
+    {
+      "abstract_text": "Kim and Stolarsky's eventual three-prefix conjecture in Integers 26 (2026), A98, Remark 3, p. 6, fails in both its squared and third terms whenever n is congruent to 2 modulo 3, by exact continued-fraction divisions and polynomial sign bounds. We give corrected prefixes for all three root branches, prove the proposed ordering and all three limiting digit ratios, and determine the full rational expansions for the squared odd and even terms. A specialization of the authors' own identity also answers their question about the separation of double zeros: there is no finite bound, even for integer-coefficient factors.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "53c631a19a8292b44b6ed47b8cb236f00c7f5ed8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/53c631a19a8292b44b6ed47b8cb236f00c7f5ed8/D5/S1/Depth/ContinuedFractions/KimStolarskyEventualPrefixRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 75045,
+        "sha256": "2d75a75cfe93e4e8f1cd7a14a8ae513d298e8f550c7f822ea78beabbea9a626d",
+        "url": "/api/v1/collected-papers/kim-stolarsky-eventual-three-prefix-conjecture/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T23:45:02.666106756Z",
+      "record": "kim-stolarsky-eventual-three-prefix-conjecture",
+      "repository_name": "kim-stolarsky-eventual-three-prefix-conjecture",
+      "source": {
+        "bytes": 13968,
+        "sha256": "6a4e5499fb309d7dc0c506b6bc994e20e926558a7499a2f35eef70e64023b11b",
+        "url": "/api/v1/collected-papers/kim-stolarsky-eventual-three-prefix-conjecture/files/source?version=2"
+      },
+      "title": "Correction of Kim–Stolarsky's eventual three-prefix conjecture",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T23:45:02.666106756Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "kim-stolarsky-eventual-three-prefix-conjecture"
     },
     {
       "abstract_text": "Conjecture 4.2 of Klanderman, Lewis, Monson, Shibata and Van Niel, in Characterizing Transfer Systems for Non-Abelian Groups, arXiv:2511.13439v2, Section 4, printed page 15, receives an explicit correction by an elementary derivation from DeMark et al.’s tulip theorem (arXiv:2604.00335v1, 1 April 2026, Proposition 3.17) and the hull theorem of Mazur et al. (2024, Proposition 2.14). Under the conjecture’s two-component hypothesis with isolated top, the transfer system is non-LSP precisely when the group order is composite, and its ordinary generated extension is compatible precisely when the original system is saturated. The non-LSP classification needs only top isolation, not two components; under the original hypotheses, all compatible partners form the lattice of conjugation-invariant order ideals of proper subgroups. On Q8, the system consisting of identities and e to H for every proper subgroup H violates compatibility: the generated extension omits {±1} to <i>. The classification also identifies the least compatible extension containing e to G and separates ordinary transfer generation from compatibility closure.",
@@ -3960,9 +4195,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24484269",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24484270",
       "lean_source": {
         "revision": "d13f56f01c2e4710683d27a74c67cba9ec344e19",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d13f56f01c2e4710683d27a74c67cba9ec344e19/D5/S3/Quantum/Entanglement/Witness/LiPoonSzeP2.lean#L806"
@@ -4195,9 +4430,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24483899",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24483900",
       "lean_source": {
         "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
         "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/StatisticalMechanics/Percolation/MarkeyFiveSiteGrowthDifference.lean"
@@ -6453,9 +6688,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24484081",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24484082",
       "lean_source": {
         "revision": "2f8421f6b90d37b4815b887f6c60987553831b20",
         "url": "https://github.com/the-omega-institute/trureturing/blob/2f8421f6b90d37b4815b887f6c60987553831b20/D5/S3/Combinatorics/PowerSeries/SchulteImplicitQuadrinomialPowers.lean"
@@ -6487,6 +6722,53 @@
         }
       ],
       "work": "schulte-implicit-power-coefficients"
+    },
+    {
+      "abstract_text": "By a gap decomposition, we extend Shao and Zhao's Theorem 7.1 (2026, arXiv:2610.00108v1, pp. 22-24) to every deficit, answering the fourth future-work direction in their Section 9, p. 29: a finite binomial sum counts Italian dominating functions of weight 2n-j on a labelled cycle for every n >= 3 and 0 <= j <= 2n. Marking a vertex counts periodic words without passing to rotation classes. The same decomposition gives a rational bivariate generating function, the total-count recurrence requested in the second direction, and a sufficient polynomial stable range. The exclusion polynomial has degree j-4 and leading coefficient 2/(j-5)! for j >= 5; paths have the same total-count growth ratio as cycles.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb/D5/S3/Combinatorics/Graph/ItalianDomination/CycleDeficit.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 92187,
+        "sha256": "28471d755a38a92cbbb9eb2ca05221a3c9d975444e2730bdab0dea4f4c8450be",
+        "url": "/api/v1/collected-papers/shao-zhao-italian-cycle-closed-form/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T23:44:10.693986944Z",
+      "record": "shao-zhao-italian-cycle-closed-form",
+      "repository_name": "shao-zhao-italian-cycle-closed-form",
+      "source": {
+        "bytes": 14920,
+        "sha256": "fb9c05aef017a7d9c76b41dcec7211f399f778779c4adfe501d1ab46d9fadfe5",
+        "url": "/api/v1/collected-papers/shao-zhao-italian-cycle-closed-form/files/source?version=2"
+      },
+      "title": "A general-deficit extension of Shao and Zhao's Italian cycle-domination formulas",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T23:44:10.693986944Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "shao-zhao-italian-cycle-closed-form"
     },
     {
       "abstract_text": "For the conjectures in OEIS A322844, COMMENTS, first posed on 28 December 2018 and 6 January 2019, we extend the arithmetic-row rank argument of Vinay (2019) and Wicklin (2021) to an explicit spectral formula. For the n by n row-serpentine matrix, the characteristic polynomial is x^(n-2)(x^2-T_n*x-A_n), with T_n=n(n^2+(n mod 2))/2 and A_n=n^2[3(1+n^2)-2(2+n^2)(n mod 2)]/12. Thus the signed second exterior trace is -A_n and all higher exterior traces vanish. Written corollaries give spectra, arbitrary row directions, linked sum and permanent formulas, generating functions, reciprocal sums, the A246696 permutation property and corrected even-row odd count, and first off-diagonal parity and terminal-digit statements. General rank antecedents and the earlier even-order sum proofs of De Los Reyes et al. (2007) are credited. The relation of the unavailable 2012 Miranda construction articles to the explicit spectral coefficient remains unresolved; no priority claim is made.",
@@ -6816,6 +7098,53 @@
         }
       ],
       "work": "sun-a006077-hankel-determinants"
+    },
+    {
+      "abstract_text": "For Sun's Conjecture 1 in OEIS A346934, COMMENTS, revision 29 (November 5, 2025), unchanged in revision 38 (October 26, 2026), we give an alternative proof of the sign consequence of Kunisky-Spielman-Yu's skew rank-two identity (arXiv:2608.28520v1, August 28, 2026, Section 5, pages 24-25) and prove the composite-modulus assertion using Marcus's expansion (arXiv:2108.02528v1, August 5, 2021, Lemma 4). The sign identity gives an equality criterion for arbitrary real inputs. For integer additive matrices of order q-1, divisibility of every permanent by q holds exactly when q is composite and q is not 4. Farhi's binomial-coefficient identity gives their exact common divisor. We also prove the immediate sum- and power-matrix consequences and identify earlier proofs of the related reciprocal assertions.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Combinatorics/Permanental/SunA346934CompositeModulus.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 99615,
+        "sha256": "0cdb072c31492f135c860fd08bd2725c3284033e5daabe499b3e3c3f3857aa77",
+        "url": "/api/v1/collected-papers/sun346934-sign-composite-permanents/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-23T23:19:06.260323564Z",
+      "record": "sun346934-sign-composite-permanents",
+      "repository_name": "sun346934-sign-composite-permanents",
+      "source": {
+        "bytes": 141534,
+        "sha256": "83edab8521fbe5f4c10ebf91378b7773b84ab7e22584ebd683f9324ad5d9166c",
+        "url": "/api/v1/collected-papers/sun346934-sign-composite-permanents/files/source?version=2"
+      },
+      "title": "Alternative proofs for Sun's difference-permanent conjectures and Kunisky-Spielman-Yu's sign identity",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-23T23:19:06.260323564Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "sun346934-sign-composite-permanents"
     },
     {
       "abstract_text": "We answer negatively Ta's Problems 11.6–11.7 in arXiv:2505.08090v5, Section 11, page 27, and prove his Conjecture 5.13 in arXiv:2508.16772v1, Section 5.2.2, page 17, extending the counting methods of Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026). The two semidirect products C16 semidirect C4 with actions 5 and 7 have invariant triple (64,4,22), but respectively 8847360 and 2160000 good involutions. Ta's central-label characterization gives a weighted-involution formula for every finite conjugation subquandle and an exact criterion for equality in the central-label bound. The quaternion example attains that bound with two orbits and a center of order two. Inversion-closure is distinguished from classwise inverse stability, correcting Remark 2.14. For the linear quandle Lambda_(4n,2n-1), the number of good involutions is ten for odd n and four for even n; the odd case proves Conjecture 5.13, and the even case reproves Ta's Remark 5.14.",

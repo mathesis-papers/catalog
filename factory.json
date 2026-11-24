@@ -57,8 +57,8 @@
       "work": "a320043-square-values-refutation"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24483570",
+      "doi": "10.5281/zenodo.24483571",
       "files": {
         "pdf": {
           "bytes": 97712,
@@ -95,7 +95,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2359,6 +2358,63 @@
       "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 73300,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "50418eb19da13dd26a2c79d5a21f51f120538ca56b68933b03cacfcd7cd3dd9b",
+          "sha256": "50418eb19da13dd26a2c79d5a21f51f120538ca56b68933b03cacfcd7cd3dd9b"
+        },
+        "source": {
+          "bytes": 14072,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "8bd66a0e051ca09a8584850f23f5bc3d222d26c6bf11b923e8099091438a8408",
+          "sha256": "8bd66a0e051ca09a8584850f23f5bc3d222d26c6bf11b923e8099091438a8408"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 4,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "3ede1d0bfa6d3c063b82234699d279136b6f0c42",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3ede1d0bfa6d3c063b82234699d279136b6f0c42/D5/S3/QuadraticForms/FinchBalancedZerofreeRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/finch-unimodular-zerofree-six",
+      "site_url": "https://papers.trureturing.org/finch-unimodular-zerofree-six/",
+      "title": "Extending Towse–Campbell's rank-one constructions: a counterexample to Finch's balanced order-six conjecture",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "finch-unimodular-zerofree-six"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24408307",
       "doi": "10.5281/zenodo.24408308",
       "files": {
@@ -2413,6 +2469,63 @@
       },
       "version": 3,
       "work": "finch-zero-runs"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 97869,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "d489af0e8fee544a300ba7b40914ba469bde7ed769dff78059c085fe37e879e3",
+          "sha256": "d489af0e8fee544a300ba7b40914ba469bde7ed769dff78059c085fe37e879e3"
+        },
+        "source": {
+          "bytes": 18389,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "0b651961cf259eee593cfbe53057b924682d29b0a6d06e9ee4cac945fea76e80",
+          "sha256": "0b651961cf259eee593cfbe53057b924682d29b0a6d06e9ee4cac945fea76e80"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 10,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "71b4d849a96f7050cd0e6270e1551e061c680e33",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4d849a96f7050cd0e6270e1551e061c680e33/D5/S1/Dynamics/Shadowing/CircleFinitePositiveExpansiveness.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/gangloff-guillon-oprocha-circle-finite-positive-expansivity",
+      "site_url": "https://papers.trureturing.org/gangloff-guillon-oprocha-circle-finite-positive-expansivity/",
+      "title": "Gangloff, Guillon and Oprocha's circle expansivity question: extending their interval obstruction",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "gangloff-guillon-oprocha-circle-finite-positive-expansivity"
     },
     {
       "concept_doi": "10.5281/zenodo.23920556",
@@ -2973,6 +3086,63 @@
       },
       "version": 2,
       "work": "hanna-composition-congruences"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 73085,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "8a1985d4df565031f808640802157233e243136c17b527e1fccdf5736f12ef81",
+          "sha256": "8a1985d4df565031f808640802157233e243136c17b527e1fccdf5736f12ef81"
+        },
+        "source": {
+          "bytes": 15180,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "6ffe5fd73e68930334052f83c69f9de0e32acab7dc241224faeb2399e5b998a4",
+          "sha256": "6ffe5fd73e68930334052f83c69f9de0e32acab7dc241224faeb2399e5b998a4"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f/D5/S1/Recurrence/Algebraic/HannaSquareExponentIntegrality.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/hanna-square-exponent-integrality",
+      "site_url": "https://papers.trureturing.org/hanna-square-exponent-integrality/",
+      "title": "Proof of Hanna's square-exponent factorial integrality conjectures",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "hanna-square-exponent-integrality"
     },
     {
       "concept_doi": "10.5281/zenodo.23903300",
@@ -4040,6 +4210,63 @@
       "work": "karp-sf21-legendre-turan"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 80881,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "6854238fb749f27c34f5c75024ea638e210995c13ee0c85d9abed371bd079de4",
+          "sha256": "6854238fb749f27c34f5c75024ea638e210995c13ee0c85d9abed371bd079de4"
+        },
+        "source": {
+          "bytes": 13196,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "678fa15b5c158f46529a958158c1430a527d0c99861ada8e91500574785d0be1",
+          "sha256": "678fa15b5c158f46529a958158c1430a527d0c99861ada8e91500574785d0be1"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 4,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Quantum/Algebra/Knot/MultiVirtualTwinZetaEightFaithfulnessRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness",
+      "site_url": "https://papers.trureturing.org/keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness/",
+      "title": "Extending Keshari–Mayassi–Prabhakar–Nasser's unfaithfulness theorem: a negative answer to their zeta8 faithfulness question",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24404943",
       "doi": "10.5281/zenodo.24404944",
       "files": {
@@ -4094,6 +4321,63 @@
       },
       "version": 2,
       "work": "khesin-li-2024-bipartite-encoder-equivalence"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 75045,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "2d75a75cfe93e4e8f1cd7a14a8ae513d298e8f550c7f822ea78beabbea9a626d",
+          "sha256": "2d75a75cfe93e4e8f1cd7a14a8ae513d298e8f550c7f822ea78beabbea9a626d"
+        },
+        "source": {
+          "bytes": 13968,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "6a4e5499fb309d7dc0c506b6bc994e20e926558a7499a2f35eef70e64023b11b",
+          "sha256": "6a4e5499fb309d7dc0c506b6bc994e20e926558a7499a2f35eef70e64023b11b"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "53c631a19a8292b44b6ed47b8cb236f00c7f5ed8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/53c631a19a8292b44b6ed47b8cb236f00c7f5ed8/D5/S1/Depth/ContinuedFractions/KimStolarskyEventualPrefixRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/kim-stolarsky-eventual-three-prefix-conjecture",
+      "site_url": "https://papers.trureturing.org/kim-stolarsky-eventual-three-prefix-conjecture/",
+      "title": "Correction of Kim–Stolarsky's eventual three-prefix conjecture",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "kim-stolarsky-eventual-three-prefix-conjecture"
     },
     {
       "concept_doi": "10.5281/zenodo.24413789",
@@ -4715,8 +4999,8 @@
       "work": "larotonda-principal-log-distance"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24484269",
+      "doi": "10.5281/zenodo.24484270",
       "files": {
         "pdf": {
           "bytes": 101292,
@@ -4753,7 +5037,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4996,8 +5279,8 @@
       "work": "malkoun-2026-mo512579-jordan-elementary"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24483899",
+      "doi": "10.5281/zenodo.24483900",
       "files": {
         "pdf": {
           "bytes": 88725,
@@ -5034,7 +5317,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -7703,8 +7985,8 @@
       "work": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24484081",
+      "doi": "10.5281/zenodo.24484082",
       "files": {
         "pdf": {
           "bytes": 100885,
@@ -7741,7 +8023,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -7758,6 +8039,63 @@
       },
       "version": 3,
       "work": "schulte-implicit-power-coefficients"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 92187,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "28471d755a38a92cbbb9eb2ca05221a3c9d975444e2730bdab0dea4f4c8450be",
+          "sha256": "28471d755a38a92cbbb9eb2ca05221a3c9d975444e2730bdab0dea4f4c8450be"
+        },
+        "source": {
+          "bytes": 14920,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "fb9c05aef017a7d9c76b41dcec7211f399f778779c4adfe501d1ab46d9fadfe5",
+          "sha256": "fb9c05aef017a7d9c76b41dcec7211f399f778779c4adfe501d1ab46d9fadfe5"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb/D5/S3/Combinatorics/Graph/ItalianDomination/CycleDeficit.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/shao-zhao-italian-cycle-closed-form",
+      "site_url": "https://papers.trureturing.org/shao-zhao-italian-cycle-closed-form/",
+      "title": "A general-deficit extension of Shao and Zhao's Italian cycle-domination formulas",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "shao-zhao-italian-cycle-closed-form"
     },
     {
       "concept_doi": "10.5281/zenodo.24408322",
@@ -8154,6 +8492,63 @@
       },
       "version": 2,
       "work": "sun-a006077-hankel-determinants"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 99615,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "0cdb072c31492f135c860fd08bd2725c3284033e5daabe499b3e3c3f3857aa77",
+          "sha256": "0cdb072c31492f135c860fd08bd2725c3284033e5daabe499b3e3c3f3857aa77"
+        },
+        "source": {
+          "bytes": 141534,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "83edab8521fbe5f4c10ebf91378b7773b84ab7e22584ebd683f9324ad5d9166c",
+          "sha256": "83edab8521fbe5f4c10ebf91378b7773b84ab7e22584ebd683f9324ad5d9166c"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 10,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Combinatorics/Permanental/SunA346934CompositeModulus.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/sun346934-sign-composite-permanents",
+      "site_url": "https://papers.trureturing.org/sun346934-sign-composite-permanents/",
+      "title": "Alternative proofs for Sun's difference-permanent conjectures and Kunisky-Spielman-Yu's sign identity",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "sun346934-sign-composite-permanents"
     },
     {
       "concept_doi": "10.5281/zenodo.24409475",
@@ -9004,8 +9399,8 @@
       "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 160,
+  "papers": 167,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-23T22:30:40.264982525Z"
+  "snapshot_time": "2026-11-24T00:45:02.068772724Z"
 }

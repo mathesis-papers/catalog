@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/sun346934-sign-composite-permanents/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/sun346934-sign-composite-permanents",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/sun346934-sign-composite-permanents/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "sun346934-sign-composite-permanents"
+}

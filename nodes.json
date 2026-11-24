@@ -11224,6 +11224,162 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:finch-unimodular-zerofree-six:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "3ede1d0bfa6d3c063b82234699d279136b6f0c42",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3ede1d0bfa6d3c063b82234699d279136b6f0c42/D5/S3/QuadraticForms/FinchBalancedZerofreeRefutation.lean"
+      },
+      "lineage": "collected:finch-unimodular-zerofree-six:s1",
+      "macros": {
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "finch-unimodular-zerofree-six",
+      "scope": "in_scope",
+      "statement": "Let $n\\geq2$ and let $c\\geq2$ be an integer. The positive integer\nmatrix $A=D+cJ$ is unimodular if and only if\n\\[\n \\delta=0\\quad\\hbox{or}\\quad(c,\\delta)=(2,-1).\n\\]\nIn either case $A$ is zerofree and\n$\\alpha(A)=\\beta(A)=c+1$. More explicitly,\n\\begin{align}\n \\det A&=\\det(D)(1+c\\delta),\\\\\n A^{-1}&=D-\\frac{c}{1+c\\delta}\\,\n               \\mathbf s\\mathbf s^{\\mathsf T}.\n\\end{align}\nFormula \\eqref{eq:inverse} also holds without unimodularity.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Towse–Campbell's rank-one constructions: a counterexample to Finch's balanced order-six conjecture",
+      "toolchain": null,
+      "version": 3,
+      "work": "finch-unimodular-zerofree-six"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:finch-unimodular-zerofree-six:3:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3ede1d0bfa6d3c063b82234699d279136b6f0c42",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3ede1d0bfa6d3c063b82234699d279136b6f0c42/D5/S3/QuadraticForms/FinchBalancedZerofreeRefutation.lean"
+      },
+      "lineage": "collected:finch-unimodular-zerofree-six:s2",
+      "macros": {
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "finch-unimodular-zerofree-six",
+      "scope": "in_scope",
+      "statement": "For every even $n\\geq2$ and every integer $k\\geq3$, a positive\nunimodular zerofree matrix exists with $\\alpha=\\beta=k$.\nFor every odd $n\\geq3$, one exists with $\\alpha=\\beta=3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Towse–Campbell's rank-one constructions: a counterexample to Finch's balanced order-six conjecture",
+      "toolchain": null,
+      "version": 3,
+      "work": "finch-unimodular-zerofree-six"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:finch-unimodular-zerofree-six:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3ede1d0bfa6d3c063b82234699d279136b6f0c42",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3ede1d0bfa6d3c063b82234699d279136b6f0c42/D5/S3/QuadraticForms/FinchBalancedZerofreeRefutation.lean"
+      },
+      "lineage": "collected:finch-unimodular-zerofree-six:s3",
+      "macros": {
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "finch-unimodular-zerofree-six",
+      "scope": "in_scope",
+      "statement": "There are positive unimodular zerofree matrices of order six with\n$(\\alpha,\\beta)=(3,4)$ and $(3,5)$, respectively.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Towse–Campbell's rank-one constructions: a counterexample to Finch's balanced order-six conjecture",
+      "toolchain": null,
+      "version": 3,
+      "work": "finch-unimodular-zerofree-six"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:finch-unimodular-zerofree-six:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3ede1d0bfa6d3c063b82234699d279136b6f0c42",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3ede1d0bfa6d3c063b82234699d279136b6f0c42/D5/S3/QuadraticForms/FinchBalancedZerofreeRefutation.lean"
+      },
+      "lineage": "collected:finch-unimodular-zerofree-six:s4",
+      "macros": {
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "finch-unimodular-zerofree-six",
+      "scope": "in_scope",
+      "statement": "For $m\\geq1$ and $k\\geq3$ one has $\\gamma_{2m}(k)\\geq k$;\nfor $m\\geq1$ one has $\\gamma_{2m+1}(3)\\geq3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Towse–Campbell's rank-one constructions: a counterexample to Finch's balanced order-six conjecture",
+      "toolchain": null,
+      "version": 3,
+      "work": "finch-unimodular-zerofree-six"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:finch-zero-runs:3:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -11326,6 +11482,426 @@
       "toolchain": null,
       "version": 3,
       "work": "finch-zero-runs"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "71b4d849a96f7050cd0e6270e1551e061c680e33",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4d849a96f7050cd0e6270e1551e061c680e33/D5/S1/Dynamics/Shadowing/CircleFinitePositiveExpansiveness.lean"
+      },
+      "lineage": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:s1",
+      "macros": {
+        "\\N": "\\mathbb N_0",
+        "\\T": "\\mathbb T",
+        "\\diam": "\\operatorname{diam}",
+        "\\intr": "\\operatorname{int}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "gangloff-guillon-oprocha-circle-finite-positive-expansivity",
+      "scope": "in_scope",
+      "statement": "Let $f:\\T\\to\\T$ be continuous. Suppose that there are $\\varepsilon>0$ and an integer $N\\ge1$ such that $|W_\\varepsilon(x)|\\le N$ for every $x\\in\\T$. Then there is $c>0$ such that $W_c(x)=\\{x\\}$ for every $x\\in\\T$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Gangloff, Guillon and Oprocha's circle expansivity question: extending their interval obstruction",
+      "toolchain": null,
+      "version": 3,
+      "work": "gangloff-guillon-oprocha-circle-finite-positive-expansivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:3:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "71b4d849a96f7050cd0e6270e1551e061c680e33",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4d849a96f7050cd0e6270e1551e061c680e33/D5/S1/Dynamics/Shadowing/CircleFinitePositiveExpansiveness.lean"
+      },
+      "lineage": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:s10",
+      "macros": {
+        "\\N": "\\mathbb N_0",
+        "\\T": "\\mathbb T",
+        "\\diam": "\\operatorname{diam}",
+        "\\intr": "\\operatorname{int}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "gangloff-guillon-oprocha-circle-finite-positive-expansivity",
+      "scope": "in_scope",
+      "statement": "For every $1\\le k\\le n$, a bouquet of $n$ circles admits a positively\n$k$-expansive map. For $k\\ge2$ this map is not positively $(k-1)$-expansive.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Gangloff, Guillon and Oprocha's circle expansivity question: extending their interval obstruction",
+      "toolchain": null,
+      "version": 3,
+      "work": "gangloff-guillon-oprocha-circle-finite-positive-expansivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "71b4d849a96f7050cd0e6270e1551e061c680e33",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4d849a96f7050cd0e6270e1551e061c680e33/D5/S1/Dynamics/Shadowing/CircleFinitePositiveExpansiveness.lean"
+      },
+      "lineage": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:s2",
+      "macros": {
+        "\\N": "\\mathbb N_0",
+        "\\T": "\\mathbb T",
+        "\\diam": "\\operatorname{diam}",
+        "\\intr": "\\operatorname{int}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "gangloff-guillon-oprocha-circle-finite-positive-expansivity",
+      "scope": "in_scope",
+      "statement": "Every fibre of every iterate of $f$ is finite. If $E\\subset\\T$ is infinite, then for every integer $m\\ge0$ there exist $t\\ge m$ and $x,y\\in E$ with $d(f^t(x),f^t(y))\\ge\\varepsilon$. No arc $A$ satisfies $f^p(A)\\subset A$ for an integer $p\\ge1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Gangloff, Guillon and Oprocha's circle expansivity question: extending their interval obstruction",
+      "toolchain": null,
+      "version": 3,
+      "work": "gangloff-guillon-oprocha-circle-finite-positive-expansivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:3:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "71b4d849a96f7050cd0e6270e1551e061c680e33",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4d849a96f7050cd0e6270e1551e061c680e33/D5/S1/Dynamics/Shadowing/CircleFinitePositiveExpansiveness.lean"
+      },
+      "lineage": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:s3",
+      "macros": {
+        "\\N": "\\mathbb N_0",
+        "\\T": "\\mathbb T",
+        "\\diam": "\\operatorname{diam}",
+        "\\intr": "\\operatorname{int}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "gangloff-guillon-oprocha-circle-finite-positive-expansivity",
+      "scope": "in_scope",
+      "statement": "For every arc $J$ and every two distinct points $z_1,z_2\\in\\T$, some iterate crosses at least one of $z_1,z_2$ from $J$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Gangloff, Guillon and Oprocha's circle expansivity question: extending their interval obstruction",
+      "toolchain": null,
+      "version": 3,
+      "work": "gangloff-guillon-oprocha-circle-finite-positive-expansivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:3:s4",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "71b4d849a96f7050cd0e6270e1551e061c680e33",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4d849a96f7050cd0e6270e1551e061c680e33/D5/S1/Dynamics/Shadowing/CircleFinitePositiveExpansiveness.lean"
+      },
+      "lineage": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:s4",
+      "macros": {
+        "\\N": "\\mathbb N_0",
+        "\\T": "\\mathbb T",
+        "\\diam": "\\operatorname{diam}",
+        "\\intr": "\\operatorname{int}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "gangloff-guillon-oprocha-circle-finite-positive-expansivity",
+      "scope": "in_scope",
+      "statement": "If $f$ is not locally injective, it has at least two distinct turns.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Gangloff, Guillon and Oprocha's circle expansivity question: extending their interval obstruction",
+      "toolchain": null,
+      "version": 3,
+      "work": "gangloff-guillon-oprocha-circle-finite-positive-expansivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:3:s5",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "71b4d849a96f7050cd0e6270e1551e061c680e33",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4d849a96f7050cd0e6270e1551e061c680e33/D5/S1/Dynamics/Shadowing/CircleFinitePositiveExpansiveness.lean"
+      },
+      "lineage": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:s5",
+      "macros": {
+        "\\N": "\\mathbb N_0",
+        "\\T": "\\mathbb T",
+        "\\diam": "\\operatorname{diam}",
+        "\\intr": "\\operatorname{int}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "gangloff-guillon-oprocha-circle-finite-positive-expansivity",
+      "scope": "in_scope",
+      "statement": "Suppose $f$ is not locally injective. For every arc $A$ and every $\\eta>0$ there are disjoint arcs $P_-,P_+\\subset A$, an integer $r\\ge1$, and an arc $D$ such that\n\\[\n f^r(P_-)=f^r(P_+)=D,\\qquad\n \\diam f^s(P_-\\cup P_+)<\\eta\\quad(0\\le s\\le r).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Gangloff, Guillon and Oprocha's circle expansivity question: extending their interval obstruction",
+      "toolchain": null,
+      "version": 3,
+      "work": "gangloff-guillon-oprocha-circle-finite-positive-expansivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:3:s6",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "71b4d849a96f7050cd0e6270e1551e061c680e33",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4d849a96f7050cd0e6270e1551e061c680e33/D5/S1/Dynamics/Shadowing/CircleFinitePositiveExpansiveness.lean"
+      },
+      "lineage": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:s6",
+      "macros": {
+        "\\N": "\\mathbb N_0",
+        "\\T": "\\mathbb T",
+        "\\diam": "\\operatorname{diam}",
+        "\\intr": "\\operatorname{int}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "gangloff-guillon-oprocha-circle-finite-positive-expansivity",
+      "scope": "in_scope",
+      "statement": "The map $f$ is locally injective.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Gangloff, Guillon and Oprocha's circle expansivity question: extending their interval obstruction",
+      "toolchain": null,
+      "version": 3,
+      "work": "gangloff-guillon-oprocha-circle-finite-positive-expansivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "71b4d849a96f7050cd0e6270e1551e061c680e33",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4d849a96f7050cd0e6270e1551e061c680e33/D5/S1/Dynamics/Shadowing/CircleFinitePositiveExpansiveness.lean"
+      },
+      "lineage": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:s7",
+      "macros": {
+        "\\N": "\\mathbb N_0",
+        "\\T": "\\mathbb T",
+        "\\diam": "\\operatorname{diam}",
+        "\\intr": "\\operatorname{int}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "gangloff-guillon-oprocha-circle-finite-positive-expansivity",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\ge1$, every continuous positively $(n+1)$-expansive circle map is positively $n$-expansive. Finite positive expansivity and positive expansivity are equivalent on the circle. Every such map is surjective and locally injective.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Gangloff, Guillon and Oprocha's circle expansivity question: extending their interval obstruction",
+      "toolchain": null,
+      "version": 3,
+      "work": "gangloff-guillon-oprocha-circle-finite-positive-expansivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "71b4d849a96f7050cd0e6270e1551e061c680e33",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4d849a96f7050cd0e6270e1551e061c680e33/D5/S1/Dynamics/Shadowing/CircleFinitePositiveExpansiveness.lean"
+      },
+      "lineage": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:s8",
+      "macros": {
+        "\\N": "\\mathbb N_0",
+        "\\T": "\\mathbb T",
+        "\\diam": "\\operatorname{diam}",
+        "\\intr": "\\operatorname{int}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "gangloff-guillon-oprocha-circle-finite-positive-expansivity",
+      "scope": "in_scope",
+      "statement": "For a continuous selfmap $f$ of $\\T$, the following are equivalent:\nfinite positive expansivity; positive expansivity; and topological conjugacy\nto $f_d$ for an integer $d$ with $|d|\\ge2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Gangloff, Guillon and Oprocha's circle expansivity question: extending their interval obstruction",
+      "toolchain": null,
+      "version": 3,
+      "work": "gangloff-guillon-oprocha-circle-finite-positive-expansivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:3:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "71b4d849a96f7050cd0e6270e1551e061c680e33",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4d849a96f7050cd0e6270e1551e061c680e33/D5/S1/Dynamics/Shadowing/CircleFinitePositiveExpansiveness.lean"
+      },
+      "lineage": "collected:gangloff-guillon-oprocha-circle-finite-positive-expansivity:s9",
+      "macros": {
+        "\\N": "\\mathbb N_0",
+        "\\T": "\\mathbb T",
+        "\\diam": "\\operatorname{diam}",
+        "\\intr": "\\operatorname{int}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "gangloff-guillon-oprocha-circle-finite-positive-expansivity",
+      "scope": "in_scope",
+      "statement": "Let $f:X\\to X$ be continuous on a compact metric space with a uniform\nfinite forward Bowen bound. If $C\\subset X$ is homeomorphic to a circle\nand $f^p(C)\\subset C$ for some $p\\ge1$, then $f^p|_C$ is conjugate to\na power map of absolute degree at least two. In particular it maps $C$\nonto $C$ and is positively expansive.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Gangloff, Guillon and Oprocha's circle expansivity question: extending their interval obstruction",
+      "toolchain": null,
+      "version": 3,
+      "work": "gangloff-guillon-oprocha-circle-finite-positive-expansivity"
     },
     {
       "attribution": null,
@@ -14320,6 +14896,211 @@
       "toolchain": null,
       "version": 2,
       "work": "hanna-composition-congruences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-integrality:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f/D5/S1/Recurrence/Algebraic/HannaSquareExponentIntegrality.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-integrality:s1",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-integrality",
+      "scope": "in_scope",
+      "statement": "Let $(M_n)_{n\\geq2}$ be any sequence of positive integers, and let $t\\in\\Q$.\nThere is a unique series\n\\[\n B=-1+tx+\\sum_{n\\geq2}b_nx^n\\in\\Q[[x]]\n \\quad\\text{such that}\\quad [x^n]S_{M_n}(B)=0\\quad(n\\geq2).\n\\]\nIf $t\\in\\Z$ and\n\\begin{equation}\n \\gcd(n,M_n^2)\\mid M_n\\qquad(n\\geq2),\n\\end{equation}\nthen $B\\in\\Z[[x]]$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent factorial integrality conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-integrality:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f/D5/S1/Recurrence/Algebraic/HannaSquareExponentIntegrality.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-integrality:s2",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-integrality",
+      "scope": "in_scope",
+      "statement": "For $P\\in\\Z[[x]]$, $n\\geq1$ and $r\\geq1$,\n\\[\n \\frac{r}{\\gcd(n,r)}\\ \\bigm|\\ [x^n]P^r.\n\\]\nIn particular, if $M\\geq1$ and $\\gcd(n,M^2)\\mid M$, then\n$M\\mid[x^n]P^{M^2}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent factorial integrality conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-integrality:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f/D5/S1/Recurrence/Algebraic/HannaSquareExponentIntegrality.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-integrality:s3",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-integrality",
+      "scope": "in_scope",
+      "statement": "Each of the three normalized series in\n\\eqref{eq:two}--\\eqref{eq:third} exists, is unique over $\\Q$, and has only\ninteger coefficients.\nMore generally, the integrality conclusion holds if, independently in each\ndegree $n$, the cutoff $M_n$ is any positive multiple of $n$, or is coprime\nto $n$, and the linear coefficient is any integer.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent factorial integrality conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-integrality:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f/D5/S1/Recurrence/Algebraic/HannaSquareExponentIntegrality.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-integrality:s4",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-integrality",
+      "scope": "in_scope",
+      "statement": "Fix any positive cutoff sequence $(M_n)_{n\\geq2}$, and let $B_t$ be the\nunique solution in Theorem~\\ref{thm:main} with linear coefficient $t\\in\\Q$.\nThen $B_t(x)=B_1(tx)$. In particular,\n$[x^n]B_t=t^n[x^n]B_1$ for every $n\\geq0$.\nIf the gcd condition holds, every coefficient is an integer multiple of\n$t^n$ whenever $t\\in\\Z$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent factorial integrality conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hanna-square-exponent-integrality:2:s5",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f/D5/S1/Recurrence/Algebraic/HannaSquareExponentIntegrality.lean"
+      },
+      "lineage": "collected:hanna-square-exponent-integrality:s5",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[x^{#1}]\\,#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-square-exponent-integrality",
+      "scope": "in_scope",
+      "statement": "For positive integers $n,M$, the following are equivalent:\n\\begin{enumerate}\n\\item $\\gcd(n,M^2)\\mid M$;\n\\item for every $P\\in\\Z[x]$ with $P(0)=-1$, one has\n$M\\mid[x^n]P^{M^2}$.\n\\end{enumerate}\nEquivalently, for every prime $p\\mid M$, the exponent of $p$ in $n$\nis at most its exponent in $M$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hanna's square-exponent factorial integrality conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-square-exponent-integrality"
     },
     {
       "attribution": null,
@@ -19203,6 +19984,166 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Quantum/Algebra/Knot/MultiVirtualTwinZetaEightFaithfulnessRefutation.lean"
+      },
+      "lineage": "collected:keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness:s1",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\GL": "\\mathrm{GL}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness",
+      "scope": "in_scope",
+      "statement": "Let $k\\ge1$ and $n=3$. Write $r_\\alpha=\\rho_1^\\alpha$,\n$V=\\langle r_0,\\ldots,r_{k-1}\\rangle\\le G_{k,3}$ and\n$x_\\beta=r_0r_\\beta$ for $1\\le\\beta<k$.\nThen $V$ is the free product of $k$ groups of order two.\nIts even-word subgroup $F$ is free on the $x_\\beta$.\nFor $h\\in F$, let $e_\\beta(h)\\in\\mathbb Z$ be the exponent sum of\n$x_\\beta$ in $h$, and put $q_\\beta=y_\\beta/y_0$. For every allowed\n$a,b,y_\\alpha$,\n\\begin{equation}\n \\ker(\\zeta_8|_V)\n =\\left\\{h\\in F:\\prod_{\\beta=1}^{k-1}q_\\beta^{e_\\beta(h)}=1\\right\\}.\n\\end{equation}\nIn particular, its intersection over all parameter choices is $F'=[F,F]$.\nIf the $q_\\beta$ are multiplicatively independent, the kernel itself is $F'$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Keshari–Mayassi–Prabhakar–Nasser's unfaithfulness theorem: a negative answer to their zeta8 faithfulness question",
+      "toolchain": null,
+      "version": 2,
+      "work": "keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Quantum/Algebra/Knot/MultiVirtualTwinZetaEightFaithfulnessRefutation.lean"
+      },
+      "lineage": "collected:keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness:s2",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\GL": "\\mathrm{GL}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness",
+      "scope": "in_scope",
+      "statement": "For $k\\ge3$, $n=3$ and all allowed parameters,\n\\[\n w=[r_0r_1,r_0r_2]\n\\]\nhas infinite order and lies in $\\ker\\zeta_8$. It lies in both\n$M_kVPT_3$ and $M_kVHT_3$, and their restricted representations\nhave $\\langle w\\rangle$ in their kernels.\nMoreover, all eight homogeneous $2$-local families in\n\\cite[Theorem~4.1]{KMPN}, and every representation equivalent to them,\nkill $w$ and are unfaithful in this range.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Keshari–Mayassi–Prabhakar–Nasser's unfaithfulness theorem: a negative answer to their zeta8 faithfulness question",
+      "toolchain": null,
+      "version": 2,
+      "work": "keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Quantum/Algebra/Knot/MultiVirtualTwinZetaEightFaithfulnessRefutation.lean"
+      },
+      "lineage": "collected:keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness:s3",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\GL": "\\mathrm{GL}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness",
+      "scope": "in_scope",
+      "statement": "For $k=2$, the restriction $\\zeta_8|_V$ is faithful if and only if\n$q=y_1/y_0$ has infinite multiplicative order. If $q$ has order $m$,\nits kernel is $\\langle(r_0r_1)^m\\rangle$, an infinite cyclic group\ncontained in both associated subgroups. For $k\\ge2$, any root-of-unity\nratio $y_\\beta/y_\\alpha$ similarly gives the infinite-order kernel\nelement $(r_\\alpha r_\\beta)^m$, for $\\alpha\\ne\\beta$ and ratio order $m$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Keshari–Mayassi–Prabhakar–Nasser's unfaithfulness theorem: a negative answer to their zeta8 faithfulness question",
+      "toolchain": null,
+      "version": 2,
+      "work": "keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Quantum/Algebra/Knot/MultiVirtualTwinZetaEightFaithfulnessRefutation.lean"
+      },
+      "lineage": "collected:keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness:s4",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\GL": "\\mathrm{GL}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness",
+      "scope": "in_scope",
+      "statement": "For $k\\ge2$ and $n=3$, every member of $\\delta_1$ kills the\ninfinite-order element $[s_1\\rho_1^0,s_1\\rho_1^1]$ of $M_kWT_3$.\nFor $k\\ge3$, the element $w$ of Corollary~\\ref{cor:main} also\nhas infinite order in this quotient and belongs to its kernel.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Extending Keshari–Mayassi–Prabhakar–Nasser's unfaithfulness theorem: a negative answer to their zeta8 faithfulness question",
+      "toolchain": null,
+      "version": 2,
+      "work": "keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -19566,6 +20507,206 @@
       "toolchain": null,
       "version": 2,
       "work": "khesin-li-2024-bipartite-encoder-equivalence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:kim-stolarsky-eventual-three-prefix-conjecture:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "53c631a19a8292b44b6ed47b8cb236f00c7f5ed8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/53c631a19a8292b44b6ed47b8cb236f00c7f5ed8/D5/S1/Depth/ContinuedFractions/KimStolarskyEventualPrefixRefutation.lean"
+      },
+      "lineage": "collected:kim-stolarsky-eventual-three-prefix-conjecture:s1",
+      "macros": {
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\floor": "\\left\\lfloor #1\\right\\rfloor"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kim-stolarsky-eventual-three-prefix-conjecture",
+      "scope": "in_scope",
+      "statement": "For $m=m_n$, $n\\ge1$, the three polynomials have unique roots below $-4$.\nTheir negatives satisfy~\\eqref{eq:sourceL} and the corrected prefixes\n\\begin{equation}\n y_R(m)=\\left[4;\\frac m2+2,\\floor{(m-3)/7},\\ldots\\right],\\qquad\n y_Q(m)=\\left[4;\\frac{3m}{4},3,\\floor{(6m+128)/35},\\ldots\\right].\n\\end{equation}\nBoth original prefixes~\\eqref{eq:sourceR} and~\\eqref{eq:sourceQ} fail\nexactly for $n\\equiv2\\pmod3$. Moreover,\n\\begin{equation}\n y_R(m)>y_L(m)>y_Q(m)>4,\n\\end{equation}\nand the roots tend to $-4$. The ratios of the first partial quotient after\nthe integer part to the next large partial quotient tend, respectively, to\n$101/3$, $7/2$, and $35/8$ for $L,R,Q$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Correction of Kim–Stolarsky's eventual three-prefix conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "kim-stolarsky-eventual-three-prefix-conjecture"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:kim-stolarsky-eventual-three-prefix-conjecture:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "53c631a19a8292b44b6ed47b8cb236f00c7f5ed8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/53c631a19a8292b44b6ed47b8cb236f00c7f5ed8/D5/S1/Depth/ContinuedFractions/KimStolarskyEventualPrefixRefutation.lean"
+      },
+      "lineage": "collected:kim-stolarsky-eventual-three-prefix-conjecture:s2",
+      "macros": {
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\floor": "\\left\\lfloor #1\\right\\rfloor"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kim-stolarsky-eventual-three-prefix-conjecture",
+      "scope": "in_scope",
+      "statement": "For every even $m\\ge12$,\n\\[\n y_R(m)=\\frac{4m^2+6m+2}{m^2+m+2},\\qquad\n y_R(m)=\\left[4;\\frac m2+2,\\floor{(m-3)/7},\\ldots\\right].\n\\]\nTermination occurs at the third digit if $(m-3)/7$ is integral.\nFor $m=m_n$, $n\\ge0$, put $A=m/2+2$ and $b=\\floor{m/7}$.\nThe full canonical expansions are\n\\begin{equation}\n y_R(m)=\\begin{cases}\n [4;A,b-1,1,6],&n\\equiv0\\pmod3,\\\\\n [4;A,b-1,1,2,2],&n\\equiv1\\pmod3,\\\\\n [4;A,b,7],&n\\equiv2\\pmod3.\n \\end{cases}\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Correction of Kim–Stolarsky's eventual three-prefix conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "kim-stolarsky-eventual-three-prefix-conjecture"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:kim-stolarsky-eventual-three-prefix-conjecture:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "53c631a19a8292b44b6ed47b8cb236f00c7f5ed8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/53c631a19a8292b44b6ed47b8cb236f00c7f5ed8/D5/S1/Depth/ContinuedFractions/KimStolarskyEventualPrefixRefutation.lean"
+      },
+      "lineage": "collected:kim-stolarsky-eventual-three-prefix-conjecture:s3",
+      "macros": {
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\floor": "\\left\\lfloor #1\\right\\rfloor"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kim-stolarsky-eventual-three-prefix-conjecture",
+      "scope": "in_scope",
+      "statement": "The ordering~\\eqref{eq:order} holds for every integer $m\\ge12$.\nThe three roots approach $-4$, and the three ratio limits in\nTheorem~\\ref{thm:all} hold.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Correction of Kim–Stolarsky's eventual three-prefix conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "kim-stolarsky-eventual-three-prefix-conjecture"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:kim-stolarsky-eventual-three-prefix-conjecture:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "53c631a19a8292b44b6ed47b8cb236f00c7f5ed8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/53c631a19a8292b44b6ed47b8cb236f00c7f5ed8/D5/S1/Depth/ContinuedFractions/KimStolarskyEventualPrefixRefutation.lean"
+      },
+      "lineage": "collected:kim-stolarsky-eventual-three-prefix-conjecture:s4",
+      "macros": {
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\floor": "\\left\\lfloor #1\\right\\rfloor"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kim-stolarsky-eventual-three-prefix-conjecture",
+      "scope": "in_scope",
+      "statement": "The squared even term $R_{m,e}(x)=(T_{2m}+(1+T_m)x)^2$ has unique real root\n$-y_E(m)$, where\n\\[\n y_E(m)=\\frac{4m^2+2m}{m^2+m+2}.\n\\]\nFor every even $m\\ge40$,\n\\[\n y_E(m)=\\left[3;1,\\frac m2-3,1,1,\\floor{(m-10)/28},\\ldots\\right].\n\\]\nFor $m=m_n$, $n\\ge0$, put $c=\\floor{m/28}$ and $E=m/2-3$.\nThe full canonical expansions are\n\\begin{equation}\n y_E(m)=\\begin{cases}\n [3;1,E,1,1,c,4,1,2],&n\\equiv0\\pmod3,\\\\\n [3;1,E,1,1,c-1,1,13],&n\\equiv1\\pmod3,\\\\\n [3;1,E,1,1,c-1,1,3,1,2],&n\\equiv2\\pmod3.\n \\end{cases}\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Correction of Kim–Stolarsky's eventual three-prefix conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "kim-stolarsky-eventual-three-prefix-conjecture"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:kim-stolarsky-eventual-three-prefix-conjecture:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "53c631a19a8292b44b6ed47b8cb236f00c7f5ed8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/53c631a19a8292b44b6ed47b8cb236f00c7f5ed8/D5/S1/Depth/ContinuedFractions/KimStolarskyEventualPrefixRefutation.lean"
+      },
+      "lineage": "collected:kim-stolarsky-eventual-three-prefix-conjecture:s5",
+      "macros": {
+        "\\ceil": "\\left\\lceil #1\\right\\rceil",
+        "\\floor": "\\left\\lfloor #1\\right\\rfloor"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "kim-stolarsky-eventual-three-prefix-conjecture",
+      "scope": "in_scope",
+      "statement": "There is no finite upper bound on the separation of two double zeros of\npolynomials of the form\n$\\sum_{j=1}^m(a+bj+cj^2)(d+ej+fj^2)$.\nThis remains true for integer coefficients and nonnegative integer zeros.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Correction of Kim–Stolarsky's eventual three-prefix conjecture",
+      "toolchain": null,
+      "version": 2,
+      "work": "kim-stolarsky-eventual-three-prefix-conjecture"
     },
     {
       "attribution": null,
@@ -38279,6 +39420,342 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:shao-zhao-italian-cycle-closed-form:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb/D5/S3/Combinatorics/Graph/ItalianDomination/CycleDeficit.lean"
+      },
+      "lineage": "collected:shao-zhao-italian-cycle-closed-form:s1",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[z^{#1}]",
+        "\\di": "d_I"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "shao-zhao-italian-cycle-closed-form",
+      "scope": "in_scope",
+      "statement": "For $n\\geq3$ and $0\\leq j\\leq2n$,\n\\begin{equation}\n \\di(C_n,2n-j)=Z_{n,j}+E_{n,j}\n       +\\sum_{b=0}^{j}\\sum_{a=0}^{j}G_{n,j}(a,b).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A general-deficit extension of Shao and Zhao's Italian cycle-domination formulas",
+      "toolchain": null,
+      "version": 2,
+      "work": "shao-zhao-italian-cycle-closed-form"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:shao-zhao-italian-cycle-closed-form:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb/D5/S3/Combinatorics/Graph/ItalianDomination/CycleDeficit.lean"
+      },
+      "lineage": "collected:shao-zhao-italian-cycle-closed-form:s2",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[z^{#1}]",
+        "\\di": "d_I"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "shao-zhao-italian-cycle-closed-form",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq3$,\n\\begin{equation}\n A_n(z)=[x^n]\\left(-x\\frac{\\partial}{\\partial x}\\log P(x,z)\\right).\n\\end{equation}\nConsequently, for $n\\geq3$,\n\\begin{align}\n A_{n+5}(z)={}&(1+z)A_{n+4}(z)+(z^2+z^3)A_{n+3}(z)\\notag\\\\\n &+z^4A_{n+2}(z)-z^5A_{n+1}(z)-z^7A_n(z).\n\\end{align}\nWriting $a_n=A_n(1)$ gives\n\\[\n a_{n+5}=2a_{n+4}+2a_{n+3}+a_{n+2}-a_{n+1}-a_n,\n \\qquad (a_3,a_4,a_5,a_6,a_7)=(23,60,167,467,1297).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A general-deficit extension of Shao and Zhao's Italian cycle-domination formulas",
+      "toolchain": null,
+      "version": 2,
+      "work": "shao-zhao-italian-cycle-closed-form"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:shao-zhao-italian-cycle-closed-form:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb/D5/S3/Combinatorics/Graph/ItalianDomination/CycleDeficit.lean"
+      },
+      "lineage": "collected:shao-zhao-italian-cycle-closed-form:s3",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[z^{#1}]",
+        "\\di": "d_I"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "shao-zhao-italian-cycle-closed-form",
+      "scope": "in_scope",
+      "statement": "For each fixed $j\\geq0$, $\\di(C_n,2n-j)$ agrees, for\n$n\\geq\\max(3,j+1)$, with a polynomial in $n$ of degree $j$ and leading\ncoefficient $1/j!$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A general-deficit extension of Shao and Zhao's Italian cycle-domination formulas",
+      "toolchain": null,
+      "version": 2,
+      "work": "shao-zhao-italian-cycle-closed-form"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:shao-zhao-italian-cycle-closed-form:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb/D5/S3/Combinatorics/Graph/ItalianDomination/CycleDeficit.lean"
+      },
+      "lineage": "collected:shao-zhao-italian-cycle-closed-form:s4",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[z^{#1}]",
+        "\\di": "d_I"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "shao-zhao-italian-cycle-closed-form",
+      "scope": "in_scope",
+      "statement": "Let $T(n,j)=[z^j](1+z+z^2)^n$ and\n$F_j(n)=T(n,j)-\\di(C_n,2n-j)$.\nFor $j\\leq4$, $F_j(n)=0$ whenever $n\\geq3$ and $j\\leq2n$.\nFor every $j\\geq5$ and $n\\geq j+1$, $F_j(n)$ is a polynomial in $n$\nof degree exactly $j-4$, with leading coefficient $2/(j-5)!$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A general-deficit extension of Shao and Zhao's Italian cycle-domination formulas",
+      "toolchain": null,
+      "version": 2,
+      "work": "shao-zhao-italian-cycle-closed-form"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:shao-zhao-italian-cycle-closed-form:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb/D5/S3/Combinatorics/Graph/ItalianDomination/CycleDeficit.lean"
+      },
+      "lineage": "collected:shao-zhao-italian-cycle-closed-form:s5",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[z^{#1}]",
+        "\\di": "d_I"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "shao-zhao-italian-cycle-closed-form",
+      "scope": "in_scope",
+      "statement": "The total cycle count satisfies $a_n\\sim\\lambda^n$ and\n$a_{n+1}/a_n\\to\\lambda$, where $2.784<\\lambda<2.785$ is the unique\nroot of largest modulus of\n\\[\n q(u)=u^5-2u^4-2u^3-u^2+u+1.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A general-deficit extension of Shao and Zhao's Italian cycle-domination formulas",
+      "toolchain": null,
+      "version": 2,
+      "work": "shao-zhao-italian-cycle-closed-form"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:shao-zhao-italian-cycle-closed-form:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb/D5/S3/Combinatorics/Graph/ItalianDomination/CycleDeficit.lean"
+      },
+      "lineage": "collected:shao-zhao-italian-cycle-closed-form:s6",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[z^{#1}]",
+        "\\di": "d_I"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "shao-zhao-italian-cycle-closed-form",
+      "scope": "in_scope",
+      "statement": "For $p_n=\\sum_k\\di(P_n,k)$ there is a constant $C>0$ such that\n$p_n\\sim C\\lambda^n$. In particular $p_{n+1}/p_n\\to\\lambda$, with the\nsame $\\lambda$ as in Corollary~\\ref{cor:growth}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A general-deficit extension of Shao and Zhao's Italian cycle-domination formulas",
+      "toolchain": null,
+      "version": 2,
+      "work": "shao-zhao-italian-cycle-closed-form"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:shao-zhao-italian-cycle-closed-form:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb/D5/S3/Combinatorics/Graph/ItalianDomination/CycleDeficit.lean"
+      },
+      "lineage": "collected:shao-zhao-italian-cycle-closed-form:s7",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[z^{#1}]",
+        "\\di": "d_I"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "shao-zhao-italian-cycle-closed-form",
+      "scope": "in_scope",
+      "statement": "Let $r(C_n,k)$ count Roman dominating functions: each zero must have\na neighbor labelled two. For $n\\geq3$ the difference\n$\\di(C_n,2n-j)-r(C_n,2n-j)$ is zero for $0\\leq j\\leq3$, is $n$ for\n$j=4$, and is $n(n-3)$ for $j=5$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A general-deficit extension of Shao and Zhao's Italian cycle-domination formulas",
+      "toolchain": null,
+      "version": 2,
+      "work": "shao-zhao-italian-cycle-closed-form"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:shao-zhao-italian-cycle-closed-form:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb/D5/S3/Combinatorics/Graph/ItalianDomination/CycleDeficit.lean"
+      },
+      "lineage": "collected:shao-zhao-italian-cycle-closed-form:s8",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[z^{#1}]",
+        "\\di": "d_I"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "shao-zhao-italian-cycle-closed-form",
+      "scope": "in_scope",
+      "statement": "For a star with $m\\geq2$ leaves, its weight polynomial is\n\\[\n D_I(K_{1,m},u)=u^2(1+u+u^2)^m+(1+u)(u+u^2)^m.\n\\]\nConsequently $\\di(K_{1,m},2)=1$ for $m\\geq3$, whereas the values\nfor $m=1,2$ are respectively $3,2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A general-deficit extension of Shao and Zhao's Italian cycle-domination formulas",
+      "toolchain": null,
+      "version": 2,
+      "work": "shao-zhao-italian-cycle-closed-form"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:sp322844-serpentine-higher:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -40855,6 +42332,406 @@
       "toolchain": null,
       "version": 2,
       "work": "sun-a006077-hankel-determinants"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:sun346934-sign-composite-permanents:2:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Combinatorics/Permanental/SunA346934CompositeModulus.lean"
+      },
+      "lineage": "collected:sun346934-sign-composite-permanents:s1",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}",
+        "\\per": "\\operatorname{per}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun346934-sign-composite-permanents",
+      "scope": "in_scope",
+      "statement": "For $x,y$ in a commutative ring,\n\\begin{equation}\n \\per[x_i+y_j]_{1\\le i,j\\le N}\n =\\sum_{r=0}^N r!(N-r)!e_r(x)e_{N-r}(y).\n\\end{equation}\nThe empty permanent, at $N=0$, is $1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs for Sun's difference-permanent conjectures and Kunisky-Spielman-Yu's sign identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun346934-sign-composite-permanents"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:sun346934-sign-composite-permanents:2:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Combinatorics/Permanental/SunA346934CompositeModulus.lean"
+      },
+      "lineage": "collected:sun346934-sign-composite-permanents:s10",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}",
+        "\\per": "\\operatorname{per}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun346934-sign-composite-permanents",
+      "scope": "in_scope",
+      "statement": "For a primitive $N$th root $\\zeta\\in\\mathbb C$, $N\\ge1$, and\ncomplex $u_1,\\ldots,u_N$,\n\\[\n \\per[1-\\zeta^iu_j]_{1\\le i,j\\le N}\n =N!\\left(1-\\prod_{j=1}^Nu_j\\right).\n\\]\nIn particular, A346949$(n)=2(2n)!$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs for Sun's difference-permanent conjectures and Kunisky-Spielman-Yu's sign identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun346934-sign-composite-permanents"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:sun346934-sign-composite-permanents:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Combinatorics/Permanental/SunA346934CompositeModulus.lean"
+      },
+      "lineage": "collected:sun346934-sign-composite-permanents:s2",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}",
+        "\\per": "\\operatorname{per}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun346934-sign-composite-permanents",
+      "scope": "in_scope",
+      "statement": "For an integer $q\\ge2$,\n\\begin{equation}\n q\\mid\\per[x_i+y_j]_{1\\le i,j\\le q-1}\n \\quad\\hbox{for every }x,y\\in\\mathbb Z^{q-1}\n\\end{equation}\nholds if and only if $q$ is composite and $q\\ne4$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs for Sun's difference-permanent conjectures and Kunisky-Spielman-Yu's sign identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun346934-sign-composite-permanents"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:sun346934-sign-composite-permanents:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Combinatorics/Permanental/SunA346934CompositeModulus.lean"
+      },
+      "lineage": "collected:sun346934-sign-composite-permanents:s3",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}",
+        "\\per": "\\operatorname{per}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun346934-sign-composite-permanents",
+      "scope": "in_scope",
+      "statement": "The positive gcd of the permanents of all integer additive matrices\nof order $N\\ge0$ is\n\\begin{equation}\n D_N=\\gcd_{0\\le r\\le N}\\bigl(r!(N-r)!\\bigr)\n     =\\frac{(N+1)!}{\\lcm(1,\\ldots,N+1)}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs for Sun's difference-permanent conjectures and Kunisky-Spielman-Yu's sign identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun346934-sign-composite-permanents"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:sun346934-sign-composite-permanents:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Combinatorics/Permanental/SunA346934CompositeModulus.lean"
+      },
+      "lineage": "collected:sun346934-sign-composite-permanents:s4",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}",
+        "\\per": "\\operatorname{per}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun346934-sign-composite-permanents",
+      "scope": "in_scope",
+      "statement": "If $n\\ge1$ and $2n+1$ is composite, then $(2n+1)\\mid a(n)$.\nThe same divisibility holds for $\\per[i+j]_{1\\le i,j\\le2n}$,\nthe term A204249$(2n)$. For every $k\\ge0$ and every composite\n$q\\ne4$, both $\\per[i^k+j^k]$ and $\\per[i^k-j^k]$ of order\n$q-1$ are divisible by $q$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs for Sun's difference-permanent conjectures and Kunisky-Spielman-Yu's sign identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun346934-sign-composite-permanents"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:sun346934-sign-composite-permanents:2:s5",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Combinatorics/Permanental/SunA346934CompositeModulus.lean"
+      },
+      "lineage": "collected:sun346934-sign-composite-permanents:s5",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}",
+        "\\per": "\\operatorname{per}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun346934-sign-composite-permanents",
+      "scope": "in_scope",
+      "statement": "For $n\\ge1$ and real $x_1,\\ldots,x_{2n}$,\n\\begin{equation}\n \\per[x_i-x_j]=(-1)^n n!\\sum_{M\\in\\mathcal M_{2n}}\n                       \\prod_{\\{i,j\\}\\in M}(x_i-x_j)^2.\n\\end{equation}\nConsequently $(-1)^n\\per[x_i-x_j]\\ge0$, with equality exactly\nwhen some value among the $x_i$ occurs more than $n$ times.\nIn particular, $(-1)^n a(n)>0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs for Sun's difference-permanent conjectures and Kunisky-Spielman-Yu's sign identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun346934-sign-composite-permanents"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:sun346934-sign-composite-permanents:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Combinatorics/Permanental/SunA346934CompositeModulus.lean"
+      },
+      "lineage": "collected:sun346934-sign-composite-permanents:s6",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}",
+        "\\per": "\\operatorname{per}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun346934-sign-composite-permanents",
+      "scope": "in_scope",
+      "statement": "Let $E_k=e_k(1^2,3^2,\\ldots,(2n-1)^2)$. Then\n\\begin{equation}\n (-1)^n a(n)=2^{-2n}\\sum_{k=0}^n(2k)!(2n-2k)!E_kE_{n-k}>0.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs for Sun's difference-permanent conjectures and Kunisky-Spielman-Yu's sign identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun346934-sign-composite-permanents"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:sun346934-sign-composite-permanents:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Combinatorics/Permanental/SunA346934CompositeModulus.lean"
+      },
+      "lineage": "collected:sun346934-sign-composite-permanents:s7",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}",
+        "\\per": "\\operatorname{per}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun346934-sign-composite-permanents",
+      "scope": "in_scope",
+      "statement": "For every odd prime $p$, $a((p-1)/2)\\equiv2\\pmod p$.\nAlso A204249$(p)\\equiv p\\pmod{p^2}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs for Sun's difference-permanent conjectures and Kunisky-Spielman-Yu's sign identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun346934-sign-composite-permanents"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:sun346934-sign-composite-permanents:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Combinatorics/Permanental/SunA346934CompositeModulus.lean"
+      },
+      "lineage": "collected:sun346934-sign-composite-permanents:s8",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}",
+        "\\per": "\\operatorname{per}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun346934-sign-composite-permanents",
+      "scope": "in_scope",
+      "statement": "If $p=2n+1$ is prime, then\n\\[\n \\per[i^2+j^2]_{1\\le i,j\\le n}\n \\equiv(-1)^{n-1}2n!\\pmod p.\n\\]\nThis is Sun's proved comment in A278847 \\cite{powers}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs for Sun's difference-permanent conjectures and Kunisky-Spielman-Yu's sign identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun346934-sign-composite-permanents"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:sun346934-sign-composite-permanents:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Combinatorics/Permanental/SunA346934CompositeModulus.lean"
+      },
+      "lineage": "collected:sun346934-sign-composite-permanents:s9",
+      "macros": {
+        "\\lcm": "\\operatorname{lcm}",
+        "\\per": "\\operatorname{per}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sun346934-sign-composite-permanents",
+      "scope": "in_scope",
+      "statement": "Let $C(N,r,s)=[u^rv^s]\\prod_{j=1}^N(1+ju+j^2v)$.\nThen the formula in A278845 \\cite[FORMULA, October 25, 2026]{squares} is\n\\[\n \\per[(i+j)^2]_{1\\le i,j\\le N}\n =\\sum_{r+s+t=N}2^r r!s!t!\\,C(N,r,s)C(N,r,t).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs for Sun's difference-permanent conjectures and Kunisky-Spielman-Yu's sign identity",
+      "toolchain": null,
+      "version": 2,
+      "work": "sun346934-sign-composite-permanents"
     },
     {
       "attribution": null,
