@@ -485,7 +485,7 @@ def publish_checked(root, workspace, ledger, api):
     require(state['phase'] == 'sources_saved', 'job is not awaiting checked publication')
     envelope = serial.read(run/'envelope.json')
     repo, source = Path(envelope['repository_path']), Path(envelope['source_repository_path'])
-    serial.validate_run(repo, run, build=False)
+    serial.checked_run(repo, run)
     paper = state['identity']['paper']
     repository = paper['repository'].split('/',1)[1]
     # Optimistic publication fence protects intervening human edits.

@@ -47,6 +47,9 @@ machine using GPT-6.2 Sol with high reasoning effort. Existing admitted tasks
 keep their original model and operation; model changes apply to new admissions.
 Host rendering and publishing remain serialized. Finished
 sources waiting for the renderer are also bounded by that capacity.
+The pinned renderer performs the complete source, EPUB, browser and media checks.
+Publication reads back its successful receipt and exact source/site inventories;
+it does not rerun container tools on the runner or overwrite the check log.
 The operator assigns two fixed sandboxes: internal collected-paper materials
 use `CMA_COLLECTION_WORKSPACE`; external review uses the separate
 `CMA_EXTERNAL_WORKSPACE`. Both observed allocations have 8192 MiB memory.

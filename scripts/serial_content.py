@@ -398,6 +398,34 @@ def inspect_products(args, repo, env, log, timeout=900):
         raise subprocess.CalledProcessError(code, args)
 
 
+def checked_run(repo, run):
+    """Read back the renderer's exact successful inputs and outputs on the host.
+
+    Rendering, EPUB validation and browser/media inspection belong to the pinned
+    container. The publisher has no copy of its virtualenv or system tools and
+    must not rerun those checks or overwrite their receipt outside that image.
+    """
+    result = read(run / "result.json")
+    check_result(result, repo)
+    if result["status"] != "prepared":
+        raise ValueError("material sources are not prepared")
+    sources = source_inventory(repo)
+    if not (run / "source-sha256.json").is_file() or read(run / "source-sha256.json") != sources:
+        raise ValueError("sources changed or lack a build binding; rebuild the existing products without another model call")
+    if not (run / "site-sha256.json").is_file() or read(run / "site-sha256.json") != site_inventory(repo):
+        raise ValueError("rendered output changed or lacks a build binding; rebuild the existing products without another model call")
+    receipt = read(run / "checkpoint.json")
+    required = {"Validate EPUB editions", "Inspect rendered pages", "Inspect PDFs, slides and video"}
+    completed = {row.get("name") for row in receipt.get("completed_checks", []) if row.get("finished_at")}
+    if (receipt.get("state") != "local_checks_passed" or receipt.get("active_check")
+            or receipt.get("last_failure") or not required.issubset(completed)
+            or receipt.get("source_sha256") != digest(sources)
+            or receipt.get("visualization") != result["visualization"]):
+        raise ValueError("pinned material build and inspection receipt is incomplete or differs")
+    check_material_products(read(repo / "_site/mathesis-materials.json"), result["visualization"])
+    return receipt
+
+
 def validate_run(repo, run, build=False):
     result = read(run / "result.json")
     check_result(result, repo)

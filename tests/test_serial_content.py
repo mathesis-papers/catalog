@@ -347,6 +347,63 @@ class SerialContent(unittest.TestCase):
             runner.validate_run(self.root, run)
         self.assertEqual(runner.read(run / "site-sha256.json"), before)
 
+    def checked_material(self):
+        subprocess.run(["git", "init", "-q", str(self.root)], check=True)
+        (self.root / ".gitignore").write_text("_site/\nrun/\n")
+        run = self.root / "run"
+        runner.write(run / "result.json", self.result)
+        runner.write(self.root / "_site/mathesis-materials.json", {
+            "reading": {"en": "en/", "zh": "zh/"},
+            "slides": [{"language": "en", "pdf_url": "slides.pdf", "notes_url": "notes.pdf"}],
+            "visualizations": []})
+        sources = runner.source_inventory(self.root)
+        runner.write(run / "source-sha256.json", sources)
+        runner.write(run / "site-sha256.json", runner.site_inventory(self.root))
+        receipt = {"state": "local_checks_passed", "source_sha256": runner.digest(sources),
+                   "visualization": self.result["visualization"], "completed_checks": [
+                       {"name": name, "finished_at": "2026-11-24T00:00:00Z"} for name in
+                       ("Validate EPUB editions", "Inspect rendered pages", "Inspect PDFs, slides and video")]}
+        runner.write(run / "checkpoint.json", receipt)
+        (run / "operator-checks.log").write_text("Original container evidence\n")
+        return run, receipt
+
+    def test_host_readback_reuses_exact_container_checks_without_tools_or_receipt_writes(self):
+        run, receipt = self.checked_material()
+        before = {p.name: p.read_bytes() for p in run.iterdir()}
+        execute = subprocess.run
+        def git_only(args, **kwargs):
+            self.assertEqual(args[0], "git", "publication readback must not rerun container tools")
+            return execute(args, **kwargs)
+        with patch.object(runner, "inspect_products") as inspect, \
+                patch.object(runner, "validate_epubs") as epub, \
+                patch.object(runner.subprocess, "run", side_effect=git_only):
+            self.assertEqual(runner.checked_run(self.root, run), receipt)
+        inspect.assert_not_called()
+        epub.assert_not_called()
+        self.assertEqual({p.name: p.read_bytes() for p in run.iterdir()}, before)
+
+    def test_host_readback_refuses_changed_content_or_incomplete_container_checks(self):
+        run, receipt = self.checked_material()
+        for changed in [dict(receipt, state="needs_attention"),
+                        dict(receipt, completed_checks=receipt["completed_checks"][:-1]),
+                        dict(receipt, source_sha256="0" * 64),
+                        dict(receipt, last_failure={"reason": "publication failed"}),
+                        dict(receipt, visualization={"decision": "built"})]:
+            with self.subTest(changed=changed):
+                runner.write(run / "checkpoint.json", changed)
+                with self.assertRaisesRegex(ValueError, "receipt is incomplete or differs"):
+                    runner.checked_run(self.root, run)
+        runner.write(run / "checkpoint.json", receipt)
+        page = self.root / "_site/mathesis-materials.json"
+        original = page.read_bytes()
+        page.write_bytes(original + b"\n")
+        with self.assertRaisesRegex(ValueError, "rendered output changed"):
+            runner.checked_run(self.root, run)
+        page.write_bytes(original)
+        (self.root / "story.md").write_text("Unbuilt source revision")
+        with self.assertRaisesRegex(ValueError, "sources changed"):
+            runner.checked_run(self.root, run)
+
     def test_failed_paper_stops_cohort_and_returns_nonzero(self):
         papers = [{"id": name, "version": 2, "repository": "mathesis-papers/" + name} for name in ("first", "second")]
         runner.write(self.root / "cohort.json", {"schema": "mathesis.serial-cohort.v1", "papers": papers})

@@ -41,7 +41,10 @@ jobs:
           cp -R site/. _site/
           cp paper.pdf _site/paper.pdf
           touch _site/.nojekyll
-      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+      # Keep the upload client compatible with deploy-pages' artifact client.
+      # v5 uses upload-artifact v7; the pinned deploy client found no artifacts
+      # after those uploads finalized. v4 keeps both clients on artifact v2.
+      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4.0.0
         with:
           path: _site
           name: paper-${{ github.run_id }}-${{ github.run_attempt }}
