@@ -1552,6 +1552,53 @@
       "work": "chiral-event-parity-minimality"
     },
     {
+      "abstract_text": "The constant-chain-length question of Choi, Yoo, Kim, Kwon and Won (arXiv:2610.41277v1, Section VIII, Open problems (1), p. 7) has a negative answer already on outerplanar subcubic graphs of treewidth two: root-to-leaf forcing makes the required displacement arbitrarily large. For every full rooted triangle tree, the minimum displacement from its nonroot-apex set to an augmentable tight set of the same size equals its shortest leaf depth. The same number is the minimum number of tight exchanges. At depth h, the smallest graph in this class has 9*2^h - 6 vertices. Every optimal two-colouring of a tree of triangles is nevertheless healable, separating the stuck-set obstruction from failure of a prescribed maximum-cut certificate.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "0ad94071772b2f32b432905d088bfce029d8d29e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0ad94071772b2f32b432905d088bfce029d8d29e/D5/S3/Combinatorics/Graph/Potts/HealingUnbounded.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 77894,
+        "sha256": "b657a45ed21b70ff9007c1e1070477d2855edaa199fe2c55663393c0e58fee9f",
+        "url": "/api/v1/collected-papers/choi-yoo-kim-kwon-won-healing-chains/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T01:24:41.666517982Z",
+      "record": "choi-yoo-kim-kwon-won-healing-chains",
+      "repository_name": "choi-yoo-kim-kwon-won-healing-chains",
+      "source": {
+        "bytes": 18163,
+        "sha256": "8cfd4c8ae13d741bef36987893dfe0babc9babe07bc5f4bc172e8f768af436ec",
+        "url": "/api/v1/collected-papers/choi-yoo-kim-kwon-won-healing-chains/files/source?version=2"
+      },
+      "title": "Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T01:24:41.666517982Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "choi-yoo-kim-kwon-won-healing-chains"
+    },
+    {
       "abstract_text": "Extending Clarisse and Wocjan's orbit bound and answering their norm-dependence question (arXiv:quant-ph/0504160v2, 14 June 2005, Theorem 3, p. 3, equation (2); Section V, p. 6; Definition 1, p. 2), we prove for every r >= 1 and d >= 2 that mixed single-party and Bell-pair states distinguish tensor-index permutations exactly up to the four row-set symmetries. Consequently the prior orbit bound is exact for norm equality. The same classification holds for rank and every Schatten functional with 0 < p <= infinity, p != 2, including quasi-norms below one; all permutations preserve the Hilbert-Schmidt norm. We also give an adaptive identifying family of at most 2r - 1 states and a Bell-state proof of the known partial-transpose incomparability.",
       "authors": [
         {
@@ -1986,9 +2033,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24484818",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24484819",
       "lean_source": {
         "revision": "3ede1d0bfa6d3c063b82234699d279136b6f0c42",
         "url": "https://github.com/the-omega-institute/trureturing/blob/3ede1d0bfa6d3c063b82234699d279136b6f0c42/D5/S3/QuadraticForms/FinchBalancedZerofreeRefutation.lean"
@@ -2080,9 +2127,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24485945",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24485946",
       "lean_source": {
         "revision": "71b4d849a96f7050cd0e6270e1551e061c680e33",
         "url": "https://github.com/the-omega-institute/trureturing/blob/71b4d849a96f7050cd0e6270e1551e061c680e33/D5/S1/Dynamics/Shadowing/CircleFinitePositiveExpansiveness.lean"
@@ -2586,7 +2633,7 @@
       "work": "hanna-composition-congruences"
     },
     {
-      "abstract_text": "In the COMMENT sections of OEIS A350410 and A350411 (revision 5) and A350412 (revision 9), Paul D. Hanna conjectured that the three sequences consist entirely of integers; we prove all three conjectures. Their factorial denominators cancel by a coefficient-divisibility identity. For each series we also establish existence and uniqueness over the rationals. More generally, a degree-dependent cutoff M_n >= 1 gives the same conclusions whenever gcd(n,M_n^2) divides M_n, with any prescribed integer linear coefficient. This arithmetic condition is necessary and sufficient for the last denominator to cancel for every integer polynomial, and the solutions depend homogeneously on the prescribed linear coefficient. All defining sums are finite sums of formal power series.",
+      "abstract_text": "We give alternative proofs of Paul D. Hanna's conditional integrality conjecture for rational sequences with integral exponential input, in the unpaginated comment of OEIS A163921, revision #2 (30 March 2012), following Li–Zhong–Zhou's polynomial integrality theorem (arXiv:2611.16283v1, 12 November 2026, Theorem 1.2). An infinite family of integral fixed points with nonintegral logarithmic inputs shows that the converse, which Hanna did not assert, fails. We give an explicit reduction of a signed weighted formulation to that theorem, as well as a direct proof by Frobenius congruences and formal iteration. The same methods establish the shifted equations of A156907 and A156908. An Euler product proves the sparse equation of A179471. All series are ordinary formal power series.",
       "authors": [
         {
           "affiliation": "ChronoAI Pte Ltd, Singapore",
@@ -2598,8 +2645,55 @@
         }
       ],
       "concept_doi": null,
-      "current_version": 2,
+      "current_version": 3,
       "doi": null,
+      "lean_source": {
+        "revision": "91f44a2b8e396fd6374dd8ae047c158afbbebba4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/91f44a2b8e396fd6374dd8ae047c158afbbebba4/D5/S1/Recurrence/Algebraic/HannaSelfSubstitutionIntegrality.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 97113,
+        "sha256": "62df4db6458a3278cc591fa0cb042bd6c006c5e4a243d7408568aa1cac0c9ab4",
+        "url": "/api/v1/collected-papers/hanna-self-substitution-integrality/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T01:04:35.678601363Z",
+      "record": "hanna-self-substitution-integrality",
+      "repository_name": "hanna-self-substitution-integrality",
+      "source": {
+        "bytes": 15118,
+        "sha256": "8e61b4904d109f45fa4be976658ab830ae3267d09f57020c11f50b6c77cb2687",
+        "url": "/api/v1/collected-papers/hanna-self-substitution-integrality/files/source?version=3"
+      },
+      "title": "A converse obstruction and proofs of Paul D. Hanna's self-substitution conjectures after Li–Zhong–Zhou",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T01:04:35.678601363Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "hanna-self-substitution-integrality"
+    },
+    {
+      "abstract_text": "In the COMMENT sections of OEIS A350410 and A350411 (revision 5) and A350412 (revision 9), Paul D. Hanna conjectured that the three sequences consist entirely of integers; we prove all three conjectures. Their factorial denominators cancel by a coefficient-divisibility identity. For each series we also establish existence and uniqueness over the rationals. More generally, a degree-dependent cutoff M_n >= 1 gives the same conclusions whenever gcd(n,M_n^2) divides M_n, with any prescribed integer linear coefficient. This arithmetic condition is necessary and sufficient for the last denominator to cancel for every integer polynomial, and the solutions depend homogeneously on the prescribed linear coefficient. All defining sums are finite sums of formal power series.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": "10.5281/zenodo.24484627",
+      "current_version": 2,
+      "doi": "10.5281/zenodo.24484628",
       "lean_source": {
         "revision": "d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d75bdd6e258ca112f6f8d8ddce3c6a962cc2049f/D5/S1/Recurrence/Algebraic/HannaSquareExponentIntegrality.lean"
@@ -2631,6 +2725,53 @@
         }
       ],
       "work": "hanna-square-exponent-integrality"
+    },
+    {
+      "abstract_text": "We prove Hardin's empirical quartic and Barker's conjectures in the FORMULA field of OEIS A202330, revision 8 (27 May 2018), by counting the entire two-parameter array A202335: for n,m>=1 its entry is 2+2*binomial(n+m+2,n+1)+binomial(n+m,n). The row-chain proof also establishes the empirical polynomials and conjectural generating functions and recurrences in A202331--A202334, both Kotesovec diagonal recurrences in A202329, and the first two column identities. Every fixed-width sequence has minimal eventual recurrence order equal to its width plus one.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA202330.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 80056,
+        "sha256": "8602792527cb0f61bde7e199e7d6acc543b778c675b17e088baca7715a70b9aa",
+        "url": "/api/v1/collected-papers/hardin-barker-a202330/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T01:20:33.137770566Z",
+      "record": "hardin-barker-a202330",
+      "repository_name": "hardin-barker-a202330",
+      "source": {
+        "bytes": 16145,
+        "sha256": "293f3c525023527dfc180c4f8e237a619a683086d634ef3f36499bc61910cad7",
+        "url": "/api/v1/collected-papers/hardin-barker-a202330/files/source?version=2"
+      },
+      "title": "A general formula for Hardin's binary arrays proving Barker's conjectures",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T01:20:33.137770566Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hardin-barker-a202330"
     },
     {
       "abstract_text": "We prove the Conjectures of Colin Barker in the FORMULA section of OEIS A209723, dated July 12, 2018: the parity formulas and ordinary generating function for ternary arrays with distinct clockwise edge differences. We also prove Hardin's empirical recurrence. A decomposition of the row-compatibility graph into two three-vertex stars and isolated edges gives a formula for every rectangular size. Its corollaries include the companion formulas in A209721–A209726, Beck's first A209721 conjecture, Peterson's A209721 recurrence and triangle interpretation, and the column recurrences and diagonal identification in A209727.",
@@ -2725,6 +2866,53 @@
         }
       ],
       "work": "hardin-barker-cyclic-repetitions"
+    },
+    {
+      "abstract_text": "For OEIS A185858 and A185859, NAME and FORMULA, revision 9 (17 April 2018), we prove Hardin's empirical recurrences and Barker's generating-function formulas for binary arrays of widths three and four using Flajolet–Sedgewick's weighted-word enumeration (2009, Example III.24, equation (70)) and a five-state matrix, respectively. The width-three recurrence is a(n+2)=4a(n+1)+9a(n), with a(1)=4 and a(2)=22; it also proves Barker's radical expression. The width-four recurrence has characteristic polynomial z^5-6z^4-17z^3+36z^2-24z+6. These formulas determine the first two rows and columns of OEIS A185866. For its entire rectangular table, we prove symmetry and the integrality of the normalization by 128.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "e072713035e715a2a3a08b13040b1d6e5e552731",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e072713035e715a2a3a08b13040b1d6e5e552731/D5/S3/Combinatorics/TraceArrays/HardinA185858.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 85711,
+        "sha256": "c3b9ff1860fa35a78c98a7e51145f0a23990fead25bb615cc2b07b9fb373813e",
+        "url": "/api/v1/collected-papers/hardin-barker-trace-array-formulas/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T01:25:31.829327223Z",
+      "record": "hardin-barker-trace-array-formulas",
+      "repository_name": "hardin-barker-trace-array-formulas",
+      "source": {
+        "bytes": 34633,
+        "sha256": "6b2f04b0c870f203530ebe3ca6ae6894491d5e9c54696953dfb3cfae3677d5e3",
+        "url": "/api/v1/collected-papers/hardin-barker-trace-array-formulas/files/source?version=2"
+      },
+      "title": "Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T01:25:31.829327223Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hardin-barker-trace-array-formulas"
     },
     {
       "abstract_text": "We give alternative proofs and extensions for R. H. Hardin's empirical recurrences in the formula fields of OEIS A185761 (revision 8), A185762–A185763 (revision 9), A185764 (revision 10), and A185765–A185768 (revision 9), together with Colin Barker's formulas added on 22 February and 16 April 2018; the width-two case follows from Marko Riedel's 2016 word enumeration and Andrew Howroyd's 2025 array argument. These sequences count labeled binary arrays whose neighboring contiguous 2 by 2 blocks have different ordinary traces. A row-pair transfer construction reduces the assertions at widths two through nine to explicit finite integer identities; multiplying those identities by further transfer powers proves the recurrences at every length. It also gives rational generating functions at every fixed width and explains the transposition symmetry of the parent table A185769.",
@@ -3537,9 +3725,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24484447",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24484448",
       "lean_source": {
         "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
         "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Quantum/Algebra/Knot/MultiVirtualTwinZetaEightFaithfulnessRefutation.lean"
@@ -3631,9 +3819,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24485544",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24485545",
       "lean_source": {
         "revision": "53c631a19a8292b44b6ed47b8cb236f00c7f5ed8",
         "url": "https://github.com/the-omega-institute/trureturing/blob/53c631a19a8292b44b6ed47b8cb236f00c7f5ed8/D5/S1/Depth/ContinuedFractions/KimStolarskyEventualPrefixRefutation.lean"
@@ -4797,6 +4985,53 @@
       "work": "mathar-square-root-quotient-recurrence"
     },
     {
+      "abstract_text": "Using Prodinger's enumeration (arXiv:1912.06930v3, 2020, Theorem 1 and Section 3), we give alternative counting proofs and prove Mathar's eight-term recurrence for floor -2 paths (OEIS A379464, revision 20, second Formula, 29 January 2025, n >= 7) and his six-term recurrence for floor -1 (A379463, revision 16, second Formula, same date, n >= 5). An explicit differential-operator certificate transports the known Raney counts to the exact recurrences. We include every fixed lower floor by a finite polynomial correction, prove the recorded asymptotics, and correct the indexing and tree wording in A127902 and companion formulas in A069271.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/MatharA379464/Result.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 122725,
+        "sha256": "44f6e3826eec34ea82b4470ae3e81810b100ba522806afa46a29d07f39b08e3d",
+        "url": "/api/v1/collected-papers/mathar379464-bounded-path-recurrences/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T00:57:15.307115592Z",
+      "record": "mathar379464-bounded-path-recurrences",
+      "repository_name": "mathar379464-bounded-path-recurrences",
+      "source": {
+        "bytes": 21912,
+        "sha256": "bfa9ef5a47892c07f99a16b6e1c09548bf1a99704dbf526aad5d01de9f18c103",
+        "url": "/api/v1/collected-papers/mathar379464-bounded-path-recurrences/files/source?version=3"
+      },
+      "title": "Mathar's path recurrences and alternative proofs of Prodinger's enumeration",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T00:57:15.307115592Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "mathar379464-bounded-path-recurrences"
+    },
+    {
       "abstract_text": "For mathex's question Bound of series, MathOverflow 511715, revision 2 (26 May 2026), final displayed inequality, we give a negative answer to the requested uniform cutoff estimate in the Euclidean interpretation, complementing Ghafari's bound for a related Littlewood-Paley-mask series (2026, Appendix H, Lemma H.0.1): one admissible mask isolates a nonzero output, and disjoint lattice blocks force logarithmic divergence as the cutoff scale tends to zero. For each nonzero output, the same symmetric mask works at every positive time and for every fixed real or complex compactly supported cutoff continuous at zero and equal to one there. No finite constant and fixed real exponent can satisfy the proposed estimate even on any bounded interval of positive scales reaching zero. For smooth cutoffs, a corrected Lipschitz estimate holds uniformly in the mask and output when time is bounded and the cutoff scales stay away from zero; zero modes show that the time restriction cannot simply be dropped.",
       "authors": [
         {
@@ -5030,6 +5265,53 @@
         }
       ],
       "work": "mertens-2024-grid-cylinder-joint-growth"
+    },
+    {
+      "abstract_text": "For Mertens's Conjecture 3 in Random stable matchings (Section 3.2, equation (15), page 7; arXiv:cond-mat/0509221v2), we prove p_N=Theta(q^N) for the one-dimensional range-two model, simultaneously for both parities, by a six-site completion of open preference words. Here p_N is the probability of a stable partial matching, and q is in (0,1). The same construction proves this conclusion for every fully supported independent identically distributed law on the 24 local rankings. For the uniform law it gives explicit finite-size bounds and convergent enclosures for q. We also give the elementary range-one comparison and triangle-packing bounds, and explain the complete-graph endpoint of Conjecture 5 using Young and Studebaker's corrected asymptotic constant.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/GrowthTransfer.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 97976,
+        "sha256": "3cd7a4bc681c43459aff25d73668b666f7db3313c43b706b04f7d24a0aa1049b",
+        "url": "/api/v1/collected-papers/mertens-range-two-stable-matching/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T00:53:07.859385769Z",
+      "record": "mertens-range-two-stable-matching",
+      "repository_name": "mertens-range-two-stable-matching",
+      "source": {
+        "bytes": 20125,
+        "sha256": "7749ed2eaceccab2a57359ac71ece73a7a287a2b064edde29ff04793cdc82d4a",
+        "url": "/api/v1/collected-papers/mertens-range-two-stable-matching/files/source?version=3"
+      },
+      "title": "Mertens's range-two stable-matching conjecture and fully supported preference laws",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T00:53:07.859385769Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "mertens-range-two-stable-matching"
     },
     {
       "abstract_text": "Extending the cycle enumerator of Hoshino (2007) and Brown–Hoshino (2008), we give the closed bubble degeneracy sought by Mukherjee, Banerjee, Sengupta and Sen (2021, Sec. III, p. 7, third paragraph). A marked-centre gap bijection counts every integer energy on a labelled cycle, and a parity refinement counts the balanced fragments contributing zero modes in a staggered field. Their simultaneous zero modes have Catalan multiplicities. The field-dependent spectrum gives an imbalanced fragment with 56 zero modes at L=48, Delta=2/sqrt(7), correcting the unrestricted disappearance statement in Sec. VI.A. We also correct the printed Eq. (3.7) and show that the authors' own dispersive construction contradicts the literal all-length exhaustion conjecture at L=14.",
@@ -5641,6 +5923,53 @@
         }
       ],
       "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
+      "abstract_text": "We prove Clark Kimberling's length conjecture in OEIS A288476, Comments, revision 2 (June 12, 2017), by replacing its nonoverlapping binary rewriting rule with a three-letter substitution. The iterate lengths satisfy a(n+3)=a(n+2)+4a(n+1)-2a(n), starting with 2,4,8. The same substitution proves existence of the odd and even limiting words and the position conjectures in A288474, A288475, A288552 and A288553. The zero positions divided by their indices tend to the largest root lambda of x^3-x^2-4x+2; the corresponding limit for ones is lambda/(lambda-1). All four stated position bounds hold. For every finite binary seed we also obtain an exact length recurrence; every seed other than the empty word and 0 has the same pair of parity limits, possibly interchanged.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S1/Words/KimberlingA288476Length.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 83757,
+        "sha256": "8bba6aa6ee9571eead52bafee792ceea378f08bc911752d3c940031d2cdf799c",
+        "url": "/api/v1/collected-papers/oeis-a288476-replacement-iterate-length/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-24T00:52:19.329715096Z",
+      "record": "oeis-a288476-replacement-iterate-length",
+      "repository_name": "oeis-a288476-replacement-iterate-length",
+      "source": {
+        "bytes": 13325,
+        "sha256": "c6e7b059e78199fc50d8066f12f9f1d44c6fc4615806f429804085c9e4c05533",
+        "url": "/api/v1/collected-papers/oeis-a288476-replacement-iterate-length/files/source?version=2"
+      },
+      "title": "Proof of Kimberling's replacement-iterate length and position conjectures",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-24T00:52:19.329715096Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "oeis-a288476-replacement-iterate-length"
     },
     {
       "abstract_text": "Applying and extending halasz_resonator's inverse calculation (2026, Theorem 4(1)), we prove Sequence Machine's conjecture A322026(n)=A323884(25n), recorded by Antti Karttunen in the final Formula of OEIS A322026, revision 41, 8 September 2024. The rank function a=A322026 is unchanged on multiplying its argument by a prime greater than 3. We show that this invariance forces its Dirichlet inverse b=A323883 to vanish at every multiple of the square of such a prime. We classify all positive multipliers: A323884(Mn)=a(n) for every positive n exactly when gcd(M,6)=1 and M is not squarefree. The same argument proves and extends Karttunen's recorded 2022 identity A126760(n)=A323882(4n). We prove the neighboring rank and ordinal-transform identities and distinguish the smooth-number rank array from the rational rank array in a cross-referenced entry.",
@@ -6735,9 +7064,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24485551",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24485552",
       "lean_source": {
         "revision": "7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb",
         "url": "https://github.com/the-omega-institute/trureturing/blob/7d127fe3daacaa59991ac9a3ed5e2931a1eeadeb/D5/S3/Combinatorics/Graph/ItalianDomination/CycleDeficit.lean"
@@ -7111,9 +7440,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24484828",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24484829",
       "lean_source": {
         "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
         "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Combinatorics/Permanental/SunA346934CompositeModulus.lean"

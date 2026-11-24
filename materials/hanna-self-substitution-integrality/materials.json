@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/hanna-self-substitution-integrality/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/hanna-self-substitution-integrality",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/hanna-self-substitution-integrality/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "hanna-self-substitution-integrality"
+}

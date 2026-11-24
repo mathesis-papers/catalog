@@ -8816,6 +8816,206 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:choi-yoo-kim-kwon-won-healing-chains:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "0ad94071772b2f32b432905d088bfce029d8d29e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0ad94071772b2f32b432905d088bfce029d8d29e/D5/S3/Combinatorics/Graph/Potts/HealingUnbounded.lean"
+      },
+      "lineage": "collected:choi-yoo-kim-kwon-won-healing-chains:s1",
+      "macros": {
+        "\\fr": "\\operatorname{fr}",
+        "\\ioct": "\\operatorname{ioct}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "choi-yoo-kim-kwon-won-healing-chains",
+      "scope": "in_scope",
+      "statement": "The graph $G_{\\mathcal T}$ is connected, simple, outerplanar, subcubic,\nof treewidth two, and has $3B$ vertices. It is not $K_4$, and\n\\[\n \\fr(G_{\\mathcal T})=B,\\qquad |S_{\\mathcal T}|=B-1,\\qquad\n \\fr(G_{\\mathcal T}-S_{\\mathcal T})=1.\n\\]\nThe set $S_{\\mathcal T}$ is stuck and tight, and\n\\begin{equation}\n d_{G_{\\mathcal T}}(S_{\\mathcal T})=\\delta.\n\\end{equation}\nThe minimum number of tight exchanges from $S_{\\mathcal T}$ to an\naugmentable set is also $\\delta$. There is an attaining sequence whose\nearlier sets are all stuck. Moreover, $B\\geq3\\cdot2^\\delta-2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won",
+      "toolchain": null,
+      "version": 2,
+      "work": "choi-yoo-kim-kwon-won-healing-chains"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:choi-yoo-kim-kwon-won-healing-chains:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "0ad94071772b2f32b432905d088bfce029d8d29e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0ad94071772b2f32b432905d088bfce029d8d29e/D5/S3/Combinatorics/Graph/Potts/HealingUnbounded.lean"
+      },
+      "lineage": "collected:choi-yoo-kim-kwon-won-healing-chains:s2",
+      "macros": {
+        "\\fr": "\\operatorname{fr}",
+        "\\ioct": "\\operatorname{ioct}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "choi-yoo-kim-kwon-won-healing-chains",
+      "scope": "in_scope",
+      "statement": "Every independent set $X$ in $G_{\\mathcal T}$ satisfies\n\\[\n \\fr(G_{\\mathcal T}-X)=B-|X|.\n\\]\nConsequently every independent set is tight.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won",
+      "toolchain": null,
+      "version": 2,
+      "work": "choi-yoo-kim-kwon-won-healing-chains"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:choi-yoo-kim-kwon-won-healing-chains:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0ad94071772b2f32b432905d088bfce029d8d29e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0ad94071772b2f32b432905d088bfce029d8d29e/D5/S3/Combinatorics/Graph/Potts/HealingUnbounded.lean"
+      },
+      "lineage": "collected:choi-yoo-kim-kwon-won-healing-chains:s3",
+      "macros": {
+        "\\fr": "\\operatorname{fr}",
+        "\\ioct": "\\operatorname{ioct}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "choi-yoo-kim-kwon-won-healing-chains",
+      "scope": "in_scope",
+      "statement": "For every $h\\geq1$, take all leaves at depth $h$. The resulting graph\n$G_h$ has $B=3\\cdot2^h-2$ triangles and $n=9\\cdot2^h-6$ vertices,\nand its stuck apex set has exact displacement $h$. Thus no constant\nbound holds even for outerplanar graphs of treewidth two.\nAmong full rooted triangle trees with shortest leaf depth $h$, this\norder is the smallest possible. More generally,\n\\[\n d_{G_{\\mathcal T}}(S_{\\mathcal T})\n \\leq\\left\\lfloor\\log_2\\frac{|V(G_{\\mathcal T})|+6}{9}\\right\\rfloor,\n\\]\nwith equality on $G_h$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won",
+      "toolchain": null,
+      "version": 2,
+      "work": "choi-yoo-kim-kwon-won-healing-chains"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:choi-yoo-kim-kwon-won-healing-chains:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0ad94071772b2f32b432905d088bfce029d8d29e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0ad94071772b2f32b432905d088bfce029d8d29e/D5/S3/Combinatorics/Graph/Potts/HealingUnbounded.lean"
+      },
+      "lineage": "collected:choi-yoo-kim-kwon-won-healing-chains:s4",
+      "macros": {
+        "\\fr": "\\operatorname{fr}",
+        "\\ioct": "\\operatorname{ioct}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "choi-yoo-kim-kwon-won-healing-chains",
+      "scope": "in_scope",
+      "statement": "For $G_{\\mathcal T}$ and $S_{\\mathcal T}$, the smallest possible\nzero-based stage index of a successful test in Proposition~15 of\n\\cite{CYKKW} is $\\delta-1$. In particular, $G_h$ requires at least\n$h$ tested stages, counting the successful stage.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won",
+      "toolchain": null,
+      "version": 2,
+      "work": "choi-yoo-kim-kwon-won-healing-chains"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:choi-yoo-kim-kwon-won-healing-chains:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0ad94071772b2f32b432905d088bfce029d8d29e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0ad94071772b2f32b432905d088bfce029d8d29e/D5/S3/Combinatorics/Graph/Potts/HealingUnbounded.lean"
+      },
+      "lineage": "collected:choi-yoo-kim-kwon-won-healing-chains:s5",
+      "macros": {
+        "\\fr": "\\operatorname{fr}",
+        "\\ioct": "\\operatorname{ioct}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "choi-yoo-kim-kwon-won-healing-chains",
+      "scope": "in_scope",
+      "statement": "Let $G$ be obtained from vertex-disjoint triangles by adding bridges\nwhose contraction gives a tree. Every optimal two-colouring of $G$ is\nhealable. No degree restriction is needed for this assertion.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won",
+      "toolchain": null,
+      "version": 2,
+      "work": "choi-yoo-kim-kwon-won-healing-chains"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:clarisse-wocjan-2005-permutation-criteria-classification:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -14911,6 +15111,416 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:hanna-self-substitution-integrality:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "91f44a2b8e396fd6374dd8ae047c158afbbebba4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/91f44a2b8e396fd6374dd8ae047c158afbbebba4/D5/S1/Recurrence/Algebraic/HannaSelfSubstitutionIntegrality.lean"
+      },
+      "lineage": "collected:hanna-self-substitution-integrality:s1",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-self-substitution-integrality",
+      "scope": "in_scope",
+      "statement": "Let $L,W:\\Z_{>0}\\to\\Z$. Suppose that, for every prime $p$ and $m\\geq1$,\n\\begin{equation}\n L(pm)\\equiv L(m)\\pmod p,\n \\qquad W(pm)\\equiv W(m)\\pmod {p^{v_p(m)+1}}.\n\\end{equation}\nThen the equation\n\\begin{equation}\n G(x)=\\exp\\left(\\sum_{n\\geq1}\\frac{W(n)}{n}x^nG(L(n)x)^n\\right)\n\\end{equation}\nhas exactly one solution in $\\Q[[x]]$, and it belongs to $1+x\\Z[[x]]$.\nExistence and uniqueness over $\\Q$ hold for arbitrary rational $L,W$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A converse obstruction and proofs of Paul D. Hanna's self-substitution conjectures after Li–Zhong–Zhou",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-self-substitution-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:hanna-self-substitution-integrality:3:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "91f44a2b8e396fd6374dd8ae047c158afbbebba4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/91f44a2b8e396fd6374dd8ae047c158afbbebba4/D5/S1/Recurrence/Algebraic/HannaSelfSubstitutionIntegrality.lean"
+      },
+      "lineage": "collected:hanna-self-substitution-integrality:s10",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-self-substitution-integrality",
+      "scope": "in_scope",
+      "statement": "If $L(n),W(n)\\geq0$, the unique rational solution of\n\\eqref{weighted-equation} has nonnegative coefficients.\nAll six OEIS series covered here have nonnegative integer coefficients.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A converse obstruction and proofs of Paul D. Hanna's self-substitution conjectures after Li–Zhong–Zhou",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-self-substitution-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hanna-self-substitution-integrality:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "91f44a2b8e396fd6374dd8ae047c158afbbebba4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/91f44a2b8e396fd6374dd8ae047c158afbbebba4/D5/S1/Recurrence/Algebraic/HannaSelfSubstitutionIntegrality.lean"
+      },
+      "lineage": "collected:hanna-self-substitution-integrality:s2",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-self-substitution-integrality",
+      "scope": "in_scope",
+      "statement": "If $U,V\\in R_p[[x]]$ and $U-V\\in pR_p[[x]]$, then, for $m\\geq1$,\n\\[\n U^m-V^m\\in p^{v_p(m)+1}R_p[[x]].\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A converse obstruction and proofs of Paul D. Hanna's self-substitution conjectures after Li–Zhong–Zhou",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-self-substitution-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hanna-self-substitution-integrality:3:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "91f44a2b8e396fd6374dd8ae047c158afbbebba4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/91f44a2b8e396fd6374dd8ae047c158afbbebba4/D5/S1/Recurrence/Algebraic/HannaSelfSubstitutionIntegrality.lean"
+      },
+      "lineage": "collected:hanna-self-substitution-integrality:s3",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-self-substitution-integrality",
+      "scope": "in_scope",
+      "statement": "For $h\\in x\\Q[[x]]$, if\n\\[\n ph(x)-h(x^p)\\in pxR_p[[x]],\n\\]\nthen $\\exp(h)\\in1+xR_p[[x]]$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A converse obstruction and proofs of Paul D. Hanna's self-substitution conjectures after Li–Zhong–Zhou",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-self-substitution-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hanna-self-substitution-integrality:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "91f44a2b8e396fd6374dd8ae047c158afbbebba4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/91f44a2b8e396fd6374dd8ae047c158afbbebba4/D5/S1/Recurrence/Algebraic/HannaSelfSubstitutionIntegrality.lean"
+      },
+      "lineage": "collected:hanna-self-substitution-integrality:s4",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-self-substitution-integrality",
+      "scope": "in_scope",
+      "statement": "The implication \\eqref{input} holds, and its fixed point is unique.\nIn fact, integer $L$ and the first congruence of \\eqref{congruences}\nalready suffice.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A converse obstruction and proofs of Paul D. Hanna's self-substitution conjectures after Li–Zhong–Zhou",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-self-substitution-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hanna-self-substitution-integrality:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "91f44a2b8e396fd6374dd8ae047c158afbbebba4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/91f44a2b8e396fd6374dd8ae047c158afbbebba4/D5/S1/Recurrence/Algebraic/HannaSelfSubstitutionIntegrality.lean"
+      },
+      "lineage": "collected:hanna-self-substitution-integrality:s5",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-self-substitution-integrality",
+      "scope": "in_scope",
+      "statement": "Let $L,W:\\Z_{>0}\\to\\Q$, with $F_W$ defined as in \\eqref{input}.\nIf both $F_L$ and $F_W$ have integer coefficients,\nthen \\eqref{weighted-equation} has a unique integral solution.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A converse obstruction and proofs of Paul D. Hanna's self-substitution conjectures after Li–Zhong–Zhou",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-self-substitution-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hanna-self-substitution-integrality:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "91f44a2b8e396fd6374dd8ae047c158afbbebba4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/91f44a2b8e396fd6374dd8ae047c158afbbebba4/D5/S1/Recurrence/Algebraic/HannaSelfSubstitutionIntegrality.lean"
+      },
+      "lineage": "collected:hanna-self-substitution-integrality:s6",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-self-substitution-integrality",
+      "scope": "in_scope",
+      "statement": "The defining series of A163921, A157675 and A159593 have integer coefficients.\nMore generally, $L(n)=a^n$ works for every integer $a$.\nFor $a=0$ the solution is $(1-x)^{-1}$; for $a=1$ it is the Catalan series.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A converse obstruction and proofs of Paul D. Hanna's self-substitution conjectures after Li–Zhong–Zhou",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-self-substitution-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:hanna-self-substitution-integrality:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "91f44a2b8e396fd6374dd8ae047c158afbbebba4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/91f44a2b8e396fd6374dd8ae047c158afbbebba4/D5/S1/Recurrence/Algebraic/HannaSelfSubstitutionIntegrality.lean"
+      },
+      "lineage": "collected:hanna-self-substitution-integrality:s7",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-self-substitution-integrality",
+      "scope": "in_scope",
+      "statement": "For every prime $q$, set $L_q(n)=q$ if $q^2\\mid n$ and $L_q(n)=0$\notherwise. Its Hanna fixed point is integral, but\n\\[\n F_{L_q}(x)=(1-x^{q^2})^{-1/q},\\qquad [x^{q^2}]F_{L_q}=1/q.\n\\]\nThus integrality of the fixed point does not imply integrality of the input.\nThis converse is not asserted in the posing source.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A converse obstruction and proofs of Paul D. Hanna's self-substitution conjectures after Li–Zhong–Zhou",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-self-substitution-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:hanna-self-substitution-integrality:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "91f44a2b8e396fd6374dd8ae047c158afbbebba4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/91f44a2b8e396fd6374dd8ae047c158afbbebba4/D5/S1/Recurrence/Algebraic/HannaSelfSubstitutionIntegrality.lean"
+      },
+      "lineage": "collected:hanna-self-substitution-integrality:s8",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-self-substitution-integrality",
+      "scope": "in_scope",
+      "statement": "For every integer $a$, the equation\n\\begin{equation}\n A(x)=1+x\\exp\\left(\\sum_{n\\geq1}\\frac{(A(a^nx)-1)^n}{n}\\right)\n\\end{equation}\nhas a unique solution in $\\Q[[x]]$, and it has integer coefficients.\nThis proves the conjectures of A156907 ($a=2$) and A156908 ($a=3$)~\\cite{oeis156907}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A converse obstruction and proofs of Paul D. Hanna's self-substitution conjectures after Li–Zhong–Zhou",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-self-substitution-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:hanna-self-substitution-integrality:3:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "91f44a2b8e396fd6374dd8ae047c158afbbebba4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/91f44a2b8e396fd6374dd8ae047c158afbbebba4/D5/S1/Recurrence/Algebraic/HannaSelfSubstitutionIntegrality.lean"
+      },
+      "lineage": "collected:hanna-self-substitution-integrality:s9",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-self-substitution-integrality",
+      "scope": "in_scope",
+      "statement": "For any integer $a$, the equation\n\\begin{equation}\n A(x)=\\exp\\left(\\sum_{n\\geq1}\\frac{x^n}{n}A(a^nx^n)\\right)\n\\end{equation}\nhas a unique integral solution, including A179471 when $a=2$~\\cite{oeis179471}.\nIts logarithm starts with $xA(ax)+x^2A(a^2x^2)/2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A converse obstruction and proofs of Paul D. Hanna's self-substitution conjectures after Li–Zhong–Zhou",
+      "toolchain": null,
+      "version": 3,
+      "work": "hanna-self-substitution-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:hanna-square-exponent-integrality:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -15101,6 +15711,201 @@
       "toolchain": null,
       "version": 2,
       "work": "hanna-square-exponent-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:hardin-barker-a202330:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA202330.lean"
+      },
+      "lineage": "collected:hardin-barker-a202330:s1",
+      "macros": {
+        "\\bin": "\\binom{#1}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-a202330",
+      "scope": "in_scope",
+      "statement": "For all $h,w\\ge2$,\n\\begin{equation}\n             N(h,w)=2+2\\bin{h+w}{h}+\\bin{h+w-2}{h-1}.\n\\end{equation}\nEquivalently, $T(n,m)=2+2\\bin{n+m+2}{n+1}+\\bin{n+m}{n}$ for all $n,m\\ge1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A general formula for Hardin's binary arrays proving Barker's conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-a202330"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hardin-barker-a202330:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA202330.lean"
+      },
+      "lineage": "collected:hardin-barker-a202330:s2",
+      "macros": {
+        "\\bin": "\\binom{#1}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-a202330",
+      "scope": "in_scope",
+      "statement": "For $n\\ge1$, the sequence A202330 satisfies\n\\begin{align}\n12a_n&=n^4+16n^3+83n^2+176n+156,\\\\\n\\sum_{n\\ge1}a_nx^n\n &=\\frac{x(36-98x+112x^2-61x^3+13x^4)}{(1-x)^5},\\\\\na_n&=5a_{n-1}-10a_{n-2}+10a_{n-3}-5a_{n-4}+a_{n-5}\n \\quad(n\\ge6).\n\\end{align}\nThe least eventual constant-coefficient recurrence order over $\\mathbb Q$ is five, and $a_n\\sim n^4/12$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A general formula for Hardin's binary arrays proving Barker's conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-a202330"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hardin-barker-a202330:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA202330.lean"
+      },
+      "lineage": "collected:hardin-barker-a202330:s3",
+      "macros": {
+        "\\bin": "\\binom{#1}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-a202330",
+      "scope": "in_scope",
+      "statement": "Fix $w\\ge2$ and put $b_n=N(n+1,w)$ for $n\\ge1$. Then\n\\[\n b_n=2+2\\bin{n+w+1}{w}+\\bin{n+w-1}{w-1},\\qquad\n b_n\\sim\\frac{2n^w}{w!}.\n\\]\nIts least eventual constant-coefficient recurrence order over $\\mathbb Q$ is $w+1$, and\n\\begin{equation}\n \\sum_{j=0}^{w+1}(-1)^j\\bin{w+1}{j}b_{n-j}=0\n                       \\qquad(n\\ge w+2).\n\\end{equation}\nIts zero-constant generating function is\n\\begin{equation}\n \\sum_{n\\ge1}b_nx^n=\\frac{2x}{1-x}\n +\\frac{2}{x}\\bigl((1-x)^{-(w+1)}-1-(w+1)x\\bigr)\n +(1-x)^{-w}-1.\n\\end{equation}\nThe division by $x$ is valid because the parenthesized series starts in degree two.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A general formula for Hardin's binary arrays proving Barker's conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-a202330"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hardin-barker-a202330:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA202330.lean"
+      },
+      "lineage": "collected:hardin-barker-a202330:s4",
+      "macros": {
+        "\\bin": "\\binom{#1}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-a202330",
+      "scope": "in_scope",
+      "statement": "The diagonal sequence $d_n=T(n,n)$, A202329 \\cite{diagonal}, is\n\\begin{equation}\n                 d_n=2+\\frac{9n+5}{n+1}\\bin{2n}{n}\\qquad(n\\ge1).\n\\end{equation}\nBoth empirical recurrences attributed to V. Kotesovec in its FORMULA field hold:\n\\begin{align}\n(n+1)(27n-40)d_n\n &=(135n^2-123n-100)d_{n-1}\\notag\\\\\n &\\quad-2(54n^2-63n-10)d_{n-2}-8(2n-5)d_{n-3}\n                   &&(n\\ge4),\\\\\n(n+1)(9n^2-19n+8)d_n\n &=(45n^3-68n^2-13n+20)d_{n-1}\\notag\\\\\n &\\quad-2(2n-3)(9n^2-n-2)d_{n-2}\n                   &&(n\\ge3).\n\\end{align}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A general formula for Hardin's binary arrays proving Barker's conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-a202330"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hardin-barker-a202330:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA202330.lean"
+      },
+      "lineage": "collected:hardin-barker-a202330:s5",
+      "macros": {
+        "\\bin": "\\binom{#1}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-a202330",
+      "scope": "in_scope",
+      "statement": "For $n\\ge1$, the first two column identities in A202335 are\n\\[\n T(n,1)=(n+3)^2,\\qquad\n T(n,2)=\\frac{2n^3+21n^2+61n+66}{6}.\n\\]\nThe second equals the maximum cyclic adjacent-product sum over permutations of $1,\\ldots,n+3$, as recorded in A110610. Also $T(n,m)=T(m,n)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A general formula for Hardin's binary arrays proving Barker's conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-a202330"
     },
     {
       "attribution": null,
@@ -15444,6 +16249,191 @@
       "toolchain": null,
       "version": 2,
       "work": "hardin-barker-cyclic-repetitions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:hardin-barker-trace-array-formulas:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "e072713035e715a2a3a08b13040b1d6e5e552731",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e072713035e715a2a3a08b13040b1d6e5e552731/D5/S3/Combinatorics/TraceArrays/HardinA185858.lean"
+      },
+      "lineage": "collected:hardin-barker-trace-array-formulas:s1",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-trace-array-formulas",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\geq1$, the number $C_n$ is divisible by $128$.\nThe normalized counts satisfy\n\\begin{equation}\n a_1=4,\\qquad a_2=22,\\qquad\n a_{n+2}=4a_{n+1}+9a_n\\quad(n\\geq1).\n\\end{equation}\nConsequently, as an identity of formal power series over $\\mathbb Q$,\n\\begin{equation}\n \\sum_{n\\geq1}a_nx^n=\\frac{2x(2+3x)}{1-4x-9x^2},\n\\end{equation}\nand, with $\\sqrt{13}$ the positive real square root,\n\\begin{equation}\n a_n=\\frac{(2-\\sqrt{13})^n(-4+\\sqrt{13})\n             +(2+\\sqrt{13})^n(4+\\sqrt{13})}{3\\sqrt{13}}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-trace-array-formulas"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hardin-barker-trace-array-formulas:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "e072713035e715a2a3a08b13040b1d6e5e552731",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e072713035e715a2a3a08b13040b1d6e5e552731/D5/S3/Combinatorics/TraceArrays/HardinA185858.lean"
+      },
+      "lineage": "collected:hardin-barker-trace-array-formulas:s2",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-trace-array-formulas",
+      "scope": "in_scope",
+      "statement": "Let $W_n$ be the number of words $(d_0,\\ldots,d_{n-1})$ of binary triples\n$d_i\\in\\{0,1\\}^3$ whose successive coordinate sums differ. Then\n$C_n=64W_n$. Equivalently,\n\\begin{equation}\n W_n=\\sum_{\\substack{s_0,\\ldots,s_{n-1}\\in\\{0,1,2,3\\}\\\\\n                         s_i\\ne s_{i+1}\\ (0\\leq i<n-1)}}\n                  \\prod_{i=0}^{n-1}\\binom3{s_i}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-trace-array-formulas"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hardin-barker-trace-array-formulas:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "e072713035e715a2a3a08b13040b1d6e5e552731",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e072713035e715a2a3a08b13040b1d6e5e552731/D5/S3/Combinatorics/TraceArrays/HardinA185858.lean"
+      },
+      "lineage": "collected:hardin-barker-trace-array-formulas:s3",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-trace-array-formulas",
+      "scope": "in_scope",
+      "statement": "For all positive integers $n,k$, $T(n,k)$ is an integer and\n$T(n,k)=T(k,n)$. In particular,\n$T(n,1)=T(1,n)=a_n$, with $a_n$ given by Theorem~\\ref{thm:main}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-trace-array-formulas"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hardin-barker-trace-array-formulas:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "e072713035e715a2a3a08b13040b1d6e5e552731",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e072713035e715a2a3a08b13040b1d6e5e552731/D5/S3/Combinatorics/TraceArrays/HardinA185858.lean"
+      },
+      "lineage": "collected:hardin-barker-trace-array-formulas:s4",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-trace-array-formulas",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq1$, $T(2,n)=T(n,2)=b_n$, where\n\\[\n (b_1,b_2,b_3,b_4,b_5)=(22,164,1254,9604,73542),\n\\]\n\\begin{equation}\n b_{n+5}=6b_{n+4}+17b_{n+3}-36b_{n+2}+24b_{n+1}-6b_n.\n \n\\end{equation}\nIts generating function is\n\\begin{equation}\n \\sum_{n\\geq1}b_nx^n=\n \\frac{2x(11+16x-52x^2+42x^3-12x^4)}\n {1-6x-17x^2+36x^3-24x^4+6x^5}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-trace-array-formulas"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hardin-barker-trace-array-formulas:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "e072713035e715a2a3a08b13040b1d6e5e552731",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e072713035e715a2a3a08b13040b1d6e5e552731/D5/S3/Combinatorics/TraceArrays/HardinA185858.lean"
+      },
+      "lineage": "collected:hardin-barker-trace-array-formulas:s5",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-trace-array-formulas",
+      "scope": "in_scope",
+      "statement": "For every fixed positive integer $k$, the series\n$\\sum_{n\\geq1}T(n,k)x^n$ is rational over $\\mathbb Q$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-trace-array-formulas"
     },
     {
       "attribution": null,
@@ -27416,6 +28406,286 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:mathar379464-bounded-path-recurrences:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/MatharA379464/Result.lean"
+      },
+      "lineage": "collected:mathar379464-bounded-path-recurrences:s1",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar379464-bounded-path-recurrences",
+      "scope": "in_scope",
+      "statement": "For $r=1,2,3$ and $n\\geq0$,\n\\begin{equation}\n a_r(n)=\\sum_{k=0}^{\\lfloor n/4\\rfloor}\\binom n{4k}\n             \\frac{r}{4k+r}\\binom{4k+r}{k}.\n\\end{equation}\nLet $C(t)$ be the unique formal series with $C(0)=1$ satisfying\n$C(t)=1+tC(t)^4$. Then\n\\begin{equation}\n F_r(x)=\\frac1{1-x}C\\!\\left(\\frac{x^4}{(1-x)^4}\\right)^r.\n\\end{equation}\nThe coefficients $p_{r,j}(n)$ in Appendix~\\ref{sec:coefficients} satisfy\n\\begin{equation}\n \\sum_{j=0}^{d_r}p_{r,j}(n)a_r(n-j)=0\n \\quad(n\\geq d_r),\\qquad (d_1,d_2,d_3)=(4,5,7).\n\\end{equation}\nFor $r=3$ and $r=2$ these are exactly Mathar's eight-term and six-term\nconjectured recurrences, respectively. For $r=1$ this is Kotesovec's\nfive-term recurrence after the change of index $n\\mapsto n+1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's path recurrences and alternative proofs of Prodinger's enumeration",
+      "toolchain": null,
+      "version": 3,
+      "work": "mathar379464-bounded-path-recurrences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:mathar379464-bounded-path-recurrences:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/MatharA379464/Result.lean"
+      },
+      "lineage": "collected:mathar379464-bounded-path-recurrences:s2",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar379464-bounded-path-recurrences",
+      "scope": "in_scope",
+      "statement": "Let $w_1,\\ldots,w_N$ be integers at most one, with sum $r>0$.\nExactly $r$ of the $N$ cyclic cuts give a word whose nonempty prefix sums\nare all strictly positive, counting cuts with their positions.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's path recurrences and alternative proofs of Prodinger's enumeration",
+      "toolchain": null,
+      "version": 3,
+      "work": "mathar379464-bounded-path-recurrences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:mathar379464-bounded-path-recurrences:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/MatharA379464/Result.lean"
+      },
+      "lineage": "collected:mathar379464-bounded-path-recurrences:s3",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar379464-bounded-path-recurrences",
+      "scope": "in_scope",
+      "statement": "For an integer $h\\geq0$, let $f_h(n)$ count zero-sum words of length $n$\nin $\\{1,0,-3\\}$ with every prefix sum at least $-h$. Define\n\\[\n D_h(t)=\\sum_{i=0}^{\\lfloor h/4\\rfloor}(-1)^i\\binom{h-3i}{i}t^i,\n \\qquad t(x)=\\frac{x^4}{(1-x)^4}.\n\\]\nThen\n\\begin{equation}\n \\sum_{n\\geq0} f_h(n)x^n=\n \\frac{D_h(t(x))C(t(x))^{h+1}}{1-x}.\n\\end{equation}\nIn particular, the Raney sum \\eqref{eq:count} holds also for $r=4$\n(floor $-3$). For floor $-4$ the zero-free generating function is\n$(1-t)C(t)^5$, not $C(t)^5$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's path recurrences and alternative proofs of Prodinger's enumeration",
+      "toolchain": null,
+      "version": 3,
+      "work": "mathar379464-bounded-path-recurrences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:mathar379464-bounded-path-recurrences:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/MatharA379464/Result.lean"
+      },
+      "lineage": "collected:mathar379464-bounded-path-recurrences:s4",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar379464-bounded-path-recurrences",
+      "scope": "in_scope",
+      "statement": "Put $\\lambda=1+4/3^{3/4}$, $\\rho=\\lambda^{-1}$, and $\\tau=4/3$.\nFor $r=1,2,3$, as $n\\to\\infty$,\n\\begin{equation}\n a_r(n)\\sim\n \\frac{r\\tau^{r-1}\\sqrt{8/27}}{\\sqrt\\pi(1-\\rho)^{3/2}}\n \\frac{\\lambda^n}{n^{3/2}}.\n\\end{equation}\nIn particular, $a_3(n)\\sim\n2^{5/2}\\lambda^{n+3/2}/(3^{11/8}\\sqrt\\pi\\,n^{3/2})$,\nand the constant for $a_2$ is half as large.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's path recurrences and alternative proofs of Prodinger's enumeration",
+      "toolchain": null,
+      "version": 3,
+      "work": "mathar379464-bounded-path-recurrences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:mathar379464-bounded-path-recurrences:3:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/MatharA379464/Result.lean"
+      },
+      "lineage": "collected:mathar379464-bounded-path-recurrences:s5",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar379464-bounded-path-recurrences",
+      "scope": "in_scope",
+      "statement": "Write $u_N=\\mathrm{A127902}(N)$, $N\\geq1$. Then\n\\begin{equation}\n u_N=\\sum_{k=0}^{\\lfloor(N-1)/4\\rfloor}\n       \\binom{N-1}{4k}\\frac{\\binom{4k}{k}}{3k+1},\n \\qquad Y(x)=\\sum_{N\\geq1}u_Nx^N=x(1+Y+Y^4).\n\\end{equation}\nThus $u_N$ counts ordered rooted trees without vertex labels, with $N$\nvertices and outdegrees $0,1,4$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's path recurrences and alternative proofs of Prodinger's enumeration",
+      "toolchain": null,
+      "version": 3,
+      "work": "mathar379464-bounded-path-recurrences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:mathar379464-bounded-path-recurrences:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/MatharA379464/Result.lean"
+      },
+      "lineage": "collected:mathar379464-bounded-path-recurrences:s6",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar379464-bounded-path-recurrences",
+      "scope": "in_scope",
+      "statement": "The coefficients $b_1(k)$ and $b_2(k)$ in \\eqref{eq:b} are A002293$(k)$\nand A069271$(k)$, respectively. Their generating functions are $C(t)$ and\n$A(t)=C(t)^2$. In particular,\n\\begin{gather}\n A=(1+tA^2)^2,\\qquad\n 3k(3k+1)(3k+2)b_2(k)=8(4k+1)(2k-1)(4k-1)b_2(k-1)\n \\quad(k\\geq1),\\\\\n b_1(k)\\sim\\frac{\\sqrt2}{3^{3/2}\\sqrt\\pi}\n        \\frac{(256/27)^k}{k^{3/2}},\\qquad\n b_2(k)\\sim\\frac{2^{7/2}}{3^{5/2}\\sqrt\\pi}\n        \\frac{(256/27)^k}{k^{3/2}}.\n\\end{gather}\nFor every real $m$ and integer $n\\geq1$,\n\\begin{equation}\n [t^n]A(t)^{mn}=2m\\binom{(2m+4)n-1}{n-1}.\n\\end{equation}\nHere $A^{mn}$ and generalized binomial coefficients have their formal\nbinomial-series meanings. In particular,\n\\begin{equation}\n [t^n]A(t)^{-2n}=4(-1)^n.\n\\end{equation}\nTogether with $A(0)=1$, these conditions uniquely determine $A$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's path recurrences and alternative proofs of Prodinger's enumeration",
+      "toolchain": null,
+      "version": 3,
+      "work": "mathar379464-bounded-path-recurrences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:mathar379464-bounded-path-recurrences:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/MatharA379464/Result.lean"
+      },
+      "lineage": "collected:mathar379464-bounded-path-recurrences:s7",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mathar379464-bounded-path-recurrences",
+      "scope": "in_scope",
+      "statement": "Let $v_N=\\mathrm{A006632}(N)$ for $N\\geq1$ and let\n$V(t)=\\sum_{N\\geq1}v_Nt^N$. Then\n\\[\n v_N=b_3(N-1),\\qquad V=tC^3,\\qquad\n V=\\frac{t}{(1-V)^3}.\n\\]\nFor $N\\geq2$,\n\\[\n 3N(3N-1)(3N-2)v_N\n =8(4N-5)(4N-3)(2N-1)v_{N-1}.\n\\]\nWriting $B=V/t=C^3$, one has $B(0)=1$ and\n$[t^n]B^{-n}=-3$ for all $n\\geq1$; these conditions determine $B$ uniquely.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mathar's path recurrences and alternative proofs of Prodinger's enumeration",
+      "toolchain": null,
+      "version": 3,
+      "work": "mathar379464-bounded-path-recurrences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:mathex-2026-mo511715-cutoff-bound:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -28904,6 +30174,457 @@
       "toolchain": null,
       "version": 3,
       "work": "mertens-2024-grid-cylinder-joint-growth"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:mertens-range-two-stable-matching:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/GrowthTransfer.lean"
+      },
+      "lineage": "collected:mertens-range-two-stable-matching:s1",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/#1.lean}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mertens-range-two-stable-matching",
+      "scope": "in_scope",
+      "statement": "There is a number $\\lambda$ satisfying\n\\[\n  6\\leq\\lambda\\leq 13808^{1/3}<24\n\\]\nsuch that, on setting $q=\\lambda/24$, every integer $N\\geq7$ satisfies\n\\begin{equation}\n \\lambda^{-6}q^N\\ \\leq\\ p_N\\ \\leq\\ b_6q^N,\n \\qquad 1\\leq b_6\\leq24^6.\n\\end{equation}\nIn particular,\n\\[\n \\frac14\\leq q\\leq\\left(1-\\frac1{864}\\right)^{1/3}<1,\n \\qquad \\lim_{N\\to\\infty}p_N^{1/N}=q.\n\\]\nThe same base works for both parities.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mertens's range-two stable-matching conjecture and fully supported preference laws",
+      "toolchain": null,
+      "version": 3,
+      "work": "mertens-range-two-stable-matching"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:mertens-range-two-stable-matching:3:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/GrowthTransfer.lean"
+      },
+      "lineage": "collected:mertens-range-two-stable-matching:s10",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/#1.lean}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mertens-range-two-stable-matching",
+      "scope": "in_scope",
+      "statement": "For the range-one cycle on $N\\geq3$ vertices with uniform independent\nrankings, the solvability probability is $1$ for even $N$ and\n$1-2^{1-N}$ for odd $N$, as in \\cite[equation~(13)]{mertens2005}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mertens's range-two stable-matching conjecture and fully supported preference laws",
+      "toolchain": null,
+      "version": 3,
+      "work": "mertens-range-two-stable-matching"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s11",
+      "contributor": null,
+      "identity": "collected:mertens-range-two-stable-matching:3:s11",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/GrowthTransfer.lean"
+      },
+      "lineage": "collected:mertens-range-two-stable-matching:s11",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/#1.lean}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mertens-range-two-stable-matching",
+      "scope": "in_scope",
+      "statement": "At $p=1$, the even-$N$ solvability probability in Mertens's\nConjecture~5, equation~(19), is\n\\[\n P_N\\sim C_*N^{-1/4},\\qquad\n C_*=\\frac{e\\,2^{1/4}\\Gamma(3/4)}{\\sqrt\\pi},\n\\]\nby \\cite[Theorem~1.1]{young2026}. Here\n$\\Gamma(s)=\\int_0^\\infty t^{s-1}e^{-t}\\,dt$ for $s>0$.\nThe predicted coefficient $e\\sqrt{2/\\pi}$ in equations~(7) and~(19)\nis corrected by this theorem; the interior $0<p<1$ is not covered.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mertens's range-two stable-matching conjecture and fully supported preference laws",
+      "toolchain": null,
+      "version": 3,
+      "work": "mertens-range-two-stable-matching"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:mertens-range-two-stable-matching:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/GrowthTransfer.lean"
+      },
+      "lineage": "collected:mertens-range-two-stable-matching:s2",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/#1.lean}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mertens-range-two-stable-matching",
+      "scope": "in_scope",
+      "statement": "For $m,k\\geq0$,\n\\[\n 6^m\\leq b_m,\\qquad b_{m+k}\\leq b_mb_k.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mertens's range-two stable-matching conjecture and fully supported preference laws",
+      "toolchain": null,
+      "version": 3,
+      "work": "mertens-range-two-stable-matching"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:mertens-range-two-stable-matching:3:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/GrowthTransfer.lean"
+      },
+      "lineage": "collected:mertens-range-two-stable-matching:s3",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/#1.lean}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mertens-range-two-stable-matching",
+      "scope": "in_scope",
+      "statement": "For $m,k\\geq1$,\n\\begin{equation}\n b_mb_k\\leq b_{m+k+6},\\qquad b_m\\leq A_{m+6}.\n\\end{equation}\nAlso $A_N\\leq b_N$ for every $N\\geq5$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mertens's range-two stable-matching conjecture and fully supported preference laws",
+      "toolchain": null,
+      "version": 3,
+      "work": "mertens-range-two-stable-matching"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:mertens-range-two-stable-matching:3:s4",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/GrowthTransfer.lean"
+      },
+      "lineage": "collected:mertens-range-two-stable-matching:s4",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/#1.lean}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mertens-range-two-stable-matching",
+      "scope": "in_scope",
+      "statement": "$b_3\\leq24^3-16=13808$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mertens's range-two stable-matching conjecture and fully supported preference laws",
+      "toolchain": null,
+      "version": 3,
+      "work": "mertens-range-two-stable-matching"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:mertens-range-two-stable-matching:3:s5",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/GrowthTransfer.lean"
+      },
+      "lineage": "collected:mertens-range-two-stable-matching:s5",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/#1.lean}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mertens-range-two-stable-matching",
+      "scope": "in_scope",
+      "statement": "There is $h\\in[\\log6,\\log24)$ such that, for every $m\\geq0$,\n\\begin{equation}\n hm\\leq\\log b_m\\leq hm+\\log b_6.\n\\end{equation}\nMoreover $3h\\leq\\log13808$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mertens's range-two stable-matching conjecture and fully supported preference laws",
+      "toolchain": null,
+      "version": 3,
+      "work": "mertens-range-two-stable-matching"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:mertens-range-two-stable-matching:3:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/GrowthTransfer.lean"
+      },
+      "lineage": "collected:mertens-range-two-stable-matching:s6",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/#1.lean}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mertens-range-two-stable-matching",
+      "scope": "in_scope",
+      "statement": "The same $q$ admits positive constants $c_*,C_*$ such that\n$c_*q^N\\leq p_N\\leq C_*q^N$ for every $N\\geq5$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mertens's range-two stable-matching conjecture and fully supported preference laws",
+      "toolchain": null,
+      "version": 3,
+      "work": "mertens-range-two-stable-matching"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:mertens-range-two-stable-matching:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/GrowthTransfer.lean"
+      },
+      "lineage": "collected:mertens-range-two-stable-matching:s7",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/#1.lean}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mertens-range-two-stable-matching",
+      "scope": "in_scope",
+      "statement": "For every $m\\geq1$,\n\\[\n \\frac{(b_m/b_6)^{1/m}}{24}\\leq q\\leq\\frac{b_m^{1/m}}{24}.\n\\]\nThe logarithms of the endpoints differ by at most $6\\log(24)/m$.\nIn particular $q$ is a computable real number, and both\n$p_{2j}^{1/(2j)}$ and $p_{2j+1}^{1/(2j+1)}$ converge to $q$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mertens's range-two stable-matching conjecture and fully supported preference laws",
+      "toolchain": null,
+      "version": 3,
+      "work": "mertens-range-two-stable-matching"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:mertens-range-two-stable-matching:3:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/GrowthTransfer.lean"
+      },
+      "lineage": "collected:mertens-range-two-stable-matching:s8",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/#1.lean}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mertens-range-two-stable-matching",
+      "scope": "in_scope",
+      "statement": "Give each of the 24 rankings $\\rho$ a probability $w(\\rho)>0$, the same\nat every site, with independent choices. Put\n$\\alpha=\\min_\\rho w(\\rho)$, and let $a$ and $b$ be the probabilities\nof ranking offset $+1$ and offset $-1$ first, respectively.\nLet $\\delta$ be the probability that three consecutive sites form either\norientation of an exclusive triangle. There is a common base $q_w$ with\n\\[\n \\sqrt{ab}\\leq q_w\\leq(1-\\delta)^{1/3}<1\n\\]\nsuch that the solvability probability $p_N(w)$ satisfies, for $N\\geq7$,\n\\[\n \\alpha^6 q_w^{-6}q_w^N\\leq p_N(w)\\leq\\alpha^{-6}q_w^N.\n\\]\nPositive constants extend the same conclusion to every $N\\geq5$.\nThis generalization is not posed in the source.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mertens's range-two stable-matching conjecture and fully supported preference laws",
+      "toolchain": null,
+      "version": 3,
+      "work": "mertens-range-two-stable-matching"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:mertens-range-two-stable-matching:3:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/GrowthTransfer.lean"
+      },
+      "lineage": "collected:mertens-range-two-stable-matching:s9",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/#1.lean}{#2}"
+      },
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mertens-range-two-stable-matching",
+      "scope": "in_scope",
+      "statement": "Let $G$ be a finite simple graph on $N$ vertices with maximum degree at\nmost $D\\geq2$, and let $t$ be the number of triangles in any\nvertex-disjoint triangle family. Under independent uniform neighbor\nrankings, its stable-partial-matching probability $P(G)$ satisfies\n\\[\n D^{-N}\\leq P(G)\\leq\n \\left(1-\\frac{2}{[D(D-1)]^3}\\right)^t.\n\\]\nIn particular $p_N\\leq(1-1/864)^{\\lfloor N/3\\rfloor}$ for range-two\ncycles. More generally an arbitrary vertex-disjoint family $\\mathcal C$\nof odd cycles gives the upper bound\n\\[\n P(G)\\leq\\prod_{C\\in\\mathcal C}\n \\left(1-\\frac{2}{[D(D-1)]^{|C|}}\\right).\n\\]\nThese are two exponential bounds, not a common-base conclusion\nfor arbitrary graph families.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Mertens's range-two stable-matching conjecture and fully supported preference laws",
+      "toolchain": null,
+      "version": 3,
+      "work": "mertens-range-two-stable-matching"
     },
     {
       "attribution": null,
@@ -33089,6 +34810,191 @@
       "toolchain": null,
       "version": 2,
       "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:oeis-a288476-replacement-iterate-length:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S1/Words/KimberlingA288476Length.lean"
+      },
+      "lineage": "collected:oeis-a288476-replacement-iterate-length:s1",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a288476-replacement-iterate-length",
+      "scope": "in_scope",
+      "statement": "The lengths $a_n$ satisfy\n\\begin{equation}\na_0=2,\\quad a_1=4,\\quad a_2=8,\\qquad\na_{n+3}=a_{n+2}+4a_{n+1}-2a_n\\quad(n\\geq0),\n\\end{equation}\nand consequently\n\\begin{equation}\n\\sum_{n\\geq0}a_n x^n=\\frac{2+2x-4x^2}{1-x-4x^2+2x^3}.\n\\end{equation}\nBoth $u^{(0)}=\\lim_{k\\to\\infty}w_{2k}$ and\n$u^{(1)}=\\lim_{k\\to\\infty}w_{2k+1}$ exist in the prefix sense.\nLet $\\lambda$ be the largest real root of $x^3-x^2-4x+2$, and put\n$\\mu=\\lambda/(\\lambda-1)$. For either word $u$,\n\\begin{equation}\n\\lim_{j\\to\\infty}\\frac{z_u(j)}j=\\lambda,\n\\qquad\n\\lim_{j\\to\\infty}\\frac{o_u(j)}j=\\mu.\n\\end{equation}\nFor all $j\\geq1$ and either word,\n\\[\n-1<\\lambda-\\frac{z_u(j)}j<2.\n\\]\nFor $u=u^{(1)}$ the one-position bounds are\n$-1<\\mu-o_u(j)/j<1$; for $u=u^{(0)}$ they are\n$-2<\\mu-o_u(j)/j<1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Kimberling's replacement-iterate length and position conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a288476-replacement-iterate-length"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:oeis-a288476-replacement-iterate-length:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S1/Words/KimberlingA288476Length.lean"
+      },
+      "lineage": "collected:oeis-a288476-replacement-iterate-length:s2",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a288476-replacement-iterate-length",
+      "scope": "in_scope",
+      "statement": "For every letter $c\\in\\{D,E,O\\}$ and finite binary suffix $v$,\n\\begin{equation}\nR(h(c)v)=h(\\sigma(c))R(v).\n\\end{equation}\nConsequently $R(h(t))=h(\\sigma(t))$ for every finite ternary word $t$,\nand $w_n=h(\\sigma^n(D))$ for every $n\\geq0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Kimberling's replacement-iterate length and position conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a288476-replacement-iterate-length"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:oeis-a288476-replacement-iterate-length:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S1/Words/KimberlingA288476Length.lean"
+      },
+      "lineage": "collected:oeis-a288476-replacement-iterate-length:s3",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a288476-replacement-iterate-length",
+      "scope": "in_scope",
+      "statement": "Let $Z_n$ and $I_n$ be the numbers of zeros and ones in $w_n$.\nEach satisfies the same cubic recurrence as $a_n$, with initial triples\n$(2,2,4)$ and $(0,2,4)$, respectively. Moreover,\n\\[\n\\frac{Z_n}{a_n}\\longrightarrow\\frac1\\lambda,\\qquad\n\\frac{I_n}{a_n}\\longrightarrow\\frac{\\lambda-1}{\\lambda},\\qquad\n\\frac{a_{n+1}}{a_n}\\longrightarrow\\lambda.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Kimberling's replacement-iterate length and position conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a288476-replacement-iterate-length"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:oeis-a288476-replacement-iterate-length:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S1/Words/KimberlingA288476Length.lean"
+      },
+      "lineage": "collected:oeis-a288476-replacement-iterate-length:s4",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a288476-replacement-iterate-length",
+      "scope": "in_scope",
+      "statement": "The increasing position sequences A288474 and A288475 partition the\npositive integers, as do A288552 and A288553.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Kimberling's replacement-iterate length and position conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a288476-replacement-iterate-length"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:oeis-a288476-replacement-iterate-length:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S1/Words/KimberlingA288476Length.lean"
+      },
+      "lineage": "collected:oeis-a288476-replacement-iterate-length:s5",
+      "macros": {},
+      "next_step": "Existing Lean evidence is being checked before new proof work.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a288476-replacement-iterate-length",
+      "scope": "in_scope",
+      "statement": "Every finite binary word $s$ has a unique greedy decomposition\n$s=h(t)0^\\delta$, where $t$ is a word over $\\{D,E,O\\}$ and\n$\\delta\\in\\{0,1\\}$. Set $L_n=|R^n(s)|$. For every $n\\geq0$,\n\\begin{align}\nR^n(s)&=h(\\sigma^n(t))0^\\delta,\\\\\nL_{n+3}&=L_{n+2}+4L_{n+1}-2L_n-2\\delta,\\\\\nL_{n+4}&=2L_{n+3}+3L_{n+2}-6L_{n+1}+2L_n.\n\\end{align}\nIf $t$ is nonempty, then the even and odd iterates of $s$ converge\nin the prefix sense to $u^{(0)}$ and $u^{(1)}$, respectively, when\nthe first letter of $t$ is $D$ or $O$, and in the opposite order when\nit is $E$. The two excluded seeds, the empty word and $0$, are fixed.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Kimberling's replacement-iterate length and position conjectures",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a288476-replacement-iterate-length"
     },
     {
       "attribution": null,

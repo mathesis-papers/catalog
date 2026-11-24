@@ -253,8 +253,20 @@
       "version": 3
     },
     {
+      "doi": "10.5281/zenodo.24484819",
+      "id": "finch-unimodular-zerofree-six",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24408308",
       "id": "finch-zero-runs",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24485946",
+      "id": "gangloff-guillon-oprocha-circle-finite-positive-expansivity",
       "kind": "collected",
       "version": 3
     },
@@ -315,6 +327,12 @@
     {
       "doi": "10.5281/zenodo.24408313",
       "id": "hanna-composition-congruences",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24484628",
+      "id": "hanna-square-exponent-integrality",
       "kind": "collected",
       "version": 2
     },
@@ -427,8 +445,20 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24484448",
+      "id": "keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24404944",
       "id": "khesin-li-2024-bipartite-encoder-equivalence",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24485545",
+      "id": "kim-stolarsky-eventual-three-prefix-conjecture",
       "kind": "collected",
       "version": 2
     },
@@ -817,6 +847,12 @@
       "version": 3
     },
     {
+      "doi": "10.5281/zenodo.24485552",
+      "id": "shao-zhao-italian-cycle-closed-form",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24408323",
       "id": "sp322844-serpentine",
       "kind": "collected",
@@ -855,6 +891,12 @@
     {
       "doi": "10.5281/zenodo.24410617",
       "id": "sun-a006077-hankel-determinants",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24484829",
+      "id": "sun346934-sign-composite-permanents",
       "kind": "collected",
       "version": 2
     },
@@ -949,6 +991,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-24T00:45:02.068772724Z",
+  "generated_at": "2026-11-24T01:31:06.874875161Z",
   "schema": "mathesis.archive-index.v1"
 }

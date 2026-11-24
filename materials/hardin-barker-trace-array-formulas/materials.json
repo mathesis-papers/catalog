@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/hardin-barker-trace-array-formulas/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/hardin-barker-trace-array-formulas",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/hardin-barker-trace-array-formulas/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "hardin-barker-trace-array-formulas"
+}

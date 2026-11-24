@@ -1854,6 +1854,63 @@
       "work": "chiral-event-parity-minimality"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 77894,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "b657a45ed21b70ff9007c1e1070477d2855edaa199fe2c55663393c0e58fee9f",
+          "sha256": "b657a45ed21b70ff9007c1e1070477d2855edaa199fe2c55663393c0e58fee9f"
+        },
+        "source": {
+          "bytes": 18163,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "8cfd4c8ae13d741bef36987893dfe0babc9babe07bc5f4bc172e8f768af436ec",
+          "sha256": "8cfd4c8ae13d741bef36987893dfe0babc9babe07bc5f4bc172e8f768af436ec"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "0ad94071772b2f32b432905d088bfce029d8d29e",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0ad94071772b2f32b432905d088bfce029d8d29e/D5/S3/Combinatorics/Graph/Potts/HealingUnbounded.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/choi-yoo-kim-kwon-won-healing-chains",
+      "site_url": "https://papers.trureturing.org/choi-yoo-kim-kwon-won-healing-chains/",
+      "title": "Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "choi-yoo-kim-kwon-won-healing-chains"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24414701",
       "doi": "10.5281/zenodo.24414702",
       "files": {
@@ -2358,8 +2415,8 @@
       "work": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24484818",
+      "doi": "10.5281/zenodo.24484819",
       "files": {
         "pdf": {
           "bytes": 73300,
@@ -2396,7 +2453,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2471,8 +2527,8 @@
       "work": "finch-zero-runs"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24485945",
+      "doi": "10.5281/zenodo.24485946",
       "files": {
         "pdf": {
           "bytes": 97869,
@@ -2509,7 +2565,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3092,6 +3147,63 @@
       "doi": null,
       "files": {
         "pdf": {
+          "bytes": 97113,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "62df4db6458a3278cc591fa0cb042bd6c006c5e4a243d7408568aa1cac0c9ab4",
+          "sha256": "62df4db6458a3278cc591fa0cb042bd6c006c5e4a243d7408568aa1cac0c9ab4"
+        },
+        "source": {
+          "bytes": 15118,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "8e61b4904d109f45fa4be976658ab830ae3267d09f57020c11f50b6c77cb2687",
+          "sha256": "8e61b4904d109f45fa4be976658ab830ae3267d09f57020c11f50b6c77cb2687"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 10,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "91f44a2b8e396fd6374dd8ae047c158afbbebba4",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/91f44a2b8e396fd6374dd8ae047c158afbbebba4/D5/S1/Recurrence/Algebraic/HannaSelfSubstitutionIntegrality.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/hanna-self-substitution-integrality",
+      "site_url": "https://papers.trureturing.org/hanna-self-substitution-integrality/",
+      "title": "A converse obstruction and proofs of Paul D. Hanna's self-substitution conjectures after Li–Zhong–Zhou",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "hanna-self-substitution-integrality"
+    },
+    {
+      "concept_doi": "10.5281/zenodo.24484627",
+      "doi": "10.5281/zenodo.24484628",
+      "files": {
+        "pdf": {
           "bytes": 73085,
           "matches_public": true,
           "path": "paper.pdf",
@@ -3126,7 +3238,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3143,6 +3254,63 @@
       },
       "version": 2,
       "work": "hanna-square-exponent-integrality"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 80056,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "8602792527cb0f61bde7e199e7d6acc543b778c675b17e088baca7715a70b9aa",
+          "sha256": "8602792527cb0f61bde7e199e7d6acc543b778c675b17e088baca7715a70b9aa"
+        },
+        "source": {
+          "bytes": 16145,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "293f3c525023527dfc180c4f8e237a619a683086d634ef3f36499bc61910cad7",
+          "sha256": "293f3c525023527dfc180c4f8e237a619a683086d634ef3f36499bc61910cad7"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA202330.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/hardin-barker-a202330",
+      "site_url": "https://papers.trureturing.org/hardin-barker-a202330/",
+      "title": "A general formula for Hardin's binary arrays proving Barker's conjectures",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "hardin-barker-a202330"
     },
     {
       "concept_doi": "10.5281/zenodo.23903300",
@@ -3255,6 +3423,63 @@
       },
       "version": 2,
       "work": "hardin-barker-cyclic-repetitions"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 85711,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "c3b9ff1860fa35a78c98a7e51145f0a23990fead25bb615cc2b07b9fb373813e",
+          "sha256": "c3b9ff1860fa35a78c98a7e51145f0a23990fead25bb615cc2b07b9fb373813e"
+        },
+        "source": {
+          "bytes": 34633,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "6b2f04b0c870f203530ebe3ca6ae6894491d5e9c54696953dfb3cfae3677d5e3",
+          "sha256": "6b2f04b0c870f203530ebe3ca6ae6894491d5e9c54696953dfb3cfae3677d5e3"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "e072713035e715a2a3a08b13040b1d6e5e552731",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/e072713035e715a2a3a08b13040b1d6e5e552731/D5/S3/Combinatorics/TraceArrays/HardinA185858.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/hardin-barker-trace-array-formulas",
+      "site_url": "https://papers.trureturing.org/hardin-barker-trace-array-formulas/",
+      "title": "Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "hardin-barker-trace-array-formulas"
     },
     {
       "concept_doi": "10.5281/zenodo.24411969",
@@ -4210,8 +4435,8 @@
       "work": "karp-sf21-legendre-turan"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24484447",
+      "doi": "10.5281/zenodo.24484448",
       "files": {
         "pdf": {
           "bytes": 80881,
@@ -4248,7 +4473,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4323,8 +4547,8 @@
       "work": "khesin-li-2024-bipartite-encoder-equivalence"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24485544",
+      "doi": "10.5281/zenodo.24485545",
       "files": {
         "pdf": {
           "bytes": 75045,
@@ -4361,7 +4585,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -5727,6 +5950,63 @@
       "work": "mathar-square-root-quotient-recurrence"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 122725,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "44f6e3826eec34ea82b4470ae3e81810b100ba522806afa46a29d07f39b08e3d",
+          "sha256": "44f6e3826eec34ea82b4470ae3e81810b100ba522806afa46a29d07f39b08e3d"
+        },
+        "source": {
+          "bytes": 21912,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "bfa9ef5a47892c07f99a16b6e1c09548bf1a99704dbf526aad5d01de9f18c103",
+          "sha256": "bfa9ef5a47892c07f99a16b6e1c09548bf1a99704dbf526aad5d01de9f18c103"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "03150b25ffad5ced1bebdca2efc8c05b484c1eca",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/03150b25ffad5ced1bebdca2efc8c05b484c1eca/D5/S1/Recurrence/MatharA379464/Result.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/mathar379464-bounded-path-recurrences",
+      "site_url": "https://papers.trureturing.org/mathar379464-bounded-path-recurrences/",
+      "title": "Mathar's path recurrences and alternative proofs of Prodinger's enumeration",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "mathar379464-bounded-path-recurrences"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24446062",
       "doi": "10.5281/zenodo.24446063",
       "files": {
@@ -6005,6 +6285,63 @@
       },
       "version": 3,
       "work": "mertens-2024-grid-cylinder-joint-growth"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 97976,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "3cd7a4bc681c43459aff25d73668b666f7db3313c43b706b04f7d24a0aa1049b",
+          "sha256": "3cd7a4bc681c43459aff25d73668b666f7db3313c43b706b04f7d24a0aa1049b"
+        },
+        "source": {
+          "bytes": 20125,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "7749ed2eaceccab2a57359ac71ece73a7a287a2b064edde29ff04793cdc82d4a",
+          "sha256": "7749ed2eaceccab2a57359ac71ece73a7a287a2b064edde29ff04793cdc82d4a"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 11,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "f960cb09514c99f42fd07398f5240a77378ea4db",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/f960cb09514c99f42fd07398f5240a77378ea4db/D5/S3/Combinatorics/Graph/Roommates/GrowthTransfer.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/mertens-range-two-stable-matching",
+      "site_url": "https://papers.trureturing.org/mertens-range-two-stable-matching/",
+      "title": "Mertens's range-two stable-matching conjecture and fully supported preference laws",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "mertens-range-two-stable-matching"
     },
     {
       "concept_doi": "10.5281/zenodo.24210280",
@@ -6735,6 +7072,63 @@
       },
       "version": 2,
       "work": "oeis-a208509-affine-polynomial-pair-binomial-coefficients"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 83757,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "8bba6aa6ee9571eead52bafee792ceea378f08bc911752d3c940031d2cdf799c",
+          "sha256": "8bba6aa6ee9571eead52bafee792ceea378f08bc911752d3c940031d2cdf799c"
+        },
+        "source": {
+          "bytes": 13325,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "c6e7b059e78199fc50d8066f12f9f1d44c6fc4615806f429804085c9e4c05533",
+          "sha256": "c6e7b059e78199fc50d8066f12f9f1d44c6fc4615806f429804085c9e4c05533"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S1/Words/KimberlingA288476Length.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/oeis-a288476-replacement-iterate-length",
+      "site_url": "https://papers.trureturing.org/oeis-a288476-replacement-iterate-length/",
+      "title": "Proof of Kimberling's replacement-iterate length and position conjectures",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "oeis-a288476-replacement-iterate-length"
     },
     {
       "concept_doi": "10.5281/zenodo.24407274",
@@ -8041,8 +8435,8 @@
       "work": "schulte-implicit-power-coefficients"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24485551",
+      "doi": "10.5281/zenodo.24485552",
       "files": {
         "pdf": {
           "bytes": 92187,
@@ -8079,7 +8473,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -8494,8 +8887,8 @@
       "work": "sun-a006077-hankel-determinants"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24484828",
+      "doi": "10.5281/zenodo.24484829",
       "files": {
         "pdf": {
           "bytes": 99615,
@@ -8532,7 +8925,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -9399,8 +9791,8 @@
       "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 167,
+  "papers": 174,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-24T00:45:02.068772724Z"
+  "snapshot_time": "2026-11-24T01:31:06.874875161Z"
 }
