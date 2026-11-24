@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24487343",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/ekene-accumulated-sparse-errors/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/ekene-accumulated-sparse-errors",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/ekene-accumulated-sparse-errors/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "ekene-accumulated-sparse-errors"
+}

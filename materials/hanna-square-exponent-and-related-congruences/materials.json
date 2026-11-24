@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24488317",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/hanna-square-exponent-and-related-congruences/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/hanna-square-exponent-and-related-congruences",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/hanna-square-exponent-and-related-congruences/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "hanna-square-exponent-and-related-congruences"
+}

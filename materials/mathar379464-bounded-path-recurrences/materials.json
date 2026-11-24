@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24486647",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/mathar379464-bounded-path-recurrences/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/mathar379464-bounded-path-recurrences",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/mathar379464-bounded-path-recurrences/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "mathar379464-bounded-path-recurrences"
+}

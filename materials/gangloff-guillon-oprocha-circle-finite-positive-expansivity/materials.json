@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24485946",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/gangloff-guillon-oprocha-circle-finite-positive-expansivity/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/gangloff-guillon-oprocha-circle-finite-positive-expansivity",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/gangloff-guillon-oprocha-circle-finite-positive-expansivity/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "gangloff-guillon-oprocha-circle-finite-positive-expansivity"
+}

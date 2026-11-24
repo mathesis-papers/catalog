@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24413788",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/karp-sf21-legendre-turan/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/karp-sf21-legendre-turan",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/karp-sf21-legendre-turan/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "karp-sf21-legendre-turan"
+}

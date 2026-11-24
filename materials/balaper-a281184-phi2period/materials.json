@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24411960",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/balaper-a281184-phi2period/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/balaper-a281184-phi2period",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/balaper-a281184-phi2period/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "balaper-a281184-phi2period"
+}

@@ -7,6 +7,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24483571",
+      "id": "a374338-circle-vertices",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24212412",
       "id": "abbott-2019-sequential-weak-pointer-bound",
       "kind": "collected",
@@ -55,6 +61,18 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24488906",
+      "id": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24413780",
+      "id": "arvind-commuting-graph-prime-sixth-order",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23884883",
       "id": "b164660-chebfloor",
       "kind": "collected",
@@ -65,6 +83,12 @@
       "id": "bajnok-beatty-original-conjecture-4-1",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24487480",
+      "id": "bala-a292179-a292178-bilateral-logarithm",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.24405774",
@@ -79,6 +103,12 @@
       "version": 4
     },
     {
+      "doi": "10.5281/zenodo.24413782",
+      "id": "bala337389",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24411944",
       "id": "balaper-a281181-phi2period",
       "kind": "collected",
@@ -91,14 +121,32 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24411960",
+      "id": "balaper-a281184-phi2period",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24411962",
       "id": "balaper-a281440-phi2period",
       "kind": "collected",
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24412932",
+      "id": "balaper-phi2period",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24411966",
       "id": "banica-ozteke-pittau-2018-truncation-isolation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24482895",
+      "id": "barker-2018-oeis-a299289-tsi-coordination-sequence",
       "kind": "collected",
       "version": 2
     },
@@ -115,8 +163,20 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24482905",
+      "id": "bonamagarichey-2026-extremal-frequency",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24212421",
       "id": "bouafia-diversity-negative-type",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24445668",
+      "id": "brown-cameron-2020-irrational-imaginary-independence-root",
       "kind": "collected",
       "version": 2
     },
@@ -145,8 +205,26 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24488109",
+      "id": "cheon-riordan-bell-inertia-611",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.23935000",
       "id": "chiral-event-parity-minimality",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24487234",
+      "id": "choi-yoo-kim-kwon-won-healing-chains",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24414702",
+      "id": "clarisse-wocjan-2005-permutation-criteria-classification",
       "kind": "collected",
       "version": 2
     },
@@ -155,6 +233,12 @@
       "id": "consiglio-apollaro-wiesniak-2022-xmems-css-shape",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24445675",
+      "id": "coons-strict-adjacent-multiplicity-growth",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.24445683",
@@ -187,14 +271,44 @@
       "version": 4
     },
     {
+      "doi": "10.5281/zenodo.24488525",
+      "id": "dfl514-selfconj",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24406592",
       "id": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold",
       "kind": "collected",
       "version": 3
     },
     {
+      "doi": "10.5281/zenodo.24487343",
+      "id": "ekene-accumulated-sparse-errors",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24488119",
+      "id": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24484819",
+      "id": "finch-unimodular-zerofree-six",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24408308",
       "id": "finch-zero-runs",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24485946",
+      "id": "gangloff-guillon-oprocha-circle-finite-positive-expansivity",
       "kind": "collected",
       "version": 3
     },
@@ -259,6 +373,30 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24486635",
+      "id": "hanna-self-substitution-integrality",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24488317",
+      "id": "hanna-square-exponent-and-related-congruences",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24484628",
+      "id": "hanna-square-exponent-integrality",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24486987",
+      "id": "hardin-barker-a202330",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23903301",
       "id": "hardin-barker-a209723-edge-differences",
       "kind": "collected",
@@ -271,6 +409,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24487246",
+      "id": "hardin-barker-trace-array-formulas",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24411970",
       "id": "hardin1857-traceavoid",
       "kind": "collected",
@@ -279,6 +423,18 @@
     {
       "doi": "10.5281/zenodo.24410609",
       "id": "hardin185765",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24445694",
+      "id": "hardin233156",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24414706",
+      "id": "hardin233163-king-arrays",
       "kind": "collected",
       "version": 2
     },
@@ -297,6 +453,12 @@
     {
       "doi": "10.5281/zenodo.23904468",
       "id": "hexagon-perp-line-counterexamples",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24415599",
+      "id": "hsw17",
       "kind": "collected",
       "version": 2
     },
@@ -343,8 +505,38 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24413788",
+      "id": "karp-sf21-legendre-turan",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24484448",
+      "id": "keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24404944",
       "id": "khesin-li-2024-bipartite-encoder-equivalence",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24485545",
+      "id": "kim-stolarsky-eventual-three-prefix-conjecture",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24489054",
+      "id": "kimberling-rational-enumeration",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24413790",
+      "id": "klanderman-conjecture-4-2",
       "kind": "collected",
       "version": 2
     },
@@ -379,8 +571,44 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24412937",
+      "id": "kurkov-a263634-log-polynomials",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24410093",
       "id": "kurkov-a340991-convolution-row-recursion",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24446052",
+      "id": "kurkov-binary-stirling-row-edge",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24414711",
+      "id": "larotonda-principal-log-distance",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24484270",
+      "id": "li-poon-sze-2011-p2-realignment-gap",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24414717",
+      "id": "liu-wesolowski-2026-ordinary-fractional-evolution",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24488320",
+      "id": "luo-mccullough-tsikalas-pseudo-pick-quotient",
       "kind": "collected",
       "version": 2
     },
@@ -391,14 +619,44 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24446056",
+      "id": "ma2013-dsspectral-equal-blocks",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.23920583",
       "id": "malkoun-2026-mo512579-jordan-elementary",
       "kind": "collected",
       "version": 1
     },
     {
+      "doi": "10.5281/zenodo.24487348",
+      "id": "manju-sharma-outer-twisted-derivations",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24483900",
+      "id": "markey-five-site-growth-identity",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24412942",
+      "id": "mathar-2012-a081124-recurrence",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24408321",
       "id": "mathar-2012-a084261-recurrence",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24413794",
+      "id": "mathar-a000159-recurrence",
       "kind": "collected",
       "version": 2
     },
@@ -417,6 +675,24 @@
     {
       "doi": "10.5281/zenodo.24407268",
       "id": "mathar-a386829-recurrence-dfinite",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24414721",
+      "id": "mathar-square-root-quotient-recurrence",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24486647",
+      "id": "mathar379464-bounded-path-recurrences",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24446063",
+      "id": "mathex-2026-mo511715-cutoff-bound",
       "kind": "collected",
       "version": 2
     },
@@ -445,10 +721,22 @@
       "version": 3
     },
     {
+      "doi": "10.5281/zenodo.24486341",
+      "id": "mertens-range-two-stable-matching",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24210281",
       "id": "mukherjee-banerjee-sengupta-sen-2021-bubble-eigenstate-degeneracy",
       "kind": "collected",
       "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24477547",
+      "id": "mukherjee-ray-ordered-connected-forcing-crossing",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.24407822",
@@ -469,6 +757,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24488698",
+      "id": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24405795",
       "id": "noe-2013-a222759-prime-cube-growth",
       "kind": "collected",
@@ -477,6 +771,12 @@
     {
       "doi": "10.5281/zenodo.24407271",
       "id": "oeis-a086205-bala-complex-shift-determinant-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24488706",
+      "id": "oeis-a094373-ianakiev-shortest-ruler-palindrome",
       "kind": "collected",
       "version": 2
     },
@@ -491,6 +791,24 @@
       "id": "oeis-a130095-ratio-limit",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24487649",
+      "id": "oeis-a146304-maximal-bishop-growth-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24487651",
+      "id": "oeis-a157100-five-term-recurrence",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24415604",
+      "id": "oeis-a188475-original-shifted-hankel",
+      "kind": "collected",
+      "version": 4
     },
     {
       "doi": "10.5281/zenodo.23957584",
@@ -511,8 +829,20 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24486346",
+      "id": "oeis-a288476-replacement-iterate-length",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24407275",
       "id": "oeis-a322026-sequence-machine-dirichlet-inverse-identity",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24413798",
+      "id": "oeis-a351858-bala-coefficient-identity",
       "kind": "collected",
       "version": 2
     },
@@ -565,10 +895,28 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24415608",
+      "id": "ordowski",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24410613",
       "id": "oudra-a248186-cubic-floor",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24412948",
+      "id": "ovsienko-tabachnikov-first-dual-somos-integrality",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24414723",
+      "id": "palindromic-density",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.23920610",
@@ -587,6 +935,12 @@
       "id": "projective-toric-design-subgroup-counterexample",
       "kind": "collected",
       "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24413802",
+      "id": "quaternionic-deutsch-equality",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.23919071",
@@ -609,6 +963,18 @@
     {
       "doi": "10.5281/zenodo.24211823",
       "id": "schnell-ketzmerick-eckardt-2018-bose-selection-cubic-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24484082",
+      "id": "schulte-implicit-power-coefficients",
+      "kind": "collected",
+      "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24485552",
+      "id": "shao-zhao-italian-cycle-closed-form",
       "kind": "collected",
       "version": 2
     },
@@ -651,6 +1017,12 @@
     {
       "doi": "10.5281/zenodo.24410617",
       "id": "sun-a006077-hankel-determinants",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24484829",
+      "id": "sun346934-sign-composite-permanents",
       "kind": "collected",
       "version": 2
     },
@@ -737,8 +1109,14 @@
       "id": "zhan-gupta-hillery-detector-sensor-flat-averaging",
       "kind": "collected",
       "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24477884",
+      "id": "zoroa-strong-dominance-counterexample",
+      "kind": "collected",
+      "version": 3
     }
   ],
-  "generated_at": "2026-11-23T15:30:16.621266994Z",
+  "generated_at": "2026-11-24T10:36:30.424755491Z",
   "schema": "mathesis.archive-index.v1"
 }

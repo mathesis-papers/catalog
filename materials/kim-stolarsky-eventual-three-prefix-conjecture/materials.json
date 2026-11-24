@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24485545",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/kim-stolarsky-eventual-three-prefix-conjecture/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/kim-stolarsky-eventual-three-prefix-conjecture",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/kim-stolarsky-eventual-three-prefix-conjecture/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "kim-stolarsky-eventual-three-prefix-conjecture"
+}

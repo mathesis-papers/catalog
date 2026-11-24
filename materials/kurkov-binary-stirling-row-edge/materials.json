@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24446052",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/kurkov-binary-stirling-row-edge/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/kurkov-binary-stirling-row-edge",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/kurkov-binary-stirling-row-edge/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "kurkov-binary-stirling-row-edge"
+}

@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24413802",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/quaternionic-deutsch-equality/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/quaternionic-deutsch-equality",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/quaternionic-deutsch-equality/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "quaternionic-deutsch-equality"
+}

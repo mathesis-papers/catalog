@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24488525",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/dfl514-selfconj/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/dfl514-selfconj",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/dfl514-selfconj/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "dfl514-selfconj"
+}

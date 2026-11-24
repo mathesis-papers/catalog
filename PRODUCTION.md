@@ -28,9 +28,17 @@ version becomes a new candidate in its original repository.
 
 GitHub's organization App token is read only by the publisher. CMA receives
 only public, hash-bound source inputs and immutable repository/template/skill
-pins. Its separate NyxID proxy key is stored in the Actions secret
-`MATHESIS_MATERIALS_CMA_TOKEN`. It is restricted to the personal CMA service;
-no publisher credential is copied to CMA. Rotate it before the expiry recorded
+pins. Its separate bearer credential is stored in the Actions secret
+`MATHESIS_MATERIALS_CMA_TOKEN`. The material adapter uses CMA's official
+`https://cma.nyxid.ai` lifecycle API. NyxID-issued owner access tokens are accepted
+by that API; its authorization still applies. The former NyxID proxy origin
+remains an explicit compatibility option. That proxy currently rejects adding
+an agent to an owned workspace created directly in CMA, so new internal work
+pins the official endpoint in its original intent. Pre-migration intents retain
+the former broker, including uncertain creates; changing a default never
+replays one of those requests through another admission system. Tokens are sent only to the allowlisted CMA/NyxID
+origins; credentials in URLs, alternate ports, queries and redirects are refused.
+No publisher credential is copied to CMA. Rotate it before the expiry recorded
 in the operator's credential receipt. Configure `CMA_COLLECTION_WORKSPACE` for
 an existing live Mathesis workspace. The previous `CMA_EXTERNAL_WORKSPACE`
 setting is accepted as a fallback. `execution_mode=shared` and
@@ -38,8 +46,12 @@ setting is accepted as a fallback. `execution_mode=shared` and
 machine using GPT-6.2 Sol with high reasoning effort. Existing admitted tasks
 keep their original model and operation; model changes apply to new admissions.
 Host rendering and publishing remain serialized. Finished
-sources waiting for the renderer are also bounded by that capacity. No machine
-is reserved for hypothetical external submissions. `lanes=["collection"]`
+sources waiting for the renderer are also bounded by that capacity.
+The operator assigns two fixed sandboxes: internal collected-paper materials
+use `CMA_COLLECTION_WORKSPACE`; external review uses the separate
+`CMA_EXTERNAL_WORKSPACE`. Both observed allocations have 8192 MiB memory.
+Each job keeps its original context; processes inside one assigned sandbox
+provide concurrency. `lanes=["collection"]`
 admits our collected papers during
 preparation. An explicitly configured `isolated` mode retains distinct-sandbox
 checks. No route creates a new sandbox.

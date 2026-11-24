@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24484082",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/schulte-implicit-power-coefficients/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/schulte-implicit-power-coefficients",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/schulte-implicit-power-coefficients/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "schulte-implicit-power-coefficients"
+}

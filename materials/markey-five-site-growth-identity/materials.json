@@ -1,0 +1,14 @@
+{
+  "doi": "10.5281/zenodo.24483900",
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/markey-five-site-growth-identity/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/markey-five-site-growth-identity",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/markey-five-site-growth-identity/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "markey-five-site-growth-identity"
+}

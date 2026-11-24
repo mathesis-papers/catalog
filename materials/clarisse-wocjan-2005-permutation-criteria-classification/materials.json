@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24414702",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/clarisse-wocjan-2005-permutation-criteria-classification/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/clarisse-wocjan-2005-permutation-criteria-classification",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/clarisse-wocjan-2005-permutation-criteria-classification/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "clarisse-wocjan-2005-permutation-criteria-classification"
+}

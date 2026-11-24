@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24414711",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/larotonda-principal-log-distance/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/larotonda-principal-log-distance",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/larotonda-principal-log-distance/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "larotonda-principal-log-distance"
+}

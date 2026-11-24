@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24414723",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/palindromic-density/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/palindromic-density",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/palindromic-density/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "palindromic-density"
+}

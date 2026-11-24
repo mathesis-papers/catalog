@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24412942",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/mathar-2012-a081124-recurrence/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/mathar-2012-a081124-recurrence",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/mathar-2012-a081124-recurrence/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "mathar-2012-a081124-recurrence"
+}

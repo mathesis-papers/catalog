@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24413780",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/arvind-commuting-graph-prime-sixth-order/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/arvind-commuting-graph-prime-sixth-order",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/arvind-commuting-graph-prime-sixth-order/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "arvind-commuting-graph-prime-sixth-order"
+}

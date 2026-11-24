@@ -1,0 +1,15 @@
+{
+  "doi": "10.5281/zenodo.24477884",
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/zoroa-strong-dominance-counterexample/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/zoroa-strong-dominance-counterexample",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/zoroa-strong-dominance-counterexample/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "zoroa-strong-dominance-counterexample"
+}

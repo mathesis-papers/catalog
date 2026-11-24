@@ -1,0 +1,14 @@
+{
+  "doi": "10.5281/zenodo.24488119",
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/feldman-wilce-bounded-cliques-open-chromatic-strictness/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/feldman-wilce-bounded-cliques-open-chromatic-strictness",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/feldman-wilce-bounded-cliques-open-chromatic-strictness/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "feldman-wilce-bounded-cliques-open-chromatic-strictness"
+}
