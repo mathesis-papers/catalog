@@ -1,5 +1,5 @@
 # Mathesis catalog
 
-This catalog is generated from public Mathesis records at snapshot time `2026-11-24T08:34:11.333684449Z`. It contains 188 public papers and 1285 registered statements. The organization is `mathesis-papers`.
+This catalog is generated from public Mathesis records at snapshot time `2026-11-24T09:24:04.34683885Z`. It contains 188 public papers and 1285 registered statements. The organization is `mathesis-papers`.
 
 The source authority is Mathesis; GitHub repositories are projections. See the profile for scope and counting rules.
