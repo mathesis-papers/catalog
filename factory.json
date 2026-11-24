@@ -2414,8 +2414,8 @@
       "work": "das-et-al-2025-onb-tomography-holevo-ratio"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24391330",
+      "doi": "10.5281/zenodo.24507291",
       "files": {
         "pdf": {
           "bytes": 102724,
@@ -2452,7 +2452,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -10684,5 +10683,5 @@
   "papers": 190,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-24T17:31:03.14151211Z"
+  "snapshot_time": "2026-11-24T18:33:10.12744898Z"
 }

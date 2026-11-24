@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-24T17:31:03.14151211Z`.
+Snapshot: `2026-11-24T18:33:10.12744898Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -49,7 +49,7 @@ Snapshot: `2026-11-24T17:31:03.14151211Z`.
 | [Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence](https://github.com/mathesis-papers/copeland-a131758) | 2 | [DOI](https://doi.org/10.5281/zenodo.24445683) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Bašić–Gottlieb–Krnc (2026), Section 5, Question 1 (p. 17): an alternative four-part proof after Mehat (2026), with explicit strategies and small-row stacking](https://github.com/mathesis-papers/crim-question-one-four-parts) | 2 | [DOI](https://doi.org/10.5281/zenodo.24406584) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Fixed-purity Holevo minima extending Das et al. (2025): a spectral proof of the full-ONB conjecture after Theorem 3 in Section 3.2.1](https://github.com/mathesis-papers/das-et-al-2025-onb-tomography-holevo-ratio) | 3 | [DOI](https://doi.org/10.5281/zenodo.24408305) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
-| [Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question](https://github.com/mathesis-papers/delgado-suer-yesil-2026-symmetrization-surjectivity) | 4 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 10 no target yet |
+| [Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question](https://github.com/mathesis-papers/delgado-suer-yesil-2026-symmetrization-surjectivity) | 4 | [DOI](https://doi.org/10.5281/zenodo.24507291) | Awaiting reading | 0 / 0 / 0 | 10 no target yet |
 | [Refuting the trace-distance case of axiom (T4) of Denis, Lacaille, Martin and Serrano-Ensástiga](https://github.com/mathesis-papers/10.5281-zenodo.23884884) | 4 | [DOI](https://doi.org/10.5281/zenodo.23884885) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction](https://github.com/mathesis-papers/dfl514-selfconj) | 2 | [DOI](https://doi.org/10.5281/zenodo.24488525) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [The F3 threshold is 2/3: the QSE conjecture of Ducuara, Susa and Skrzypczyk (arXiv:2406.03945v1, Section II, p. 3) and extensions of Milne et al. (2014), Mukherjee, Patro and Ganguly (2021), and Morelli et al. (2023)](https://github.com/mathesis-papers/ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold) | 3 | [DOI](https://doi.org/10.5281/zenodo.24406592) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
