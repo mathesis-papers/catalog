@@ -482,9 +482,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24488905",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24488906",
       "lean_source": {
         "revision": "106c79bbb6571a3dc7c60f4b2146860d56e88fc5",
         "url": "https://github.com/the-omega-institute/trureturing/blob/106c79bbb6571a3dc7c60f4b2146860d56e88fc5/D5/S1/Words/Palindromes/ThueMorseSharpPrefix.lean"
@@ -1610,9 +1610,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24488108",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24488109",
       "lean_source": {
         "revision": "79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb",
         "url": "https://github.com/the-omega-institute/trureturing/blob/79dfe4f731baccd42dd3c56cf6331a0ddd3cafdb/D5/S3/Combinatorics/SpectralGraph/RiordanBellInertiaRefutation.lean"
@@ -2127,9 +2127,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24488524",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24488525",
       "lean_source": {
         "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
         "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/Combinatorics/Partitions/OddPowerSelfConjugateCMP.lean"
@@ -2268,9 +2268,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24488118",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24488119",
       "lean_source": {
         "revision": "eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d",
         "url": "https://github.com/the-omega-institute/trureturing/blob/eac52692d71b89f89bd7c0d8c734ddc9c5d9e61d/D5/S3/Topology/StoneCech/DeletedSquareChromatic.lean"
@@ -2973,9 +2973,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24488316",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24488317",
       "lean_source": {
         "revision": "6974dba01daa1a25cc74b87a86c191e95fe2c681",
         "url": "https://github.com/the-omega-institute/trureturing/blob/6974dba01daa1a25cc74b87a86c191e95fe2c681/D5/S1/Recurrence/Residue/HannaA226838Congruence.lean"
@@ -4195,9 +4195,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24489053",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24489054",
       "lean_source": {
         "revision": "f3466406d8191001830cf15e84db4578d4891435",
         "url": "https://github.com/the-omega-institute/trureturing/blob/f3466406d8191001830cf15e84db4578d4891435/D5/S3/Arith/CounterSequences/KimberlingA371279.lean"
@@ -4853,9 +4853,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24488319",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24488320",
       "lean_source": {
         "revision": "8acf7efa41af7fc9ddbbd39571e7ef73462f4509",
         "url": "https://github.com/the-omega-institute/trureturing/blob/8acf7efa41af7fc9ddbbd39571e7ef73462f4509/D5/S3/HilbertOperators/ReproducingKernels/CompletePseudoPickQuotientRefutation.lean"
@@ -6030,9 +6030,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24488697",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24488698",
       "lean_source": {
         "revision": "2eae85555e169007ff5548c46eb63cd2408f877f",
         "url": "https://github.com/the-omega-institute/trureturing/blob/2eae85555e169007ff5548c46eb63cd2408f877f/D5/S3/ArithUnits/NguyenTanUnitaryCayleyPrimeSpectrum.lean#L669"
@@ -6171,9 +6171,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24488705",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24488706",
       "lean_source": {
         "revision": "3afaecc5507038586e39d8775afe7c0df3d4fc48",
         "url": "https://github.com/the-omega-institute/trureturing/blob/3afaecc5507038586e39d8775afe7c0df3d4fc48/D5/S1/Words/Palindromes/IanakievShortestRulerPalindrome.lean"

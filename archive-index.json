@@ -61,6 +61,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24488906",
+      "id": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24413780",
       "id": "arvind-commuting-graph-prime-sixth-order",
       "kind": "collected",
@@ -199,6 +205,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24488109",
+      "id": "cheon-riordan-bell-inertia-611",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.23935000",
       "id": "chiral-event-parity-minimality",
       "kind": "collected",
@@ -259,6 +271,12 @@
       "version": 4
     },
     {
+      "doi": "10.5281/zenodo.24488525",
+      "id": "dfl514-selfconj",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24406592",
       "id": "ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold",
       "kind": "collected",
@@ -269,6 +287,12 @@
       "id": "ekene-accumulated-sparse-errors",
       "kind": "collected",
       "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24488119",
+      "id": "feldman-wilce-bounded-cliques-open-chromatic-strictness",
+      "kind": "collected",
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.24484819",
@@ -353,6 +377,12 @@
       "id": "hanna-self-substitution-integrality",
       "kind": "collected",
       "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24488317",
+      "id": "hanna-square-exponent-and-related-congruences",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.24484628",
@@ -499,6 +529,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24489054",
+      "id": "kimberling-rational-enumeration",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24413790",
       "id": "klanderman-conjecture-4-2",
       "kind": "collected",
@@ -569,6 +605,12 @@
       "id": "liu-wesolowski-2026-ordinary-fractional-evolution",
       "kind": "collected",
       "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.24488320",
+      "id": "luo-mccullough-tsikalas-pseudo-pick-quotient",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.24407820",
@@ -715,6 +757,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24488698",
+      "id": "nguyen-tan-unitary-cayley-prime-zero-eigenvalue",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24405795",
       "id": "noe-2013-a222759-prime-cube-growth",
       "kind": "collected",
@@ -723,6 +771,12 @@
     {
       "doi": "10.5281/zenodo.24407271",
       "id": "oeis-a086205-bala-complex-shift-determinant-refutation",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24488706",
+      "id": "oeis-a094373-ianakiev-shortest-ruler-palindrome",
       "kind": "collected",
       "version": 2
     },
@@ -1063,6 +1117,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-24T05:31:40.836197868Z",
+  "generated_at": "2026-11-24T06:40:04.251833972Z",
   "schema": "mathesis.archive-index.v1"
 }

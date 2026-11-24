@@ -561,8 +561,8 @@
       "work": "alm2024-normal-extension-monotonicity"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24488905",
+      "doi": "10.5281/zenodo.24488906",
       "files": {
         "pdf": {
           "bytes": 83595,
@@ -599,7 +599,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1911,8 +1910,8 @@
       "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24488108",
+      "doi": "10.5281/zenodo.24488109",
       "files": {
         "pdf": {
           "bytes": 74063,
@@ -1949,7 +1948,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2528,8 +2526,8 @@
       "work": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24488524",
+      "doi": "10.5281/zenodo.24488525",
       "files": {
         "pdf": {
           "bytes": 82404,
@@ -2566,7 +2564,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2697,8 +2694,8 @@
       "work": "ekene-accumulated-sparse-errors"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24488118",
+      "doi": "10.5281/zenodo.24488119",
       "files": {
         "pdf": {
           "bytes": 103305,
@@ -2735,7 +2732,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3538,8 +3534,8 @@
       "work": "hanna-self-substitution-integrality"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24488316",
+      "doi": "10.5281/zenodo.24488317",
       "files": {
         "pdf": {
           "bytes": 85103,
@@ -3576,7 +3572,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4996,8 +4991,8 @@
       "work": "kim-stolarsky-eventual-three-prefix-conjecture"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24489053",
+      "doi": "10.5281/zenodo.24489054",
       "files": {
         "pdf": {
           "bytes": 79902,
@@ -5034,7 +5029,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -5784,8 +5778,8 @@
       "work": "liu-wesolowski-2026-ordinary-fractional-evolution"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24488319",
+      "doi": "10.5281/zenodo.24488320",
       "files": {
         "pdf": {
           "bytes": 96843,
@@ -5822,7 +5816,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -7185,8 +7178,8 @@
       "work": "nath2021-commuting-cn-conjecture2"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24488697",
+      "doi": "10.5281/zenodo.24488698",
       "files": {
         "pdf": {
           "bytes": 101692,
@@ -7223,7 +7216,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -7354,8 +7346,8 @@
       "work": "oeis-a086205-bala-complex-shift-determinant-refutation"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24488705",
+      "doi": "10.5281/zenodo.24488706",
       "files": {
         "pdf": {
           "bytes": 115459,
@@ -7392,7 +7384,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -10580,5 +10571,5 @@
   "papers": 188,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-24T05:31:40.836197868Z"
+  "snapshot_time": "2026-11-24T06:40:04.251833972Z"
 }
