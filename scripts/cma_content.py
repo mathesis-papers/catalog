@@ -72,14 +72,28 @@ def agent_name(work, key):
     return 'Mathesis materials ' + work[:30] + ' ' + key[:12]
 
 
+CMA_ORIGIN = "https://cma.nyxid.ai"
+LEGACY_CMA_PROXY = "https://api.nyxid.ai/api/v1/proxy/s/cma"
+
+
 class CMA:
-    def __init__(self, token, base="https://api.nyxid.ai/api/v1/proxy/s/cma"):
+    def __init__(self, token, base=CMA_ORIGIN):
         url = urllib.parse.urlsplit(base)
-        require((url.scheme == "https" and url.hostname == "api.nyxid.ai" and url.path == "/api/v1/proxy/s/cma")
-                or (url.scheme == "http" and url.hostname in ("localhost", "127.0.0.1")), "unexpected CMA endpoint")
+        public = url.scheme == "https" and url.port in (None, 443) and (
+            (url.hostname == "cma.nyxid.ai" and url.path in ("", "/"))
+            or (url.hostname == "api.nyxid.ai" and url.path == "/api/v1/proxy/s/cma"))
+        local = url.scheme == "http" and url.hostname in ("localhost", "127.0.0.1") and url.path in ("", "/")
+        require((public or local) and url.username is None and url.password is None
+                and not url.query and not url.fragment, "unexpected CMA endpoint")
         require(token and not any(c in token for c in "\r\n"), "missing CMA service credential")
         self.base, self.token = base.rstrip("/"), token
         self.opener = urllib.request.build_opener(NoRedirect())
+
+    def for_job(self, state):
+        # An uncertain pre-migration create must replay through its original
+        # broker. That broker owns its request identity and may transform keys.
+        base = state.get("cma_origin", LEGACY_CMA_PROXY)
+        return self if self.base == base else CMA(self.token, base)
 
     def call(self, method, path, body=None, key=None, missing=False):
         require(path.startswith("/api/") and ".." not in path, "unexpected CMA path")
@@ -185,12 +199,15 @@ def intent(envelope, paper_commit, catalog_commit, workspace, lane, projection=N
     require(len(request["initial_message"].encode()) <= 250 * 1024, "pinned public projection exceeds CMA input limit")
     return {"schema": "mathesis.cma-content.v1", "key": key, "lane": lane, "identity": envelope["identity"],
             "paper_commit": paper_commit, "catalog_commit": catalog_commit, "input_packet": projection, "request": request,
-            "idempotency_key": "mathesis:paper-materials:" + key, "phase": "intent", "created_at": serial.now()}
+            "idempotency_key": "mathesis:paper-materials:" + key, "cma_origin": CMA_ORIGIN,
+            "phase": "intent", "created_at": serial.now()}
 
 
 def reconcile(cma, state, save, other_workspace=None):
     """One bounded observation/admission. Never reset a failed or running job."""
     require(state["schema"] == "mathesis.cma-content.v1", "invalid CMA content checkpoint")
+    if isinstance(cma, CMA):
+        cma = cma.for_job(state)
     if state["phase"] == "intent":
         sandbox = cma.facts(state["request"]["workspace_id"])
         # Callers may still opt into isolation. Own-content serial production
