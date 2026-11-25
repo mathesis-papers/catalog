@@ -617,8 +617,8 @@
       "work": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24369099",
+      "doi": "10.5281/zenodo.24369100",
       "files": {
         "pdf": {
           "bytes": 97844,
@@ -655,7 +655,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1735,6 +1734,63 @@
       },
       "version": 2,
       "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 84910,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "e1b9ac427a41dfb343bc033828496fbf3ca79b3733782781d05be9bc9df50828",
+          "sha256": "e1b9ac427a41dfb343bc033828496fbf3ca79b3733782781d05be9bc9df50828"
+        },
+        "source": {
+          "bytes": 96782,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "cc8a21c86949067cec3c5d477f58af0dc04bd6da9637368e86bd01bf07a8496a",
+          "sha256": "cc8a21c86949067cec3c5d477f58af0dc04bd6da9637368e86bd01bf07a8496a"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Combinatorics/PolynomialTrees/BallotKimberlingMosesDoubleRootGeneration.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/bkm-double-root",
+      "site_url": "https://papers.trureturing.org/bkm-double-root/",
+      "title": "Resolving the double-root conjecture in Ballot–Kimberling–Moses (2017), Section 5, Table 5, p. 23",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "bkm-double-root"
     },
     {
       "concept_doi": "10.5281/zenodo.24445657",
@@ -3140,8 +3196,8 @@
       "work": "dfl514-selfconj"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.23970197",
+      "doi": "10.5281/zenodo.23970198",
       "files": {
         "pdf": {
           "bytes": 95802,
@@ -3178,7 +3234,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -9029,8 +9084,8 @@
       "work": "oeis-a351858-bala-coefficient-identity"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.23965147",
+      "doi": "10.5281/zenodo.23965149",
       "files": {
         "pdf": {
           "bytes": 77437,
@@ -9067,7 +9122,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -9710,8 +9764,8 @@
       "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.23970199",
+      "doi": "10.5281/zenodo.23970200",
       "files": {
         "pdf": {
           "bytes": 95787,
@@ -9748,7 +9802,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -11801,8 +11854,8 @@
       "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 210,
+  "papers": 211,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-25T20:30:39.946584148Z"
+  "snapshot_time": "2026-11-25T22:30:14.153495965Z"
 }

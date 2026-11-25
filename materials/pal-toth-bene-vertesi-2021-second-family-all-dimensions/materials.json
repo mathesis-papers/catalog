@@ -1,6 +1,7 @@
 {
-  "doi": null,
+  "doi": "10.5281/zenodo.23970200",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/pal-toth-bene-vertesi-2021-second-family-all-dimensions/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/pal-toth-bene-vertesi-2021-second-family-all-dimensions",

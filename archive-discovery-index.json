@@ -187,6 +187,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.23964155",
+      "id": "bkm-double-root",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24445658",
       "id": "bks11-14325-whole-event",
       "kind": "collected",
@@ -1237,6 +1243,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-25T20:30:39.946584148Z",
+  "generated_at": "2026-11-25T22:30:14.153495965Z",
   "schema": "mathesis.archive-index.v1"
 }

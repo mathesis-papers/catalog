@@ -8791,6 +8791,206 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:bkm-double-root:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Combinatorics/PolynomialTrees/BallotKimberlingMosesDoubleRootGeneration.lean"
+      },
+      "lineage": "collected:bkm-double-root:s1",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\ZZ": "\\mathbb Z"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bkm-double-root",
+      "scope": "in_scope",
+      "statement": "For $a\\geq1$ and $b\\geq0$, the first generation of $a+b(x-1)$ is\n\\begin{equation}\n d(a,b)=a+\\left\\lceil\\frac ba\\right\\rceil.\n\\end{equation}\nThe root has distance $0$. For $n\\geq1$, the complete generation is\n\\begin{equation}\n g_n=\\{(n,0)\\}\\ \\dot\\cup\\!\n \\bigcup_{a=1}^{n-1}\\{(a,b):a(n-a-1)<b\\leq a(n-a)\\}.\n\\end{equation}\nConsequently, for every $n\\geq0$,\n\\begin{equation}\n G_n=1+\\binom n2,\n\\end{equation}\nand for every $n\\geq3$,\n\\begin{equation}\n G_n=3G_{n-1}-3G_{n-2}+G_{n-3}.\n\\end{equation}\nHere $\\binom02=\\binom12=0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving the double-root conjecture in Ballot–Kimberling–Moses (2017), Section 5, Table 5, p. 23",
+      "toolchain": null,
+      "version": 2,
+      "work": "bkm-double-root"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:bkm-double-root:2:s2",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Combinatorics/PolynomialTrees/BallotKimberlingMosesDoubleRootGeneration.lean"
+      },
+      "lineage": "collected:bkm-double-root:s2",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\ZZ": "\\mathbb Z"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bkm-double-root",
+      "scope": "in_scope",
+      "statement": "In $\\ZZ[x]/(x^2-1)$, use the same two operations and first-occurrence\ngenerations. Then $G_0=1$ and $G_n=n$ for every $n\\geq1$.\nIn particular, $G_n=2G_{n-1}-G_{n-2}$ for all $n\\geq3$.\nThe Table 5 initial entry $G_3=4$ for this row is $3$ instead.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving the double-root conjecture in Ballot–Kimberling–Moses (2017), Section 5, Table 5, p. 23",
+      "toolchain": null,
+      "version": 2,
+      "work": "bkm-double-root"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:bkm-double-root:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Combinatorics/PolynomialTrees/BallotKimberlingMosesDoubleRootGeneration.lean"
+      },
+      "lineage": "collected:bkm-double-root:s3",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\ZZ": "\\mathbb Z"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bkm-double-root",
+      "scope": "in_scope",
+      "statement": "For the polynomial-form tree modulo $x^m-1$, where $m\\geq1$, write a\nreachable residue uniquely as $\\sum_{j=0}^{m-1}c_jx^j$ with $c_j\\geq0$.\nEvery such residue is reachable. For a nonzero residue, let\n$r=\\max\\{j:c_j>0\\}$ and $C=\\sum c_j$. Its distance is $C+r$.\nConsequently $G_0=1$ and\n\\[\n G_n=\\sum_{r=0}^{m-1}\\binom{n-1}{r}\\quad(n\\geq1),\\qquad\n \\sum_{n\\geq0}G_nz^n=1+\\sum_{r=0}^{m-1}\\frac{z^{r+1}}{(1-z)^{r+1}}.\n\\]\nHere a binomial coefficient is zero when $r>n-1$.\nIn particular, $m=3$ has the same generation sizes as the double-root\ntree, at every depth, although the quotient polynomials differ.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving the double-root conjecture in Ballot–Kimberling–Moses (2017), Section 5, Table 5, p. 23",
+      "toolchain": null,
+      "version": 2,
+      "work": "bkm-double-root"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:bkm-double-root:2:s4",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Combinatorics/PolynomialTrees/BallotKimberlingMosesDoubleRootGeneration.lean"
+      },
+      "lineage": "collected:bkm-double-root:s4",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\ZZ": "\\mathbb Z"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bkm-double-root",
+      "scope": "in_scope",
+      "statement": "For $q=x^2-x+1$, the first eleven generation sizes are\n\\[\nG_0,\\ldots,G_{10}=1,1,2,4,7,11,16,22,28,34,40.\n\\]\nMore precisely, $G_0=1$ and, for $n\\geq1$,\n\\begin{equation}\nG_n=\\sum_{j=0}^{5}\\mathbf1_{n\\geq j+1}\n       +\\sum_{j=1}^{5}(n-j-1)_+ +(n-6)_+,\n\\end{equation}\nwhere $t_+=\\max(t,0)$. Hence $G_n=6n-20$ for $n\\geq6$ and\n$G_n=2G_{n-1}-G_{n-2}$ for every $n\\geq8$; this onset is sharp.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving the double-root conjecture in Ballot–Kimberling–Moses (2017), Section 5, Table 5, p. 23",
+      "toolchain": null,
+      "version": 2,
+      "work": "bkm-double-root"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:bkm-double-root:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Combinatorics/PolynomialTrees/BallotKimberlingMosesDoubleRootGeneration.lean"
+      },
+      "lineage": "collected:bkm-double-root:s5",
+      "macros": {
+        "\\NN": "\\mathbb N",
+        "\\ZZ": "\\mathbb Z"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bkm-double-root",
+      "scope": "in_scope",
+      "statement": "For the hexagonal row the formal generating function is\n\\[\n \\sum_{n\\geq0}G_nz^n=\n \\frac{1-z+z^2+z^3+z^4+z^5+z^6+z^7}{(1-z)^2}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving the double-root conjecture in Ballot–Kimberling–Moses (2017), Section 5, Table 5, p. 23",
+      "toolchain": null,
+      "version": 2,
+      "work": "bkm-double-root"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:bks11-14325-whole-event:2:s1",
       "kind": "paper",
       "label": "Theorem",

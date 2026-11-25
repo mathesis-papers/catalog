@@ -529,9 +529,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24369099",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24369100",
       "lean_source": {
         "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
         "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
@@ -1453,6 +1453,53 @@
         }
       ],
       "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
+      "abstract_text": "We prove the conjectured recurrence for q(x)=x^2-2x+1 in Ballot–Kimberling–Moses (2017), Section 5, Table 5, page 23. The polynomial-form tree has G_n=1+binomial(n,2) for every n>=0, so its recurrence with coefficients (3,-3,1) holds from n=3. Value-and-derivative coordinates give an exact shortest-path formula. We also prove G_n=n for n>=1 modulo x^2-1, correcting G_3 from 4 to 3, and G_n=6n-20 for n>=6 modulo x^2-x+1, with recurrence starting at n=8. For x^m-1 we give exact distances and the count sum of binomial(n-1,r) for 0<=r<m and n>=1.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Combinatorics/PolynomialTrees/BallotKimberlingMosesDoubleRootGeneration.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 84910,
+        "sha256": "e1b9ac427a41dfb343bc033828496fbf3ca79b3733782781d05be9bc9df50828",
+        "url": "/api/v1/collected-papers/bkm-double-root/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T20:30:30.484965267Z",
+      "record": "bkm-double-root",
+      "repository_name": "bkm-double-root",
+      "source": {
+        "bytes": 96782,
+        "sha256": "cc8a21c86949067cec3c5d477f58af0dc04bd6da9637368e86bd01bf07a8496a",
+        "url": "/api/v1/collected-papers/bkm-double-root/files/source?version=2"
+      },
+      "title": "Resolving the double-root conjecture in Ballot–Kimberling–Moses (2017), Section 5, Table 5, p. 23",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T20:30:30.484965267Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "bkm-double-root"
     },
     {
       "abstract_text": "Starting from Blitvić, Kammoun and Steingrímsson's Jacobi-fraction theorem (Part II, arXiv:2611.12829v1, Theorem 9.2, 9 November 2026), we extend their congruence observations in Part I (arXiv:2610.29846v1, Section 7, item 11, p. 49) to finite linear recurrences modulo every integer coprime to six. In particular, the prescribed 14325 packing count is one modulo thirty-five for an odd number of windows and six for an even number. An alternative proof of the original modulo-ten and four-divisibility laws uses Wallner's rank recurrence and Catalan numbers. For prescribed mixtures of overlaps one and two we give product congruences and characterize exactly when the comparison poset has a separator.",
@@ -2641,9 +2688,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.23970197",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.23970198",
       "lean_source": {
         "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
         "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
@@ -7578,9 +7625,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.23965147",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.23965149",
       "lean_source": {
         "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
         "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S1/Recurrence/Invariants/HannaA378258ModSix.lean"
@@ -8142,9 +8189,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.23970199",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.23970200",
       "lean_source": {
         "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
         "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Quantum/Entanglement/BoundEntanglement/SecondFamilyAllDimensions.lean"
