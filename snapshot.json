@@ -3,8 +3,8 @@
   "generator_version": "0.1.0",
   "listings": {
     "collected-papers": {
-      "pages": 2,
-      "rows": 198
+      "pages": 3,
+      "rows": 202
     },
     "formalizations/confirmed": {
       "pages": 1,
@@ -20,11 +20,11 @@
     },
     "formalizations/preparing": {
       "pages": 14,
-      "rows": 1361
+      "rows": 1395
     },
     "formalizations/unverified": {
       "pages": 14,
-      "rows": 1361
+      "rows": 1395
     },
     "formalizations/verified": {
       "pages": 1,
@@ -48,12 +48,12 @@
     }
   },
   "rows": {
-    "nodes": 1361,
-    "works": 198
+    "nodes": 1395,
+    "works": 202
   },
   "schema_versions": {
     "catalog": "1",
     "snapshot": "1"
   },
-  "time": "2026-11-25T17:30:17.784948687Z"
+  "time": "2026-11-25T18:32:32.061196846Z"
 }

@@ -3711,6 +3711,474 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:bala-a258899-totient-period:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+      },
+      "lineage": "collected:bala-a258899-totient-period:s1",
+      "macros": {
+        "\\A": "A_{u,v}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a258899-totient-period",
+      "scope": "in_scope",
+      "statement": "For $u,v\\in\\mathbb Z$, $m\\geq1$, and $n\\geq2m+4$,\n\\begin{equation}\n \\A(n)\\equiv uv^n+vu^n\\pmod m,\n\\end{equation}\nand consequently\n\\begin{equation}\n \\A(n+\\varphi(m))\\equiv\\A(n)\\pmod m.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala-a258899-totient-period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:bala-a258899-totient-period:2:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+      },
+      "lineage": "collected:bala-a258899-totient-period:s10",
+      "macros": {
+        "\\A": "A_{u,v}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a258899-totient-period",
+      "scope": "in_scope",
+      "statement": "For A057625 \\cite{a057625}, let $L(n)=\\sum_{d\\mid n}n!/d!$, $n\\geq1$.\nThen $L(n)\\equiv1\\pmod m$ for every $m\\geq1$, $n\\geq2m$, and\n$\\sum_{n\\geq1}L(n)x^n/n!=\\sum_{d\\geq1}x^d/(d!(1-x^d))$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala-a258899-totient-period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s11",
+      "contributor": null,
+      "identity": "collected:bala-a258899-totient-period:2:s11",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+      },
+      "lineage": "collected:bala-a258899-totient-period:s11",
+      "macros": {
+        "\\A": "A_{u,v}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a258899-totient-period",
+      "scope": "in_scope",
+      "statement": "Let $P(n),B(n),F(n)$ denote A038041, A061095 and A236696,\nrespectively \\cite{other}; their offset is one. Then\n\\begin{align*}\n \\sum_{n\\geq1}P(n)\\frac{x^n}{n!}\n   &=\\sum_{k\\geq1}\\left(\\exp(x^k/k!)-1\\right),\\\\\n \\sum_{n\\geq1}B(n)\\frac{x^n}{n!}\n   &=\\sum_{k\\geq1}\\frac{x^k}{k!-x^k},\\\\\n \\sum_{n\\geq1}F(n)\\frac{x^n}{n!}\n   &=\\sum_{k\\geq1}\\left(\\exp(k^{k-1}x^k/k!)-1\\right).\n\\end{align*}\nAlso $P(n)=2$ exactly at prime $n$, and\n$0\\leq B(n)/n!-1\\leq n2^{-n/2}$.\nIf $H(n)$ is A320444 \\cite{a320444}, its prime specialization is\n$H(p+1)=1+(p+1)^{p-1}$ for every prime $p$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala-a258899-totient-period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s12",
+      "contributor": null,
+      "identity": "collected:bala-a258899-totient-period:2:s12",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+      },
+      "lineage": "collected:bala-a258899-totient-period:s12",
+      "macros": {
+        "\\A": "A_{u,v}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a258899-totient-period",
+      "scope": "in_scope",
+      "statement": "Three consecutive residues $2$ in A121860 need not begin a constant tail.\nModulo $89$, $(c(41),c(42),c(43),c(44))\\equiv(2,2,2,76)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala-a258899-totient-period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:bala-a258899-totient-period:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+      },
+      "lineage": "collected:bala-a258899-totient-period:s2",
+      "macros": {
+        "\\A": "A_{u,v}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a258899-totient-period",
+      "scope": "in_scope",
+      "statement": "If $m\\geq1$, $d,e\\geq2$, $n=de$, and $n\\geq2m+4$, then\n$m!\\mid n!/(d!e!)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala-a258899-totient-period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:bala-a258899-totient-period:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+      },
+      "lineage": "collected:bala-a258899-totient-period:s3",
+      "macros": {
+        "\\A": "A_{u,v}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a258899-totient-period",
+      "scope": "in_scope",
+      "statement": "For every integer $z$, $m\\geq1$, and $n\\geq m$,\n$z^{n+\\varphi(m)}\\equiv z^n\\pmod m$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala-a258899-totient-period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:bala-a258899-totient-period:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+      },
+      "lineage": "collected:bala-a258899-totient-period:s4",
+      "macros": {
+        "\\A": "A_{u,v}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a258899-totient-period",
+      "scope": "in_scope",
+      "statement": "The conjectures in A258899 and A258903 hold. Also,\n$c(n)\\equiv2\\pmod m$ for every $m\\geq1$ and $n\\geq2m+4$,\nproving the conjecture in A121860 (which was posed for $m\\geq3$).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala-a258899-totient-period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:bala-a258899-totient-period:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+      },
+      "lineage": "collected:bala-a258899-totient-period:s5",
+      "macros": {
+        "\\A": "A_{u,v}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a258899-totient-period",
+      "scope": "in_scope",
+      "statement": "We have $A_{u,v}(n)=A_{v,u}(n)$ and the formal identity\n\\begin{equation}\n \\sum_{n\\geq0}\\A(n)\\frac{x^n}{n!}\n =1+\\sum_{d\\geq1}\\frac{u^d}{d!}\\bigl(\\exp(vx^d)-1\\bigr).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala-a258899-totient-period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:bala-a258899-totient-period:2:s6",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+      },
+      "lineage": "collected:bala-a258899-totient-period:s6",
+      "macros": {
+        "\\A": "A_{u,v}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a258899-totient-period",
+      "scope": "in_scope",
+      "statement": "If $d,e\\geq2$ and $n=de$, every prime $p\\leq n$ divides $Q(n,d)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala-a258899-totient-period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:bala-a258899-totient-period:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+      },
+      "lineage": "collected:bala-a258899-totient-period:s7",
+      "macros": {
+        "\\A": "A_{u,v}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a258899-totient-period",
+      "scope": "in_scope",
+      "statement": "For every prime $p$, integer $u,v$, and $n\\geq p$,\n\\[\n \\A(n)\\equiv uv^n+vu^n\\pmod p,\\qquad\n \\A(n+p-1)\\equiv\\A(n)\\pmod p.\n\\]\nThus A258899 has period $10$ from $n=11$ modulo $11$,\nand A258903 has period $6$ from $n=7$ modulo $7$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala-a258899-totient-period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:bala-a258899-totient-period:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+      },
+      "lineage": "collected:bala-a258899-totient-period:s8",
+      "macros": {
+        "\\A": "A_{u,v}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a258899-totient-period",
+      "scope": "in_scope",
+      "statement": "For any integer-valued function $W(d,e)$,\n$\\sum_{d\\mid n}W(d,n/d)Q(n,d)$ is congruent to\n$W(1,n)+W(n,1)$ modulo $m$ if $n\\geq2m+4$, or modulo a prime\n$p$ if $n\\geq p$. In A386877 \\cite{a386877},\nall entries strictly between the endpoint $1$'s vanish modulo\nthe respective modulus in these ranges; the row sum is $c(n)$ for $n\\geq1$.\nThe sign of $T(n,k)$ is the divisibility indicator A113704 for $1\\leq k\\leq n$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala-a258899-totient-period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:bala-a258899-totient-period:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+      },
+      "lineage": "collected:bala-a258899-totient-period:s9",
+      "macros": {
+        "\\A": "A_{u,v}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala-a258899-totient-period",
+      "scope": "in_scope",
+      "statement": "The number of matrices with entries $1,\\ldots,n$, each used once,\nup to independent row and column permutations is $c(n)$.\nThe same count enumerates the labeled rectangular-band operations\n$(i,j)(k,l)=(i,l)$. Also $c(n)=2$ exactly when $n$ is prime.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala-a258899-totient-period"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:bala-a292179-a292178-bilateral-logarithm:3:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -7813,6 +8281,293 @@
       "toolchain": null,
       "version": 2,
       "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:bks11-14325-whole-event:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+      },
+      "lineage": "collected:bks11-14325-whole-event:s1",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[z^{#1}]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bks11-14325-whole-event",
+      "scope": "in_scope",
+      "statement": "We have $A_1=1$. For every $j\\geq1$, $A_j\\equiv1\\pmod5$; for $j\\geq2$,\n\\begin{equation}\n A_j\\equiv3C_j\\pmod4.\n\\end{equation}\nConsequently, for every $j\\geq1$,\n\\begin{align}\n A_j&\\equiv\n \\begin{cases}1&j+1=2^k\\text{ for some }k\\geq1,\\\\\n 6&\\text{otherwise}\\end{cases}\\pmod {10},\\\\\n 4\\nmid A_j&\\quad\\Longleftrightarrow\\quad\n j+1=2^i+2^p\\text{ for some }0\\leq p\\leq i.\n\\end{align}\nEqual exponents and exponent zero are included in~\\eqref{eq:four}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "bks11-14325-whole-event"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:bks11-14325-whole-event:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+      },
+      "lineage": "collected:bks11-14325-whole-event:s2",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[z^{#1}]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bks11-14325-whole-event",
+      "scope": "in_scope",
+      "statement": "Let $m\\geq2$ with $\\gcd(m,6)=1$, and let\n\\[\n r=\\min\\{s\\geq1:m\\mid 36s^2-1\\}.\n\\]\nThis integer exists, with $r\\leq(m-1)/6$ when $m\\equiv1\\pmod6$ and\n$r\\leq(m+1)/6$ when $m\\equiv5\\pmod6$.\nLet $J_r$ be the $r$ by $r$ matrix, indexed from zero, with\n\\[\n (J_r)_{h,h}=12h+6,\\quad (J_r)_{h,h+1}=1,\\quad\n (J_r)_{h,h-1}=36h^2-1,\n\\]\nwhere entries outside the matrix are omitted and all other entries\nare zero. Over $\\Z/m\\Z$,\n\\begin{equation}\n \\sum_{n\\geq0}a_nz^n\n =e_0^{\\mathsf T}(I-zJ_r)^{-1}e_0\n =\\frac{\\det\\bigl((I-zJ_r)_{\\widehat0,\\widehat0}\\bigr)}{\\det(I-zJ_r)}.\n\\end{equation}\nThe numerator deletes row and column zero; the empty determinant is one. If\n$D(z)=\\det(I-zJ_r)=1+d_1z+\\cdots+d_rz^r$, then\n\\begin{equation}\n a_n+d_1a_{n-1}+\\cdots+d_ra_{n-r}=0\\pmod m\n \\qquad(n\\geq r).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "bks11-14325-whole-event"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:bks11-14325-whole-event:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+      },
+      "lineage": "collected:bks11-14325-whole-event:s3",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[z^{#1}]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bks11-14325-whole-event",
+      "scope": "in_scope",
+      "statement": "For all $j\\geq1$,\n\\[\n A_j\\equiv6^{j-1}\\equiv\n \\begin{cases}1&j\\text{ odd},\\\\6&j\\text{ even}\\end{cases}\\pmod{35}.\n\\]\nFor $j\\geq2$, this strengthens the modulo-twenty consequence to\n\\begin{equation}\n A_j\\equiv36\\cdot6^{j-1}+35C_j\\pmod{140}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "bks11-14325-whole-event"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:bks11-14325-whole-event:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+      },
+      "lineage": "collected:bks11-14325-whole-event:s4",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[z^{#1}]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bks11-14325-whole-event",
+      "scope": "in_scope",
+      "statement": "For a nonempty sequence of prescribed $14325$ windows with successive\noverlaps one or two, let $j_1,\\ldots,j_a$ be the numbers of windows\nin its maximal blocks joined by overlaps two. Its count $B$ satisfies\n\\[\n B=\\prod_{\\ell=1}^a A_{j_\\ell},\\qquad\n B\\equiv6^{\\sum_\\ell(j_\\ell-1)}\\pmod{35}.\n\\]\nMoreover $B\\equiv1\\pmod5$, and\n\\[\n B\\equiv\\begin{cases}\n 1&\\text{every }j_\\ell+1\\text{ is a power of two},\\\\\n 6&\\text{otherwise}\n \\end{cases}\\pmod {10},\\qquad\n 4\\nmid B\\ \\Longleftrightarrow\\\n \\sum_{\\ell=1}^a\\bigl(s_2(j_\\ell+1)-1\\bigr)\\leq1.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "bks11-14325-whole-event"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:bks11-14325-whole-event:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+      },
+      "lineage": "collected:bks11-14325-whole-event:s5",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[z^{#1}]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bks11-14325-whole-event",
+      "scope": "in_scope",
+      "statement": "A prescribed $14325$ packing poset with overlaps one or two has a\nseparator if and only if at least two of its maximal overlap-two\nblocks contain at least two windows. In particular, a pure\noverlap-two packing has no separator, for every $j\\geq1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "bks11-14325-whole-event"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:bks11-14325-whole-event:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+      },
+      "lineage": "collected:bks11-14325-whole-event:s6",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[z^{#1}]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bks11-14325-whole-event",
+      "scope": "in_scope",
+      "statement": "For each pattern--overlap pair\n\\[\n (1324,2),\\ (14253,3),\\ (136245,3),\\ (142536,4),\n\\]\n\\[\n (1376245,3),\\ (369247815,5),\\ (162738495,7),\n\\]\nthe packing count has two-adic valuation $s_2(j+1)-1$ for $j\\geq1$.\nThus it is odd exactly when $j+1$ is a power of two, and fails to be\ndivisible by four exactly when $j+1$ is a sum of two powers of two,\nallowing equal exponents.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "bks11-14325-whole-event"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:bks11-14325-whole-event:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+      },
+      "lineage": "collected:bks11-14325-whole-event:s7",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Z": "\\mathbb Z",
+        "\\coef": "[z^{#1}]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bks11-14325-whole-event",
+      "scope": "in_scope",
+      "statement": "For every $j\\geq1$, the overlap-two counts for the four patterns\n$14325$, $52341$, $25314$ and $41352$ are equal. Each therefore\nsatisfies all the single-block congruences and finite modular\nrecurrences above.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+      "toolchain": null,
+      "version": 2,
+      "work": "bks11-14325-whole-event"
     },
     {
       "attribution": null,
@@ -12638,6 +13393,342 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+      },
+      "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s1",
+      "macros": {
+        "\\HS": "\\mathrm{HS}",
+        "\\Id": "I",
+        "\\cE": "\\mathcal E",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+      "scope": "in_scope",
+      "statement": "For every MIC in positive finite dimension,\n\\begin{equation}\n B_d-\\int S(\\cE(P))\\,d\\mu(P)\n =\\int D(\\cE(P)\\Vert\\sigma_P)\\,d\\mu(P)\n   +\\frac{(T-d)\\log2}{d(d+1)}.\n\\end{equation}\nBoth terms on the right are nonnegative. Equality in the entropy bound\nholds if and only if the original MIC is a SIC. At equality,\n\\begin{equation}\n \\cE(X)=\\frac{X+(\\tr X)\\Id}{d+1}\\qquad(X\\in M_d(\\mathbb C)).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+      "toolchain": null,
+      "version": 2,
+      "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+      },
+      "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s2",
+      "macros": {
+        "\\HS": "\\mathrm{HS}",
+        "\\Id": "I",
+        "\\cE": "\\mathcal E",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+      "scope": "in_scope",
+      "statement": "Let $P_1,\\ldots,P_N$ be pure projectors and $w_j>0$ with\n$\\sum_jw_j=1$ and\n\\[\n \\sum_jw_jP_j\\otimes P_j=\\frac{\\Id+F}{d(d+1)}.\n\\]\nFor every MIC, $\\sum_jw_jS(\\cE(P_j))\\leq B_d$, with equality if and\nonly if that MIC is a SIC.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+      "toolchain": null,
+      "version": 2,
+      "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+      },
+      "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s3",
+      "macros": {
+        "\\HS": "\\mathrm{HS}",
+        "\\Id": "I",
+        "\\cE": "\\mathcal E",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+      "scope": "in_scope",
+      "statement": "If $\\Delta=B_d-\\int S(\\cE(P))\\,d\\mu(P)$, then\n\\[\n 0\\leq T-d\\leq\\frac{d(d+1)}{\\log2}\\Delta,\n \\qquad\n \\int\\|\\cE(P)-\\sigma_P\\|_\\HS^2\\,d\\mu(P)\\leq2\\Delta.\n\\]\nBoth estimates also hold for the weighted average in\nCorollary~\\ref{cor:design}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+      "toolchain": null,
+      "version": 2,
+      "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+      },
+      "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s4",
+      "macros": {
+        "\\HS": "\\mathrm{HS}",
+        "\\Id": "I",
+        "\\cE": "\\mathcal E",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+      "scope": "in_scope",
+      "statement": "Let $E_1,\\ldots,E_m$ be nonzero positive effects summing to $\\Id$;\nlinear independence and $m=d^2$ are not assumed. The entropy bound and\n\\eqref{eq:gap} still hold, for Haar inputs or a positive input two-design.\nEquality holds exactly when\n$E_i=c_i\\Pi_i$, $c_i>0$, and\n\\begin{equation}\n \\sum_i\\frac{c_i}{d}\\Pi_i\\otimes\\Pi_i\n   =\\frac{\\Id+F}{d(d+1)}.\n\\end{equation}\nThus the normalized effects form a weighted projective two-design.\nEquality requires $m\\geq d^2$; at $m=d^2$ the measurement is a SIC.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+      "toolchain": null,
+      "version": 2,
+      "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+      },
+      "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s5",
+      "macros": {
+        "\\HS": "\\mathrm{HS}",
+        "\\Id": "I",
+        "\\cE": "\\mathcal E",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+      "scope": "in_scope",
+      "statement": "For $d>1$, if a MIC has channel\n$\\cE(X)=\\alpha X+(1-\\alpha)(\\tr X)\\Id/d$, then\n\\[\n T=1+(d^2-1)\\alpha,\\qquad \\frac1{d+1}\\leq\\alpha<1.\n\\]\nThe lower endpoint occurs exactly for SICs.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+      "toolchain": null,
+      "version": 2,
+      "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+      },
+      "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s6",
+      "macros": {
+        "\\HS": "\\mathrm{HS}",
+        "\\Id": "I",
+        "\\cE": "\\mathcal E",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+      "scope": "in_scope",
+      "statement": "Put $\\Phi=|\\Omega\\rangle\\langle\\Omega|$ with\n$|\\Omega\\rangle=d^{-1/2}\\sum_k|kk\\rangle$, and\n$J=(\\mathrm{id}\\otimes\\cE)(\\Phi)$,\n$\\tau=(\\Id+d\\Phi)/[d(d+1)]$. For any finite POVM as above,\n\\[\n \\log d+\\frac{d-1}{d}\\log(d+1)-S(J)\n =D(J\\Vert\\tau)+\\frac{T-d}{d^2}\\log(d+1).\n\\]\nEquality holds exactly for the weighted designs of\nCorollary~\\ref{cor:povm}; for a MIC it holds exactly for a SIC.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+      "toolchain": null,
+      "version": 2,
+      "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+      },
+      "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s7",
+      "macros": {
+        "\\HS": "\\mathrm{HS}",
+        "\\Id": "I",
+        "\\cE": "\\mathcal E",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+      "scope": "in_scope",
+      "statement": "Every unbiased rank-one qubit MIC is unitarily equivalent to a\nPauli-covariant MIC.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+      "toolchain": null,
+      "version": 2,
+      "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+      },
+      "lineage": "collected:debrota-stacey-2019-luders-entropy-saturation-sic:s8",
+      "macros": {
+        "\\HS": "\\mathrm{HS}",
+        "\\Id": "I",
+        "\\cE": "\\mathcal E",
+        "\\tr": "\\operatorname{tr}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+      "scope": "in_scope",
+      "statement": "A two-design does not in general reproduce the Haar average of the\nlargest output eigenvalue, even for an unbiased rank-one qubit MIC.\nThe entropy-saturation conclusion of the postscript nevertheless holds,\nby Theorem~\\ref{thm:main} or Corollary~\\ref{cor:design}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+      "toolchain": null,
+      "version": 2,
+      "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:delgado-suer-yesil-2026-symmetrization-surjectivity:4:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -15317,6 +16408,279 @@
       "toolchain": null,
       "version": 1,
       "work": "ggps2025"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:granvik-2024-a292273-real-part:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/Arith/Mobius/GranvikMobiusRealPart.lean"
+      },
+      "lineage": "collected:granvik-2024-a292273-real-part:s1",
+      "macros": {
+        "\\Rea": "\\operatorname{Re}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "granvik-2024-a292273-real-part",
+      "scope": "in_scope",
+      "statement": "For every positive integer $n$, with $i^2=-1$,\n\\begin{equation}\n a(n)=\\Rea\\bigl(\\mu(n)i^n\\bigr).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Granvik's real-part conjecture in OEIS A292273 (revision 24, FORMULA, 6 July 2024)",
+      "toolchain": null,
+      "version": 2,
+      "work": "granvik-2024-a292273-real-part"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:granvik-2024-a292273-real-part:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/Arith/Mobius/GranvikMobiusRealPart.lean"
+      },
+      "lineage": "collected:granvik-2024-a292273-real-part:s2",
+      "macros": {
+        "\\Rea": "\\operatorname{Re}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "granvik-2024-a292273-real-part",
+      "scope": "in_scope",
+      "statement": "For all $n,m\\geq1$,\n\\begin{align}\n a(n)&=(p(n)-1)\\mu(n)=b(n)-\\mu(n),\\\\\n a(2m)&=\\begin{cases}\\mu(m),&m\\text{ odd},\\\\0,&m\\text{ even},\\end{cases}\n \\\\\n a(n)\\ne0&\\quad\\Longleftrightarrow\\quad n\\text{ is even and squarefree}.\n \n\\end{align}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Granvik's real-part conjecture in OEIS A292273 (revision 24, FORMULA, 6 July 2024)",
+      "toolchain": null,
+      "version": 2,
+      "work": "granvik-2024-a292273-real-part"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:granvik-2024-a292273-real-part:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/Arith/Mobius/GranvikMobiusRealPart.lean"
+      },
+      "lineage": "collected:granvik-2024-a292273-real-part:s3",
+      "macros": {
+        "\\Rea": "\\operatorname{Re}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "granvik-2024-a292273-real-part",
+      "scope": "in_scope",
+      "statement": "For $m\\geq1$, $b(m)=-\\mu(2m)=a(2m)$. Consequently the A087003\ncomment of 18 September 2017 has the exact form\n\\[\n b(m)\\ne\\mu(m)\\quad\\Longleftrightarrow\\quad\n m\\text{ is even and squarefree}.\n\\]\nThe second column of A156241 satisfies $T(2m,2)=b(m)$.\nThe absolute values of A091069 equal $|b(m)|$.\nThe support also satisfies the A039956 criterion\n$|\\mathrm{A092673}(m)|=2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Granvik's real-part conjecture in OEIS A292273 (revision 24, FORMULA, 6 July 2024)",
+      "toolchain": null,
+      "version": 2,
+      "work": "granvik-2024-a292273-real-part"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:granvik-2024-a292273-real-part:2:s4",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/Arith/Mobius/GranvikMobiusRealPart.lean"
+      },
+      "lineage": "collected:granvik-2024-a292273-real-part:s4",
+      "macros": {
+        "\\Rea": "\\operatorname{Re}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "granvik-2024-a292273-real-part",
+      "scope": "in_scope",
+      "statement": "Let $S$ map positive integers to positive integers, with\n$S(2m)=m$ and $S(2m-1)$ even for every $m\\geq1$.\nFor any finite trajectory segment $n_0,\\ldots,n_L$ with\n$n_{j+1}=S(n_j)$ and $L\\geq0$,\n\\begin{equation}\n \\sum_{j=1}^{L}\\mu(n_j)=a(n_0)-a(n_L).\n\\end{equation}\nIn particular, if $n_L=1$, the sum excluding the initial term and\nincluding the terminal $1$ is $a(n_0)$, while the sum including both\nendpoints is $b(n_0)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Granvik's real-part conjecture in OEIS A292273 (revision 24, FORMULA, 6 July 2024)",
+      "toolchain": null,
+      "version": 2,
+      "work": "granvik-2024-a292273-real-part"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:granvik-2024-a292273-real-part:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/Arith/Mobius/GranvikMobiusRealPart.lean"
+      },
+      "lineage": "collected:granvik-2024-a292273-real-part:s5",
+      "macros": {
+        "\\Rea": "\\operatorname{Re}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "granvik-2024-a292273-real-part",
+      "scope": "in_scope",
+      "statement": "Let $h(n)$ be one at powers of two, including $1$, and zero otherwise\n(A209229). Then\n\\[\n p*b=\\delta,\\qquad b=\\mu*h,\\qquad\n \\sum_{d\\mid n}b(d)=h(n).\n\\]\nThe function $b$ is multiplicative, with $b(1)=1$ and, for $e\\geq1$,\n\\begin{equation}\n b(2^e)=0,\\qquad\n b(q^e)=\\begin{cases}-1,&e=1,\\\\0,&e\\geq2,\\end{cases}\n \\quad(q\\text{ an odd prime}).\n\\end{equation}\nFor $\\Rea(s)>1$, all the following series converge absolutely:\n\\begin{align}\n B(s):=\\sum_{n\\geq1}\\frac{b(n)}{n^s}\n &=\\frac{1}{(1-2^{-s})\\zeta(s)},&\n \\sum_{n\\geq1}\\frac{a(n)}{n^s}\n &=\\frac{1}{(2^s-1)\\zeta(s)}.\n\\end{align}\nThe absolute-value series is\n\\begin{equation}\n \\sum_{n\\geq1}\\frac{|a(n)|}{n^s}\n =\\frac{\\zeta(s)}{(1+2^s)\\zeta(2s)}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Granvik's real-part conjecture in OEIS A292273 (revision 24, FORMULA, 6 July 2024)",
+      "toolchain": null,
+      "version": 2,
+      "work": "granvik-2024-a292273-real-part"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:granvik-2024-a292273-real-part:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/Arith/Mobius/GranvikMobiusRealPart.lean"
+      },
+      "lineage": "collected:granvik-2024-a292273-real-part:s6",
+      "macros": {
+        "\\Rea": "\\operatorname{Re}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "granvik-2024-a292273-real-part",
+      "scope": "in_scope",
+      "statement": "There is a unique rational arithmetic function $c$ with $c(1)=1$ and\n$c*c=b$. It vanishes at even arguments and is multiplicative, with\n\\[\n c(q^e)=(-1)^e\\binom{1/2}{e}\\quad(q\\text{ odd prime},\\ e\\geq0).\n\\]\nIts reduced numerator and denominator are A318657 and A318658.\nAt odd arguments the latter denominator equals A046644, so replacing\nA318658 by A046644 in the quotient leaves the function $c$ unchanged.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Granvik's real-part conjecture in OEIS A292273 (revision 24, FORMULA, 6 July 2024)",
+      "toolchain": null,
+      "version": 2,
+      "work": "granvik-2024-a292273-real-part"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:granvik-2024-a292273-real-part:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/Arith/Mobius/GranvikMobiusRealPart.lean"
+      },
+      "lineage": "collected:granvik-2024-a292273-real-part:s7",
+      "macros": {
+        "\\Rea": "\\operatorname{Re}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "granvik-2024-a292273-real-part",
+      "scope": "in_scope",
+      "statement": "For a fixed prime $q$ and real $x\\to\\infty$, the number of squarefree\nintegers at most $x$ divisible by $q$ is\n\\[\n \\frac{x}{(q+1)\\zeta(2)}+O_q(\\sqrt{x}),\n\\]\nand the number not divisible by $q$ is\n$qx/((q+1)\\zeta(2))+O_q(\\sqrt{x})$.\nIn particular the support count of $a$ is\n$2x/\\pi^2+O(\\sqrt{x})$ and\n$v_k=(\\pi^2/2)k+O(\\sqrt{k})$; also\n$u_k=(\\pi^2/4)k+O(\\sqrt{k})$.\nMore generally, the $k$th squarefree multiple of $q$ is\n$(q+1)\\zeta(2)k+O_q(\\sqrt{k})$ and the $k$th squarefree integer\ncoprime to $q$ is $((q+1)/q)\\zeta(2)k+O_q(\\sqrt{k})$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Granvik's real-part conjecture in OEIS A292273 (revision 24, FORMULA, 6 July 2024)",
+      "toolchain": null,
+      "version": 2,
+      "work": "granvik-2024-a292273-real-part"
     },
     {
       "attribution": null,

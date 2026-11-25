@@ -659,6 +659,53 @@
       "work": "bajnok-beatty-original-conjecture-4-1"
     },
     {
+      "abstract_text": "The conjectures in Peter Bala's COMMENTS of 3 August 2025 in OEIS A258899 and 8 August 2025 in A258903 are proved: modulo every positive integer m, each sequence is eventually periodic with least eventual period dividing Euler's totient phi(m). The explicit sufficient onset is 2*m+4. A weighted divisor-factorial tail identity also proves the constant-tail conjecture in A121860 (COMMENTS, 8 August 2025), and gives the Carmichael exponent as an eventual period for all integer weights.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 88161,
+        "sha256": "70e3afdcae77d68b8c794a15eaab42924a4e3348be16de369b9cf659521bcd46",
+        "url": "/api/v1/collected-papers/bala-a258899-totient-period/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T18:20:49.841048373Z",
+      "record": "bala-a258899-totient-period",
+      "repository_name": "bala-a258899-totient-period",
+      "source": {
+        "bytes": 22151,
+        "sha256": "3b206e834c167c826229de1ae14676b17396a41feef79a7ff8580c36401e6743",
+        "url": "/api/v1/collected-papers/bala-a258899-totient-period/files/source?version=2"
+      },
+      "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T18:20:49.841048373Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "bala-a258899-totient-period"
+    },
+    {
       "abstract_text": "We prove the identity recorded in Paul D. Hanna's OEIS A293380 (October 7, 2017, revision 21, COMMENTS line 6) and posed as 'Conjecture' by Peter Bala in A292179 (March 2, 2025, revision 20, COMMENTS line 8): the bilateral series sum over nonzero integers n of (x-a^n)^n/n equals -Log(1-x) for |x|<1 and 0<|a|<1. The proof applies to complex parameters and the principal logarithm. A binomial expansion gives an absolutely summable triangular array whose columns cancel the negative-index terms. Both tails converge absolutely; their regular forms also give the unique continuous extension at a=0. Corollaries establish three pairs of complementary constants and the convergence of Hanna's iteration for a related zero. The same cancellation gives conditional two-tail and symmetric sums for |x|=1, x!=1, and 0<|a|<1.",
       "authors": [
         {
@@ -764,9 +811,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24409047",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24409048",
       "lean_source": {
         "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
         "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
@@ -1281,9 +1328,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24213299",
       "current_version": 5,
-      "doi": null,
+      "doi": "10.5281/zenodo.24375698",
       "lean_source": null,
       "license": "CC-BY-4.0",
       "msc": [],
@@ -1359,6 +1406,53 @@
         }
       ],
       "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
+      "abstract_text": "Starting from Blitvić, Kammoun and Steingrímsson's Jacobi-fraction theorem (Part II, arXiv:2611.12829v1, Theorem 9.2, 9 November 2026), we extend their congruence observations in Part I (arXiv:2610.29846v1, Section 7, item 11, p. 49) to finite linear recurrences modulo every integer coprime to six. In particular, the prescribed 14325 packing count is one modulo thirty-five for an odd number of windows and six for an even number. An alternative proof of the original modulo-ten and four-divisibility laws uses Wallner's rank recurrence and Catalan numbers. For prescribed mixtures of overlaps one and two we give product congruences and characterize exactly when the comparison poset has a separator.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 99673,
+        "sha256": "fd830090d49d1763968d7120c0c6e082af8df945f7a5336fcf9948f2679aa927",
+        "url": "/api/v1/collected-papers/bks11-14325-whole-event/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T17:47:05.337404162Z",
+      "record": "bks11-14325-whole-event",
+      "repository_name": "bks11-14325-whole-event",
+      "source": {
+        "bytes": 121875,
+        "sha256": "e40adac67531a8cb0cbffb04e8ffaddcfe9303aaba35550902a1ba2b93e5cb36",
+        "url": "/api/v1/collected-papers/bks11-14325-whole-event/files/source?version=2"
+      },
+      "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T17:47:05.337404162Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "bks11-14325-whole-event"
     },
     {
       "abstract_text": "For Bóna, Maga and Richey's extremal-frequency question (arXiv:2606.06655v2, revised September 9, 2026, Section 5.3, p. 19), we extend the classical frequency calculations of Lekkerkerker (1951), Chang (1986) and Kovačević (2018/2019) to classify the maximizers at lengths one, two and three by exact counting and generating functions. They are 0, 00, and the pair 100,001, respectively: the first two lengths contradict the unrestricted proposal, whereas length three agrees with it. We prove the authors' reducible-word frequency identity with its necessary boundary restriction, obtain all four complementary families, and show that their candidate frequencies decrease strictly to 1/2. The comparison with all competitors at lengths at least four is separate.",
@@ -1654,9 +1748,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24485686",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24485687",
       "lean_source": {
         "revision": "81968a52b83b3d79d4db8e60c34e05d953675dc0",
         "url": "https://github.com/the-omega-institute/trureturing/blob/81968a52b83b3d79d4db8e60c34e05d953675dc0/D5/S3/Combinatorics/ExtremalDensity/ChenLinFlipLimit.lean"
@@ -2124,9 +2218,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24488516",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24488517",
       "lean_source": {
         "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
         "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
@@ -2205,6 +2299,53 @@
         }
       ],
       "work": "das-et-al-2025-onb-tomography-holevo-ratio"
+    },
+    {
+      "abstract_text": "We prove Section III, Conjecture 1 immediately after Theorem 2 (p. 5) in DeBrota and Stacey, Physical Review A 100, 062327 (2019): a Luders minimal informationally complete channel attains the Haar-averaged output-entropy bound if and only if its measurement is itself a SIC, in every positive finite dimension. An exact entropy-deficit identity gives quantitative bounds, finite two-design tests and an arbitrary-finite-POVM equality characterization by weighted projective two-designs. The same decomposition recovers the entropy-exchange theorem and explains why the postscript's spectral-average replacement requires its saturation hypothesis.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 90386,
+        "sha256": "1654db2b0ea0e2d24b3ac450b49a205e4cd0416791e1e8720667c4449135c889",
+        "url": "/api/v1/collected-papers/debrota-stacey-2019-luders-entropy-saturation-sic/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T17:32:10.883408471Z",
+      "record": "debrota-stacey-2019-luders-entropy-saturation-sic",
+      "repository_name": "debrota-stacey-2019-luders-entropy-saturation-sic",
+      "source": {
+        "bytes": 16809,
+        "sha256": "4ebe2c766b50037dbfabd2520527d65af97d228c92fee326cd2d4084178dd195",
+        "url": "/api/v1/collected-papers/debrota-stacey-2019-luders-entropy-saturation-sic/files/source?version=2"
+      },
+      "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T17:32:10.883408471Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
     },
     {
       "abstract_text": "We extend Ma and Zhang's negative answer (2026, DOI 10.5281/zenodo.24391331, Section 2) to the surjectivity question in Delgado, Süer and Yeşil, A Symmetrization for Almost Symmetric Numerical Semigroups (arXiv:2611.14268v1, Section 5, p. 9, final paragraph): the row-deletion map omits not only targets containing 1, but also some reduced symmetric targets whose diagrams have no full cell below the diagonal. The ordered output elements satisfy b_i >= 2i; equality at b_1 = 2 forces every element below the conductor to be even. The smallest excluded reduced target has Frobenius number 7; under the full-cell restriction the minimum is 9. We give infinite excluded families, retain the exact ordinary fiber and fixed-point characterization, and distinguish fixed-source image bounds from fixed-target counts.",
@@ -2675,6 +2816,53 @@
         }
       ],
       "work": "ggps2025"
+    },
+    {
+      "abstract_text": "We prove Mats Granvik's conjecture in the FORMULA section of OEIS A292273, revision 24, dated 6 July 2024: the sequence that is zero at odd positive indices and -mu(n) at even indices equals Re(mu(n)i^n). The proof uses the four powers of i and the vanishing of the Möbius function on multiples of four. We also derive the adjacent parity and support formulas, prove a finite-trajectory identity for every map whose even branch halves and whose odd branch is even, and give the associated Dirichlet identities and support density. We correct the odd-prime-power formula and two reciprocal constants in the related entry A087003.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/Arith/Mobius/GranvikMobiusRealPart.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 104701,
+        "sha256": "3ac36d476c7f2ea25c7b0cbd476be5ea66d771f02d5f19cc01e124339660448c",
+        "url": "/api/v1/collected-papers/granvik-2024-a292273-real-part/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T18:21:57.371290768Z",
+      "record": "granvik-2024-a292273-real-part",
+      "repository_name": "granvik-2024-a292273-real-part",
+      "source": {
+        "bytes": 18337,
+        "sha256": "b66d3d790500180795263d91190096d4995b0048b0f5be6d24475862a30d2578",
+        "url": "/api/v1/collected-papers/granvik-2024-a292273-real-part/files/source?version=2"
+      },
+      "title": "Proof of Granvik's real-part conjecture in OEIS A292273 (revision 24, FORMULA, 6 July 2024)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T18:21:57.371290768Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "granvik-2024-a292273-real-part"
     },
     {
       "abstract_text": "Applying Pieter Mostert's finite-sum identity (OEIS A119951, October 12, 2012) and the minimal-exponent theorem of Cação, Falcão and Malonek (2017, Theorem 6), we give short proofs of Groux Roland's denominator conjecture and Alexander Staunton's linked exponent conjecture in the FORMULA section of OEIS A120069 (December 11, 2010 and February 28, 2026, respectively). For every positive index, the reduced denominator of the partial sum of scaled Catalan numbers equals that of its last summand; we also give its binary-digit form. We correct an index in the companion numerator entry and a minimum expression in the exponent entry.",
@@ -3393,9 +3581,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24484264",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24484265",
       "lean_source": {
         "revision": "81ea1b50693b21a1d6370aa3e18815afe5f96af2",
         "url": "https://github.com/the-omega-institute/trureturing/blob/81ea1b50693b21a1d6370aa3e18815afe5f96af2/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233254TriangleStrip.lean"
@@ -3910,9 +4098,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24488909",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24488910",
       "lean_source": {
         "revision": "bed437cb2aa5a2d3570eb2241767ad6de36d77cc",
         "url": "https://github.com/the-omega-institute/trureturing/blob/bed437cb2aa5a2d3570eb2241767ad6de36d77cc/D5/S3/Arith/Descartes/SplitPrimeSphereRadii.lean"
@@ -6497,9 +6685,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24446066",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24446067",
       "lean_source": {
         "revision": "a1ecee6d9de8eff7f246e1569bbd6211f2c471cd",
         "url": "https://github.com/the-omega-institute/trureturing/blob/a1ecee6d9de8eff7f246e1569bbd6211f2c471cd/D5/S3/Geometry/FiniteGeometry/NotikSingerChamber.lean"
@@ -7484,9 +7672,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.23927423",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24389041",
       "lean_source": {
         "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
         "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
@@ -8001,9 +8189,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24411971",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24411972",
       "lean_source": {
         "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
         "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S1/Words/Complexity/SahasrabudheEvenAdditiveComplexityMorphism.lean"

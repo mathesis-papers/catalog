@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/bks11-14325-whole-event/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/bks11-14325-whole-event",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/bks11-14325-whole-event/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "bks11-14325-whole-event"
+}

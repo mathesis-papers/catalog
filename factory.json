@@ -785,6 +785,63 @@
       "work": "bajnok-beatty-original-conjecture-4-1"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 88161,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "70e3afdcae77d68b8c794a15eaab42924a4e3348be16de369b9cf659521bcd46",
+          "sha256": "70e3afdcae77d68b8c794a15eaab42924a4e3348be16de369b9cf659521bcd46"
+        },
+        "source": {
+          "bytes": 22151,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "3b206e834c167c826229de1ae14676b17396a41feef79a7ff8580c36401e6743",
+          "sha256": "3b206e834c167c826229de1ae14676b17396a41feef79a7ff8580c36401e6743"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 12,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "eb2703740e8b4b97e408a80b2eb0d0940939dfc3",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eb2703740e8b4b97e408a80b2eb0d0940939dfc3/D5/S1/Recurrence/Periodic/BalaDivisorFactorialTotientPeriod.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/bala-a258899-totient-period",
+      "site_url": "https://papers.trureturing.org/bala-a258899-totient-period/",
+      "title": "Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "bala-a258899-totient-period"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24487479",
       "doi": "10.5281/zenodo.24487480",
       "files": {
@@ -897,8 +954,8 @@
       "work": "bala-machine3626-exact-halting-time"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24409047",
+      "doi": "10.5281/zenodo.24409048",
       "files": {
         "pdf": {
           "bytes": 93334,
@@ -935,7 +992,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1514,8 +1570,8 @@
       "work": "barker-tea-coordination-sequence"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24213299",
+      "doi": "10.5281/zenodo.24375698",
       "files": {
         "pdf": {
           "bytes": 83418,
@@ -1549,7 +1605,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1624,6 +1679,63 @@
       },
       "version": 2,
       "work": "bernath-a400645-consecutive-ratio"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 99673,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "fd830090d49d1763968d7120c0c6e082af8df945f7a5336fcf9948f2679aa927",
+          "sha256": "fd830090d49d1763968d7120c0c6e082af8df945f7a5336fcf9948f2679aa927"
+        },
+        "source": {
+          "bytes": 121875,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "e40adac67531a8cb0cbffb04e8ffaddcfe9303aaba35550902a1ba2b93e5cb36",
+          "sha256": "e40adac67531a8cb0cbffb04e8ffaddcfe9303aaba35550902a1ba2b93e5cb36"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "7b7707afe48bfe97846f5f4c44c709e53aec7178",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/7b7707afe48bfe97846f5f4c44c709e53aec7178/D5/S3/Combinatorics/Permutation/BlitvicKammounSteingrimsson14325Core.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/bks11-14325-whole-event",
+      "site_url": "https://papers.trureturing.org/bks11-14325-whole-event/",
+      "title": "Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "bks11-14325-whole-event"
     },
     {
       "concept_doi": "10.5281/zenodo.24482904",
@@ -1965,8 +2077,8 @@
       "work": "chen-chen-step-m-eulerian-parity-positivity"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24485686",
+      "doi": "10.5281/zenodo.24485687",
       "files": {
         "pdf": {
           "bytes": 79433,
@@ -2003,7 +2115,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2526,8 +2637,8 @@
       "work": "crim-question-one-four-parts"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24488516",
+      "doi": "10.5281/zenodo.24488517",
       "files": {
         "pdf": {
           "bytes": 89460,
@@ -2564,7 +2675,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2637,6 +2747,63 @@
       },
       "version": 3,
       "work": "das-et-al-2025-onb-tomography-holevo-ratio"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 90386,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "1654db2b0ea0e2d24b3ac450b49a205e4cd0416791e1e8720667c4449135c889",
+          "sha256": "1654db2b0ea0e2d24b3ac450b49a205e4cd0416791e1e8720667c4449135c889"
+        },
+        "source": {
+          "bytes": 16809,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "4ebe2c766b50037dbfabd2520527d65af97d228c92fee326cd2d4084178dd195",
+          "sha256": "4ebe2c766b50037dbfabd2520527d65af97d228c92fee326cd2d4084178dd195"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "0b9787cf2582188d0ab3da380adab3fa26bea39c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0b9787cf2582188d0ab3da380adab3fa26bea39c/D5/S3/Quantum/Measurements/LudersEntropySaturationSIC.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/debrota-stacey-2019-luders-entropy-saturation-sic",
+      "site_url": "https://papers.trureturing.org/debrota-stacey-2019-luders-entropy-saturation-sic/",
+      "title": "DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
     },
     {
       "concept_doi": "10.5281/zenodo.24391330",
@@ -3197,6 +3364,63 @@
       },
       "version": 1,
       "work": "ggps2025"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 104701,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "3ac36d476c7f2ea25c7b0cbd476be5ea66d771f02d5f19cc01e124339660448c",
+          "sha256": "3ac36d476c7f2ea25c7b0cbd476be5ea66d771f02d5f19cc01e124339660448c"
+        },
+        "source": {
+          "bytes": 18337,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "b66d3d790500180795263d91190096d4995b0048b0f5be6d24475862a30d2578",
+          "sha256": "b66d3d790500180795263d91190096d4995b0048b0f5be6d24475862a30d2578"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "3bedf2870aacc6e7f17353444aadaa49fb73157c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/3bedf2870aacc6e7f17353444aadaa49fb73157c/D5/S3/Arith/Mobius/GranvikMobiusRealPart.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/granvik-2024-a292273-real-part",
+      "site_url": "https://papers.trureturing.org/granvik-2024-a292273-real-part/",
+      "title": "Proof of Granvik's real-part conjecture in OEIS A292273 (revision 24, FORMULA, 6 July 2024)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "granvik-2024-a292273-real-part"
     },
     {
       "concept_doi": "10.5281/zenodo.24411278",
@@ -4039,8 +4263,8 @@
       "work": "hardin-barker-cyclic-repetitions"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24484264",
+      "doi": "10.5281/zenodo.24484265",
       "files": {
         "pdf": {
           "bytes": 93964,
@@ -4077,7 +4301,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -4657,8 +4880,8 @@
       "work": "hexagon-perp-line-counterexamples"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24488909",
+      "doi": "10.5281/zenodo.24488910",
       "files": {
         "pdf": {
           "bytes": 98374,
@@ -4695,7 +4918,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -7741,8 +7963,8 @@
       "work": "noe-2013-a222759-prime-cube-growth"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24446066",
+      "doi": "10.5281/zenodo.24446067",
       "files": {
         "pdf": {
           "bytes": 90856,
@@ -7779,7 +8001,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -8928,8 +9149,8 @@
       "work": "oeis-a401248-first-two-dense-divisor-block-minimum"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.23927423",
+      "doi": "10.5281/zenodo.24389041",
       "files": {
         "pdf": {
           "bytes": 99129,
@@ -8966,7 +9187,6 @@
       },
       "mode": "authored_book",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -9551,8 +9771,8 @@
       "work": "rowland-sistos-barron-2025-rank-sequences"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24411971",
+      "doi": "10.5281/zenodo.24411972",
       "files": {
         "pdf": {
           "bytes": 74792,
@@ -9589,7 +9809,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -11132,8 +11351,8 @@
       "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 198,
+  "papers": 202,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-25T17:30:17.784948687Z"
+  "snapshot_time": "2026-11-25T18:32:32.061196846Z"
 }
