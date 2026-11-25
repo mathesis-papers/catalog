@@ -97,6 +97,12 @@
       "version": 3
     },
     {
+      "doi": "10.5281/zenodo.24409048",
+      "id": "bala281428-factorial-valuations",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23971279",
       "id": "bala295462",
       "kind": "collected",
@@ -157,6 +163,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24375698",
+      "id": "bergman-question15",
+      "kind": "collected",
+      "version": 5
+    },
+    {
       "doi": "10.5281/zenodo.24369110",
       "id": "bernath-a400645-consecutive-ratio",
       "kind": "collected",
@@ -195,6 +207,12 @@
     {
       "doi": "10.5281/zenodo.23957560",
       "id": "chen-chen-step-m-eulerian-parity-positivity",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24485687",
+      "id": "chen-lin-direction-flip-threshold-limit",
       "kind": "collected",
       "version": 2
     },
@@ -249,6 +267,12 @@
     {
       "doi": "10.5281/zenodo.24406584",
       "id": "crim-question-one-four-parts",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24488517",
+      "id": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
       "kind": "collected",
       "version": 2
     },
@@ -409,6 +433,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24484265",
+      "id": "hardin-barker-six-column-colorings",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24487246",
       "id": "hardin-barker-trace-array-formulas",
       "kind": "collected",
@@ -459,6 +489,12 @@
     {
       "doi": "10.5281/zenodo.23904468",
       "id": "hexagon-perp-line-counterexamples",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24488910",
+      "id": "hohn-a390148-split-prime-shared-divisibility",
       "kind": "collected",
       "version": 2
     },
@@ -781,6 +817,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24446067",
+      "id": "notik-singer-chamber",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24407271",
       "id": "oeis-a086205-bala-complex-shift-determinant-refutation",
       "kind": "collected",
@@ -901,10 +943,10 @@
       "version": 3
     },
     {
-      "doi": "10.5281/zenodo.23927424",
+      "doi": "10.5281/zenodo.24389041",
       "id": "okada-2020-premerged-determinant-nonpalindromic",
       "kind": "collected",
-      "version": 2
+      "version": 3
     },
     {
       "doi": "10.5281/zenodo.24415608",
@@ -963,6 +1005,12 @@
     {
       "doi": "10.5281/zenodo.24381374",
       "id": "rowland-sistos-barron-2025-rank-sequences",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24411972",
+      "id": "sahas2015-even-additive-complexity-morphisms",
       "kind": "collected",
       "version": 2
     },
@@ -1129,6 +1177,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-25T13:32:01.245098576Z",
+  "generated_at": "2026-11-25T17:30:17.784948687Z",
   "schema": "mathesis.archive-index.v1"
 }

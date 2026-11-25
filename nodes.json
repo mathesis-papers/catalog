@@ -4335,6 +4335,334 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:bala281428-factorial-valuations:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+      },
+      "lineage": "collected:bala281428-factorial-valuations:s1",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala281428-factorial-valuations",
+      "scope": "in_scope",
+      "statement": "Equation \\eqref{eq:source} has a unique solution, which is even.\nIts coefficients satisfy $a(n)\\in\\Z$ and\n\\begin{equation}\nv_p(a(n))\\ \\geq\\ v_p((2n)!)\\qquad(n\\geq0,\\ p\\geq5\\text{ prime}).\n\\end{equation}\nConsequently, if $(N,6)=1$ and $N\\mid(2n)!$, then $N\\mid a(n)$.\nIn particular $n\\geq\\lceil N/2\\rceil$ is sufficient.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala281428-factorial-valuations"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:bala281428-factorial-valuations:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+      },
+      "lineage": "collected:bala281428-factorial-valuations:s2",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala281428-factorial-valuations",
+      "scope": "in_scope",
+      "statement": "For every $F\\in\\Z[s,c]$ and $j\\geq0$, the number\n$b_F(j)=j!\\coeff{x^j}{F(S(x),C(x))}$ is an integer, and\n$v_p(b_F(j))\\geq v_p(j!)$ for every prime $p\\geq5$.\nIn particular this holds for all columns\n$A(n,k)=(2n)!\\coeff{x^{2n}}{C^k}$ with $k\\geq0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala281428-factorial-valuations"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:bala281428-factorial-valuations:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+      },
+      "lineage": "collected:bala281428-factorial-valuations:s3",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala281428-factorial-valuations",
+      "scope": "in_scope",
+      "statement": "For $N\\geq1$ coprime to $6$, let\n\\[\n\\mu(N)=\\min\\{m\\geq0:N\\mid m!\\}.\n\\]\nThen $N\\mid a(n)$ for all $n\\geq\\lceil\\mu(N)/2\\rceil$.\nFor $N=385$ the least eventual-zero onset is $6$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala281428-factorial-valuations"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:bala281428-factorial-valuations:2:s4",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+      },
+      "lineage": "collected:bala281428-factorial-valuations:s4",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala281428-factorial-valuations",
+      "scope": "in_scope",
+      "statement": "For $k\\geq0$, $A(0,k)=1$, and for $n\\geq1$,\n\\begin{equation}\nA(n,k)=k(k+4)A(n-1,k+8)-k(k+3)A(n-1,k+6).\n\\end{equation}\nEvery $a(n)$ is odd, and $a(n)\\equiv(-1)^{n-1}\\pmod3$ for $n\\geq1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala281428-factorial-valuations"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:bala281428-factorial-valuations:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+      },
+      "lineage": "collected:bala281428-factorial-valuations:s5",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala281428-factorial-valuations",
+      "scope": "in_scope",
+      "statement": "For $N\\geq1$, $N$ divides all sufficiently late $a(n)$ if and only if\n$(N,6)=1$. In fact no $a(n)$ is divisible by $2$ or $3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala281428-factorial-valuations"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:bala281428-factorial-valuations:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+      },
+      "lineage": "collected:bala281428-factorial-valuations:s6",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala281428-factorial-valuations",
+      "scope": "in_scope",
+      "statement": "With the original offsets, put\n$h(n)=(2n-1)!\\coeff{x^{2n-1}}S$ for $n\\geq1$ (A281427), and\n$r(n)=(2n)!\\coeff{x^{2n}}{C^2}$ for $n\\geq0$ (A052502).\nFor $p\\geq5$, $v_p(h(n))\\geq v_p((2n-1)!)$.\nA positive $N$ eventually divides $h(n)$ exactly when $(N,6)=1$;\na sufficient onset is $\\lceil(\\mu(N)+1)/2\\rceil$.\nMoreover\n\\[\nr(n)=\\frac{(3n)!}{3^n n!},\\qquad\nv_p(r(n))\\geq v_p((2n)!)\\quad(p\\ne3).\n\\]\nA positive $N$ eventually divides $r(n)$ exactly when $3\\nmid N$,\nwith sufficient onset $\\lceil\\mu(N)/2\\rceil$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala281428-factorial-valuations"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:bala281428-factorial-valuations:2:s7",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+      },
+      "lineage": "collected:bala281428-factorial-valuations:s7",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala281428-factorial-valuations",
+      "scope": "in_scope",
+      "statement": "Modulo $27$, $a(n)$ has least eventual period $18$, and the earliest\nonset for this period is $n=2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala281428-factorial-valuations"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:bala281428-factorial-valuations:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+      },
+      "lineage": "collected:bala281428-factorial-valuations:s8",
+      "macros": {
+        "\\Q": "\\mathbb{Q}",
+        "\\Z": "\\mathbb{Z}",
+        "\\coeff": "[#1]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bala281428-factorial-valuations",
+      "scope": "in_scope",
+      "statement": "In A281183, \\textsc{Formula}, December 22, 2025, define polynomials\n$g_0(z)=1$ and $g_{j+1}(z)=(1+z^2)\\frac{d}{dz}((1+z^2)g_j(z))$.\nThen $g_{2n}(0)$ is the $n$th term of A281183, as suggested there.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+      "toolchain": null,
+      "version": 2,
+      "work": "bala281428-factorial-valuations"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:bala295462:4:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -6915,6 +7243,258 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:bergman-question15:5:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": null,
+      "lineage": "collected:bergman-question15:s1",
+      "macros": {
+        "\\C": "\\mathbb C"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bergman-question15",
+      "scope": "in_scope",
+      "statement": "For $S$ presented by~\\eqref{eq:generators}--\\eqref{eq:seven}, let\n$X=\\{x,y,z\\}$. The sixth-power map is injective on $X$ and takes no element\nof $X$ to zero. If $\\omega\\in\\C$ is a primitive cube root of unity, then\n\\[\nu=x+\\omega y+\\omega^2z\\in\\C X\n\\]\nis nonzero and satisfies $u^6=0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+      "toolchain": null,
+      "version": 5,
+      "work": "bergman-question15"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:bergman-question15:5:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": null,
+      "lineage": "collected:bergman-question15:s2",
+      "macros": {
+        "\\C": "\\mathbb C"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bergman-question15",
+      "scope": "in_scope",
+      "statement": "Let $F$ be a field of characteristic zero, and let $T$ be either $S$ or\n$\\bar S$. A nonzero element of $F\\{x,y,z\\}\\subseteq F_0T$ has sixth power\nzero if and only if $F$ contains a primitive cube root of unity.\nEvery nonzero element in the span of any two of $x,y,z$ has nonzero sixth power.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+      "toolchain": null,
+      "version": 5,
+      "work": "bergman-question15"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:bergman-question15:5:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": null,
+      "lineage": "collected:bergman-question15:s3",
+      "macros": {
+        "\\C": "\\mathbb C"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bergman-question15",
+      "scope": "in_scope",
+      "statement": "For every positive integer $n$ divisible by six and every characteristic-zero\nfield $F$ containing a primitive cube root of unity, there are commutative\nnilpotent semigroups with zero of sizes\n\\[\n\\binom{n+2}{3}+3\\quad\\hbox{and}\\quad \\frac{3n(n-1)}2+4\n\\]\nwhose three generators have distinct nonzero $n$th powers, although a\nnonzero element of their $F$-span has $n$th power zero.\nTheir nilpotency indices are $n+1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+      "toolchain": null,
+      "version": 5,
+      "work": "bergman-question15"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:bergman-question15:5:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": null,
+      "lineage": "collected:bergman-question15:s4",
+      "macros": {
+        "\\C": "\\mathbb C"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bergman-question15",
+      "scope": "in_scope",
+      "statement": "The branch of Bergman's Question 19 that drops commutativity from\nQuestion 15 also has answer no. There is even a strictly noncommutative\nnilpotent example with $196$ elements at $n=6$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+      "toolchain": null,
+      "version": 5,
+      "work": "bergman-question15"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:bergman-question15:5:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": null,
+      "lineage": "collected:bergman-question15:s5",
+      "macros": {
+        "\\C": "\\mathbb C"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bergman-question15",
+      "scope": "in_scope",
+      "statement": "There is a $632$-element commutative nilpotent semigroup with zero\nand two generators having distinct nonzero $35$th powers, while their\nspan in its contracted algebra over every characteristic-zero field\ncontains a nonzero element with $35$th power zero.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+      "toolchain": null,
+      "version": 5,
+      "work": "bergman-question15"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:bergman-question15:5:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": null,
+      "lineage": "collected:bergman-question15:s6",
+      "macros": {
+        "\\C": "\\mathbb C"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bergman-question15",
+      "scope": "in_scope",
+      "statement": "For every $n\\ge2$, the Question-15 branch of Bergman's Question 19\nhas a strictly noncommutative nilpotent example of $2n+1$ elements\nover every characteristic-zero field. In particular, $13$ elements\nsuffice at $n=6$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+      "toolchain": null,
+      "version": 5,
+      "work": "bergman-question15"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:bergman-question15:5:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": null,
+      "lineage": "collected:bergman-question15:s7",
+      "macros": {
+        "\\C": "\\mathbb C"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "bergman-question15",
+      "scope": "in_scope",
+      "statement": "For these generating sets, the cardinalities $|X^d\\setminus\\{0\\}|$ for $1\\le d\\le6$\nare $(3,6,10,15,21,3)$ in $S$ and $(3,6,9,12,15,3)$ in $\\bar S$.\nThe element $0$ belongs to $X^6$ in both examples and is excluded from these counts.\nIn particular both examples satisfy the inequality asked for in\nQuestion 11 for this $X$ and $n=6$.\nMore generally, for the family in Corollary~\\ref{cor:multiples} the counts\nare $\\binom{d+2}{2}$ and $3d$, respectively, for $1\\le d<n$,\nand both are $3$ for $d=n$, so the same compatibility holds.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+      "toolchain": null,
+      "version": 5,
+      "work": "bergman-question15"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:bernath-a400645-consecutive-ratio:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -8777,6 +9357,170 @@
       "toolchain": null,
       "version": 2,
       "work": "chen-chen-step-m-eulerian-parity-positivity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:chen-lin-direction-flip-threshold-limit:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "81968a52b83b3d79d4db8e60c34e05d953675dc0",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/81968a52b83b3d79d4db8e60c34e05d953675dc0/D5/S3/Combinatorics/ExtremalDensity/ChenLinFlipLimit.lean"
+      },
+      "lineage": "collected:chen-lin-direction-flip-threshold-limit:s1",
+      "macros": {
+        "\\Hom": "\\operatorname{Hom}",
+        "\\TAS": "\\mathrm{TAS}",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "chen-lin-direction-flip-threshold-limit",
+      "scope": "in_scope",
+      "statement": "Let $\\mathcal D=\\{1\\}\\cup\\{(\\ph(w)+1)/|w|:\\ |w|\\geq1,\\ w\\text{ is not TAS}\\}$\nand $L=\\inf\\mathcal D$. Then\n\\[\n \\lim_{n\\to\\infty}\\frac{f(n)}n=L,\n \\qquad \\frac1{1665}\\leq L\\leq\\frac9{19},\n \\qquad \\frac{f(n)}n\\geq L-\\frac1n\\quad(n\\geq1).\n\\]\nMore explicitly, suppose $w$ has length $k\\geq1$, $r=\\ph(w)$, and\n$q=2^kt(w,T)>1$ in an $N$-vertex tournament. Then $N\\geq2$. Put\n\\begin{equation}\n c=\\frac{N-1}{N},\\qquad\n M=1+\\left\\lfloor\\frac{k\\log(1/c)}{\\log q}\\right\\rfloor.\n\\end{equation}\nFor every $n\\geq2kM$ there is a non-TAS word of length $n$ in this same $T$, and\n\\begin{equation}\n \\frac{f(n)}n\\leq\\frac{r+1}{k}+\\frac{2k}{n}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Convergence of Chen and Lin's direction-flip threshold",
+      "toolchain": null,
+      "version": 2,
+      "work": "chen-lin-direction-flip-threshold-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:chen-lin-direction-flip-threshold-limit:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "81968a52b83b3d79d4db8e60c34e05d953675dc0",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/81968a52b83b3d79d4db8e60c34e05d953675dc0/D5/S3/Combinatorics/ExtremalDensity/ChenLinFlipLimit.lean"
+      },
+      "lineage": "collected:chen-lin-direction-flip-threshold-limit:s2",
+      "macros": {
+        "\\Hom": "\\operatorname{Hom}",
+        "\\TAS": "\\mathrm{TAS}",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "chen-lin-direction-flip-threshold-limit",
+      "scope": "in_scope",
+      "statement": "For a real $N\\times N$ matrix $B$ with $\\mu(B)>1$ and an integer $m\\geq0$,\n\\[\n \\mu((BB^{\\mathsf T})^m)\\geq \\mu(B)^{2m}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Convergence of Chen and Lin's direction-flip threshold",
+      "toolchain": null,
+      "version": 2,
+      "work": "chen-lin-direction-flip-threshold-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:chen-lin-direction-flip-threshold-limit:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "81968a52b83b3d79d4db8e60c34e05d953675dc0",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/81968a52b83b3d79d4db8e60c34e05d953675dc0/D5/S3/Combinatorics/ExtremalDensity/ChenLinFlipLimit.lean"
+      },
+      "lineage": "collected:chen-lin-direction-flip-threshold-limit:s3",
+      "macros": {
+        "\\Hom": "\\operatorname{Hom}",
+        "\\TAS": "\\mathrm{TAS}",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "chen-lin-direction-flip-threshold-limit",
+      "scope": "in_scope",
+      "statement": "For any word $u$ and integer $s\\geq0$, some word $v$ of length $s$ satisfies\n\\[\n \\mu(B_{uv})\\geq c^s\\mu(B_u),\\qquad c=(N-1)/N.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Convergence of Chen and Lin's direction-flip threshold",
+      "toolchain": null,
+      "version": 2,
+      "work": "chen-lin-direction-flip-threshold-limit"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:chen-lin-direction-flip-threshold-limit:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "81968a52b83b3d79d4db8e60c34e05d953675dc0",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/81968a52b83b3d79d4db8e60c34e05d953675dc0/D5/S3/Combinatorics/ExtremalDensity/ChenLinFlipLimit.lean"
+      },
+      "lineage": "collected:chen-lin-direction-flip-threshold-limit:s4",
+      "macros": {
+        "\\Hom": "\\operatorname{Hom}",
+        "\\TAS": "\\mathrm{TAS}",
+        "\\ph": "\\varphi"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "chen-lin-direction-flip-threshold-limit",
+      "scope": "in_scope",
+      "statement": "For the threshold in~\\eqref{eq:threshold}, $L\\leq9/19<1/2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Convergence of Chen and Lin's direction-flip threshold",
+      "toolchain": null,
+      "version": 2,
+      "work": "chen-lin-direction-flip-threshold-limit"
     },
     {
       "attribution": null,
@@ -11193,6 +11937,384 @@
       "toolchain": null,
       "version": 2,
       "work": "crim-question-one-four-parts"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+      },
+      "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s1",
+      "macros": {
+        "\\Sym": "\\operatorname{Sym}",
+        "\\charge": "\\chi",
+        "\\supp": "\\operatorname{supp}",
+        "\\twist": "\\mathcal{B}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+      "scope": "in_scope",
+      "statement": "Full switching reachability is equivalent to connectivity of $\\Gamma$.\nFor $L\\geq3$, it is equivalent to transitivity of $D$ on $X$.\nFor $L=2$, it is equivalent to transitivity of $K$ on $X^2$, or equivalently to\n\\begin{equation}\n |K|=N^2\\,|K\\cap(H_a\\times H_a)|\n\\end{equation}\nfor some, equivalently every, $a\\in X$.\nFor any $L\\geq2$, full switching reachability implies that $D$ is transitive.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+      },
+      "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s2",
+      "macros": {
+        "\\Sym": "\\operatorname{Sym}",
+        "\\charge": "\\chi",
+        "\\supp": "\\operatorname{supp}",
+        "\\twist": "\\mathcal{B}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+      "scope": "in_scope",
+      "statement": "If $L\\geq3$, then $D^L\\leq R$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+      },
+      "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s3",
+      "macros": {
+        "\\Sym": "\\operatorname{Sym}",
+        "\\charge": "\\chi",
+        "\\supp": "\\operatorname{supp}",
+        "\\twist": "\\mathcal{B}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+      "scope": "in_scope",
+      "statement": "Suppose $H$ is transitive and $L\\geq3$. Two configurations lie in the same\ncomponent of $\\Gamma$ if and only if their total charges $Q$ agree.\nConsequently $\\Gamma$ has exactly $q=|H/(D H_a)|$ components, each of size\n$N^L/q$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s4",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+      },
+      "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s4",
+      "macros": {
+        "\\Sym": "\\operatorname{Sym}",
+        "\\charge": "\\chi",
+        "\\supp": "\\operatorname{supp}",
+        "\\twist": "\\mathcal{B}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+      "scope": "in_scope",
+      "statement": "Let $L\\geq3$, and let $O_1,\\ldots,O_r$ be the $H$-orbits on $X$.\nChoose $a_j\\in O_j$ and fix a profile $n=(n_1,\\ldots,n_r)$ with\n$n_j\\geq0$ and $\\sum_j n_j=L$. Put $B=H/D$, let $B_j$ be the image\nof $H_{a_j}$ in $B$, and define the finite abelian group\n\\[\n C_n=B\\Big/\\sum_{j:n_j>0}B_j.\n\\]\nFor $b=h(a_j)\\in O_j$ with $n_j>0$, set $\\chi_n(b)$ equal to the image of $h$ in $C_n$.\nWithin the configurations having $n_j$ entries in $O_j$, the connected\ncomponents are precisely the fibers of $Q_n(x)=\\sum_i\\chi_n(x_i)$.\nThere are $q_n=|C_n|$ such components, each of cardinality\n\\begin{equation}\n \\frac{1}{q_n}\\frac{L!}{\\prod_j n_j!}\\prod_j |O_j|^{n_j}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+      },
+      "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s5",
+      "macros": {
+        "\\Sym": "\\operatorname{Sym}",
+        "\\charge": "\\chi",
+        "\\supp": "\\operatorname{supp}",
+        "\\twist": "\\mathcal{B}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+      "scope": "in_scope",
+      "statement": "If $f,g$ are powers of a permutation $h$, write $H=\\langle f,g\\rangle$\nand let its orbits have lengths $c_1,\\ldots,c_r$.\nFor each profile $n$, put $d_n=\\gcd(c_j:n_j>0)$.\nFor $L\\geq3$ there are exactly $d_n$ components with that profile,\neach of size $\\frac{L!}{\\prod_j n_j!}\\prod_j c_j^{n_j}/d_n$.\nIn particular, when $H$ is transitive, there are $N$ components of size\n$N^{L-1}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+      },
+      "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s6",
+      "macros": {
+        "\\Sym": "\\operatorname{Sym}",
+        "\\charge": "\\chi",
+        "\\supp": "\\operatorname{supp}",
+        "\\twist": "\\mathcal{B}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+      "scope": "in_scope",
+      "statement": "If $N>1$ and $f,g$ commute, full switching reachability fails for every $L\\geq2$.\nIn particular, this holds if one twist is the identity or both are powers of\nthe same permutation.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+      },
+      "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s7",
+      "macros": {
+        "\\Sym": "\\operatorname{Sym}",
+        "\\charge": "\\chi",
+        "\\supp": "\\operatorname{supp}",
+        "\\twist": "\\mathcal{B}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+      "scope": "in_scope",
+      "statement": "Replace equilibration by evolution for any strictly positive time at each\nalternating stage. The switching support, the criteria of\nTheorem~\\ref{thm:main}, and the bound $2(m-1)$ on the number of switches needed\nto fill an initially occupied component of size $m$ remain valid.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+      },
+      "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s8",
+      "macros": {
+        "\\Sym": "\\operatorname{Sym}",
+        "\\charge": "\\chi",
+        "\\supp": "\\operatorname{supp}",
+        "\\twist": "\\mathcal{B}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+      "scope": "in_scope",
+      "statement": "Let $S$ be a nonempty finite family of twists and let $H=\\langle S\\rangle$.\nFor $L\\geq3$, full switching reachability is equivalent to transitivity of\n$[H,H]$, and Theorem~\\ref{thm:profile} classifies all components.\nThese conclusions hold with either equilibration or strictly positive dwell\ntimes whenever every twist occurs infinitely often. If every consecutive\nblock of $b$ stages contains every twist, an initial nonempty support fills\nits component of size $m$ within at most $b(m-1)$ stages.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+      },
+      "lineage": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:s9",
+      "macros": {
+        "\\Sym": "\\operatorname{Sym}",
+        "\\charge": "\\chi",
+        "\\supp": "\\operatorname{supp}",
+        "\\twist": "\\mathcal{B}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+      "scope": "in_scope",
+      "statement": "Repeat a fixed nonempty finite list of twists, using either equilibration at each stage\nor a fixed strictly positive dwell time for each stage of the period.\nFor any $L\\geq2$, the distribution converges to the mixture of uniform laws\non the union-graph components, with weights equal to their initial masses.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+      "toolchain": null,
+      "version": 2,
+      "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
     },
     {
       "attribution": null,
@@ -18505,6 +19627,201 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:hardin-barker-six-column-colorings:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "81ea1b50693b21a1d6370aa3e18815afe5f96af2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/81ea1b50693b21a1d6370aa3e18815afe5f96af2/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233254TriangleStrip.lean"
+      },
+      "lineage": "collected:hardin-barker-six-column-colorings:s1",
+      "macros": {
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-six-column-colorings",
+      "scope": "in_scope",
+      "statement": "As an identity of formal power series over $\\mathbb Q$,\n\\begin{equation}\n\\sum_{n\\ge1}a_nx^n=\n\\frac{8x(17-7488x+974848x^2-40108032x^3)}\n{(1-64x)(1-1600x+368640x^2-21233664x^3)}.\n\\end{equation}\nConsequently, for $n\\ge5$,\n\\begin{equation}\na_n=1664a_{n-1}-471040a_{n-2}+44826624a_{n-3}-1358954496a_{n-4},\n\\end{equation}\nwith $a_1=136$, $a_2=166400$, $a_3=220626944$, and $a_4=294517735424$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin and Barker's strip-coloring formulas: an extension of Britnell and Wildon's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-six-column-colorings"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hardin-barker-six-column-colorings:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "81ea1b50693b21a1d6370aa3e18815afe5f96af2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/81ea1b50693b21a1d6370aa3e18815afe5f96af2/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233254TriangleStrip.lean"
+      },
+      "lineage": "collected:hardin-barker-six-column-colorings:s2",
+      "macros": {
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-six-column-colorings",
+      "scope": "in_scope",
+      "statement": "The number $A(G)$ of these normalized colorings is\n\\begin{equation}\nA(G)=\\frac{2^N}{48}\\bigl(P_G(3)+3P_G(2)+15P_G(1)\\bigr).\n\\end{equation}\nIf $G$ is connected and bipartite with at least one edge, this becomes\n$A(G)=2^N(P_G(3)+6)/48$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin and Barker's strip-coloring formulas: an extension of Britnell and Wildon's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-six-column-colorings"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hardin-barker-six-column-colorings:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "81ea1b50693b21a1d6370aa3e18815afe5f96af2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/81ea1b50693b21a1d6370aa3e18815afe5f96af2/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233254TriangleStrip.lean"
+      },
+      "lineage": "collected:hardin-barker-six-column-colorings:s3",
+      "macros": {
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-six-column-colorings",
+      "scope": "in_scope",
+      "statement": "Barker's formulas in OEIS A233251, A233252 and A233253\n\\cite{three,four,five} hold for every $n\\ge1$. Explicitly,\n\\begin{align*}\na_{n,3}&=8^{n-1}(6^n+3)/3,&\n\\sum_{n\\ge1}a_{n,3}x^n&=\\frac{x(3-64x)}{(1-8x)(1-48x)},\\\\\na_{n,4}&=2^{4n-3}(4\\cdot9^n+9)/9,&\n\\sum_{n\\ge1}a_{n,4}x^n&=\\frac{2x(5-208x)}{(1-16x)(1-144x)},\\\\\n&&\\sum_{n\\ge1}a_{n,5}x^n&=\n\\frac{4x(9-1120x+30720x^2)}{(1-32x)(1-480x+18432x^2)}.\n\\end{align*}\nTheir homogeneous recurrences begin at $n=3,3,4$, respectively.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin and Barker's strip-coloring formulas: an extension of Britnell and Wildon's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-six-column-colorings"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hardin-barker-six-column-colorings:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "81ea1b50693b21a1d6370aa3e18815afe5f96af2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/81ea1b50693b21a1d6370aa3e18815afe5f96af2/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233254TriangleStrip.lean"
+      },
+      "lineage": "collected:hardin-barker-six-column-colorings:s4",
+      "macros": {
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-six-column-colorings",
+      "scope": "in_scope",
+      "statement": "Hardin's empirical recurrence in A233255, revision 9, FORMULA \\cite{seven},\nand the order-five column-seven recurrence in A233256 hold for $n\\ge6$:\n\\begin{align*}\na_{n,7}={}&5504a_{n-1,7}-6438912a_{n-2,7}+2774532096a_{n-3,7}\\\\\n&-478351982592a_{n-4,7}+27831388078080a_{n-5,7}.\n\\end{align*}\nThe initial five values are $528$, $1992704$, $8050180096$,\n$32835998056448$, and $134179300927602688$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin and Barker's strip-coloring formulas: an extension of Britnell and Wildon's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-six-column-colorings"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hardin-barker-six-column-colorings:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "81ea1b50693b21a1d6370aa3e18815afe5f96af2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/81ea1b50693b21a1d6370aa3e18815afe5f96af2/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233254TriangleStrip.lean"
+      },
+      "lineage": "collected:hardin-barker-six-column-colorings:s5",
+      "macros": {
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin-barker-six-column-colorings",
+      "scope": "in_scope",
+      "statement": "All empirical row recurrences in the FORMULA block of A233256, revision 6,\nhold on their stated ranges. In particular, Barker's formulas in A233257,\nrevision 8 \\cite{rowtwo}, and A233258, revision 8 \\cite{rowthree},\nand Hardin's recurrence in A233259, revision 6 \\cite{rowfour}, hold:\n\\begin{align*}\nF_2(x)&=\\frac{x(3-38x+88x^2)}{(1-4x)(1-12x)},\\\\\nF_3(x)&=\\frac{x(11-392x+3072x^2-8192x^3+16384x^4)}\n{(1-8x)(1-40x+128x^2)},\\\\\na_{4,w}&=160a_{4,w-1}-6144a_{4,w-2}+86016a_{4,w-3}\n-393216a_{4,w-4}\\quad(w\\ge9).\n\\end{align*}\nAlso $a_{2,w}=2^{2w-3}(4\\cdot3^w+9)/9$ for $w>1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hardin and Barker's strip-coloring formulas: an extension of Britnell and Wildon's enumeration",
+      "toolchain": null,
+      "version": 2,
+      "work": "hardin-barker-six-column-colorings"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:hardin-barker-trace-array-formulas:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -20926,6 +22243,357 @@
       "toolchain": null,
       "version": 2,
       "work": "hexagon-perp-line-counterexamples"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:hohn-a390148-split-prime-shared-divisibility:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "bed437cb2aa5a2d3570eb2241767ad6de36d77cc",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/bed437cb2aa5a2d3570eb2241767ad6de36d77cc/D5/S3/Arith/Descartes/SplitPrimeSphereRadii.lean"
+      },
+      "lineage": "collected:hohn-a390148-split-prime-shared-divisibility:s1",
+      "macros": {
+        "\\vp": "v_p"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hohn-a390148-split-prime-shared-divisibility",
+      "scope": "in_scope",
+      "statement": "Let $r_1,r_2,r_3,r_4$ be positive integers satisfying \\eqref{eq:radii}\nand having common gcd one. For any prime $p$, put\n$E=\\max_i v_p(r_i)$.\n\\begin{enumerate}\n\\item If $p\\equiv1\\pmod3$ and $E>0$, the maximum $E$ occurs at least\ntwice, and $\\min_i v_p(r_i)=0$.\n\\item For $p=3$, one has $E>0$ and the valuations are $(0,E,E,E)$,\nup to permutation.\n\\item If $p\\equiv2\\pmod3$ and $E>0$, including $p=2$, the valuations\nare $(0,E,E,E)$ up to permutation, and $E$ is even.\n\\end{enumerate}\nConsequently, for every prime $p$, integer $k\\ge1$, and coordinate $i$\nwith $p^k\\mid r_i$, exactly one or two indices $j\\ne i$ satisfy\n$p^k\\mid r_j$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs of Hohn's divisibility conjectures after Kontorovich and Stong",
+      "toolchain": null,
+      "version": 2,
+      "work": "hohn-a390148-split-prime-shared-divisibility"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hohn-a390148-split-prime-shared-divisibility:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "bed437cb2aa5a2d3570eb2241767ad6de36d77cc",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/bed437cb2aa5a2d3570eb2241767ad6de36d77cc/D5/S3/Arith/Descartes/SplitPrimeSphereRadii.lean"
+      },
+      "lineage": "collected:hohn-a390148-split-prime-shared-divisibility:s2",
+      "macros": {
+        "\\vp": "v_p"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hohn-a390148-split-prime-shared-divisibility",
+      "scope": "in_scope",
+      "statement": "If $p\\equiv2\\pmod3$ is prime, then\n$x^2-xy+y^2=0$ in $\\mathbb F_p$ implies $x=y=0$.\nFor integers $x,y$ not both zero, it follows that\n\\[\n v_p(x^2-xy+y^2)=2\\min\\{v_p(x),v_p(y)\\}.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs of Hohn's divisibility conjectures after Kontorovich and Stong",
+      "toolchain": null,
+      "version": 2,
+      "work": "hohn-a390148-split-prime-shared-divisibility"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hohn-a390148-split-prime-shared-divisibility:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "bed437cb2aa5a2d3570eb2241767ad6de36d77cc",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/bed437cb2aa5a2d3570eb2241767ad6de36d77cc/D5/S3/Arith/Descartes/SplitPrimeSphereRadii.lean"
+      },
+      "lineage": "collected:hohn-a390148-split-prime-shared-divisibility:s3",
+      "macros": {
+        "\\vp": "v_p"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hohn-a390148-split-prime-shared-divisibility",
+      "scope": "in_scope",
+      "statement": "For any labeling of a quadruple in Theorem \\ref{thm:main}, the number\n\\[\n x=\\frac{r_1r_2r_3}\n {r_4\\gcd(r_1,r_2)\\gcd(r_1,r_3)\\gcd(r_2,r_3)}\n\\]\nis a positive integer. Every prime factor of $x$ is congruent to $1$\nmodulo $3$ and divides at least two of $r_1,r_2,r_3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs of Hohn's divisibility conjectures after Kontorovich and Stong",
+      "toolchain": null,
+      "version": 2,
+      "work": "hohn-a390148-split-prime-shared-divisibility"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hohn-a390148-split-prime-shared-divisibility:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "bed437cb2aa5a2d3570eb2241767ad6de36d77cc",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/bed437cb2aa5a2d3570eb2241767ad6de36d77cc/D5/S3/Arith/Descartes/SplitPrimeSphereRadii.lean"
+      },
+      "lineage": "collected:hohn-a390148-split-prime-shared-divisibility:s4",
+      "macros": {
+        "\\vp": "v_p"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hohn-a390148-split-prime-shared-divisibility",
+      "scope": "in_scope",
+      "statement": "For a solution with $r_1\\le r_2\\le r_3\\le r_4$, one has\n$r_2\\le3r_1$ and $r_3\\le4r_1$. Given $r_1,r_2,r_3$, there is at most\none possible $r_4\\ge r_3$. Consequently, only finitely many rows have a\nspecified first radius.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs of Hohn's divisibility conjectures after Kontorovich and Stong",
+      "toolchain": null,
+      "version": 2,
+      "work": "hohn-a390148-split-prime-shared-divisibility"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hohn-a390148-split-prime-shared-divisibility:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "bed437cb2aa5a2d3570eb2241767ad6de36d77cc",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/bed437cb2aa5a2d3570eb2241767ad6de36d77cc/D5/S3/Arith/Descartes/SplitPrimeSphereRadii.lean"
+      },
+      "lineage": "collected:hohn-a390148-split-prime-shared-divisibility:s5",
+      "macros": {
+        "\\vp": "v_p"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hohn-a390148-split-prime-shared-divisibility",
+      "scope": "in_scope",
+      "statement": "Membership of a positive integer $N$ in A389940 is decidable by a finite\nexact calculation. The calculation can also list every primitive sphere\nquadruple containing $N$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs of Hohn's divisibility conjectures after Kontorovich and Stong",
+      "toolchain": null,
+      "version": 2,
+      "work": "hohn-a390148-split-prime-shared-divisibility"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hohn-a390148-split-prime-shared-divisibility:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "bed437cb2aa5a2d3570eb2241767ad6de36d77cc",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/bed437cb2aa5a2d3570eb2241767ad6de36d77cc/D5/S3/Arith/Descartes/SplitPrimeSphereRadii.lean"
+      },
+      "lineage": "collected:hohn-a390148-split-prime-shared-divisibility:s6",
+      "macros": {
+        "\\vp": "v_p"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hohn-a390148-split-prime-shared-divisibility",
+      "scope": "in_scope",
+      "statement": "There is no infinite nondecreasing sequence of positive rational radii\nwhose consecutive quadruples are distinct sphere solutions of\n\\eqref{eq:radii}. For real radii, any such sequence has constant ratio\n$\\lambda$, where $\\lambda>1$ is the largest real root of\n$z^4-z^3-z^2-z+1$ (the constant in A289917).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs of Hohn's divisibility conjectures after Kontorovich and Stong",
+      "toolchain": null,
+      "version": 2,
+      "work": "hohn-a390148-split-prime-shared-divisibility"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:hohn-a390148-split-prime-shared-divisibility:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "bed437cb2aa5a2d3570eb2241767ad6de36d77cc",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/bed437cb2aa5a2d3570eb2241767ad6de36d77cc/D5/S3/Arith/Descartes/SplitPrimeSphereRadii.lean"
+      },
+      "lineage": "collected:hohn-a390148-split-prime-shared-divisibility:s7",
+      "macros": {
+        "\\vp": "v_p"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hohn-a390148-split-prime-shared-divisibility",
+      "scope": "in_scope",
+      "statement": "Every repeated radius is $3x^2$ for some positive integer $x$.\nFor each $x$ there are exactly\n\\[\n 2^{\\omega(x)-\\epsilon_3(x)+1}\n\\]\nordered primitive sphere quadruples containing that radius at least twice.\nExplicitly, take $uv=x$, $\\gcd(u,v)=1$, $3\\nmid u$, and either sign in\n\\[\n A=u^2+3v^2\\pm3uv.\n\\]\nSort the four numbers\n\\begin{equation}\n (3u^2v^2,\\ 3u^2v^2,\\ 3Av^2,\\ Au^2).\n\\end{equation}\nAll the resulting quadruples are distinct. The only triple repetition\nis $(1,3,3,3)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs of Hohn's divisibility conjectures after Kontorovich and Stong",
+      "toolchain": null,
+      "version": 2,
+      "work": "hohn-a390148-split-prime-shared-divisibility"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:hohn-a390148-split-prime-shared-divisibility:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "bed437cb2aa5a2d3570eb2241767ad6de36d77cc",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/bed437cb2aa5a2d3570eb2241767ad6de36d77cc/D5/S3/Arith/Descartes/SplitPrimeSphereRadii.lean"
+      },
+      "lineage": "collected:hohn-a390148-split-prime-shared-divisibility:s8",
+      "macros": {
+        "\\vp": "v_p"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hohn-a390148-split-prime-shared-divisibility",
+      "scope": "in_scope",
+      "statement": "Every primitive positive circle quadruple with repeated radii and\ndistinct remaining radii has the form, up to permutation,\n\\[\n (a,b,c,c)=\\frac1h\n (u d^2,\\ v d^2,\\ 4uv(u+v),\\ 4uv(u+v)),\n \\quad d=v-u>0,\\quad \\gcd(u,v)=1,\n\\]\nwhere $h=\\gcd(d^2,4(u+v))$. Consequently $b-a$ is a positive cube\nor twice a positive cube.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs of Hohn's divisibility conjectures after Kontorovich and Stong",
+      "toolchain": null,
+      "version": 2,
+      "work": "hohn-a390148-split-prime-shared-divisibility"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:hohn-a390148-split-prime-shared-divisibility:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "bed437cb2aa5a2d3570eb2241767ad6de36d77cc",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/bed437cb2aa5a2d3570eb2241767ad6de36d77cc/D5/S3/Arith/Descartes/SplitPrimeSphereRadii.lean"
+      },
+      "lineage": "collected:hohn-a390148-split-prime-shared-divisibility:s9",
+      "macros": {
+        "\\vp": "v_p"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hohn-a390148-split-prime-shared-divisibility",
+      "scope": "in_scope",
+      "statement": "Ordered positive circle quadruples satisfy $r_1<r_2$,\n$r_2\\le(3+2\\sqrt3)r_1$, and\n\\[\n r_3\\le\\frac{4(1/r_1+1/r_2)}{(1/r_1-1/r_2)^2}.\n\\]\nThere is at most one $r_4\\ge r_3$ for each triple, hence finitely\nmany rows for each first radius. The following three repeated-radius\nfamilies hold, with the second correcting the index in\nA390583, COMMENTS, paragraph 4:\n\\[\n\\begin{split}\n &(k,k+1,4k(k+1)(2k+1),4k(k+1)(2k+1)),\\\\\n &(k,k+2,2k(k+1)(k+2),2k(k+1)(k+2))\\\\\n &\\hspace{35mm}\\text{for odd }k,\\\\\n &(k,k+8,k(k+4)(k+8)/8,k(k+4)(k+8)/8)\\\\\n &\\hspace{35mm}\\text{for }k\\equiv2\\pmod4.\n\\end{split}\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Alternative proofs of Hohn's divisibility conjectures after Kontorovich and Stong",
+      "toolchain": null,
+      "version": 2,
+      "work": "hohn-a390148-split-prime-shared-divisibility"
     },
     {
       "attribution": null,
@@ -36338,6 +38006,286 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:notik-singer-chamber:3:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "a1ecee6d9de8eff7f246e1569bbd6211f2c471cd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a1ecee6d9de8eff7f246e1569bbd6211f2c471cd/D5/S3/Geometry/FiniteGeometry/NotikSingerChamber.lean"
+      },
+      "lineage": "collected:notik-singer-chamber:s1",
+      "macros": {
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "notik-singer-chamber",
+      "scope": "in_scope",
+      "statement": "Put $a_i=x_i-x_{i-1}$ for $1\\le i\\le k$, and\n$A=\\max_i a_i$. If every integer $1,\\ldots,A$ occurs as a positive\ndistance of $x$, then every $y\\in C(x)$ satisfies\n\\[\n y_i-y_{i-1}\\ge a_i\\qquad(1\\le i\\le k).\n\\]\nConsequently $x$ is the unique point of minimum length in $C(x)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Notik's Singer-ruler conjecture with sparse certificates",
+      "toolchain": null,
+      "version": 3,
+      "work": "notik-singer-chamber"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:notik-singer-chamber:3:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a1ecee6d9de8eff7f246e1569bbd6211f2c471cd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a1ecee6d9de8eff7f246e1569bbd6211f2c471cd/D5/S3/Geometry/FiniteGeometry/NotikSingerChamber.lean"
+      },
+      "lineage": "collected:notik-singer-chamber:s2",
+      "macros": {
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "notik-singer-chamber",
+      "scope": "in_scope",
+      "statement": "Under the hypotheses of Lemma~\\ref{lem:prefix}, put\n$\\varepsilon=y_k-x_k$ for $y\\in C(x)$. Then\n\\[\n 0\\le y_i-x_i\\le\\varepsilon\\quad(0\\le i\\le k),\\qquad\n \\sum_{i=1}^k\\left|(y_i-y_{i-1})-a_i\\right|=\\varepsilon.\n\\]\nEvery nonnegative weighted sum of the gaps is minimized at $x$;\nif all weights are positive, the minimizer is unique.\nThe coefficient $1$ in the coordinate bound is sharp.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Notik's Singer-ruler conjecture with sparse certificates",
+      "toolchain": null,
+      "version": 3,
+      "work": "notik-singer-chamber"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:notik-singer-chamber:3:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "a1ecee6d9de8eff7f246e1569bbd6211f2c471cd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a1ecee6d9de8eff7f246e1569bbd6211f2c471cd/D5/S3/Geometry/FiniteGeometry/NotikSingerChamber.lean"
+      },
+      "lineage": "collected:notik-singer-chamber:s3",
+      "macros": {
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "notik-singer-chamber",
+      "scope": "in_scope",
+      "statement": "Every largest-gap cut of a cyclic perfect difference set is the unique\nshortest point of its normalized unit-separated real chamber.\nIn fact every retained adjacent gap is minimized at that cut.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Notik's Singer-ruler conjecture with sparse certificates",
+      "toolchain": null,
+      "version": 3,
+      "work": "notik-singer-chamber"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:notik-singer-chamber:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a1ecee6d9de8eff7f246e1569bbd6211f2c471cd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a1ecee6d9de8eff7f246e1569bbd6211f2c471cd/D5/S3/Geometry/FiniteGeometry/NotikSingerChamber.lean"
+      },
+      "lineage": "collected:notik-singer-chamber:s4",
+      "macros": {
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "notik-singer-chamber",
+      "scope": "in_scope",
+      "statement": "For every prime power $q$, every unit multiple of every Singer perfect\ndifference set modulo $q^2+q+1$, cut at its unique largest cyclic gap, is the\nunique shortest point of its normalized real chamber.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Notik's Singer-ruler conjecture with sparse certificates",
+      "toolchain": null,
+      "version": 3,
+      "work": "notik-singer-chamber"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:notik-singer-chamber:3:s5",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "a1ecee6d9de8eff7f246e1569bbd6211f2c471cd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a1ecee6d9de8eff7f246e1569bbd6211f2c471cd/D5/S3/Geometry/FiniteGeometry/NotikSingerChamber.lean"
+      },
+      "lineage": "collected:notik-singer-chamber:s5",
+      "macros": {
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "notik-singer-chamber",
+      "scope": "in_scope",
+      "statement": "These rows have positive integer weights and satisfy\n\\[\n \\sum_{d=1}^A w_dr_d=(1,\\ldots,1),\\qquad\n \\sum_{d=1}^A w_d=\\sum_{i=1}^k a_i=L.\n\\]\nTheir span is $\\R^k$. Thus they certify both the minimum $L$ and\nthe uniqueness of the minimizer.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Notik's Singer-ruler conjecture with sparse certificates",
+      "toolchain": null,
+      "version": 3,
+      "work": "notik-singer-chamber"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:notik-singer-chamber:3:s6",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "a1ecee6d9de8eff7f246e1569bbd6211f2c471cd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a1ecee6d9de8eff7f246e1569bbd6211f2c471cd/D5/S3/Geometry/FiniteGeometry/NotikSingerChamber.lean"
+      },
+      "lineage": "collected:notik-singer-chamber:s6",
+      "macros": {
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "notik-singer-chamber",
+      "scope": "in_scope",
+      "statement": "Under the hypotheses of Lemma~\\ref{lem:prefix}, reorder the gap\ncoordinates so that $a_1<\\cdots<a_k$. For each $i$, take the row\n$h_i=e_i-v_{a_i-1}$, with $v_0=0$ as above. These are $k$ tight\nchamber rows. Their matrix $H$ is unit lower triangular, with all\noff-diagonal entries nonpositive. The vector\n\\[\n \\lambda=(H^{\\mathsf T})^{-1}{\\bf1}\n\\]\nhas positive integer entries and satisfies\n\\[\n \\sum_i\\lambda_i h_i={\\bf1},\\qquad \\sum_i\\lambda_i=L.\n\\]\nThus exactly $k$ independent tight rows suffice to certify the\nunique minimum, for every Singer ruler and every other complete-prefix ruler.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Notik's Singer-ruler conjecture with sparse certificates",
+      "toolchain": null,
+      "version": 3,
+      "work": "notik-singer-chamber"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:notik-singer-chamber:3:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a1ecee6d9de8eff7f246e1569bbd6211f2c471cd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a1ecee6d9de8eff7f246e1569bbd6211f2c471cd/D5/S3/Geometry/FiniteGeometry/NotikSingerChamber.lean"
+      },
+      "lineage": "collected:notik-singer-chamber:s7",
+      "macros": {
+        "\\R": "\\mathbb R",
+        "\\Z": "\\mathbb Z"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "notik-singer-chamber",
+      "scope": "in_scope",
+      "statement": "The answer to each analogous universal chamber-uniqueness question\nfor the Bose and Ruzsa rulers in \\cite[Section~10, p.~8]{notik} is no,\neven with a largest-gap cut.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Notik's Singer-ruler conjecture with sparse certificates",
+      "toolchain": null,
+      "version": 3,
+      "work": "notik-singer-chamber"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:oeis-a086205-bala-complex-shift-determinant-refutation:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -41729,12 +43677,12 @@
       ],
       "claim": "s1",
       "contributor": null,
-      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s1",
+      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:3:s1",
       "kind": "paper",
       "label": "Theorem",
       "lean_source": {
-        "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
-        "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
       },
       "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s1",
       "macros": {
@@ -41743,16 +43691,56 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "okada-2020-premerged-determinant-nonpalindromic",
       "scope": "in_scope",
       "statement": "Assume~\\eqref{fitting} and $\\mu\\ge3$. Define\n\\[\n t=b_1-a_\\mu,\\qquad\n c=\\begin{cases}\\mu,&a_1>0,\\\\ \\mu-1,&a_1=0,\\end{cases}\n \\qquad d=\\sum_{i=1}^{\\mu}a_i(b_i-a_i).\n\\]\nThen $\\deg P=d$, $d\\ge t+4$, and\n\\begin{equation}\n \\coeff{j}{P}=0\\ (j<t+1),\\quad\n \\coeff{t+1}{P}=1,\\quad \\coeff{t+2}{P}=c+1,\\quad\n \\coeff{d-1}{P}=c,\\quad \\coeff{d}{P}=1.\n\\end{equation}\nIn particular, $P$ is not almost palindromic, proving Conjecture 9.63.\nThe same conclusions hold at width two if\n$a_2-a_1\\ge2$ and $b_2-b_1\\ge2$.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+      "title": "Almost palindromicity of Okada's pre-merged determinants",
       "toolchain": null,
-      "version": 2,
+      "version": 3,
+      "work": "okada-2020-premerged-determinant-nonpalindromic"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:3:s10",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+      },
+      "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s10",
+      "macros": {
+        "\\coeff": "[q^{#1}]#2",
+        "\\qbin": "\\genfrac{[}{]}{0pt}{}{#1}{#2}_{q}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "okada-2020-premerged-determinant-nonpalindromic",
+      "scope": "in_scope",
+      "statement": "Assume~\\eqref{fitting}, $\\mu\\ge3$, $\\rho\\in\\mathbb Z_{\\ge1}$, and\n$e\\in\\mathbb Z$ with $0\\le e\\le G$. Then\n\\[\n P_{\\rho,e}\\text{ is almost palindromic}\\quad\\Longleftrightarrow\\quad 2e=G.\n\\]\nIn particular, Conjecture 9.66 holds for every admissible degree shift.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Almost palindromicity of Okada's pre-merged determinants",
+      "toolchain": null,
+      "version": 3,
       "work": "okada-2020-premerged-determinant-nonpalindromic"
     },
     {
@@ -41769,12 +43757,12 @@
       ],
       "claim": "s2",
       "contributor": null,
-      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s2",
+      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:3:s2",
       "kind": "paper",
       "label": "Theorem",
       "lean_source": {
-        "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
-        "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
       },
       "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s2",
       "macros": {
@@ -41783,16 +43771,16 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "okada-2020-premerged-determinant-nonpalindromic",
       "scope": "in_scope",
       "statement": "For $0\\le a_1<a_2\\le b_1<b_2$, the polynomial~\\eqref{products} at width\ntwo is almost palindromic if and only if\n\\[\n \\min(a_2-a_1,b_2-b_1)=1.\n\\]",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+      "title": "Almost palindromicity of Okada's pre-merged determinants",
       "toolchain": null,
-      "version": 2,
+      "version": 3,
       "work": "okada-2020-premerged-determinant-nonpalindromic"
     },
     {
@@ -41809,12 +43797,12 @@
       ],
       "claim": "s3",
       "contributor": null,
-      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s3",
+      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:3:s3",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
-        "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
-        "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
       },
       "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s3",
       "macros": {
@@ -41823,16 +43811,16 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "okada-2020-premerged-determinant-nonpalindromic",
       "scope": "in_scope",
       "statement": "Let $M(\\lambda)$ and $N(\\lambda)$ be the sets in Okada's Conjecture 9.64:\n$M(\\lambda)$ consists of all $0\\le a_1<a_2\\le b_1<b_2=\\lambda$, and\n$N(\\lambda)$ consists of those tuples whose determinant is not almost\npalindromic. For $\\lambda\\ge2$,\n\\[\n |M(\\lambda)|=\\binom{\\lambda+1}{3},\\quad\n |N(\\lambda)|=\\binom{\\lambda-1}{3},\\quad\n |M(\\lambda)\\setminus N(\\lambda)|=(\\lambda-1)^2,\n\\]\nwhere a binomial coefficient with upper index less than three is zero.\nConsequently\n\\begin{equation}\n O(\\lambda)=\\frac{|N(\\lambda)|}{|M(\\lambda)|}\n           =\\frac{(\\lambda-2)(\\lambda-3)}{\\lambda(\\lambda+1)}.\n\\end{equation}\nIn particular, $O(3)=0$, $O(\\lambda+1)>O(\\lambda)$ for $\\lambda\\ge3$,\nand $O(\\lambda)\\longrightarrow1$.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+      "title": "Almost palindromicity of Okada's pre-merged determinants",
       "toolchain": null,
-      "version": 2,
+      "version": 3,
       "work": "okada-2020-premerged-determinant-nonpalindromic"
     },
     {
@@ -41849,12 +43837,12 @@
       ],
       "claim": "s4",
       "contributor": null,
-      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s4",
+      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:3:s4",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
-        "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
-        "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
       },
       "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s4",
       "macros": {
@@ -41863,16 +43851,16 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "okada-2020-premerged-determinant-nonpalindromic",
       "scope": "in_scope",
       "statement": "At fixed $b_\\mu=\\lambda$ and width $\\mu\\ge3$, the number of tuples\nin~\\eqref{fitting} is $\\binom{\\lambda+1}{2\\mu-1}$, and every one gives\na determinant that is not almost palindromic. At width two the exceptional\nproportion is $1-O(\\lambda)=6(\\lambda-1)/(\\lambda(\\lambda+1))$,\nasymptotic to $6/\\lambda$.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+      "title": "Almost palindromicity of Okada's pre-merged determinants",
       "toolchain": null,
-      "version": 2,
+      "version": 3,
       "work": "okada-2020-premerged-determinant-nonpalindromic"
     },
     {
@@ -41889,12 +43877,12 @@
       ],
       "claim": "s5",
       "contributor": null,
-      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s5",
+      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:3:s5",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
-        "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
-        "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
       },
       "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s5",
       "macros": {
@@ -41903,16 +43891,16 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "okada-2020-premerged-determinant-nonpalindromic",
       "scope": "in_scope",
       "statement": "The non-almost-palindromicity conclusion of Theorem~\\ref{main}, the\nwidth-two classification of Theorem~\\ref{classification}, and all counts\nabove hold for $P_{\\rho,0}$ for every integer $\\rho\\ge1$.\nIn the regimes of Theorem~\\ref{main}, its first two nonzero coefficients\nare $1,c_\\rho+1$ and its last two are $c_\\rho,1$, where\n$c_1=c$ and $c_\\rho=\\mu$ for $\\rho\\ge2$.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+      "title": "Almost palindromicity of Okada's pre-merged determinants",
       "toolchain": null,
-      "version": 2,
+      "version": 3,
       "work": "okada-2020-premerged-determinant-nonpalindromic"
     },
     {
@@ -41929,12 +43917,12 @@
       ],
       "claim": "s6",
       "contributor": null,
-      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s6",
+      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:3:s6",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
-        "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
-        "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
       },
       "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s6",
       "macros": {
@@ -41943,16 +43931,16 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "okada-2020-premerged-determinant-nonpalindromic",
       "scope": "in_scope",
       "statement": "Assume~\\eqref{fitting} with $\\mu\\ge2$. For every constant base shift $\\rho\\ge1$ and\nevery constant integral weight $w\\ge2$, the degree-shift-zero determinant\n$A_\\rho^w-B_\\rho^w$ is not almost palindromic.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+      "title": "Almost palindromicity of Okada's pre-merged determinants",
       "toolchain": null,
-      "version": 2,
+      "version": 3,
       "work": "okada-2020-premerged-determinant-nonpalindromic"
     },
     {
@@ -41969,12 +43957,12 @@
       ],
       "claim": "s7",
       "contributor": null,
-      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s7",
+      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:3:s7",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
-        "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
-        "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
       },
       "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s7",
       "macros": {
@@ -41983,16 +43971,16 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "okada-2020-premerged-determinant-nonpalindromic",
       "scope": "in_scope",
       "statement": "For every $n\\ge4$, let $a=(0,1)$, $b=(1,n)$ and $e=1$.\nThen $P_{1,1}$ is almost palindromic, whereas $P_{\\rho,1}$ is not\nalmost palindromic for every $\\rho\\ge2$.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+      "title": "Almost palindromicity of Okada's pre-merged determinants",
       "toolchain": null,
-      "version": 2,
+      "version": 3,
       "work": "okada-2020-premerged-determinant-nonpalindromic"
     },
     {
@@ -42009,12 +43997,12 @@
       ],
       "claim": "s8",
       "contributor": null,
-      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:2:s8",
+      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:3:s8",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
-        "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
-        "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
       },
       "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s8",
       "macros": {
@@ -42023,16 +44011,56 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "okada-2020-premerged-determinant-nonpalindromic",
       "scope": "in_scope",
-      "statement": "Assume~\\eqref{fitting} with $\\mu\\ge2$. For any $\\rho\\ge1$, put\n$G=\\deg A_\\rho-\\deg B_\\rho$.\nThen\n\\[\n q^{d_\\rho}P_{\\rho,G}(q^{-1})=P_{\\rho,0}(q).\n\\]\nHence the zero-shift classification also holds at $e=G$.\nIf $\\mu\\ge3$, the determinants at $e=1$ and $e=G-1$ are not almost\npalindromic for any $\\rho\\ge1$.\nIf $G$ is even, $P_{\\rho,G/2}$ is reciprocal, and therefore almost\npalindromic. Multiplication by $q^s$ or substitution $q\\mapsto q^k$,\nfor integers $s\\ge0$, $k\\ge1$, preserves almost palindromicity.",
-      "status": "needs_attention",
+      "statement": "Assume~\\eqref{fitting} with $\\mu\\ge2$. For every integer $\\rho\\ge1$ and\n$0\\le e\\le G$, reciprocity of the two products gives\n\\begin{equation}\n q^{d_\\rho}P_{\\rho,e}(q^{-1})=P_{\\rho,G-e}(q).\n\\end{equation}\nConsequently $P_{\\rho,e}$ and $P_{\\rho,G-e}$ have reversed ordered\nnonzero coefficient lists. If $2e=G$, then $P_{\\rho,e}$ is reciprocal.",
+      "status": "preparing",
       "target_digest": null,
-      "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+      "title": "Almost palindromicity of Okada's pre-merged determinants",
       "toolchain": null,
-      "version": 2,
+      "version": 3,
+      "work": "okada-2020-premerged-determinant-nonpalindromic"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:3:s9",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+      },
+      "lineage": "collected:okada-2020-premerged-determinant-nonpalindromic:s9",
+      "macros": {
+        "\\coeff": "[q^{#1}]#2",
+        "\\qbin": "\\genfrac{[}{]}{0pt}{}{#1}{#2}_{q}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "okada-2020-premerged-determinant-nonpalindromic",
+      "scope": "in_scope",
+      "statement": "Assume~\\eqref{fitting} with $\\mu\\ge3$ and $\\rho\\ge1$. Write\n$A_\\rho(q)=\\sum_{j=0}^{d_\\rho} A_jq^j$.\nThen $A_0=A_{d_\\rho}=1$ and $A_j\\ge2$ for $1\\le j<d_\\rho$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Almost palindromicity of Okada's pre-merged determinants",
+      "toolchain": null,
+      "version": 3,
       "work": "okada-2020-premerged-determinant-nonpalindromic"
     },
     {
@@ -45239,6 +47267,258 @@
       "toolchain": null,
       "version": 2,
       "work": "rowland-sistos-barron-2025-rank-sequences"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:sahas2015-even-additive-complexity-morphisms:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S1/Words/Complexity/SahasrabudheEvenAdditiveComplexityMorphism.lean"
+      },
+      "lineage": "collected:sahas2015-even-additive-complexity-morphisms:s1",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\sumword": "\\sigma(#1)"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sahas2015-even-additive-complexity-morphisms",
+      "scope": "in_scope",
+      "statement": "Suppose $w$ is universal and $y=\\varphi(w)$ is infinite.\nIf $\\rho_y^+(n)$ is bounded independently of $n$, then there is $N$ such\nthat $\\rho_y^+(n)$ is odd whenever $n\\geq N$ and $d\\mid n$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Parity in Sahasrabudhe's additive-complexity question: extending Banero's morphism criterion",
+      "toolchain": null,
+      "version": 2,
+      "work": "sahas2015-even-additive-complexity-morphisms"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:sahas2015-even-additive-complexity-morphisms:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S1/Words/Complexity/SahasrabudheEvenAdditiveComplexityMorphism.lean"
+      },
+      "lineage": "collected:sahas2015-even-additive-complexity-morphisms:s2",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\sumword": "\\sigma(#1)"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sahas2015-even-additive-complexity-morphisms",
+      "scope": "in_scope",
+      "statement": "Under these hypotheses, a constant positive additive complexity, or an\neventually constant positive additive complexity, must be odd.\nIn particular, no such output has $\\rho_y^+(n)=2k$ for all $n\\geq1$ and\nany integer $k\\geq1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Parity in Sahasrabudhe's additive-complexity question: extending Banero's morphism criterion",
+      "toolchain": null,
+      "version": 2,
+      "work": "sahas2015-even-additive-complexity-morphisms"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:sahas2015-even-additive-complexity-morphisms:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S1/Words/Complexity/SahasrabudheEvenAdditiveComplexityMorphism.lean"
+      },
+      "lineage": "collected:sahas2015-even-additive-complexity-morphisms:s3",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\sumword": "\\sigma(#1)"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sahas2015-even-additive-complexity-morphisms",
+      "scope": "in_scope",
+      "statement": "If $\\rho_y^+(n)\\leq B$ for all $n\\geq1$ and some integer $B\\geq1$, complete images of the same\nlength have the same sum.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Parity in Sahasrabudhe's additive-complexity question: extending Banero's morphism criterion",
+      "toolchain": null,
+      "version": 2,
+      "work": "sahas2015-even-additive-complexity-morphisms"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:sahas2015-even-additive-complexity-morphisms:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S1/Words/Complexity/SahasrabudheEvenAdditiveComplexityMorphism.lean"
+      },
+      "lineage": "collected:sahas2015-even-additive-complexity-morphisms:s4",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\sumword": "\\sigma(#1)"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sahas2015-even-additive-complexity-morphisms",
+      "scope": "in_scope",
+      "statement": "For a universal input and an infinite output, bounded additive complexity\nis equivalent to all nonempty codewords having the same rational average\n$\\lambda$. Every such bounded-complexity output is anchored.\nThus Banero's Problem~32 holds for this class, already with a splice\nconsisting of one anchored word.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Parity in Sahasrabudhe's additive-complexity question: extending Banero's morphism criterion",
+      "toolchain": null,
+      "version": 2,
+      "work": "sahas2015-even-additive-complexity-morphisms"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:sahas2015-even-additive-complexity-morphisms:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S1/Words/Complexity/SahasrabudheEvenAdditiveComplexityMorphism.lean"
+      },
+      "lineage": "collected:sahas2015-even-additive-complexity-morphisms:s5",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\sumword": "\\sigma(#1)"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sahas2015-even-additive-complexity-morphisms",
+      "scope": "in_scope",
+      "statement": "Let $t\\geq1$, let $\\Gamma$ be a finite alphabet and let\n$\\mu:\\Gamma^*\\to\\Z^t$ preserve concatenation as vector addition.\nFor an infinite word $y$, define\n$\\rho_y^\\mu(n)=|\\{\\mu(F): F\\text{ is a length-}n\\text{ factor of }y\\}|$.\nIf $y$ is an infinite finite-morphic image of a universal word and\n$\\rho_y^\\mu$ is bounded, then $\\rho_y^\\mu(n)$ is odd at all sufficiently\nlarge multiples of the codeword-length gcd. In particular, an eventually\nconstant positive abelian complexity of such an image is odd.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Parity in Sahasrabudhe's additive-complexity question: extending Banero's morphism criterion",
+      "toolchain": null,
+      "version": 2,
+      "work": "sahas2015-even-additive-complexity-morphisms"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:sahas2015-even-additive-complexity-morphisms:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S1/Words/Complexity/SahasrabudheEvenAdditiveComplexityMorphism.lean"
+      },
+      "lineage": "collected:sahas2015-even-additive-complexity-morphisms:s6",
+      "macros": {
+        "\\N": "\\mathbb N",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\sumword": "\\sigma(#1)"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "sahas2015-even-additive-complexity-morphisms",
+      "scope": "in_scope",
+      "statement": "If $w$ is universal and $y=\\varphi(w)$ is infinite and uniformly\nrecurrent, then $y$ is periodic. If its additive complexity is also\nconstant, then $y$ is constant and that complexity is one.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Parity in Sahasrabudhe's additive-complexity question: extending Banero's morphism criterion",
+      "toolchain": null,
+      "version": 2,
+      "work": "sahas2015-even-additive-complexity-morphisms"
     },
     {
       "attribution": null,

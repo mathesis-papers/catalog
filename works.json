@@ -753,6 +753,53 @@
       "work": "bala-machine3626-exact-halting-time"
     },
     {
+      "abstract_text": "We extend Su's (2026) proof of Peter Bala's conjectures in OEIS A281428, COMMENTS, items 1–2 (displayed March 3, 2026), with factorial bounds and sharp onsets for the two accompanying examples. For a(n)=(2n)![x^(2n)]C(x), we prove v_p(a(n)) >= v_p((2n)!) for every prime p >= 5. The proof combines integral exponential coefficients with ordinary coefficients in Z[1/6], using the inverse cubic u-u^3/3=x. The exact eventual-zero onset modulo 385 is 6; modulo 27, the least eventual period is 18 and its earliest onset is 2. The same argument gives factorial bounds for every polynomial in the two differential-system solutions, including the companion A281427 and A052502.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 93334,
+        "sha256": "03e794bad468e0cb70a9d3b14bc2302f6eb7ab92090f471b03264d40b6e46fd3",
+        "url": "/api/v1/collected-papers/bala281428-factorial-valuations/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T14:32:44.237813655Z",
+      "record": "bala281428-factorial-valuations",
+      "repository_name": "bala281428-factorial-valuations",
+      "source": {
+        "bytes": 16359,
+        "sha256": "e6b26b0e75d6010830955af0b735e507591740ad6344b0b5036b8f049c323803",
+        "url": "/api/v1/collected-papers/bala281428-factorial-valuations/files/source?version=2"
+      },
+      "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T14:32:44.237813655Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "bala281428-factorial-valuations"
+    },
+    {
       "abstract_text": "Extending Bala's divisibility results (Bala, 2026), we prove his conjecture in OEIS A295462, References (%D), record #19; contribution dated 23 August 2026: the integer a(n)=(15n)!(2n)!/((10n)!(6n)!n!) is odd exactly when consecutive one-bits of n have at least three zero-bits between them. A nonnegative floor function expresses its prime valuations. We reprove Bala's two divisibilities (Bala, 2026) and deduce product divisibility by (6n+1)(10n+1), preservation of the parity criterion, and counting and ordered recursions. We give written alternative proofs of the eleven XOR identities in A048718, verified by Karlsson (2022) with Walnut. For T(n)=(12n)!n!/((6n)!(4n)!(3n)!), we prove the five fixed divisibilities and both product families posed in A295431 on 28 August 2025, with C(k,R)=36(R-1)!lcm(1,...,12R) for k=1,2,3 and D(R)=(R-1)!lcm(1,...,R).",
       "authors": [
         {
@@ -1223,6 +1270,50 @@
       "work": "barker-tea-coordination-sequence"
     },
     {
+      "abstract_text": "We answer Question 15 of George M. Bergman's Thoughts on Eggert's Conjecture, arXiv:1206.0326v2, Section 4, printed page 6, in the negative, including over Q by extending a binomial partition of von zur Gathen and Roche (1997, Table 2, p. 359) to a semigroup. A 59-element commutative semigroup and a 49-element quotient have three generators with distinct nonzero sixth powers but a nonzero linear combination whose sixth power is zero. For these presentations over a characteristic-zero field, the cancellation exists exactly when the field contains a primitive cube root of unity. The construction extends to every positive exponent divisible by six. The older partition yields a 632-element two-generator example at exponent 35 over every characteristic-zero field.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 5,
+      "doi": null,
+      "lean_source": null,
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 83418,
+        "sha256": "2524ac2643eafcc31569868a5457f158baa2768dc956d8c7e38e551f79fe8d15",
+        "url": "/api/v1/collected-papers/bergman-question15/files/pdf?version=5"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T16:39:55.755803Z",
+      "record": "bergman-question15",
+      "repository_name": "bergman-question15",
+      "source": {
+        "bytes": 23777,
+        "sha256": "96291f9ad19b97caefcc2584fb5cb45610a8f99e4df3872e4500a8766b456968",
+        "url": "/api/v1/collected-papers/bergman-question15/files/source?version=5"
+      },
+      "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T16:39:55.755803Z",
+          "revision": "5",
+          "version": 5
+        }
+      ],
+      "work": "bergman-question15"
+    },
+    {
       "abstract_text": "For Bernáth's consecutive-ratio conjecture in OEIS A400645, revision 21, COMMENTS, we prove the stronger bounded-error asymptotic a_n=c lambda^n+O(1) with c>0, where lambda is the largest real root of x^8-x^6-x^4-x^2+1, namely 1.3122819079.... The squared terms satisfy a linear recurrence with a controlled rounding error. A finite seed bounds its entire normalized error tail and ensures a positive leading coefficient; a three-coordinate contraction then gives an exponential asymptotic. The same error analysis proves the ratio assertions for A063827 and A400644, and extends them to nondecreasing initial data. We also prove the increasing-sequence conjecture in A289916 and recover its limiting ratio, identified in A289917.",
       "authors": [
         {
@@ -1550,6 +1641,53 @@
         }
       ],
       "work": "chen-chen-step-m-eulerian-parity-positivity"
+    },
+    {
+      "abstract_text": "We answer Chen and Lin's Question 6.1 in Section 6 of Oriented Paths with Few Direction Flips Are Tournament Anti-Sidorenko (arXiv:2609.14655v1) affirmatively: their strict flip threshold divided by path length converges, by reflection and amplification of any finite counterexample followed by bounded padding in the same tournament. The limit is the infimum of the normalized flip counts, with one extra flip, of all non-anti-Sidorenko paths. A finite witness gives an explicit eventual upper bound; combined with Chen and Lin's lower bound, this yields a limit between 1/1665 and 9/19. Its exact value remains undetermined.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "81968a52b83b3d79d4db8e60c34e05d953675dc0",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/81968a52b83b3d79d4db8e60c34e05d953675dc0/D5/S3/Combinatorics/ExtremalDensity/ChenLinFlipLimit.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 79433,
+        "sha256": "804fb1beed78d55698b5b1ce70d6038d22881b58c06922d896464cdaeac30ce0",
+        "url": "/api/v1/collected-papers/chen-lin-direction-flip-threshold-limit/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T15:18:37.733227726Z",
+      "record": "chen-lin-direction-flip-threshold-limit",
+      "repository_name": "chen-lin-direction-flip-threshold-limit",
+      "source": {
+        "bytes": 12860,
+        "sha256": "d7234d93cb08d361cb682cf21384abc7feb130ce9568e6fef2f29bf212e622d1",
+        "url": "/api/v1/collected-papers/chen-lin-direction-flip-threshold-limit/files/source?version=2"
+      },
+      "title": "Convergence of Chen and Lin's direction-flip threshold",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T15:18:37.733227726Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "chen-lin-direction-flip-threshold-limit"
     },
     {
       "abstract_text": "We extend the pure-state volume-monogamy theorem of Cheng, Milne, Hall and Wiseman (2016) to mixed states by proving their four-qubit correlation conjecture (arXiv:1606.02390v2, Sec. III C, Eq. (36)) for arbitrary density matrices. The twenty-seven two-body Pauli observables incident on one qubit split into three anticommuting families. Correlation complementarity bounds the squared expectations in each family by one. Local filtering and the arithmetic–geometric mean inequality then give the conjectured steering-volume bound. The same argument strengthens their many-receiver bounds and gives a sharp lower bound on complementary three-body correlations in pure states.",
@@ -1973,6 +2111,53 @@
         }
       ],
       "work": "crim-question-one-four-parts"
+    },
+    {
+      "abstract_text": "Extending Dabrowski, Poulain d'Andecy and Ragoucy's sector classification (Propositions 4.9, 4.10 and 4.14, pp. 13–15; arXiv:2602.18204v2, 11 June 2026), we answer their switching question (Section 7, p. 22): for a ring of at least three sites, alternating two twisted symmetric exclusion processes reaches every configuration precisely when the derived subgroup of the group generated by their twists acts transitively on the local states. For two sites, the criterion is instead transitivity of an explicitly generated subgroup on ordered pairs. The proof combines independent coordinate commutators with a conserved abelian charge. For three or more sites we classify all components, without a transitivity assumption, by the orbit profile and a charge in an explicit quotient of the twist group's abelianization. The method also covers finite families of twists. Norris's positive-time support theorem (Theorem 3.2.1, p. 111) gives the same reachability for positive dwell times; periodic switching converges to the uniform law on each component.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 89460,
+        "sha256": "232d94056136f7fbc910327f61221a125af1d5edfe92fa28db37f073b36fa588",
+        "url": "/api/v1/collected-papers/dabrowski-poulain-ragoucy-2026-switched-ssep-reachability/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T15:33:29.501800670Z",
+      "record": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+      "repository_name": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+      "source": {
+        "bytes": 17349,
+        "sha256": "d4eaebae8df16f010e5196e699c12d0af8dee2fba49da46fabae5af8c08f1d66",
+        "url": "/api/v1/collected-papers/dabrowski-poulain-ragoucy-2026-switched-ssep-reachability/files/source?version=2"
+      },
+      "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T15:33:29.501800670Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
     },
     {
       "abstract_text": "Extending Das et al., Quantum 9, 1867 (2025), we prove their full-orthonormal-basis tomography conjecture immediately after Theorem 3 in Section 3.2.1 by completing their reduction in Section 5.4 after Figure 5: the Nagaoka-Hayashi bound is at most d+1 times the Holevo bound once the latter is minimized by the maximally mixed state. For full-rank states the same sharp bound holds for the optimal individual-measurement cost, improving Theorem 5 as well as Theorem 3. For identity weight and purity P, both ratios are at most (d^2+d-1-P)/m_d(P), where m_d(P)=d-P+sqrt((d-1)(dP-1)) is the exact minimum Holevo cost at that purity. The proof evaluates the spectral Holevo formula within established D-invariant theory and combines the feasible NH blocks of Das et al. with Scott's (2006) estimator variance formula. The maximum ratio is attained uniquely at the maximally mixed state. Greater purity need not give greater Holevo cost for individual full-rank states.",
@@ -3197,6 +3382,53 @@
       "work": "hardin-barker-cyclic-repetitions"
     },
     {
+      "abstract_text": "We extend Britnell and Wildon's marked-partition enumeration (2015, Proposition 8.1) to prove Colin Barker's empirical generating function in the FORMULA entry of 11 October 2018 in OEIS A233254, revision 8, for Hardin's normalized six-column arrays at every positive height, by three-color transfer. An ordered-graph normalization formula and an eight-state matrix prove its associated recurrence. The method also proves the neighboring formulas and all empirical row and column recurrences listed in Hardin's table A233256, revision 6, through seven rows or seven columns. The larger fixed-height cases use explicit finite integer-matrix identities.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "81ea1b50693b21a1d6370aa3e18815afe5f96af2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/81ea1b50693b21a1d6370aa3e18815afe5f96af2/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233254TriangleStrip.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 93964,
+        "sha256": "02786de921a6960664f3889d8bb01747bb38101066424013bd76e376de6e53b6",
+        "url": "/api/v1/collected-papers/hardin-barker-six-column-colorings/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T15:01:26.753552906Z",
+      "record": "hardin-barker-six-column-colorings",
+      "repository_name": "hardin-barker-six-column-colorings",
+      "source": {
+        "bytes": 22474,
+        "sha256": "d04cd7a79ccb29cd3f71ee0ab49646b077a4b2bef97ac4987eb343104444aa38",
+        "url": "/api/v1/collected-papers/hardin-barker-six-column-colorings/files/source?version=2"
+      },
+      "title": "Hardin and Barker's strip-coloring formulas: an extension of Britnell and Wildon's enumeration",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T15:01:26.753552906Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hardin-barker-six-column-colorings"
+    },
+    {
       "abstract_text": "For OEIS A185858 and A185859, NAME and FORMULA, revision 9 (17 April 2018), we prove Hardin's empirical recurrences and Barker's generating-function formulas for binary arrays of widths three and four using Flajolet–Sedgewick's weighted-word enumeration (2009, Example III.24, equation (70)) and a five-state matrix, respectively. The width-three recurrence is a(n+2)=4a(n+1)+9a(n), with a(1)=4 and a(2)=22; it also proves Barker's radical expression. The width-four recurrence has characteristic polynomial z^5-6z^4-17z^3+36z^2-24z+6. These formulas determine the first two rows and columns of OEIS A185866. For its entire rectangular table, we prove symmetry and the integrality of the normalization by 128.",
       "authors": [
         {
@@ -3665,6 +3897,53 @@
         }
       ],
       "work": "hexagon-perp-line-counterexamples"
+    },
+    {
+      "abstract_text": "For Charles L. Hohn's conjectures in OEIS A390148, revision 23 (17 November 2025), COMMENTS, paragraphs 5–9, we give alternative proofs of the divisibility assertions using arithmetic already present in Kontorovich (2012, Lemma 2.11) and Stong (2015, p. 76), and prove the repeated-radius count. Every positive prime-power divisor of one primitive sphere radius divides exactly one or two other coordinates, with exact 3-adic and inert-prime valuation patterns. We classify repeated sphere radii, prove their stated multiplicity formula, and establish the infinite-rational-chain obstruction and an exhaustive finite membership procedure. For the linked circle array we prove the cube-or-twice-a-cube difference conjecture and correct the second repeated-radius family's sequence index.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "bed437cb2aa5a2d3570eb2241767ad6de36d77cc",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/bed437cb2aa5a2d3570eb2241767ad6de36d77cc/D5/S3/Arith/Descartes/SplitPrimeSphereRadii.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 98374,
+        "sha256": "ebfbcd0e0c5d827e9c430e68a6142d0b3a1b2eca206f4d486f6b09e94e21c460",
+        "url": "/api/v1/collected-papers/hohn-a390148-split-prime-shared-divisibility/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T16:24:55.877082950Z",
+      "record": "hohn-a390148-split-prime-shared-divisibility",
+      "repository_name": "hohn-a390148-split-prime-shared-divisibility",
+      "source": {
+        "bytes": 39188,
+        "sha256": "a7a34f74b78f26a9241f0ab3790dae9337ce0f26b355a200926428e63d1a6718",
+        "url": "/api/v1/collected-papers/hohn-a390148-split-prime-shared-divisibility/files/source?version=2"
+      },
+      "title": "Alternative proofs of Hohn's divisibility conjectures after Kontorovich and Stong",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T16:24:55.877082950Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hohn-a390148-split-prime-shared-divisibility"
     },
     {
       "abstract_text": "Extending Patel's pointwise proof (2026, Solution 1), we give an alternative coefficient proof of Conjecture 17, equation (6.1), page 15, of Hemmer, Straub and Westrem's New identities in the character table of symmetric groups involving Riordan numbers (2026), recovering the two-binary-quadratic Hilbert series of Benanti et al. (2012, Example 3.3, p.160). Both weighted character sums vanish in odd degree and equal binomial(n/2+2,2) in even degree. Patel's three-variable Schur specialization first identifies the sums for each partition, retaining all multiplicities in Ev. The cycle-index generating function then reduces their weighted average to a constant term equal to (1-t^2)^(-3). We give explicit arbitrary-weight and common-divisor consequences, including the N=1 case of Amdeberhan's q-series conjecture, and rederive the Riordan tableau formula already implicit in Meilhan–Suzuki (2015). A companion adjoint-representation argument proves the N=2 instances of the source's two character identities and its q-series conjecture.",
@@ -6207,6 +6486,53 @@
       "work": "noe-2013-a222759-prime-cube-growth"
     },
     {
+      "abstract_text": "We prove Notik's conjecture in Section 7, page 7 of Golomb rulers with real marks (Zenodo version 2, 31 October 2026, DOI 10.5281/zenodo.23844781; arXiv:2611.22656v1): for every prime power, every Singer ruler is the unique shortest point of its real, unit-separated distance-order chamber. More generally, cutting any cyclic perfect difference set at its unique largest gap gives this property. Every positive integer smaller than the removed gap occurs as an ordinary distance; the chamber inequalities therefore bound each retained adjacent gap below by its integer value. We give a positive integer dual certificate supported on exactly one row per retained gap; its matrix is unit triangular. The same argument gives sharp stability bounds. Explicit largest-gap examples answer Notik's analogous Bose and Ruzsa questions negatively.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "a1ecee6d9de8eff7f246e1569bbd6211f2c471cd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a1ecee6d9de8eff7f246e1569bbd6211f2c471cd/D5/S3/Geometry/FiniteGeometry/NotikSingerChamber.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 90856,
+        "sha256": "da686a4f0561ad30fd0f70dff5385ee07aeb61c5143b15ebaa7df079f1d1526b",
+        "url": "/api/v1/collected-papers/notik-singer-chamber/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T17:06:43.251643627Z",
+      "record": "notik-singer-chamber",
+      "repository_name": "notik-singer-chamber",
+      "source": {
+        "bytes": 18075,
+        "sha256": "4e881077af6d7065bacce7b7db0233c1ec16f74a2acc6a82de9b93de09a47ee5",
+        "url": "/api/v1/collected-papers/notik-singer-chamber/files/source?version=3"
+      },
+      "title": "Proof of Notik's Singer-ruler conjecture with sparse certificates",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T17:06:43.251643627Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "notik-singer-chamber"
+    },
+    {
       "abstract_text": "At OEIS A086205 (revision 35), Bala's formula block of 19 February 2023, we correct the complex-shift conjecture by extending Krattenthaler's (1999) polynomial Vandermonde evaluation: the determinant changes from 1 to 2 at size one and shift one. The corrected formula is det_{1<=i,j<=n} binomial(i^2+z,j)=a(n) product_{i=1..n}(1+z/i^2) for every complex z. Its normalized limit is an entire hyperbolic-sine product. We give alternative proofs of the companion identities, including the staircase-tableau count treated by Yutcis (1980), and prove Somos's recurrences for all integer indices. In the directly linked A057863, the Burchnall-Chaundy leading exponent is corrected using the normalization of Veselov and Willox (2014).",
       "authors": [
         {
@@ -7147,7 +7473,7 @@
       "work": "oeis-a401248-first-two-dense-divisor-block-minimum"
     },
     {
-      "abstract_text": "We prove Conjectures 9.63 and 9.64 in Section 9.8.3 of Okada's arXiv:2003.02112v2. At unit weights and degree shift zero, every natural width at least three gives a non-almost-palindromic determinant. At width two, almost palindromicity holds exactly when min(a2-a1,b2-b1)=1, giving proportion (lambda-2)(lambda-3)/(lambda(lambda+1)) at b2=lambda>=2. These conclusions hold for every constant positive integral base shift. An infinite family extends the width-two counterexample in Example 9.65. Conjecture 9.66, whose width is at least three, is proved on degree-shift slices e=0,1,G-1,G and at e=G/2 when G is even, where G is the direct-minus-reversed degree gap. The remaining degree shifts are not covered.",
+      "abstract_text": "Conjectures 9.63, 9.64 and 9.66 in Section 9.8.3, pp. 96–97, of Okada's arXiv:2003.02112v2 concern almost palindromicity of pre-merged Gaussian determinants. For fitting natural tuples with unit weights and any constant positive integral base shift, the zero-degree-shift determinant is not almost palindromic at width at least three. At width two it is almost palindromic exactly when the smaller tuple gap is one, giving the non-almost-palindromic proportion (lambda-2)(lambda-3)/(lambda(lambda+1)) for lambda>=2. At width at least three and every degree shift 0<=e<=G, almost palindromicity holds exactly when 2e=G. The all-shift characterization and interior-coefficient argument are due to So Okada.",
       "authors": [
         {
           "affiliation": "ChronoAI Pte Ltd, Singapore",
@@ -7158,37 +7484,37 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": "10.5281/zenodo.23927423",
-      "current_version": 2,
-      "doi": "10.5281/zenodo.23927424",
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
       "lean_source": {
-        "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
-        "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
       },
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
-        "bytes": 90098,
-        "sha256": "bee9c2388a14ba0ccfefe584385b3800a103614186e94567a2ffd8111443069e",
-        "url": "/api/v1/collected-papers/okada-2020-premerged-determinant-nonpalindromic/files/pdf?version=2"
+        "bytes": 99129,
+        "sha256": "a2a1b1a6d3aaeefd7a6909a2b7027c0a03287d1b328a447453bf74bc9ce9fb9e",
+        "url": "/api/v1/collected-papers/okada-2020-premerged-determinant-nonpalindromic/files/pdf?version=3"
       },
-      "previous_version": null,
+      "previous_version": "2",
       "publication": "public",
-      "published_on": "2026-11-05T08:03:37.974608824Z",
+      "published_on": "2026-11-25T16:51:59.261447737Z",
       "record": "okada-2020-premerged-determinant-nonpalindromic",
       "repository_name": "10.5281-zenodo.23927423",
       "source": {
-        "bytes": 16755,
-        "sha256": "da99d1f3682c59285a8d9f3e47f664b8a5f844ae5c45da303328e3fef6f4ffa0",
-        "url": "/api/v1/collected-papers/okada-2020-premerged-determinant-nonpalindromic/files/source?version=2"
+        "bytes": 19398,
+        "sha256": "78046353a775cefaa61c30a3e572675941570324e9cb3cacc5db4d45427e9c96",
+        "url": "/api/v1/collected-papers/okada-2020-premerged-determinant-nonpalindromic/files/source?version=3"
       },
-      "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+      "title": "Almost palindromicity of Okada's pre-merged determinants",
       "versions": [
         {
-          "previous_version": null,
-          "published_on": "2026-11-05T08:03:37.974608824Z",
-          "revision": "2",
-          "version": 2
+          "previous_version": "2",
+          "published_on": "2026-11-25T16:51:59.261447737Z",
+          "revision": "3",
+          "version": 3
         }
       ],
       "work": "okada-2020-premerged-determinant-nonpalindromic"
@@ -7662,6 +7988,53 @@
         }
       ],
       "work": "rowland-sistos-barron-2025-rank-sequences"
+    },
+    {
+      "abstract_text": "For the even-complexity construction question posed by Sahasrabudhe in Sturmian Words and Constant Additive Complexity (2015, Section 5, p. 7), we extend Banero's common-slope criterion (2013, Theorem 21): a bounded-complexity finite-morphic image of a word containing every finite source word has odd additive complexity at every sufficiently large multiple of the codeword-length gcd, by pairing complementary factor sums. Empty codewords are allowed when the output is infinite; consequently an eventually constant positive complexity is odd. Equal sums of equal-length complete images and complementary windows give a reflection with one fixed point. The argument also applies to lattice-valued sums, including abelian complexity. We give the anchored-word consequence of Banero's criterion and show that uniformly recurrent outputs are periodic.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S1/Words/Complexity/SahasrabudheEvenAdditiveComplexityMorphism.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 74792,
+        "sha256": "5f3e4a81340c17cbdf48b31fed4abda74a026f9f9aa08edde5ba4673557fa549",
+        "url": "/api/v1/collected-papers/sahas2015-even-additive-complexity-morphisms/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T14:47:15.787115797Z",
+      "record": "sahas2015-even-additive-complexity-morphisms",
+      "repository_name": "sahas2015-even-additive-complexity-morphisms",
+      "source": {
+        "bytes": 13128,
+        "sha256": "3e9a9c0fbe0ab1ba10b8c7347e3a06b8d99c458b3747e036dba78d54ff5d6afe",
+        "url": "/api/v1/collected-papers/sahas2015-even-additive-complexity-morphisms/files/source?version=2"
+      },
+      "title": "Parity in Sahasrabudhe's additive-complexity question: extending Banero's morphism criterion",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T14:47:15.787115797Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "sahas2015-even-additive-complexity-morphisms"
     },
     {
       "abstract_text": "Question 2.32 on page 14 of Remi Salinas Schmeis's General Criterion for a Poset to Admit a Partition Into ω-Chains (arXiv:2610.29056v1, 2026) asks whether every poset has an ω-chain-partitionable extension that order-embeds into every such extension. We answer negatively: even a two-element antichain has no such extension. Two countable extensions force incompatible behavior for upper bounds of incomparable elements. The same argument gives the connected three-element fork as a counterexample and, by order duality, the corresponding negative answer for ω*-chains. More generally, a nonempty countable poset of bounded finite height has such a least extension if and only if it has a greatest element. Every poset has a partitionable extension, even with ω replaced by any nonzero ordinal.",

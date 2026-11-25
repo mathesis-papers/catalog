@@ -897,6 +897,63 @@
       "work": "bala-machine3626-exact-halting-time"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 93334,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "03e794bad468e0cb70a9d3b14bc2302f6eb7ab92090f471b03264d40b6e46fd3",
+          "sha256": "03e794bad468e0cb70a9d3b14bc2302f6eb7ab92090f471b03264d40b6e46fd3"
+        },
+        "source": {
+          "bytes": 16359,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "e6b26b0e75d6010830955af0b735e507591740ad6344b0b5036b8f049c323803",
+          "sha256": "e6b26b0e75d6010830955af0b735e507591740ad6344b0b5036b8f049c323803"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "b0f7c01b01511ea00428c1b6edad5dd2b372eaf8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b0f7c01b01511ea00428c1b6edad5dd2b372eaf8/D5/S1/Recurrence/Residue/BalaQuarticEGFEventualDivisibility.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/bala281428-factorial-valuations",
+      "site_url": "https://papers.trureturing.org/bala281428-factorial-valuations/",
+      "title": "Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "bala281428-factorial-valuations"
+    },
+    {
       "concept_doi": "10.5281/zenodo.23971278",
       "doi": "10.5281/zenodo.23971279",
       "files": {
@@ -1457,6 +1514,60 @@
       "work": "barker-tea-coordination-sequence"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 83418,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "2524ac2643eafcc31569868a5457f158baa2768dc956d8c7e38e551f79fe8d15",
+          "sha256": "2524ac2643eafcc31569868a5457f158baa2768dc956d8c7e38e551f79fe8d15"
+        },
+        "source": {
+          "bytes": 23777,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "96291f9ad19b97caefcc2584fb5cb45610a8f99e4df3872e4500a8766b456968",
+          "sha256": "96291f9ad19b97caefcc2584fb5cb45610a8f99e4df3872e4500a8766b456968"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": null,
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/bergman-question15",
+      "site_url": "https://papers.trureturing.org/bergman-question15/",
+      "title": "Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 5,
+      "work": "bergman-question15"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24369109",
       "doi": "10.5281/zenodo.24369110",
       "files": {
@@ -1852,6 +1963,63 @@
       },
       "version": 2,
       "work": "chen-chen-step-m-eulerian-parity-positivity"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 79433,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "804fb1beed78d55698b5b1ce70d6038d22881b58c06922d896464cdaeac30ce0",
+          "sha256": "804fb1beed78d55698b5b1ce70d6038d22881b58c06922d896464cdaeac30ce0"
+        },
+        "source": {
+          "bytes": 12860,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "d7234d93cb08d361cb682cf21384abc7feb130ce9568e6fef2f29bf212e622d1",
+          "sha256": "d7234d93cb08d361cb682cf21384abc7feb130ce9568e6fef2f29bf212e622d1"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 4,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "81968a52b83b3d79d4db8e60c34e05d953675dc0",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/81968a52b83b3d79d4db8e60c34e05d953675dc0/D5/S3/Combinatorics/ExtremalDensity/ChenLinFlipLimit.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/chen-lin-direction-flip-threshold-limit",
+      "site_url": "https://papers.trureturing.org/chen-lin-direction-flip-threshold-limit/",
+      "title": "Convergence of Chen and Lin's direction-flip threshold",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "chen-lin-direction-flip-threshold-limit"
     },
     {
       "concept_doi": "10.5281/zenodo.24405778",
@@ -2356,6 +2524,63 @@
       },
       "version": 2,
       "work": "crim-question-one-four-parts"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 89460,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "232d94056136f7fbc910327f61221a125af1d5edfe92fa28db37f073b36fa588",
+          "sha256": "232d94056136f7fbc910327f61221a125af1d5edfe92fa28db37f073b36fa588"
+        },
+        "source": {
+          "bytes": 17349,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "d4eaebae8df16f010e5196e699c12d0af8dee2fba49da46fabae5af8c08f1d66",
+          "sha256": "d4eaebae8df16f010e5196e699c12d0af8dee2fba49da46fabae5af8c08f1d66"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 9,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "6bfc394bbd5147de839dd2116b985b438fcae8cf",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6bfc394bbd5147de839dd2116b985b438fcae8cf/D5/S3/StatisticalMechanics/ParticleProcesses/SwitchedTwistedSSEP.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
+      "site_url": "https://papers.trureturing.org/dabrowski-poulain-ragoucy-2026-switched-ssep-reachability/",
+      "title": "Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability"
     },
     {
       "concept_doi": "10.5281/zenodo.24408304",
@@ -3814,6 +4039,63 @@
       "work": "hardin-barker-cyclic-repetitions"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 93964,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "02786de921a6960664f3889d8bb01747bb38101066424013bd76e376de6e53b6",
+          "sha256": "02786de921a6960664f3889d8bb01747bb38101066424013bd76e376de6e53b6"
+        },
+        "source": {
+          "bytes": 22474,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "d04cd7a79ccb29cd3f71ee0ab49646b077a4b2bef97ac4987eb343104444aa38",
+          "sha256": "d04cd7a79ccb29cd3f71ee0ab49646b077a4b2bef97ac4987eb343104444aa38"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "81ea1b50693b21a1d6370aa3e18815afe5f96af2",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/81ea1b50693b21a1d6370aa3e18815afe5f96af2/D5/S3/Combinatorics/TraceAvoidingArrays/HardinA233254TriangleStrip.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/hardin-barker-six-column-colorings",
+      "site_url": "https://papers.trureturing.org/hardin-barker-six-column-colorings/",
+      "title": "Hardin and Barker's strip-coloring formulas: an extension of Britnell and Wildon's enumeration",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "hardin-barker-six-column-colorings"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24487245",
       "doi": "10.5281/zenodo.24487246",
       "files": {
@@ -4373,6 +4655,63 @@
       },
       "version": 2,
       "work": "hexagon-perp-line-counterexamples"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 98374,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "ebfbcd0e0c5d827e9c430e68a6142d0b3a1b2eca206f4d486f6b09e94e21c460",
+          "sha256": "ebfbcd0e0c5d827e9c430e68a6142d0b3a1b2eca206f4d486f6b09e94e21c460"
+        },
+        "source": {
+          "bytes": 39188,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "a7a34f74b78f26a9241f0ab3790dae9337ce0f26b355a200926428e63d1a6718",
+          "sha256": "a7a34f74b78f26a9241f0ab3790dae9337ce0f26b355a200926428e63d1a6718"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 9,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "bed437cb2aa5a2d3570eb2241767ad6de36d77cc",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/bed437cb2aa5a2d3570eb2241767ad6de36d77cc/D5/S3/Arith/Descartes/SplitPrimeSphereRadii.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/hohn-a390148-split-prime-shared-divisibility",
+      "site_url": "https://papers.trureturing.org/hohn-a390148-split-prime-shared-divisibility/",
+      "title": "Alternative proofs of Hohn's divisibility conjectures after Kontorovich and Stong",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "hohn-a390148-split-prime-shared-divisibility"
     },
     {
       "concept_doi": "10.5281/zenodo.24415598",
@@ -7402,6 +7741,63 @@
       "work": "noe-2013-a222759-prime-cube-growth"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 90856,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "da686a4f0561ad30fd0f70dff5385ee07aeb61c5143b15ebaa7df079f1d1526b",
+          "sha256": "da686a4f0561ad30fd0f70dff5385ee07aeb61c5143b15ebaa7df079f1d1526b"
+        },
+        "source": {
+          "bytes": 18075,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "4e881077af6d7065bacce7b7db0233c1ec16f74a2acc6a82de9b93de09a47ee5",
+          "sha256": "4e881077af6d7065bacce7b7db0233c1ec16f74a2acc6a82de9b93de09a47ee5"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 7,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "a1ecee6d9de8eff7f246e1569bbd6211f2c471cd",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a1ecee6d9de8eff7f246e1569bbd6211f2c471cd/D5/S3/Geometry/FiniteGeometry/NotikSingerChamber.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/notik-singer-chamber",
+      "site_url": "https://papers.trureturing.org/notik-singer-chamber/",
+      "title": "Proof of Notik's Singer-ruler conjecture with sparse certificates",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "notik-singer-chamber"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24407270",
       "doi": "10.5281/zenodo.24407271",
       "files": {
@@ -8532,35 +8928,35 @@
       "work": "oeis-a401248-first-two-dense-divisor-block-minimum"
     },
     {
-      "concept_doi": "10.5281/zenodo.23927423",
-      "doi": "10.5281/zenodo.23927424",
+      "concept_doi": null,
+      "doi": null,
       "files": {
         "pdf": {
-          "bytes": 90098,
+          "bytes": 99129,
           "matches_public": true,
           "path": "paper.pdf",
-          "public_sha256": "bee9c2388a14ba0ccfefe584385b3800a103614186e94567a2ffd8111443069e",
-          "sha256": "bee9c2388a14ba0ccfefe584385b3800a103614186e94567a2ffd8111443069e"
+          "public_sha256": "a2a1b1a6d3aaeefd7a6909a2b7027c0a03287d1b328a447453bf74bc9ce9fb9e",
+          "sha256": "a2a1b1a6d3aaeefd7a6909a2b7027c0a03287d1b328a447453bf74bc9ce9fb9e"
         },
         "source": {
-          "bytes": 16755,
+          "bytes": 19398,
           "matches_public": true,
           "path": "source.archive",
-          "public_sha256": "da99d1f3682c59285a8d9f3e47f664b8a5f844ae5c45da303328e3fef6f4ffa0",
-          "sha256": "da99d1f3682c59285a8d9f3e47f664b8a5f844ae5c45da303328e3fef6f4ffa0"
+          "public_sha256": "78046353a775cefaa61c30a3e572675941570324e9cb3cacc5db4d45427e9c96",
+          "sha256": "78046353a775cefaa61c30a3e572675941570324e9cb3cacc5db4d45427e9c96"
         }
       },
       "formalization": {
         "covered_by_existing_base": 0,
         "disproved": 0,
         "newly_formalized": 0,
-        "no_target_yet": 8,
+        "no_target_yet": 10,
         "open_target": 0
       },
       "kind": "collected",
       "lean_source": {
-        "revision": "0b3d3a2945e69db04f778eb6fea96ee6a8030a45",
-        "url": "https://github.com/the-omega-institute/trureturing/blob/0b3d3a2945e69db04f778eb6fea96ee6a8030a45/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
+        "revision": "4a7117cee792c7d5598d7f4770577d557fb45137",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/4a7117cee792c7d5598d7f4770577d557fb45137/D5/S3/Combinatorics/GaussianQuotient/OkadaPreMergedNonPalindromic.lean"
       },
       "materials": {
         "formalization_requests": 0,
@@ -8570,23 +8966,22 @@
       },
       "mode": "authored_book",
       "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
         "prepare_exact_targets"
       ],
-      "reading_languages": [
-        "en",
-        "zh"
-      ],
+      "reading_languages": [],
       "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.23927423",
       "site_url": "https://papers.trureturing.org/10.5281-zenodo.23927423/",
-      "title": "Proofs of Okada's Conjectures 9.63 and 9.64 with constant-base-shift extensions (arXiv:2003.02112v2, Section 9.8.3)",
+      "title": "Almost palindromicity of Okada's pre-merged determinants",
       "trureturing_write_back": {
         "request_url": null,
         "revision": null,
         "state": null
       },
-      "version": 2,
+      "version": 3,
       "work": "okada-2020-premerged-determinant-nonpalindromic"
     },
     {
@@ -9154,6 +9549,63 @@
       },
       "version": 2,
       "work": "rowland-sistos-barron-2025-rank-sequences"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 74792,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "5f3e4a81340c17cbdf48b31fed4abda74a026f9f9aa08edde5ba4673557fa549",
+          "sha256": "5f3e4a81340c17cbdf48b31fed4abda74a026f9f9aa08edde5ba4673557fa549"
+        },
+        "source": {
+          "bytes": 13128,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "3e9a9c0fbe0ab1ba10b8c7347e3a06b8d99c458b3747e036dba78d54ff5d6afe",
+          "sha256": "3e9a9c0fbe0ab1ba10b8c7347e3a06b8d99c458b3747e036dba78d54ff5d6afe"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "ea30c256f9857dcf2582db122a9570836d8a5f18",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ea30c256f9857dcf2582db122a9570836d8a5f18/D5/S1/Words/Complexity/SahasrabudheEvenAdditiveComplexityMorphism.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/sahas2015-even-additive-complexity-morphisms",
+      "site_url": "https://papers.trureturing.org/sahas2015-even-additive-complexity-morphisms/",
+      "title": "Parity in Sahasrabudhe's additive-complexity question: extending Banero's morphism criterion",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "sahas2015-even-additive-complexity-morphisms"
     },
     {
       "concept_doi": "10.5281/zenodo.24411301",
@@ -10680,8 +11132,8 @@
       "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 190,
+  "papers": 198,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-25T13:32:01.245098576Z"
+  "snapshot_time": "2026-11-25T17:30:17.784948687Z"
 }

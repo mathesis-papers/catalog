@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/notik-singer-chamber/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/notik-singer-chamber",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/notik-singer-chamber/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "notik-singer-chamber"
+}

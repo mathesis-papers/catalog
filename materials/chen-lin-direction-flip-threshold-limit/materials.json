@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/chen-lin-direction-flip-threshold-limit/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/chen-lin-direction-flip-threshold-limit",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/chen-lin-direction-flip-threshold-limit/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "chen-lin-direction-flip-threshold-limit"
+}

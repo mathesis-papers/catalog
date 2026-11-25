@@ -1,0 +1,15 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_available": true,
+  "manifest_url": "https://papers.trureturing.org/hohn-a390148-split-prime-shared-divisibility/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/hohn-a390148-split-prime-shared-divisibility",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/hohn-a390148-split-prime-shared-divisibility/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "hohn-a390148-split-prime-shared-divisibility"
+}

@@ -901,12 +901,6 @@
       "version": 3
     },
     {
-      "doi": "10.5281/zenodo.23927424",
-      "id": "okada-2020-premerged-determinant-nonpalindromic",
-      "kind": "collected",
-      "version": 2
-    },
-    {
       "doi": "10.5281/zenodo.24415608",
       "id": "ordowski",
       "kind": "collected",
@@ -1129,6 +1123,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-25T13:32:01.245098576Z",
+  "generated_at": "2026-11-25T17:30:17.784948687Z",
   "schema": "mathesis.archive-index.v1"
 }
