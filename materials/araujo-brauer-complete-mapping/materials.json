@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/araujo-brauer-complete-mapping/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/araujo-brauer-complete-mapping",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/araujo-brauer-complete-mapping/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "araujo-brauer-complete-mapping"
+}

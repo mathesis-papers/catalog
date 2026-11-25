@@ -617,6 +617,63 @@
       "work": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 97844,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "e05717f2c5812639912aca1a86c6033dc33354242acd2177be00d4ea79c455ce",
+          "sha256": "e05717f2c5812639912aca1a86c6033dc33354242acd2177be00d4ea79c455ce"
+        },
+        "source": {
+          "bytes": 21239,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "2db06303c790283befde4a0ebc2b43435c341149a6b2375f287a5262dab9214f",
+          "sha256": "2db06303c790283befde4a0ebc2b43435c341149a6b2375f287a5262dab9214f"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 11,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/araujo-brauer-complete-mapping",
+      "site_url": "https://papers.trureturing.org/araujo-brauer-complete-mapping/",
+      "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "araujo-brauer-complete-mapping"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24413779",
       "doi": "10.5281/zenodo.24413780",
       "files": {
@@ -2635,8 +2692,8 @@
       "work": "crim-question-one-four-parts"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24058060",
+      "doi": "10.5281/zenodo.24058061",
       "files": {
         "pdf": {
           "bytes": 89414,
@@ -2673,7 +2730,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2804,8 +2860,8 @@
       "work": "das-et-al-2025-onb-tomography-holevo-ratio"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.23965055",
+      "doi": "10.5281/zenodo.23965056",
       "files": {
         "pdf": {
           "bytes": 108312,
@@ -2842,7 +2898,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3083,6 +3138,63 @@
       },
       "version": 2,
       "work": "dfl514-selfconj"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 95802,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "a7a7aba178296238cbb18086477398bfb23428871809cba411a709e479691264",
+          "sha256": "a7a7aba178296238cbb18086477398bfb23428871809cba411a709e479691264"
+        },
+        "source": {
+          "bytes": 16544,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "cb95ae6ab0c4d7e1afe88cffea593b83f12c878a5140d6fbe4fed5d9a6b09db9",
+          "sha256": "cb95ae6ab0c4d7e1afe88cffea593b83f12c878a5140d6fbe4fed5d9a6b09db9"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+      "site_url": "https://papers.trureturing.org/ding-hu-2020-hyperdisk-regular-subset-finite-cover/",
+      "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
     },
     {
       "concept_doi": "10.5281/zenodo.24406591",
@@ -8917,6 +9029,63 @@
       "work": "oeis-a351858-bala-coefficient-identity"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 77437,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "fbdd4bca4bc1cd17205bd91316eb1ab9950aae3be073a89d22504bdc2a9d4745",
+          "sha256": "fbdd4bca4bc1cd17205bd91316eb1ab9950aae3be073a89d22504bdc2a9d4745"
+        },
+        "source": {
+          "bytes": 14395,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "d5ccf55d2736bf70441c6b1b06b6d8a35cfe7f474b4f53ca60a1e2c25dc3d57b",
+          "sha256": "d5ccf55d2736bf70441c6b1b06b6d8a35cfe7f474b4f53ca60a1e2c25dc3d57b"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S1/Recurrence/Invariants/HannaA378258ModSix.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/oeis-a378258-hanna-mod-six",
+      "site_url": "https://papers.trureturing.org/oeis-a378258-hanna-mod-six/",
+      "title": "Proof of the modulo-six and parity conjectures in OEIS A378258, Comments",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "oeis-a378258-hanna-mod-six"
+    },
+    {
       "concept_doi": "10.5281/zenodo.23903308",
       "doi": "10.5281/zenodo.23903309",
       "files": {
@@ -9539,6 +9708,63 @@
       },
       "version": 2,
       "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 95787,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "b9d657f2801d57d6338390883505ed2b221098fbf412fd2cfa3bce61d502cdec",
+          "sha256": "b9d657f2801d57d6338390883505ed2b221098fbf412fd2cfa3bce61d502cdec"
+        },
+        "source": {
+          "bytes": 16926,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "15926c7d633ed88c4caa1e7c109ca12846c04d2a517b10e1a228f298c13f63cc",
+          "sha256": "15926c7d633ed88c4caa1e7c109ca12846c04d2a517b10e1a228f298c13f63cc"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 4,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Quantum/Entanglement/BoundEntanglement/SecondFamilyAllDimensions.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/pal-toth-bene-vertesi-2021-second-family-all-dimensions",
+      "site_url": "https://papers.trureturing.org/pal-toth-bene-vertesi-2021-second-family-all-dimensions/",
+      "title": "Resolving the all-dimension second-family claim of Pál et al.: Section V, paragraph after Eq. (69), p. 023101-8, Physical Review Research 3, 023101 (2021)",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "pal-toth-bene-vertesi-2021-second-family-all-dimensions"
     },
     {
       "concept_doi": "10.5281/zenodo.24414722",
@@ -10219,8 +10445,8 @@
       "work": "shao-zhao-italian-cycle-closed-form"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.23971326",
+      "doi": "10.5281/zenodo.23971327",
       "files": {
         "pdf": {
           "bytes": 97761,
@@ -10257,7 +10483,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -11576,8 +11801,8 @@
       "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 206,
+  "papers": 210,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-25T19:29:38.444016686Z"
+  "snapshot_time": "2026-11-25T20:30:39.946584148Z"
 }

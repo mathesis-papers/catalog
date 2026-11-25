@@ -518,6 +518,53 @@
       "work": "ambroz-kadlec-masakova-pelantova-thue-morse-prefix-costs"
     },
     {
+      "abstract_text": "We give a rank-ideal consequence and a rankwise proof of Horace Dong's September 2026 solution (Theorem 1.1; version 2, October 2026) to Araújo, Bentz, Cameron, Hendrey and Kinyon's Complete Mappings of Semigroups, arXiv:2608.25092v1, Section 15, Problem 15.11, printed page 61: the Brauer and partial Brauer monoids of positive degree n admit complete mappings exactly when n=1 or n>=4. Every proper Brauer principal factor admits one; the sole partial Brauer exception is the rank-two factor of PB_3, as Dong also proved. We derive the exact existence criterion for every nonempty rank ideal, including degrees two and three. The proof uses adjacent-subset pairings, signed sandwich transversals and rank preservation. Existence does not enumerate individual complete mappings.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 97844,
+        "sha256": "e05717f2c5812639912aca1a86c6033dc33354242acd2177be00d4ea79c455ce",
+        "url": "/api/v1/collected-papers/araujo-brauer-complete-mapping/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T19:59:38.624066902Z",
+      "record": "araujo-brauer-complete-mapping",
+      "repository_name": "araujo-brauer-complete-mapping",
+      "source": {
+        "bytes": 21239,
+        "sha256": "2db06303c790283befde4a0ebc2b43435c341149a6b2375f287a5262dab9214f",
+        "url": "/api/v1/collected-papers/araujo-brauer-complete-mapping/files/source?version=2"
+      },
+      "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T19:59:38.624066902Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "araujo-brauer-complete-mapping"
+    },
+    {
       "abstract_text": "For Arvind–Cameron–Ma–Maslova's Question 4, second sentence, in Section 9, p. 40 of arXiv:2305.07301v5 (27 July 2025), we extend the examples attributed there to Eamonn O'Brien to non-isoclinic groups of order q^6 with isomorphic full commuting graphs for every prime power q = p^f, including characteristic two, using residue-field coordinate charts for Heisenberg groups over two rings of order q^2. Their derived groups are (C_(p^2))^f and (C_p)^(2f). The common graph is chordal and perfect but neither a cograph, a split graph nor a threshold graph; its clique structure and degree distribution are explicit. The case f = 1 answers the posed all-prime question, and abelian factors give examples of every order p^n with n >= 6.",
       "authors": [
         {
@@ -2218,9 +2265,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24058060",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24058061",
       "lean_source": {
         "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
         "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Quantum/TensorNetworks/OpenBoundaryMPSMarginalBirationality.lean"
@@ -2359,9 +2406,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.23965055",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.23965056",
       "lean_source": {
         "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
         "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
@@ -2581,6 +2628,53 @@
         }
       ],
       "work": "dfl514-selfconj"
+    },
+    {
+      "abstract_text": "We answer negatively both open questions in Ding and Hu, Masking quantum information on hyperdisks, Section V, p. 8, arXiv:1909.11256v3 (15 October 2020): the finite-cover questions for regular subsets of hyperdisks and for nondegenerate masking machines. An explicit four-coordinate example has span dimension three and requires continuum many contained hyperdisks, each a single ray. The same support obstruction gives a complete maskable set requiring continuum many hyperdisks for every prescribed nondegenerate marginal spectrum of rank d >= 4, at every input dimension 3 <= n < d. We also determine the cover cardinalities of the two degenerate examples in the posing paper and distinguish maximal maskable sets of density matrices from convex hulls of phase states.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 95802,
+        "sha256": "a7a7aba178296238cbb18086477398bfb23428871809cba411a709e479691264",
+        "url": "/api/v1/collected-papers/ding-hu-2020-hyperdisk-regular-subset-finite-cover/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T19:58:35.274765662Z",
+      "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+      "repository_name": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+      "source": {
+        "bytes": 16544,
+        "sha256": "cb95ae6ab0c4d7e1afe88cffea593b83f12c878a5140d6fbe4fed5d9a6b09db9",
+        "url": "/api/v1/collected-papers/ding-hu-2020-hyperdisk-regular-subset-finite-cover/files/source?version=2"
+      },
+      "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T19:58:35.274765662Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
     },
     {
       "abstract_text": "Extending the canonical-state bounds of Milne et al. (2014) and Morelli et al. (2023) and the filtering examples of Mukherjee, Patro and Ganguly (2021), we prove the F3 part of the QSE conjecture of Ducuara, Susa and Skrzypczyk (2024), arXiv:2406.03945v1, Section II, p. 3, by establishing F3(rho) <= max(sqrt(3(1-c_B)), 1) for every two-qubit state, where c_B is the length of Bob's steering-ellipsoid centre. Every 0 <= c_B < 2/3 occurs for a state with F3 > 1, so the exact violation threshold is 2/3, rather than the reported numerical estimate 0.66. The bound follows from a purity estimate after marginal whitening and three positive spin-flip overlaps. It makes the one-sided filtering criterion of their Result 2 unconditional at the corrected threshold. We determine the full one-sided optimum for their quasi-distillable family, certify their other two example families, and derive the sharp companion CHSH and fully entangled fraction bounds conjectured by Milne et al. (2014), Section V, Conjectures 1-2.",
@@ -7473,6 +7567,53 @@
       "work": "oeis-a351858-bala-coefficient-identity"
     },
     {
+      "abstract_text": "We prove both conjectures in Paul D. Hanna's OEIS A378258, Comments (3 December 2024): its coefficients avoid residues 1 and 5 modulo 6 beyond degree one, and an odd coefficient occurs exactly at a power-of-two index. The normalized rational solution exists, is unique and has integer coefficients. An integral compositional square root gives parity; reflection modulo 3 gives the sharper even-index residues 3 at powers of two and 0 otherwise. The same construction treats every integer parameter q congruent to 1 modulo 4 replacing 5, and gives companion-series parity and exact dyadic valuations for compositional squares.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S1/Recurrence/Invariants/HannaA378258ModSix.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 77437,
+        "sha256": "fbdd4bca4bc1cd17205bd91316eb1ab9950aae3be073a89d22504bdc2a9d4745",
+        "url": "/api/v1/collected-papers/oeis-a378258-hanna-mod-six/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T19:42:50.683229416Z",
+      "record": "oeis-a378258-hanna-mod-six",
+      "repository_name": "oeis-a378258-hanna-mod-six",
+      "source": {
+        "bytes": 14395,
+        "sha256": "d5ccf55d2736bf70441c6b1b06b6d8a35cfe7f474b4f53ca60a1e2c25dc3d57b",
+        "url": "/api/v1/collected-papers/oeis-a378258-hanna-mod-six/files/source?version=2"
+      },
+      "title": "Proof of the modulo-six and parity conjectures in OEIS A378258, Comments",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T19:42:50.683229416Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "oeis-a378258-hanna-mod-six"
+    },
+    {
       "abstract_text": "We refute the adjacent-column Conjecture and prove the terminal-column Conjecture in the FORMULA section of Peter Kagey's OEIS entry A378495, revision #70 of October 17, 2026. For n>=5 the corrected adjacent difference is n!/[2(n-2)]=abs(A238474(n-3)); at n=4 it is 3. The literal conjecture fails at n=5, where its sides are 20 and 6. The earliest proof found of the row gcd, both differences and the index correction is Lien-Hung Su, DOI 10.5281/zenodo.23445724 v1 (October 18, 2026), Theorem 7.3, Proposition 7.4 and Remark 7.5; Ahaan Kallat gives a later independent proof in arXiv:2610.40342v1 (October 29, 2026), Theorem 4.1. This note gives a self-contained treatment of the differences and their boundary.",
       "authors": [
         {
@@ -7988,6 +8129,53 @@
         }
       ],
       "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
+      "abstract_text": "We establish the assertion that second-family states exist for all d in Pál, Tóth, Bene and Vértesi, Section V, paragraph after Eq. (69), p. 023101-8 of Physical Review Research 3, 023101 (2021). Cyclic permutation matrices and sum-indexed shield vectors satisfy all of the defining conditions for every integer d >= 2. Their partial-transpose identity gives explicit positive-partial-transpose states on C^(2d) tensor C^(2d), of ranks d^2+2d and 2d^2+d before and after partial transposition, with quantum Fisher information 16 sqrt(d)/(1+sqrt(d)) for the Hamiltonian of that paper. The construction extends to every finite abelian group; its shield projectors have explicit product decompositions. We also obtain the white-noise threshold and the exact dependence on two local Hamiltonian weights, extending the source's formulas to every dimension.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Quantum/Entanglement/BoundEntanglement/SecondFamilyAllDimensions.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 95787,
+        "sha256": "b9d657f2801d57d6338390883505ed2b221098fbf412fd2cfa3bce61d502cdec",
+        "url": "/api/v1/collected-papers/pal-toth-bene-vertesi-2021-second-family-all-dimensions/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-25T19:30:22.010886071Z",
+      "record": "pal-toth-bene-vertesi-2021-second-family-all-dimensions",
+      "repository_name": "pal-toth-bene-vertesi-2021-second-family-all-dimensions",
+      "source": {
+        "bytes": 16926,
+        "sha256": "15926c7d633ed88c4caa1e7c109ca12846c04d2a517b10e1a228f298c13f63cc",
+        "url": "/api/v1/collected-papers/pal-toth-bene-vertesi-2021-second-family-all-dimensions/files/source?version=2"
+      },
+      "title": "Resolving the all-dimension second-family claim of Pál et al.: Section V, paragraph after Eq. (69), p. 023101-8, Physical Review Research 3, 023101 (2021)",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-25T19:30:22.010886071Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "pal-toth-bene-vertesi-2021-second-family-all-dimensions"
     },
     {
       "abstract_text": "For Freeman's Conjecture 7.1 (arXiv:1604.06755v2, 25 January 2017, p. 10; density in section 6, p. 8), we prove the sharp upper-limsup replacement bound 1 and extend the Fibonacci-prefix formula of de Luca, as recalled by Fischler (2006, section 1), to establish the separate Fibonacci equality for all positive integers m,r,s with r distinct from s. The density-one examples have bounded partial quotients and are not eventually periodic: increasing powers of whole prefixes force local length ratios to approach one. A block-code identity gives all qualifying Fibonacci prefixes, including the cases with a terminal digit 1 and with m=1. The upper-limsup density differs from the classical lower-liminf density.",
@@ -8565,9 +8753,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.23971326",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.23971327",
       "lean_source": {
         "revision": "71b4592f31a0ce564acedcbee195fbd50f30bd8c",
         "url": "https://github.com/the-omega-institute/trureturing/blob/71b4592f31a0ce564acedcbee195fbd50f30bd8c/D5/S3/Quantum/Information/KirkwoodDiracSLDRefutation.lean"

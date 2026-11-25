@@ -2959,6 +2959,501 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:araujo-brauer-complete-mapping:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+      },
+      "lineage": "collected:araujo-brauer-complete-mapping:s1",
+      "macros": {
+        "\\B": "\\mathcal B",
+        "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+        "\\PB": "\\mathcal{PB}",
+        "\\Sym": "\\mathfrak S",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "araujo-brauer-complete-mapping",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\ge1$ the following statements hold.\n\\begin{enumerate}\n\\item Each of $\\B_n$ and $\\PB_n$ has a complete mapping if and only if $n=1$ or $n\\ge4$.\n\\item Every proper principal factor of $\\B_n$ has a complete mapping. The same is true for $\\PB_n$ except for its rank-two factor when $n=3$.\n\\item Let $0\\le q\\le n$ and let $I_q(D)=\\{x\\in D:\\operatorname{rank}(x)\\le q\\}$ be nonempty. Then $I_q(\\B_n)$ has a complete mapping exactly when $n\\notin\\{2,3\\}$ or $q<n$. The ideal $I_q(\\PB_n)$ has one exactly when $n\\notin\\{2,3\\}$ or $q\\le1$.\n\\end{enumerate}\nThe first two assertions are Dong's theorem~\\cite[Theorem~1.1]{Dong}; the third is its rankwise consequence. In every affirmative case there is a transversal in each included rank class whose products retain that rank.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+      "toolchain": null,
+      "version": 2,
+      "work": "araujo-brauer-complete-mapping"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:araujo-brauer-complete-mapping:2:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+      },
+      "lineage": "collected:araujo-brauer-complete-mapping:s10",
+      "macros": {
+        "\\B": "\\mathcal B",
+        "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+        "\\PB": "\\mathcal{PB}",
+        "\\Sym": "\\mathfrak S",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "araujo-brauer-complete-mapping",
+      "scope": "in_scope",
+      "statement": "For $r=2,3$ and $m\\ge1$, the Brandt semigroup $B(\\Sym_r,m)$, with $m$-by-$m$ identity sandwich matrix, has a complete mapping if and only if $m$ is even.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+      "toolchain": null,
+      "version": 2,
+      "work": "araujo-brauer-complete-mapping"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s11",
+      "contributor": null,
+      "identity": "collected:araujo-brauer-complete-mapping:2:s11",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+      },
+      "lineage": "collected:araujo-brauer-complete-mapping:s11",
+      "macros": {
+        "\\B": "\\mathcal B",
+        "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+        "\\PB": "\\mathcal{PB}",
+        "\\Sym": "\\mathfrak S",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "araujo-brauer-complete-mapping",
+      "scope": "in_scope",
+      "statement": "Let $J$ be the minimal rank class of $\\B_n$, or the rank-zero class of $\\PB_n$. If there are $m$ half diagrams, then $J$ and its factor with an additional zero each have exactly $(m!)^{2m}$ complete mappings.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+      "toolchain": null,
+      "version": 2,
+      "work": "araujo-brauer-complete-mapping"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:araujo-brauer-complete-mapping:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+      },
+      "lineage": "collected:araujo-brauer-complete-mapping:s2",
+      "macros": {
+        "\\B": "\\mathcal B",
+        "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+        "\\PB": "\\mathcal{PB}",
+        "\\Sym": "\\mathfrak S",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "araujo-brauer-complete-mapping",
+      "scope": "in_scope",
+      "statement": "Let $S$ be a finite semigroup and let $\\ell:S\\to\\mathbb Z$ satisfy $\\ell(xy)\\le\\min(\\ell(x),\\ell(y))$. If $\\alpha$ is complete and $\\theta(x)=x\\alpha(x)$, both $\\alpha$ and $\\theta$ preserve every level of $\\ell$. This is the sublevel-set form of~\\cite[Proposition~3.1]{ABCHK}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+      "toolchain": null,
+      "version": 2,
+      "work": "araujo-brauer-complete-mapping"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:araujo-brauer-complete-mapping:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+      },
+      "lineage": "collected:araujo-brauer-complete-mapping:s3",
+      "macros": {
+        "\\B": "\\mathcal B",
+        "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+        "\\PB": "\\mathcal{PB}",
+        "\\Sym": "\\mathfrak S",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "araujo-brauer-complete-mapping",
+      "scope": "in_scope",
+      "statement": "If $G$ has a complete mapping, then $P$ over $G\\cup\\{0\\}$ has a transversal. If $|I|$ is even, the same holds for $G=C_2$ and $G=\\Sym_3$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+      "toolchain": null,
+      "version": 2,
+      "work": "araujo-brauer-complete-mapping"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:araujo-brauer-complete-mapping:2:s4",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+      },
+      "lineage": "collected:araujo-brauer-complete-mapping:s4",
+      "macros": {
+        "\\B": "\\mathcal B",
+        "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+        "\\PB": "\\mathcal{PB}",
+        "\\Sym": "\\mathfrak S",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "araujo-brauer-complete-mapping",
+      "scope": "in_scope",
+      "statement": "Suppose $P$ has entries in $\\{0,+1,-1\\}$, with diagonal~$1$. Let $\\rho$ permute $I$ with $p_{d,\\rho d}=w_d\\ne0$. If on every cycle $C$ of $\\rho$,\n\\begin{equation}\n \\prod_{d\\in C}w_d=(-1)^{|C|},\n\\end{equation}\nthen $P$ has a transversal over $\\{+1,-1\\}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+      "toolchain": null,
+      "version": 2,
+      "work": "araujo-brauer-complete-mapping"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:araujo-brauer-complete-mapping:2:s5",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+      },
+      "lineage": "collected:araujo-brauer-complete-mapping:s5",
+      "macros": {
+        "\\B": "\\mathcal B",
+        "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+        "\\PB": "\\mathcal{PB}",
+        "\\Sym": "\\mathfrak S",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "araujo-brauer-complete-mapping",
+      "scope": "in_scope",
+      "statement": "A transversal for the sign quotient of a sandwich matrix over $\\Sym_3\\cup\\{0\\}$ lifts to a transversal for the original matrix.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+      "toolchain": null,
+      "version": 2,
+      "work": "araujo-brauer-complete-mapping"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:araujo-brauer-complete-mapping:2:s6",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+      },
+      "lineage": "collected:araujo-brauer-complete-mapping:s6",
+      "macros": {
+        "\\B": "\\mathcal B",
+        "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+        "\\PB": "\\mathcal{PB}",
+        "\\Sym": "\\mathfrak S",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "araujo-brauer-complete-mapping",
+      "scope": "in_scope",
+      "statement": "Two Brauer half diagrams whose through sets are equal, or differ by one vertex, have nonzero transport. Equal through sets give identity transport; reversing a transport gives its inverse. If three through sets are\n\\[\n S\\cup\\{a,b\\},\\quad S\\cup\\{a,c\\},\\quad S\\cup\\{b,c\\},\n\\]\nwhere $a,b,c$ are distinct and outside $S$, the product of the signs of their three cyclic transports is $-1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+      "toolchain": null,
+      "version": 2,
+      "work": "araujo-brauer-complete-mapping"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:araujo-brauer-complete-mapping:2:s7",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+      },
+      "lineage": "collected:araujo-brauer-complete-mapping:s7",
+      "macros": {
+        "\\B": "\\mathcal B",
+        "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+        "\\PB": "\\mathcal{PB}",
+        "\\Sym": "\\mathfrak S",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "araujo-brauer-complete-mapping",
+      "scope": "in_scope",
+      "statement": "For $(n,r)=(6+4k,2)$ or $(7+4k,3)$, $k\\ge0$, the $r$-subsets of $\\{0,\\ldots,n-1\\}$ can be paired with adjacent subsets, leaving exactly three unpaired sets of the form in Lemma~\\ref{lem:overlay}. Here adjacent means intersection size $r-1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+      "toolchain": null,
+      "version": 2,
+      "work": "araujo-brauer-complete-mapping"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:araujo-brauer-complete-mapping:2:s8",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+      },
+      "lineage": "collected:araujo-brauer-complete-mapping:s8",
+      "macros": {
+        "\\B": "\\mathcal B",
+        "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+        "\\PB": "\\mathcal{PB}",
+        "\\Sym": "\\mathfrak S",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "araujo-brauer-complete-mapping",
+      "scope": "in_scope",
+      "statement": "For the two families in Lemma~\\ref{lem:subset}, the set of Brauer half diagrams has a permutation with one three-cycle and all other cycles of length two, such that all cyclic transports exist, the sign product on each two-cycle is $+1$, and that on the three-cycle is $-1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+      "toolchain": null,
+      "version": 2,
+      "work": "araujo-brauer-complete-mapping"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:araujo-brauer-complete-mapping:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a89e0fb9ba0f9002502ec8125455c2c2a9281443",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/AraujoBrauerCompleteMapping.lean"
+      },
+      "lineage": "collected:araujo-brauer-complete-mapping:s9",
+      "macros": {
+        "\\B": "\\mathcal B",
+        "\\LeanBase": "https://github.com/the-omega-institute/trureturing/blob/a89e0fb9ba0f9002502ec8125455c2c2a9281443/D5/S3/Combinatorics/PerfectMatchings/",
+        "\\PB": "\\mathcal{PB}",
+        "\\Sym": "\\mathfrak S",
+        "\\Z": "\\mathbb Z",
+        "\\leanfile": "\\href{\\LeanBase#1.lean}{#2}",
+        "\\sgn": "\\operatorname{sgn}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "araujo-brauer-complete-mapping",
+      "scope": "in_scope",
+      "statement": "For every complete mapping $\\alpha$ of a Brauer or partial Brauer monoid, or of a nonempty rank ideal, $\\alpha$, $\\theta:x\\mapsto x\\alpha(x)$ and $\\alpha^{-1}\\theta$ preserve rank. Each cycle is contained in one rank class. Conversely any choice of rank-preserving transversals in the included rank classes unites to a complete mapping.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Rank-ideal consequences of Dong's solution to the Brauer complete-mapping problem of Araújo, Bentz, Cameron, Hendrey and Kinyon",
+      "toolchain": null,
+      "version": 2,
+      "work": "araujo-brauer-complete-mapping"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:arvind-commuting-graph-prime-sixth-order:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -15208,6 +15703,342 @@
       "toolchain": null,
       "version": 2,
       "work": "dfl514-selfconj"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+      },
+      "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s1",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Span": "\\operatorname{span}_{\\C}",
+        "\\T": "\\mathbb T",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+      "scope": "in_scope",
+      "statement": "Every nonempty hyperdisk contained in $C$ has dimension one. The set $C$\nhas a continuum of rays and $\\Span(C)=L$, of complex dimension three.\nConsequently the least cardinality of a hyperdisk cover of $C$ is\n$\\mathfrak c=|\\mathbb R|$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+      "toolchain": null,
+      "version": 2,
+      "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+      },
+      "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s2",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Span": "\\operatorname{span}_{\\C}",
+        "\\T": "\\mathbb T",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+      "scope": "in_scope",
+      "statement": "If $|\\sum_pa_pu_p|$ is constant for all independent $u_p\\in\\T$, then\nat most one $a_p$ is nonzero.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+      "toolchain": null,
+      "version": 2,
+      "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+      },
+      "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s3",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Span": "\\operatorname{span}_{\\C}",
+        "\\T": "\\mathbb T",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+      "scope": "in_scope",
+      "statement": "The proposed span-dimension upper bound in Ding--Hu,\narXiv:1909.11256v1, Section V, p.~6 (25 September 2019), is false:\na regular subset of span dimension three can require $\\mathfrak c$\ncontained hyperdisks.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+      "toolchain": null,
+      "version": 2,
+      "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+      },
+      "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s4",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Span": "\\operatorname{span}_{\\C}",
+        "\\T": "\\mathbb T",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+      "scope": "in_scope",
+      "statement": "Four is the smallest ambient hyperdisk dimension admitting a regular\nsubset without a finite cover by contained hyperdisks.\nFor nondegenerate masking machines, the smallest input dimension and\nmarginal rank allowing such a cover obstruction are $n=3$ and $d=4$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+      "toolchain": null,
+      "version": 2,
+      "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+      },
+      "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s5",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Span": "\\operatorname{span}_{\\C}",
+        "\\T": "\\mathbb T",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+      "scope": "in_scope",
+      "statement": "There is a masking machine with input dimension $n=3$ and Schmidt\nnumber $d=4$, whose complete maskable set has no finite or countable\nhyperdisk cover, although its fixed marginal states are nondegenerate.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+      "toolchain": null,
+      "version": 2,
+      "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+      },
+      "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s6",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Span": "\\operatorname{span}_{\\C}",
+        "\\T": "\\mathbb T",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+      "scope": "in_scope",
+      "statement": "Let $d\\ge4$ and $r_j>0$ with $\\sum_{j=0}^{d-1}r_j^2=1$. Set\n\\[\n S_d=\\{x\\in\\C^d:|x_j|=r_j\\},\\qquad\n L_d=\\left\\{x:\\frac{x_0}{r_0}+\\frac{x_1}{r_1}\n                 +\\frac{x_2}{r_2}+\\frac{2x_3}{r_3}=0\\right\\}.\n\\]\nThen $C_d=L_d\\cap S_d$ is regular, spans $L_d$, and its least\nhyperdisk-cover cardinality is $\\mathfrak c$.\nThe isometry $x\\mapsto\\sum_jx_j|jj\\rangle$ on $L_d$ has complete maskable\nset $C_d$ for marginals $\\diag(r_0^2,\\ldots,r_{d-1}^2)$ and input dimension\n$d-1$. In particular, every nondegenerate rank-$d$ spectrum occurs.\nMore generally, for every $3\\le n<d$, the subspace\n\\[\n L_{d,n}=\\left\\{x\\in L_d:\n       \\frac{x_j}{r_j}=\\frac{x_3}{r_3}\\quad(n+1\\le j\\le d-1)\\right\\}\n\\]\nhas dimension $n$, and $L_{d,n}\\cap S_d$ has the same cover cardinality\nand complete masking realization. Hence the pairs $(n,d)$ admitting a\nnondegenerate masking machine without a finite hyperdisk cover are\nexactly $3\\le n<d$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+      "toolchain": null,
+      "version": 2,
+      "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+      },
+      "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s7",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Span": "\\operatorname{span}_{\\C}",
+        "\\T": "\\mathbb T",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+      "scope": "in_scope",
+      "statement": "Each complete target set in Ding--Hu Eqs.~(36) and (51) has least\nhyperdisk-cover cardinality $\\mathfrak c$. The latter has no contained\nhyperdisk of dimension greater than one, as stated in that paper.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+      "toolchain": null,
+      "version": 2,
+      "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S3/Quantum/Masking/HyperdiskRegularSubsetCover.lean"
+      },
+      "lineage": "collected:ding-hu-2020-hyperdisk-regular-subset-finite-cover:s8",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Span": "\\operatorname{span}_{\\C}",
+        "\\T": "\\mathbb T",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "ding-hu-2020-hyperdisk-regular-subset-finite-cover",
+      "scope": "in_scope",
+      "statement": "The set $\\mathcal D_r$ is maximal maskable among density matrices on\n$\\C^d$. The convex hull of $\\mathcal P_r$ equals $\\mathcal D_r$ for\n$d\\le3$ and is a proper subset for every $d\\ge4$.\nConsequently Zhu's Conjecture~1 holds for $d=2,3$ and is false for $d\\ge4$;\nthe corrected maximal set is $\\mathcal D_r$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions",
+      "toolchain": null,
+      "version": 2,
+      "work": "ding-hu-2020-hyperdisk-regular-subset-finite-cover"
     },
     {
       "attribution": null,
@@ -44586,6 +45417,216 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:oeis-a378258-hanna-mod-six:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S1/Recurrence/Invariants/HannaA378258ModSix.lean"
+      },
+      "lineage": "collected:oeis-a378258-hanna-mod-six:s1",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a378258-hanna-mod-six",
+      "scope": "in_scope",
+      "statement": "System~\\eqref{system} has exactly one normalized solution $A=\\sum_{n\\geq1}a(n)x^n$, and all its coefficients are integers. For $n\\geq1$,\n\\[\n a(n)\\text{ is odd}\\quad\\Longleftrightarrow\\quad n=2^j\\text{ for some }j\\geq0.\n\\]\nFor every even $n\\geq2$, $3\\mid a(n)$, and\n\\[\n a(n)\\equiv\n \\begin{cases}3\\pmod 6,&n\\text{ is a power of two},\\\\\n 0\\pmod 6,&n\\text{ is not a power of two}.\n \\end{cases}\n\\]\nConsequently $a(n)\\not\\equiv1,5\\pmod6$ for every $n>1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of the modulo-six and parity conjectures in OEIS A378258, Comments",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a378258-hanna-mod-six"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:oeis-a378258-hanna-mod-six:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S1/Recurrence/Invariants/HannaA378258ModSix.lean"
+      },
+      "lineage": "collected:oeis-a378258-hanna-mod-six:s2",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a378258-hanna-mod-six",
+      "scope": "in_scope",
+      "statement": "Let $f,g\\in x+x^2R[[x]]$ and suppose their first differing coefficient has degree $n$, so $f-g=\\delta x^n+O(x^{n+1})$, $n\\geq2$. Then\n\\[\n f\\circ f-g\\circ g=2\\delta x^n+O(x^{n+1}).\n\\]\nFor fixed $s,t\\in R$, the same leading difference occurs between\n$(f+sf^2)\\circ(f+tf^2)$ and $(g+sg^2)\\circ(g+tg^2)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of the modulo-six and parity conjectures in OEIS A378258, Comments",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a378258-hanna-mod-six"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:oeis-a378258-hanna-mod-six:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S1/Recurrence/Invariants/HannaA378258ModSix.lean"
+      },
+      "lineage": "collected:oeis-a378258-hanna-mod-six:s3",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a378258-hanna-mod-six",
+      "scope": "in_scope",
+      "statement": "For every $H\\in x^2\\Z[[x]]$, there exists a unique $S\\in x+x^2\\Q[[x]]$ with\n\\[\n S\\circ S=x+4H.\n\\]\nIt belongs to $\\Z[[x]]$ and satisfies $S\\equiv x\\pmod2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of the modulo-six and parity conjectures in OEIS A378258, Comments",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a378258-hanna-mod-six"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:oeis-a378258-hanna-mod-six:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S1/Recurrence/Invariants/HannaA378258ModSix.lean"
+      },
+      "lineage": "collected:oeis-a378258-hanna-mod-six:s4",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a378258-hanna-mod-six",
+      "scope": "in_scope",
+      "statement": "The related series in A378258, Examples, satisfy\n\\[\n B\\equiv J\\equiv x\\pmod2,\\qquad\n A^2\\equiv C-x\\pmod2,\\qquad D\\equiv C\\pmod2.\n\\]\nThus every coefficient of $B$ or $J$ beyond degree one is even; the odd\ncoefficients of $A^2$ occur exactly at $2,4,8,\\ldots$, and those of $D$\noccur exactly at $1,2,4,8,\\ldots$. Moreover, for every $n\\geq2$,\n\\begin{align*}\n [x^n](B\\circ B)&=-4c_n<0,&\n [x^n](J\\circ J)&=4\\cdot5^{n-2}c_n>0,\\\\\n v_2([x^n](B\\circ B))&=s_2(n)+1,&\n v_2([x^n](J\\circ J))&=s_2(n)+1.\n\\end{align*}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of the modulo-six and parity conjectures in OEIS A378258, Comments",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a378258-hanna-mod-six"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:oeis-a378258-hanna-mod-six:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "01b573fd9b691a4be3a8b0ecbb41b3311eda19b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/01b573fd9b691a4be3a8b0ecbb41b3311eda19b5/D5/S1/Recurrence/Invariants/HannaA378258ModSix.lean"
+      },
+      "lineage": "collected:oeis-a378258-hanna-mod-six:s5",
+      "macros": {
+        "\\F": "\\mathbb F",
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ord": "\\operatorname{ord}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a378258-hanna-mod-six",
+      "scope": "in_scope",
+      "statement": "Let $t\\in\\Z$, $q=1+4t$, and $M=|2t+1|$. The system\n\\[\n A_q=B_q+qA_q^2,\\qquad B_q\\circ(A_q-A_q^2)=x,\n \\qquad A_q=x+O(x^2)\n\\]\nhas a unique normalized rational solution, with integer coefficients\n$a_q(n)=[x^n]A_q$. Its odd coefficients occur exactly at powers of two.\nAt every even $n\\geq2$,\n\\[\n a_q(n)\\equiv\n \\begin{cases}M\\pmod{2M},&n\\text{ is a power of two},\\\\\n 0\\pmod{2M},&n\\text{ is not a power of two}.\n \\end{cases}\n\\]\nIn particular, $M\\mid a_q(n)$ at every even index. At odd $n>1$ the\ncoefficient is even. All six source identities extend with $5$ replaced\nby $q$, with $B_q\\circ B_q=qx+(1-q)C$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of the modulo-six and parity conjectures in OEIS A378258, Comments",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a378258-hanna-mod-six"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:oeis-a378495-difference-conjectures:3:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -47268,6 +48309,178 @@
       "toolchain": null,
       "version": 2,
       "work": "ovsienko-tabachnikov-first-dual-somos-integrality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:pal-toth-bene-vertesi-2021-second-family-all-dimensions:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Quantum/Entanglement/BoundEntanglement/SecondFamilyAllDimensions.lean"
+      },
+      "lineage": "collected:pal-toth-bene-vertesi-2021-second-family-all-dimensions:s1",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\proj": "\\ket{#1}\\bra{#1}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "pal-toth-bene-vertesi-2021-second-family-all-dimensions",
+      "scope": "in_scope",
+      "statement": "For every integer $d\\geq2$, the following data satisfy\nEqs.\\ (52), (57)--(60), (63), and (64) of~\\cite{Pal2021}:\n\\begin{align}\n Q^k_{ij}&=\\mathbf1_{\\{j=i+k\\}}, &\n \\mu_{ij}&=j-i, & S_{ij}&=1, & N_m&=d,\\\\\n \\ket{\\overline q_m}&=\\ket{m,m}, &\n \\ket{t_m}&=\\frac1{\\sqrt d}\\sum_i\\ket{i,i+m}, &\n \\ket{s_m}&=\\frac1{\\sqrt d}\\sum_i\\ket{i,m-i}.\n \n\\end{align}\nHere $\\ket{\\overline q_m}$ has key label $10$ and\n$\\ket{t_m},\\ket{s_m}$ have key label $01$ when inserted into the\nfour-partite formulas. In particular,\n\\begin{equation}\n \\left(\\sum_m\\proj{s_m}\\right)^{\\Gamma_{B'}}\n       =\\sum_m\\proj{t_m}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving the all-dimension second-family claim of Pál et al.: Section V, paragraph after Eq. (69), p. 023101-8, Physical Review Research 3, 023101 (2021)",
+      "toolchain": null,
+      "version": 2,
+      "work": "pal-toth-bene-vertesi-2021-second-family-all-dimensions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:pal-toth-bene-vertesi-2021-second-family-all-dimensions:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Quantum/Entanglement/BoundEntanglement/SecondFamilyAllDimensions.lean"
+      },
+      "lineage": "collected:pal-toth-bene-vertesi-2021-second-family-all-dimensions:s2",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\proj": "\\ket{#1}\\bra{#1}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "pal-toth-bene-vertesi-2021-second-family-all-dimensions",
+      "scope": "in_scope",
+      "statement": "For $p=\\sqrt d/(1+\\sqrt d)$, the state $\\rho_{d,v}$ has Fisher\ninformation strictly above the separable bound if and only if\n\\begin{equation}\n v>v_*(d):=\\frac{(2p-1)+\\sqrt{(2p-1)^2+16p^2}}{8p^2}.\n\\end{equation}\nThe threshold satisfies $0<v_*(d)<1$. The largest white-noise fraction\nat the boundary, $r_*(d)=1-v_*(d)$, increases with $d$ and tends to\n$(7-\\sqrt{17})/8$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving the all-dimension second-family claim of Pál et al.: Section V, paragraph after Eq. (69), p. 023101-8, Physical Review Research 3, 023101 (2021)",
+      "toolchain": null,
+      "version": 2,
+      "work": "pal-toth-bene-vertesi-2021-second-family-all-dimensions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:pal-toth-bene-vertesi-2021-second-family-all-dimensions:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Quantum/Entanglement/BoundEntanglement/SecondFamilyAllDimensions.lean"
+      },
+      "lineage": "collected:pal-toth-bene-vertesi-2021-second-family-all-dimensions:s3",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\proj": "\\ket{#1}\\bra{#1}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "pal-toth-bene-vertesi-2021-second-family-all-dimensions",
+      "scope": "in_scope",
+      "statement": "For real $c_1,c_2$ not both zero, put\n$H_c=(c_1Z_A+c_2Z_B)\\otimes I_{A'B'}$. Then\n\\begin{align}\n F_Q(\\rho_d,H_c)&=4p(c_1+c_2)^2,\\\\\n F_Q^{\\rm sep}(H_c)&=4(c_1^2+c_2^2),\\\\\n g_c(\\rho_d)&=p\\frac{(c_1+c_2)^2}{c_1^2+c_2^2}\\leq2p,\\\\\n 4\\operatorname{Var}_{\\rho_d}H_c-F_Q(\\rho_d,H_c)\n   &=4q(c_1-c_2)^2.\n\\end{align}\nBoth equality in the gain bound and saturation of the variance bound\nhold exactly when $c_1=c_2$. The noisy states satisfy\n\\[\n F_Q(\\rho_{d,v},H_c)\n =\\frac{2pv^2}{1+(2p-1)v}\\,F_Q(\\rho_d,H_c).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving the all-dimension second-family claim of Pál et al.: Section V, paragraph after Eq. (69), p. 023101-8, Physical Review Research 3, 023101 (2021)",
+      "toolchain": null,
+      "version": 2,
+      "work": "pal-toth-bene-vertesi-2021-second-family-all-dimensions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:pal-toth-bene-vertesi-2021-second-family-all-dimensions:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Quantum/Entanglement/BoundEntanglement/SecondFamilyAllDimensions.lean"
+      },
+      "lineage": "collected:pal-toth-bene-vertesi-2021-second-family-all-dimensions:s4",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}",
+        "\\bra": "\\langle #1\\rvert",
+        "\\ket": "\\lvert #1\\rangle",
+        "\\proj": "\\ket{#1}\\bra{#1}",
+        "\\rank": "\\operatorname{rank}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "pal-toth-bene-vertesi-2021-second-family-all-dimensions",
+      "scope": "in_scope",
+      "statement": "Let $G$ be any finite abelian group of order $d\\geq2$.\nReplacing $\\mathbb Z_d$ by $G$ in~\\eqref{eq:data}--\\eqref{eq:shield}\nand~\\eqref{eq:z}--\\eqref{eq:rho} gives the same conclusions.\nWriting $P_s=\\sum_m\\proj{s_m}$ and $P_t=\\sum_m\\proj{t_m}$,\nboth $P_s/d$ and $P_t/d$ are separable states across $A':B'$. Moreover,\n$P_t^{\\Gamma_{B'}}=P_t$ if and only if $2g=0$ for every $g\\in G$;\nin that case one may take $s_m=t_m$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving the all-dimension second-family claim of Pál et al.: Section V, paragraph after Eq. (69), p. 023101-8, Physical Review Research 3, 023101 (2021)",
+      "toolchain": null,
+      "version": 2,
+      "work": "pal-toth-bene-vertesi-2021-second-family-all-dimensions"
     },
     {
       "attribution": null,
