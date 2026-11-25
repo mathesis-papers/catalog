@@ -85,6 +85,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.23971256",
+      "id": "bala-a258899-totient-period",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24487480",
       "id": "bala-a292179-a292178-bilateral-logarithm",
       "kind": "collected",
@@ -171,6 +177,12 @@
     {
       "doi": "10.5281/zenodo.24369110",
       "id": "bernath-a400645-consecutive-ratio",
+      "kind": "collected",
+      "version": 2
+    },
+    {
+      "doi": "10.5281/zenodo.24445658",
+      "id": "bks11-14325-whole-event",
       "kind": "collected",
       "version": 2
     },
@@ -281,6 +293,12 @@
       "id": "das-et-al-2025-onb-tomography-holevo-ratio",
       "kind": "collected",
       "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.23931736",
+      "id": "debrota-stacey-2019-luders-entropy-saturation-sic",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.24507291",
@@ -1177,6 +1195,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-25T18:32:32.061196846Z",
+  "generated_at": "2026-11-25T19:29:38.444016686Z",
   "schema": "mathesis.archive-index.v1"
 }

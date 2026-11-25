@@ -12707,6 +12707,216 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Quantum/TensorNetworks/OpenBoundaryMPSMarginalBirationality.lean"
+      },
+      "lineage": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:s1",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\GL": "\\operatorname{GL}",
+        "\\OB": "\\operatorname{OB}",
+        "\\adj": "\\operatorname{adj}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "critch-morton-2014-open-boundary-mps-marginal-birationality",
+      "scope": "in_scope",
+      "statement": "For every $N\\geq4$ and $0\\leq a\\leq N-3$, the map $\\mu_a:X_N\\to X_3$\nis birational. More precisely, there is a polynomial $g$ in the eight\nthree-site coordinates such that $U=X_3\\cap\\{g\\ne0\\}$ is nonempty, and a\nrational map $F_{N,a}:U\\to X_N$ is inverse to $\\mu_a$ on\n$X_N\\cap\\{g\\circ\\mu_a\\ne0\\}$.\nThe vanishing ideals of $X_N$ and $X_3$ are prime.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Critch–Morton Conjecture 8 (SIGMA 10 (2014), 095, Section 2, p. 6): reconstruction from any consecutive three-site improper marginal",
+      "toolchain": null,
+      "version": 2,
+      "work": "critch-morton-2014-open-boundary-mps-marginal-birationality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Quantum/TensorNetworks/OpenBoundaryMPSMarginalBirationality.lean"
+      },
+      "lineage": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:s2",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\GL": "\\operatorname{GL}",
+        "\\OB": "\\operatorname{OB}",
+        "\\adj": "\\operatorname{adj}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "critch-morton-2014-open-boundary-mps-marginal-birationality",
+      "scope": "in_scope",
+      "statement": "For every $N\\geq3$, $X_N$ is a rational variety of dimension seven.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Critch–Morton Conjecture 8 (SIGMA 10 (2014), 095, Section 2, p. 6): reconstruction from any consecutive three-site improper marginal",
+      "toolchain": null,
+      "version": 2,
+      "work": "critch-morton-2014-open-boundary-mps-marginal-birationality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Quantum/TensorNetworks/OpenBoundaryMPSMarginalBirationality.lean"
+      },
+      "lineage": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:s3",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\GL": "\\operatorname{GL}",
+        "\\OB": "\\operatorname{OB}",
+        "\\adj": "\\operatorname{adj}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "critch-morton-2014-open-boundary-mps-marginal-birationality",
+      "scope": "in_scope",
+      "statement": "Let $3\\leq m\\leq N$, and retain any consecutive block of $m$ sites.\nAt each omitted site choose a fixed nonzero complex covector, allowing a\ndifferent choice at every site. Contracting the omitted sites with these\ncovectors defines a birational map $X_N\\to X_m$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Critch–Morton Conjecture 8 (SIGMA 10 (2014), 095, Section 2, p. 6): reconstruction from any consecutive three-site improper marginal",
+      "toolchain": null,
+      "version": 2,
+      "work": "critch-morton-2014-open-boundary-mps-marginal-birationality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Quantum/TensorNetworks/OpenBoundaryMPSMarginalBirationality.lean"
+      },
+      "lineage": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:s4",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\GL": "\\operatorname{GL}",
+        "\\OB": "\\operatorname{OB}",
+        "\\adj": "\\operatorname{adj}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "critch-morton-2014-open-boundary-mps-marginal-birationality",
+      "scope": "in_scope",
+      "statement": "For $N\\geq3$, no coherent contraction retaining at most two binary sites\nis generically finite on $X_N$. Thus three is the least possible retained\nblock size for generic amplitude recovery of these models.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Critch–Morton Conjecture 8 (SIGMA 10 (2014), 095, Section 2, p. 6): reconstruction from any consecutive three-site improper marginal",
+      "toolchain": null,
+      "version": 2,
+      "work": "critch-morton-2014-open-boundary-mps-marginal-birationality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Quantum/TensorNetworks/OpenBoundaryMPSMarginalBirationality.lean"
+      },
+      "lineage": "collected:critch-morton-2014-open-boundary-mps-marginal-birationality:s5",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\GL": "\\operatorname{GL}",
+        "\\OB": "\\operatorname{OB}",
+        "\\adj": "\\operatorname{adj}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "critch-morton-2014-open-boundary-mps-marginal-birationality",
+      "scope": "in_scope",
+      "statement": "For $N\\geq4$ the $N-2$ quartics $\\det K(\\mu_a\\psi)$ vanish on $X_N$,\nbut their common zero set is strictly larger than $X_N$.\nFix $a$, set $t=\\mu_a\\psi$, let $q=(\\det W)^3(\\det J)^{N-3}$,\nand let $p_w$ be the numerator in~\\eqref{eq:polynomial}.\nOn the ambient open subset $g(t)\\ne0$, membership has the exact criterion\n\\begin{equation}\n \\psi\\in X_N\\quad\\Longleftrightarrow\\quad\n \\det K(t)=0\\ \\text{ and }\\ q(t)\\psi_w=p_w(t)\\quad\\text{for all }w.\n\\end{equation}\nEvery member of $X_N$ on this chart is an actual tensor of the form\n\\eqref{eq:state}, not just a limit of such tensors.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Critch–Morton Conjecture 8 (SIGMA 10 (2014), 095, Section 2, p. 6): reconstruction from any consecutive three-site improper marginal",
+      "toolchain": null,
+      "version": 2,
+      "work": "critch-morton-2014-open-boundary-mps-marginal-birationality"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:dabrowski-poulain-ragoucy-2026-switched-ssep-reachability:2:s1",
       "kind": "paper",
       "label": "Theorem",
@@ -13378,6 +13588,522 @@
       "toolchain": null,
       "version": 3,
       "work": "das-et-al-2025-onb-tomography-holevo-ratio"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+      },
+      "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s1",
+      "macros": {
+        "\\In": "\\operatorname{In}",
+        "\\R": "\\mathbb{R}",
+        "\\cof": "\\operatorname{cof}",
+        "\\diag": "\\operatorname{diag}",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "das-mohanty-singular-squared-distance-laplacian",
+      "scope": "in_scope",
+      "statement": "If $\\det\\Delta=0$, then $\\cof\\Delta\\ne0$ and $L$ is defined.\nIts positive spectrum, with multiplicities, is\n\\[\n \\{(1/4)^{[N-t]},\\;1^{[h-1]}\\},\n \\qquad\\text{and}\\qquad \\In(L)=(N-s-1,1,s).\n\\]\nIn particular, both clauses hold on the source's inherited\nnonzero-cofactor domain.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+      "toolchain": null,
+      "version": 2,
+      "work": "das-mohanty-singular-squared-distance-laplacian"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s10",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+      },
+      "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s10",
+      "macros": {
+        "\\In": "\\operatorname{In}",
+        "\\R": "\\mathbb{R}",
+        "\\cof": "\\operatorname{cof}",
+        "\\diag": "\\operatorname{diag}",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "das-mohanty-singular-squared-distance-laplacian",
+      "scope": "in_scope",
+      "statement": "For $R\\ne0$, as a polynomial identity after clearing the displayed poles,\n\\begin{equation}\n \\det(xI-L)=(x-1/4)^{N-t}\\prod_i(x+1/d_i)\n \\left(1-\\frac1R\\sum_i\\frac{n_i}{d_i^2(x+1/d_i)}\\right).\n\\end{equation}\nIn the singular case, let $m_1<\\cdots<m_g$ be the distinct\nnonsingleton sizes, $k_j$ their numbers of parts, and\n$a_j=-1/(3m_j-4)$. The negative spectrum consists of\n$a_j$ with multiplicity $k_j-1$, one simple eigenvalue in\n$(-\\infty,a_1)$, and one simple eigenvalue in each\n$(a_j,a_{j+1})$, $1\\le j<g$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+      "toolchain": null,
+      "version": 2,
+      "work": "das-mohanty-singular-squared-distance-laplacian"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s11",
+      "contributor": null,
+      "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s11",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+      },
+      "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s11",
+      "macros": {
+        "\\In": "\\operatorname{In}",
+        "\\R": "\\mathbb{R}",
+        "\\cof": "\\operatorname{cof}",
+        "\\diag": "\\operatorname{diag}",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "das-mohanty-singular-squared-distance-laplacian",
+      "scope": "in_scope",
+      "statement": "Let $H$ be any real symmetric matrix, $u$ a vector, and\n$p=u^THu\\ne0$. Put $K=H-(Hu)(Hu)^T/p$. If\n$\\In(H)=(b_+,b_0,b_-)$, then\n\\[\n \\In(K)=\\begin{cases}\n (b_+-1,b_0+1,b_-),&p>0,\\\\\n (b_+,b_0+1,b_--1),&p<0,\n \\end{cases}\n \\qquad \\ker K=\\ker H\\oplus\\R u.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+      "toolchain": null,
+      "version": 2,
+      "work": "das-mohanty-singular-squared-distance-laplacian"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s12",
+      "contributor": null,
+      "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s12",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+      },
+      "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s12",
+      "macros": {
+        "\\In": "\\operatorname{In}",
+        "\\R": "\\mathbb{R}",
+        "\\cof": "\\operatorname{cof}",
+        "\\diag": "\\operatorname{diag}",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "das-mohanty-singular-squared-distance-laplacian",
+      "scope": "in_scope",
+      "statement": "Let $Y$ be a nonempty connected topological space. Suppose\n$D(y)=\\diag(e_1(y),\\ldots,e_n(y))$ and $u(y)$ are continuous,\n$p(y)=u(y)^TD(y)u(y)\\ne0$, and\n$K(y)=D(y)-(D(y)u(y))(D(y)u(y))^T/p(y)$ is positive semidefinite.\nThen $p$ has constant sign. If it is negative, there is a unique fixed\nindex $j$ with $e_j(y)<0$ for all $y$, and $e_i(y)\\ge0$ for every\n$i\\ne j$ and $y$. If it is positive, $D(y)$ is positive semidefinite.\nThis applies to an open $(n-1)$-simplex with finitely many points removed\nwhen $n\\ge3$, and to every space homeomorphic to that domain.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+      "toolchain": null,
+      "version": 2,
+      "work": "das-mohanty-singular-squared-distance-laplacian"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+      },
+      "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s2",
+      "macros": {
+        "\\In": "\\operatorname{In}",
+        "\\R": "\\mathbb{R}",
+        "\\cof": "\\operatorname{cof}",
+        "\\diag": "\\operatorname{diag}",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "das-mohanty-singular-squared-distance-laplacian",
+      "scope": "in_scope",
+      "statement": "On the domain $\\cof\\Delta\\ne0$, equivalently $R\\ne0$, the literal matrix\n\\eqref{eq:source} satisfies\n\\begin{equation}\n L=A+\\frac{zz^T}{R}.\n\\end{equation}\nIf $\\det\\Delta=0$, then $R=-1$, $\\Psi=-\\Phi\\ne0$, and $L=A-zz^T$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+      "toolchain": null,
+      "version": 2,
+      "work": "das-mohanty-singular-squared-distance-laplacian"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+      },
+      "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s3",
+      "macros": {
+        "\\In": "\\operatorname{In}",
+        "\\R": "\\mathbb{R}",
+        "\\cof": "\\operatorname{cof}",
+        "\\diag": "\\operatorname{diag}",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "das-mohanty-singular-squared-distance-laplacian",
+      "scope": "in_scope",
+      "statement": "For all positive integer part sizes and $R\\ne0$,\n\\begin{equation}\n \\In(L)=\\begin{cases}\n (N-s-1,1,s),&R<0,\\\\\n (N-s,1,s-1),&R>0.\n \\end{cases}\n\\end{equation}\nIn particular, $\\ker L=\\R\\one$ and $\\operatorname{rank}L=N-1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+      "toolchain": null,
+      "version": 2,
+      "work": "das-mohanty-singular-squared-distance-laplacian"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+      },
+      "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s4",
+      "macros": {
+        "\\In": "\\operatorname{In}",
+        "\\R": "\\mathbb{R}",
+        "\\cof": "\\operatorname{cof}",
+        "\\diag": "\\operatorname{diag}",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "das-mohanty-singular-squared-distance-laplacian",
+      "scope": "in_scope",
+      "statement": "For $R\\ne0$, every cofactor of $L$ equals\n$(-1)^{N-1}/\\cof\\Delta$, including when $\\Delta$ is singular.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+      "toolchain": null,
+      "version": 2,
+      "work": "das-mohanty-singular-squared-distance-laplacian"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+      },
+      "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s5",
+      "macros": {
+        "\\In": "\\operatorname{In}",
+        "\\R": "\\mathbb{R}",
+        "\\cof": "\\operatorname{cof}",
+        "\\diag": "\\operatorname{diag}",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "das-mohanty-singular-squared-distance-laplacian",
+      "scope": "in_scope",
+      "statement": "For every $R\\ne0$, the multiplicity of $1/4$ is $N-t$.\nThe multiplicity of $1$ is $h-1$ if $h\\ge1$, and zero if $h=0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+      "toolchain": null,
+      "version": 2,
+      "work": "das-mohanty-singular-squared-distance-laplacian"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+      },
+      "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s6",
+      "macros": {
+        "\\In": "\\operatorname{In}",
+        "\\R": "\\mathbb{R}",
+        "\\cof": "\\operatorname{cof}",
+        "\\diag": "\\operatorname{diag}",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "das-mohanty-singular-squared-distance-laplacian",
+      "scope": "in_scope",
+      "statement": "For every $R<0$, one has $h\\ge1$ and the complete positive spectrum of $L$\nis $\\{(1/4)^{[N-t]},1^{[h-1]}\\}$, with zero multiplicities omitted.\nThus the spectral conclusion of Theorem~\\ref{thm:main} holds on the\nentire negative-ratio domain, not just at $R=-1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+      "toolchain": null,
+      "version": 2,
+      "work": "das-mohanty-singular-squared-distance-laplacian"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+      },
+      "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s7",
+      "macros": {
+        "\\In": "\\operatorname{In}",
+        "\\R": "\\mathbb{R}",
+        "\\cof": "\\operatorname{cof}",
+        "\\diag": "\\operatorname{diag}",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "das-mohanty-singular-squared-distance-laplacian",
+      "scope": "in_scope",
+      "statement": "For $R\\ne-1$,\n\\[\n \\Delta^{-1}=B^{-1}-\\frac{zz^T}{1+R}.\n\\]\nThis includes the zero-cofactor case $R=0$, in which $L$ is undefined.\nFor $R=-1$,\n\\[\n \\ker\\Delta=\\R z,\\qquad\n \\operatorname{adj}\\Delta=-\\det B\\,zz^T.\n\\]\nIf $R\\ne0$, set $\\nu=z/R$ and $\\lambda=(1+R)/R$. Then\n$\\one^T\\nu=1$, $\\Delta\\nu=\\lambda\\one$ and\n$L\\Delta+I=\\nu\\one^T$. If also $R\\ne-1$, then\n$\\Delta^{-1}=-L+\\nu\\nu^T/\\lambda$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+      "toolchain": null,
+      "version": 2,
+      "work": "das-mohanty-singular-squared-distance-laplacian"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s8",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+      },
+      "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s8",
+      "macros": {
+        "\\In": "\\operatorname{In}",
+        "\\R": "\\mathbb{R}",
+        "\\cof": "\\operatorname{cof}",
+        "\\diag": "\\operatorname{diag}",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "das-mohanty-singular-squared-distance-laplacian",
+      "scope": "in_scope",
+      "statement": "If $\\Delta$ is singular, then\n\\[\n \\frac{t+3}{4}<h\\le\\frac{t+1}{2}.\n\\]\nIf $\\cof\\Delta=0$, then $t/4<h\\le t/2$.\nIn either upper equality case every nonsingleton part has size two.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+      "toolchain": null,
+      "version": 2,
+      "work": "das-mohanty-singular-squared-distance-laplacian"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:das-mohanty-singular-squared-distance-laplacian:2:s9",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+      },
+      "lineage": "collected:das-mohanty-singular-squared-distance-laplacian:s9",
+      "macros": {
+        "\\In": "\\operatorname{In}",
+        "\\R": "\\mathbb{R}",
+        "\\cof": "\\operatorname{cof}",
+        "\\diag": "\\operatorname{diag}",
+        "\\one": "\\mathbf{1}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "das-mohanty-singular-squared-distance-laplacian",
+      "scope": "in_scope",
+      "statement": "For all positive integer part sizes,\n\\[\n \\In(\\Delta)=\\begin{cases}\n (s+1,0,N-s-1),&R<-1,\\\\\n (s,1,N-s-1),&R=-1,\\\\\n (s,0,N-s),&R>-1.\n \\end{cases}\n\\]\nIf $h=0$, the squared-distance energy\n$E_\\Delta=\\sum_{\\mu\\in\\operatorname{spec}\\Delta}|\\mu|$ equals $8(N-t)$.\nIf $h\\ge1$, write $\\mu_*$ for the unique eigenvalue of the\npartwise-constant restriction lying between $-1$ and\n$\\min_{n_i\\ge2}d_i$ when $s>0$; when $s=0$, put $\\mu_*=t-1$.\nThen\n\\[\n E_\\Delta=8(N-t)+2(h-1)-2\\min(\\mu_*,0).\n\\]\nHere $\\mu_*$ is positive, zero or negative according as $R<-1$,\n$R=-1$ or $R>-1$. In particular the singular case has\n$E_\\Delta=8(N-t)+2(h-1)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+      "toolchain": null,
+      "version": 2,
+      "work": "das-mohanty-singular-squared-distance-laplacian"
     },
     {
       "attribution": null,
@@ -16408,6 +17134,264 @@
       "toolchain": null,
       "version": 1,
       "work": "ggps2025"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "86172888e706177b6c1d135cb12aec3b6d2cdce8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean"
+      },
+      "lineage": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:s1",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Cr": "\\mathcal C",
+        "\\R": "\\mathbb R",
+        "\\adj": "\\operatorname{adj}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "graffeo-gubbiotti-remark77-generic-nambu-cremona",
+      "scope": "in_scope",
+      "statement": "Suppose $A$ is positive definite, $B$ is symmetric, and\n\\begin{equation}\n \\operatorname{rank}(B-tA)\\ge2\\quad\\text{for every }t\\in\\R.\n\\end{equation}\nFor every real $h\\ne0$, there is $U\\in\\operatorname{GL}_4(\\C)$ such that\n\\begin{equation}\n U F_h(X)=-\\tfrac18 G\\Cr(UX)\\qquad(X\\in\\C^4).\n\\end{equation}\nConsequently $[F_h]$ is projectively conjugate to $[G\\Cr]$.\nIn particular the positive-definite case of Remark 7.7 with simple generalized\nspectrum is of type (A)-(i).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
+      "toolchain": null,
+      "version": 2,
+      "work": "graffeo-gubbiotti-remark77-generic-nambu-cremona"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "86172888e706177b6c1d135cb12aec3b6d2cdce8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean"
+      },
+      "lineage": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:s2",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Cr": "\\mathcal C",
+        "\\R": "\\mathbb R",
+        "\\adj": "\\operatorname{adj}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "graffeo-gubbiotti-remark77-generic-nambu-cremona",
+      "scope": "in_scope",
+      "statement": "Under the hypotheses of Theorem~\\ref{thm:main}, the degree-eight factors in\n\\cite[(7.15)]{GG} are squares of products of four distinct linear forms.\nThe indeterminacy loci of the map and its inverse are each six lines forming\nthe edges of a tetrahedron. The degree of its $n$th iterate is $2n^2+1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
+      "toolchain": null,
+      "version": 2,
+      "work": "graffeo-gubbiotti-remark77-generic-nambu-cremona"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "86172888e706177b6c1d135cb12aec3b6d2cdce8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean"
+      },
+      "lineage": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:s3",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Cr": "\\mathcal C",
+        "\\R": "\\mathbb R",
+        "\\adj": "\\operatorname{adj}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "graffeo-gubbiotti-remark77-generic-nambu-cremona",
+      "scope": "in_scope",
+      "statement": "The net in \\cite[(7.16)]{GG}, with\n$H_3(x)=x^TA\\adj(B)Ax$, has eight distinct base points.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
+      "toolchain": null,
+      "version": 2,
+      "work": "graffeo-gubbiotti-remark77-generic-nambu-cremona"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "86172888e706177b6c1d135cb12aec3b6d2cdce8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean"
+      },
+      "lineage": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:s4",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Cr": "\\mathcal C",
+        "\\R": "\\mathbb R",
+        "\\adj": "\\operatorname{adj}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "graffeo-gubbiotti-remark77-generic-nambu-cremona",
+      "scope": "in_scope",
+      "statement": "Under the hypotheses of Theorem~\\ref{thm:main}, the net (7.16) has exactly\nsix reducible members, each a pair of distinct planes. In suitable coordinates\n$v=(v_1,v_2,v_3,v_4)$, they are\n\\[\n (v_i-v_j)(v_i+v_j)=0\\qquad(1\\le i<j\\le4),\n\\]\nand the base points are\n$p_{\\epsilon}=[\\epsilon_1:\\epsilon_2:\\epsilon_3:1]$,\n$\\epsilon_i\\in\\{1,-1\\}$.\nEach point lies on six of the twelve distinct planes, and each plane contains\nfour of the eight points. More precisely, with $\\epsilon_4=1$,\n\\[\n p_{\\epsilon}\\in\\{v_i-\\sigma v_j=0\\}\n \\quad\\Longleftrightarrow\\quad \\sigma=\\epsilon_i\\epsilon_j.\n\\]\nThe conjugator $U$ sends the base-point set to\n$\\{[e_i],[Ge_i]:1\\le i\\le4\\}$, where $e_i$ are the coordinate vectors.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
+      "toolchain": null,
+      "version": 2,
+      "work": "graffeo-gubbiotti-remark77-generic-nambu-cremona"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "86172888e706177b6c1d135cb12aec3b6d2cdce8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean"
+      },
+      "lineage": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:s5",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Cr": "\\mathcal C",
+        "\\R": "\\mathbb R",
+        "\\adj": "\\operatorname{adj}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "graffeo-gubbiotti-remark77-generic-nambu-cremona",
+      "scope": "in_scope",
+      "statement": "For complex symmetric $A,B$, suppose the binary cubic\n$\\det(sA+tB)$ has three distinct roots in $\\mathbb P^1(\\C)$.\nThen, for every $h\\in\\C^*$, the Nambu Kahan map is projectively conjugate\nto $[G\\Cr]$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
+      "toolchain": null,
+      "version": 2,
+      "work": "graffeo-gubbiotti-remark77-generic-nambu-cremona"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "86172888e706177b6c1d135cb12aec3b6d2cdce8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean"
+      },
+      "lineage": "collected:graffeo-gubbiotti-remark77-generic-nambu-cremona:s6",
+      "macros": {
+        "\\C": "\\mathbb C",
+        "\\Cr": "\\mathcal C",
+        "\\R": "\\mathbb R",
+        "\\adj": "\\operatorname{adj}",
+        "\\diag": "\\operatorname{diag}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "graffeo-gubbiotti-remark77-generic-nambu-cremona",
+      "scope": "in_scope",
+      "statement": "Let $A>0$ and $B=B^T$ be real, and let $h\\ne0$. For $n\\ge0$, the degrees\nof the iterates are $2n^2+1$ for three distinct generalized eigenvalues,\n$2n+1$ for exactly two distinct generalized eigenvalues, and $1$ when all\nthree coincide. All these maps have dynamical degree one and algebraic\nentropy zero.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
+      "toolchain": null,
+      "version": 2,
+      "work": "graffeo-gubbiotti-remark77-generic-nambu-cremona"
     },
     {
       "attribution": null,
@@ -49931,6 +50915,334 @@
       "toolchain": null,
       "version": 2,
       "work": "shao-zhao-italian-cycle-closed-form"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:slbd2026:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "71b4592f31a0ce564acedcbee195fbd50f30bd8c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4592f31a0ce564acedcbee195fbd50f30bd8c/D5/S3/Quantum/Information/KirkwoodDiracSLDRefutation.lean"
+      },
+      "lineage": "collected:slbd2026:s1",
+      "macros": {
+        "\\KD": "\\operatorname{KD}",
+        "\\Tr": "\\operatorname{Tr}",
+        "\\ii": "\\mathrm{i}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "slbd2026",
+      "scope": "in_scope",
+      "statement": "For every real $\\lambda>-1$, $\\rho_\\lambda$ is a faithful KD-positive\ndensity matrix, and $X$ and $L_\\lambda$ are KD-real Hermitian matrices.\nThe unique SLD in \\eqref{eq:sld} is $L_\\lambda$, and\n\\begin{equation}\n I_{\\rm QF}(\\rho_\\lambda,X)\n    =\\frac{2\\lambda^2}{(2+\\lambda)(3+\\lambda)}.\n\\end{equation}\nIn particular, $\\lambda=1$ gives a counterexample with QFI $1/6$ and\ndensity eigenvalues $1/6$ (multiplicity three) and $1/12$ (multiplicity six).",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A KD-positive counterexample to the SLD conjecture in arXiv:2511.01996v2, Section 6.3 after (6.23), p. 43",
+      "toolchain": null,
+      "version": 2,
+      "work": "slbd2026"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:slbd2026:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "71b4592f31a0ce564acedcbee195fbd50f30bd8c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4592f31a0ce564acedcbee195fbd50f30bd8c/D5/S3/Quantum/Information/KirkwoodDiracSLDRefutation.lean"
+      },
+      "lineage": "collected:slbd2026:s2",
+      "macros": {
+        "\\KD": "\\operatorname{KD}",
+        "\\Tr": "\\operatorname{Tr}",
+        "\\ii": "\\mathrm{i}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "slbd2026",
+      "scope": "in_scope",
+      "statement": "Let $n\\ge2$ and $g=\\gcd(2,n)$. In dimension $n^2$, use labels in $\\mathbb Z/n\\mathbb Z$,\n$\\omega=e^{2\\pi\\ii/n}$, and the matrices $F,P,Q$ above with $1/3$ replaced\nby $1/n$. Set\n\\[\n \\rho_\\lambda=\\frac{I+\\lambda P}{n^2+n\\lambda},\\quad\n X=\\frac{nQ-I}{n-1},\\quad\n L_\\lambda=\\frac{2n\\lambda}{(n-1)(2+\\lambda)}\\ii[P,Q].\n\\]\nFor $\\lambda>-1$, these give faithful KD-positive states and KD-real\ngenerators and SLDs, with\n\\[\n I_{\\rm QF}=\\frac{4(n-g)\\lambda^2}{(n-1)^2(2+\\lambda)(n+\\lambda)}.\n\\]\nFor $n\\ge3$ and $\\lambda\\ne0$ this is positive. For odd $n$, it reduces to\n$4\\lambda^2/((n-1)(2+\\lambda)(n+\\lambda))$; for $n=2$ it vanishes.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A KD-positive counterexample to the SLD conjecture in arXiv:2511.01996v2, Section 6.3 after (6.23), p. 43",
+      "toolchain": null,
+      "version": 2,
+      "work": "slbd2026"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:slbd2026:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "71b4592f31a0ce564acedcbee195fbd50f30bd8c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4592f31a0ce564acedcbee195fbd50f30bd8c/D5/S3/Quantum/Information/KirkwoodDiracSLDRefutation.lean"
+      },
+      "lineage": "collected:slbd2026:s3",
+      "macros": {
+        "\\KD": "\\operatorname{KD}",
+        "\\Tr": "\\operatorname{Tr}",
+        "\\ii": "\\mathrm{i}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "slbd2026",
+      "scope": "in_scope",
+      "statement": "In dimension nine put, for $0\\le t\\le1$,\n\\[\n \\sigma_t=\\frac{t}{3}P+\\frac{1-t}{6}(I-P),\\qquad\n M_t=\\frac{3(3t-1)}{1+t}H.\n\\]\nThen $\\sigma_t$ is KD-positive, $M_t$ is a KD-real SLD for the same $X$,\nand $I_{\\rm QF}=(3t-1)^2/(1+t)$. The state is faithful exactly when\n$0<t<1$. The endpoint states have ranks six and three and QFI $1$ and\n$2$, respectively; neither is pure.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A KD-positive counterexample to the SLD conjecture in arXiv:2511.01996v2, Section 6.3 after (6.23), p. 43",
+      "toolchain": null,
+      "version": 2,
+      "work": "slbd2026"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:slbd2026:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "71b4592f31a0ce564acedcbee195fbd50f30bd8c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4592f31a0ce564acedcbee195fbd50f30bd8c/D5/S3/Quantum/Information/KirkwoodDiracSLDRefutation.lean"
+      },
+      "lineage": "collected:slbd2026:s4",
+      "macros": {
+        "\\KD": "\\operatorname{KD}",
+        "\\Tr": "\\operatorname{Tr}",
+        "\\ii": "\\mathrm{i}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "slbd2026",
+      "scope": "in_scope",
+      "statement": "For every square family in Corollary~\\ref{cor:square}, both original-basis\nprobability distributions are uniform and have zero phase derivatives at\n$\\theta=0$. Thus both classical Fisher informations vanish. When $n\\ge3$\nand $\\lambda\\ne0$, measuring the spectral projections of the KD-real SLD\ninstead attains the positive QFI.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A KD-positive counterexample to the SLD conjecture in arXiv:2511.01996v2, Section 6.3 after (6.23), p. 43",
+      "toolchain": null,
+      "version": 2,
+      "work": "slbd2026"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:slbd2026:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "71b4592f31a0ce564acedcbee195fbd50f30bd8c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4592f31a0ce564acedcbee195fbd50f30bd8c/D5/S3/Quantum/Information/KirkwoodDiracSLDRefutation.lean"
+      },
+      "lineage": "collected:slbd2026:s5",
+      "macros": {
+        "\\KD": "\\operatorname{KD}",
+        "\\Tr": "\\operatorname{Tr}",
+        "\\ii": "\\mathrm{i}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "slbd2026",
+      "scope": "in_scope",
+      "statement": "For any pair of bases with nonzero overlaps, let $\\rho$ be a density\nmatrix in the real linear span of the Hermitian matrices diagonal in\n$A$ or in $B$. If $X$ and an SLD $L$ are KD-real, then\n$I_{\\rm QF}=0$ and $[\\rho,X]=0$.\nThis includes the states $\\rho=f_2(A)+g_2(B)$ of source (6.16), even without\nrestricting $X$ to that form. It also holds whenever $\\rho$ is diagonal in either original\nbasis, without the extra restrictions of the two mixed-state examples in\n\\cite[\\S6.3, pp.~44--45]{source}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A KD-positive counterexample to the SLD conjecture in arXiv:2511.01996v2, Section 6.3 after (6.23), p. 43",
+      "toolchain": null,
+      "version": 2,
+      "work": "slbd2026"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:slbd2026:2:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "71b4592f31a0ce564acedcbee195fbd50f30bd8c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4592f31a0ce564acedcbee195fbd50f30bd8c/D5/S3/Quantum/Information/KirkwoodDiracSLDRefutation.lean"
+      },
+      "lineage": "collected:slbd2026:s6",
+      "macros": {
+        "\\KD": "\\operatorname{KD}",
+        "\\Tr": "\\operatorname{Tr}",
+        "\\ii": "\\mathrm{i}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "slbd2026",
+      "scope": "in_scope",
+      "statement": "If the transition matrix can be made real by rephasing basis vectors,\nthe mixed-state exclusion holds for every KD-real density matrix:\na KD-real SLD has zero QFI. In particular, no counterexample exists\nin dimensions one or two.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A KD-positive counterexample to the SLD conjecture in arXiv:2511.01996v2, Section 6.3 after (6.23), p. 43",
+      "toolchain": null,
+      "version": 2,
+      "work": "slbd2026"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:slbd2026:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "71b4592f31a0ce564acedcbee195fbd50f30bd8c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4592f31a0ce564acedcbee195fbd50f30bd8c/D5/S3/Quantum/Information/KirkwoodDiracSLDRefutation.lean"
+      },
+      "lineage": "collected:slbd2026:s7",
+      "macros": {
+        "\\KD": "\\operatorname{KD}",
+        "\\Tr": "\\operatorname{Tr}",
+        "\\ii": "\\mathrm{i}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "slbd2026",
+      "scope": "in_scope",
+      "statement": "For the coordinate and Fourier bases of $\\mathbb C^{\\mathbb Z/p\\mathbb Z}$,\nwith $p$ prime, the mixed-state exclusion holds for every KD-real state.\nThe same conclusion holds for Haar-almost every pair of bases in any\nfixed finite dimension.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A KD-positive counterexample to the SLD conjecture in arXiv:2511.01996v2, Section 6.3 after (6.23), p. 43",
+      "toolchain": null,
+      "version": 2,
+      "work": "slbd2026"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:slbd2026:2:s8",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "71b4592f31a0ce564acedcbee195fbd50f30bd8c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4592f31a0ce564acedcbee195fbd50f30bd8c/D5/S3/Quantum/Information/KirkwoodDiracSLDRefutation.lean"
+      },
+      "lineage": "collected:slbd2026:s8",
+      "macros": {
+        "\\KD": "\\operatorname{KD}",
+        "\\Tr": "\\operatorname{Tr}",
+        "\\ii": "\\mathrm{i}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "slbd2026",
+      "scope": "in_scope",
+      "statement": "Suppose a unital complex star-subalgebra $\\mathcal A$ of matrices has\nKD-real Hermitian part. For every faithful density matrix\n$\\rho\\in\\mathcal A$ and every Hermitian $X\\in\\mathcal A$, the unique SLD\nbelongs to $\\mathcal A$ and is KD-real. Its QFI is positive exactly when\n$[\\rho,X]\\ne0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "A KD-positive counterexample to the SLD conjecture in arXiv:2511.01996v2, Section 6.3 after (6.23), p. 43",
+      "toolchain": null,
+      "version": 2,
+      "work": "slbd2026"
     },
     {
       "attribution": null,

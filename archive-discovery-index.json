@@ -283,6 +283,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24058061",
+      "id": "critch-morton-2014-open-boundary-mps-marginal-birationality",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24488517",
       "id": "dabrowski-poulain-ragoucy-2026-switched-ssep-reachability",
       "kind": "collected",
@@ -293,6 +299,12 @@
       "id": "das-et-al-2025-onb-tomography-holevo-ratio",
       "kind": "collected",
       "version": 3
+    },
+    {
+      "doi": "10.5281/zenodo.23965056",
+      "id": "das-mohanty-singular-squared-distance-laplacian",
+      "kind": "collected",
+      "version": 2
     },
     {
       "doi": "10.5281/zenodo.23931736",
@@ -1057,6 +1069,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.23971327",
+      "id": "slbd2026",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24408323",
       "id": "sp322844-serpentine",
       "kind": "collected",
@@ -1195,6 +1213,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-25T18:32:32.061196846Z",
+  "generated_at": "2026-11-25T19:29:38.444016686Z",
   "schema": "mathesis.archive-index.v1"
 }

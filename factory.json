@@ -785,8 +785,8 @@
       "work": "bajnok-beatty-original-conjecture-4-1"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.23971255",
+      "doi": "10.5281/zenodo.23971256",
       "files": {
         "pdf": {
           "bytes": 88161,
@@ -823,7 +823,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -1681,8 +1680,8 @@
       "work": "bernath-a400645-consecutive-ratio"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24445657",
+      "doi": "10.5281/zenodo.24445658",
       "files": {
         "pdf": {
           "bytes": 99673,
@@ -1719,7 +1718,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -2637,6 +2635,63 @@
       "work": "crim-question-one-four-parts"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 89414,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "ed6c4554acc984e11f918aa1375ed11746a96eeb6e16ff3dcff92c368c3ef5a7",
+          "sha256": "ed6c4554acc984e11f918aa1375ed11746a96eeb6e16ff3dcff92c368c3ef5a7"
+        },
+        "source": {
+          "bytes": 18403,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "26abbae10d3cb85ccfc9ee9b20b5910faa8acfa2cface14d6317d9a0fc002b3a",
+          "sha256": "26abbae10d3cb85ccfc9ee9b20b5910faa8acfa2cface14d6317d9a0fc002b3a"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 5,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "b95cdbb8cccca425964251ba38cc0b0e517e478a",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b95cdbb8cccca425964251ba38cc0b0e517e478a/D5/S3/Quantum/TensorNetworks/OpenBoundaryMPSMarginalBirationality.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/critch-morton-2014-open-boundary-mps-marginal-birationality",
+      "site_url": "https://papers.trureturing.org/critch-morton-2014-open-boundary-mps-marginal-birationality/",
+      "title": "Proof of Critch–Morton Conjecture 8 (SIGMA 10 (2014), 095, Section 2, p. 6): reconstruction from any consecutive three-site improper marginal",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "critch-morton-2014-open-boundary-mps-marginal-birationality"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24488516",
       "doi": "10.5281/zenodo.24488517",
       "files": {
@@ -2753,6 +2808,63 @@
       "doi": null,
       "files": {
         "pdf": {
+          "bytes": 108312,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "25809b64804a951d1c79ab3b6d3aeb6ef0decd07b5d3fdb0a1d185931b5589ee",
+          "sha256": "25809b64804a951d1c79ab3b6d3aeb6ef0decd07b5d3fdb0a1d185931b5589ee"
+        },
+        "source": {
+          "bytes": 21673,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "3d48172d292c85820257cb69fba86130bfc1005bd1a5984c46b0740e68ae2a80",
+          "sha256": "3d48172d292c85820257cb69fba86130bfc1005bd1a5984c46b0740e68ae2a80"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 12,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "a2d277ea0980f1230eff2c7e27838372effccb30",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/a2d277ea0980f1230eff2c7e27838372effccb30/D5/S3/Combinatorics/SpectralGraph/DasMohantySingularSquaredDistance.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/das-mohanty-singular-squared-distance-laplacian",
+      "site_url": "https://papers.trureturing.org/das-mohanty-singular-squared-distance-laplacian/",
+      "title": "Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "das-mohanty-singular-squared-distance-laplacian"
+    },
+    {
+      "concept_doi": "10.5281/zenodo.23931735",
+      "doi": "10.5281/zenodo.23931736",
+      "files": {
+        "pdf": {
           "bytes": 90386,
           "matches_public": true,
           "path": "paper.pdf",
@@ -2787,7 +2899,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3364,6 +3475,63 @@
       },
       "version": 1,
       "work": "ggps2025"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 93471,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "1148156bbf783984c97bc9ab7a37fe36c4abc9b89beb1e5842150472b8f33be3",
+          "sha256": "1148156bbf783984c97bc9ab7a37fe36c4abc9b89beb1e5842150472b8f33be3"
+        },
+        "source": {
+          "bytes": 111041,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "b705dcdb9ea61f56dad2c5962df599027b4a80ca3a41428d18522ec282f90e5e",
+          "sha256": "b705dcdb9ea61f56dad2c5962df599027b4a80ca3a41428d18522ec282f90e5e"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 6,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "86172888e706177b6c1d135cb12aec3b6d2cdce8",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/86172888e706177b6c1d135cb12aec3b6d2cdce8/D5/S3/FluidDynamics/Solitons/NambuKahanCremonaDecomposition.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/graffeo-gubbiotti-remark77-generic-nambu-cremona",
+      "site_url": "https://papers.trureturing.org/graffeo-gubbiotti-remark77-generic-nambu-cremona/",
+      "title": "Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "graffeo-gubbiotti-remark77-generic-nambu-cremona"
     },
     {
       "concept_doi": null,
@@ -10051,6 +10219,63 @@
       "work": "shao-zhao-italian-cycle-closed-form"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 97761,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "53e08474b35fa77c9d5892fb0a4a37bb640f74f137ebabc100a219e436e3470c",
+          "sha256": "53e08474b35fa77c9d5892fb0a4a37bb640f74f137ebabc100a219e436e3470c"
+        },
+        "source": {
+          "bytes": 19379,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "9d85fec16d864e0a57e3fe851b8f59513cf6243eca9903e00173644161e8fcc3",
+          "sha256": "9d85fec16d864e0a57e3fe851b8f59513cf6243eca9903e00173644161e8fcc3"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "71b4592f31a0ce564acedcbee195fbd50f30bd8c",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/71b4592f31a0ce564acedcbee195fbd50f30bd8c/D5/S3/Quantum/Information/KirkwoodDiracSLDRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/slbd2026",
+      "site_url": "https://papers.trureturing.org/slbd2026/",
+      "title": "A KD-positive counterexample to the SLD conjecture in arXiv:2511.01996v2, Section 6.3 after (6.23), p. 43",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "slbd2026"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24408322",
       "doi": "10.5281/zenodo.24408323",
       "files": {
@@ -11351,8 +11576,8 @@
       "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 202,
+  "papers": 206,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-25T18:32:32.061196846Z"
+  "snapshot_time": "2026-11-25T19:29:38.444016686Z"
 }
