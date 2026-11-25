@@ -1466,9 +1466,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.23964154",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.23964155",
       "lean_source": {
         "revision": "50f2a97bb5e704842f2c32c6095f68a0dc62c779",
         "url": "https://github.com/the-omega-institute/trureturing/blob/50f2a97bb5e704842f2c32c6095f68a0dc62c779/D5/S3/Combinatorics/PolynomialTrees/BallotKimberlingMosesDoubleRootGeneration.lean"

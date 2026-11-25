@@ -1736,8 +1736,8 @@
       "work": "bernath-a400645-consecutive-ratio"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.23964154",
+      "doi": "10.5281/zenodo.23964155",
       "files": {
         "pdf": {
           "bytes": 84910,
@@ -1774,7 +1774,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -11857,5 +11856,5 @@
   "papers": 211,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-25T22:30:14.153495965Z"
+  "snapshot_time": "2026-11-25T23:30:08.329518529Z"
 }

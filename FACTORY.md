@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-25T22:30:14.153495965Z`.
+Snapshot: `2026-11-25T23:30:08.329518529Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -37,7 +37,7 @@ Snapshot: `2026-11-25T22:30:14.153495965Z`.
 | [Proof of Barker's tea-tiling conjectures: OEIS A299285–A299286, FORMULA (February 11, 2018)](https://github.com/mathesis-papers/barker-tea-coordination-sequence) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409050) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Examples answering Bergman's Question 15 by extending a partition of von zur Gathen and Roche](https://github.com/mathesis-papers/bergman-question15) | 5 | [DOI](https://doi.org/10.5281/zenodo.24375698) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Bounded-error asymptotics for Bernáth's conjecture: OEIS A400645, revision 21, COMMENTS, and its rounded-norm siblings](https://github.com/mathesis-papers/bernath-a400645-consecutive-ratio) | 2 | [DOI](https://doi.org/10.5281/zenodo.24369110) | en, zh | 0 / 0 / 0 | 9 no target yet |
-| [Resolving the double-root conjecture in Ballot–Kimberling–Moses (2017), Section 5, Table 5, p. 23](https://github.com/mathesis-papers/bkm-double-root) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
+| [Resolving the double-root conjecture in Ballot–Kimberling–Moses (2017), Section 5, Table 5, p. 23](https://github.com/mathesis-papers/bkm-double-root) | 2 | [DOI](https://doi.org/10.5281/zenodo.23964155) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Modular recurrences and alternative proofs of Blitvić, Kammoun and Steingrímsson's 14325 packing congruences](https://github.com/mathesis-papers/bks11-14325-whole-event) | 2 | [DOI](https://doi.org/10.5281/zenodo.24445658) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Boundary corrections and a length-three extension of Bóna–Maga–Richey's extremal-frequency analysis](https://github.com/mathesis-papers/bonamagarichey-2026-extremal-frequency) | 2 | [DOI](https://doi.org/10.5281/zenodo.24482905) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Negative answers to Bouafia's Open problem (arXiv:2605.03681v1, Section 4.1, p. 18): a five-point example and an exponential-similarity extension of Huntsman (2026)](https://github.com/mathesis-papers/bouafia-diversity-negative-type) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212421) | en, zh | 2 / 1 / 0 | 8 no target yet |
