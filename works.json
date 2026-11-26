@@ -4040,6 +4040,53 @@
       "work": "hardin185765"
     },
     {
+      "abstract_text": "We prove the empirical order-eighteen recurrence in R. H. Hardin's OEIS entry A229532, Formula field, revision 8 of 27 April 2021, for canonical three-colour n by 6 arrays with exactly one monochromatic horizontal, diagonal or antidiagonal bond, for every n >= 20. A 42-state transfer gives a finite integer certificate for all heights. The reduced rational generating function has minimal eventual order eighteen and discrepancy +864 at height nineteen. Seven smaller-strip recurrences and their sum-two variants follow from exact transfer identities. A general coefficient-extraction formula explains squared-denominator bounds.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 4,
+      "doi": null,
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229532Strip.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 98868,
+        "sha256": "ae73df6911eb611f8e6afb0401be0102d424c8f0c6d391c920eb22b03e9cd553",
+        "url": "/api/v1/collected-papers/hardin229532-one-defect-recurrence/files/pdf?version=4"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-26T01:35:47.659532354Z",
+      "record": "hardin229532-one-defect-recurrence",
+      "repository_name": "hardin229532-one-defect-recurrence",
+      "source": {
+        "bytes": 43373,
+        "sha256": "02dfd45d6b8148bc1b9b56b9a51a5760bd437c523e037eb55eae1fcc888deb85",
+        "url": "/api/v1/collected-papers/hardin229532-one-defect-recurrence/files/source?version=4"
+      },
+      "title": "Proof of Hardin's width-six three-colour one-defect recurrence",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-26T01:35:47.659532354Z",
+          "revision": "4",
+          "version": 4
+        }
+      ],
+      "work": "hardin229532-one-defect-recurrence"
+    },
+    {
       "abstract_text": "Extending Shrock's open-ladder formula (2000, equations (5.1)-(5.6)) and Yurishchev's double-chain block (2001, equation (9)), an exact defect-counting transfer proves R. H. Hardin's empirical recurrence in OEIS A229634, Formula, revision 9 (27 April 2021; first posted 27 September 2013), for every n >= 21. Its order eighteen and its starting index are sharp. The same construction proves every displayed row and column recurrence of the companion table A229637, with minimal eventual orders and sharp starting indices. A general defect-budget argument explains the cubed denominators. The two-column formulas of Colin Barker and the three- and four-column generating functions of R. J. Mathar and Barker follow as well.",
       "authors": [
         {

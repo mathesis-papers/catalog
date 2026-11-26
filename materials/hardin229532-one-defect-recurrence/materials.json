@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/hardin229532-one-defect-recurrence/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/hardin229532-one-defect-recurrence",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/hardin229532-one-defect-recurrence/",
+  "slides": [],
+  "version": 4,
+  "videos": [],
+  "visualizations": [],
+  "work": "hardin229532-one-defect-recurrence"
+}

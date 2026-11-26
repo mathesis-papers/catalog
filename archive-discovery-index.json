@@ -499,6 +499,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24546755",
+      "id": "hardin229532-one-defect-recurrence",
+      "kind": "collected",
+      "version": 4
+    },
+    {
       "doi": "10.5281/zenodo.24497440",
       "id": "hardin229634-defective-colourings",
       "kind": "collected",
@@ -1237,6 +1243,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-26T01:30:00.630873231Z",
+  "generated_at": "2026-11-26T02:33:24.276365076Z",
   "schema": "mathesis.archive-index.v1"
 }

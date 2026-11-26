@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-26T01:30:00.630873231Z`.
+Snapshot: `2026-11-26T02:33:24.276365076Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -92,6 +92,7 @@ Snapshot: `2026-11-26T01:30:00.630873231Z`.
 | [Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration](https://github.com/mathesis-papers/hardin-barker-trace-array-formulas) | 2 | [DOI](https://doi.org/10.5281/zenodo.24487246) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Hardin's trace-avoiding array recurrences and Barker's formulas: alternative proofs extending Riedel's and Howroyd's enumerations](https://github.com/mathesis-papers/hardin1857-traceavoid) | 3 | [DOI](https://doi.org/10.5281/zenodo.24411970) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Hardin's six-column trace recurrence and Barker's generating functions](https://github.com/mathesis-papers/10.5281-zenodo.24410608) | 2 | [DOI](https://doi.org/10.5281/zenodo.24410609) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
+| [Proof of Hardin's width-six three-colour one-defect recurrence](https://github.com/mathesis-papers/hardin229532-one-defect-recurrence) | 4 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Extensions of Shrock's and Yurishchev's formulas to Hardin's defective-colouring recurrences](https://github.com/mathesis-papers/hardin229634-defective-colourings) | 2 | [DOI](https://doi.org/10.5281/zenodo.24497440) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Boundary formulas for Hardin's array recurrences and Barker's generating functions via Biggs–Meredith enumeration](https://github.com/mathesis-papers/hardin233156) | 3 | [DOI](https://doi.org/10.5281/zenodo.24445694) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Extending Orrick's rectangle count to Barker's king-strip conjectures](https://github.com/mathesis-papers/hardin233163-king-arrays) | 2 | [DOI](https://doi.org/10.5281/zenodo.24414706) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |

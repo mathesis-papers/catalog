@@ -24245,6 +24245,334 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:hardin229532-one-defect-recurrence:4:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229532Strip.lean"
+      },
+      "lineage": "collected:hardin229532-one-defect-recurrence:s1",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ind": "\\mathbf 1"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229532-one-defect-recurrence",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq20$,\n\\begin{equation}\n a_n=\\sum_{j=0}^{17}c_j a_{n-18+j},\n\\end{equation}\nwhere the coefficients, in increasing order of $j$, are\n\\begin{equation}\n\\begin{aligned}\n(c_0,\\ldots,c_{17})={}&(-25,240,204,-6334,6468,42628,\\\\\n &-83203,-34136,160400,-40816,-108224,56184,\\\\\n &23849,-19128,340,1854,-436,36).\n\\end{aligned}\n\\end{equation}\nAt $n=19$, the left side of~\\eqref{eq:recurrence} minus its right side is\n$864$. Its minimal eventual homogeneous constant-coefficient recurrence\norder over $\\Q$ is eighteen.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hardin's width-six three-colour one-defect recurrence",
+      "toolchain": null,
+      "version": 4,
+      "work": "hardin229532-one-defect-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hardin229532-one-defect-recurrence:4:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229532Strip.lean"
+      },
+      "lineage": "collected:hardin229532-one-defect-recurrence:s2",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ind": "\\mathbf 1"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229532-one-defect-recurrence",
+      "scope": "in_scope",
+      "statement": "The number of labelled height-$n$ colourings with exactly one defect is\n$uM^{n-1}v$. Moreover,\n\\begin{equation}\n 6a_n=uM^{n-1}v\\qquad(n\\geq1).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hardin's width-six three-colour one-defect recurrence",
+      "toolchain": null,
+      "version": 4,
+      "work": "hardin229532-one-defect-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hardin229532-one-defect-recurrence:4:s3",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229532Strip.lean"
+      },
+      "lineage": "collected:hardin229532-one-defect-recurrence:s3",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ind": "\\mathbf 1"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229532-one-defect-recurrence",
+      "scope": "in_scope",
+      "statement": "The rational function $F(z)=N(z)/Q(z)^2$ is reduced over $\\Q$.\nConsequently the recurrence order eighteen in\nTheorem~\\ref{thm:recurrence} is minimal even among homogeneous\nconstant-coefficient recurrences required only at sufficiently large heights.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hardin's width-six three-colour one-defect recurrence",
+      "toolchain": null,
+      "version": 4,
+      "work": "hardin229532-one-defect-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hardin229532-one-defect-recurrence:4:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229532Strip.lean"
+      },
+      "lineage": "collected:hardin229532-one-defect-recurrence:s4",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ind": "\\mathbf 1"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229532-one-defect-recurrence",
+      "scope": "in_scope",
+      "statement": "The boundary counts are\n\\[\n b_1=0,\\qquad b_2=1,\\qquad\n b_k=(k-1)2^{k-3}\\quad(k\\geq3).\n\\]\nAlso $T(n,1)=0$ for every $n\\geq1$, and\n$b_k=4b_{k-1}-4b_{k-2}$ for every $k\\geq5$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hardin's width-six three-colour one-defect recurrence",
+      "toolchain": null,
+      "version": 4,
+      "work": "hardin229532-one-defect-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hardin229532-one-defect-recurrence:4:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229532Strip.lean"
+      },
+      "lineage": "collected:hardin229532-one-defect-recurrence:s5",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ind": "\\mathbf 1"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229532-one-defect-recurrence",
+      "scope": "in_scope",
+      "statement": "For each row of Table~\\ref{tab:siblings}, let $A_m$ be the indicated\ncount and $r=2\\deg q$. Then\n\\begin{equation}\n A_m=-\\sum_{j=1}^r [z^j]q(z)^2\\,A_{m-j}\\qquad(m\\geq m_0).\n\\end{equation}\nThese are the empirical recurrences in the Formula fields of A229534\nand its indicated component entries. In particular,\n\\[\n T(1,2)=1,\\qquad T(m,2)=4(2m-1)3^{m-3}\\quad(m\\geq2).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hardin's width-six three-colour one-defect recurrence",
+      "toolchain": null,
+      "version": 4,
+      "work": "hardin229532-one-defect-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hardin229532-one-defect-recurrence:4:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229532Strip.lean"
+      },
+      "lineage": "collected:hardin229532-one-defect-recurrence:s6",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ind": "\\mathbf 1"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229532-one-defect-recurrence",
+      "scope": "in_scope",
+      "statement": "Write $E_n=\\mathrm{A269033}(n)$ and $J_n=\\mathrm{A269050}(n)$.\nThen $E_n=6a_n$. Both $E_n$ and $J_n$ satisfy\n\\eqref{eq:recurrence} for every $n\\geq20$, have minimal eventual\norder eighteen, and have discrepancy $+5184$ at $n=19$.\nWith $N,Q$ as in Proposition~\\ref{prop:gf}, put\n\\[\n H(z)=16-108z-12z^2+520z^3-182z^4-430z^5+180z^6+40z^7-10z^8.\n\\]\nTheir reduced generating functions are\n\\[\n \\sum_{n\\geq1}E_nz^{n-1}=\\frac{6N(z)}{Q(z)^2},\\qquad\n \\sum_{n\\geq1}J_nz^{n-1}=\\frac{6(N(z)+H(z)Q(z))}{Q(z)^2}.\n\\]\nAll seven recurrences of Table~\\ref{tab:siblings} also hold, with\nthe same starting indices, for the corresponding rows and columns\nof each sum-two table A269035 and A269052.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hardin's width-six three-colour one-defect recurrence",
+      "toolchain": null,
+      "version": 4,
+      "work": "hardin229532-one-defect-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:hardin229532-one-defect-recurrence:4:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229532Strip.lean"
+      },
+      "lineage": "collected:hardin229532-one-defect-recurrence:s7",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ind": "\\mathbf 1"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229532-one-defect-recurrence",
+      "scope": "in_scope",
+      "statement": "The boundary values of these sum-two tables have the following formulas.\nFor width one they are $0$ in the exactly-one table and $3^n$ in the\nat-most-one table. For one row of width $k$, the exactly-one count is\n$3(k-1)2^{k-2}$ for $k\\geq2$, and the at-most-one count is\n$3(k+1)2^{k-2}$ for $k\\geq2$; at $k=1$ the values are $0$ and $3$.\nBoth one-row sequences satisfy the recurrence with coefficients\n$4,-4$ from $k=3$ onward.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hardin's width-six three-colour one-defect recurrence",
+      "toolchain": null,
+      "version": 4,
+      "work": "hardin229532-one-defect-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:hardin229532-one-defect-recurrence:4:s8",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229532Strip.lean"
+      },
+      "lineage": "collected:hardin229532-one-defect-recurrence:s8",
+      "macros": {
+        "\\Q": "\\mathbb Q",
+        "\\Z": "\\mathbb Z",
+        "\\ind": "\\mathbf 1"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229532-one-defect-recurrence",
+      "scope": "in_scope",
+      "statement": "Fix $k\\geq3$ and use all labelled rows $\\mathcal R_k=\\{0,1,2\\}^k$.\nLet $h(t)$ count horizontal defects in $t$, and let $b(p,t)$ count the\ndiagonal defects between $p$ and $t$. For $j=0,1$ define\n\\[\n (u_j)_t=\\ind_{h(t)=j},\\qquad\n (B_j)_{p,t}=\\ind_{b(p,t)+h(t)=j},\\qquad\n R(z)=(I-zB_0)^{-1},\n\\]\nand let $\\boldsymbol1$ be the all-ones column vector. Then\n\\begin{equation}\n \\sum_{n\\geq1}T(n,k)z^{n-1}\n  =\\frac16\\bigl(u_1R(z)\\boldsymbol1\n       +z u_0R(z)B_1R(z)\\boldsymbol1\\bigr).\n\\end{equation}\nIts reduced denominator divides $\\det(I-zB_0)^2$.\nFor fixed height $h\\geq2$, let $c(p,t)$ be the column cost above, define\n$(C_j)_{p,t}=\\ind_{c(p,t)=j}$ on all length-$h$ columns, and\nput $S(z)=(I-zC_0)^{-1}$. Then\n\\begin{equation}\n \\sum_{k\\geq1}T(h,k)z^{k-1}\n  =\\frac z6\\boldsymbol1^{\\mathsf T}S(z)C_1S(z)\\boldsymbol1.\n\\end{equation}\nIts reduced denominator divides $\\det(I-zC_0)^2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hardin's width-six three-colour one-defect recurrence",
+      "toolchain": null,
+      "version": 4,
+      "work": "hardin229532-one-defect-recurrence"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:hardin229634-defective-colourings:2:s1",
       "kind": "paper",
       "label": "Theorem",
