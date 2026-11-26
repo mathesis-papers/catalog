@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-26T02:33:24.276365076Z`.
+Snapshot: `2026-11-26T03:33:25.187650973Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -92,14 +92,14 @@ Snapshot: `2026-11-26T02:33:24.276365076Z`.
 | [Hardin–Barker's trace-array formulas: five states and Flajolet–Sedgewick's word enumeration](https://github.com/mathesis-papers/hardin-barker-trace-array-formulas) | 2 | [DOI](https://doi.org/10.5281/zenodo.24487246) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Hardin's trace-avoiding array recurrences and Barker's formulas: alternative proofs extending Riedel's and Howroyd's enumerations](https://github.com/mathesis-papers/hardin1857-traceavoid) | 3 | [DOI](https://doi.org/10.5281/zenodo.24411970) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Hardin's six-column trace recurrence and Barker's generating functions](https://github.com/mathesis-papers/10.5281-zenodo.24410608) | 2 | [DOI](https://doi.org/10.5281/zenodo.24410609) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
-| [Proof of Hardin's width-six three-colour one-defect recurrence](https://github.com/mathesis-papers/hardin229532-one-defect-recurrence) | 4 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
+| [Proof of Hardin's width-six three-colour one-defect recurrence](https://github.com/mathesis-papers/hardin229532-one-defect-recurrence) | 4 | [DOI](https://doi.org/10.5281/zenodo.24546755) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Extensions of Shrock's and Yurishchev's formulas to Hardin's defective-colouring recurrences](https://github.com/mathesis-papers/hardin229634-defective-colourings) | 2 | [DOI](https://doi.org/10.5281/zenodo.24497440) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Boundary formulas for Hardin's array recurrences and Barker's generating functions via Biggs–Meredith enumeration](https://github.com/mathesis-papers/hardin233156) | 3 | [DOI](https://doi.org/10.5281/zenodo.24445694) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Extending Orrick's rectangle count to Barker's king-strip conjectures](https://github.com/mathesis-papers/hardin233163-king-arrays) | 2 | [DOI](https://doi.org/10.5281/zenodo.24414706) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [OEIS A240513, revision 11, FORMULA 1–3: ladder proofs and extensions of Bala (2014)](https://github.com/mathesis-papers/hardin240513-ladder-formulas) | 3 | [DOI](https://doi.org/10.5281/zenodo.24409472) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Residual order four in GP(7,2): an alternative proof for Hausmann's Question 5.4 (arXiv:2611.05178v1, Section 5), after AFTD (2026)](https://github.com/mathesis-papers/hausmann-2026-question-5-4-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409056) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem](https://github.com/mathesis-papers/he-tubbenhauer-2025-null-tensor-summand) | 2 | Awaiting DOI | en, zh | 2 / 1 / 0 | 8 no target yet |
-| [A degree-12 counterexample to Saniga et al.'s Section 4.4 line-subgeometry conjecture](https://github.com/mathesis-papers/10.5281-zenodo.23904467) | 2 | [DOI](https://doi.org/10.5281/zenodo.23904468) | en, zh | 2 / 1 / 0 | 5 no target yet |
+| [Counterexamples to Saniga et al.'s line-subgeometry conjecture and fourfold hexagon constructions](https://github.com/mathesis-papers/10.5281-zenodo.23904467) | 5 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Alternative proofs of Hohn's divisibility conjectures after Kontorovich and Stong](https://github.com/mathesis-papers/hohn-a390148-split-prime-shared-divisibility) | 2 | [DOI](https://doi.org/10.5281/zenodo.24488910) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
 | [Weighted and rank-two extensions of Patel's proof: Hemmer–Straub–Westrem's Ev character-average conjecture](https://github.com/mathesis-papers/hsw17) | 2 | [DOI](https://doi.org/10.5281/zenodo.24415599) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
 | [Reflection-symmetric diagonal synthesis: resolving a conjecture of Huang, Kosugi, Nishi and Matsushita](https://github.com/mathesis-papers/10.5281-zenodo.23885960) | 4 | [DOI](https://doi.org/10.5281/zenodo.23885961) | en, zh | 2 / 1 / 0 | 3 no target yet |

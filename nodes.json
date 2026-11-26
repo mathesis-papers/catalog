@@ -26080,7 +26080,7 @@
       ],
       "claim": "s1",
       "contributor": null,
-      "identity": "collected:hexagon-perp-line-counterexamples:2:s1",
+      "identity": "collected:hexagon-perp-line-counterexamples:5:s1",
       "kind": "paper",
       "label": "Theorem",
       "lean_source": {
@@ -26095,16 +26095,16 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "hexagon-perp-line-counterexamples",
       "scope": "in_scope",
       "statement": "For every nonzero $p\\in V_3$, the configuration $C_p$ has 31 points, 75 lines,\nand contextuality degree 12. If $H\\subseteq\\LL_3$ has exactly three lines\nthrough each of the 63 ambient points, then $|C_p\\cap H|=15$.\nIn particular, \\eqref{eq:conjecture} fails for $C_p$ and every classically\nembedded split Cayley hexagon.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "A degree-12 counterexample to Saniga et al.'s Section 4.4 line-subgeometry conjecture",
+      "title": "Counterexamples to Saniga et al.'s line-subgeometry conjecture and fourfold hexagon constructions",
       "toolchain": null,
-      "version": 2,
+      "version": 5,
       "work": "hexagon-perp-line-counterexamples"
     },
     {
@@ -26121,7 +26121,7 @@
       ],
       "claim": "s2",
       "contributor": null,
-      "identity": "collected:hexagon-perp-line-counterexamples:2:s2",
+      "identity": "collected:hexagon-perp-line-counterexamples:5:s2",
       "kind": "paper",
       "label": "Proposition",
       "lean_source": {
@@ -26136,16 +26136,16 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "hexagon-perp-line-counterexamples",
       "scope": "in_scope",
       "statement": "For $n\\ge2$ and every nonzero $p\\in V_n$, let $C^{(n)}_p$ contain all isotropic\nlines in $p^\\perp\\setminus\\{0\\}$. Then $d(C^{(n)}_p)=4d_{n-1}$.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "A degree-12 counterexample to Saniga et al.'s Section 4.4 line-subgeometry conjecture",
+      "title": "Counterexamples to Saniga et al.'s line-subgeometry conjecture and fourfold hexagon constructions",
       "toolchain": null,
-      "version": 2,
+      "version": 5,
       "work": "hexagon-perp-line-counterexamples"
     },
     {
@@ -26162,7 +26162,7 @@
       ],
       "claim": "s3",
       "contributor": null,
-      "identity": "collected:hexagon-perp-line-counterexamples:2:s3",
+      "identity": "collected:hexagon-perp-line-counterexamples:5:s3",
       "kind": "paper",
       "label": "Lemma",
       "lean_source": {
@@ -26177,16 +26177,16 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "hexagon-perp-line-counterexamples",
       "scope": "in_scope",
       "statement": "The full two-qubit line geometry has degree $d_2=3$.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "A degree-12 counterexample to Saniga et al.'s Section 4.4 line-subgeometry conjecture",
+      "title": "Counterexamples to Saniga et al.'s line-subgeometry conjecture and fourfold hexagon constructions",
       "toolchain": null,
-      "version": 2,
+      "version": 5,
       "work": "hexagon-perp-line-counterexamples"
     },
     {
@@ -26203,7 +26203,7 @@
       ],
       "claim": "s4",
       "contributor": null,
-      "identity": "collected:hexagon-perp-line-counterexamples:2:s4",
+      "identity": "collected:hexagon-perp-line-counterexamples:5:s4",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -26218,16 +26218,16 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "hexagon-perp-line-counterexamples",
       "scope": "in_scope",
       "statement": "An assignment on $C_{IIZ}$ is optimal if and only if all 15 pole lines are\nsatisfied and each of the 16 linear sections has exactly three violated lines.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "A degree-12 counterexample to Saniga et al.'s Section 4.4 line-subgeometry conjecture",
+      "title": "Counterexamples to Saniga et al.'s line-subgeometry conjecture and fourfold hexagon constructions",
       "toolchain": null,
-      "version": 2,
+      "version": 5,
       "work": "hexagon-perp-line-counterexamples"
     },
     {
@@ -26244,7 +26244,7 @@
       ],
       "claim": "s5",
       "contributor": null,
-      "identity": "collected:hexagon-perp-line-counterexamples:2:s5",
+      "identity": "collected:hexagon-perp-line-counterexamples:5:s5",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -26259,16 +26259,98 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "hexagon-perp-line-counterexamples",
       "scope": "in_scope",
       "statement": "There is a 19-line family $C$ with $d(C)=1$ and $|C\\cap H|\\ge3$ for every\nthree-regular isotropic line family $H$ on all 63 points.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "A degree-12 counterexample to Saniga et al.'s Section 4.4 line-subgeometry conjecture",
+      "title": "Counterexamples to Saniga et al.'s line-subgeometry conjecture and fourfold hexagon constructions",
       "toolchain": null,
-      "version": 2,
+      "version": 5,
+      "work": "hexagon-perp-line-counterexamples"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hexagon-perp-line-counterexamples:5:s6",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Quantum/Contextuality/PerpHyperplaneHexagonContextualityRefutation.lean"
+      },
+      "lineage": "collected:hexagon-perp-line-counterexamples:s6",
+      "macros": {
+        "\\FF": "\\mathbb F_2",
+        "\\LL": "\\mathcal L",
+        "\\WW": "\\mathcal W"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hexagon-perp-line-counterexamples",
+      "scope": "in_scope",
+      "statement": "For every nonzero three-qubit pole $p$,\n\\[\n d(A_p)=0,\\qquad d(B_p)=d(C_p)=12.\n\\]\nFor every classically embedded split Cayley hexagon $H$,\n\\[\n |A_p\\cap H|=3,\\qquad |B_p\\cap H|=12.\n\\]\nThere is an assignment on $B_p$ whose violated lines are exactly $B_p\\cap H$,\nbut no assignment on $C_p$ has that complete violation set.\nMore generally, deleting the pole pencil preserves the full-perp degree in\nevery $n\\ge2$ qubits: $d(B_p^{(n)})=d(C_p^{(n)})=4d_{n-1}$.\nEvery minimum-violation assignment on the full perp satisfies its pole pencil.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Saniga et al.'s line-subgeometry conjecture and fourfold hexagon constructions",
+      "toolchain": null,
+      "version": 5,
+      "work": "hexagon-perp-line-counterexamples"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:hexagon-perp-line-counterexamples:5:s7",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Quantum/Contextuality/PerpHyperplaneHexagonContextualityRefutation.lean"
+      },
+      "lineage": "collected:hexagon-perp-line-counterexamples:s7",
+      "macros": {
+        "\\FF": "\\mathbb F_2",
+        "\\LL": "\\mathcal L",
+        "\\WW": "\\mathcal W"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hexagon-perp-line-counterexamples",
+      "scope": "in_scope",
+      "statement": "For every $U$ and every assignment, there is a vector $w_U\\in U$ such\nthat the affine complement $A_u=\\{v\\in U:u(v)=1\\}$, indexed by\n$0\\ne u\\in U^*$, is violated precisely when $u(w_U)=1$.\nConsequently its seven affine contexts have either zero or four violations.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Saniga et al.'s line-subgeometry conjecture and fourfold hexagon constructions",
+      "toolchain": null,
+      "version": 5,
       "work": "hexagon-perp-line-counterexamples"
     },
     {

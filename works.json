@@ -4051,9 +4051,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24546754",
       "current_version": 4,
-      "doi": null,
+      "doi": "10.5281/zenodo.24546755",
       "lean_source": {
         "revision": "9849c0d81bfe0a953a10ad37400f5b1b61f028b5",
         "url": "https://github.com/the-omega-institute/trureturing/blob/9849c0d81bfe0a953a10ad37400f5b1b61f028b5/D5/S3/StatisticalMechanics/Potts/CrossedStripDefectsWide/HardinA229532Strip.lean"
@@ -4369,7 +4369,7 @@
       "work": "he-tubbenhauer-2025-null-tensor-summand"
     },
     {
-      "abstract_text": "We refute the line-subgeometry conjecture in Section 4.4, p. 20 of Saniga et al., Hexagons govern three-qubit contextuality, arXiv:2312.07738v3 (Quantum 9 (2025), 1601). The 75-line geometry contained in any three-qubit perp hyperplane has contextuality degree 12 but meets every classically embedded split Cayley hexagon in 15 lines. A 19-line configuration has degree 1 and intersection at least 3. Linear sections and signed Clifford transport prove that every perp in n >= 2 qubits has four times the degree of the full (n-1)-qubit line geometry; every four-qubit perp consequently has degree 252.",
+      "abstract_text": "We refute the line-subgeometry conjecture in Section 4.4, p. 20 of Saniga et al., Hexagons govern three-qubit contextuality, arXiv:2312.07738v3 (Quantum 9 (2025), 1601). The configuration of all 75 isotropic lines contained in a point's perp hyperplane has contextuality degree exactly 12, whereas it shares exactly 15 lines with every classically embedded split Cayley hexagon. The intersection count requires only three lines through each ambient point. The degree follows from a general identity: for every nonzero pole in n >= 2 qubits, the full contained-line geometry of its perp has four times the degree of the full (n-1)-qubit line geometry; in four qubits this gives degree 252. We also give a 19-line counterexample of degree one. Saniga's pole-pencil refinement gives an exact intersection description on the reduced perp, with a different optimal-violation-set behavior from the full perp. For affine contexts, a local defect formula shows that each isotropic Fano plane contributes zero or four violations. The 252-context affine construction of Axel Muller and Metod Saniga and a 252-context reduced-perp support are fourfold expansions of the hexagon's points and lines, respectively. The reduced-perp minimum is 252; the affine bounds established or cited here are 192 <= d_aff <= 252, excluding the proposed value 189 in Section 6 of arXiv:2407.02928v1.",
       "authors": [
         {
           "affiliation": "ChronoAI Pte Ltd, Singapore",
@@ -4380,9 +4380,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": "10.5281/zenodo.23904467",
-      "current_version": 2,
-      "doi": "10.5281/zenodo.23904468",
+      "concept_doi": null,
+      "current_version": 5,
+      "doi": null,
       "lean_source": {
         "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
         "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Quantum/Contextuality/PerpHyperplaneHexagonContextualityRefutation.lean"
@@ -4390,27 +4390,27 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
-        "bytes": 99832,
-        "sha256": "e942ec3e50473014eab69d1192e0ca42c3b8e9d0722071409eecf5117764a1fa",
-        "url": "/api/v1/collected-papers/hexagon-perp-line-counterexamples/files/pdf?version=2"
+        "bytes": 106094,
+        "sha256": "856c07f46756a7fd9185c5054a9f0bb9c3a7024f14a53f0681dc3b5aab4d8929",
+        "url": "/api/v1/collected-papers/hexagon-perp-line-counterexamples/files/pdf?version=5"
       },
-      "previous_version": null,
+      "previous_version": "2",
       "publication": "public",
-      "published_on": "2026-11-05T08:03:31.974787703Z",
+      "published_on": "2026-11-26T03:01:28.038122106Z",
       "record": "hexagon-perp-line-counterexamples",
       "repository_name": "10.5281-zenodo.23904467",
       "source": {
-        "bytes": 14641,
-        "sha256": "c6ec59a03b18b53642e22b15d1926677b8abdef80445d7309c322413a1ba2972",
-        "url": "/api/v1/collected-papers/hexagon-perp-line-counterexamples/files/source?version=2"
+        "bytes": 35565,
+        "sha256": "cf6e7d1921d6054a519401121c955096fd07ca3702e4349c8645daac7e0ca10b",
+        "url": "/api/v1/collected-papers/hexagon-perp-line-counterexamples/files/source?version=5"
       },
-      "title": "A degree-12 counterexample to Saniga et al.'s Section 4.4 line-subgeometry conjecture",
+      "title": "Counterexamples to Saniga et al.'s line-subgeometry conjecture and fourfold hexagon constructions",
       "versions": [
         {
-          "previous_version": null,
-          "published_on": "2026-11-05T08:03:31.974787703Z",
-          "revision": "2",
-          "version": 2
+          "previous_version": "2",
+          "published_on": "2026-11-26T03:01:28.038122106Z",
+          "revision": "5",
+          "version": 5
         }
       ],
       "work": "hexagon-perp-line-counterexamples"

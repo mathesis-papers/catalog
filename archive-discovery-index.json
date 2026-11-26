@@ -535,10 +535,10 @@
       "version": 2
     },
     {
-      "doi": "10.5281/zenodo.23904468",
+      "doi": "10.5281/zenodo.24548100",
       "id": "hexagon-perp-line-counterexamples",
       "kind": "collected",
-      "version": 2
+      "version": 5
     },
     {
       "doi": "10.5281/zenodo.24488910",
@@ -1243,6 +1243,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-26T02:33:24.276365076Z",
+  "generated_at": "2026-11-26T03:33:25.187650973Z",
   "schema": "mathesis.archive-index.v1"
 }
