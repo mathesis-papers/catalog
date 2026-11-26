@@ -4380,9 +4380,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.23904467",
       "current_version": 5,
-      "doi": null,
+      "doi": "10.5281/zenodo.24548100",
       "lean_source": {
         "revision": "6715a5bea38a03c80f6c4da6de93fea88798f026",
         "url": "https://github.com/the-omega-institute/trureturing/blob/6715a5bea38a03c80f6c4da6de93fea88798f026/D5/S3/Quantum/Contextuality/PerpHyperplaneHexagonContextualityRefutation.lean"

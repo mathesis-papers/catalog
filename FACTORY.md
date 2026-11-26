@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-26T03:33:25.187650973Z`.
+Snapshot: `2026-11-26T04:33:10.858319064Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -99,7 +99,7 @@ Snapshot: `2026-11-26T03:33:25.187650973Z`.
 | [OEIS A240513, revision 11, FORMULA 1–3: ladder proofs and extensions of Bala (2014)](https://github.com/mathesis-papers/hardin240513-ladder-formulas) | 3 | [DOI](https://doi.org/10.5281/zenodo.24409472) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Residual order four in GP(7,2): an alternative proof for Hausmann's Question 5.4 (arXiv:2611.05178v1, Section 5), after AFTD (2026)](https://github.com/mathesis-papers/hausmann-2026-question-5-4-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409056) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Quantitative null tensor summands for He–Tubbenhauer’s Conjecture 4.2 (arXiv:2508.04054v1, p. 17): extending their 2025 theorem](https://github.com/mathesis-papers/he-tubbenhauer-2025-null-tensor-summand) | 2 | Awaiting DOI | en, zh | 2 / 1 / 0 | 8 no target yet |
-| [Counterexamples to Saniga et al.'s line-subgeometry conjecture and fourfold hexagon constructions](https://github.com/mathesis-papers/10.5281-zenodo.23904467) | 5 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
+| [Counterexamples to Saniga et al.'s line-subgeometry conjecture and fourfold hexagon constructions](https://github.com/mathesis-papers/10.5281-zenodo.23904467) | 5 | [DOI](https://doi.org/10.5281/zenodo.24548100) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Alternative proofs of Hohn's divisibility conjectures after Kontorovich and Stong](https://github.com/mathesis-papers/hohn-a390148-split-prime-shared-divisibility) | 2 | [DOI](https://doi.org/10.5281/zenodo.24488910) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
 | [Weighted and rank-two extensions of Patel's proof: Hemmer–Straub–Westrem's Ev character-average conjecture](https://github.com/mathesis-papers/hsw17) | 2 | [DOI](https://doi.org/10.5281/zenodo.24415599) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
 | [Reflection-symmetric diagonal synthesis: resolving a conjecture of Huang, Kosugi, Nishi and Matsushita](https://github.com/mathesis-papers/10.5281-zenodo.23885960) | 4 | [DOI](https://doi.org/10.5281/zenodo.23885961) | en, zh | 2 / 1 / 0 | 3 no target yet |

@@ -535,6 +535,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24548100",
+      "id": "hexagon-perp-line-counterexamples",
+      "kind": "collected",
+      "version": 5
+    },
+    {
       "doi": "10.5281/zenodo.24488910",
       "id": "hohn-a390148-split-prime-shared-divisibility",
       "kind": "collected",
@@ -1237,6 +1243,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-26T03:33:25.187650973Z",
+  "generated_at": "2026-11-26T04:33:10.858319064Z",
   "schema": "mathesis.archive-index.v1"
 }

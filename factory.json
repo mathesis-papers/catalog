@@ -5215,8 +5215,8 @@
       "work": "he-tubbenhauer-2025-null-tensor-summand"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.23904467",
+      "doi": "10.5281/zenodo.24548100",
       "files": {
         "pdf": {
           "bytes": 106094,
@@ -5253,7 +5253,6 @@
       },
       "mode": "authored_book",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -11914,5 +11913,5 @@
   "papers": 212,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-26T03:33:25.187650973Z"
+  "snapshot_time": "2026-11-26T04:33:10.858319064Z"
 }
