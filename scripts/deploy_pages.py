@@ -7,6 +7,7 @@ import re
 import subprocess
 import time
 import urllib.request
+import urllib.parse
 
 
 def require(condition, message):
@@ -77,10 +78,16 @@ def deploy(environment, api=github, oidc=identity_token, pause=time.sleep, emit=
     for _ in range(90):
         status = api('GET', prefix + '/pages/deployments/' + deployment)
         if status.get('status') == 'succeed':
-            url = receipt['page_url'] if 'page_url' in receipt else receipt['pages_url']
-            require(isinstance(url, str) and url.startswith('https://') and not any(c in url for c in '\r\n'),
-                    'invalid Pages URL')
-            return {'deployment_id': deployment, 'page_url': url}
+            url = receipt.get('page_url') or receipt.get('pages_url')
+            require(isinstance(url, str) and not any(c in url for c in '\r\n'), 'invalid Pages URL')
+            target = urllib.parse.urlsplit(url)
+            slug = repository.split('/', 1)[1]
+            require(target.scheme in ('http', 'https') and target.netloc == 'papers.trureturing.org'
+                    and target.path.rstrip('/') == '/' + slug and not target.query and not target.fragment,
+                    'unregistered Pages URL')
+            # The organization serves HTTPS even when a project inherits an
+            # older Pages html_url with https_enforced=false.
+            return {'deployment_id': deployment, 'page_url': 'https://papers.trureturing.org/' + slug + '/'}
         require(isinstance(status.get('status'), str) and status['status'] not in
                 ('deployment_failed', 'deployment_content_failed', 'deployment_cancelled', 'deployment_lost'),
                 'Pages deployment did not succeed; inspect original deployment ' + deployment)

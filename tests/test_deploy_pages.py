@@ -86,3 +86,13 @@ class PagesDeploymentTests(unittest.TestCase):
         self.statuses = ['deployment_attempt_error','succeed']
         self.assertEqual(self.deploy()['deployment_id'],'original-deployment')
         self.assertEqual(sum(c[0]=='POST' for c in self.calls),1)
+
+    def test_inherited_http_pages_receipt_uses_the_registered_https_reader(self):
+        def api(method,path,body=None):
+            reply = self.api(method,path,body)
+            if method=='POST':
+                reply.update(page_url=None,pages_url='http://papers.trureturing.org/example/')
+            return reply
+        result = self.deploy(api)
+        self.assertEqual(result['page_url'],'https://papers.trureturing.org/example/')
+        self.assertEqual(sum(c[0]=='POST' for c in self.calls),1)
