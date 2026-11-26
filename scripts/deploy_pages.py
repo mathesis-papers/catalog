@@ -22,7 +22,9 @@ def github(method, path, body=None):
                               text=True, capture_output=True, check=False)
     if response.returncode:
         # POST may have reached Pages. Never print the OIDC body or retry it.
-        raise RuntimeError('Pages ' + method + ' failed; retain this run and artifact for reconciliation')
+        status = re.search(r'HTTP (\d{3})', response.stderr)
+        detail = 'HTTP ' + status.group(1) if status else 'transport error'
+        raise RuntimeError('Pages ' + method + ' failed (' + detail + '); retain this run and artifact for reconciliation')
     return json.loads(response.stdout)
 
 
@@ -50,7 +52,18 @@ def deploy(environment, api=github, oidc=identity_token, pause=time.sleep, emit=
             and re.fullmatch(r'[0-9a-f]{40}', source)
             and run.isdigit() and artifact.isdigit(), 'invalid deployment identity')
     prefix = 'repos/' + repository
-    row = api('GET', prefix + '/actions/artifacts/' + artifact)
+    # Use the same public run listing as the upload visibility gate. Its
+    # metadata can be visible before the individual-artifact lookup endpoint.
+    for _ in range(18):
+        listing = api('GET', prefix + '/actions/runs/' + run + '/artifacts?per_page=100')
+        rows = [item for item in listing['artifacts'] if str(item.get('id')) == artifact]
+        require(len(rows) <= 1, 'duplicate uploaded artifact identity')
+        if rows:
+            row = rows[0]
+            break
+        pause(5)
+    else:
+        raise RuntimeError('uploaded artifact is not visible; no deployment was submitted')
     origin = row.get('workflow_run', {})
     require(str(row.get('id')) == artifact and row.get('name') == name and row.get('expired') is False
             and str(origin.get('id')) == run and origin.get('head_sha') == source,
