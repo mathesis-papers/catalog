@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-26T16:39:20.963312696Z`.
+Snapshot: `2026-11-26T17:32:26.126102138Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -111,7 +111,7 @@ Snapshot: `2026-11-26T16:39:20.963312696Z`.
 | [A negative answer to Kang–Jäger's Question 1.10 on permutative lifts](https://github.com/mathesis-papers/10.5281-zenodo.23885964) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885965) | en, zh | 2 / 1 / 0 | 6 no target yet |
 | [A rational counterexample to Karp's fractional-degree Legendre Turán conjecture](https://github.com/mathesis-papers/karp-sf21-legendre-turan) | 2 | [DOI](https://doi.org/10.5281/zenodo.24413788) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Extending Keshari–Mayassi–Prabhakar–Nasser's unfaithfulness theorem: a negative answer to their zeta8 faithfulness question](https://github.com/mathesis-papers/keshari-mayassi-prabhakar-nasser-2026-zeta8-faithfulness) | 2 | [DOI](https://doi.org/10.5281/zenodo.24484448) | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
-| [Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2](https://github.com/mathesis-papers/khesin-li-2024-bipartite-encoder-equivalence) | 2 | [DOI](https://doi.org/10.5281/zenodo.24404944) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
+| [Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2](https://github.com/mathesis-papers/khesin-li-2024-bipartite-encoder-equivalence) | 2 | [DOI](https://doi.org/10.5281/zenodo.24404944) | en, zh | 1 / 1 / 0 | 9 no target yet |
 | [Correction of Kim–Stolarsky's eventual three-prefix conjecture](https://github.com/mathesis-papers/kim-stolarsky-eventual-three-prefix-conjecture) | 2 | [DOI](https://doi.org/10.5281/zenodo.24485545) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Kimberling's rational-enumeration conjecture: an extension of the BMO–Kepler closure lemma](https://github.com/mathesis-papers/kimberling-rational-enumeration) | 2 | [DOI](https://doi.org/10.5281/zenodo.24489054) | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
 | [Correcting Klanderman et al.'s isolated-top transfer-system conjecture via DeMark et al.'s tulip theorem](https://github.com/mathesis-papers/klanderman-conjecture-4-2) | 2 | [DOI](https://doi.org/10.5281/zenodo.24413790) | Awaiting reading | 0 / 0 / 0 | 4 no target yet |

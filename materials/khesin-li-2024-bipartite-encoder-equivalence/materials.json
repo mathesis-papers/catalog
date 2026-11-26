@@ -1,15 +1,42 @@
 {
   "doi": "10.5281/zenodo.24404944",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Corollary 7",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/531"
+    },
+    {
+      "label": "Corollary 9",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/532"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/khesin-li-2024-bipartite-encoder-equivalence/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/khesin-li-2024-bipartite-encoder-equivalence/khesin-li-2024-bipartite-encoder-equivalence/en/",
+    "zh": "https://papers.trureturing.org/khesin-li-2024-bipartite-encoder-equivalence/khesin-li-2024-bipartite-encoder-equivalence/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/khesin-li-2024-bipartite-encoder-equivalence",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/khesin-li-2024-bipartite-encoder-equivalence/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/khesin-li-2024-bipartite-encoder-equivalence/khesin-li-2024-bipartite-encoder-equivalence/slides/seminar/khesin-li-2024-bipartite-encoder-equivalence-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/khesin-li-2024-bipartite-encoder-equivalence/khesin-li-2024-bipartite-encoder-equivalence/slides/seminar/khesin-li-2024-bipartite-encoder-equivalence-seminar-en.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-three-column-types-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/khesin-li-2024-bipartite-encoder-equivalence/khesin-li-2024-bipartite-encoder-equivalence/films/001-three-column-types/khesin-li-2024-bipartite-encoder-equivalence_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/khesin-li-2024-bipartite-encoder-equivalence/khesin-li-2024-bipartite-encoder-equivalence/films/001-three-column-types/poster.jpg",
+      "title": "Three column types and the unavoidable shared output",
+      "url": "https://papers.trureturing.org/khesin-li-2024-bipartite-encoder-equivalence/khesin-li-2024-bipartite-encoder-equivalence/films/#001-three-column-types"
+    }
+  ],
   "visualizations": [],
   "work": "khesin-li-2024-bipartite-encoder-equivalence"
 }

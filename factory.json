@@ -5918,19 +5918,19 @@
         "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.lean"
       },
       "materials": {
-        "formalization_requests": 0,
-        "slides": 0,
-        "videos": 0,
+        "formalization_requests": 2,
+        "slides": 1,
+        "videos": 1,
         "visualizations": 0
       },
-      "mode": "paper",
+      "mode": "authored_book",
       "next_steps": [
-        "prepare_bilingual_reading",
-        "prepare_slides",
-        "prepare_video",
         "prepare_exact_targets"
       ],
-      "reading_languages": [],
+      "reading_languages": [
+        "en",
+        "zh"
+      ],
       "repository_url": "https://github.com/mathesis-papers/khesin-li-2024-bipartite-encoder-equivalence",
       "site_url": "https://papers.trureturing.org/khesin-li-2024-bipartite-encoder-equivalence/",
       "title": "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2",
@@ -11913,5 +11913,5 @@
   "papers": 212,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-26T16:39:20.963312696Z"
+  "snapshot_time": "2026-11-26T17:32:26.126102138Z"
 }
