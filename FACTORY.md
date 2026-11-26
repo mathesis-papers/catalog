@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-26T22:31:24.365160539Z`.
+Snapshot: `2026-11-26T23:31:04.421319999Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -23,7 +23,7 @@ Snapshot: `2026-11-26T22:31:24.365160539Z`.
 | [Bajnok–Beatty Conjectures 4.1 and 1.6 (arXiv:2406.04045v1, Section 4, p. 10; Section 1, p. 3): classification and extremal noncyclic order](https://github.com/mathesis-papers/10.5281-zenodo.23931730) | 2 | [DOI](https://doi.org/10.5281/zenodo.23931731) | en, zh | 2 / 1 / 0 | 11 no target yet |
 | [Proof of Bala's totient-period conjectures: OEIS A258899 and A258903, COMMENTS (3 and 8 August 2025)](https://github.com/mathesis-papers/bala-a258899-totient-period) | 2 | [DOI](https://doi.org/10.5281/zenodo.23971256) | Awaiting reading | 0 / 0 / 0 | 12 no target yet |
 | [Proof of Bala's bilateral logarithm conjecture and Hanna's constant identities](https://github.com/mathesis-papers/bala-a292179-a292178-bilateral-logarithm) | 3 | [DOI](https://doi.org/10.5281/zenodo.24487480) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
-| [A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)](https://github.com/mathesis-papers/bala-machine3626-exact-halting-time) | 3 | [DOI](https://doi.org/10.5281/zenodo.24405774) | Awaiting reading | 0 / 0 / 0 | 11 no target yet |
+| [A restoring and divisor-sum proof of Bala's machine-3626 conjecture of 11 September 2026, OEIS A393210, Comments, revision 18: extending Sequence Machine (2026) and Wolfram (2026)](https://github.com/mathesis-papers/bala-machine3626-exact-halting-time) | 3 | [DOI](https://doi.org/10.5281/zenodo.24405774) | en, zh | 1 / 1 / 0 | 11 no target yet |
 | [Factorial bounds and sharp onsets for A281428: extending Su (2026) on Bala's COMMENTS, items 1–2](https://github.com/mathesis-papers/bala281428-factorial-valuations) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409048) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Parity and product extensions of Bala's divisibilities (2026): OEIS A295462, References (record #19; contribution dated 23 August 2026)](https://github.com/mathesis-papers/10.5281-zenodo.23971278) | 4 | [DOI](https://doi.org/10.5281/zenodo.23971279) | en, zh | 2 / 1 / 0 | 6 no target yet |
 | [A short proof of Bala's all-column conjecture using Wildon's binomial identity](https://github.com/mathesis-papers/bala337389) | 2 | [DOI](https://doi.org/10.5281/zenodo.24413782) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
