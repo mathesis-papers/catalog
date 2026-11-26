@@ -22,6 +22,17 @@
         "generated_at"
       ],
       "nonempty": "entries"
+    },
+    {
+      "id": "publisher-completion",
+      "owner": "mathesis-papers/catalog",
+      "kind": "json",
+      "url": "https://api.github.com/repos/mathesis-papers/catalog/actions/workflows/publish.yml/runs?status=completed&event=schedule&per_page=1",
+      "equals": {
+        "workflow_runs.0.conclusion": "success"
+      },
+      "timestamp": "workflow_runs.0.updated_at",
+      "max_age_seconds": 10800
     }
   ],
   "browser": [
@@ -37,25 +48,17 @@
       "paths": [
         "scripts/collection.py",
         "scripts/paper_products.py",
-        "scripts/verify_factory.py"
+        "scripts/verify_factory.py",
+        "scripts/hosted_materials.py",
+        "scripts/material_policy.py",
+        "tests/test_hosted_materials.py",
+        "tests/test_factory.py",
+        "tests/test_collection.py"
       ],
       "verify": [
         [
           "python3",
-          "-m",
-          "compileall",
-          "-q",
-          "scripts"
-        ],
-        [
-          "python3",
-          "-m",
-          "unittest",
-          "discover",
-          "-s",
-          "tests",
-          "-p",
-          "test_collection.py"
+          "scripts/check_monitor_repair.py"
         ]
       ],
       "auto_merge": true,
