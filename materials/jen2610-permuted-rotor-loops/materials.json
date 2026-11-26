@@ -1,15 +1,62 @@
 {
   "doi": "10.5281/zenodo.24404942",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Lemma 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/545"
+    },
+    {
+      "label": "Corollary 4",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/546"
+    },
+    {
+      "label": "Corollary 5",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/547"
+    },
+    {
+      "label": "Corollary 6",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/548"
+    },
+    {
+      "label": "Corollary 7",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/549"
+    },
+    {
+      "label": "Corollary 8",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/550"
+    },
+    {
+      "label": "Corollary 9",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/551"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/jen2610-permuted-rotor-loops/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/jen2610-permuted-rotor-loops/jen2610-permuted-rotor-loops/en/",
+    "zh": "https://papers.trureturing.org/jen2610-permuted-rotor-loops/jen2610-permuted-rotor-loops/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/jen2610-permuted-rotor-loops",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/jen2610-permuted-rotor-loops/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "return-order",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/jen2610-permuted-rotor-loops/jen2610-permuted-rotor-loops/slides/return-order/jen2610-permuted-rotor-loops-return-order-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/jen2610-permuted-rotor-loops/jen2610-permuted-rotor-loops/slides/return-order/jen2610-permuted-rotor-loops-return-order-en.pdf"
+    }
+  ],
   "version": 5,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-return-order-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/jen2610-permuted-rotor-loops/jen2610-permuted-rotor-loops/films/001-return-order/jen2610-permuted-rotor-loops_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/jen2610-permuted-rotor-loops/jen2610-permuted-rotor-loops/films/001-return-order/poster.jpg",
+      "title": "Changing the return order",
+      "url": "https://papers.trureturing.org/jen2610-permuted-rotor-loops/jen2610-permuted-rotor-loops/films/#001-return-order"
+    }
+  ],
   "visualizations": [],
   "work": "jen2610-permuted-rotor-loops"
 }

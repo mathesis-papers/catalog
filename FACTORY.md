@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-26T17:32:26.126102138Z`.
+Snapshot: `2026-11-26T18:35:03.001313566Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -104,7 +104,7 @@ Snapshot: `2026-11-26T17:32:26.126102138Z`.
 | [Weighted and rank-two extensions of Patel's proof: Hemmer–Straub–Westrem's Ev character-average conjecture](https://github.com/mathesis-papers/hsw17) | 2 | [DOI](https://doi.org/10.5281/zenodo.24415599) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
 | [Reflection-symmetric diagonal synthesis: resolving a conjecture of Huang, Kosugi, Nishi and Matsushita](https://github.com/mathesis-papers/10.5281-zenodo.23885960) | 4 | [DOI](https://doi.org/10.5281/zenodo.23885961) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [Counterexamples to Conjectures 3 and 4 of Huang, Stoica, Xia and Zhong (arXiv:2006.06716v1, Section 5.2, printed page 32)](https://github.com/mathesis-papers/10.5281-zenodo.23935003) | 2 | [DOI](https://doi.org/10.5281/zenodo.23935004) | en, zh | 2 / 1 / 0 | 6 no target yet |
-| [Permuted rotor loops beyond Jenzer (2026): resolving Remark 5.5 (arXiv:2610.21593v1, p. 19)](https://github.com/mathesis-papers/jen2610-permuted-rotor-loops) | 5 | [DOI](https://doi.org/10.5281/zenodo.24404942) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
+| [Permuted rotor loops beyond Jenzer (2026): resolving Remark 5.5 (arXiv:2610.21593v1, p. 19)](https://github.com/mathesis-papers/jen2610-permuted-rotor-loops) | 5 | [DOI](https://doi.org/10.5281/zenodo.24404942) | en, zh | 1 / 1 / 0 | 9 no target yet |
 | [A five-vertex negative answer to Johnson and Paparella's Question 9.1 on Hadamard-closed spectral polyhedra](https://github.com/mathesis-papers/jp2025-hadamard-closure) | 2 | [DOI](https://doi.org/10.5281/zenodo.24410091) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Correction of OEIS A343881, comment 2, revision 16: extensions of Kagey (2015) and Adenwalla (2025)](https://github.com/mathesis-papers/kagey343881-powerproducts) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409058) | Awaiting reading | 0 / 0 / 0 | 14 no target yet |
 | [Earliest swapping for every chain length: Kamin et al. (2023), Section IV D 1, Eq. (41)](https://github.com/mathesis-papers/10.5281-zenodo.23904475) | 1 | [DOI](https://doi.org/10.5281/zenodo.23904476) | en, zh | 2 / 1 / 0 | 3 no target yet |
