@@ -1,15 +1,46 @@
 {
   "doi": "10.5281/zenodo.24408311",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/572"
+    },
+    {
+      "label": "Corollary 5",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/573"
+    },
+    {
+      "label": "Corollary 9",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/574"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/10.5281-zenodo.24408310/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/10.5281-zenodo.24408310/hanna-a181074-binomial-exponentials/en/",
+    "zh": "https://papers.trureturing.org/10.5281-zenodo.24408310/hanna-a181074-binomial-exponentials/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/10.5281-zenodo.24408310",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/10.5281-zenodo.24408310/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/10.5281-zenodo.24408310/hanna-a181074-binomial-exponentials/slides/seminar/hanna-a181074-binomial-exponentials-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/10.5281-zenodo.24408310/hanna-a181074-binomial-exponentials/slides/seminar/hanna-a181074-binomial-exponentials-seminar-en.pdf"
+    }
+  ],
   "version": 3,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-integer-series-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/10.5281-zenodo.24408310/hanna-a181074-binomial-exponentials/films/001-integer-series/hanna-a181074-binomial-exponentials_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/10.5281-zenodo.24408310/hanna-a181074-binomial-exponentials/films/001-integer-series/poster.jpg",
+      "title": "When fractions turn into integers",
+      "url": "https://papers.trureturing.org/10.5281-zenodo.24408310/hanna-a181074-binomial-exponentials/films/#001-integer-series"
+    }
+  ],
   "visualizations": [],
   "work": "hanna-a181074-binomial-exponentials"
 }
