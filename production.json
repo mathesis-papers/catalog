@@ -70,7 +70,7 @@
       "toolchain_image": "ghcr.io/the-omega-institute/trureturing-books-toolchain@sha256:bfd5d789f3d489aa8192ee6edc3128f2da0c674d0619a7d54f20a577564a716c"
     },
     "2bb1817dbe1be03c3ed382ed4da02a3bcac7c54dd05b873e2d928f68acf760c1": {
-      "id": "2026-11-24-rendered-material-publication",
+      "id": "2026-11-26-checked-collection-control-rebase",
       "source_archive_sha256": "aaed4513576beb3a6cf970d616293bf401f6737f7d94b2da8797790d412ac172",
       "toolchain_image": "ghcr.io/the-omega-institute/trureturing-books-toolchain@sha256:bfd5d789f3d489aa8192ee6edc3128f2da0c674d0619a7d54f20a577564a716c"
     },

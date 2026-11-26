@@ -20,6 +20,7 @@ import urllib.parse
 import urllib.request
 
 import cma_content
+import collection
 import material_policy
 import promote_content
 import publish
@@ -374,7 +375,8 @@ def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
                 state.update(phase='needs_attention',blocked_stage='restore_checked_inputs',reason=str(error)[:1000])
                 ledger.put(state)
                 continue
-            serial.write(workspace/'ready.json', {'key':state['key'], 'run':str(run), 'repository':str(repo)})
+            serial.write(workspace/'ready.json', {'key':state['key'], 'run':str(run), 'repository':str(repo),
+                                                 'factory_stage':str(factory_stage) if factory_stage else None})
             ready = {'state':'ready_for_host_qa', 'run':str(run), 'repository':str(repo)}
     # Keep remote Codex tasks busy while one finished paper renders, without
     # allowing an unbounded pile of source packages to await the host.
@@ -492,6 +494,63 @@ def record_build_failure(ledger, state, run):
     ledger.put(state, {prefix+name: data for name, data in logs.items()})
 
 
+def checked_collection_control_rebase(original, remote, paper, api, projection=None):
+    """Admit only exact publisher deployment code over unchanged paper bytes."""
+    repository = paper['repository'].split('/', 1)[1]
+    entries = remote[3]
+    controls = collection.deployment_files()
+    before = {name: (publish.sha(value[0]), value[1]) for name, value in original.items()}
+    after = {name: (row['sha'], row['mode']) for name, row in entries.items()}
+    changed = {name for name in before.keys() | after.keys() if before.get(name) != after.get(name)}
+    metadata = {'formalization/nodes.json', '.mathesis/generated.json'}
+    if changed & metadata:
+        require(projection is not None and metadata <= original.keys(), 'saved input metadata needs exact checked projection')
+        for name in metadata:
+            data = (projection/name).read_bytes()
+            require(name in entries and entries[name]['sha'] == publish.sha(data),
+                    'current metadata differs from this checked publisher projection')
+            controls[name] = data
+        old_nodes = json.loads(original['formalization/nodes.json'][0])
+        new_nodes = json.loads(controls['formalization/nodes.json'])
+        def statements(value):
+            result = copy.deepcopy(value)
+            for node in result['nodes']:
+                require(isinstance(node.get('next_step'), str), 'unexpected formalization display copy')
+                node.pop('next_step')
+            return result
+        require(statements(old_nodes) == statements(new_nodes), 'formalization statements or verification changed')
+        old_generated = json.loads(original['.mathesis/generated.json'][0])
+        new_generated = json.loads(controls['.mathesis/generated.json'])
+        def immutable(value):
+            result = copy.deepcopy(value)
+            result.pop('snapshot_identity')
+            result['sha256'].pop('formalization/nodes.json')
+            return result
+        require(immutable(old_generated) == immutable(new_generated)
+                and new_generated['sha256']['formalization/nodes.json'] == hashlib.sha256(controls['formalization/nodes.json']).hexdigest(),
+                'admitted frozen paper inputs changed')
+    require(changed <= set(controls) | {collection.MARKER}
+            and collection.MARKER in original and collection.MARKER in entries
+            and '.mathesis/book.json' not in original and '.mathesis/book.json' not in entries,
+            'paper repository advanced outside publisher deployment controls; inspect original saved sources')
+    old = promote_content.owned_collection(original, paper['id'], paper['version'])
+    new = json.loads(api.blob(repository, entries[collection.MARKER]))
+    def stable(marker):
+        return {**{k:v for k,v in marker.items() if k not in ('sha256', 'git_blobs')},
+                **{field:{k:v for k,v in marker[field].items() if k not in controls}
+                   for field in ('sha256', 'git_blobs')}}
+    require(stable(old) == stable(new) and set(new['sha256']) == set(new['git_blobs']),
+            'paper collection ownership or frozen identity changed')
+    for name, digest in new['git_blobs'].items():
+        require(name in entries and entries[name]['sha'] == digest and entries[name]['mode'] == '100644',
+                'paper collection ownership differs from current repository')
+    for name, data in controls.items():
+        require(name in entries and entries[name]['sha'] == publish.sha(data)
+                and new['sha256'].get(name) == hashlib.sha256(data).hexdigest(),
+                'paper deployment controls differ from this checked publisher')
+    return changed
+
+
 def publish_checked(root, workspace, ledger, api):
     ready = serial.read(workspace/'ready.json')
     run = Path(ready['run'])
@@ -505,14 +564,27 @@ def publish_checked(root, workspace, ledger, api):
     repository = paper['repository'].split('/',1)[1]
     # Optimistic publication fence protects intervening human edits.
     remote = api.state(repository)
-    require(remote[1] == state.get('publication_base',state['paper_commit']), 'paper repository advanced; preserve generated sources and rebase without another model call')
+    original = promote_content.tracked_tree(source)
+    rebased = set()
+    base = state.get('publication_base', state['paper_commit'])
+    if remote[1] != base:
+        # The final authored tree has already passed fixed QA. A publisher-only
+        # transport change cannot change that tree or any frozen paper input.
+        # Human/source changes still fail the original publication fence.
+        require(not state.get('publication_intent'), 'reconcile the original uncertain publication before rebasing')
+        projection = (Path(ready['factory_stage'])/'output/papers'/repository) if ready.get('factory_stage') else None
+        rebased = checked_collection_control_rebase(original, remote, paper, api, projection)
+        state.setdefault('publication_rebase_history', []).append({
+            'from_commit': base, 'to_commit': remote[1], 'paths': sorted(rebased),
+            'source_archive_sha256': state['source_archive_sha256'], 'observed_at': serial.now()})
+        state['publication_base'] = remote[1]
+        ledger.put(state)
     work = next(w for w in serial.read(root/'works.json')['works'] if w['work'] == paper['id'])
     public_detail(serial.read(root/'publisher.json')['api_base'], work)
     subprocess.run(['git','-C',str(repo),'add','.'],check=True)
     subprocess.run(['git','-C',str(repo),'-c','user.name=Mathesis materials','-c','user.email=contact@chrono-ai.fun',
                     'commit','--allow-empty','-m','Prepare checked exact-version paper materials'],check=True,stdout=subprocess.DEVNULL)
     authored = promote_content.tracked_tree(repo)
-    original = promote_content.tracked_tree(source)
     tree = authored  # Immutable history was attached before the fixed build.
     control_state = api.state('catalog')
     control = json.loads(api.blob('catalog', control_state[3]['publisher.json']))
@@ -527,7 +599,7 @@ def publish_checked(root, workspace, ledger, api):
     state.update(publication_intent={'source_tree':{name:{'sha':publish.sha(data),'mode':modes[name]} for name,data in files.items()},
                                     'manifest':serial.read(repo/'_site/mathesis-materials.json')})
     ledger.put(state)
-    api.sync(repository, files, lambda p:p in set(original)|set(tree), 'Publish checked bilingual paper materials', remote, modes)
+    api.sync(repository, files, lambda p:p in set(original)|set(tree)|rebased, 'Publish checked bilingual paper materials', remote, modes)
     state.update(phase='publication_pending', published_commit=api.receipts[repository]['after'], expected_manifest=state['publication_intent']['manifest'])
     ledger.put(state)
     return state
