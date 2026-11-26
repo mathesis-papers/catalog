@@ -45,9 +45,29 @@ jobs:
       # v5 uses upload-artifact v7; the pinned deploy client found no artifacts
       # after those uploads finalized. v4 keeps both clients on artifact v2.
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4.0.0
+        id: upload
         with:
           path: _site
           name: paper-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Wait for this exact uploaded artifact to appear in the deployment API
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARTIFACT_ID: ${{ steps.upload.outputs.artifact_id }}
+          ARTIFACT_NAME: paper-${{ github.run_id }}-${{ github.run_attempt }}
+        run: |
+          set -euo pipefail
+          [[ "$ARTIFACT_ID" =~ ^[0-9]+$ ]]
+          metadata="$RUNNER_TEMP/paper-artifact.json"
+          for attempt in $(seq 1 18); do
+            if gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?per_page=100" > "$metadata" &&
+              jq -e --argjson id "$ARTIFACT_ID" --arg name "$ARTIFACT_NAME" \\
+                '.artifacts | map(select(.id == $id and .name == $name and .expired == false)) | length == 1' "$metadata" >/dev/null; then
+              exit 0
+            fi
+            sleep 5
+          done
+          echo 'Uploaded paper artifact did not become visible within 90 seconds' >&2
+          exit 1
       - uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
         id: deployment
         with:
