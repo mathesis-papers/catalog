@@ -3028,8 +3028,8 @@
       "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24391330",
+      "doi": "10.5281/zenodo.24550129",
       "files": {
         "pdf": {
           "bytes": 124734,
@@ -3066,7 +3066,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -11914,5 +11913,5 @@
   "papers": 212,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-26T06:41:22.240696177Z"
+  "snapshot_time": "2026-11-26T07:32:23.458814218Z"
 }
