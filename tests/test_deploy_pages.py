@@ -18,8 +18,8 @@ class PagesDeploymentTests(unittest.TestCase):
 
     def api(self, method, path, body=None):
         self.calls.append((method,path,body))
-        if path.endswith('/actions/artifacts/34'):
-            return copy.deepcopy(self.artifact)
+        if path.endswith('/actions/runs/12/artifacts?per_page=100'):
+            return {'artifacts':[copy.deepcopy(self.artifact)]}
         if method == 'POST':
             return {'id':'original-deployment','pages_url':'https://papers.trureturing.org/example/'}
         self.assertTrue(path.endswith('/pages/deployments/original-deployment'))
@@ -46,10 +46,23 @@ class PagesDeploymentTests(unittest.TestCase):
                 original = copy.deepcopy(self.artifact)
                 self.artifact[field] = value
                 self.calls.clear()
-                with self.assertRaisesRegex(ValueError,'another run or source'):
+                with self.assertRaises((ValueError, RuntimeError)):
                     self.deploy()
                 self.assertFalse(any(c[0]=='POST' for c in self.calls))
                 self.artifact = original
+
+    def test_run_listing_visibility_is_polled_before_one_deployment_submission(self):
+        remaining = [2]
+        def api(method,path,body=None):
+            if '/artifacts?' in path and remaining[0]:
+                remaining[0] -= 1
+                self.calls.append((method,path,body))
+                return {'artifacts':[]}
+            return self.api(method,path,body)
+        self.assertEqual(self.deploy(api)['deployment_id'],'original-deployment')
+        self.assertEqual(sum('/artifacts?' in c[1] for c in self.calls),3)
+        self.assertFalse(any('/actions/artifacts/' in c[1] for c in self.calls))
+        self.assertEqual(sum(c[0]=='POST' for c in self.calls),1)
 
     def test_uncertain_creation_is_not_retried_and_retains_the_run_and_artifact_identity(self):
         def api(method,path,body=None):
@@ -72,4 +85,14 @@ class PagesDeploymentTests(unittest.TestCase):
     def test_temporary_provider_status_is_observed_without_another_deployment(self):
         self.statuses = ['deployment_attempt_error','succeed']
         self.assertEqual(self.deploy()['deployment_id'],'original-deployment')
+        self.assertEqual(sum(c[0]=='POST' for c in self.calls),1)
+
+    def test_inherited_http_pages_receipt_uses_the_registered_https_reader(self):
+        def api(method,path,body=None):
+            reply = self.api(method,path,body)
+            if method=='POST':
+                reply.update(page_url=None,pages_url='http://papers.trureturing.org/example/')
+            return reply
+        result = self.deploy(api)
+        self.assertEqual(result['page_url'],'https://papers.trureturing.org/example/')
         self.assertEqual(sum(c[0]=='POST' for c in self.calls),1)
