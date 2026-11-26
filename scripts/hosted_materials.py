@@ -275,7 +275,8 @@ def plan_template_adaptation(state, template):
 
 def wait_for(state, stage, error, ledger):
     state['waiting_stage'] = stage
-    state['last_error'] = {'type': type(error).__name__, 'observed_at': serial.now()}
+    state['last_error'] = {'type': type(error).__name__, 'observed_at': serial.now(),
+                           'reason': str(error)[:1000]}
     if isinstance(error, cma_content.ProviderError):
         state['last_error'].update(error.observation())
     ledger.put(state)
@@ -306,7 +307,17 @@ def reconcile(root, workspace, config, ledger, cma, workspaces, factory_stage):
     # Original operations have priority, even after template/config changes.
     # An occupied or broken lane does not prevent observing the other lane.
     for state in jobs:
-        resume_saved_build(state, config, ledger)
+        try:
+            resume_saved_build(state, config, ledger)
+        except ValueError as error:
+            # A refused operation remains refused for this exact job. Keep its
+            # original phase/source/receipts while unrelated jobs keep moving.
+            wait_for(state, 'saved_build_recovery', error, ledger)
+            continue
+        if state.get('waiting_stage') == 'saved_build_recovery':
+            state.pop('waiting_stage')
+            state.pop('last_error', None)
+            ledger.put(state)
         if state['phase'] == 'published':
             if not state.get('cleanup_complete'):
                 try: cleanup(cma,ledger,state)

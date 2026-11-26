@@ -326,6 +326,25 @@ class RecoveryTests(unittest.TestCase):
             self.assertEqual(result['needs_attention'], ['original'])
             self.assertEqual(result['phases'], {'needs_attention': 1})
 
+    def test_refused_recovery_preserves_the_job_and_does_not_starve_another_publication(self):
+        bad = {'key':'invalid-recovery', 'phase':'needs_attention', 'blocked_stage':'restore_checked_inputs',
+               'source_archive_sha256':'b'*64, 'agent_id':'preserved-agent', 'identity':{'paper':{'id':'original','version':1}}}
+        other = {'key':'other', 'phase':'publication_pending'}
+        ledger = Ledger([bad, other])
+        config = {'toolchain_image':'pinned', 'saved_build_recovery':{bad['key']:{
+            'id':'old-operation', 'source_archive_sha256':'b'*64, 'toolchain_image':'pinned'}}}
+        with tempfile.TemporaryDirectory() as folder, patch.object(hosted,'candidate_works',return_value=[]), \
+                patch.object(hosted,'readback',return_value=False) as readback:
+            result = hosted.reconcile(Path(folder),Path(folder)/'work',config,ledger,object(),{},None)
+        readback.assert_called_once()
+        self.assertEqual(readback.call_args.args[1]['key'],'other')
+        refused = ledger.rows[0]
+        for field in ('phase','blocked_stage','source_archive_sha256','agent_id','identity'):
+            self.assertEqual(refused[field],bad[field])
+        self.assertIn('exact source',refused['last_error']['reason'])
+        self.assertEqual(refused['waiting_stage'],'saved_build_recovery')
+        self.assertEqual(result['needs_attention'],[bad['key']])
+
     def test_provider_error_observation_retains_status_without_a_new_task(self):
         ledger = Ledger()
         state = {'key':'original', 'phase':'intent'}
