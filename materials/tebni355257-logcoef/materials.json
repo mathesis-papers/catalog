@@ -1,15 +1,58 @@
 {
   "doi": "10.5281/zenodo.24406609",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Corollary 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/586"
+    },
+    {
+      "label": "Corollary 5",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/587"
+    },
+    {
+      "label": "Corollary 6",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/588"
+    },
+    {
+      "label": "Corollary 7",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/589"
+    },
+    {
+      "label": "Corollary 8",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/590"
+    },
+    {
+      "label": "Corollary 9",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/591"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/tebni355257-logcoef/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/tebni355257-logcoef/tebni355257-logcoef/en/",
+    "zh": "https://papers.trureturing.org/tebni355257-logcoef/tebni355257-logcoef/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/tebni355257-logcoef",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/tebni355257-logcoef/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/tebni355257-logcoef/tebni355257-logcoef/slides/seminar/tebni355257-logcoef-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/tebni355257-logcoef/tebni355257-logcoef/slides/seminar/tebni355257-logcoef-seminar-en.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-prime-columns-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/tebni355257-logcoef/tebni355257-logcoef/films/001-prime-columns/tebni355257-logcoef_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/tebni355257-logcoef/tebni355257-logcoef/films/001-prime-columns/poster.jpg",
+      "title": "What survives at a prime column?",
+      "url": "https://papers.trureturing.org/tebni355257-logcoef/tebni355257-logcoef/films/#001-prime-columns"
+    }
+  ],
   "visualizations": [],
   "work": "tebni355257-logcoef"
 }

@@ -11263,19 +11263,19 @@
         "url": "https://github.com/the-omega-institute/trureturing/blob/3978330935ee256403f739686c6ae335ea620e68/D5/S3/Arith/Congruence/TebniA355257Divisibility.lean"
       },
       "materials": {
-        "formalization_requests": 0,
-        "slides": 0,
-        "videos": 0,
+        "formalization_requests": 6,
+        "slides": 1,
+        "videos": 1,
         "visualizations": 0
       },
-      "mode": "paper",
+      "mode": "authored_book",
       "next_steps": [
-        "prepare_bilingual_reading",
-        "prepare_slides",
-        "prepare_video",
         "prepare_exact_targets"
       ],
-      "reading_languages": [],
+      "reading_languages": [
+        "en",
+        "zh"
+      ],
       "repository_url": "https://github.com/mathesis-papers/tebni355257-logcoef",
       "site_url": "https://papers.trureturing.org/tebni355257-logcoef/",
       "title": "Sharp quotients and column polynomials: alternative proofs for OEIS A355257, revision 37, Comments, after Benyattou-Mihoubi (2017) and Fried (2025)",
@@ -11913,5 +11913,5 @@
   "papers": 212,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-26T20:31:58.346079349Z"
+  "snapshot_time": "2026-11-26T21:31:06.198069553Z"
 }

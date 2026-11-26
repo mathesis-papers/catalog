@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-26T20:31:58.346079349Z`.
+Snapshot: `2026-11-26T21:31:06.198069553Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -206,7 +206,7 @@ Snapshot: `2026-11-26T20:31:58.346079349Z`.
 | [Negative answers to Ta's Problems 11.6–11.7 (arXiv:2505.08090v5, Section 11, page 27) and a proof of Conjecture 5.13 (arXiv:2508.16772v1, Section 5.2.2, page 17): central-twist counting extending Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026)](https://github.com/mathesis-papers/ta-2025-problem-11-6-three-invariant-refutation) | 3 | [DOI](https://doi.org/10.5281/zenodo.24409476) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [An orbitwise equality criterion for Ta's Problem 11.7 (arXiv:2505.08090v5, p. 27): extensions of the Kamada–Oshiro (2009/2010) examples](https://github.com/mathesis-papers/ta-2025-problem-11-7-good-involution-bound-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212427) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [A counterexample to the Shannon conjecture following Eq. (69) in Tarabunga et al., Section V.C](https://github.com/mathesis-papers/10.5281-zenodo.23903315) | 1 | [DOI](https://doi.org/10.5281/zenodo.23903316) | en, zh | 0 / 0 / 0 | 7 no target yet |
-| [Sharp quotients and column polynomials: alternative proofs for OEIS A355257, revision 37, Comments, after Benyattou-Mihoubi (2017) and Fried (2025)](https://github.com/mathesis-papers/tebni355257-logcoef) | 2 | [DOI](https://doi.org/10.5281/zenodo.24406609) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
+| [Sharp quotients and column polynomials: alternative proofs for OEIS A355257, revision 37, Comments, after Benyattou-Mihoubi (2017) and Fried (2025)](https://github.com/mathesis-papers/tebni355257-logcoef) | 2 | [DOI](https://doi.org/10.5281/zenodo.24406609) | en, zh | 1 / 1 / 0 | 9 no target yet |
 | [Resolving User3's orthogonal absolute-product question: minimum and minimizers](https://github.com/mathesis-papers/10.5281-zenodo.23885983) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885984) | en, zh | 0 / 0 / 0 | 4 no target yet |
 | [Vélez Caicedo and Cadavid's numerical-semigroup realizability question: prescribed maxima and reduced spectral data](https://github.com/mathesis-papers/velez-cadavid-numerical-semigroup-realizability) | 2 | [DOI](https://doi.org/10.5281/zenodo.24404958) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Exact W and generalized-GHZ Bell-measurement optima: Completing Chakrabarty–Kundu (2026), Section III D, page 5: Table III and Eq. (15), with the Horodecki (1995) single-node consequence](https://github.com/mathesis-papers/w-state-bsm-optimum) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409079) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
