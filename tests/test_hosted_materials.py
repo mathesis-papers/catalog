@@ -11,6 +11,7 @@ from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import hosted_materials as hosted
+import collection
 import promote_content as promote
 import serial_content as serial
 
@@ -22,6 +23,70 @@ class Ledger:
 
 
 class HostedTests(unittest.TestCase):
+    def test_rebase_allows_only_checked_next_step_copy_and_retains_every_mathematical_field(self):
+        def inputs(copy, statement='exact original proposition'):
+            nodes = json.dumps({'nodes':[{'id':'claim','statement':statement,'status':'unverified','next_step':copy}]}).encode()
+            files = {'paper.json':b'exact original paper', 'formalization/nodes.json':nodes}
+            hashes = {n:hashlib.sha256(v).hexdigest() for n,v in files.items()}
+            files['.mathesis/generated.json'] = json.dumps({'sha256':hashes,'snapshot_identity':serial.digest(hashes),
+                                                           'generated_paths':sorted(hashes)}).encode()
+            return files
+        old = dict(inputs('Old display copy'), **{'.github/workflows/pages.yml':b'old publisher workflow'})
+        old[collection.MARKER] = collection.ownership(old,'alpha',2)
+        original = {n:(v,'100644') for n,v in old.items()}
+        current = dict(inputs('New publisher display copy'), **collection.deployment_files())
+        def remote():
+            current[collection.MARKER] = collection.ownership(current,'alpha',2)
+            return ('main','b'*40,'tree',{n:{'path':n,'sha':hosted.publish.sha(v),'mode':'100644'} for n,v in current.items()})
+        class API:
+            def blob(self,repository,entry):return current[entry['path']]
+        paper = {'id':'alpha','version':2,'repository':'mathesis-papers/alpha'}
+        with tempfile.TemporaryDirectory() as folder:
+            projection=Path(folder)
+            def save_projection():
+                for n in ('formalization/nodes.json','.mathesis/generated.json'):
+                    (projection/n).parent.mkdir(parents=True,exist_ok=True)
+                    (projection/n).write_bytes(current[n])
+            save_projection()
+            changed=hosted.checked_collection_control_rebase(original,remote(),paper,API(),projection)
+            self.assertIn('formalization/nodes.json',changed)
+            with self.assertRaisesRegex(ValueError,'exact checked projection'):
+                hosted.checked_collection_control_rebase(original,remote(),paper,API())
+            current.update(inputs('New publisher display copy',statement='different mathematical claim'))
+            save_projection()
+            with self.assertRaisesRegex(ValueError,'statements or verification changed'):
+                hosted.checked_collection_control_rebase(original,remote(),paper,API(),projection)
+
+    def test_publisher_control_rebase_preserves_frozen_sources_and_refuses_human_edits(self):
+        files = {'paper.json':b'exact admitted paper', 'paper.pdf':b'%PDF exact admitted bytes',
+                 'source.archive':b'original manuscript', '.github/workflows/pages.yml':b'old publisher workflow'}
+        old = dict(files)
+        old[collection.MARKER] = collection.ownership(old,'alpha',2)
+        original = {name:(data,'100644') for name,data in old.items()}
+        current = dict(files, **collection.deployment_files())
+        current[collection.MARKER] = collection.ownership(current,'alpha',2)
+        def remote():
+            return ('main','b'*40,'tree',{name:{'path':name,'sha':hosted.publish.sha(data),'mode':'100644'}
+                                         for name,data in current.items()})
+        class API:
+            def blob(self,repository,entry):
+                return current[entry['path']]
+        paper = {'id':'alpha','version':2,'repository':'mathesis-papers/alpha'}
+        changed = hosted.checked_collection_control_rebase(original,remote(),paper,API())
+        self.assertEqual(changed,set(collection.deployment_files())|{collection.MARKER})
+        self.assertEqual(original['paper.pdf'][0],current['paper.pdf'])
+        for name in ('paper.pdf','source.archive','human-note.md'):
+            with self.subTest(path=name):
+                previous = dict(current)
+                current[name] = b'intervening human work'
+                with self.assertRaisesRegex(ValueError,'advanced outside'):
+                    hosted.checked_collection_control_rebase(original,remote(),paper,API())
+                current.clear();current.update(previous)
+        current['.github/workflows/pages.yml'] = b'unapproved deployment code'
+        current[collection.MARKER] = collection.ownership(current,'alpha',2)
+        with self.assertRaisesRegex(ValueError,'differ from this checked publisher'):
+            hosted.checked_collection_control_rebase(original,remote(),paper,API())
+
     def test_verified_container_symlink_is_local_output_without_changing_template(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)

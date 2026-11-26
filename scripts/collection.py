@@ -68,11 +68,19 @@ jobs:
           done
           echo 'Uploaded paper artifact did not become visible within 90 seconds' >&2
           exit 1
-      - uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+      - name: Deploy this exact artifact through the Pages REST API
         id: deployment
-        with:
-          artifact_name: paper-${{ github.run_id }}-${{ github.run_attempt }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARTIFACT_ID: ${{ steps.upload.outputs.artifact_id }}
+          ARTIFACT_NAME: paper-${{ github.run_id }}-${{ github.run_attempt }}
+        run: python3 .mathesis/deploy-pages.py
 """
+
+
+def deployment_files():
+    return {'.github/workflows/pages.yml': WORKFLOW.encode(),
+            '.mathesis/deploy-pages.py': Path(__file__).with_name('deploy_pages.py').read_bytes()}
 
 
 def read(path):
@@ -239,7 +247,8 @@ def prepare(projection, detail, destination, api_base):
     manifest = {"schema": "mathesis.materials.v1", "work": work["work"], "version": work["current_version"], "repository_url": repository,
                 "site_url": site, "doi": work.get("doi"), "reading": readings, "slides": [], "visualizations": []}
     write(destination / "site/mathesis-materials.json", json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
-    write(destination / ".github/workflows/pages.yml", WORKFLOW)
+    for name, data in deployment_files().items():
+        write(destination / name, data.decode())
     # Versioned originals are retained on every subsequent update.
     for path in sorted(projection.rglob("*")):
         if path.is_file():
