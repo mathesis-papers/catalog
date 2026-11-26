@@ -3028,29 +3028,29 @@
       "work": "debrota-stacey-2019-luders-entropy-saturation-sic"
     },
     {
-      "concept_doi": "10.5281/zenodo.24391330",
-      "doi": "10.5281/zenodo.24507291",
+      "concept_doi": null,
+      "doi": null,
       "files": {
         "pdf": {
-          "bytes": 102724,
+          "bytes": 124734,
           "matches_public": true,
           "path": "paper.pdf",
-          "public_sha256": "0ff418a3248bb0694927468c5bd2a925c893e84075db6924046b054333a7c5d6",
-          "sha256": "0ff418a3248bb0694927468c5bd2a925c893e84075db6924046b054333a7c5d6"
+          "public_sha256": "3fff895d998df03789a86d6b5ae236c6b117830cc84d2af376df23437bd425c7",
+          "sha256": "3fff895d998df03789a86d6b5ae236c6b117830cc84d2af376df23437bd425c7"
         },
         "source": {
-          "bytes": 27504,
+          "bytes": 35317,
           "matches_public": true,
           "path": "source.archive",
-          "public_sha256": "dd1092c972bd3beac69188e4b8b6bcb7d6c02cf80a7f5367c093ad6e2ba0fe44",
-          "sha256": "dd1092c972bd3beac69188e4b8b6bcb7d6c02cf80a7f5367c093ad6e2ba0fe44"
+          "public_sha256": "a991ef11bf41a6b45bf0cc30236f29eb2ac2f6a5b1d219ed5c233e0dec204bbc",
+          "sha256": "a991ef11bf41a6b45bf0cc30236f29eb2ac2f6a5b1d219ed5c233e0dec204bbc"
         }
       },
       "formalization": {
         "covered_by_existing_base": 0,
         "disproved": 0,
         "newly_formalized": 0,
-        "no_target_yet": 10,
+        "no_target_yet": 13,
         "open_target": 0
       },
       "kind": "collected",
@@ -3066,6 +3066,7 @@
       },
       "mode": "paper",
       "next_steps": [
+        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -3080,7 +3081,7 @@
         "revision": null,
         "state": null
       },
-      "version": 4,
+      "version": 5,
       "work": "delgado-suer-yesil-2026-symmetrization-surjectivity"
     },
     {
@@ -11913,5 +11914,5 @@
   "papers": 212,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-26T05:32:02.924550863Z"
+  "snapshot_time": "2026-11-26T06:41:22.240696177Z"
 }

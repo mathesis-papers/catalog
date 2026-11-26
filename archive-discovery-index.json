@@ -319,10 +319,10 @@
       "version": 2
     },
     {
-      "doi": "10.5281/zenodo.24507291",
+      "doi": "10.5281/zenodo.24550129",
       "id": "delgado-suer-yesil-2026-symmetrization-surjectivity",
       "kind": "collected",
-      "version": 4
+      "version": 5
     },
     {
       "doi": "10.5281/zenodo.23884885",
@@ -1243,6 +1243,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-26T05:32:02.924550863Z",
+  "generated_at": "2026-11-26T06:41:22.240696177Z",
   "schema": "mathesis.archive-index.v1"
 }

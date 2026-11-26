@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-26T05:32:02.924550863Z`.
+Snapshot: `2026-11-26T06:41:22.240696177Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -60,7 +60,7 @@ Snapshot: `2026-11-26T05:32:02.924550863Z`.
 | [Fixed-purity Holevo minima extending Das et al. (2025): a spectral proof of the full-ONB conjecture after Theorem 3 in Section 3.2.1](https://github.com/mathesis-papers/das-et-al-2025-onb-tomography-holevo-ratio) | 3 | [DOI](https://doi.org/10.5281/zenodo.24408305) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Resolving Das–Mohanty's concluding conjecture (ELA 40 (2024), p. 488) on the singular squared-distance Laplacian](https://github.com/mathesis-papers/das-mohanty-singular-squared-distance-laplacian) | 2 | [DOI](https://doi.org/10.5281/zenodo.23965056) | Awaiting reading | 0 / 0 / 0 | 12 no target yet |
 | [DeBrota--Stacey, Section III, Conjecture 1 after Theorem 2: entropy saturation characterizes SIC measurements](https://github.com/mathesis-papers/debrota-stacey-2019-luders-entropy-saturation-sic) | 2 | [DOI](https://doi.org/10.5281/zenodo.23931736) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
-| [Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question](https://github.com/mathesis-papers/delgado-suer-yesil-2026-symmetrization-surjectivity) | 4 | [DOI](https://doi.org/10.5281/zenodo.24507291) | Awaiting reading | 0 / 0 / 0 | 10 no target yet |
+| [Extensions of Ma–Zhang's negative answer to Delgado, Süer and Yeşil's symmetrization question](https://github.com/mathesis-papers/delgado-suer-yesil-2026-symmetrization-surjectivity) | 5 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 13 no target yet |
 | [Refuting the trace-distance case of axiom (T4) of Denis, Lacaille, Martin and Serrano-Ensástiga](https://github.com/mathesis-papers/10.5281-zenodo.23884884) | 4 | [DOI](https://doi.org/10.5281/zenodo.23884885) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [Sharp thresholds for Dietz, Flowers and Lockard's self-conjugate partition questions: extending Flowers and Lockard's construction](https://github.com/mathesis-papers/dfl514-selfconj) | 2 | [DOI](https://doi.org/10.5281/zenodo.24488525) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Ding–Hu, Section V, p. 8 (arXiv:1909.11256v3): negative answers to the two open finite-cover questions](https://github.com/mathesis-papers/ding-hu-2020-hyperdisk-regular-subset-finite-cover) | 2 | [DOI](https://doi.org/10.5281/zenodo.23970198) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |

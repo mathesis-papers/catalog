@@ -20,11 +20,11 @@
     },
     "formalizations/preparing": {
       "pages": 15,
-      "rows": 1477
+      "rows": 1480
     },
     "formalizations/unverified": {
       "pages": 15,
-      "rows": 1477
+      "rows": 1480
     },
     "formalizations/verified": {
       "pages": 1,
@@ -48,12 +48,12 @@
     }
   },
   "rows": {
-    "nodes": 1477,
+    "nodes": 1480,
     "works": 212
   },
   "schema_versions": {
     "catalog": "1",
     "snapshot": "1"
   },
-  "time": "2026-11-26T05:32:02.924550863Z"
+  "time": "2026-11-26T06:41:22.240696177Z"
 }

@@ -319,12 +319,6 @@
       "version": 2
     },
     {
-      "doi": "10.5281/zenodo.24507291",
-      "id": "delgado-suer-yesil-2026-symmetrization-surjectivity",
-      "kind": "collected",
-      "version": 4
-    },
-    {
       "doi": "10.5281/zenodo.23884885",
       "id": "denis-lacaille-martin-serrano-ensastiga-2026-anticoherence-trace-distance",
       "kind": "collected",
@@ -1243,6 +1237,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-26T05:32:02.924550863Z",
+  "generated_at": "2026-11-26T06:41:22.240696177Z",
   "schema": "mathesis.archive-index.v1"
 }
