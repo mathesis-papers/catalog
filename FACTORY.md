@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-25T23:30:08.329518529Z`.
+Snapshot: `2026-11-26T00:48:53.355002177Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -10,7 +10,7 @@ Snapshot: `2026-11-25T23:30:08.329518529Z`.
 | [Shannon's circle-vertex conjecture and the Markey–Pfoertner seed-growth relation: an expanding-hexagon proof](https://github.com/mathesis-papers/a374338-circle-vertices) | 2 | [DOI](https://doi.org/10.5281/zenodo.24483571) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Extending Sun–Luo–Ye bounds to refute Abbott et al.'s pointer-product conjecture](https://github.com/mathesis-papers/abbott-2019-sequential-weak-pointer-bound) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212412) | en, zh | 2 / 1 / 0 | 4 no target yet |
 | [Sharp accretive modulus bounds from Hayashi's (2001) pinching inequality: extending Abed–Nikolaeva–Novikov (2026), arXiv:2610.34388v1, Section 11.2(5) and Remark 5.45](https://github.com/mathesis-papers/abed-nikolaeva-novikov-2026-af-density-bound) | 3 | [DOI](https://doi.org/10.5281/zenodo.24407266) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
-| [A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)](https://github.com/mathesis-papers/aks2610-twin-free-theta-separation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24212419) | en, zh | 2 / 1 / 0 | 7 no target yet |
+| [Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski](https://github.com/mathesis-papers/aks2610-twin-free-theta-separation) | 3 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 15 no target yet |
 | [Halving-partition nonregularity and dyadic extensions of Alekseyev (2026): arXiv:2611.01243v1, Section 6, paragraph 2, p. 18](https://github.com/mathesis-papers/alekseyev-halving-partitions-nonregularity) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409462) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
 | [Aliabadi's Problems 7.4 and 7.6: Two-letter and subgroup extensions of Korea Superintelligence Labs (2026) (arXiv:2605.16478v2, Section 7, page 17)](https://github.com/mathesis-papers/aliabadi-2605-16478v2-problem-7-6) | 3 | [DOI](https://doi.org/10.5281/zenodo.24407816) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Alikhani–Griswold, Section 4(3): connected graphs with domination root −4](https://github.com/mathesis-papers/10.5281-zenodo.23919065) | 1 | [DOI](https://doi.org/10.5281/zenodo.23919066) | en, zh | 2 / 1 / 0 | 3 no target yet |

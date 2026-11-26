@@ -1123,7 +1123,7 @@
       ],
       "claim": "s1",
       "contributor": null,
-      "identity": "collected:aks2610-twin-free-theta-separation:2:s1",
+      "identity": "collected:aks2610-twin-free-theta-separation:3:s1",
       "kind": "paper",
       "label": "Theorem",
       "lean_source": {
@@ -1137,16 +1137,256 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "aks2610-twin-free-theta-separation",
       "scope": "in_scope",
       "statement": "Let $k\\geq1$, $r=6k+4$, and $G=\\Th_{3,3,r}$. Then $G$ is connected and\ntwin-free, $|V(G)|=r+5$, and\n\\[\n \\dim(G)=\\mm_L(G)=2,\\qquad \\mm_Q(G)=1.\n\\]\nMore precisely, the eigenvalues $1$ and $3$ of $L$ each have multiplicity\ntwo and all other eigenvalues of $L$ are simple; every eigenvalue of $Q$\nis simple. Consequently these graphs answer Problem 30 in the\nLaplacian-equality direction.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
       "toolchain": null,
-      "version": 2,
+      "version": 3,
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s10",
+      "contributor": null,
+      "identity": "collected:aks2610-twin-free-theta-separation:3:s10",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "lineage": "collected:aks2610-twin-free-theta-separation:s10",
+      "macros": {
+        "\\Th": "\\Theta",
+        "\\mm": "\\operatorname{mm}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "aks2610-twin-free-theta-separation",
+      "scope": "in_scope",
+      "statement": "If $\\ell_1,\\ell_2,\\ell_3\\ge2$ are pairwise distinct, every repeated eigenvalue\nof either matrix is singular on at least two paths.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
+      "toolchain": null,
+      "version": 3,
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s11",
+      "contributor": null,
+      "identity": "collected:aks2610-twin-free-theta-separation:3:s11",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "lineage": "collected:aks2610-twin-free-theta-separation:s11",
+      "macros": {
+        "\\Th": "\\Theta",
+        "\\mm": "\\operatorname{mm}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "aks2610-twin-free-theta-separation",
+      "scope": "in_scope",
+      "statement": "Let $2\\le a<b<c$ have mixed parity, and put $d=\\gcd(a,b,c)$, which is odd.\nFor $e\\in\\{1,-1\\}$, the complete list of double eigenvalues is:\n\\begin{enumerate}\n\\item $2-2e\\cos(2\\pi j/d)$ for $1\\le j\\le(d-1)/2$;\n\\item for each unordered pair $r,s$ of lengths and remaining length $m$,\nput $g=\\gcd(r,s,m-1)$ and $(u,v,w)=(r/g,s/g,(m-1)/g)$.\nTake $2-2e\\cos(k\\pi/g)$ for $1\\le k<g$ satisfying\n\\[\nk(u-v)\\equiv0\\pmod2,\\qquad e=(-1)^{k(w-u)}.\n\\]\n\\end{enumerate}\nThese lists are disjoint and every other eigenvalue is simple.\nIn particular, if $N_e$ denotes their total number, then\n\\[\nN_e=\\frac{d-1}{2}+\\sum_{\\{r,s\\}} n_e(r,s;m),\n\\]\nwhere\n\\begin{align*}\nn_+(r,s;m)&=\\left\\lfloor\\frac{g-1}{2}\\right\\rfloor+\n\\mathbf1_{u,v,w\\text{ all odd}}\\left\\lfloor\\frac g2\\right\\rfloor,\\\\\nn_-(r,s;m)&=\\mathbf1_{u\\equiv v\\not\\equiv w\\ (\\mathrm{mod}\\,2)}\n\\left\\lfloor\\frac g2\\right\\rfloor.\n\\end{align*}\nThus $\\operatorname{mm}_{M_e}=2$ if $N_e>0$ and $1$ otherwise; the equality\n$\\operatorname{mm}_{M_e}=\\dim G$ holds exactly when $N_e>0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
+      "toolchain": null,
+      "version": 3,
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s12",
+      "contributor": null,
+      "identity": "collected:aks2610-twin-free-theta-separation:3:s12",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "lineage": "collected:aks2610-twin-free-theta-separation:s12",
+      "macros": {
+        "\\Th": "\\Theta",
+        "\\mm": "\\operatorname{mm}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "aks2610-twin-free-theta-separation",
+      "scope": "in_scope",
+      "statement": "Let $b\\ge4$ be even and $c\\ge3$ odd. For $\\Theta_{2,b,c}$ a singular repeated\neigenvalue exists exactly when $b\\equiv2\\pmod4$. It is $\\lambda=2$, occurs\nfor $L$ when $c\\equiv3\\pmod4$, and occurs for $Q$ when\n$c\\equiv1\\pmod4$. The other matrix has simple spectrum.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
+      "toolchain": null,
+      "version": 3,
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s13",
+      "contributor": null,
+      "identity": "collected:aks2610-twin-free-theta-separation:3:s13",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "lineage": "collected:aks2610-twin-free-theta-separation:s13",
+      "macros": {
+        "\\Th": "\\Theta",
+        "\\mm": "\\operatorname{mm}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "aks2610-twin-free-theta-separation",
+      "scope": "in_scope",
+      "statement": "\\leavevmode\\par\nSuppose the three lengths are pairwise distinct and of mixed parity.\nIf $\\gcd(\\ell_1,\\ell_2,\\ell_3)>1$, then\n\\[\n\\operatorname{mm}_L(G)=\\operatorname{mm}_Q(G)=\\dim G=2.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
+      "toolchain": null,
+      "version": 3,
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s14",
+      "contributor": null,
+      "identity": "collected:aks2610-twin-free-theta-separation:3:s14",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "lineage": "collected:aks2610-twin-free-theta-separation:s14",
+      "macros": {
+        "\\Th": "\\Theta",
+        "\\mm": "\\operatorname{mm}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "aks2610-twin-free-theta-separation",
+      "scope": "in_scope",
+      "statement": "For $t\\geq1$, form $H_t$ by attaching one path of $t$ edges to every\nvertex of $H$, identifying that vertex with one endpoint of its path.\nIf $H=K_{1,3,3}$ then\n$(\\dim H_t,\\mm_L(H_t),\\mm_Q(H_t))=(4,4,5)$.\nIf $H=K_2\\vee(2K_2)$ then the triple is $(3,2,3)$.\nBoth constructions give infinite pairwise nonisomorphic families of\nconnected twin-free graphs. Thus Problem~30 has examples in both directions.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
+      "toolchain": null,
+      "version": 3,
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s15",
+      "contributor": null,
+      "identity": "collected:aks2610-twin-free-theta-separation:3:s15",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "lineage": "collected:aks2610-twin-free-theta-separation:s15",
+      "macros": {
+        "\\Th": "\\Theta",
+        "\\mm": "\\operatorname{mm}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "aks2610-twin-free-theta-separation",
+      "scope": "in_scope",
+      "statement": "If $M_1,\\ldots,M_s$ are pairwise disjoint proper modules in a connected\ngraph, then $\\dim G\\geq\\sum_i\\rho(M_i)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
+      "toolchain": null,
+      "version": 3,
       "work": "aks2610-twin-free-theta-separation"
     },
     {
@@ -1163,7 +1403,7 @@
       ],
       "claim": "s2",
       "contributor": null,
-      "identity": "collected:aks2610-twin-free-theta-separation:2:s2",
+      "identity": "collected:aks2610-twin-free-theta-separation:3:s2",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -1177,16 +1417,16 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "aks2610-twin-free-theta-separation",
       "scope": "in_scope",
       "statement": "The graphs $G_k$, $k\\geq1$, are pairwise nonisomorphic connected twin-free\ngraphs satisfying exactly one of $\\mm_L=\\dim$ and $\\mm_Q=\\dim$.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
       "toolchain": null,
-      "version": 2,
+      "version": 3,
       "work": "aks2610-twin-free-theta-separation"
     },
     {
@@ -1203,7 +1443,7 @@
       ],
       "claim": "s3",
       "contributor": null,
-      "identity": "collected:aks2610-twin-free-theta-separation:2:s3",
+      "identity": "collected:aks2610-twin-free-theta-separation:3:s3",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -1217,16 +1457,16 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "aks2610-twin-free-theta-separation",
       "scope": "in_scope",
       "statement": "For every integer $r\\geq6$, $\\Th_{3,3,r}$ is connected and twin-free with\nmetric dimension two. Its repeated eigenvalues are exactly those in the\nfollowing table; each listed eigenvalue has multiplicity two, and every\nother eigenvalue is simple.\n\\[\n\\begin{array}{c|cc|cc}\n r\\bmod6&\\text{repeated in }L&\\text{repeated in }Q&\\mm_L&\\mm_Q\\\\\\hline\n 0&3&1&2&2\\\\\n 1&3&3&2&2\\\\\n 2&\\varnothing&\\varnothing&1&1\\\\\n 3&1,3&1,3&2&2\\\\\n 4&1,3&\\varnothing&2&1\\\\\n 5&\\varnothing&\\varnothing&1&1\n\\end{array}\n\\]\nThus within this subfamily, both equalities hold in residues $0,1,3$;\nneither holds in residues $2,5$; and only the Laplacian equality holds\nin residue $4$.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
       "toolchain": null,
-      "version": 2,
+      "version": 3,
       "work": "aks2610-twin-free-theta-separation"
     },
     {
@@ -1243,7 +1483,7 @@
       ],
       "claim": "s4",
       "contributor": null,
-      "identity": "collected:aks2610-twin-free-theta-separation:2:s4",
+      "identity": "collected:aks2610-twin-free-theta-separation:3:s4",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -1257,16 +1497,16 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "aks2610-twin-free-theta-separation",
       "scope": "in_scope",
       "statement": "The graphs $\\Th_{3,3,r}$ are connected and twin-free for every $r\\geq2$.\nTheir metric dimension is three for $r=3,5$, and two otherwise.\nThe spectral table in Corollary~\\ref{cor:all-lengths} holds for every\n$r\\geq3$. For $r=2$, the only repeated Laplacian eigenvalues are\n$3-\\sqrt2,3+\\sqrt2$, both double, and the signless spectrum is simple.\nConsequently exactly one equality holds precisely when\n\\[\n r=2\\quad\\hbox{or}\\quad r\\equiv4\\pmod6,\n\\]\nand in every such case it is the Laplacian equality.\nBoth equalities hold precisely for $r\\geq6$ with $r\\equiv0,1,3\\pmod6$.\nNeither holds in the other cases. In particular, no graph of this\nentire subfamily separates in the signless-equality direction.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
       "toolchain": null,
-      "version": 2,
+      "version": 3,
       "work": "aks2610-twin-free-theta-separation"
     },
     {
@@ -1283,7 +1523,7 @@
       ],
       "claim": "s5",
       "contributor": null,
-      "identity": "collected:aks2610-twin-free-theta-separation:2:s5",
+      "identity": "collected:aks2610-twin-free-theta-separation:3:s5",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -1297,16 +1537,16 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "aks2610-twin-free-theta-separation",
       "scope": "in_scope",
       "statement": "For every $r\\geq2$,\n\\[\n \\operatorname{mult}_{Q(\\Th_{3,3,r})}(2)\n =\\begin{cases}1,&r\\equiv1\\pmod4,\\\\0,&\\text{otherwise}.\\end{cases}\n\\]\nThis is the $(3,3,r)$ instance of \\cite[Corollary~8.1]{PP}.",
-      "status": "needs_attention",
+      "status": "preparing",
       "target_digest": null,
-      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
       "toolchain": null,
-      "version": 2,
+      "version": 3,
       "work": "aks2610-twin-free-theta-separation"
     },
     {
@@ -1323,9 +1563,9 @@
       ],
       "claim": "s6",
       "contributor": null,
-      "identity": "collected:aks2610-twin-free-theta-separation:2:s6",
+      "identity": "collected:aks2610-twin-free-theta-separation:3:s6",
       "kind": "paper",
-      "label": "Corollary",
+      "label": "Theorem",
       "lean_source": {
         "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
@@ -1337,16 +1577,16 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "aks2610-twin-free-theta-separation",
       "scope": "in_scope",
-      "statement": "For $t\\geq1$, form $H_t$ by attaching one path of $t$ edges to every\nvertex of $H$, identifying that vertex with one endpoint of its path.\nIf $H=K_{1,3,3}$ then\n$(\\dim H_t,\\mm_L(H_t),\\mm_Q(H_t))=(4,4,5)$.\nIf $H=K_2\\vee(2K_2)$ then the triple is $(3,2,3)$.\nBoth constructions give infinite pairwise nonisomorphic families of\nconnected twin-free graphs. Thus Problem~30 has examples in both directions.",
-      "status": "needs_attention",
+      "statement": "Every eigenvalue of either $L(\\Theta_{a,b,c})$ or $Q(\\Theta_{a,b,c})$\nhas multiplicity at most two.",
+      "status": "preparing",
       "target_digest": null,
-      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
       "toolchain": null,
-      "version": 2,
+      "version": 3,
       "work": "aks2610-twin-free-theta-separation"
     },
     {
@@ -1363,7 +1603,7 @@
       ],
       "claim": "s7",
       "contributor": null,
-      "identity": "collected:aks2610-twin-free-theta-separation:2:s7",
+      "identity": "collected:aks2610-twin-free-theta-separation:3:s7",
       "kind": "paper",
       "label": "Corollary",
       "lean_source": {
@@ -1377,16 +1617,96 @@
       },
       "next_step": "Formalization work is coordinated through the shared requests.",
       "proof_basis": null,
-      "proof_state": "needs_attention",
+      "proof_state": "preparing",
       "receipt": null,
       "record": "aks2610-twin-free-theta-separation",
       "scope": "in_scope",
-      "statement": "If $M_1,\\ldots,M_s$ are pairwise disjoint proper modules in a connected\ngraph, then $\\dim G\\geq\\sum_i\\rho(M_i)$.",
-      "status": "needs_attention",
+      "statement": "Neither $\\Theta_{m,m,m}$ nor $\\Theta_{m,m,m+2}$, for $m\\geq2$,\nsatisfies either equality in Problem 29. Every other simple theta graph satisfies\nthe $L$ equality exactly when $L$ has a repeated eigenvalue, and the same holds\nfor $Q$. Moreover,\n$\\operatorname{mm}_L(\\Theta_{m,m,m})=\\operatorname{mm}_Q(\\Theta_{m,m,m})=2$.",
+      "status": "preparing",
       "target_digest": null,
-      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
       "toolchain": null,
-      "version": 2,
+      "version": 3,
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:aks2610-twin-free-theta-separation:3:s8",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "lineage": "collected:aks2610-twin-free-theta-separation:s8",
+      "macros": {
+        "\\Th": "\\Theta",
+        "\\mm": "\\operatorname{mm}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "aks2610-twin-free-theta-separation",
+      "scope": "in_scope",
+      "statement": "For every $n\\geq2$, let $G_n=\\Theta_{n,n+1,n+1}$. Then\n\\[\n \\dim G_n=\\operatorname{mm}_L(G_n)=2,\\qquad\n \\operatorname{mm}_Q(G_n)=\n \\begin{cases}1,&n\\text{ even},\\\\2,&n\\text{ odd}.\\end{cases}\n\\]\nThe repeated Laplacian eigenvalues are exactly $2-t$ for the $n$ roots of\n$p_n(t)+2p_{n-1}(t)$, each double. For odd $n$ the only repeated signless\neigenvalue is $2$, also double.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
+      "toolchain": null,
+      "version": 3,
+      "work": "aks2610-twin-free-theta-separation"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s9",
+      "contributor": null,
+      "identity": "collected:aks2610-twin-free-theta-separation:3:s9",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
+      },
+      "lineage": "collected:aks2610-twin-free-theta-separation:s9",
+      "macros": {
+        "\\Th": "\\Theta",
+        "\\mm": "\\operatorname{mm}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "aks2610-twin-free-theta-separation",
+      "scope": "in_scope",
+      "statement": "Fix $t=2\\cos(\\pi k/d)$ in reduced form as above. Let\n$I=\\{i:d\\mid\\ell_i\\}$ and, for $i\\in I$, put\n$\\sigma_i=(-1)^{k\\ell_i/d}$. Suppose $I\\ne\\varnothing$.\nThe eigenvalue $\\lambda=2-et$ of $M_e$ has multiplicity two exactly in one\nof the following cases:\n\\begin{enumerate}\n\\item $|I|=3$ and all three $\\sigma_i$ agree;\n\\item $I=\\{i,j\\}$, $\\sigma_i=\\sigma_j=\\sigma$, and, writing $c$ for the\nremaining path length,\n\\begin{equation}\nd\\mid(c-1),\\qquad (-1)^{k(c-1)/d}=e\\sigma.\n\\end{equation}\n\\end{enumerate}\nAt every other singular parameter its multiplicity is at most one.\nEvery eigenvalue of either matrix, singular or not, has multiplicity at most two.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
+      "toolchain": null,
+      "version": 3,
       "work": "aks2610-twin-free-theta-separation"
     },
     {

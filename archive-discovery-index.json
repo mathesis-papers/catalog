@@ -25,12 +25,6 @@
       "version": 3
     },
     {
-      "doi": "10.5281/zenodo.24212419",
-      "id": "aks2610-twin-free-theta-separation",
-      "kind": "collected",
-      "version": 2
-    },
-    {
       "doi": "10.5281/zenodo.24409462",
       "id": "alekseyev-halving-partitions-nonregularity",
       "kind": "collected",
@@ -1243,6 +1237,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-25T23:30:08.329518529Z",
+  "generated_at": "2026-11-26T00:48:53.355002177Z",
   "schema": "mathesis.archive-index.v1"
 }

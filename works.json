@@ -189,7 +189,7 @@
       "work": "abed-nikolaeva-novikov-2026-af-density-bound"
     },
     {
-      "abstract_text": "We answer Problem 30 in Section 9 (p. 27) of Alfuraidan, Khan and Sauras-Altuzarra, Metric dimension and maximum eigenvalue multiplicity of graph Laplacians, arXiv:2610.26875v1, and extend the metric-dimension classification of Knor, Sedlar and Škrekovski (2022) to a classification of both maximum spectral multiplicities for Theta(3,3,r), for every r >= 2. For every integer k >= 1, the theta graph with edge lengths 3, 3, 6k+4 is connected and twin-free, has metric dimension and maximum Laplacian eigenvalue multiplicity two, and has simple signless spectrum. Its only repeated Laplacian eigenvalues are 1 and 3, each double. Distinct orders give pairwise nonisomorphic examples. For r >= 3, repeated eigenvalues are classified modulo six; r = 2 has a separate quadratic repeated factor. Attaching an equal pendant path at every vertex of two known base graphs also gives twin-free infinite families in both separation directions.",
+      "abstract_text": "For Problems 29 and 30 of Alfuraidan, Khan and Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, p.27, we extend the metric-dimension classification of Knor, Sedlar and Škrekovski (2022). The note gives a uniform bound of two for both theta spectral multiplicities, complete classifications for Theta(3,3,r) and Theta(n,n+1,n+1), and gcd-and-parity criteria for three distinct mixed-parity lengths at least two. Twin-free infinite families realize both separation directions.",
       "authors": [
         {
           "affiliation": "ChronoAI Pte Ltd, Singapore",
@@ -200,9 +200,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": "10.5281/zenodo.24212418",
-      "current_version": 2,
-      "doi": "10.5281/zenodo.24212419",
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
       "lean_source": {
         "revision": "d9bb8a406783c5222849b798f3c2ab738f653d75",
         "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
@@ -210,27 +210,27 @@
       "license": "CC-BY-4.0",
       "msc": [],
       "pdf": {
-        "bytes": 110097,
-        "sha256": "503b4046d6a4750b9f8538ced6949d05086fb5b1f1d22bed5edd3b260e0a38d1",
-        "url": "/api/v1/collected-papers/aks2610-twin-free-theta-separation/files/pdf?version=2"
+        "bytes": 162919,
+        "sha256": "4c763859556d992a44a966b28443b8484bc135145694ce7621afc93c63b47356",
+        "url": "/api/v1/collected-papers/aks2610-twin-free-theta-separation/files/pdf?version=3"
       },
-      "previous_version": null,
+      "previous_version": "2",
       "publication": "public",
-      "published_on": "2026-11-14T17:17:08.187879261Z",
+      "published_on": "2026-11-25T23:30:34.082870805Z",
       "record": "aks2610-twin-free-theta-separation",
       "repository_name": "aks2610-twin-free-theta-separation",
       "source": {
-        "bytes": 22922,
-        "sha256": "52a9dcd04c04e876fb58da92a213e37f6ed3c33388b8e70382c2c374fbdfca90",
-        "url": "/api/v1/collected-papers/aks2610-twin-free-theta-separation/files/source?version=2"
+        "bytes": 50345,
+        "sha256": "40fbd706f2d197a093444440a13e7f4c194da734fffe14178590fdeadef826db",
+        "url": "/api/v1/collected-papers/aks2610-twin-free-theta-separation/files/source?version=3"
       },
-      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
       "versions": [
         {
-          "previous_version": null,
-          "published_on": "2026-11-14T17:17:08.187879261Z",
-          "revision": "2",
-          "version": 2
+          "previous_version": "2",
+          "published_on": "2026-11-25T23:30:34.082870805Z",
+          "revision": "3",
+          "version": 3
         }
       ],
       "work": "aks2610-twin-free-theta-separation"

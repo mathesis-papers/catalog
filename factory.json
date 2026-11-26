@@ -225,29 +225,29 @@
       "work": "abed-nikolaeva-novikov-2026-af-density-bound"
     },
     {
-      "concept_doi": "10.5281/zenodo.24212418",
-      "doi": "10.5281/zenodo.24212419",
+      "concept_doi": null,
+      "doi": null,
       "files": {
         "pdf": {
-          "bytes": 110097,
+          "bytes": 162919,
           "matches_public": true,
           "path": "paper.pdf",
-          "public_sha256": "503b4046d6a4750b9f8538ced6949d05086fb5b1f1d22bed5edd3b260e0a38d1",
-          "sha256": "503b4046d6a4750b9f8538ced6949d05086fb5b1f1d22bed5edd3b260e0a38d1"
+          "public_sha256": "4c763859556d992a44a966b28443b8484bc135145694ce7621afc93c63b47356",
+          "sha256": "4c763859556d992a44a966b28443b8484bc135145694ce7621afc93c63b47356"
         },
         "source": {
-          "bytes": 22922,
+          "bytes": 50345,
           "matches_public": true,
           "path": "source.archive",
-          "public_sha256": "52a9dcd04c04e876fb58da92a213e37f6ed3c33388b8e70382c2c374fbdfca90",
-          "sha256": "52a9dcd04c04e876fb58da92a213e37f6ed3c33388b8e70382c2c374fbdfca90"
+          "public_sha256": "40fbd706f2d197a093444440a13e7f4c194da734fffe14178590fdeadef826db",
+          "sha256": "40fbd706f2d197a093444440a13e7f4c194da734fffe14178590fdeadef826db"
         }
       },
       "formalization": {
         "covered_by_existing_base": 0,
         "disproved": 0,
         "newly_formalized": 0,
-        "no_target_yet": 7,
+        "no_target_yet": 15,
         "open_target": 0
       },
       "kind": "collected",
@@ -256,28 +256,29 @@
         "url": "https://github.com/the-omega-institute/trureturing/blob/d9bb8a406783c5222849b798f3c2ab738f653d75/D5/S3/Combinatorics/SpectralGraph/TwinFreeThetaSeparation.lean"
       },
       "materials": {
-        "formalization_requests": 5,
-        "slides": 2,
-        "videos": 1,
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
         "visualizations": 0
       },
       "mode": "authored_book",
       "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
         "prepare_exact_targets"
       ],
-      "reading_languages": [
-        "en",
-        "zh"
-      ],
+      "reading_languages": [],
       "repository_url": "https://github.com/mathesis-papers/aks2610-twin-free-theta-separation",
       "site_url": "https://papers.trureturing.org/aks2610-twin-free-theta-separation/",
-      "title": "A twin-free answer to Alfuraidan–Khan–Sauras-Altuzarra, arXiv:2610.26875v1, Section 9, Problem 30 (p. 27): a spectral extension of Knor–Sedlar–Škrekovski (2022)",
+      "title": "Twin-free families and arithmetic criteria for Alfuraidan–Khan–Sauras-Altuzarra’s theta-graph problems: a spectral extension of Knor–Sedlar–Škrekovski",
       "trureturing_write_back": {
         "request_url": null,
         "revision": null,
         "state": null
       },
-      "version": 2,
+      "version": 3,
       "work": "aks2610-twin-free-theta-separation"
     },
     {
@@ -11856,5 +11857,5 @@
   "papers": 211,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-25T23:30:08.329518529Z"
+  "snapshot_time": "2026-11-26T00:48:53.355002177Z"
 }
