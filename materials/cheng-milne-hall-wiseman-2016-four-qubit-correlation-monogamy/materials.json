@@ -1,15 +1,54 @@
 {
   "doi": "10.5281/zenodo.24405779",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/575"
+    },
+    {
+      "label": "Corollary 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/576"
+    },
+    {
+      "label": "Corollary 4",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/577"
+    },
+    {
+      "label": "Corollary 5",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/578"
+    },
+    {
+      "label": "Corollary 6",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/579"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/en/",
+    "zh": "https://papers.trureturing.org/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "overview",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/slides/overview/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy-overview-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/slides/overview/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy-overview-en.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-three-families-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/films/001-three-families/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/films/001-three-families/poster.jpg",
+      "title": "Twenty-seven terms, three families",
+      "url": "https://papers.trureturing.org/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy/films/#001-three-families"
+    }
+  ],
   "visualizations": [],
   "work": "cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy"
 }

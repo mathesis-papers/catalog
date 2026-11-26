@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-26T21:31:06.198069553Z`.
+Snapshot: `2026-11-26T22:31:24.365160539Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -46,7 +46,7 @@ Snapshot: `2026-11-26T21:31:06.198069553Z`.
 | [Refuting Dovgoshey–Rovenska Conjecture 4.2, arXiv:2610.11596v1, Section 4, p. 13: sharp bounds and corollaries of Petrov (2022) and Dovgoshey et al. (2026)](https://github.com/mathesis-papers/central-edges) | 3 | [DOI](https://doi.org/10.5281/zenodo.24369118) | en, zh | 0 / 0 / 0 | 11 no target yet |
 | [Proof of Chen and Chen's parity-positivity conjectures: OEIS A392664–A392666, COMMENTS, and Conjecture 2 (p. 1)](https://github.com/mathesis-papers/10.5281-zenodo.23957559) | 2 | [DOI](https://doi.org/10.5281/zenodo.23957560) | en, zh | 1 / 0 / 1 | 8 no target yet |
 | [Convergence of Chen and Lin's direction-flip threshold](https://github.com/mathesis-papers/chen-lin-direction-flip-threshold-limit) | 2 | [DOI](https://doi.org/10.5281/zenodo.24485687) | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
-| [Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)](https://github.com/mathesis-papers/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy) | 2 | [DOI](https://doi.org/10.5281/zenodo.24405779) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
+| [Mixed-state extensions and a proof of the Cheng–Milne–Hall–Wiseman (2016) conjecture in Sec. III C, Eq. (36)](https://github.com/mathesis-papers/cheng-milne-hall-wiseman-2016-four-qubit-correlation-monogamy) | 2 | [DOI](https://doi.org/10.5281/zenodo.24405779) | en, zh | 1 / 1 / 0 | 6 no target yet |
 | [Extending Mwafise's cycle example to answer Cheon–Jung–Kitaev–Mojallal's Bell-type Riordan inertia question](https://github.com/mathesis-papers/cheon-riordan-bell-inertia-611) | 3 | [DOI](https://doi.org/10.5281/zenodo.24488109) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary](https://github.com/mathesis-papers/10.5281-zenodo.23934999) | 2 | [DOI](https://doi.org/10.5281/zenodo.23935000) | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won](https://github.com/mathesis-papers/choi-yoo-kim-kwon-won-healing-chains) | 2 | [DOI](https://doi.org/10.5281/zenodo.24487234) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
