@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-27T07:34:02.635803943Z`.
+Snapshot: `2026-11-27T08:35:30.0858689Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -154,7 +154,7 @@ Snapshot: `2026-11-27T07:34:02.635803943Z`.
 | [Four-level closure separation at Narasimhachar–Gour's Conjecture 1 (Supplementary Sec. S2 F, p. S11): beyond Maestro's exact qutrit separation (2026), using Dykema–Juschenko (2009)](https://github.com/mathesis-papers/narasimhachar-gour-2015-cooling-map-thermal-operation-refutation) | 3 | [DOI](https://doi.org/10.5281/zenodo.24209470) | en, zh | 2 / 1 / 0 | 10 no target yet |
 | [Proofs of Nath–Fasfous–Das–Shang's commuting and surface conjectures, and a sharp form of Tak–Dutta–Nath's clique theorem](https://github.com/mathesis-papers/nath2021-commuting-cn-conjecture2) | 2 | [DOI](https://doi.org/10.5281/zenodo.24398996) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Hamming extensions and a short proof from Mináč et al.'s cycle answering Nguyen and Tân's primeness question](https://github.com/mathesis-papers/nguyen-tan-unitary-cayley-prime-zero-eigenvalue) | 2 | [DOI](https://doi.org/10.5281/zenodo.24488698) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
-| [Exact counts and sharp growth for OEIS A222759, first comment (12 March 2013): extending Glaisher (1900)](https://github.com/mathesis-papers/noe-2013-a222759-prime-cube-growth) | 2 | [DOI](https://doi.org/10.5281/zenodo.24405795) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
+| [Exact counts and sharp growth for OEIS A222759, first comment (12 March 2013): extending Glaisher (1900)](https://github.com/mathesis-papers/noe-2013-a222759-prime-cube-growth) | 2 | [DOI](https://doi.org/10.5281/zenodo.24405795) | en, zh | 1 / 1 / 0 | 6 no target yet |
 | [Proof of Notik's Singer-ruler conjecture with sparse certificates](https://github.com/mathesis-papers/notik-singer-chamber) | 3 | [DOI](https://doi.org/10.5281/zenodo.24446067) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Complex-shift correction at OEIS A086205 (revision 35), Bala's formula block of 19 February 2023: an extension of Krattenthaler (1999)](https://github.com/mathesis-papers/oeis-a086205-bala-complex-shift-determinant-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24407271) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [An alternative proof of Ianakiev's shortest-palindrome conjecture via Fici and collaborators' Zimin-word theorem](https://github.com/mathesis-papers/oeis-a094373-ianakiev-shortest-ruler-palindrome) | 2 | [DOI](https://doi.org/10.5281/zenodo.24488706) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |

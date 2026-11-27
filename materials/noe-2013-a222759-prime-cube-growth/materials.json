@@ -1,15 +1,58 @@
 {
   "doi": "10.5281/zenodo.24405795",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1, Section 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/580"
+    },
+    {
+      "label": "Lemma 2, Section 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/581"
+    },
+    {
+      "label": "Corollary 3, Section 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/582"
+    },
+    {
+      "label": "Corollary 4, Section 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/583"
+    },
+    {
+      "label": "Corollary 5, Section 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/584"
+    },
+    {
+      "label": "Corollary 6, Section 4",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/585"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/noe-2013-a222759-prime-cube-growth/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/noe-2013-a222759-prime-cube-growth/noe-2013-a222759-prime-cube-growth/en/",
+    "zh": "https://papers.trureturing.org/noe-2013-a222759-prime-cube-growth/noe-2013-a222759-prime-cube-growth/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/noe-2013-a222759-prime-cube-growth",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/noe-2013-a222759-prime-cube-growth/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "010-prime-cubes",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/noe-2013-a222759-prime-cube-growth/noe-2013-a222759-prime-cube-growth/slides/010-prime-cubes/noe-2013-a222759-prime-cube-growth-010-prime-cubes-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/noe-2013-a222759-prime-cube-growth/noe-2013-a222759-prime-cube-growth/slides/010-prime-cubes/noe-2013-a222759-prime-cube-growth-010-prime-cubes-en.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "010-remainder-range-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/noe-2013-a222759-prime-cube-growth/noe-2013-a222759-prime-cube-growth/films/010-remainder-range/noe-2013-a222759-prime-cube-growth_010_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/noe-2013-a222759-prime-cube-growth/noe-2013-a222759-prime-cube-growth/films/010-remainder-range/poster.jpg",
+      "title": "The remainder range",
+      "url": "https://papers.trureturing.org/noe-2013-a222759-prime-cube-growth/noe-2013-a222759-prime-cube-growth/films/#010-remainder-range"
+    }
+  ],
   "visualizations": [],
   "work": "noe-2013-a222759-prime-cube-growth"
 }
