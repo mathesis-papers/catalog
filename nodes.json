@@ -57970,6 +57970,170 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:vega-coso-spectral-duality-uniqueness:3:s1",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S3/ContinuousObservables/SpectralDualityUniquenessRefutation.lean"
+      },
+      "lineage": "collected:vega-coso-spectral-duality-uniqueness:s1",
+      "macros": {
+        "\\RR": "\\mathbb{R}",
+        "\\ones": "\\mathbf{1}",
+        "\\simplex": "\\overline{\\Delta}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "vega-coso-spectral-duality-uniqueness",
+      "scope": "in_scope",
+      "statement": "Assume (H1) and admissibility. The distributions insensitive at level\n$c_0$ are exactly $\\ker D\\cap\\simplex$. Their affine dimension is\n$m-\\operatorname{rank}D-1$, and $\\pi$ is the unique such distribution\nif and only if $\\operatorname{rank}D=m-1$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Nonuniqueness in Vega Coso's question on accidental neutrality",
+      "toolchain": null,
+      "version": 3,
+      "work": "vega-coso-spectral-duality-uniqueness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:vega-coso-spectral-duality-uniqueness:3:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S3/ContinuousObservables/SpectralDualityUniquenessRefutation.lean"
+      },
+      "lineage": "collected:vega-coso-spectral-duality-uniqueness:s2",
+      "macros": {
+        "\\RR": "\\mathbb{R}",
+        "\\ones": "\\mathbf{1}",
+        "\\simplex": "\\overline{\\Delta}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "vega-coso-spectral-duality-uniqueness",
+      "scope": "in_scope",
+      "statement": "Let $2\\leq N<m$, with $A,\\pi,\\beta$ as above. For every admissible\n$D\\in\\mathcal D$, there are interior insensitive distributions\n$q\\ne\\pi$ arbitrarily close to $\\pi$. More precisely:\n\\begin{enumerate}\n\\item If $\\operatorname{rank}D\\leq m-2$, a nonconstant line segment\nthrough $\\pi$ consists of interior distributions at level $c_0$.\n\\item If $\\operatorname{rank}D=m-1$, necessarily $N=m-1$, and there is\na continuous curve of interior distributions $q(\\lambda)$ for all\nsufficiently small real $\\lambda$, with\n\\[\n q(0)=\\pi,\\qquad Dq(\\lambda)=\\lambda Aq(\\lambda),\\qquad\n C(q(\\lambda),\\gamma)=\\frac1{1+\\beta+\\lambda}.\n\\]\nFor $\\lambda\\ne0$, $q(\\lambda)\\ne\\pi$. This conclusion does not require (H1).\n\\end{enumerate}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Nonuniqueness in Vega Coso's question on accidental neutrality",
+      "toolchain": null,
+      "version": 3,
+      "work": "vega-coso-spectral-duality-uniqueness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:vega-coso-spectral-duality-uniqueness:3:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S3/ContinuousObservables/SpectralDualityUniquenessRefutation.lean"
+      },
+      "lineage": "collected:vega-coso-spectral-duality-uniqueness:s3",
+      "macros": {
+        "\\RR": "\\mathbb{R}",
+        "\\ones": "\\mathbf{1}",
+        "\\simplex": "\\overline{\\Delta}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "vega-coso-spectral-duality-uniqueness",
+      "scope": "in_scope",
+      "statement": "Fix $N=m\\ge2$, a strictly positive invertible $A$, an interior prescribed\ndistribution $\\pi$ and $\\beta>0$. Assume (H1), that all $f_\\nu$ are\nnonnegative, and that at each $\\gamma$ some $f_\\nu(\\gamma)>0$.\nFor each $k\\in\\{1,\\ldots,m\\}$ there is a nonempty relatively open subset of\n$\\mathcal D$ on which $B>0$, $A^{-1}D$ has distinct real eigenvalues, and\nthere are exactly $k$ insensitive distributions in the closed simplex.\nAll $k$ are interior and have distinct levels. These open sets can be\nchosen arbitrarily close to $D=0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Nonuniqueness in Vega Coso's question on accidental neutrality",
+      "toolchain": null,
+      "version": 3,
+      "work": "vega-coso-spectral-duality-uniqueness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:vega-coso-spectral-duality-uniqueness:3:s4",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S3/ContinuousObservables/SpectralDualityUniquenessRefutation.lean"
+      },
+      "lineage": "collected:vega-coso-spectral-duality-uniqueness:s4",
+      "macros": {
+        "\\RR": "\\mathbb{R}",
+        "\\ones": "\\mathbf{1}",
+        "\\simplex": "\\overline{\\Delta}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "vega-coso-spectral-duality-uniqueness",
+      "scope": "in_scope",
+      "statement": "There are fixed data with $N=m=2$ and a nonempty relatively open\nsubset $U\\subset\\mathcal D$ such that every $D\\in U$ is admissible,\n$A,B>0$, no column of $B$ is proportional to a column of $A$,\nand there is an interior distribution $q\\ne\\pi$ insensitive\nat a level different from $c_0$. Consequently no dense subset of\n$\\mathcal D$ can have global uniqueness for these data.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Nonuniqueness in Vega Coso's question on accidental neutrality",
+      "toolchain": null,
+      "version": 3,
+      "work": "vega-coso-spectral-duality-uniqueness"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:velez-cadavid-numerical-semigroup-realizability:2:s1",
       "kind": "paper",
       "label": "Lemma",

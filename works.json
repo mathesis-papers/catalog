@@ -9494,6 +9494,53 @@
       "work": "user3-2026-orthogonal-absolute-product-minimum"
     },
     {
+      "abstract_text": "We answer Vega Coso's open question in Section 9, p. 18 of arXiv:2610.16454v1 in the negative: generic uniqueness of an insensitive distribution does not extend to N<=m. For 2<=N<m, every admissible perturbation has other interior insensitive distributions arbitrarily close to the prescribed one. At equality, for strictly positive invertible amplitude matrices and linearly independent nonnegative spectral functions with a positive function value at each parameter, every count from 1 to m occurs on a nonempty open set of admissible perturbations with simple spectrum.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S3/ContinuousObservables/SpectralDualityUniquenessRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 74350,
+        "sha256": "bdc953c60e9e7b8646293fdc4d15cb81584b7b857c43208c026e0fd9d76fd46c",
+        "url": "/api/v1/collected-papers/vega-coso-spectral-duality-uniqueness/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-27T08:37:06.233547207Z",
+      "record": "vega-coso-spectral-duality-uniqueness",
+      "repository_name": "vega-coso-spectral-duality-uniqueness",
+      "source": {
+        "bytes": 86612,
+        "sha256": "81df57abb650f9886d34642731703010fe3f67b7d84e130172e93d41b4740dbb",
+        "url": "/api/v1/collected-papers/vega-coso-spectral-duality-uniqueness/files/source?version=3"
+      },
+      "title": "Nonuniqueness in Vega Coso's question on accidental neutrality",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-27T08:37:06.233547207Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "vega-coso-spectral-duality-uniqueness"
+    },
+    {
       "abstract_text": "We answer the realizability question of Vélez Caicedo and Cadavid (§5, p. 17, second paragraph of arXiv:2611.14316v1) by reflecting semigroup generators about a prescribed maximum jump: every numerical semigroup T is realizable, and a positive integer M is an admissible maximum exactly when M belongs to T and every minimal generator h satisfies h<2M and 2M-h belongs to T. The construction gives the unique inclusion-minimal jump set at each admissible maximum and realizes every sufficiently large maximum. Using the source's spectral formulas, we also recover the semigroup from two global dimensions and M-2 restricted dimensions when M>=2. For prime maxima, eventual dimensions at proper-divisor moduli alone need not distinguish semigroups.",
       "authors": [
         {

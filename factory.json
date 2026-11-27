@@ -11346,6 +11346,63 @@
       "work": "user3-2026-orthogonal-absolute-product-minimum"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 74350,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "bdc953c60e9e7b8646293fdc4d15cb81584b7b857c43208c026e0fd9d76fd46c",
+          "sha256": "bdc953c60e9e7b8646293fdc4d15cb81584b7b857c43208c026e0fd9d76fd46c"
+        },
+        "source": {
+          "bytes": 86612,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "81df57abb650f9886d34642731703010fe3f67b7d84e130172e93d41b4740dbb",
+          "sha256": "81df57abb650f9886d34642731703010fe3f67b7d84e130172e93d41b4740dbb"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 4,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "92de86888730265f84e24d28bdb67546c543a966",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S3/ContinuousObservables/SpectralDualityUniquenessRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/vega-coso-spectral-duality-uniqueness",
+      "site_url": "https://papers.trureturing.org/vega-coso-spectral-duality-uniqueness/",
+      "title": "Nonuniqueness in Vega Coso's question on accidental neutrality",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "vega-coso-spectral-duality-uniqueness"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24404957",
       "doi": "10.5281/zenodo.24404958",
       "files": {
@@ -11910,8 +11967,8 @@
       "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 212,
+  "papers": 213,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-27T08:35:30.0858689Z"
+  "snapshot_time": "2026-11-27T09:33:33.855338985Z"
 }

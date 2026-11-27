@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-27T08:35:30.0858689Z`.
+Snapshot: `2026-11-27T09:33:33.855338985Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -208,6 +208,7 @@ Snapshot: `2026-11-27T08:35:30.0858689Z`.
 | [A counterexample to the Shannon conjecture following Eq. (69) in Tarabunga et al., Section V.C](https://github.com/mathesis-papers/10.5281-zenodo.23903315) | 1 | [DOI](https://doi.org/10.5281/zenodo.23903316) | en, zh | 0 / 0 / 0 | 7 no target yet |
 | [Sharp quotients and column polynomials: alternative proofs for OEIS A355257, revision 37, Comments, after Benyattou-Mihoubi (2017) and Fried (2025)](https://github.com/mathesis-papers/tebni355257-logcoef) | 2 | [DOI](https://doi.org/10.5281/zenodo.24406609) | en, zh | 1 / 1 / 0 | 9 no target yet |
 | [Resolving User3's orthogonal absolute-product question: minimum and minimizers](https://github.com/mathesis-papers/10.5281-zenodo.23885983) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885984) | en, zh | 0 / 0 / 0 | 4 no target yet |
+| [Nonuniqueness in Vega Coso's question on accidental neutrality](https://github.com/mathesis-papers/vega-coso-spectral-duality-uniqueness) | 3 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
 | [Vélez Caicedo and Cadavid's numerical-semigroup realizability question: prescribed maxima and reduced spectral data](https://github.com/mathesis-papers/velez-cadavid-numerical-semigroup-realizability) | 2 | [DOI](https://doi.org/10.5281/zenodo.24404958) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Exact W and generalized-GHZ Bell-measurement optima: Completing Chakrabarty–Kundu (2026), Section III D, page 5: Table III and Eq. (15), with the Horodecki (1995) single-node consequence](https://github.com/mathesis-papers/w-state-bsm-optimum) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409079) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Counterexamples to Wang's Conjectures 3.26 and 5.3 on semigroup algebras](https://github.com/mathesis-papers/10.5281-zenodo.23884900) | 2 | [DOI](https://doi.org/10.5281/zenodo.23884901) | en, zh | 0 / 0 / 0 | 5 no target yet |
