@@ -3241,6 +3241,53 @@
       "work": "h3894-composition-congruences"
     },
     {
+      "abstract_text": "We extend Hägele’s three-dimensional theorem to answer the (3,3) question in his preprint of 29 October 2026, arXiv:2611.00129v1, Eq. (1), p. 2, and §7(iii), p. 8: the mean trace of the twenty words with three letters exp(H) and three letters exp(K) is at least Tr exp(3H+3K) for complex Hermitian matrices H,K of any common finite size. A rank-one and Cauchy-kernel decomposition proves the stronger trace-power bound and shows that equality in either bound requires commutation.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "ee3136ea14512eb56a1e169b81bde36d0604d782",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ee3136ea14512eb56a1e169b81bde36d0604d782/D5/S3/Quantum/Analysis/RefinedBMVLowerBound.lean#L127"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 79219,
+        "sha256": "4493f1e931ccda685c7e19c4c6557d832a743bcd81203e00fac8109abffc5e09",
+        "url": "/api/v1/collected-papers/hagele-2026-refined-bmv-33-all-dimensions/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-27T11:31:41.366668286Z",
+      "record": "hagele-2026-refined-bmv-33-all-dimensions",
+      "repository_name": "hagele-2026-refined-bmv-33-all-dimensions",
+      "source": {
+        "bytes": 9239,
+        "sha256": "ffcaf4a7c2bf32e79928cf0e3f524e0183cb16af1fb43c77616eb815be8a8596",
+        "url": "/api/v1/collected-papers/hagele-2026-refined-bmv-33-all-dimensions/files/source?version=2"
+      },
+      "title": "Hägele’s (3,3) refined BMV lower bound in all dimensions",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-27T11:31:41.366668286Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hagele-2026-refined-bmv-33-all-dimensions"
+    },
+    {
       "abstract_text": "Extending Han–Pedon's lower-shift results (2026), we prove their Conjecture C (arXiv:2610.36132v1, p. 6): for every n ≥ 1 and ℓ ≥ n+3, every residue subsequence of the shifted q-metallic Hankel determinants is a rational polynomial, from its first term, with period 2n(n+1) for even n and 4n(n+1) for odd n. Each polynomial is integer-valued on all integers. A complementary-minor formula reduces the determinant to a matrix of fixed size with polynomial dependence on the number of continued-fraction periods. We give a degree bound, rational generating functions, constant-coefficient recurrences and periodicity from the first term modulo every positive integer at every shift. Exact complementary-minor identities and the degree bound prove the affine laws extending Ovsienko–Pedon's golden shift-4 pattern (2023; published 2025).",
       "authors": [
         {
@@ -3440,9 +3487,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24576359",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24576360",
       "lean_source": {
         "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
         "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Recurrence/Invariants/HannaA382316CoefficientPositivity.lean#L265"

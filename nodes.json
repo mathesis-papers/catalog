@@ -19734,6 +19734,201 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:hagele-2026-refined-bmv-33-all-dimensions:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "ee3136ea14512eb56a1e169b81bde36d0604d782",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ee3136ea14512eb56a1e169b81bde36d0604d782/D5/S3/Quantum/Analysis/RefinedBMVLowerBound.lean#L127"
+      },
+      "lineage": "collected:hagele-2026-refined-bmv-33-all-dimensions:s1",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hagele-2026-refined-bmv-33-all-dimensions",
+      "scope": "in_scope",
+      "statement": "For positive semidefinite complex matrices $A,B$ of any common finite size,\n\\begin{equation}\n M(A,B)\\ge \\Tr\\bigl((AB)^3\\bigr).\n\\end{equation}\nConsequently, for all Hermitian $H,K$ of any common finite size,\n\\begin{equation}\n M(e^H,e^K)\\ge \\Tr e^{3H+3K}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hägele’s (3,3) refined BMV lower bound in all dimensions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hagele-2026-refined-bmv-33-all-dimensions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hagele-2026-refined-bmv-33-all-dimensions:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ee3136ea14512eb56a1e169b81bde36d0604d782",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ee3136ea14512eb56a1e169b81bde36d0604d782/D5/S3/Quantum/Analysis/RefinedBMVLowerBound.lean#L127"
+      },
+      "lineage": "collected:hagele-2026-refined-bmv-33-all-dimensions:s2",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hagele-2026-refined-bmv-33-all-dimensions",
+      "scope": "in_scope",
+      "statement": "Equality holds in \\eqref{eq:power} if and only if $AB=BA$, and in\n\\eqref{eq:exp} if and only if $HK=KH$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hägele’s (3,3) refined BMV lower bound in all dimensions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hagele-2026-refined-bmv-33-all-dimensions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hagele-2026-refined-bmv-33-all-dimensions:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ee3136ea14512eb56a1e169b81bde36d0604d782",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ee3136ea14512eb56a1e169b81bde36d0604d782/D5/S3/Quantum/Analysis/RefinedBMVLowerBound.lean#L127"
+      },
+      "lineage": "collected:hagele-2026-refined-bmv-33-all-dimensions:s3",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hagele-2026-refined-bmv-33-all-dimensions",
+      "scope": "in_scope",
+      "statement": "The lower bound $\\Tr e^{nH+mK}\\le A_{n,m}(e^H,e^K)$ holds for all\nnonnegative integer counts $n,m$ with $n+m\\le6$ in every finite dimension,\nwhere $A_{n,m}$ is the mean trace of the corresponding words.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hägele’s (3,3) refined BMV lower bound in all dimensions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hagele-2026-refined-bmv-33-all-dimensions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hagele-2026-refined-bmv-33-all-dimensions:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ee3136ea14512eb56a1e169b81bde36d0604d782",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ee3136ea14512eb56a1e169b81bde36d0604d782/D5/S3/Quantum/Analysis/RefinedBMVLowerBound.lean#L127"
+      },
+      "lineage": "collected:hagele-2026-refined-bmv-33-all-dimensions:s4",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hagele-2026-refined-bmv-33-all-dimensions",
+      "scope": "in_scope",
+      "statement": "If $A,B$ are positive semidefinite and $A$ has at most two distinct\neigenvalues, then for every integer $n\\ge1$,\n\\[\n A_{n,3}(A,B)\\ge\\Tr\\bigl((A^{n/3}B)^3\\bigr).\n\\]\nIn particular the $(n,3)$ exponential lower bound holds if $H$ has at\nmost two distinct eigenvalues, with no condition on the spectrum of $K$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hägele’s (3,3) refined BMV lower bound in all dimensions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hagele-2026-refined-bmv-33-all-dimensions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hagele-2026-refined-bmv-33-all-dimensions:2:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ee3136ea14512eb56a1e169b81bde36d0604d782",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ee3136ea14512eb56a1e169b81bde36d0604d782/D5/S3/Quantum/Analysis/RefinedBMVLowerBound.lean#L127"
+      },
+      "lineage": "collected:hagele-2026-refined-bmv-33-all-dimensions:s5",
+      "macros": {
+        "\\Tr": "\\operatorname{Tr}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hagele-2026-refined-bmv-33-all-dimensions",
+      "scope": "in_scope",
+      "statement": "For positive semidefinite $A,B$, write $E_A(B)=\\sum_P PBP$, with $P$\nranging over the spectral projections of $A$. Then\n$A_{n,3}(A,B)\\ge A_{n,3}(A,E_A(B))$ for $n=3$, and for all $n\\ge1$\nif $A$ has at most two distinct eigenvalues. At $n=3$, equality is\nequivalent to $AB=BA$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hägele’s (3,3) refined BMV lower bound in all dimensions",
+      "toolchain": null,
+      "version": 2,
+      "work": "hagele-2026-refined-bmv-33-all-dimensions"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:han-pedon-metallic-hankel-quasipolynomial:2:s1",
       "kind": "paper",
       "label": "Theorem",

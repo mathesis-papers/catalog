@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-27T11:32:55.173349986Z`.
+Snapshot: `2026-11-27T12:37:24.016191178Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -75,11 +75,12 @@ Snapshot: `2026-11-27T11:32:55.173349986Z`.
 | [Proof of Granvik's real-part conjecture in OEIS A292273 (revision 24, FORMULA, 6 July 2024)](https://github.com/mathesis-papers/granvik-2024-a292273-real-part) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Catalan formula corrections and short proofs of Groux's and Staunton's conjectures](https://github.com/mathesis-papers/10.5281-zenodo.24411278) | 2 | [DOI](https://doi.org/10.5281/zenodo.24411279) | Awaiting reading | 0 / 0 / 0 | 2 no target yet |
 | [Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences](https://github.com/mathesis-papers/h3894-composition-congruences) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409052) | Awaiting reading | 0 / 0 / 0 | 11 no target yet |
+| [Hägele’s (3,3) refined BMV lower bound in all dimensions](https://github.com/mathesis-papers/hagele-2026-refined-bmv-33-all-dimensions) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Extending Han–Pedon (2026): proof of Conjecture C for metallic Hankel determinants (arXiv:2610.36132v1, p. 6)](https://github.com/mathesis-papers/han-pedon-metallic-hankel-quasipolynomial) | 2 | [DOI](https://doi.org/10.5281/zenodo.24404938) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Proving Hanna's conjecture in OEIS A181074, Comments (2 October 2010): extensions of Moree (2003) and Gossow (2024)](https://github.com/mathesis-papers/10.5281-zenodo.24408310) | 3 | [DOI](https://doi.org/10.5281/zenodo.24408311) | en, zh | 1 / 1 / 0 | 12 no target yet |
 | [Proof of Hanna's conjecture in OEIS A181080, COMMENTS, first line: integrality and binomial-power companions](https://github.com/mathesis-papers/10.5281-zenodo.24407817) | 2 | [DOI](https://doi.org/10.5281/zenodo.24407818) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Prime-index divisibility in Hanna's OEIS A381355: Revision 13, COMMENTS, and shifted-power siblings](https://github.com/mathesis-papers/hanna-a381355) | 2 | [DOI](https://doi.org/10.5281/zenodo.24406600) | en, zh | 1 / 1 / 0 | 7 no target yet |
-| [Hanna's coefficient-positivity conjecture and the growth of its generating function](https://github.com/mathesis-papers/hanna-a382316) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
+| [Hanna's coefficient-positivity conjecture and the growth of its generating function](https://github.com/mathesis-papers/hanna-a382316) | 2 | [DOI](https://doi.org/10.5281/zenodo.24576360) | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
 | [Integral-product extensions and an alternative proof of Dong's (2026) theorem on OEIS A389472, revision 7, COMMENT 3](https://github.com/mathesis-papers/hanna-a389472-congruences) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409465) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Integral lifting and extensions for Hanna's OEIS A389475, Formulas (4.a)–(4.b): complements to Perez Fontelles (2026) and Dong (2026)](https://github.com/mathesis-papers/hanna-a389475-integral-lifting-congruences) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409469) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Proof of Hanna's OEIS A389474 formula (4) and extensions of Salerno–Silverman's (2017) integrality argument](https://github.com/mathesis-papers/hanna-composition-congruences) | 2 | [DOI](https://doi.org/10.5281/zenodo.24408313) | Awaiting reading | 0 / 0 / 0 | 10 no target yet |
