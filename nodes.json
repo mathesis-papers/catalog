@@ -33764,6 +33764,170 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:lagarias-sun-2024-supernorm-size-asymptotic:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "40ae81c09797bef5d9be159508ca5f85dae9f958",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/40ae81c09797bef5d9be159508ca5f85dae9f958/D5/S3/Arith/Partitions/SupernormSizeAsymptotic.lean#L953"
+      },
+      "lineage": "collected:lagarias-sun-2024-supernorm-size-asymptotic:s1",
+      "macros": {
+        "\\wmax": "\\widehat W_{\\max}",
+        "\\wper": "\\widehat W_{\\mathrm{per}}",
+        "\\wsize": "\\widehat W_{\\mathrm{size}}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "lagarias-sun-2024-supernorm-size-asymptotic",
+      "scope": "in_scope",
+      "statement": "As the positive integer $n$ tends to infinity,\n\\[\n  n\\wsize(n)\\longrightarrow e^\\gamma,\n  \\qquad n\\wper(n)\\longrightarrow e^\\gamma.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The Lagarias–Sun size and perimeter conjectures for reciprocal supernorms",
+      "toolchain": null,
+      "version": 2,
+      "work": "lagarias-sun-2024-supernorm-size-asymptotic"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:lagarias-sun-2024-supernorm-size-asymptotic:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "40ae81c09797bef5d9be159508ca5f85dae9f958",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/40ae81c09797bef5d9be159508ca5f85dae9f958/D5/S3/Arith/Partitions/SupernormSizeAsymptotic.lean#L953"
+      },
+      "lineage": "collected:lagarias-sun-2024-supernorm-size-asymptotic:s2",
+      "macros": {
+        "\\wmax": "\\widehat W_{\\max}",
+        "\\wper": "\\widehat W_{\\mathrm{per}}",
+        "\\wsize": "\\widehat W_{\\mathrm{size}}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "lagarias-sun-2024-supernorm-size-asymptotic",
+      "scope": "in_scope",
+      "statement": "Fix an integer $M\\ge1$. In each of the size, perimeter and largest-part ensembles, the sum over partitions with every multiplicity at most $M$ is asymptotic to $e^\\gamma/(\\zeta(M+1)n)$, where $\\zeta(s)=\\sum_{j\\ge1}j^{-s}$ for $s>1$. In particular, this answers the distinct-parts question in \\cite[\\S6.2]{lsv1,lsj} for size, and gives the corresponding limits for perimeter and largest part.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The Lagarias–Sun size and perimeter conjectures for reciprocal supernorms",
+      "toolchain": null,
+      "version": 2,
+      "work": "lagarias-sun-2024-supernorm-size-asymptotic"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:lagarias-sun-2024-supernorm-size-asymptotic:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "40ae81c09797bef5d9be159508ca5f85dae9f958",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/40ae81c09797bef5d9be159508ca5f85dae9f958/D5/S3/Arith/Partitions/SupernormSizeAsymptotic.lean#L953"
+      },
+      "lineage": "collected:lagarias-sun-2024-supernorm-size-asymptotic:s3",
+      "macros": {
+        "\\wmax": "\\widehat W_{\\max}",
+        "\\wper": "\\widehat W_{\\mathrm{per}}",
+        "\\wsize": "\\widehat W_{\\mathrm{size}}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "lagarias-sun-2024-supernorm-size-asymptotic",
+      "scope": "in_scope",
+      "statement": "Fix $\\beta>1$. Write $B_\\beta=\\prod_{d\\ge1}(1-p_d^{-\\beta})^{-1}$ and $D_\\beta=\\prod_{d\\ge2}(1-d^{-\\beta})^{-1}$. With weights $\\prod_d p_d^{-\\beta m_d(\\lambda)}$, each of the three ensemble sums is asymptotic to $B_\\beta p_n^{-\\beta}$. With weights $\\prod_d d^{-\\beta m_d(\\lambda)}$, the size and perimeter sums both tend to $D_\\beta$, and the largest-part sum restricted to partitions without ones is asymptotic to $D_\\beta n^{-\\beta}$. This treats the range $\\beta>1$ of \\cite[\\S6.1]{lsv1,lsj}.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The Lagarias–Sun size and perimeter conjectures for reciprocal supernorms",
+      "toolchain": null,
+      "version": 2,
+      "work": "lagarias-sun-2024-supernorm-size-asymptotic"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:lagarias-sun-2024-supernorm-size-asymptotic:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "40ae81c09797bef5d9be159508ca5f85dae9f958",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/40ae81c09797bef5d9be159508ca5f85dae9f958/D5/S3/Arith/Partitions/SupernormSizeAsymptotic.lean#L953"
+      },
+      "lineage": "collected:lagarias-sun-2024-supernorm-size-asymptotic:s4",
+      "macros": {
+        "\\wmax": "\\widehat W_{\\max}",
+        "\\wper": "\\widehat W_{\\mathrm{per}}",
+        "\\wsize": "\\widehat W_{\\mathrm{size}}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "lagarias-sun-2024-supernorm-size-asymptotic",
+      "scope": "in_scope",
+      "statement": "For the reciprocal-norm sum $W_{\\mathrm{per}}(n)$ over partitions of perimeter $n\\ge1$,\n\\[\n 0\\le n-W_{\\mathrm{per}}(n)\\le H_{n-1},\\qquad\n W_{\\mathrm{per}}(n)=n-H_{n-1}+O\\!\\left(\\frac{(\\log n)^2}{n}\\right),\n\\]\nwhere $H_j=\\sum_{d=1}^j1/d$ with $H_0=0$. In particular $W_{\\mathrm{per}}(n)=n-\\log n-\\gamma+o(1)$, answering the leading-term question of \\cite[\\S1 and Appendix~A.1]{lsj} and giving the logarithmic correction.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The Lagarias–Sun size and perimeter conjectures for reciprocal supernorms",
+      "toolchain": null,
+      "version": 2,
+      "work": "lagarias-sun-2024-supernorm-size-asymptotic"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:larotonda-principal-log-distance:2:s1",
       "kind": "paper",
       "label": "Theorem",

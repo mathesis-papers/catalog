@@ -1,6 +1,7 @@
 {
-  "doi": null,
+  "doi": "10.5281/zenodo.24578023",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/su-hu-2026-minimum-rectangular-size/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/su-hu-2026-minimum-rectangular-size",

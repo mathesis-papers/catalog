@@ -5638,6 +5638,53 @@
       "work": "kurkov-binary-stirling-row-edge"
     },
     {
+      "abstract_text": "We prove the Lagarias–Sun conjectures on reciprocal supernorms at fixed size and fixed perimeter (arXiv:2308.15303v1, §3.3, Conjectures 3.5–3.6, (3.16)–(3.17)): each sum is asymptotic to e^γ/n. A convolution recurrence treats size, and deleting a largest part treats perimeter. Restricting each part to at most M occurrences divides the leading constant by ζ(M+1), also in the largest-part ensemble, whose unrestricted limit was proved by Lagarias and Sun in the journal version. The fixed-perimeter reciprocal-norm sum is n − log n − γ + o(1).",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "40ae81c09797bef5d9be159508ca5f85dae9f958",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/40ae81c09797bef5d9be159508ca5f85dae9f958/D5/S3/Arith/Partitions/SupernormSizeAsymptotic.lean#L953"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 80363,
+        "sha256": "e993654db76dc08176ec57d184f8a83c79e286e76c4019e058f119d12740426b",
+        "url": "/api/v1/collected-papers/lagarias-sun-2024-supernorm-size-asymptotic/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-27T13:31:26.397715692Z",
+      "record": "lagarias-sun-2024-supernorm-size-asymptotic",
+      "repository_name": "lagarias-sun-2024-supernorm-size-asymptotic",
+      "source": {
+        "bytes": 9909,
+        "sha256": "6d153aa1a3db8cf57db8fe887063eaa809dd964df69f722d07bb46cd8d0dab09",
+        "url": "/api/v1/collected-papers/lagarias-sun-2024-supernorm-size-asymptotic/files/source?version=2"
+      },
+      "title": "The Lagarias–Sun size and perimeter conjectures for reciprocal supernorms",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-27T13:31:26.397715692Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "lagarias-sun-2024-supernorm-size-asymptotic"
+    },
+    {
       "abstract_text": "Beyond the unitarily invariant theorem of Antezana, Larotonda and Varela (2011/2014; Theorem 4.3 of arXiv:1107.2439v1), Larotonda's conjecture after Proposition 4.3 in Section 4.1, p. 7 of Short curves in homogeneous spaces of the unitary group for unitarily invariant norms (arXiv:2610.31535v1) fails for a normalized, symmetric Ad-invariant quadratic norm on u(2): shifting one eigenangle by 2 pi preserves the endpoint and gives a shorter exponential curve. For the full positive-definite family obtained by adding c times the squared trace to the Hilbert-Schmidt norm squared, we show in every dimension at least two that principal-log minimality holds for all principal angles if and only if the trace coefficient is zero. Scalar examples give a strict failure whenever their eigenangle exceeds pi(1+c)/(1+nc), for c>0. Thus the proposed pi/2 input already fails in dimension three, and no positive dimension-independent spectral radius suffices.",
       "authors": [
         {
@@ -9317,9 +9364,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24578022",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24578023",
       "lean_source": {
         "revision": "1549f86b82c5c0f472980f839c8ee8a737d2e2a1",
         "url": "https://github.com/the-omega-institute/trureturing/blob/1549f86b82c5c0f472980f839c8ee8a737d2e2a1/D5/S3/Analytic/Probability/FiniteNegativeRegression.lean#L929"

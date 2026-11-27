@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-27T13:32:30.402287017Z`.
+Snapshot: `2026-11-27T14:31:24.28705717Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -126,6 +126,7 @@ Snapshot: `2026-11-27T13:32:30.402287017Z`.
 | [An alternative proof of Kurkov's logarithmic-polynomial recursion and its Leonov–Shiryaev interpretation](https://github.com/mathesis-papers/kurkov-a263634-log-polynomials) | 2 | [DOI](https://doi.org/10.5281/zenodo.24412937) | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
 | [Kurkov's convolution-row conjectures over arbitrary semirings](https://github.com/mathesis-papers/kurkov-a340991-convolution-row-recursion) | 2 | [DOI](https://doi.org/10.5281/zenodo.24410093) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher](https://github.com/mathesis-papers/kurkov-binary-stirling-row-edge) | 2 | [DOI](https://doi.org/10.5281/zenodo.24446052) | Awaiting reading | 0 / 0 / 0 | 12 no target yet |
+| [The Lagarias–Sun size and perimeter conjectures for reciprocal supernorms](https://github.com/mathesis-papers/lagarias-sun-2024-supernorm-size-asymptotic) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
 | [Trace-coupled counterexamples to Larotonda's principal-log distance conjecture: beyond the Antezana-Larotonda-Varela theorem](https://github.com/mathesis-papers/larotonda-principal-log-distance) | 2 | [DOI](https://doi.org/10.5281/zenodo.24414711) | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
 | [Extending Li–Poon–Sze's elementary-symmetric realignment comparison to unequal dimensions](https://github.com/mathesis-papers/li-poon-sze-2011-p2-realignment-gap) | 3 | [DOI](https://doi.org/10.5281/zenodo.24484270) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Quantitative extensions of Araújo et al.'s phase obstruction for Liu, Wesołowski, Thompson, Gu and Pira's uncontrolled fractional-evolution question](https://github.com/mathesis-papers/liu-wesolowski-2026-ordinary-fractional-evolution) | 3 | [DOI](https://doi.org/10.5281/zenodo.24414717) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
@@ -204,7 +205,7 @@ Snapshot: `2026-11-27T13:32:30.402287017Z`.
 | [Coefficient injections and equality for Sagan–Swanson bottom heaviness: an alternative proof after Ma and Principia Math](https://github.com/mathesis-papers/ss2205-bottomheavy) | 3 | [DOI](https://doi.org/10.5281/zenodo.24411306) | Awaiting reading | 0 / 0 / 0 | 10 no target yet |
 | [Sharp public-flag bounds for the Stasiuk–Lütkenhaus–Tan erasure conjecture](https://github.com/mathesis-papers/stasiuk-lutkenhaus-tan-error-state-erasure) | 3 | [DOI](https://doi.org/10.5281/zenodo.24410097) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Resolving Question III.5 of Stepanov–Herrmann–Guhr (arXiv:2104.08966v1, p. 7): the top-eigenvector weight gap occurs exactly above sigma = c](https://github.com/mathesis-papers/10.5281-zenodo.23927427) | 2 | [DOI](https://doi.org/10.5281/zenodo.23927428) | en, zh | 0 / 0 / 0 | 10 no target yet |
-| [The minimum rectangular size in Su and Hu's negative-association problem](https://github.com/mathesis-papers/su-hu-2026-minimum-rectangular-size) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
+| [The minimum rectangular size in Su and Hu's negative-association problem](https://github.com/mathesis-papers/su-hu-2026-minimum-rectangular-size) | 2 | [DOI](https://doi.org/10.5281/zenodo.24578023) | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
 | [Inertia extensions of Krattenthaler's identity for Sun's Hankel determinant conjecture](https://github.com/mathesis-papers/10.5281-zenodo.24410616) | 2 | [DOI](https://doi.org/10.5281/zenodo.24410617) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Alternative proofs for Sun's difference-permanent conjectures and Kunisky-Spielman-Yu's sign identity](https://github.com/mathesis-papers/sun346934-sign-composite-permanents) | 2 | [DOI](https://doi.org/10.5281/zenodo.24484829) | Awaiting reading | 0 / 0 / 0 | 10 no target yet |
 | [Negative answers to Ta's Problems 11.6–11.7 (arXiv:2505.08090v5, Section 11, page 27) and a proof of Conjecture 5.13 (arXiv:2508.16772v1, Section 5.2.2, page 17): central-twist counting extending Kamada–Oshiro (2009), Ta (2025), and Nakajima–Yamaguchi (2026)](https://github.com/mathesis-papers/ta-2025-problem-11-6-three-invariant-refutation) | 3 | [DOI](https://doi.org/10.5281/zenodo.24409476) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
