@@ -9877,8 +9877,8 @@
       "work": "oeis-a401248-first-two-dense-divisor-block-minimum"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24595212",
+      "doi": "10.5281/zenodo.24595213",
       "files": {
         "pdf": {
           "bytes": 70652,
@@ -9915,7 +9915,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -12363,5 +12362,5 @@
   "papers": 220,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-27T16:32:57.91816464Z"
+  "snapshot_time": "2026-11-27T17:31:39.182537232Z"
 }

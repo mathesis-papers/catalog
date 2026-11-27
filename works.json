@@ -8283,9 +8283,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24595212",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24595213",
       "lean_source": {
         "revision": "40ae81c09797bef5d9be159508ca5f85dae9f958",
         "url": "https://github.com/the-omega-institute/trureturing/blob/40ae81c09797bef5d9be159508ca5f85dae9f958/D5/S3/Arith/Divisors/KarttunenA401714.lean"

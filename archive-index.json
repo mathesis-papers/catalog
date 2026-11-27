@@ -1021,6 +1021,12 @@
       "version": 3
     },
     {
+      "doi": "10.5281/zenodo.24595213",
+      "id": "oeis-a401714-unitary-squarefree-divisor-sum",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24389041",
       "id": "okada-2020-premerged-determinant-nonpalindromic",
       "kind": "collected",
@@ -1279,6 +1285,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-27T16:32:57.91816464Z",
+  "generated_at": "2026-11-27T17:31:39.182537232Z",
   "schema": "mathesis.archive-index.v1"
 }

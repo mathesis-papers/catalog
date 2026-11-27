@@ -1,6 +1,7 @@
 {
-  "doi": null,
+  "doi": "10.5281/zenodo.24595213",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/oeis-a401714-unitary-squarefree-divisor-sum/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/oeis-a401714-unitary-squarefree-divisor-sum",
