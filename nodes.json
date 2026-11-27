@@ -25747,6 +25747,228 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:hardin229697:4:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "ce43a5c56872828d361b7cc33f39baf7fb3c38e7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce43a5c56872828d361b7cc33f39baf7fb3c38e7/D5/S3/StatisticalMechanics/Potts/StripDefectsTwo/HardinA229697Strip.lean"
+      },
+      "lineage": "collected:hardin229697:s1",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229697",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\ge18$,\n\\begin{align*}\na_n={}&27a_{n-1}-288a_{n-2}+1557a_{n-3}-4644a_{n-4}\n       +8073a_{n-5}\\\\\n     &-8343a_{n-6}+5022a_{n-7}-1620a_{n-8}+216a_{n-9}.\n\\end{align*}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hardin's recurrence for two-defect strips",
+      "toolchain": null,
+      "version": 4,
+      "work": "hardin229697"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hardin229697:4:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "ce43a5c56872828d361b7cc33f39baf7fb3c38e7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce43a5c56872828d361b7cc33f39baf7fb3c38e7/D5/S3/StatisticalMechanics/Potts/StripDefectsTwo/HardinA229697Strip.lean"
+      },
+      "lineage": "collected:hardin229697:s2",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229697",
+      "scope": "in_scope",
+      "statement": "For all $n\\ge1$, the labelled two-defect count is $uT^{n-1}z=6a_n$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hardin's recurrence for two-defect strips",
+      "toolchain": null,
+      "version": 4,
+      "work": "hardin229697"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hardin229697:4:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ce43a5c56872828d361b7cc33f39baf7fb3c38e7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce43a5c56872828d361b7cc33f39baf7fb3c38e7/D5/S3/StatisticalMechanics/Potts/StripDefectsTwo/HardinA229697Strip.lean"
+      },
+      "lineage": "collected:hardin229697:s3",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229697",
+      "scope": "in_scope",
+      "statement": "In the ring of formal power series $\\mathbb Q[[x]]$,\n\\[\n \\sum_{n\\ge1}a_nx^n=\\frac{P(x)}{(1-9x+15x^2-6x^3)^3},\n\\]\nwhere\n\\begin{align*}\nP(x)={}&336x^2-2340x^3-4239x^4+84162x^5-397910x^6\\\\\n &+1300479x^7-3271908x^8+6458343x^9-9582351x^{10}\\\\\n &+8545887x^{11}-2743632x^{12}-1672344x^{13}\n       +1496592x^{14}\\\\\n &-51840x^{15}-248832x^{16}+62208x^{17}.\n\\end{align*}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hardin's recurrence for two-defect strips",
+      "toolchain": null,
+      "version": 4,
+      "work": "hardin229697"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hardin229697:4:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ce43a5c56872828d361b7cc33f39baf7fb3c38e7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce43a5c56872828d361b7cc33f39baf7fb3c38e7/D5/S3/StatisticalMechanics/Potts/StripDefectsTwo/HardinA229697Strip.lean"
+      },
+      "lineage": "collected:hardin229697:s4",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229697",
+      "scope": "in_scope",
+      "statement": "The minimum order of an eventual homogeneous constant-coefficient\nrecurrence over $\\mathbb Q$ for $(a_n)$ is nine. The recurrence in\nTheorem~\\ref{thm:main} first holds at $n=18$: its residual at $n=17$\nis $62208$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hardin's recurrence for two-defect strips",
+      "toolchain": null,
+      "version": 4,
+      "work": "hardin229697"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:hardin229697:4:s5",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ce43a5c56872828d361b7cc33f39baf7fb3c38e7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce43a5c56872828d361b7cc33f39baf7fb3c38e7/D5/S3/StatisticalMechanics/Potts/StripDefectsTwo/HardinA229697Strip.lean"
+      },
+      "lineage": "collected:hardin229697:s5",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229697",
+      "scope": "in_scope",
+      "statement": "The generating functions in Table~\\ref{tab:families} are $P_f(x)/q_f(x)^3$.\nFor each nonzero family, $3\\deg q_f$ is its minimum eventual recurrence\norder, and $N_f$ is the sharp first index at which its normalized recurrence\nholds for every later index. Also $C_1(x)=0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hardin's recurrence for two-defect strips",
+      "toolchain": null,
+      "version": 4,
+      "work": "hardin229697"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:hardin229697:4:s6",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "ce43a5c56872828d361b7cc33f39baf7fb3c38e7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce43a5c56872828d361b7cc33f39baf7fb3c38e7/D5/S3/StatisticalMechanics/Potts/StripDefectsTwo/HardinA229697Strip.lean"
+      },
+      "lineage": "collected:hardin229697:s6",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hardin229697",
+      "scope": "in_scope",
+      "statement": "For each fixed height $h\\ge1$ and defect budget $b\\ge0$, the generating\nfunction for canonical three-colourings with exactly $b$ defects is rational.\nIt has a denominator dividing $\\det(I-xB_0)^{b+1}$, where $B_0$ is the\nzero-defect column-orbit matrix of dimension $(3^h+3)/6$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Proof of Hardin's recurrence for two-defect strips",
+      "toolchain": null,
+      "version": 4,
+      "work": "hardin229697"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:hardin233156:3:s1",
       "kind": "paper",
       "label": "Theorem",

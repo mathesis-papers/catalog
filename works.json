@@ -1234,9 +1234,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24576351",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24576352",
       "lean_source": {
         "revision": "b40e9bda5e0bbf3faa1874047f612e763c63a2b7",
         "url": "https://github.com/the-omega-institute/trureturing/blob/b40e9bda5e0bbf3faa1874047f612e763c63a2b7/D5/S3/TotalVariation/BanicR312Settlement.lean"
@@ -4367,6 +4367,53 @@
         }
       ],
       "work": "hardin229634-defective-colourings"
+    },
+    {
+      "abstract_text": "We prove Hardin's empirical recurrence in OEIS A229697, revision 10 (8 April 2021), Formula, for canonical three-colourings of a 4-by-n horizontal–antidiagonal strip with exactly two monochromatic bonds, for every n ≥ 18. Its rational generating function has reduced denominator (1−9x+15x²−6x³)³: order nine is minimal and the onset 18 is sharp. For A229694 the same argument gives proofs of four further generating functions (R₂, R₃, C₃, C₄) and rederives two known path formulas (R₁, C₂). It also corrects the column-two cross-reference shift.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 4,
+      "doi": null,
+      "lean_source": {
+        "revision": "ce43a5c56872828d361b7cc33f39baf7fb3c38e7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/ce43a5c56872828d361b7cc33f39baf7fb3c38e7/D5/S3/StatisticalMechanics/Potts/StripDefectsTwo/HardinA229697Strip.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 97404,
+        "sha256": "614844084918bf9ce5a9bdcc05dd5a0199f568a9f852b3efa0160172d70bb7f1",
+        "url": "/api/v1/collected-papers/hardin229697/files/pdf?version=4"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-27T20:30:54.473095854Z",
+      "record": "hardin229697",
+      "repository_name": "hardin229697",
+      "source": {
+        "bytes": 67031,
+        "sha256": "e2b976e133b2bc6eb630695cac2a26d4c09dfe0b0d6923a5ccdfc3fd00f54741",
+        "url": "/api/v1/collected-papers/hardin229697/files/source?version=4"
+      },
+      "title": "Proof of Hardin's recurrence for two-defect strips",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-27T20:30:54.473095854Z",
+          "revision": "4",
+          "version": 4
+        }
+      ],
+      "work": "hardin229697"
     },
     {
       "abstract_text": "We give an alternative proof of Hardin's empirical recurrence and Barker's generating function in OEIS A233156, revision 8 (9 October 2018), FORMULA lines 1 and 2, by reducing them to Biggs and Meredith's double-strip enumeration (1976, Section 3, pp. 10–11). For n >= 3 the labeled three-row array count is exactly 36 times the proper three-coloring count of a 3 by (n-2) rectangular grid. This gives the recurrence for n >= 5 and the complete generating function, including its exceptional initial terms. A direct five-state proof establishes sharp onset and minimal eventual order two. Every displayed row and column recurrence of A233155 and Barker's four-row generating function in A233157 are also proved, with explicit finite integer identities for the larger strips.",

@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-27T20:31:51.811476659Z`.
+Snapshot: `2026-11-27T21:31:21.593830678Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -32,7 +32,7 @@ Snapshot: `2026-11-27T20:31:51.811476659Z`.
 | [Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem](https://github.com/mathesis-papers/balaper-a281184-phi2period) | 2 | [DOI](https://doi.org/10.5281/zenodo.24411960) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions](https://github.com/mathesis-papers/balaper-a281440-phi2period) | 2 | [DOI](https://doi.org/10.5281/zenodo.24411962) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Polynomial-flow extensions of Su's theorem on Bala's period conjectures](https://github.com/mathesis-papers/balaper-phi2period) | 2 | [DOI](https://doi.org/10.5281/zenodo.24412932) | Awaiting reading | 0 / 0 / 0 | 11 no target yet |
-| [Counterexamples to Banić and Elezović's cyclic-dispersion monotonicities](https://github.com/mathesis-papers/banic-elezovic-2026-cyclic-dispersion-monotonicities) | 3 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
+| [Counterexamples to Banić and Elezović's cyclic-dispersion monotonicities](https://github.com/mathesis-papers/banic-elezovic-2026-cyclic-dispersion-monotonicities) | 3 | [DOI](https://doi.org/10.5281/zenodo.24576352) | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
 | [Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture](https://github.com/mathesis-papers/banica-ozteke-pittau-2018-truncation-isolation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24411966) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Prism-stack shell bounds and proofs of Barker's and Spezia's conjectures](https://github.com/mathesis-papers/barker-2018-oeis-a299289-tsi-coordination-sequence) | 2 | [DOI](https://doi.org/10.5281/zenodo.24482895) | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
 | [Proof of Barker's tea-tiling conjectures: OEIS A299285–A299286, FORMULA (February 11, 2018)](https://github.com/mathesis-papers/barker-tea-coordination-sequence) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409050) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
@@ -99,6 +99,7 @@ Snapshot: `2026-11-27T20:31:51.811476659Z`.
 | [Hardin's six-column trace recurrence and Barker's generating functions](https://github.com/mathesis-papers/10.5281-zenodo.24410608) | 2 | [DOI](https://doi.org/10.5281/zenodo.24410609) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Proof of Hardin's width-six three-colour one-defect recurrence](https://github.com/mathesis-papers/hardin229532-one-defect-recurrence) | 4 | [DOI](https://doi.org/10.5281/zenodo.24546755) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Extensions of Shrock's and Yurishchev's formulas to Hardin's defective-colouring recurrences](https://github.com/mathesis-papers/hardin229634-defective-colourings) | 2 | [DOI](https://doi.org/10.5281/zenodo.24497440) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
+| [Proof of Hardin's recurrence for two-defect strips](https://github.com/mathesis-papers/hardin229697) | 4 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Boundary formulas for Hardin's array recurrences and Barker's generating functions via Biggs–Meredith enumeration](https://github.com/mathesis-papers/hardin233156) | 3 | [DOI](https://doi.org/10.5281/zenodo.24445694) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Extending Orrick's rectangle count to Barker's king-strip conjectures](https://github.com/mathesis-papers/hardin233163-king-arrays) | 2 | [DOI](https://doi.org/10.5281/zenodo.24414706) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [OEIS A240513, revision 11, FORMULA 1–3: ladder proofs and extensions of Bala (2014)](https://github.com/mathesis-papers/hardin240513-ladder-formulas) | 3 | [DOI](https://doi.org/10.5281/zenodo.24409472) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |

@@ -535,6 +535,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24577686",
+      "id": "hardin229697",
+      "kind": "collected",
+      "version": 4
+    },
+    {
       "doi": "10.5281/zenodo.24445694",
       "id": "hardin233156",
       "kind": "collected",
@@ -1309,6 +1315,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-27T20:31:51.811476659Z",
+  "generated_at": "2026-11-27T21:31:21.593830678Z",
   "schema": "mathesis.archive-index.v1"
 }
