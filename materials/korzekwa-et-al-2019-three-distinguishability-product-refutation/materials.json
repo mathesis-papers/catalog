@@ -1,15 +1,38 @@
 {
   "doi": "10.5281/zenodo.24406607",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Proposition 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/592"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/korzekwa-et-al-2019-three-distinguishability-product-refutation/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/korzekwa-et-al-2019-three-distinguishability-product-refutation/korzekwa-et-al-2019-three-distinguishability-product-refutation/en/",
+    "zh": "https://papers.trureturing.org/korzekwa-et-al-2019-three-distinguishability-product-refutation/korzekwa-et-al-2019-three-distinguishability-product-refutation/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/korzekwa-et-al-2019-three-distinguishability-product-refutation",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/korzekwa-et-al-2019-three-distinguishability-product-refutation/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "overview",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/korzekwa-et-al-2019-three-distinguishability-product-refutation/korzekwa-et-al-2019-three-distinguishability-product-refutation/slides/overview/korzekwa-et-al-2019-three-distinguishability-product-refutation-overview-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/korzekwa-et-al-2019-three-distinguishability-product-refutation/korzekwa-et-al-2019-three-distinguishability-product-refutation/slides/overview/korzekwa-et-al-2019-three-distinguishability-product-refutation-overview-en.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-one-diagonal-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/korzekwa-et-al-2019-three-distinguishability-product-refutation/korzekwa-et-al-2019-three-distinguishability-product-refutation/films/001-one-diagonal/korzekwa-et-al-2019-three-distinguishability-product-refutation_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/korzekwa-et-al-2019-three-distinguishability-product-refutation/korzekwa-et-al-2019-three-distinguishability-product-refutation/films/001-one-diagonal/poster.jpg",
+      "title": "One diagonal, three orthogonal states",
+      "url": "https://papers.trureturing.org/korzekwa-et-al-2019-three-distinguishability-product-refutation/korzekwa-et-al-2019-three-distinguishability-product-refutation/films/#001-one-diagonal"
+    }
+  ],
   "visualizations": [],
   "work": "korzekwa-et-al-2019-three-distinguishability-product-refutation"
 }

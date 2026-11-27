@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-27T01:32:02.454929885Z`.
+Snapshot: `2026-11-27T02:35:46.468219748Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -119,7 +119,7 @@ Snapshot: `2026-11-27T01:32:02.454929885Z`.
 | [Refutation and correction of Theorem 2.10 (Conjectured), arXiv:1404.0484v1, Section 2, page 7: extensions of Patel (2026) and Raso–Kok (2026)](https://github.com/mathesis-papers/kok-jaco-addition-law-refutation) | 3 | [DOI](https://doi.org/10.5281/zenodo.24369124) | en, zh | 0 / 0 / 0 | 10 no target yet |
 | [The 2n−1 arc minimum in Koljančić–Oblak, Problem 1.8 (p. 759)](https://github.com/mathesis-papers/10.5281-zenodo.23904481) | 3 | [DOI](https://doi.org/10.5281/zenodo.23904482) | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths](https://github.com/mathesis-papers/10.5281-zenodo.23920567) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920568) | en, zh | 2 / 1 / 0 | 6 no target yet |
-| [Counterexamples to Korzekwa et al. (2019), Section III.B, p. 6, Eq. (30): extending constructions of Bengtsson et al. (2005) and Korzekwa et al. (2019)](https://github.com/mathesis-papers/korzekwa-et-al-2019-three-distinguishability-product-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24406607) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
+| [Counterexamples to Korzekwa et al. (2019), Section III.B, p. 6, Eq. (30): extending constructions of Bengtsson et al. (2005) and Korzekwa et al. (2019)](https://github.com/mathesis-papers/korzekwa-et-al-2019-three-distinguishability-product-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24406607) | en, zh | 1 / 1 / 0 | 9 no target yet |
 | [Corrected formulas and integer exponents for Amdeberhan–Ekhad (2022): Kurkov's OEIS A396563 FORMULA conjecture, revision 15 (1 June 2026)](https://github.com/mathesis-papers/kurk396563) | 2 | Awaiting DOI | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [An alternative proof of Kurkov's logarithmic-polynomial recursion and its Leonov–Shiryaev interpretation](https://github.com/mathesis-papers/kurkov-a263634-log-polynomials) | 2 | [DOI](https://doi.org/10.5281/zenodo.24412937) | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
 | [Kurkov's convolution-row conjectures over arbitrary semirings](https://github.com/mathesis-papers/kurkov-a340991-convolution-row-recursion) | 2 | [DOI](https://doi.org/10.5281/zenodo.24410093) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
