@@ -8938,9 +8938,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24588779",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24588780",
       "lean_source": {
         "revision": "0aacdc2f6f60bee6af4900526992a3611b700d32",
         "url": "https://github.com/the-omega-institute/trureturing/blob/0aacdc2f6f60bee6af4900526992a3611b700d32/D5/S0/CayleyGrowth/PrefixReversalTripleCountRefutation.lean"

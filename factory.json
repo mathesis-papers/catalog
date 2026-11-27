@@ -10663,8 +10663,8 @@
       "work": "pozsgay-wanless-nonlinear-classical-factors"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24588779",
+      "doi": "10.5281/zenodo.24588780",
       "files": {
         "pdf": {
           "bytes": 93133,
@@ -10701,7 +10701,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -12753,5 +12752,5 @@
   "papers": 227,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-27T22:31:39.607107377Z"
+  "snapshot_time": "2026-11-27T23:31:39.907182002Z"
 }

@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-27T22:31:39.607107377Z`.
+Snapshot: `2026-11-27T23:31:39.907182002Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -196,7 +196,7 @@ Snapshot: `2026-11-27T22:31:39.607107377Z`.
 | [Refuting Peled et al.'s Section IV conjectures after Theorems 1 and 3, Eqs. (10) and (12): sharp fourth-order bounds without filter normal form](https://github.com/mathesis-papers/10.5281-zenodo.23920609) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920610) | en, zh | 0 / 0 / 0 | 7 no target yet |
 | [An invertible counterexample to Peng's zero-dimensional shadowing-extension question](https://github.com/mathesis-papers/peng-zero-dimensional-shadowing-extension) | 2 | [DOI](https://doi.org/10.5281/zenodo.24576186) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture](https://github.com/mathesis-papers/10.5281-zenodo.23903312) | 2 | [DOI](https://doi.org/10.5281/zenodo.23903313) | en, zh | 0 / 0 / 0 | 9 no target yet |
-| [The prefix-reversal triple-count conjecture of Blanco et al.: four coefficients from the method of Lei et al.](https://github.com/mathesis-papers/prefix-reversal-triple-count) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
+| [The prefix-reversal triple-count conjecture of Blanco et al.: four coefficients from the method of Lei et al.](https://github.com/mathesis-papers/prefix-reversal-triple-count) | 2 | [DOI](https://doi.org/10.5281/zenodo.24588780) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Identity-containing counterexamples to Conjecture 4.9 (Iosue–Mooney–Ehrenberg–Gorshkov, Section 4.3, p. 15, arXiv:2311.13479v3): certificates and extensions of Abdukhalikov's (2014) construction](https://github.com/mathesis-papers/projective-toric-design-subgroup-counterexample) | 3 | [DOI](https://doi.org/10.5281/zenodo.24405806) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
 | [Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence](https://github.com/mathesis-papers/quaternionic-deutsch-equality) | 2 | [DOI](https://doi.org/10.5281/zenodo.24413802) | Awaiting reading | 0 / 0 / 0 | 12 no target yet |
 | [MathOverflow 516405, revision 1: the second adjacency eigenvalue of Apollonian networks and the fixed-rank extreme spectrum](https://github.com/mathesis-papers/10.5281-zenodo.23919070) | 2 | [DOI](https://doi.org/10.5281/zenodo.23919071) | en, zh | 0 / 0 / 0 | 5 no target yet |
