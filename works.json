@@ -9306,6 +9306,53 @@
       "work": "stepanov-herrmann-guhr-2021-correlation-top-eigenvector-weight"
     },
     {
+      "abstract_text": "The minimum total rectangular size left undetermined by Su and Hu in Remark 4.7 (arXiv:2609.23313v1, p. 12) is 81 for a finite law with full negative regression dependence that is not negatively associated. Below 81, every covariance test has a block of at most eight states, which cannot witness positive covariance even with zero masses. Su and Hu's Table 4.1 attains 81, and every example at this size has four nonconstant ternary marginals. Deleting the two corner atoms of Table 4.1 gives an example with 79 positive atoms, an upper bound for the separate support-size question.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "1549f86b82c5c0f472980f839c8ee8a737d2e2a1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1549f86b82c5c0f472980f839c8ee8a737d2e2a1/D5/S3/Analytic/Probability/FiniteNegativeRegression.lean#L929"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 65085,
+        "sha256": "2767f28bf178437d22e2e651cf55dbf293394b842d802b1f0adc7a1a457b78a6",
+        "url": "/api/v1/collected-papers/su-hu-2026-minimum-rectangular-size/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-27T12:38:18.526533900Z",
+      "record": "su-hu-2026-minimum-rectangular-size",
+      "repository_name": "su-hu-2026-minimum-rectangular-size",
+      "source": {
+        "bytes": 9372,
+        "sha256": "e698ade27179969c4301034d33fdc6f1e8d191cb866099d0703fbbdf28a06065",
+        "url": "/api/v1/collected-papers/su-hu-2026-minimum-rectangular-size/files/source?version=2"
+      },
+      "title": "The minimum rectangular size in Su and Hu's negative-association problem",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-27T12:38:18.526533900Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "su-hu-2026-minimum-rectangular-size"
+    },
+    {
       "abstract_text": "For Sun's On some determinants with Legendre symbol entries, arXiv:1308.2900v5, Conjecture 3.16, p. 17, we extend the zero-class identity credited to C. Krattenthaler in arXiv:1308.2900v6 (April 24, 2014), Remark 3.16. For A006077, the Hankel determinant of order n+1 vanishes exactly when n is congruent to 1 modulo 3; otherwise its quotient by (-1)^floor((n+1)/3) 6^n is a positive odd integer. Binomial translation gives a three-block factorization. Integral row normalization reduces parity to the Rueppel determinants, and a positive moment representation gives the sign. We also give parameter-independent and square-class consequences, the exact inertia, and a two-parameter deformation. Related moment arguments establish the harmonic sign assertion in Conjecture 3.9(i) and the two squared-number assertions in Conjecture 3.17.",
       "authors": [
         {

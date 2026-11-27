@@ -1153,6 +1153,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24578023",
+      "id": "su-hu-2026-minimum-rectangular-size",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24410617",
       "id": "sun-a006077-hankel-determinants",
       "kind": "collected",
@@ -1261,6 +1267,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-27T12:37:24.016191178Z",
+  "generated_at": "2026-11-27T13:32:30.402287017Z",
   "schema": "mathesis.archive-index.v1"
 }

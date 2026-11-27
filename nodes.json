@@ -56241,6 +56241,154 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:su-hu-2026-minimum-rectangular-size:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "1549f86b82c5c0f472980f839c8ee8a737d2e2a1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1549f86b82c5c0f472980f839c8ee8a737d2e2a1/D5/S3/Analytic/Probability/FiniteNegativeRegression.lean#L929"
+      },
+      "lineage": "collected:su-hu-2026-minimum-rectangular-size:s1",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "su-hu-2026-minimum-rectangular-size",
+      "scope": "in_scope",
+      "statement": "Every finite full-NRD law with $R<81$ is NA. There is a full-NRD law with $R=81$ that is not NA. At $R=81$, any full-NRD law that fails NA has four nonconstant coordinates with marginal supports of size three; any violating pair of blocks splits these four coordinates into two pairs.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The minimum rectangular size in Su and Hu's negative-association problem",
+      "toolchain": null,
+      "version": 2,
+      "work": "su-hu-2026-minimum-rectangular-size"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:su-hu-2026-minimum-rectangular-size:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "1549f86b82c5c0f472980f839c8ee8a737d2e2a1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1549f86b82c5c0f472980f839c8ee8a737d2e2a1/D5/S3/Analytic/Probability/FiniteNegativeRegression.lean#L929"
+      },
+      "lineage": "collected:su-hu-2026-minimum-rectangular-size:s2",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "su-hu-2026-minimum-rectangular-size",
+      "scope": "in_scope",
+      "statement": "If $\\prod_{j\\in J}d_j\\le8$, then $\\operatorname{Cov}(f(X_I),g(X_J))\\le0$ for all increasing $f,g$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The minimum rectangular size in Su and Hu's negative-association problem",
+      "toolchain": null,
+      "version": 2,
+      "work": "su-hu-2026-minimum-rectangular-size"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:su-hu-2026-minimum-rectangular-size:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1549f86b82c5c0f472980f839c8ee8a737d2e2a1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1549f86b82c5c0f472980f839c8ee8a737d2e2a1/D5/S3/Analytic/Probability/FiniteNegativeRegression.lean#L929"
+      },
+      "lineage": "collected:su-hu-2026-minimum-rectangular-size:s3",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "su-hu-2026-minimum-rectangular-size",
+      "scope": "in_scope",
+      "statement": "For a finite full-NRD law, a violating covariance test needs at least two nonconstant coordinates on each side. A side with exactly two nonconstant coordinates cannot have a binary marginal. If all marginals are binary or constant, a violation needs at least eight nonconstant coordinates. If $R<108$, every violation uses exactly four nonconstant ternary coordinates, two on each side.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The minimum rectangular size in Su and Hu's negative-association problem",
+      "toolchain": null,
+      "version": 2,
+      "work": "su-hu-2026-minimum-rectangular-size"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:su-hu-2026-minimum-rectangular-size:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "1549f86b82c5c0f472980f839c8ee8a737d2e2a1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/1549f86b82c5c0f472980f839c8ee8a737d2e2a1/D5/S3/Analytic/Probability/FiniteNegativeRegression.lean#L929"
+      },
+      "lineage": "collected:su-hu-2026-minimum-rectangular-size:s4",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "su-hu-2026-minimum-rectangular-size",
+      "scope": "in_scope",
+      "statement": "There exists a finite full-NRD law with $79$ positive atoms and $R=81$ that is not NA.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "The minimum rectangular size in Su and Hu's negative-association problem",
+      "toolchain": null,
+      "version": 2,
+      "work": "su-hu-2026-minimum-rectangular-size"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:sun-a006077-hankel-determinants:2:s1",
       "kind": "paper",
       "label": "Theorem",
