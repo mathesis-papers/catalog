@@ -1,15 +1,50 @@
 {
   "doi": "10.5281/zenodo.24405799",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1, equation (1), Section 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/541"
+    },
+    {
+      "label": "Theorem 1, equation (2), Section 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/542"
+    },
+    {
+      "label": "Corollary 3, Section 2, Rectangular quadratic identity",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/543"
+    },
+    {
+      "label": "Corollary 7, Section 3, A general finite transform",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/544"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/oeis-a112399-morken-first-divisor-sum/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/oeis-a112399-morken-first-divisor-sum/oeis-a112399-morken-first-divisor-sum/en/",
+    "zh": "https://papers.trureturing.org/oeis-a112399-morken-first-divisor-sum/oeis-a112399-morken-first-divisor-sum/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/oeis-a112399-morken-first-divisor-sum",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/oeis-a112399-morken-first-divisor-sum/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "overview",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/oeis-a112399-morken-first-divisor-sum/oeis-a112399-morken-first-divisor-sum/slides/overview/oeis-a112399-morken-first-divisor-sum-overview-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/oeis-a112399-morken-first-divisor-sum/oeis-a112399-morken-first-divisor-sum/slides/overview/oeis-a112399-morken-first-divisor-sum-overview-en.pdf"
+    }
+  ],
   "version": 3,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-two-cancellations-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/oeis-a112399-morken-first-divisor-sum/oeis-a112399-morken-first-divisor-sum/films/001-two-cancellations/oeis-a112399-morken-first-divisor-sum_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/oeis-a112399-morken-first-divisor-sum/oeis-a112399-morken-first-divisor-sum/films/001-two-cancellations/poster.jpg",
+      "title": "Two ways to cancel",
+      "url": "https://papers.trureturing.org/oeis-a112399-morken-first-divisor-sum/oeis-a112399-morken-first-divisor-sum/films/#001-two-cancellations"
+    }
+  ],
   "visualizations": [],
   "work": "oeis-a112399-morken-first-divisor-sum"
 }

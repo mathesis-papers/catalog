@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-27T06:41:21.222736796Z`.
+Snapshot: `2026-11-27T07:34:02.635803943Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -158,7 +158,7 @@ Snapshot: `2026-11-27T06:41:21.222736796Z`.
 | [Proof of Notik's Singer-ruler conjecture with sparse certificates](https://github.com/mathesis-papers/notik-singer-chamber) | 3 | [DOI](https://doi.org/10.5281/zenodo.24446067) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Complex-shift correction at OEIS A086205 (revision 35), Bala's formula block of 19 February 2023: an extension of Krattenthaler (1999)](https://github.com/mathesis-papers/oeis-a086205-bala-complex-shift-determinant-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24407271) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [An alternative proof of Ianakiev's shortest-palindrome conjecture via Fici and collaborators' Zimin-word theorem](https://github.com/mathesis-papers/oeis-a094373-ianakiev-shortest-ruler-palindrome) | 2 | [DOI](https://doi.org/10.5281/zenodo.24488706) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
-| [Convention corrections and alternative proofs for Morken's conjectures in OEIS A112399: Revision 41, FORMULA; after Sander–Sander (2009) and Ramaré (2014–2015)](https://github.com/mathesis-papers/oeis-a112399-morken-first-divisor-sum) | 3 | [DOI](https://doi.org/10.5281/zenodo.24405799) | Awaiting reading | 0 / 0 / 0 | 11 no target yet |
+| [Convention corrections and alternative proofs for Morken's conjectures in OEIS A112399: Revision 41, FORMULA; after Sander–Sander (2009) and Ramaré (2014–2015)](https://github.com/mathesis-papers/oeis-a112399-morken-first-divisor-sum) | 3 | [DOI](https://doi.org/10.5281/zenodo.24405799) | en, zh | 1 / 1 / 0 | 11 no target yet |
 | [Adamson's Fibonacci divisor-transform conjecture: sharp ratio errors extending Lang's formula](https://github.com/mathesis-papers/oeis-a130095-ratio-limit) | 2 | [DOI](https://doi.org/10.5281/zenodo.24411286) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [The OEIS maximal-bishop growth conjecture: an extension of Arshon's enumeration](https://github.com/mathesis-papers/oeis-a146304-maximal-bishop-growth-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24487649) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [A ratio correction and sibling identities for Mathar's Catalan-transform recurrence](https://github.com/mathesis-papers/oeis-a157100-five-term-recurrence) | 3 | [DOI](https://doi.org/10.5281/zenodo.24487651) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
