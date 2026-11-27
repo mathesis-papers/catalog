@@ -3252,9 +3252,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24583054",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24583055",
       "lean_source": {
         "revision": "b40e9bda5e0bbf3faa1874047f612e763c63a2b7",
         "url": "https://github.com/the-omega-institute/trureturing/blob/b40e9bda5e0bbf3faa1874047f612e763c63a2b7/D5/S3/Arith/PolynomialValues/GyC51Settlement.lean"
@@ -8695,6 +8695,53 @@
       "work": "peled-teeni-carmi-cohen-2021-correlation-minor-norm-fnf"
     },
     {
+      "abstract_text": "Peng's Question 5.1 in Section 5.1, page 21 of arXiv:2606.14435v3 has a negative answer for compact Hausdorff systems: an open-map obstruction, combined with finite observation languages, yields a system with shadowing that has no zero-dimensional compact Hausdorff shadowing extension. The construction pulls an open surjection over a convergent sequence back to the binary full shift and adds a full-shift component. Marked finite graph languages force any putative extension to give an impossible open zero-dimensional resolution of that surjection. A countable tower and its natural extension give a homeomorphism with the same obstruction, even when the proposed extension is allowed to be noninvertible. Time is one-sided and includes zero.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "af14598ecb20d5af09fc2c8243b391f4a31e85c1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/D5/S3/Topology/Shadowing/FreeFibreBoundary.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 113804,
+        "sha256": "b4a98436904042854e933865bb66fa5c4effff63427f70de55bbb9a2ad198efe",
+        "url": "/api/v1/collected-papers/peng-zero-dimensional-shadowing-extension/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-27T18:58:57.337406677Z",
+      "record": "peng-zero-dimensional-shadowing-extension",
+      "repository_name": "peng-zero-dimensional-shadowing-extension",
+      "source": {
+        "bytes": 17264,
+        "sha256": "4bec7e042c4f707900c780e1cc8a93140d111ad53b5eb4a9227c3d2e35aeb118",
+        "url": "/api/v1/collected-papers/peng-zero-dimensional-shadowing-extension/files/source?version=2"
+      },
+      "title": "An invertible counterexample to Peng's zero-dimensional shadowing-extension question",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-27T18:58:57.337406677Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "peng-zero-dimensional-shadowing-extension"
+    },
+    {
       "abstract_text": "We resolve the nonlinear classical k=6 factor-perfection question of Pozsgay and Wanless, §5 immediately after equation (5.13), and their qubit decomposition conjecture in §8 for both constructions studied there (k=6,8). For arbitrary finite-alphabet gates, a perfect six-leg composite forces perfect factors. Six specified permutation flattenings characterize this property. A norm–determinant argument gives the quantum analogue for unitary gates, extending the prior forward construction of §3.2, Theorems 1–2. For arbitrary complex factors, the same six unitary exterior flattenings guarantee perfect replacement tensors at the same bond dimension. This excludes every six-qubit AME state from the three-vertex triangle with bond dimension two. The eight-qubit case follows from known AME nonexistence (Rains, DOI 10.1109/18.796376; Scott, DOI 10.1103/PhysRevA.69.052330).",
       "authors": [
         {
@@ -10304,9 +10351,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24598409",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24598410",
       "lean_source": {
         "revision": "dc44a77dcd06fef386d395ef43e4d94a8f7b7788",
         "url": "https://github.com/the-omega-institute/trureturing/blob/dc44a77dcd06fef386d395ef43e4d94a8f7b7788/D5/S3/Arith/Abundancy/ZelinskyOmegaRatioDensity.lean"

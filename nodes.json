@@ -51164,6 +51164,342 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:peng-zero-dimensional-shadowing-extension:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "af14598ecb20d5af09fc2c8243b391f4a31e85c1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/D5/S3/Topology/Shadowing/FreeFibreBoundary.lean"
+      },
+      "lineage": "collected:peng-zero-dimensional-shadowing-extension:s1",
+      "macros": {
+        "\\BB": "B",
+        "\\NN": "\\mathbb N",
+        "\\SSS": "\\{0,1\\}^{\\NN}",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "peng-zero-dimensional-shadowing-extension",
+      "scope": "in_scope",
+      "statement": "There are a nonempty compact Hausdorff space $X$ and a continuous map $f:X\\to X$ with shadowing for which no compact Hausdorff zero-dimensional space $Y$ carries a continuous shadowing map $g:Y\\to Y$ and a factor map $q:(Y,g)\\to(X,f)$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An invertible counterexample to Peng's zero-dimensional shadowing-extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "peng-zero-dimensional-shadowing-extension"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:peng-zero-dimensional-shadowing-extension:2:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "af14598ecb20d5af09fc2c8243b391f4a31e85c1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/D5/S3/Topology/Shadowing/FreeFibreBoundary.lean"
+      },
+      "lineage": "collected:peng-zero-dimensional-shadowing-extension:s2",
+      "macros": {
+        "\\BB": "B",
+        "\\NN": "\\mathbb N",
+        "\\SSS": "\\{0,1\\}^{\\NN}",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "peng-zero-dimensional-shadowing-extension",
+      "scope": "in_scope",
+      "statement": "There exist an almost-disjoint family $\\mathcal A$, a function $u:\\NN\\to[0,1]$, and numbers $\\ell_A\\in[0,1]$ such that $u(n)\\to\\ell_A$ along $n\\in A$, but no partitioner $D$ satisfies\n\\begin{equation}\n \\{n:u(n)\\leq 1/3\\}\\subseteq D\\subseteq\\{n:u(n)<2/3\\}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An invertible counterexample to Peng's zero-dimensional shadowing-extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "peng-zero-dimensional-shadowing-extension"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:peng-zero-dimensional-shadowing-extension:2:s3",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "af14598ecb20d5af09fc2c8243b391f4a31e85c1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/D5/S3/Topology/Shadowing/FreeFibreBoundary.lean"
+      },
+      "lineage": "collected:peng-zero-dimensional-shadowing-extension:s3",
+      "macros": {
+        "\\BB": "B",
+        "\\NN": "\\mathbb N",
+        "\\SSS": "\\{0,1\\}^{\\NN}",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "peng-zero-dimensional-shadowing-extension",
+      "scope": "in_scope",
+      "statement": "There are a compact Hausdorff space $T$ and a continuous open surjection $p:T\\to B$ such that no compact Hausdorff zero-dimensional space $Z$ admits a continuous surjection $r:Z\\to T$ with $p\\circ r$ open.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An invertible counterexample to Peng's zero-dimensional shadowing-extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "peng-zero-dimensional-shadowing-extension"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:peng-zero-dimensional-shadowing-extension:2:s4",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "af14598ecb20d5af09fc2c8243b391f4a31e85c1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/D5/S3/Topology/Shadowing/FreeFibreBoundary.lean"
+      },
+      "lineage": "collected:peng-zero-dimensional-shadowing-extension:s4",
+      "macros": {
+        "\\BB": "B",
+        "\\NN": "\\mathbb N",
+        "\\SSS": "\\{0,1\\}^{\\NN}",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "peng-zero-dimensional-shadowing-extension",
+      "scope": "in_scope",
+      "statement": "If $g:Y\\to Y$ has finite-cover shadowing, $\\phi:Y\\to S$ is continuous with $\\phi g=\\sigma\\phi$, and $W\\subseteq Y$ is clopen, then $\\phi(W)$ is a finite graph language with initial set.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An invertible counterexample to Peng's zero-dimensional shadowing-extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "peng-zero-dimensional-shadowing-extension"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s5",
+      "contributor": null,
+      "identity": "collected:peng-zero-dimensional-shadowing-extension:2:s5",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "af14598ecb20d5af09fc2c8243b391f4a31e85c1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/D5/S3/Topology/Shadowing/FreeFibreBoundary.lean"
+      },
+      "lineage": "collected:peng-zero-dimensional-shadowing-extension:s5",
+      "macros": {
+        "\\BB": "B",
+        "\\NN": "\\mathbb N",
+        "\\SSS": "\\{0,1\\}^{\\NN}",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "peng-zero-dimensional-shadowing-extension",
+      "scope": "in_scope",
+      "statement": "There exists $a\\in S$ lying on the boundary of no finite graph language with initial set.\nLet $a^{(n)}$ be obtained from $a$ by changing its $n$th bit, and set\n\\[\n S_0=\\{a\\}\\cup\\{a^{(n)}:n\\in\\NN\\}.\n\\]\nFor every such language $L$, the intersection $L\\cap S_0$ is clopen in $S_0$.\nThe first-disagreement map\n\\[\n \\rho(s)=\\begin{cases}\\min\\{n:s(n)\\ne a(n)\\}&s\\ne a,\\\\\\infty&s=a\\end{cases}\n\\]\nis a continuous surjection $S\\to B$, and $\\rho|_{S_0}:S_0\\to B$ is a homeomorphism.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An invertible counterexample to Peng's zero-dimensional shadowing-extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "peng-zero-dimensional-shadowing-extension"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s6",
+      "contributor": null,
+      "identity": "collected:peng-zero-dimensional-shadowing-extension:2:s6",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "af14598ecb20d5af09fc2c8243b391f4a31e85c1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/D5/S3/Topology/Shadowing/FreeFibreBoundary.lean"
+      },
+      "lineage": "collected:peng-zero-dimensional-shadowing-extension:s6",
+      "macros": {
+        "\\BB": "B",
+        "\\NN": "\\mathbb N",
+        "\\SSS": "\\{0,1\\}^{\\NN}",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "peng-zero-dimensional-shadowing-extension",
+      "scope": "in_scope",
+      "statement": "The map $f$ has finite-cover shadowing.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An invertible counterexample to Peng's zero-dimensional shadowing-extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "peng-zero-dimensional-shadowing-extension"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s7",
+      "contributor": null,
+      "identity": "collected:peng-zero-dimensional-shadowing-extension:2:s7",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "af14598ecb20d5af09fc2c8243b391f4a31e85c1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/D5/S3/Topology/Shadowing/FreeFibreBoundary.lean"
+      },
+      "lineage": "collected:peng-zero-dimensional-shadowing-extension:s7",
+      "macros": {
+        "\\BB": "B",
+        "\\NN": "\\mathbb N",
+        "\\SSS": "\\{0,1\\}^{\\NN}",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "peng-zero-dimensional-shadowing-extension",
+      "scope": "in_scope",
+      "statement": "The system in Theorem~\\ref{thm:main} is not a factor of a Mittag--Leffler inverse limit of shifts of finite type.\nIn particular, the row-deletion construction in Peng's Question 5.2 \\cite[p.~22]{peng} cannot, for every compact Hausdorff shadowing system, have all bonding maps surjective together with the stated onto equivariant decoding map.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An invertible counterexample to Peng's zero-dimensional shadowing-extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "peng-zero-dimensional-shadowing-extension"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s8",
+      "contributor": null,
+      "identity": "collected:peng-zero-dimensional-shadowing-extension:2:s8",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "af14598ecb20d5af09fc2c8243b391f4a31e85c1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/D5/S3/Topology/Shadowing/FreeFibreBoundary.lean"
+      },
+      "lineage": "collected:peng-zero-dimensional-shadowing-extension:s8",
+      "macros": {
+        "\\BB": "B",
+        "\\NN": "\\mathbb N",
+        "\\SSS": "\\{0,1\\}^{\\NN}",
+        "\\leanbase": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "peng-zero-dimensional-shadowing-extension",
+      "scope": "in_scope",
+      "statement": "There is a nonempty compact Hausdorff space $\\widehat X$ with a homeomorphism $\\widehat F$ having forward shadowing such that no compact Hausdorff zero-dimensional system with forward shadowing factors onto $(\\widehat X,\\widehat F)$.\nIn particular, no Mittag--Leffler inverse limit of one-sided shifts of finite type factors onto this homeomorphism.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "An invertible counterexample to Peng's zero-dimensional shadowing-extension question",
+      "toolchain": null,
+      "version": 2,
+      "work": "peng-zero-dimensional-shadowing-extension"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:pozsgay-wanless-nonlinear-classical-factors:2:s1",
       "kind": "paper",
       "label": "Theorem",

@@ -397,6 +397,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24583055",
+      "id": "gy26c51-affine-coefficient-log-concavity",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.24409052",
       "id": "h3894-composition-congruences",
       "kind": "collected",
@@ -1273,6 +1279,12 @@
       "version": 4
     },
     {
+      "doi": "10.5281/zenodo.24598410",
+      "id": "zelinsky-2021-conjecture-1-or-density",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24405810",
       "id": "zhan-gupta-hillery-detector-sensor-flat-averaging",
       "kind": "collected",
@@ -1285,6 +1297,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-27T18:34:41.029974996Z",
+  "generated_at": "2026-11-27T19:31:34.498270309Z",
   "schema": "mathesis.archive-index.v1"
 }

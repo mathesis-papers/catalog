@@ -1,6 +1,7 @@
 {
-  "doi": null,
+  "doi": "10.5281/zenodo.24598410",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/zelinsky-2021-conjecture-1-or-density/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/zelinsky-2021-conjecture-1-or-density",

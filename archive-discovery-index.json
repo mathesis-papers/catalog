@@ -1075,6 +1075,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24576186",
+      "id": "peng-zero-dimensional-shadowing-extension",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.23903313",
       "id": "pozsgay-wanless-nonlinear-classical-factors",
       "kind": "collected",
@@ -1297,6 +1303,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-27T18:34:41.029974996Z",
+  "generated_at": "2026-11-27T19:31:34.498270309Z",
   "schema": "mathesis.archive-index.v1"
 }
