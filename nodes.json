@@ -38868,6 +38868,117 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:mccormack-zelinsky-2023-question-38:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "eaf0389aea9af0c4a38ddaaa55e726ca120e42a1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eaf0389aea9af0c4a38ddaaa55e726ca120e42a1/D5/S3/Arith/Abundancy/McCormackZelinskyQuestion38.lean"
+      },
+      "lineage": "collected:mccormack-zelinsky-2023-question-38:s1",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mccormack-zelinsky-2023-question-38",
+      "scope": "in_scope",
+      "statement": "For every integer $j\\ge 0$, the number $60\\cdot 2^j$ is extremely strongly\npseudoperfect. In the family $15\\cdot 2^a$, $a=2$ is the least strongly\npseudoperfect exponent.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "McCormack and Zelinsky's Question 38 and a carry graph for strongly pseudoperfect families",
+      "toolchain": null,
+      "version": 2,
+      "work": "mccormack-zelinsky-2023-question-38"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:mccormack-zelinsky-2023-question-38:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "eaf0389aea9af0c4a38ddaaa55e726ca120e42a1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eaf0389aea9af0c4a38ddaaa55e726ca120e42a1/D5/S3/Arith/Abundancy/McCormackZelinskyQuestion38.lean"
+      },
+      "lineage": "collected:mccormack-zelinsky-2023-question-38:s2",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mccormack-zelinsky-2023-question-38",
+      "scope": "in_scope",
+      "statement": "For each positive odd integer $m$, the sets\n\\begin{gather*}\n\\{a\\in\\mathbb{Z}_{\\ge0}:m2^a\\text{ is strongly pseudoperfect}\\},\\\\\n\\{a\\in\\mathbb{Z}_{\\ge0}:m2^a\\text{ is extremely strongly pseudoperfect}\\}\n\\end{gather*}\nare ultimately periodic. For each set, an initial segment and a period\ncan be computed from the divisors of $m$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "McCormack and Zelinsky's Question 38 and a carry graph for strongly pseudoperfect families",
+      "toolchain": null,
+      "version": 2,
+      "work": "mccormack-zelinsky-2023-question-38"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:mccormack-zelinsky-2023-question-38:2:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "eaf0389aea9af0c4a38ddaaa55e726ca120e42a1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eaf0389aea9af0c4a38ddaaa55e726ca120e42a1/D5/S3/Arith/Abundancy/McCormackZelinskyQuestion38.lean"
+      },
+      "lineage": "collected:mccormack-zelinsky-2023-question-38:s3",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "mccormack-zelinsky-2023-question-38",
+      "scope": "in_scope",
+      "statement": "For integers $a\\ge0$, $9\\cdot 2^a$ is strongly pseudoperfect exactly when\n$a=2$ or $a\\ge6$. Every positive case is extremely strongly pseudoperfect.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "McCormack and Zelinsky's Question 38 and a carry graph for strongly pseudoperfect families",
+      "toolchain": null,
+      "version": 2,
+      "work": "mccormack-zelinsky-2023-question-38"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:meddaugh-stephens-2025-mixing-small-periodic-sets:2:s1",
       "kind": "paper",
       "label": "Theorem",

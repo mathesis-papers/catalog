@@ -1,6 +1,7 @@
 {
-  "doi": null,
+  "doi": "10.5281/zenodo.24582002",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/vega-coso-spectral-duality-uniqueness/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/vega-coso-spectral-duality-uniqueness",

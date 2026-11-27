@@ -6486,6 +6486,53 @@
       "work": "mathoverflow-513954-singular-diagonal-downdate-inertia"
     },
     {
+      "abstract_text": "We answer McCormack and Zelinsky's Question 38 (arXiv:2312.11661v4, p. 17) affirmatively: symmetric binary layers show that 60 times 2^j is strongly pseudoperfect for every integer j >= 0, with both endpoint divisors present. More generally, for each fixed positive odd part m, the exponents a for which m times 2^a is strongly pseudoperfect form an effectively ultimately periodic set. This also holds if both endpoint divisors are required. A finite carry graph gives both classifications for m=9: precisely a=2 or a>=6.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "eaf0389aea9af0c4a38ddaaa55e726ca120e42a1",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/eaf0389aea9af0c4a38ddaaa55e726ca120e42a1/D5/S3/Arith/Abundancy/McCormackZelinskyQuestion38.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 56244,
+        "sha256": "1dbefbe3f9b6fa0e8ede0d03211e4484fae809856f31abe53cb1da611e9f1506",
+        "url": "/api/v1/collected-papers/mccormack-zelinsky-2023-question-38/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-27T09:32:53.495811278Z",
+      "record": "mccormack-zelinsky-2023-question-38",
+      "repository_name": "mccormack-zelinsky-2023-question-38",
+      "source": {
+        "bytes": 8765,
+        "sha256": "32ea0c35efe6f0aecdccaef83dc0098ac67cdd75877210737a0c2dc2d79d5ce9",
+        "url": "/api/v1/collected-papers/mccormack-zelinsky-2023-question-38/files/source?version=2"
+      },
+      "title": "McCormack and Zelinsky's Question 38 and a carry graph for strongly pseudoperfect families",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-27T09:32:53.495811278Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "mccormack-zelinsky-2023-question-38"
+    },
+    {
       "abstract_text": "Extending Moothathu's progression-exclusion construction (2010), we answer the open Question 5.6 of Meddaugh and Stephens (arXiv:2509.04312v1, Section 5, p. 12; 2025) affirmatively by constructing a mixing, surjective binary forward subshift with neighborhood 2-shadowing and a nonempty clopen set containing no nonempty periodic set. The subshift forbids an all-one arithmetic progression of length p^2+3 and difference p, for each positive integer p. Two separated deletion masks from a quadratic-irrational rotation trace every sufficiently accurate pseudo-orbit. The same construction is not of quasi-finite type, giving a further affirmative example for Question 5.3 (Section 5, p. 11), and has no ordinary shadowing. The same conclusions hold for every progression-length function ell(p)>=3 with ell(p)/p tending to infinity, without a monotonicity assumption. Each of the two tracing points can trace at a syndetic set of times, despite failure of quasi-finite type.",
       "authors": [
         {
@@ -9505,9 +9552,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24582001",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24582002",
       "lean_source": {
         "revision": "92de86888730265f84e24d28bdb67546c543a966",
         "url": "https://github.com/the-omega-institute/trureturing/blob/92de86888730265f84e24d28bdb67546c543a966/D5/S3/ContinuousObservables/SpectralDualityUniquenessRefutation.lean"

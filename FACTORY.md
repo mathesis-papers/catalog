@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-27T09:33:33.855338985Z`.
+Snapshot: `2026-11-27T10:31:37.898281152Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -144,6 +144,7 @@ Snapshot: `2026-11-27T09:33:33.855338985Z`.
 | [A negative answer to mathex's cutoff-series question beyond Ghafari's masks](https://github.com/mathesis-papers/mathex-2026-mo511715-cutoff-bound) | 2 | [DOI](https://doi.org/10.5281/zenodo.24446063) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Proof of the weighted-minor inequality in MathOverflow 469781](https://github.com/mathesis-papers/10.5281-zenodo.23931737) | 2 | [DOI](https://doi.org/10.5281/zenodo.23931738) | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [MathOverflow 513954, revision 2: singular signed downdates, fixed coordinates, and a sharp polynomial sphere bound](https://github.com/mathesis-papers/10.5281-zenodo.23920597) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920598) | en, zh | 2 / 1 / 0 | 11 no target yet |
+| [McCormack and Zelinsky's Question 38 and a carry graph for strongly pseudoperfect families](https://github.com/mathesis-papers/mccormack-zelinsky-2023-question-38) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
 | [Neighborhood two-shadowing for progression subshifts: an extension of Moothathu (2010) answering Meddaugh–Stephens, arXiv:2509.04312v1, Section 5, Question 5.6](https://github.com/mathesis-papers/meddaugh-stephens-2025-mixing-small-periodic-sets) | 2 | [DOI](https://doi.org/10.5281/zenodo.24404947) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Extending Meddaugh and Stephens' examples to every finite neighborhood-shadowing separation](https://github.com/mathesis-papers/meddaugh-stephens-2025-neighborhood-shadowing-hierarchy) | 2 | [DOI](https://doi.org/10.5281/zenodo.24498082) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Boundary bounds for Mertens's grid–cylinder conjecture: an alternative proof and extensions](https://github.com/mathesis-papers/mertens-2024-grid-cylinder-joint-growth) | 3 | [DOI](https://doi.org/10.5281/zenodo.24409065) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
@@ -208,7 +209,7 @@ Snapshot: `2026-11-27T09:33:33.855338985Z`.
 | [A counterexample to the Shannon conjecture following Eq. (69) in Tarabunga et al., Section V.C](https://github.com/mathesis-papers/10.5281-zenodo.23903315) | 1 | [DOI](https://doi.org/10.5281/zenodo.23903316) | en, zh | 0 / 0 / 0 | 7 no target yet |
 | [Sharp quotients and column polynomials: alternative proofs for OEIS A355257, revision 37, Comments, after Benyattou-Mihoubi (2017) and Fried (2025)](https://github.com/mathesis-papers/tebni355257-logcoef) | 2 | [DOI](https://doi.org/10.5281/zenodo.24406609) | en, zh | 1 / 1 / 0 | 9 no target yet |
 | [Resolving User3's orthogonal absolute-product question: minimum and minimizers](https://github.com/mathesis-papers/10.5281-zenodo.23885983) | 2 | [DOI](https://doi.org/10.5281/zenodo.23885984) | en, zh | 0 / 0 / 0 | 4 no target yet |
-| [Nonuniqueness in Vega Coso's question on accidental neutrality](https://github.com/mathesis-papers/vega-coso-spectral-duality-uniqueness) | 3 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
+| [Nonuniqueness in Vega Coso's question on accidental neutrality](https://github.com/mathesis-papers/vega-coso-spectral-duality-uniqueness) | 3 | [DOI](https://doi.org/10.5281/zenodo.24582002) | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
 | [Vélez Caicedo and Cadavid's numerical-semigroup realizability question: prescribed maxima and reduced spectral data](https://github.com/mathesis-papers/velez-cadavid-numerical-semigroup-realizability) | 2 | [DOI](https://doi.org/10.5281/zenodo.24404958) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Exact W and generalized-GHZ Bell-measurement optima: Completing Chakrabarty–Kundu (2026), Section III D, page 5: Table III and Eq. (15), with the Horodecki (1995) single-node consequence](https://github.com/mathesis-papers/w-state-bsm-optimum) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409079) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Counterexamples to Wang's Conjectures 3.26 and 5.3 on semigroup algebras](https://github.com/mathesis-papers/10.5281-zenodo.23884900) | 2 | [DOI](https://doi.org/10.5281/zenodo.23884901) | en, zh | 0 / 0 / 0 | 5 no target yet |
