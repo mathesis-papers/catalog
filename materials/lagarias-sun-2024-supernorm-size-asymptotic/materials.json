@@ -1,6 +1,7 @@
 {
-  "doi": null,
+  "doi": "10.5281/zenodo.24578337",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/lagarias-sun-2024-supernorm-size-asymptotic/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/lagarias-sun-2024-supernorm-size-asymptotic",

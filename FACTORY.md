@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-27T14:31:24.28705717Z`.
+Snapshot: `2026-11-27T15:31:31.517905601Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -51,6 +51,7 @@ Snapshot: `2026-11-27T14:31:24.28705717Z`.
 | [The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary](https://github.com/mathesis-papers/10.5281-zenodo.23934999) | 2 | [DOI](https://doi.org/10.5281/zenodo.23935000) | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won](https://github.com/mathesis-papers/choi-yoo-kim-kwon-won-healing-chains) | 2 | [DOI](https://doi.org/10.5281/zenodo.24487234) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Schatten and rank extensions of Clarisse and Wocjan's permutation classification](https://github.com/mathesis-papers/clarisse-wocjan-2005-permutation-criteria-classification) | 2 | [DOI](https://doi.org/10.5281/zenodo.24414702) | Awaiting reading | 0 / 0 / 0 | 10 no target yet |
+| [Collins and Sciriha's main-spectrum question for canonical double covers: A direct proof and a common relabelling](https://github.com/mathesis-papers/collins-sciriha-main-spectrum-double-cover) | 3 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
 | [Refuting the X-MEMS closest-separable-state conjecture in arXiv:2209.01430v2, Appendix A, Eq. (A11)](https://github.com/mathesis-papers/10.5281-zenodo.23904463) | 2 | [DOI](https://doi.org/10.5281/zenodo.23904464) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions](https://github.com/mathesis-papers/coons-strict-adjacent-multiplicity-growth) | 3 | [DOI](https://doi.org/10.5281/zenodo.24445675) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence](https://github.com/mathesis-papers/copeland-a131758) | 2 | [DOI](https://doi.org/10.5281/zenodo.24445683) | en, zh | 1 / 1 / 0 | 7 no target yet |
@@ -126,7 +127,7 @@ Snapshot: `2026-11-27T14:31:24.28705717Z`.
 | [An alternative proof of Kurkov's logarithmic-polynomial recursion and its Leonov–Shiryaev interpretation](https://github.com/mathesis-papers/kurkov-a263634-log-polynomials) | 2 | [DOI](https://doi.org/10.5281/zenodo.24412937) | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
 | [Kurkov's convolution-row conjectures over arbitrary semirings](https://github.com/mathesis-papers/kurkov-a340991-convolution-row-recursion) | 2 | [DOI](https://doi.org/10.5281/zenodo.24410093) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher](https://github.com/mathesis-papers/kurkov-binary-stirling-row-edge) | 2 | [DOI](https://doi.org/10.5281/zenodo.24446052) | Awaiting reading | 0 / 0 / 0 | 12 no target yet |
-| [The Lagarias–Sun size and perimeter conjectures for reciprocal supernorms](https://github.com/mathesis-papers/lagarias-sun-2024-supernorm-size-asymptotic) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
+| [The Lagarias–Sun size and perimeter conjectures for reciprocal supernorms](https://github.com/mathesis-papers/lagarias-sun-2024-supernorm-size-asymptotic) | 2 | [DOI](https://doi.org/10.5281/zenodo.24578337) | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
 | [Trace-coupled counterexamples to Larotonda's principal-log distance conjecture: beyond the Antezana-Larotonda-Varela theorem](https://github.com/mathesis-papers/larotonda-principal-log-distance) | 2 | [DOI](https://doi.org/10.5281/zenodo.24414711) | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
 | [Extending Li–Poon–Sze's elementary-symmetric realignment comparison to unequal dimensions](https://github.com/mathesis-papers/li-poon-sze-2011-p2-realignment-gap) | 3 | [DOI](https://doi.org/10.5281/zenodo.24484270) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Quantitative extensions of Araújo et al.'s phase obstruction for Liu, Wesołowski, Thompson, Gu and Pira's uncontrolled fractional-evolution question](https://github.com/mathesis-papers/liu-wesolowski-2026-ordinary-fractional-evolution) | 3 | [DOI](https://doi.org/10.5281/zenodo.24414717) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |

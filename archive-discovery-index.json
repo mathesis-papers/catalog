@@ -265,6 +265,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24586893",
+      "id": "collins-sciriha-main-spectrum-double-cover",
+      "kind": "collected",
+      "version": 3
+    },
+    {
       "doi": "10.5281/zenodo.23904464",
       "id": "consiglio-apollaro-wiesniak-2022-xmems-css-shape",
       "kind": "collected",
@@ -1273,6 +1279,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-27T14:31:24.28705717Z",
+  "generated_at": "2026-11-27T15:31:31.517905601Z",
   "schema": "mathesis.archive-index.v1"
 }

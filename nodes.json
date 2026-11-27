@@ -12745,6 +12745,117 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:collins-sciriha-main-spectrum-double-cover:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "cb5520f13afeec01583f5fb76b97f0e1d0cd7e34",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/cb5520f13afeec01583f5fb76b97f0e1d0cd7e34/D5/S3/Combinatorics/SpectralGraph/CollinsScirihaMainSpectrum.lean"
+      },
+      "lineage": "collected:collins-sciriha-main-spectrum-double-cover:s1",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "collins-sciriha-main-spectrum-double-cover",
+      "scope": "in_scope",
+      "statement": "For every finite simple undirected graph $G$, the main eigenvalues of $G$ and $\\operatorname{CDC}(G)$ coincide. In particular, finite simple graphs with isomorphic canonical double covers have the same main eigenvalues.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Collins and Sciriha's main-spectrum question for canonical double covers: A direct proof and a common relabelling",
+      "toolchain": null,
+      "version": 3,
+      "work": "collins-sciriha-main-spectrum-double-cover"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:collins-sciriha-main-spectrum-double-cover:3:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "cb5520f13afeec01583f5fb76b97f0e1d0cd7e34",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/cb5520f13afeec01583f5fb76b97f0e1d0cd7e34/D5/S3/Combinatorics/SpectralGraph/CollinsScirihaMainSpectrum.lean"
+      },
+      "lineage": "collected:collins-sciriha-main-spectrum-double-cover:s2",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "collins-sciriha-main-spectrum-double-cover",
+      "scope": "in_scope",
+      "statement": "For every finite simple graph $G$ and real $\\lambda$,\n\\[\n p_{\\operatorname{CDC}(G)}(\\lambda)=(p_G(\\lambda),p_G(\\lambda)),\n \\qquad w_{\\operatorname{CDC}(G)}(\\lambda)=2w_G(\\lambda).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Collins and Sciriha's main-spectrum question for canonical double covers: A direct proof and a common relabelling",
+      "toolchain": null,
+      "version": 3,
+      "work": "collins-sciriha-main-spectrum-double-cover"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:collins-sciriha-main-spectrum-double-cover:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "cb5520f13afeec01583f5fb76b97f0e1d0cd7e34",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/cb5520f13afeec01583f5fb76b97f0e1d0cd7e34/D5/S3/Combinatorics/SpectralGraph/CollinsScirihaMainSpectrum.lean"
+      },
+      "lineage": "collected:collins-sciriha-main-spectrum-double-cover:s3",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "collins-sciriha-main-spectrum-double-cover",
+      "scope": "in_scope",
+      "statement": "If $\\operatorname{CDC}(G)\\cong\\operatorname{CDC}(H)$, there is a vertex bijection between $G$ and $H$ under which $p_G(\\lambda)$ and $p_H(\\lambda)$ agree for every real $\\lambda$. In particular the weights, main eigenspaces and the restrictions of the adjacency matrices to those main eigenspaces agree under one common relabelling.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Collins and Sciriha's main-spectrum question for canonical double covers: A direct proof and a common relabelling",
+      "toolchain": null,
+      "version": 3,
+      "work": "collins-sciriha-main-spectrum-double-cover"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:consiglio-apollaro-wiesniak-2022-xmems-css-shape:2:s1",
       "kind": "paper",
       "label": "Theorem",

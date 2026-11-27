@@ -2113,6 +2113,53 @@
       "work": "clarisse-wocjan-2005-permutation-criteria-classification"
     },
     {
+      "abstract_text": "We give a direct proof of the affirmative answer to Collins and Sciriha's main-spectrum question for isomorphic canonical double covers (arXiv:1906.05790v1, Question 5.8, p. 15; journal Question 16, p. 522), which already follows from Cvetković's 1978 divisor argument and Teranishi's 2001 equitable-quotient theorem. The proof duplicates and sums coordinates in the two layers. Under one relabelling of the base vertices, the projections of the all-ones vector onto corresponding eigenspaces also agree.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "cb5520f13afeec01583f5fb76b97f0e1d0cd7e34",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/cb5520f13afeec01583f5fb76b97f0e1d0cd7e34/D5/S3/Combinatorics/SpectralGraph/CollinsScirihaMainSpectrum.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 61669,
+        "sha256": "e6f32beb4d63494d8455812dac6048952dda3e64ea7582a1d12b294fbcc70acf",
+        "url": "/api/v1/collected-papers/collins-sciriha-main-spectrum-double-cover/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-27T15:18:52.075779158Z",
+      "record": "collins-sciriha-main-spectrum-double-cover",
+      "repository_name": "collins-sciriha-main-spectrum-double-cover",
+      "source": {
+        "bytes": 7179,
+        "sha256": "b83a4f10eede153cf92a708587061a1b4052d319a7218e810afb7526027cc569",
+        "url": "/api/v1/collected-papers/collins-sciriha-main-spectrum-double-cover/files/source?version=3"
+      },
+      "title": "Collins and Sciriha's main-spectrum question for canonical double covers: A direct proof and a common relabelling",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-27T15:18:52.075779158Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "collins-sciriha-main-spectrum-double-cover"
+    },
+    {
       "abstract_text": "We refute the closest-fully-separable-state shape conjecture of Consiglio, Apollaro and Wieśniak, arXiv:2209.01430v2, Appendix A, Eq. (A11), already for three qubits on the low branch at gamma = 11/112. Every fully separable state of the proposed shape has squared Hilbert–Schmidt distance at least 109/23520, whereas an explicit mixture of ten pure product states has distance 417965512477/90316800000000. The counterexample and exact restricted minimum have self-contained written proofs, as do related counterexamples to the full-separability and concurrence comparisons in the posing source. An elementary bound also establishes its large-qubit limit without the conjectured shape.",
       "authors": [
         {
@@ -5649,9 +5696,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24578336",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24578337",
       "lean_source": {
         "revision": "40ae81c09797bef5d9be159508ca5f85dae9f958",
         "url": "https://github.com/the-omega-institute/trureturing/blob/40ae81c09797bef5d9be159508ca5f85dae9f958/D5/S3/Arith/Partitions/SupernormSizeAsymptotic.lean#L953"
