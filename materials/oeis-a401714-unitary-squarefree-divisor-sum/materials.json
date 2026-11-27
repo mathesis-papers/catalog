@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/oeis-a401714-unitary-squarefree-divisor-sum/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/oeis-a401714-unitary-squarefree-divisor-sum",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/oeis-a401714-unitary-squarefree-divisor-sum/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "oeis-a401714-unitary-squarefree-divisor-sum"
+}

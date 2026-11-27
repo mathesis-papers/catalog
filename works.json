@@ -2124,9 +2124,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24586892",
       "current_version": 3,
-      "doi": null,
+      "doi": "10.5281/zenodo.24586893",
       "lean_source": {
         "revision": "cb5520f13afeec01583f5fb76b97f0e1d0cd7e34",
         "url": "https://github.com/the-omega-institute/trureturing/blob/cb5520f13afeec01583f5fb76b97f0e1d0cd7e34/D5/S3/Combinatorics/SpectralGraph/CollinsScirihaMainSpectrum.lean"
@@ -8270,6 +8270,53 @@
         }
       ],
       "work": "oeis-a401248-first-two-dense-divisor-block-minimum"
+    },
+    {
+      "abstract_text": "In the Formula sections of OEIS A401714 (version 12) and A401715 (version 13), Antti Karttunen conjectured that if n/rad(n) is smaller than the least prime not dividing n, then the unitary and squarefree divisor sums together are at least 2n. We prove the implication for all positive integers, with equality exactly at n = 1, 4, 24 under its hypothesis. At fixed radical quotient m the normalized sum is uniquely minimized by including exactly the primes forced by the hypothesis, and its minimum has sharp lower asymptotic scale log m/log log m. A separate bound for odd integers with at most one prime of exponent one answers the question in OEIS A388986 about A228058.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "40ae81c09797bef5d9be159508ca5f85dae9f958",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/40ae81c09797bef5d9be159508ca5f85dae9f958/D5/S3/Arith/Divisors/KarttunenA401714.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 70652,
+        "sha256": "8e63359cea3458859769d9350f356d575ace96f530be3230b07de1b8c2cc7560",
+        "url": "/api/v1/collected-papers/oeis-a401714-unitary-squarefree-divisor-sum/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-27T16:20:33.422149034Z",
+      "record": "oeis-a401714-unitary-squarefree-divisor-sum",
+      "repository_name": "oeis-a401714-unitary-squarefree-divisor-sum",
+      "source": {
+        "bytes": 8601,
+        "sha256": "75dda7bf479f782ad5231b27303f8a5ad3d4d3b11d4a5e1d06edaca350bd6ba5",
+        "url": "/api/v1/collected-papers/oeis-a401714-unitary-squarefree-divisor-sum/files/source?version=2"
+      },
+      "title": "Karttunen's radical-quotient conjecture for two divisor sums",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-27T16:20:33.422149034Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "oeis-a401714-unitary-squarefree-divisor-sum"
     },
     {
       "abstract_text": "Conjectures 9.63, 9.64 and 9.66 in Section 9.8.3, pp. 96–97, of Okada's arXiv:2003.02112v2 concern almost palindromicity of pre-merged Gaussian determinants. For fitting natural tuples with unit weights and any constant positive integral base shift, the zero-degree-shift determinant is not almost palindromic at width at least three. At width two it is almost palindromic exactly when the smaller tuple gap is one, giving the non-almost-palindromic proportion (lambda-2)(lambda-3)/(lambda(lambda+1)) for lambda>=2. At width at least three and every degree shift 0<=e<=G, almost palindromicity holds exactly when 2e=G. The all-shift characterization and interior-coefficient argument are due to So Okada.",

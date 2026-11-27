@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-27T15:31:31.517905601Z`.
+Snapshot: `2026-11-27T16:32:57.91816464Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -51,7 +51,7 @@ Snapshot: `2026-11-27T15:31:31.517905601Z`.
 | [The §2.9 conjecture of Lester, Haddadin and Gripaios (arXiv:2008.05206v6): three parity-odd variables are necessary](https://github.com/mathesis-papers/10.5281-zenodo.23934999) | 2 | [DOI](https://doi.org/10.5281/zenodo.23935000) | en, zh | 2 / 1 / 0 | 7 no target yet |
 | [Unbounded healing chains in the question of Choi, Yoo, Kim, Kwon and Won](https://github.com/mathesis-papers/choi-yoo-kim-kwon-won-healing-chains) | 2 | [DOI](https://doi.org/10.5281/zenodo.24487234) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Schatten and rank extensions of Clarisse and Wocjan's permutation classification](https://github.com/mathesis-papers/clarisse-wocjan-2005-permutation-criteria-classification) | 2 | [DOI](https://doi.org/10.5281/zenodo.24414702) | Awaiting reading | 0 / 0 / 0 | 10 no target yet |
-| [Collins and Sciriha's main-spectrum question for canonical double covers: A direct proof and a common relabelling](https://github.com/mathesis-papers/collins-sciriha-main-spectrum-double-cover) | 3 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
+| [Collins and Sciriha's main-spectrum question for canonical double covers: A direct proof and a common relabelling](https://github.com/mathesis-papers/collins-sciriha-main-spectrum-double-cover) | 3 | [DOI](https://doi.org/10.5281/zenodo.24586893) | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
 | [Refuting the X-MEMS closest-separable-state conjecture in arXiv:2209.01430v2, Appendix A, Eq. (A11)](https://github.com/mathesis-papers/10.5281-zenodo.23904463) | 2 | [DOI](https://doi.org/10.5281/zenodo.23904464) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions](https://github.com/mathesis-papers/coons-strict-adjacent-multiplicity-growth) | 3 | [DOI](https://doi.org/10.5281/zenodo.24445675) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence](https://github.com/mathesis-papers/copeland-a131758) | 2 | [DOI](https://doi.org/10.5281/zenodo.24445683) | en, zh | 1 / 1 / 0 | 7 no target yet |
@@ -182,6 +182,7 @@ Snapshot: `2026-11-27T15:31:31.517905601Z`.
 | [Weighted toroidal extensions of Liang (2025): OEIS A394697, history revision 21, 6 May 2026 conjecture](https://github.com/mathesis-papers/oeis-a394697-toroidal-king-peak-entropy) | 2 | [DOI](https://doi.org/10.5281/zenodo.24407280) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Proof of Arkadeep Dutta's edge-collision ratio conjecture (OEIS A396659)](https://github.com/mathesis-papers/10.5281-zenodo.23885974) | 4 | [DOI](https://doi.org/10.5281/zenodo.23885975) | en, zh | 0 / 0 / 0 | 2 no target yet |
 | [Complete-fibre extension of Xausa's endpoint minima (2026): OEIS A401248, Formulas, Conjectures 1 and 2 (October 28, 2026)](https://github.com/mathesis-papers/oeis-a401248-first-two-dense-divisor-block-minimum) | 3 | [DOI](https://doi.org/10.5281/zenodo.24409071) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
+| [Karttunen's radical-quotient conjecture for two divisor sums](https://github.com/mathesis-papers/oeis-a401714-unitary-squarefree-divisor-sum) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
 | [Almost palindromicity of Okada's pre-merged determinants](https://github.com/mathesis-papers/10.5281-zenodo.23927423) | 3 | [DOI](https://doi.org/10.5281/zenodo.24389041) | Awaiting reading | 0 / 0 / 0 | 10 no target yet |
 | [Exact Fermat-divisor formulas for Ordowski's prime-offset conjecture, extending Crocker's covering method](https://github.com/mathesis-papers/ordowski) | 2 | [DOI](https://doi.org/10.5281/zenodo.24415608) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Oudra's cubic and quadratic floor conjectures and an alternative proof of Wu's tetrahedral formula](https://github.com/mathesis-papers/10.5281-zenodo.24410612) | 2 | [DOI](https://doi.org/10.5281/zenodo.24410613) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |

@@ -48864,6 +48864,117 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:oeis-a401714-unitary-squarefree-divisor-sum:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "40ae81c09797bef5d9be159508ca5f85dae9f958",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/40ae81c09797bef5d9be159508ca5f85dae9f958/D5/S3/Arith/Divisors/KarttunenA401714.lean"
+      },
+      "lineage": "collected:oeis-a401714-unitary-squarefree-divisor-sum:s1",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a401714-unitary-squarefree-divisor-sum",
+      "scope": "in_scope",
+      "statement": "If $n\\ge 1$ and $m<q(n)$, then $U(n)+S(n)\\ge 2n$.\nEquality holds if and only if $n\\in\\{1,4,24\\}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Karttunen's radical-quotient conjecture for two divisor sums",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a401714-unitary-squarefree-divisor-sum"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:oeis-a401714-unitary-squarefree-divisor-sum:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "40ae81c09797bef5d9be159508ca5f85dae9f958",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/40ae81c09797bef5d9be159508ca5f85dae9f958/D5/S3/Arith/Divisors/KarttunenA401714.lean"
+      },
+      "lineage": "collected:oeis-a401714-unitary-squarefree-divisor-sum:s2",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a401714-unitary-squarefree-divisor-sum",
+      "scope": "in_scope",
+      "statement": "For the minimum $B(m)$ in \\eqref{eq:min},\n\\[\n \\liminf_{m\\to\\infty}\\frac{B(m)\\log\\log m}{\\log m}=1.\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Karttunen's radical-quotient conjecture for two divisor sums",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a401714-unitary-squarefree-divisor-sum"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:oeis-a401714-unitary-squarefree-divisor-sum:2:s3",
+      "kind": "paper",
+      "label": "Proposition",
+      "lean_source": {
+        "revision": "40ae81c09797bef5d9be159508ca5f85dae9f958",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/40ae81c09797bef5d9be159508ca5f85dae9f958/D5/S3/Arith/Divisors/KarttunenA401714.lean"
+      },
+      "lineage": "collected:oeis-a401714-unitary-squarefree-divisor-sum:s3",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "oeis-a401714-unitary-squarefree-divisor-sum",
+      "scope": "in_scope",
+      "statement": "If $n$ is odd and nonsquarefree, and at most one prime has exponent one\nin $n$, then $U(n)+S(n)<2n$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Karttunen's radical-quotient conjecture for two divisor sums",
+      "toolchain": null,
+      "version": 2,
+      "work": "oeis-a401714-unitary-squarefree-divisor-sum"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:okada-2020-premerged-determinant-nonpalindromic:3:s1",
       "kind": "paper",
       "label": "Theorem",

@@ -1,6 +1,7 @@
 {
-  "doi": null,
+  "doi": "10.5281/zenodo.24586893",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/collins-sciriha-main-spectrum-double-cover/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/collins-sciriha-main-spectrum-double-cover",
