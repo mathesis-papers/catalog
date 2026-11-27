@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-27T05:40:49.330514174Z`.
+Snapshot: `2026-11-27T06:41:21.222736796Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -53,7 +53,7 @@ Snapshot: `2026-11-27T05:40:49.330514174Z`.
 | [Schatten and rank extensions of Clarisse and Wocjan's permutation classification](https://github.com/mathesis-papers/clarisse-wocjan-2005-permutation-criteria-classification) | 2 | [DOI](https://doi.org/10.5281/zenodo.24414702) | Awaiting reading | 0 / 0 / 0 | 10 no target yet |
 | [Refuting the X-MEMS closest-separable-state conjecture in arXiv:2209.01430v2, Appendix A, Eq. (A11)](https://github.com/mathesis-papers/10.5281-zenodo.23904463) | 2 | [DOI](https://doi.org/10.5281/zenodo.23904464) | en, zh | 2 / 1 / 0 | 3 no target yet |
 | [Elementary proofs of Dumont-Sidorov-Thomas growth bounds for Calkin-Wilf's and Coons's partition questions](https://github.com/mathesis-papers/coons-strict-adjacent-multiplicity-growth) | 3 | [DOI](https://doi.org/10.5281/zenodo.24445675) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
-| [Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence](https://github.com/mathesis-papers/copeland-a131758) | 2 | [DOI](https://doi.org/10.5281/zenodo.24445683) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
+| [Exact contents in Copeland's polynomial-content conjecture via Carlitz's congruence](https://github.com/mathesis-papers/copeland-a131758) | 2 | [DOI](https://doi.org/10.5281/zenodo.24445683) | en, zh | 1 / 1 / 0 | 7 no target yet |
 | [Bašić–Gottlieb–Krnc (2026), Section 5, Question 1 (p. 17): an alternative four-part proof after Mehat (2026), with explicit strategies and small-row stacking](https://github.com/mathesis-papers/crim-question-one-four-parts) | 2 | [DOI](https://doi.org/10.5281/zenodo.24406584) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Proof of Critch–Morton Conjecture 8 (SIGMA 10 (2014), 095, Section 2, p. 6): reconstruction from any consecutive three-site improper marginal](https://github.com/mathesis-papers/critch-morton-2014-open-boundary-mps-marginal-birationality) | 2 | [DOI](https://doi.org/10.5281/zenodo.24058061) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Switching reachability in twisted exclusion processes: extensions of Dabrowski, Poulain d'Andecy and Ragoucy's sector classification](https://github.com/mathesis-papers/dabrowski-poulain-ragoucy-2026-switched-ssep-reachability) | 2 | [DOI](https://doi.org/10.5281/zenodo.24488517) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
@@ -216,7 +216,7 @@ Snapshot: `2026-11-27T05:40:49.330514174Z`.
 | [A strict gap in the noisy-GHZ equality question of Xu et al., Section 4.2, page 12 of arXiv:2211.05563v1](https://github.com/mathesis-papers/10.5281-zenodo.23919078) | 1 | [DOI](https://doi.org/10.5281/zenodo.23919079) | en, zh | 0 / 0 / 0 | 3 no target yet |
 | [An alternative proof extending Kang's refutation of Yang–Chu–Zhang (2015), Conjecture 1(ii), p. 15](https://github.com/mathesis-papers/ycz2015-psicm) | 2 | [DOI](https://doi.org/10.5281/zenodo.24407832) | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
 | [Fixed points of superchannels for dephasing-covariant channels](https://github.com/mathesis-papers/yoeli-gour-destruction-superchannel) | 4 | [DOI](https://doi.org/10.5281/zenodo.24410104) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
-| [Flat averages refute Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11): an extension of Skotiniotis et al. (2018)](https://github.com/mathesis-papers/zhan-gupta-hillery-detector-sensor-flat-averaging) | 3 | [DOI](https://doi.org/10.5281/zenodo.24405810) | Awaiting reading | 0 / 0 / 0 | 10 no target yet |
+| [Flat averages refute Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11): an extension of Skotiniotis et al. (2018)](https://github.com/mathesis-papers/zhan-gupta-hillery-detector-sensor-flat-averaging) | 3 | [DOI](https://doi.org/10.5281/zenodo.24405810) | en, zh | 1 / 1 / 0 | 10 no target yet |
 | [Counterexamples to Zoroa et al.'s strong-dominance conjecture for every number of draws above four](https://github.com/mathesis-papers/zoroa-strong-dominance-counterexample) | 3 | [DOI](https://doi.org/10.5281/zenodo.24477884) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 
 Publication proceeds independently of exposition and proof work. A pinned Lean source is not statement-level verification. Exact targets, verified bundles and original attribution remain in [formalization](https://github.com/mathesis-papers/formalization). Public Mathesis receipts and leaderboards are authoritative.

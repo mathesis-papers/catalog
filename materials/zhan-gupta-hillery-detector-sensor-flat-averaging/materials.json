@@ -1,15 +1,74 @@
 {
   "doi": "10.5281/zenodo.24405810",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Lemma 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/552"
+    },
+    {
+      "label": "Theorem 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/553"
+    },
+    {
+      "label": "Lemma 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/554"
+    },
+    {
+      "label": "Theorem 4",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/555"
+    },
+    {
+      "label": "Corollary 5",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/556"
+    },
+    {
+      "label": "Corollary 6",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/557"
+    },
+    {
+      "label": "Corollary 7",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/558"
+    },
+    {
+      "label": "Corollary 8",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/559"
+    },
+    {
+      "label": "Corollary 9",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/560"
+    },
+    {
+      "label": "Corollary 10",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/561"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/zhan-gupta-hillery-detector-sensor-flat-averaging/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/zhan-gupta-hillery-detector-sensor-flat-averaging/zhan-gupta-hillery-detector-sensor-flat-averaging/en/",
+    "zh": "https://papers.trureturing.org/zhan-gupta-hillery-detector-sensor-flat-averaging/zhan-gupta-hillery-detector-sensor-flat-averaging/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/zhan-gupta-hillery-detector-sensor-flat-averaging",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/zhan-gupta-hillery-detector-sensor-flat-averaging/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "overview",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/zhan-gupta-hillery-detector-sensor-flat-averaging/zhan-gupta-hillery-detector-sensor-flat-averaging/slides/overview/zhan-gupta-hillery-detector-sensor-flat-averaging-overview-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/zhan-gupta-hillery-detector-sensor-flat-averaging/zhan-gupta-hillery-detector-sensor-flat-averaging/slides/overview/zhan-gupta-hillery-detector-sensor-flat-averaging-overview-en.pdf"
+    }
+  ],
   "version": 3,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-flat-averages-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/zhan-gupta-hillery-detector-sensor-flat-averaging/zhan-gupta-hillery-detector-sensor-flat-averaging/films/001-flat-averages/zhan-gupta-hillery-detector-sensor-flat-averaging_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/zhan-gupta-hillery-detector-sensor-flat-averaging/zhan-gupta-hillery-detector-sensor-flat-averaging/films/001-flat-averages/poster.jpg",
+      "title": "Why the average does not improve",
+      "url": "https://papers.trureturing.org/zhan-gupta-hillery-detector-sensor-flat-averaging/zhan-gupta-hillery-detector-sensor-flat-averaging/films/#001-flat-averages"
+    }
+  ],
   "visualizations": [],
   "work": "zhan-gupta-hillery-detector-sensor-flat-averaging"
 }

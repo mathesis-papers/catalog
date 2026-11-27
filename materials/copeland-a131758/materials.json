@@ -1,15 +1,62 @@
 {
   "doi": "10.5281/zenodo.24445683",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Proposition 1",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/463"
+    },
+    {
+      "label": "Theorem 2",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/464"
+    },
+    {
+      "label": "Corollary 3",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/465"
+    },
+    {
+      "label": "Corollary 4",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/466"
+    },
+    {
+      "label": "Corollary 5",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/467"
+    },
+    {
+      "label": "Corollary 6",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/468"
+    },
+    {
+      "label": "Corollary 7",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/469"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/copeland-a131758/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/copeland-a131758/copeland-a131758/en/",
+    "zh": "https://papers.trureturing.org/copeland-a131758/copeland-a131758/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/copeland-a131758",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/copeland-a131758/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "seminar",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/copeland-a131758/copeland-a131758/slides/seminar/copeland-a131758-seminar-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/copeland-a131758/copeland-a131758/slides/seminar/copeland-a131758-seminar-en.pdf"
+    }
+  ],
   "version": 2,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-content-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/copeland-a131758/copeland-a131758/films/001-content/copeland-a131758_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/copeland-a131758/copeland-a131758/films/001-content/poster.jpg",
+      "title": "Why only one or two?",
+      "url": "https://papers.trureturing.org/copeland-a131758/copeland-a131758/films/#001-content"
+    }
+  ],
   "visualizations": [],
   "work": "copeland-a131758"
 }
