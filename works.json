@@ -3241,6 +3241,53 @@
       "work": "groux-catalan-denominators"
     },
     {
+      "abstract_text": "Gy's dominance bijections (2026, Theorem 1.2, DOI 10.5281/zenodo.22960306) give coefficientwise nonnegativity of both triple-product differences for nonnegative, strongly q-log-concave inputs, but the coefficient log-concavity question (Gy, Integers 26 (2026), A108, Section 5, p. 16) has a negative answer for both differences. At adjacent indices, the inputs x_k=(k+a)(1+q+tq^2), a>0, give log-concave output coefficients exactly for 0<=t<=5/2. Adding any positive constant to all the inputs yields pairwise coprime counterexamples for every t>=5/2.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "b40e9bda5e0bbf3faa1874047f612e763c63a2b7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b40e9bda5e0bbf3faa1874047f612e763c63a2b7/D5/S3/Arith/PolynomialValues/GyC51Settlement.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 76802,
+        "sha256": "925d876b3652911598ef23474a0fd8c2d5f332e51d9c1f1bc750ae295176d58f",
+        "url": "/api/v1/collected-papers/gy26c51-affine-coefficient-log-concavity/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-27T18:21:17.184515187Z",
+      "record": "gy26c51-affine-coefficient-log-concavity",
+      "repository_name": "gy26c51-affine-coefficient-log-concavity",
+      "source": {
+        "bytes": 13286,
+        "sha256": "91e17f6529d30d01616d54b2cf011ad68ad836b1e5b7454a402f7bc0e0d67762",
+        "url": "/api/v1/collected-papers/gy26c51-affine-coefficient-log-concavity/files/source?version=3"
+      },
+      "title": "Gy's triple-product inequalities: nonnegativity and counterexamples to coefficient log-concavity",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-27T18:21:17.184515187Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "gy26c51-affine-coefficient-log-concavity"
+    },
+    {
       "abstract_text": "We prove Hanna's conjecture in OEIS A389474, FORMULA (3), and the companion conjectures in A389474, FORMULA (4), A389475, FORMULA (4.a), (4.b), and A389472, COMMENTS. For the first equation we establish A(x)^2 = x^2 + 2x^3 + 9Q(x), with Q in Z[[x]]. Integral coefficient constructions, Frobenius and binomial descent prove the six congruences. We also establish reversion identities and every even-power congruence modulo nine. If D is the A350432 series, every rational-seed solution of the A389472 equation is C_s=x+sD^2. Its product representation proves the stated convergence radius (sqrt(5)-1)/2 for D and every C_s with s nonzero.",
       "authors": [
         {
@@ -10244,6 +10291,53 @@
         }
       ],
       "work": "yoeli-gour-destruction-superchannel"
+    },
+    {
+      "abstract_text": "Contrary to Zelinsky's Conjecture 1 (Integers 21 (2021), A76, §7, p. 48), the ratio of the counts for any two fixed prime-factor inequalities of the proposed type has a positive limit within the Euler forms. The individual limiting densities are explicit reciprocal-square sums, correcting Theorem 9 of the same paper. At fixed slope, increasing the intercept reduces the limiting density exponentially, with an explicit positive factor of period two: the base is 2 for all Euler forms and 3 for odd Euler forms.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "dc44a77dcd06fef386d395ef43e4d94a8f7b7788",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/dc44a77dcd06fef386d395ef43e4d94a8f7b7788/D5/S3/Arith/Abundancy/ZelinskyOmegaRatioDensity.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 69326,
+        "sha256": "0c75de567aab60332b2da60f2d0c184475846a880f5be6bab58ccf0cea5e6727",
+        "url": "/api/v1/collected-papers/zelinsky-2021-conjecture-1-or-density/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-27T17:43:53.728464139Z",
+      "record": "zelinsky-2021-conjecture-1-or-density",
+      "repository_name": "zelinsky-2021-conjecture-1-or-density",
+      "source": {
+        "bytes": 8383,
+        "sha256": "b4277f912879c90ad8c08e1a3b30fcecf3bd60d16d95a896e85853a3ba578d00",
+        "url": "/api/v1/collected-papers/zelinsky-2021-conjecture-1-or-density/files/source?version=2"
+      },
+      "title": "Prime-factor densities in Euler forms: a refutation of Zelinsky's Conjecture 1",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-27T17:43:53.728464139Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "zelinsky-2021-conjecture-1-or-density"
     },
     {
       "abstract_text": "For Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11; arXiv:2306.17401v6, p. 11), we derive a strict-averaging counterexample from the complementary-layer Gram formula of Skotiniotis et al. (2018). Two different coefficient-square distributions and their whole averaging segment have the same Gram matrix and, for three sensors at theta = pi/4, the same error (14 - 4*sqrt(10))/27. We extend the earlier symmetric-probe calculation by proving weak convexity and the existence of a symmetric pure optimum without a symmetry assumption. This proves the companion Conjecture 1 and answers the source’s final question: one probe is optimal for both minimum-error and unambiguous discrimination at every detector angle. The reductions also apply to fixed unequal priors and diagonal impact patterns, without solving their general optimizers.",

@@ -3870,6 +3870,63 @@
       "work": "groux-catalan-denominators"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 76802,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "925d876b3652911598ef23474a0fd8c2d5f332e51d9c1f1bc750ae295176d58f",
+          "sha256": "925d876b3652911598ef23474a0fd8c2d5f332e51d9c1f1bc750ae295176d58f"
+        },
+        "source": {
+          "bytes": 13286,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "91e17f6529d30d01616d54b2cf011ad68ad836b1e5b7454a402f7bc0e0d67762",
+          "sha256": "91e17f6529d30d01616d54b2cf011ad68ad836b1e5b7454a402f7bc0e0d67762"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 4,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "b40e9bda5e0bbf3faa1874047f612e763c63a2b7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b40e9bda5e0bbf3faa1874047f612e763c63a2b7/D5/S3/Arith/PolynomialValues/GyC51Settlement.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/gy26c51-affine-coefficient-log-concavity",
+      "site_url": "https://papers.trureturing.org/gy26c51-affine-coefficient-log-concavity/",
+      "title": "Gy's triple-product inequalities: nonnegativity and counterexamples to coefficient log-concavity",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 3,
+      "work": "gy26c51-affine-coefficient-log-concavity"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24409051",
       "doi": "10.5281/zenodo.24409052",
       "files": {
@@ -12247,6 +12304,63 @@
       "work": "yoeli-gour-destruction-superchannel"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 69326,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "0c75de567aab60332b2da60f2d0c184475846a880f5be6bab58ccf0cea5e6727",
+          "sha256": "0c75de567aab60332b2da60f2d0c184475846a880f5be6bab58ccf0cea5e6727"
+        },
+        "source": {
+          "bytes": 8383,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "b4277f912879c90ad8c08e1a3b30fcecf3bd60d16d95a896e85853a3ba578d00",
+          "sha256": "b4277f912879c90ad8c08e1a3b30fcecf3bd60d16d95a896e85853a3ba578d00"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 2,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "dc44a77dcd06fef386d395ef43e4d94a8f7b7788",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/dc44a77dcd06fef386d395ef43e4d94a8f7b7788/D5/S3/Arith/Abundancy/ZelinskyOmegaRatioDensity.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/zelinsky-2021-conjecture-1-or-density",
+      "site_url": "https://papers.trureturing.org/zelinsky-2021-conjecture-1-or-density/",
+      "title": "Prime-factor densities in Euler forms: a refutation of Zelinsky's Conjecture 1",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "zelinsky-2021-conjecture-1-or-density"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24405809",
       "doi": "10.5281/zenodo.24405810",
       "files": {
@@ -12359,8 +12473,8 @@
       "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 220,
+  "papers": 222,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-27T17:31:39.182537232Z"
+  "snapshot_time": "2026-11-27T18:34:41.029974996Z"
 }

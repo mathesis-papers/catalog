@@ -19361,6 +19361,166 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:gy26c51-affine-coefficient-log-concavity:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "b40e9bda5e0bbf3faa1874047f612e763c63a2b7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b40e9bda5e0bbf3faa1874047f612e763c63a2b7/D5/S3/Arith/PolynomialValues/GyC51Settlement.lean"
+      },
+      "lineage": "collected:gy26c51-affine-coefficient-log-concavity:s1",
+      "macros": {
+        "\\Rplus": "\\mathbb R_{\\ge0}[q]",
+        "\\coeff": "[q^{#1}]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "gy26c51-affine-coefficient-log-concavity",
+      "scope": "in_scope",
+      "statement": "Let $a>0$, $t\\ge0$, and $j\\ge1$ be an integer. Put\n\\[\n g_t(q)=1+q+tq^2,\\qquad x_k(q)=(k+a)g_t(q)\\quad(k\\ge0).\n\\]\nThen $(x_k)$ satisfies \\eqref{eq:strong}, and\n\\begin{equation}\n E_x^{j+2,j+1,j}=H_x^{j+2,j+1,j}=C_{a,j}g_t^4,\\qquad\n C_{a,j}=\\frac{j(j+1)^2(j+2)(2a+j+2)(4a+j+3)}{48}>0.\n\\end{equation}\nThe coefficient sequences of these two polynomials are log-concave\nif and only if $0\\le t\\le5/2$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Gy's triple-product inequalities: nonnegativity and counterexamples to coefficient log-concavity",
+      "toolchain": null,
+      "version": 3,
+      "work": "gy26c51-affine-coefficient-log-concavity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:gy26c51-affine-coefficient-log-concavity:3:s2",
+      "kind": "paper",
+      "label": "Lemma",
+      "lean_source": {
+        "revision": "b40e9bda5e0bbf3faa1874047f612e763c63a2b7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b40e9bda5e0bbf3faa1874047f612e763c63a2b7/D5/S3/Arith/PolynomialValues/GyC51Settlement.lean"
+      },
+      "lineage": "collected:gy26c51-affine-coefficient-log-concavity:s2",
+      "macros": {
+        "\\Rplus": "\\mathbb R_{\\ge0}[q]",
+        "\\coeff": "[q^{#1}]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "gy26c51-affine-coefficient-log-concavity",
+      "scope": "in_scope",
+      "statement": "For arbitrary inputs $x_k$ in a commutative ring and $j\\ge1$, let\n$s_m=\\sum_{k=1}^m x_k$. Then\n\\begin{equation}\n E_x^{j+2,j+1,j}=H_x^{j+2,j+1,j}\n =s_{j+1}\\sum_{b=1}^j s_b\n       (x_{j+1}x_{b+1}-x_{j+2}x_b).\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Gy's triple-product inequalities: nonnegativity and counterexamples to coefficient log-concavity",
+      "toolchain": null,
+      "version": 3,
+      "work": "gy26c51-affine-coefficient-log-concavity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:gy26c51-affine-coefficient-log-concavity:3:s3",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b40e9bda5e0bbf3faa1874047f612e763c63a2b7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b40e9bda5e0bbf3faa1874047f612e763c63a2b7/D5/S3/Arith/PolynomialValues/GyC51Settlement.lean"
+      },
+      "lineage": "collected:gy26c51-affine-coefficient-log-concavity:s3",
+      "macros": {
+        "\\Rplus": "\\mathbb R_{\\ge0}[q]",
+        "\\coeff": "[q^{#1}]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "gy26c51-affine-coefficient-log-concavity",
+      "scope": "in_scope",
+      "statement": "Fix real numbers $a>0$, $\\varepsilon>0$ and $t\\ge5/2$, and set\n$x_k=(k+a)g_t+\\varepsilon$ for $k\\ge0$. These polynomials have\nstrictly positive coefficients, are pairwise coprime in $\\mathbb R[q]$,\nand satisfy \\eqref{eq:strong}. For every integer $j\\ge1$, the two\ndifferences at $(n,p,j)=(j+2,j+1,j)$ are equal and have nonnegative\ncoefficients, but their first coefficient log-concavity determinant\nis strictly negative.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Gy's triple-product inequalities: nonnegativity and counterexamples to coefficient log-concavity",
+      "toolchain": null,
+      "version": 3,
+      "work": "gy26c51-affine-coefficient-log-concavity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:gy26c51-affine-coefficient-log-concavity:3:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "b40e9bda5e0bbf3faa1874047f612e763c63a2b7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b40e9bda5e0bbf3faa1874047f612e763c63a2b7/D5/S3/Arith/PolynomialValues/GyC51Settlement.lean"
+      },
+      "lineage": "collected:gy26c51-affine-coefficient-log-concavity:s4",
+      "macros": {
+        "\\Rplus": "\\mathbb R_{\\ge0}[q]",
+        "\\coeff": "[q^{#1}]#2"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "gy26c51-affine-coefficient-log-concavity",
+      "scope": "in_scope",
+      "statement": "For $1\\le j\\le p\\le n$, if all $x_k$ have nonnegative coefficients\nand satisfy \\eqref{eq:strong}, then $E_x^{n,p,j}$ and $H_x^{n,p,j}$\nhave nonnegative coefficients. This applies Gy's stated implication\nfrom Conjecture~4.1 to its $q$-analogue, Conjecture~5.1\n\\cite[\\S5, p.~15]{gy}, with coefficientwise nonnegativity made explicit.\nGy proved Conjecture~4.1 in \\cite[Theorem~1.2, p.~3]{gy-bijective}.\nThe specializations below give Conjecture~5.2 and the corresponding\ntype~B nonnegativity statement.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Gy's triple-product inequalities: nonnegativity and counterexamples to coefficient log-concavity",
+      "toolchain": null,
+      "version": 3,
+      "work": "gy26c51-affine-coefficient-log-concavity"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:h3894-composition-congruences:2:s1",
       "kind": "paper",
       "label": "Lemma",
@@ -60817,6 +60977,84 @@
       "toolchain": null,
       "version": 4,
       "work": "yoeli-gour-destruction-superchannel"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
+      "identity": "collected:zelinsky-2021-conjecture-1-or-density:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "dc44a77dcd06fef386d395ef43e4d94a8f7b7788",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/dc44a77dcd06fef386d395ef43e4d94a8f7b7788/D5/S3/Arith/Abundancy/ZelinskyOmegaRatioDensity.lean"
+      },
+      "lineage": "collected:zelinsky-2021-conjecture-1-or-density:s1",
+      "macros": {
+        "\\ord": "\\operatorname{v}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zelinsky-2021-conjecture-1-or-density",
+      "scope": "in_scope",
+      "statement": "For all fixed real $\\alpha,\\beta$, as $x\\to\\infty$,\n\\begin{equation}\n   E(x)\\sim \\frac{\\zeta(2)}2\\frac{x}{\\log x},\n   \\qquad E_{\\alpha,\\beta}(x)\\sim\\frac{W_{\\alpha,\\beta}}2\\frac{x}{\\log x},\n   \\qquad W_{\\alpha,\\beta}>0.\n\\end{equation}\nConsequently $E_{\\alpha,\\beta}(x)/E(x)$ tends to $W_{\\alpha,\\beta}/\\zeta(2)$,\nand the ratio for any two fixed pairs tends to $W_{\\alpha_1,\\beta_1}/W_{\\alpha_2,\\beta_2}>0$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-factor densities in Euler forms: a refutation of Zelinsky's Conjecture 1",
+      "toolchain": null,
+      "version": 2,
+      "work": "zelinsky-2021-conjecture-1-or-density"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:zelinsky-2021-conjecture-1-or-density:2:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "dc44a77dcd06fef386d395ef43e4d94a8f7b7788",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/dc44a77dcd06fef386d395ef43e4d94a8f7b7788/D5/S3/Arith/Abundancy/ZelinskyOmegaRatioDensity.lean"
+      },
+      "lineage": "collected:zelinsky-2021-conjecture-1-or-density:s2",
+      "macros": {
+        "\\ord": "\\operatorname{v}"
+      },
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "zelinsky-2021-conjecture-1-or-density",
+      "scope": "in_scope",
+      "statement": "Fix $\\alpha\\in\\mathbb R$ and $r<u<r_+$. As $\\beta\\to+\\infty$ through real values,\n\\begin{equation}\n  W^{(r)}_{\\alpha,\\beta}=r^{-\\beta}H_{\\alpha,r}(\\beta)+O_{\\alpha,r,u}(u^{-\\beta}),\n\\end{equation}\nwhere the following function has period $2$ and is bounded above and away from zero:\n\\[\n H_{\\alpha,r}(\\beta)=\\frac{1}{1-r^{-2}}\n   \\sum_{t\\in\\mathcal T_r}\\frac{r^{\\beta-2\\lceil(\\beta+2\\alpha-1-D_\\alpha(t))/2\\rceil}}{t^2}.\n\\]\nIn particular $W^{(r)}_{\\alpha,\\beta+2}/W^{(r)}_{\\alpha,\\beta}\\to r^{-2}$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Prime-factor densities in Euler forms: a refutation of Zelinsky's Conjecture 1",
+      "toolchain": null,
+      "version": 2,
+      "work": "zelinsky-2021-conjecture-1-or-density"
     },
     {
       "attribution": null,

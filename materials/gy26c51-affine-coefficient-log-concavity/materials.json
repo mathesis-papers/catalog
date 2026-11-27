@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/gy26c51-affine-coefficient-log-concavity/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/gy26c51-affine-coefficient-log-concavity",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/gy26c51-affine-coefficient-log-concavity/",
+  "slides": [],
+  "version": 3,
+  "videos": [],
+  "visualizations": [],
+  "work": "gy26c51-affine-coefficient-log-concavity"
+}

@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-27T17:31:39.182537232Z`.
+Snapshot: `2026-11-27T18:34:41.029974996Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -75,6 +75,7 @@ Snapshot: `2026-11-27T17:31:39.182537232Z`.
 | [Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration](https://github.com/mathesis-papers/graffeo-gubbiotti-remark77-generic-nambu-cremona) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Proof of Granvik's real-part conjecture in OEIS A292273 (revision 24, FORMULA, 6 July 2024)](https://github.com/mathesis-papers/granvik-2024-a292273-real-part) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Catalan formula corrections and short proofs of Groux's and Staunton's conjectures](https://github.com/mathesis-papers/10.5281-zenodo.24411278) | 2 | [DOI](https://doi.org/10.5281/zenodo.24411279) | Awaiting reading | 0 / 0 / 0 | 2 no target yet |
+| [Gy's triple-product inequalities: nonnegativity and counterexamples to coefficient log-concavity](https://github.com/mathesis-papers/gy26c51-affine-coefficient-log-concavity) | 3 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
 | [Hanna's OEIS A389474 FORMULA (3): a modulo-nine proof and companion congruences](https://github.com/mathesis-papers/h3894-composition-congruences) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409052) | Awaiting reading | 0 / 0 / 0 | 11 no target yet |
 | [Hägele’s (3,3) refined BMV lower bound in all dimensions](https://github.com/mathesis-papers/hagele-2026-refined-bmv-33-all-dimensions) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Extending Han–Pedon (2026): proof of Conjecture C for metallic Hankel determinants (arXiv:2610.36132v1, p. 6)](https://github.com/mathesis-papers/han-pedon-metallic-hankel-quasipolynomial) | 2 | [DOI](https://doi.org/10.5281/zenodo.24404938) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
@@ -224,6 +225,7 @@ Snapshot: `2026-11-27T17:31:39.182537232Z`.
 | [A strict gap in the noisy-GHZ equality question of Xu et al., Section 4.2, page 12 of arXiv:2211.05563v1](https://github.com/mathesis-papers/10.5281-zenodo.23919078) | 1 | [DOI](https://doi.org/10.5281/zenodo.23919079) | en, zh | 0 / 0 / 0 | 3 no target yet |
 | [An alternative proof extending Kang's refutation of Yang–Chu–Zhang (2015), Conjecture 1(ii), p. 15](https://github.com/mathesis-papers/ycz2015-psicm) | 2 | [DOI](https://doi.org/10.5281/zenodo.24407832) | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
 | [Fixed points of superchannels for dephasing-covariant channels](https://github.com/mathesis-papers/yoeli-gour-destruction-superchannel) | 4 | [DOI](https://doi.org/10.5281/zenodo.24410104) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
+| [Prime-factor densities in Euler forms: a refutation of Zelinsky's Conjecture 1](https://github.com/mathesis-papers/zelinsky-2021-conjecture-1-or-density) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 2 no target yet |
 | [Flat averages refute Zhan–Gupta–Hillery, Section 5, Conjecture 2 (2024, p. 10:11): an extension of Skotiniotis et al. (2018)](https://github.com/mathesis-papers/zhan-gupta-hillery-detector-sensor-flat-averaging) | 3 | [DOI](https://doi.org/10.5281/zenodo.24405810) | en, zh | 1 / 1 / 0 | 10 no target yet |
 | [Counterexamples to Zoroa et al.'s strong-dominance conjecture for every number of draws above four](https://github.com/mathesis-papers/zoroa-strong-dominance-counterexample) | 3 | [DOI](https://doi.org/10.5281/zenodo.24477884) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 
