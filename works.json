@@ -3429,6 +3429,53 @@
       "work": "hanna-a381355"
     },
     {
+      "abstract_text": "We prove Paul D. Hanna's conjecture that OEIS A382316 has no negative terms (rev. 11, COMMENTS; FORMULA (1)). The defining equation has a unique normalized formal solution, and every positive-degree coefficient is a positive integer. The same two-series system that proves positivity gives radius of convergence 1 and two-sided bounds of order t^(-alpha) for the logarithm of the generating function at exp(-t) as t decreases to zero, where 2^(-alpha)/(1-2^(-alpha))+3^(-alpha)=1.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Recurrence/Invariants/HannaA382316CoefficientPositivity.lean#L265"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 66619,
+        "sha256": "1387a150aca1d74e69c8be31aa005e13d87bf1c48c4365cb5e26bbd4d0b8f034",
+        "url": "/api/v1/collected-papers/hanna-a382316/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-27T10:31:19.857029467Z",
+      "record": "hanna-a382316",
+      "repository_name": "hanna-a382316",
+      "source": {
+        "bytes": 9246,
+        "sha256": "3f220c646a17c414bf299fab7f0bbcc783f88372ef69733213a2c9cee3bbc217",
+        "url": "/api/v1/collected-papers/hanna-a382316/files/source?version=2"
+      },
+      "title": "Hanna's coefficient-positivity conjecture and the growth of its generating function",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-27T10:31:19.857029467Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "hanna-a382316"
+    },
+    {
       "abstract_text": "For Paul D. Hanna's OEIS A389472, revision 7 (2025), COMMENT 3, proved by Horace Dong (2026), we give an alternative proof of a(3n-1)=0 modulo 3 for every n>1, and integral-product extensions. The recurrence proof combines coefficient extraction with the least base-three digits of its binomial coefficients. An infinite-product identity relates this sequence to Hanna's A350432; it also proves the companion parity conjecture and the stated radius of convergence. A single product calculation also establishes the functional, inverse and radius identities of ten cross-referenced sequences, and identifies a missing series reversion in A273162's product formula.",
       "authors": [
         {
@@ -6497,9 +6544,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24579321",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24579322",
       "lean_source": {
         "revision": "eaf0389aea9af0c4a38ddaaa55e726ca120e42a1",
         "url": "https://github.com/the-omega-institute/trureturing/blob/eaf0389aea9af0c4a38ddaaa55e726ca120e42a1/D5/S3/Arith/Abundancy/McCormackZelinskyQuestion38.lean"

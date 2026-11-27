@@ -421,6 +421,12 @@
       "version": 2
     },
     {
+      "doi": "10.5281/zenodo.24576360",
+      "id": "hanna-a382316",
+      "kind": "collected",
+      "version": 2
+    },
+    {
       "doi": "10.5281/zenodo.24409465",
       "id": "hanna-a389472-congruences",
       "kind": "collected",
@@ -1255,6 +1261,6 @@
       "version": 3
     }
   ],
-  "generated_at": "2026-11-27T10:31:37.898281152Z",
+  "generated_at": "2026-11-27T11:32:55.173349986Z",
   "schema": "mathesis.archive-index.v1"
 }

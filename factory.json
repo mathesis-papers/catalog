@@ -3283,19 +3283,19 @@
         "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Contextuality/SteeringEllipsoidFThreeThreshold.lean"
       },
       "materials": {
-        "formalization_requests": 0,
-        "slides": 0,
-        "videos": 0,
+        "formalization_requests": 5,
+        "slides": 1,
+        "videos": 1,
         "visualizations": 0
       },
-      "mode": "paper",
+      "mode": "authored_book",
       "next_steps": [
-        "prepare_bilingual_reading",
-        "prepare_slides",
-        "prepare_video",
         "prepare_exact_targets"
       ],
-      "reading_languages": [],
+      "reading_languages": [
+        "en",
+        "zh"
+      ],
       "repository_url": "https://github.com/mathesis-papers/ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold",
       "site_url": "https://papers.trureturing.org/ducuara-susa-skrzypczyk-2024-f3-steering-ellipsoid-threshold/",
       "title": "The F3 threshold is 2/3: the QSE conjecture of Ducuara, Susa and Skrzypczyk (arXiv:2406.03945v1, Section II, p. 3) and extensions of Milne et al. (2014), Mukherjee, Patro and Ganguly (2021), and Morelli et al. (2023)",
@@ -4092,6 +4092,63 @@
       },
       "version": 2,
       "work": "hanna-a381355"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 66619,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "1387a150aca1d74e69c8be31aa005e13d87bf1c48c4365cb5e26bbd4d0b8f034",
+          "sha256": "1387a150aca1d74e69c8be31aa005e13d87bf1c48c4365cb5e26bbd4d0b8f034"
+        },
+        "source": {
+          "bytes": 9246,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "3f220c646a17c414bf299fab7f0bbcc783f88372ef69733213a2c9cee3bbc217",
+          "sha256": "3f220c646a17c414bf299fab7f0bbcc783f88372ef69733213a2c9cee3bbc217"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 4,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Recurrence/Invariants/HannaA382316CoefficientPositivity.lean#L265"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/hanna-a382316",
+      "site_url": "https://papers.trureturing.org/hanna-a382316/",
+      "title": "Hanna's coefficient-positivity conjecture and the growth of its generating function",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "hanna-a382316"
     },
     {
       "concept_doi": "10.5281/zenodo.24409464",
@@ -7738,8 +7795,8 @@
       "work": "mathoverflow-513954-singular-diagonal-downdate-inertia"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24579321",
+      "doi": "10.5281/zenodo.24579322",
       "files": {
         "pdf": {
           "bytes": 56244,
@@ -7776,7 +7833,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -12023,8 +12079,8 @@
       "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 214,
+  "papers": 215,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-27T10:31:37.898281152Z"
+  "snapshot_time": "2026-11-27T11:32:55.173349986Z"
 }

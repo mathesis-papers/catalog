@@ -21106,6 +21106,154 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:hanna-a382316:2:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Recurrence/Invariants/HannaA382316CoefficientPositivity.lean#L265"
+      },
+      "lineage": "collected:hanna-a382316:s1",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a382316",
+      "scope": "in_scope",
+      "statement": "There is a unique $A\\in\\mathbb Q[[x]]$ such that $[x^0]A=0$, $[x^1]A=1$ and\n\\begin{equation}\n A=A_2+\\frac{A_2^2 A_3}{A_6}.\n\\end{equation}\nFor every integer $n\\ge 1$, $[x^n]A$ is a positive integer.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hanna's coefficient-positivity conjecture and the growth of its generating function",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a382316"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:hanna-a382316:2:s2",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Recurrence/Invariants/HannaA382316CoefficientPositivity.lean#L265"
+      },
+      "lineage": "collected:hanna-a382316:s2",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a382316",
+      "scope": "in_scope",
+      "statement": "The solution also satisfies the dyadic expansion in A382316, FORMULA~(2):\n\\begin{equation}\n A(x)=\\sum_{r\\ge1}\n \\frac{A(x^{2^r})^2 A(x^{3\\cdot2^{r-1}})}{A(x^{3\\cdot2^r})}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hanna's coefficient-positivity conjecture and the growth of its generating function",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a382316"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:hanna-a382316:2:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Recurrence/Invariants/HannaA382316CoefficientPositivity.lean#L265"
+      },
+      "lineage": "collected:hanna-a382316:s3",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a382316",
+      "scope": "in_scope",
+      "statement": "The series $A$ has radius of convergence $1$ and maps $[0,1)$ strictly\nincreasingly onto $[0,\\infty)$. Let $\\alpha$ be the unique positive solution of\n\\begin{equation}\n \\frac{2^{-\\alpha}}{1-2^{-\\alpha}}+3^{-\\alpha}=1.\n\\end{equation}\nThere are constants $c,C>0$ such that for all sufficiently small $t>0$,\n\\begin{equation}\n c t^{-\\alpha}\\le \\log A(e^{-t})\\le C t^{-\\alpha}.\n\\end{equation}",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hanna's coefficient-positivity conjecture and the growth of its generating function",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a382316"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:hanna-a382316:2:s4",
+      "kind": "paper",
+      "label": "Corollary",
+      "lean_source": {
+        "revision": "8a9173761a0a8ce40a4238793b5c18e452f76446",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/8a9173761a0a8ce40a4238793b5c18e452f76446/D5/S1/Recurrence/Invariants/HannaA382316CoefficientPositivity.lean#L265"
+      },
+      "lineage": "collected:hanna-a382316:s4",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "hanna-a382316",
+      "scope": "in_scope",
+      "statement": "For positive integers $N$, write $S(N)=\\sum_{n=1}^N[x^n]A$ and set\n$\\beta=\\alpha/(1+\\alpha)$. There are constants $c',C'>0$ such that\n$c'N^\\beta\\le\\log S(N)\\le C'N^\\beta$ for all sufficiently large $N$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Hanna's coefficient-positivity conjecture and the growth of its generating function",
+      "toolchain": null,
+      "version": 2,
+      "work": "hanna-a382316"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:hanna-a389472-congruences:2:s1",
       "kind": "paper",
       "label": "Theorem",
