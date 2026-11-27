@@ -1,6 +1,7 @@
 {
-  "doi": null,
+  "doi": "10.5281/zenodo.24577686",
   "formalization_requests": [],
+  "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/hardin229697/mathesis-materials.json",
   "reading": {},
   "repository_url": "https://github.com/mathesis-papers/hardin229697",

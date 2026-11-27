@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-27T21:31:21.593830678Z`.
+Snapshot: `2026-11-27T22:31:39.607107377Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -99,7 +99,7 @@ Snapshot: `2026-11-27T21:31:21.593830678Z`.
 | [Hardin's six-column trace recurrence and Barker's generating functions](https://github.com/mathesis-papers/10.5281-zenodo.24410608) | 2 | [DOI](https://doi.org/10.5281/zenodo.24410609) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Proof of Hardin's width-six three-colour one-defect recurrence](https://github.com/mathesis-papers/hardin229532-one-defect-recurrence) | 4 | [DOI](https://doi.org/10.5281/zenodo.24546755) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Extensions of Shrock's and Yurishchev's formulas to Hardin's defective-colouring recurrences](https://github.com/mathesis-papers/hardin229634-defective-colourings) | 2 | [DOI](https://doi.org/10.5281/zenodo.24497440) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
-| [Proof of Hardin's recurrence for two-defect strips](https://github.com/mathesis-papers/hardin229697) | 4 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
+| [Proof of Hardin's recurrence for two-defect strips](https://github.com/mathesis-papers/hardin229697) | 4 | [DOI](https://doi.org/10.5281/zenodo.24577686) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Boundary formulas for Hardin's array recurrences and Barker's generating functions via Biggs–Meredith enumeration](https://github.com/mathesis-papers/hardin233156) | 3 | [DOI](https://doi.org/10.5281/zenodo.24445694) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Extending Orrick's rectangle count to Barker's king-strip conjectures](https://github.com/mathesis-papers/hardin233163-king-arrays) | 2 | [DOI](https://doi.org/10.5281/zenodo.24414706) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [OEIS A240513, revision 11, FORMULA 1–3: ladder proofs and extensions of Bala (2014)](https://github.com/mathesis-papers/hardin240513-ladder-formulas) | 3 | [DOI](https://doi.org/10.5281/zenodo.24409472) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
@@ -127,6 +127,7 @@ Snapshot: `2026-11-27T21:31:21.593830678Z`.
 | [Koljančić–Oblak Question 5.11 (arXiv:2604.21552v1, Section 5): nSSP witnesses for looped double paths](https://github.com/mathesis-papers/10.5281-zenodo.23920567) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920568) | en, zh | 2 / 1 / 0 | 6 no target yet |
 | [Counterexamples to Korzekwa et al. (2019), Section III.B, p. 6, Eq. (30): extending constructions of Bengtsson et al. (2005) and Korzekwa et al. (2019)](https://github.com/mathesis-papers/korzekwa-et-al-2019-three-distinguishability-product-refutation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24406607) | en, zh | 1 / 1 / 0 | 9 no target yet |
 | [Corrected formulas and integer exponents for Amdeberhan–Ekhad (2022): Kurkov's OEIS A396563 FORMULA conjecture, revision 15 (1 June 2026)](https://github.com/mathesis-papers/kurk396563) | 2 | Awaiting DOI | en, zh | 2 / 1 / 0 | 7 no target yet |
+| [Kurkov’s composite-term conjecture via Halbeisen and Hungerbühler’s reduction lemma](https://github.com/mathesis-papers/kurkov-a248667) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 2 no target yet |
 | [An alternative proof of Kurkov's logarithmic-polynomial recursion and its Leonov–Shiryaev interpretation](https://github.com/mathesis-papers/kurkov-a263634-log-polynomials) | 2 | [DOI](https://doi.org/10.5281/zenodo.24412937) | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
 | [Kurkov's convolution-row conjectures over arbitrary semirings](https://github.com/mathesis-papers/kurkov-a340991-convolution-row-recursion) | 2 | [DOI](https://doi.org/10.5281/zenodo.24410093) | Awaiting reading | 0 / 0 / 0 | 5 no target yet |
 | [Kurkov's binary Stirling row edge and extensions of Ehrenborg–Steingrímsson and Erlbacher](https://github.com/mathesis-papers/kurkov-binary-stirling-row-edge) | 2 | [DOI](https://doi.org/10.5281/zenodo.24446052) | Awaiting reading | 0 / 0 / 0 | 12 no target yet |
@@ -195,6 +196,7 @@ Snapshot: `2026-11-27T21:31:21.593830678Z`.
 | [Refuting Peled et al.'s Section IV conjectures after Theorems 1 and 3, Eqs. (10) and (12): sharp fourth-order bounds without filter normal form](https://github.com/mathesis-papers/10.5281-zenodo.23920609) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920610) | en, zh | 0 / 0 / 0 | 7 no target yet |
 | [An invertible counterexample to Peng's zero-dimensional shadowing-extension question](https://github.com/mathesis-papers/peng-zero-dimensional-shadowing-extension) | 2 | [DOI](https://doi.org/10.5281/zenodo.24576186) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture](https://github.com/mathesis-papers/10.5281-zenodo.23903312) | 2 | [DOI](https://doi.org/10.5281/zenodo.23903313) | en, zh | 0 / 0 / 0 | 9 no target yet |
+| [The prefix-reversal triple-count conjecture of Blanco et al.: four coefficients from the method of Lei et al.](https://github.com/mathesis-papers/prefix-reversal-triple-count) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Identity-containing counterexamples to Conjecture 4.9 (Iosue–Mooney–Ehrenberg–Gorshkov, Section 4.3, p. 15, arXiv:2311.13479v3): certificates and extensions of Abdukhalikov's (2014) construction](https://github.com/mathesis-papers/projective-toric-design-subgroup-counterexample) | 3 | [DOI](https://doi.org/10.5281/zenodo.24405806) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
 | [Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence](https://github.com/mathesis-papers/quaternionic-deutsch-equality) | 2 | [DOI](https://doi.org/10.5281/zenodo.24413802) | Awaiting reading | 0 / 0 / 0 | 12 no target yet |
 | [MathOverflow 516405, revision 1: the second adjacency eigenvalue of Apollonian networks and the fixed-rank extreme spectrum](https://github.com/mathesis-papers/10.5281-zenodo.23919070) | 2 | [DOI](https://doi.org/10.5281/zenodo.23919071) | en, zh | 0 / 0 / 0 | 5 no target yet |

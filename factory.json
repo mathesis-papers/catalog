@@ -5215,8 +5215,8 @@
       "work": "hardin229634-defective-colourings"
     },
     {
-      "concept_doi": null,
-      "doi": null,
+      "concept_doi": "10.5281/zenodo.24577685",
+      "doi": "10.5281/zenodo.24577686",
       "files": {
         "pdf": {
           "bytes": 97404,
@@ -5253,7 +5253,6 @@
       },
       "mode": "paper",
       "next_steps": [
-        "attach_verified_doi",
         "prepare_bilingual_reading",
         "prepare_slides",
         "prepare_video",
@@ -6786,6 +6785,60 @@
       },
       "version": 2,
       "work": "kurk396563"
+    },
+    {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 66451,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "ea0fe019d7474e808df8e55ce4c015345038c5044b524d64e55d4b5f160b93e8",
+          "sha256": "ea0fe019d7474e808df8e55ce4c015345038c5044b524d64e55d4b5f160b93e8"
+        },
+        "source": {
+          "bytes": 7699,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "9b0c550f5c25991a53fe8c55e5facc36541a1541829f4352f6eed8a1dac2d22d",
+          "sha256": "9b0c550f5c25991a53fe8c55e5facc36541a1541829f4352f6eed8a1dac2d22d"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 2,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": null,
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/kurkov-a248667",
+      "site_url": "https://papers.trureturing.org/kurkov-a248667/",
+      "title": "Kurkov’s composite-term conjecture via Halbeisen and Hungerbühler’s reduction lemma",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "kurkov-a248667"
     },
     {
       "concept_doi": "10.5281/zenodo.24412936",
@@ -10610,6 +10663,63 @@
       "work": "pozsgay-wanless-nonlinear-classical-factors"
     },
     {
+      "concept_doi": null,
+      "doi": null,
+      "files": {
+        "pdf": {
+          "bytes": 93133,
+          "matches_public": true,
+          "path": "paper.pdf",
+          "public_sha256": "babffd40e08756041d410c7fcd38f265d82b6e3d582e875dcb19f7499d3b446e",
+          "sha256": "babffd40e08756041d410c7fcd38f265d82b6e3d582e875dcb19f7499d3b446e"
+        },
+        "source": {
+          "bytes": 15984,
+          "matches_public": true,
+          "path": "source.archive",
+          "public_sha256": "ea3fa3faa66ad4123c687ea7120c5a780a39057c91ab7bcdb478e5ea33e03099",
+          "sha256": "ea3fa3faa66ad4123c687ea7120c5a780a39057c91ab7bcdb478e5ea33e03099"
+        }
+      },
+      "formalization": {
+        "covered_by_existing_base": 0,
+        "disproved": 0,
+        "newly_formalized": 0,
+        "no_target_yet": 8,
+        "open_target": 0
+      },
+      "kind": "collected",
+      "lean_source": {
+        "revision": "0aacdc2f6f60bee6af4900526992a3611b700d32",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0aacdc2f6f60bee6af4900526992a3611b700d32/D5/S0/CayleyGrowth/PrefixReversalTripleCountRefutation.lean"
+      },
+      "materials": {
+        "formalization_requests": 0,
+        "slides": 0,
+        "videos": 0,
+        "visualizations": 0
+      },
+      "mode": "paper",
+      "next_steps": [
+        "attach_verified_doi",
+        "prepare_bilingual_reading",
+        "prepare_slides",
+        "prepare_video",
+        "prepare_exact_targets"
+      ],
+      "reading_languages": [],
+      "repository_url": "https://github.com/mathesis-papers/prefix-reversal-triple-count",
+      "site_url": "https://papers.trureturing.org/prefix-reversal-triple-count/",
+      "title": "The prefix-reversal triple-count conjecture of Blanco et al.: four coefficients from the method of Lei et al.",
+      "trureturing_write_back": {
+        "request_url": null,
+        "revision": null,
+        "state": null
+      },
+      "version": 2,
+      "work": "prefix-reversal-triple-count"
+    },
+    {
       "concept_doi": "10.5281/zenodo.24405805",
       "doi": "10.5281/zenodo.24405806",
       "files": {
@@ -12640,8 +12750,8 @@
       "work": "zoroa-strong-dominance-counterexample"
     }
   ],
-  "papers": 225,
+  "papers": 227,
   "schema": "mathesis.paper-factory.v1",
   "scope": "Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.",
-  "snapshot_time": "2026-11-27T21:31:21.593830678Z"
+  "snapshot_time": "2026-11-27T22:31:39.607107377Z"
 }

@@ -4380,9 +4380,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24577685",
       "current_version": 4,
-      "doi": null,
+      "doi": "10.5281/zenodo.24577686",
       "lean_source": {
         "revision": "ce43a5c56872828d361b7cc33f39baf7fb3c38e7",
         "url": "https://github.com/the-omega-institute/trureturing/blob/ce43a5c56872828d361b7cc33f39baf7fb3c38e7/D5/S3/StatisticalMechanics/Potts/StripDefectsTwo/HardinA229697Strip.lean"
@@ -5683,6 +5683,50 @@
         }
       ],
       "work": "kurk396563"
+    },
+    {
+      "abstract_text": "We prove Mikhail Kurkov's conjecture that every composite term is a product of two terms of index greater than one (OEIS A248667, third comment, 9 April 2022, revision 53), using the factorial-sum reduction lemma of Halbeisen and Hungerbühler (1999, Definition 8 and Lemma 9; see also Sondow and Schalm, 2009, Proposition A.5). In fact, every nontrivial divisor pair consists of terms of the sequence. We also give a prime criterion for primitivity after an arbitrary integer shift of the factors in the defining polynomial.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": null,
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 66451,
+        "sha256": "ea0fe019d7474e808df8e55ce4c015345038c5044b524d64e55d4b5f160b93e8",
+        "url": "/api/v1/collected-papers/kurkov-a248667/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-27T21:30:14.902636998Z",
+      "record": "kurkov-a248667",
+      "repository_name": "kurkov-a248667",
+      "source": {
+        "bytes": 7699,
+        "sha256": "9b0c550f5c25991a53fe8c55e5facc36541a1541829f4352f6eed8a1dac2d22d",
+        "url": "/api/v1/collected-papers/kurkov-a248667/files/source?version=2"
+      },
+      "title": "Kurkov’s composite-term conjecture via Halbeisen and Hungerbühler’s reduction lemma",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-27T21:30:14.902636998Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "kurkov-a248667"
     },
     {
       "abstract_text": "We give an alternative proof of Mikhail Kurkov's conjecture in OEIS A263634, FORMULA of 30 March 2025 (entry revision #166, 5 November 2025), identifying its all-column array as a specialization of the Leonov–Shiryaev product-cumulant theorem (1959). The quotient method appears in xpaul (2019), and IV_ (2020) connects its first column to logarithmic polynomials. For Kurkov's quadratic recursive array we establish R(n,k)=(n-1)![t^(n-1)]F^(k)(t)/F(t), where F(t)=1+sum_(i>=1)x_i t^i/i!. Differentiating these quotients gives the recurrence directly. We also rederive classical coefficient and Appell identities, correct a factorial normalization in the source's Appell comments, and recover the exponential-polynomial exception of Craven and Csordas (1994).",
@@ -8881,6 +8925,53 @@
         }
       ],
       "work": "pozsgay-wanless-nonlinear-classical-factors"
+    },
+    {
+      "abstract_text": "Conjecture 1 of Blanco et al. (arXiv:2511.16959v3, Section 4.1, p. 17) predicts four leading coefficients for the number of generating triples of prefix reversals; extending the interior argument of Lei, Zhao, Zhu and Wu, we obtain different coefficients in all four classes modulo four. They are 3/(4*pi^2), 9/(8*pi^2), 1/pi^2 and 3/(2*pi^2), with error O(n log n). Away from a strip of bounded width, generation is equivalent to coprimality of the two gaps from the longest reversal together with parity and sign conditions. Counting the admissible pairs gives the coefficients. We also give a finite sieve bound and proofs of the two shift conjectures.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 2,
+      "doi": null,
+      "lean_source": {
+        "revision": "0aacdc2f6f60bee6af4900526992a3611b700d32",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/0aacdc2f6f60bee6af4900526992a3611b700d32/D5/S0/CayleyGrowth/PrefixReversalTripleCountRefutation.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 93133,
+        "sha256": "babffd40e08756041d410c7fcd38f265d82b6e3d582e875dcb19f7499d3b446e",
+        "url": "/api/v1/collected-papers/prefix-reversal-triple-count/files/pdf?version=2"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-27T22:17:01.661196646Z",
+      "record": "prefix-reversal-triple-count",
+      "repository_name": "prefix-reversal-triple-count",
+      "source": {
+        "bytes": 15984,
+        "sha256": "ea3fa3faa66ad4123c687ea7120c5a780a39057c91ab7bcdb478e5ea33e03099",
+        "url": "/api/v1/collected-papers/prefix-reversal-triple-count/files/source?version=2"
+      },
+      "title": "The prefix-reversal triple-count conjecture of Blanco et al.: four coefficients from the method of Lei et al.",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-27T22:17:01.661196646Z",
+          "revision": "2",
+          "version": 2
+        }
+      ],
+      "work": "prefix-reversal-triple-count"
     },
     {
       "abstract_text": "Extending Abdukhalikov's (2014) nonadditive-spread construction in Kantor's (2012) matrix formulation, we give explicit certificates refuting Conjecture 4.9 of Iosue, Mooney, Ehrenberg and Gorshkov, Projective toric designs, quantum state designs, and mutually unbiased bases (2024), Section 4.3, p. 15, arXiv:2311.13479v3, even with an identity-containing hypothesis. Our 729 quadratic phase functions in dimension 27 form a projective toric two-design with the required overlaps but without additive closure; no translate is a subgroup. Written proofs and exact finite certificates specify each conclusion's scope.",

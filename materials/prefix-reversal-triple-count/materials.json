@@ -1,0 +1,14 @@
+{
+  "doi": null,
+  "formalization_requests": [],
+  "manifest_url": "https://papers.trureturing.org/prefix-reversal-triple-count/mathesis-materials.json",
+  "reading": {},
+  "repository_url": "https://github.com/mathesis-papers/prefix-reversal-triple-count",
+  "schema": "mathesis.catalog-materials.v1",
+  "site_url": "https://papers.trureturing.org/prefix-reversal-triple-count/",
+  "slides": [],
+  "version": 2,
+  "videos": [],
+  "visualizations": [],
+  "work": "prefix-reversal-triple-count"
+}
