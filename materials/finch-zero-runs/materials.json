@@ -1,15 +1,46 @@
 {
   "doi": "10.5281/zenodo.24408308",
-  "formalization_requests": [],
+  "formalization_requests": [
+    {
+      "label": "Theorem 1 — Exact maximum and orbit at lag 61",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/367"
+    },
+    {
+      "label": "Theorem 2 — Conditional capture correction",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/368"
+    },
+    {
+      "label": "Corollary 3 — Capture neighborhood and boundary",
+      "url": "https://github.com/the-omega-institute/trureturing-requests/issues/369"
+    }
+  ],
   "manifest_available": true,
   "manifest_url": "https://papers.trureturing.org/finch-zero-runs/mathesis-materials.json",
-  "reading": {},
+  "reading": {
+    "en": "https://papers.trureturing.org/finch-zero-runs/finch-zero-runs/en/",
+    "zh": "https://papers.trureturing.org/finch-zero-runs/finch-zero-runs/zh/"
+  },
   "repository_url": "https://github.com/mathesis-papers/finch-zero-runs",
   "schema": "mathesis.catalog-materials.v1",
   "site_url": "https://papers.trureturing.org/finch-zero-runs/",
-  "slides": [],
+  "slides": [
+    {
+      "id": "zero-runs",
+      "language": "en",
+      "notes_url": "https://papers.trureturing.org/finch-zero-runs/finch-zero-runs/slides/zero-runs/finch-zero-runs-zero-runs-en-notes.pdf",
+      "pdf_url": "https://papers.trureturing.org/finch-zero-runs/finch-zero-runs/slides/zero-runs/finch-zero-runs-zero-runs-en.pdf"
+    }
+  ],
   "version": 3,
-  "videos": [],
+  "videos": [
+    {
+      "id": "001-zero-runs-narrated_720p",
+      "mp4_url": "https://papers.trureturing.org/finch-zero-runs/finch-zero-runs/films/001-zero-runs/finch-zero-runs_001_720p_narrated.mp4",
+      "poster_url": "https://papers.trureturing.org/finch-zero-runs/finch-zero-runs/films/001-zero-runs/poster.jpg",
+      "title": "Zero runs and four-cycle capture",
+      "url": "https://papers.trureturing.org/finch-zero-runs/finch-zero-runs/films/#001-zero-runs"
+    }
+  ],
   "visualizations": [],
   "work": "finch-zero-runs"
 }

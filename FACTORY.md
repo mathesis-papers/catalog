@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-26T23:31:04.421319999Z`.
+Snapshot: `2026-11-27T00:49:22.47845975Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -68,7 +68,7 @@ Snapshot: `2026-11-26T23:31:04.421319999Z`.
 | [Counterexamples to Ekene E.'s accumulated sparse-error conjectures and a sharp extension of Barron's bound](https://github.com/mathesis-papers/ekene-accumulated-sparse-errors) | 2 | [DOI](https://doi.org/10.5281/zenodo.24487343) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [A ZFC extension of Brandsma–van Hartskamp–van Mill's example for Feldman–Wilce's bounded-clique question](https://github.com/mathesis-papers/feldman-wilce-bounded-cliques-open-chromatic-strictness) | 3 | [DOI](https://doi.org/10.5281/zenodo.24488119) | Awaiting reading | 0 / 0 / 0 | 10 no target yet |
 | [Extending Towse–Campbell's rank-one constructions: a counterexample to Finch's balanced order-six conjecture](https://github.com/mathesis-papers/finch-unimodular-zerofree-six) | 3 | [DOI](https://doi.org/10.5281/zenodo.24484819) | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
-| [Extending Finch's zero-run analysis: nonattainment and a corrected capture theorem](https://github.com/mathesis-papers/finch-zero-runs) | 3 | [DOI](https://doi.org/10.5281/zenodo.24408308) | Awaiting reading | 0 / 0 / 0 | 3 no target yet |
+| [Extending Finch's zero-run analysis: nonattainment and a corrected capture theorem](https://github.com/mathesis-papers/finch-zero-runs) | 3 | [DOI](https://doi.org/10.5281/zenodo.24408308) | en, zh | 1 / 1 / 0 | 3 no target yet |
 | [Gangloff, Guillon and Oprocha's circle expansivity question: extending their interval obstruction](https://github.com/mathesis-papers/gangloff-guillon-oprocha-circle-finite-positive-expansivity) | 3 | [DOI](https://doi.org/10.5281/zenodo.24485946) | Awaiting reading | 0 / 0 / 0 | 10 no target yet |
 | [Counterexamples to Conjecture 25 and Remark 6 of Garrappa–Gerhold–Popolizio–Simon: Global modulus lower bounds in arXiv:2410.11852v4](https://github.com/mathesis-papers/10.5281-zenodo.23920556) | 1 | [DOI](https://doi.org/10.5281/zenodo.23920557) | en, zh | 2 / 1 / 0 | 4 no target yet |
 | [Graffeo–Gubbiotti, Remark 7.7 (arXiv:2301.09129v2, pp. 35–37): Nambu conjugacy and the twelve-plane configuration](https://github.com/mathesis-papers/graffeo-gubbiotti-remark77-generic-nambu-cremona) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
