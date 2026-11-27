@@ -7862,6 +7862,154 @@
       ],
       "claim": "s1",
       "contributor": null,
+      "identity": "collected:banic-elezovic-2026-cyclic-dispersion-monotonicities:3:s1",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "b40e9bda5e0bbf3faa1874047f612e763c63a2b7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b40e9bda5e0bbf3faa1874047f612e763c63a2b7/D5/S3/TotalVariation/BanicR312Settlement.lean"
+      },
+      "lineage": "collected:banic-elezovic-2026-cyclic-dispersion-monotonicities:s1",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "banic-elezovic-2026-cyclic-dispersion-monotonicities",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\geq3$,\n\\begin{align}\n v(n,1)&=0,\\\\\n v(n,2)&=\\frac4n-\\frac8{n^2},\\\\\n v(n,3)&=\\frac8n-\\frac{40}{n^2}+\\frac{96}{n^3}-\\frac{48}{n^4}.\n \n\\end{align}\nThe two-draw profile is uniquely maximized at $n=4$, whereas the\nthree-draw profile is strictly decreasing for $n\\geq3$.\nThe smallest draw count permitting failure of bin-count monotonicity is\n$N=2$, since\n\\[\n v(3,2)=\\frac49<\\frac12=v(4,2).\n\\]\nThe smallest starting draw count permitting failure of sample-size\nmonotonicity is $N=3$, since $v(n,2)<v(n,3)$ for every $n\\geq3$, but\n\\[\n v(3,4)=\\frac{644}{729}<\\frac{32}{27}=v(3,3).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Banić and Elezović's cyclic-dispersion monotonicities",
+      "toolchain": null,
+      "version": 3,
+      "work": "banic-elezovic-2026-cyclic-dispersion-monotonicities"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s2",
+      "contributor": null,
+      "identity": "collected:banic-elezovic-2026-cyclic-dispersion-monotonicities:3:s2",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "b40e9bda5e0bbf3faa1874047f612e763c63a2b7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b40e9bda5e0bbf3faa1874047f612e763c63a2b7/D5/S3/TotalVariation/BanicR312Settlement.lean"
+      },
+      "lineage": "collected:banic-elezovic-2026-cyclic-dispersion-monotonicities:s2",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "banic-elezovic-2026-cyclic-dispersion-monotonicities",
+      "scope": "in_scope",
+      "statement": "Both inequalities in \\eqref{eq:questions} fail on the stated domain.\nMore precisely,\n\\[\n v(3,4)=\\frac{644}{729}<\\frac{247}{256}=v(4,4),\\qquad\n v(4,5)=\\frac{3835}{4096}<\\frac{247}{256}=v(4,4).\n\\]",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Banić and Elezović's cyclic-dispersion monotonicities",
+      "toolchain": null,
+      "version": 3,
+      "work": "banic-elezovic-2026-cyclic-dispersion-monotonicities"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s3",
+      "contributor": null,
+      "identity": "collected:banic-elezovic-2026-cyclic-dispersion-monotonicities:3:s3",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "b40e9bda5e0bbf3faa1874047f612e763c63a2b7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b40e9bda5e0bbf3faa1874047f612e763c63a2b7/D5/S3/TotalVariation/BanicR312Settlement.lean"
+      },
+      "lineage": "collected:banic-elezovic-2026-cyclic-dispersion-monotonicities:s3",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "banic-elezovic-2026-cyclic-dispersion-monotonicities",
+      "scope": "in_scope",
+      "statement": "For every integer $n\\geq3$,\n\\begin{equation}\n v(n,4)=F(n),\\qquad\n F(x)=\\frac{12}{x}-\\frac{96}{x^2}+\\frac{464}{x^3}\n       -\\frac{1056}{x^4}+\\frac{960}{x^5}-\\frac{400}{x^6}.\n\\end{equation}\nThe unique maximizer of $\\sigma_c(n,4)$ over integers $n\\geq3$ is $n=4$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Banić and Elezović's cyclic-dispersion monotonicities",
+      "toolchain": null,
+      "version": 3,
+      "work": "banic-elezovic-2026-cyclic-dispersion-monotonicities"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s4",
+      "contributor": null,
+      "identity": "collected:banic-elezovic-2026-cyclic-dispersion-monotonicities:3:s4",
+      "kind": "paper",
+      "label": "Theorem",
+      "lean_source": {
+        "revision": "b40e9bda5e0bbf3faa1874047f612e763c63a2b7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b40e9bda5e0bbf3faa1874047f612e763c63a2b7/D5/S3/TotalVariation/BanicR312Settlement.lean"
+      },
+      "lineage": "collected:banic-elezovic-2026-cyclic-dispersion-monotonicities:s4",
+      "macros": {},
+      "next_step": "Formalization work is coordinated through the shared requests.",
+      "proof_basis": null,
+      "proof_state": "preparing",
+      "receipt": null,
+      "record": "banic-elezovic-2026-cyclic-dispersion-monotonicities",
+      "scope": "in_scope",
+      "statement": "For every fixed integer $N\\geq2$, there is a polynomial $P_N\\in\\mathbb Q[q]$\nof degree at most $2N-2$ such that $v(n,N)=P_N(1/n)$ for every integer\n$n\\geq4$. As $q\\to0$, its first terms are\n\\begin{equation}\n P_N(q)=4(N-1)q-4(N-1)(3N-4)q^2+O_N(q^3).\n\\end{equation}\nConsequently $v(n,N)\\to0$ as $n\\to\\infty$, and both $v(n,N)$ and\n$\\sigma_c(n,N)$ are strictly decreasing for all sufficiently large $n$.",
+      "status": "preparing",
+      "target_digest": null,
+      "title": "Counterexamples to Banić and Elezović's cyclic-dispersion monotonicities",
+      "toolchain": null,
+      "version": 3,
+      "work": "banic-elezovic-2026-cyclic-dispersion-monotonicities"
+    },
+    {
+      "attribution": null,
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "claim": "s1",
+      "contributor": null,
       "identity": "collected:banica-ozteke-pittau-2018-truncation-isolation:2:s1",
       "kind": "paper",
       "label": "Theorem",

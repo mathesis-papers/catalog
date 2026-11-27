@@ -1223,6 +1223,53 @@
       "work": "balaper-phi2period"
     },
     {
+      "abstract_text": "The two monotonicities proposed in Remark 3.12 of Banić and Elezović's Discrete total variation under the multinomial, Part 5 (arXiv:2611.14735v1, p. 15) fail, as exact occupancy counts show. The earliest failures in draw count occur at two draws for bin-count monotonicity and at three to four draws for sample-size monotonicity. We give the complete two-, three- and four-draw profiles; both the two- and four-draw profiles have their unique maximum at four bins, answering the mode-free question in Remark 3.13 negatively. For every fixed number N>=2 of draws, the variance per draw is a polynomial in 1/n for n>=4, with first terms 4(N-1)/n-4(N-1)(3N-4)/n^2; hence it is strictly decreasing for all sufficiently large bin counts.",
+      "authors": [
+        {
+          "affiliation": "ChronoAI Pte Ltd, Singapore",
+          "name": "Haobo Ma"
+        },
+        {
+          "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+          "name": "Wenlin Zhang"
+        }
+      ],
+      "concept_doi": null,
+      "current_version": 3,
+      "doi": null,
+      "lean_source": {
+        "revision": "b40e9bda5e0bbf3faa1874047f612e763c63a2b7",
+        "url": "https://github.com/the-omega-institute/trureturing/blob/b40e9bda5e0bbf3faa1874047f612e763c63a2b7/D5/S3/TotalVariation/BanicR312Settlement.lean"
+      },
+      "license": "CC-BY-4.0",
+      "msc": [],
+      "pdf": {
+        "bytes": 80424,
+        "sha256": "dc5221d28490fe388693bad0623b0d29d8f4c0d9213ec82f7c4c7ca9a23360eb",
+        "url": "/api/v1/collected-papers/banic-elezovic-2026-cyclic-dispersion-monotonicities/files/pdf?version=3"
+      },
+      "previous_version": null,
+      "publication": "public",
+      "published_on": "2026-11-27T19:43:51.552650371Z",
+      "record": "banic-elezovic-2026-cyclic-dispersion-monotonicities",
+      "repository_name": "banic-elezovic-2026-cyclic-dispersion-monotonicities",
+      "source": {
+        "bytes": 14865,
+        "sha256": "697ba7ee29896faf4937d715390d3502c8f79b643ccd7978997380520d963e78",
+        "url": "/api/v1/collected-papers/banic-elezovic-2026-cyclic-dispersion-monotonicities/files/source?version=3"
+      },
+      "title": "Counterexamples to Banić and Elezović's cyclic-dispersion monotonicities",
+      "versions": [
+        {
+          "previous_version": null,
+          "published_on": "2026-11-27T19:43:51.552650371Z",
+          "revision": "3",
+          "version": 3
+        }
+      ],
+      "work": "banic-elezovic-2026-cyclic-dispersion-monotonicities"
+    },
+    {
       "abstract_text": "Extending Banica–Özteke–Pittau's Fourier defect theory, we refute their Conjecture 1.14 (Isolated partial Hadamard matrices, and related topics, arXiv:1706.00986v2, p. 9): Fourier incidence equations and the analytic implicit-function theorem give non-isolation after any two row deletions at every prime order p ≥ 5. For any nonempty proper row set of size m, the local dephased solution space is a real-analytic manifold of dimension (m−1)(p−m−1). Thus among the nonempty prime Fourier truncations, precisely those with m = 1, p−1, p are isolated, and no fixed positive density margin ensures isolation. We also give an explicit defect formula for every row truncation of a finite abelian Fourier matrix; its zero-cycle case has the same analytic dimension formula with p replaced by the group order.",
       "authors": [
         {
@@ -8706,9 +8753,9 @@
           "name": "Wenlin Zhang"
         }
       ],
-      "concept_doi": null,
+      "concept_doi": "10.5281/zenodo.24576185",
       "current_version": 2,
-      "doi": null,
+      "doi": "10.5281/zenodo.24576186",
       "lean_source": {
         "revision": "af14598ecb20d5af09fc2c8243b391f4a31e85c1",
         "url": "https://github.com/the-omega-institute/trureturing/blob/af14598ecb20d5af09fc2c8243b391f4a31e85c1/D5/S3/Topology/Shadowing/FreeFibreBoundary.lean"

@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-27T19:31:34.498270309Z`.
+Snapshot: `2026-11-27T20:31:51.811476659Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
@@ -32,6 +32,7 @@ Snapshot: `2026-11-27T19:31:34.498270309Z`.
 | [Sharp tails for Bala's inverse-function conjectures and a specialization of Su's period theorem](https://github.com/mathesis-papers/balaper-a281184-phi2period) | 2 | [DOI](https://doi.org/10.5281/zenodo.24411960) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [An elementary proof of Su's theorem on Bala's inverse-function period conjectures, with odd-exponent extensions](https://github.com/mathesis-papers/balaper-a281440-phi2period) | 2 | [DOI](https://doi.org/10.5281/zenodo.24411962) | Awaiting reading | 0 / 0 / 0 | 7 no target yet |
 | [Polynomial-flow extensions of Su's theorem on Bala's period conjectures](https://github.com/mathesis-papers/balaper-phi2period) | 2 | [DOI](https://doi.org/10.5281/zenodo.24412932) | Awaiting reading | 0 / 0 / 0 | 11 no target yet |
+| [Counterexamples to Banić and Elezović's cyclic-dispersion monotonicities](https://github.com/mathesis-papers/banic-elezovic-2026-cyclic-dispersion-monotonicities) | 3 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
 | [Extending Banica–Özteke–Pittau's Fourier defect theory: a correction to their truncation conjecture](https://github.com/mathesis-papers/banica-ozteke-pittau-2018-truncation-isolation) | 2 | [DOI](https://doi.org/10.5281/zenodo.24411966) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
 | [Prism-stack shell bounds and proofs of Barker's and Spezia's conjectures](https://github.com/mathesis-papers/barker-2018-oeis-a299289-tsi-coordination-sequence) | 2 | [DOI](https://doi.org/10.5281/zenodo.24482895) | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
 | [Proof of Barker's tea-tiling conjectures: OEIS A299285–A299286, FORMULA (February 11, 2018)](https://github.com/mathesis-papers/barker-tea-coordination-sequence) | 2 | [DOI](https://doi.org/10.5281/zenodo.24409050) | Awaiting reading | 0 / 0 / 0 | 6 no target yet |
@@ -191,7 +192,7 @@ Snapshot: `2026-11-27T19:31:34.498270309Z`.
 | [Resolving the all-dimension second-family claim of Pál et al.: Section V, paragraph after Eq. (69), p. 023101-8, Physical Review Research 3, 023101 (2021)](https://github.com/mathesis-papers/pal-toth-bene-vertesi-2021-second-family-all-dimensions) | 2 | [DOI](https://doi.org/10.5281/zenodo.23970200) | Awaiting reading | 0 / 0 / 0 | 4 no target yet |
 | [Sharp upper-limsup density in Freeman's conjecture and an extension of the de Luca–Fischler Fibonacci formula](https://github.com/mathesis-papers/palindromic-density) | 3 | [DOI](https://doi.org/10.5281/zenodo.24414723) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Refuting Peled et al.'s Section IV conjectures after Theorems 1 and 3, Eqs. (10) and (12): sharp fourth-order bounds without filter normal form](https://github.com/mathesis-papers/10.5281-zenodo.23920609) | 2 | [DOI](https://doi.org/10.5281/zenodo.23920610) | en, zh | 0 / 0 / 0 | 7 no target yet |
-| [An invertible counterexample to Peng's zero-dimensional shadowing-extension question](https://github.com/mathesis-papers/peng-zero-dimensional-shadowing-extension) | 2 | Awaiting DOI | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
+| [An invertible counterexample to Peng's zero-dimensional shadowing-extension question](https://github.com/mathesis-papers/peng-zero-dimensional-shadowing-extension) | 2 | [DOI](https://doi.org/10.5281/zenodo.24576186) | Awaiting reading | 0 / 0 / 0 | 8 no target yet |
 | [Resolving Pozsgay–Wanless's factor-perfection question and qubit decomposition conjecture](https://github.com/mathesis-papers/10.5281-zenodo.23903312) | 2 | [DOI](https://doi.org/10.5281/zenodo.23903313) | en, zh | 0 / 0 / 0 | 9 no target yet |
 | [Identity-containing counterexamples to Conjecture 4.9 (Iosue–Mooney–Ehrenberg–Gorshkov, Section 4.3, p. 15, arXiv:2311.13479v3): certificates and extensions of Abdukhalikov's (2014) construction](https://github.com/mathesis-papers/projective-toric-design-subgroup-counterexample) | 3 | [DOI](https://doi.org/10.5281/zenodo.24405806) | Awaiting reading | 0 / 0 / 0 | 9 no target yet |
 | [Krishna's quaternionic Deutsch equality question and a short proof of Carvalho–Diogo–Mendes's shift consequence](https://github.com/mathesis-papers/quaternionic-deutsch-equality) | 2 | [DOI](https://doi.org/10.5281/zenodo.24413802) | Awaiting reading | 0 / 0 / 0 | 12 no target yet |
