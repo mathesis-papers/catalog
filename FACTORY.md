@@ -2,7 +2,7 @@
 
 Checked current public archive projections; Pages deployment is checked separately. No new review or proof credit.
 
-Snapshot: `2026-11-28T09:32:12.509406362Z`.
+Snapshot: `2026-11-28T10:31:35.141845745Z`.
 
 | Paper | Version | DOI | Reading | Slides / videos / visuals | Formalization |
 |---|---:|---|---|---|---|
